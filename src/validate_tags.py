@@ -60,8 +60,12 @@ def main():
         print(json.dumps(todo, ensure_ascii=False, indent=2))
         return
 
+    sermon_path = TAGS / "sermon_tags.json"
+    sermons = json.loads(sermon_path.read_text())["sermons"] if sermon_path.exists() else {}
+
     bad = check("rcl", rcl.items(), valid)
     bad += check("hymn", [(f"{h['hymnal']} {h['number']}", h) for h in hymns], valid)
+    bad += check("sermon", sermons.items(), valid)
 
     allrk = {r["refKey"] for r in unique_readings()}
     tagged = set(rcl) & allrk
@@ -69,7 +73,7 @@ def main():
           f"{sum(len(v) for v in valid.values())} tags across {len(FACETS)} facets")
     print(f"RCL coverage: {len(tagged)}/{len(allrk)} unique readings tagged "
           f"({100*len(tagged)//max(len(allrk),1)}%)")
-    print(f"hymns tagged: {len(hymns)}")
+    print(f"hymns tagged: {len(hymns)}  ·  sermons tagged: {len(sermons)}")
     if bad:
         print(f"\n!! {len(bad)} UNKNOWN tags (not in lexicon):")
         for label, key, f, t in bad[:50]:

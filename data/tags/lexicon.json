@@ -1,7 +1,7 @@
 {
   "name": "Lectern tag lexicon",
-  "version": "v1 (frozen — whole church year)",
-  "status": "FROZEN for the full-RCL tagging pass. Expanded from v0 (Propers 22-25 seed) to cover all seasons A/B/C. Tag readings AND hymns against THIS list; a genuinely new concept gets merged in deliberately (bump to v1.1), never forked ad hoc. Canonical term + one-line definition per tag.",
+  "version": "v1.1 (frozen — whole church year)",
+  "status": "FROZEN. v1.1 added 4 recurring tags surfaced during the full-RCL pass (humility-and-servanthood, obedience-and-gods-will, bride-and-bridegroom, prison-and-chains). Deliberately NOT added: plumb-line + a foreboding mood — single-use, would be dead tags (a tag used once connects nothing). Tag readings AND hymns against THIS list; new concepts merged in deliberately, never forked ad hoc. Canonical term + one-line definition per tag.",
   "method": "open-tag a slice -> consolidate into controlled vocab -> freeze -> tag everything against it. Faceted: an item carries tags across multiple axes. See reference_tagging-philosophy.md.",
   "facets": {
     "theme": {
@@ -38,6 +38,8 @@
         "mission-and-witness": "being sent; proclaiming, going to the nations",
         "church-and-unity": "the body of Christ; communion of the faithful",
         "love-of-neighbor": "the second commandment; mercy enacted toward others",
+        "humility-and-servanthood": "lowliness; the servant form, washing feet, the last made first",
+        "obedience-and-gods-will": "doing the will of God; 'not my will but yours'; faithful submission",
         "wisdom": "the fear of the Lord; discernment, folly and prudence",
         "wealth-and-possessions": "money, stewardship, the danger of riches",
         "suffering-and-endurance": "affliction borne in faith; perseverance",
@@ -72,6 +74,8 @@
         "shepherd": "shepherd and flock; leading, finding, guarding",
         "lamb": "the lamb led, slain, and reigning; Passover",
         "table-and-feast": "banquet, meal, wedding feast, the spread table",
+        "bride-and-bridegroom": "wedding, bride and bridegroom, marriage, the nuptial bond",
+        "prison-and-chains": "imprisonment, chains, captivity, the bound witness",
         "bread": "bread broken and shared; manna; the staff of life",
         "cup": "the cup of blessing or of suffering; poured out",
         "vine-wine": "wine, the new wine, the winepress",

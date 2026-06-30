@@ -33,59 +33,64 @@ import build_rcl, osis  # parse_citation, match_book, osis grammar
 # NB: v1 has no explicit sanctification/holiness/perfection THEME tag (Wesley's
 # signature) -> mapped to the nearest (call-and-discipleship + faithfulness + love).
 # Flagged as a candidate v1.1 addition; not forked here.
+# Tight, mostly-1:1 mapping so theme tags stay DISTINCTIVE (broad fan-out makes every
+# sermon look alike — the "shared context swamping distinctive" failure). Only a sermon's
+# DOMINANT Wesley themes (top few by chunk-frequency) are crosswalked, not every incidental
+# mention. Discrimination then comes from the concrete/affective axes (image, mood).
 CROSSWALK = {
     "reign-of-god":          {"theme": ["kingdom-of-god"]},
-    "repentance":            {"theme": ["repentance", "sin-and-fall"], "mood": ["penitence"]},
+    "repentance":            {"theme": ["repentance"], "mood": ["penitence"]},
     "christology":           {"theme": ["atonement"]},
-    "means-of-grace":        {"theme": ["prayer-and-worship", "word-of-god"]},
+    "means-of-grace":        {"theme": ["prayer-and-worship"]},
     "scriptural-authority":  {"theme": ["word-of-god"]},
-    "universal-redemption":  {"theme": ["atonement", "grace"]},
+    "universal-redemption":  {"theme": ["atonement"]},
     "catholic-spirit":       {"theme": ["church-and-unity"]},
-    "sanctifying-grace":     {"theme": ["call-and-discipleship", "faithfulness"]},
+    "sanctifying-grace":     {"theme": ["call-and-discipleship"]},
     "free-will":             {"theme": ["grace"]},
     "pneumatology":          {"theme": ["holy-spirit"]},
     "trinity":               {"theme": ["trinity"]},
-    "justifying-grace":      {"theme": ["grace", "mercy-and-forgiveness", "faith-and-trust"]},
-    "works-mercy":           {"theme": ["justice", "love-of-neighbor"]},
-    "social-holiness":       {"theme": ["church-and-unity", "love-of-neighbor", "justice"]},
-    "works-piety":           {"theme": ["prayer-and-worship", "word-of-god"]},
-    "assurance":             {"theme": ["faith-and-trust"], "mood": ["assurance"]},
-    "primitive-christianity":{"theme": ["church-and-unity", "mission-and-witness"]},
-    "experience":            {"theme": ["faith-and-trust"]},
-    "christian-perfection":  {"theme": ["call-and-discipleship", "love-of-neighbor", "faithfulness"]},
+    "justifying-grace":      {"theme": ["grace"]},
+    "works-mercy":           {"theme": ["love-of-neighbor"]},
+    "social-holiness":       {"theme": ["love-of-neighbor"]},
+    "works-piety":           {"theme": ["prayer-and-worship"]},
+    "assurance":             {"mood": ["assurance"]},
+    "primitive-christianity":{"theme": ["church-and-unity"]},
+    "experience":            {"mood": ["assurance"]},
+    "christian-perfection":  {"theme": ["call-and-discipleship"]},
     "prevenient-grace":      {"theme": ["grace"]},
-    "communion":             {"function": ["table-communion"], "image": ["table-and-feast", "bread", "cup"]},
+    "communion":             {"function": ["table-communion"], "image": ["table-and-feast"]},
 }
+TOP_THEMES = 4          # keep only each sermon's most dominant Wesley themes
+MIN_THEME_CHUNKS = 2    # ignore a theme mentioned in just one chunk
 
 # ── conservative keyword seeds: lexicon tag -> trigger words (word-boundary) ─────
+# High-precision only: a sermon's CONTROLLING image, scanned over title + thesis (chunk 0).
+# Image is the heaviest connection axis (weight 1.5), so a false image tag is the most
+# damaging — generic words (light, the table, king) are deliberately omitted. Capped per
+# sermon below. Image is the thinnest, most curate-me facet by design.
 IMAGE_SEEDS = {
-    "light": ["light", "lamp", "dawn", "shine", "shining"],
-    "darkness-and-night": ["darkness", "asleep", "sleep ", "awake", "night"],
-    "water": ["water", "fountain", "river", "thirst", "well of", "spring of"],
-    "fire": ["fire", "flame", "burning", "kindle"],
-    "wind-and-breath": ["wind", "breath"],
-    "mountain": ["mountain", "sinai", "zion", "mount "],
-    "wilderness": ["wilderness", "desert"],
-    "road-and-journey": ["pilgrim", "the race", "run the race", "the way of", "journey"],
-    "vineyard": ["vineyard", "the vine", "branches"],
-    "harvest": ["harvest", "reap", "the field", "labourers", "laborers"],
-    "seed-and-growth": ["the seed", "mustard", "the grain", "sown"],
-    "shepherd": ["shepherd", "the flock", "the fold", "sheep"],
-    "lamb": ["the lamb", "passover"],
-    "table-and-feast": ["the feast", "banquet", "the supper", "the table", "wedding"],
-    "bread": ["bread", "manna"],
-    "cup": ["the cup"],
-    "garment-and-robe": ["garment", "the robe", "clothed", "raiment"],
-    "rock-and-refuge": ["the rock", "refuge", "fortress", "stronghold"],
-    "gate-and-door": ["the gate", "the door", "narrow way"],
-    "king-and-throne": ["throne", "the crown", "royal", "judgment seat", "assize"],
-    "cross-and-tree": ["the cross", "crucified", "the tree"],
-    "tomb-and-grave": ["the tomb", "the grave", "sepulchre", "buried"],
-    "blood": ["the blood", "blood of"],
-    "oil-and-anointing": ["anoint", "the oil"],
-    "trumpet-and-voice": ["trumpet", "the last trump", "voice from heaven"],
-    "yoke-and-burden": ["the yoke", "burden", "weary", "heavy laden", "the load"],
+    "wilderness": ["wilderness", "the desert"],
+    "wind-and-breath": ["the rushing wind", "breath of life"],
+    "fire": ["tongues of fire", "refining fire", "the flame of"],
+    "water": ["living water", "the fountain", "wells of"],
+    "vineyard": ["the vineyard", "vine and branches"],
+    "harvest": ["the harvest", "reap", "the labourers", "the laborers"],
+    "seed-and-growth": ["the mustard", "the sown seed", "grain of"],
+    "shepherd": ["the good shepherd", "the flock", "the fold"],
+    "lamb": ["the lamb of god", "the paschal lamb", "passover"],
+    "table-and-feast": ["the marriage feast", "the wedding", "the great supper", "the banquet"],
+    "bread": ["the bread of life", "manna"],
+    "garment-and-robe": ["the wedding garment", "wedding-garment", "the robe of"],
+    "rock-and-refuge": ["the rock of", "our refuge", "strong fortress"],
+    "gate-and-door": ["the narrow gate", "the strait gate", "the narrow way"],
+    "king-and-throne": ["judgment-seat", "judgment seat", "the great white throne", "the throne of"],
+    "cross-and-tree": ["the cross of christ", "crucified with"],
+    "tomb-and-grave": ["the sealed tomb", "the sepulchre"],
+    "blood": ["the blood of christ", "blood of sprinkling"],
+    "trumpet-and-voice": ["the last trump", "the trumpet shall", "voice of the archangel"],
+    "yoke-and-burden": ["heavy laden", "the yoke of", "rest for your souls"],
 }
+MAX_IMAGE = 3
 MOOD_SEEDS = {
     "penitence": ["repent", "contrite", "sorrow for sin", "mourn for"],
     "assurance": ["assurance", "witness of the spirit", "children of god", "full assurance"],
@@ -190,8 +195,9 @@ def main():
     lex = json.loads(LEXICON.read_text())
     valid = {f: set(b["tags"]) for f, b in lex["facets"].items()}
 
-    # gather sermons: union themes, chunk0 text, title, author
-    serm = collections.defaultdict(lambda: {"themes": set(), "chunk0": "", "title": "", "author": ""})
+    # gather sermons: per-theme CHUNK COUNTS (for dominance), chunk0 text, title, author
+    serm = collections.defaultdict(
+        lambda: {"tc": collections.Counter(), "chunk0": "", "title": "", "author": ""})
     with CORPUS.open() as f:
         for line in f:
             r = json.loads(line)
@@ -201,7 +207,7 @@ def main():
             s["title"] = r["source_title"]
             s["author"] = "Charles Wesley" if r["author"] == "charles-wesley" else "John Wesley"
             for t in (r.get("themes") or []):
-                s["themes"].add(t)
+                s["tc"][t] += 1
             if r["chunk_index"] == 0:
                 s["chunk0"] = r["text"]
 
@@ -210,7 +216,10 @@ def main():
     with_text = 0
     for sid, s in sorted(serm.items()):
         facets = {"theme": set(), "image": set(), "mood": set(), "function": set()}
-        for wt in s["themes"]:
+        # a sermon's DOMINANT themes only: chunk-count >= MIN, top TOP_THEMES
+        dominant = [t for t, c in s["tc"].most_common() if c >= MIN_THEME_CHUNKS][:TOP_THEMES]
+        all_themes = sorted(s["tc"])
+        for wt in dominant:
             mapped = CROSSWALK.get(wt)
             if not mapped:
                 unknown_themes.add(wt)
@@ -218,14 +227,19 @@ def main():
             for fac, tags in mapped.items():
                 facets[fac].update(tags)
         scan = f"{s['title']} . {s['chunk0']}"
-        facets["image"].update(seed_hits(scan, IMAGE_SEEDS))
+        img = seed_hits(scan, IMAGE_SEEDS)[:MAX_IMAGE]
+        facets["image"].update(img)
         facets["mood"].update(seed_hits(scan, MOOD_SEEDS))
-        facets["mood"].add("exhortation")              # sermons exhort, by genre
+        # NB: deliberately do NOT add a blanket "exhortation" mood — it's true of every
+        # sermon by genre, so it carries zero discrimination and only swamps the
+        # connection score + the "via" line (reference_tagging-philosophy: shared context
+        # swamping distinctive context).
         # validate every emitted tag is in frozen v1
         for fac in facets:
             facets[fac] &= valid[fac]
         entry = {"title": s["title"], "author": s["author"],
-                 "wesley_themes": sorted(s["themes"])}     # dual-tag: source-authentic side
+                 "wesley_themes": all_themes,               # dual-tag: full source-authentic side
+                 "dominant_themes": dominant}               # what drove the lexicon theme tags
         pt = extract_preaching(s["title"], s["chunk0"])
         if pt:
             entry["refKey"], entry["refDisplay"] = pt
