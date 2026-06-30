@@ -1,18 +1,15 @@
 {
- "note": "Full UMH (1989) + The Faith We Sing tag set against frozen lexicon v1.1 (108 tags). POINTER-ONLY: hymnal+number+title (factual identifiers) + our editorial tags; NO lyrics stored. Tagged from title/first-line + owned scripture index (Gen-1Cor5) + agent knowledge of the corpus, via 12 parallel subagents leashed to the frozen lexicon. Roster from hymnary.org/hymnal/{UMH,FWS}; includes Psalter/canticles/service-music (tagged by content+function). hymnary topic/scripture enrichment deferred as a precision pass.",
+ "note": "Full UMH (1989) + The Faith We Sing tag set, frozen lexicon v1.2 (109 tags). POINTER-ONLY: hymnal+number+title + our editorial tags; NO lyrics. Two passes: (1) 12-subagent draft from title+owned-scripture+knowledge; (2) 12-subagent precision review — de-dilution, facet fixes, +sanctification-holiness where central. Low-confidence (psalm tones/section-headers/unrecognized) flagged for enrichment. Roster from hymnary.org/hymnal/{UMH,FWS}.",
  "hymns": [
   {
    "hymnal": "UMH",
    "number": "1",
    "title": "General Services",
    "theme": [
-    "prayer-and-worship",
-    "church-and-unity"
+    "prayer-and-worship"
    ],
    "image": [],
-   "mood": [
-    "praise-and-exultation"
-   ],
+   "mood": [],
    "function": [
     "gathering"
    ]
@@ -31,8 +28,7 @@
     "wonder-and-awe"
    ],
    "function": [
-    "praise-opening",
-    "table-communion"
+    "praise-opening"
    ]
   },
   {
@@ -42,8 +38,7 @@
    "theme": [
     "passion-and-cross",
     "resurrection-and-life",
-    "last-things",
-    "faith-and-trust"
+    "last-things"
    ],
    "image": [],
    "mood": [
@@ -234,8 +229,7 @@
     "wonder-and-awe"
    ],
    "function": [
-    "praise-opening",
-    "table-communion"
+    "praise-opening"
    ]
   },
   {
@@ -245,8 +239,7 @@
    "theme": [
     "passion-and-cross",
     "resurrection-and-life",
-    "last-things",
-    "faith-and-trust"
+    "last-things"
    ],
    "image": [],
    "mood": [
@@ -456,9 +449,9 @@
    "title": "Glory to God, and praise and love",
    "theme": [
     "grace",
+    "mercy-and-forgiveness",
     "thanksgiving",
-    "prayer-and-worship",
-    "mercy-and-forgiveness"
+    "prayer-and-worship"
    ],
    "image": [
     "name"
@@ -868,8 +861,8 @@
    "title": "Rejoice! Rejoice! Rejoice, give thanks, and sing",
    "theme": [
     "ascension-and-reign",
-    "thanksgiving",
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "thanksgiving"
    ],
    "image": [
     "king-and-throne"
@@ -1472,7 +1465,6 @@
    "number": "105",
    "title": "God of many names",
    "theme": [
-    "trinity",
     "prayer-and-worship",
     "love-of-neighbor"
    ],
@@ -1528,8 +1520,7 @@
    "title": "God hath spoken by the prophets",
    "theme": [
     "word-of-god",
-    "faithfulness",
-    "providence-and-care"
+    "faithfulness"
    ],
    "image": [],
    "mood": [
@@ -1581,8 +1572,8 @@
    "title": "How can we name a Love",
    "theme": [
     "trinity",
-    "love-of-neighbor",
-    "providence-and-care"
+    "providence-and-care",
+    "prayer-and-worship"
    ],
    "image": [],
    "mood": [
@@ -1756,12 +1747,9 @@
    "title": "Your love, O God, is broad like beach and meadow",
    "theme": [
     "grace",
-    "providence-and-care",
-    "love-of-neighbor"
+    "providence-and-care"
    ],
-   "image": [
-    "sea-and-storm"
-   ],
+   "image": [],
    "mood": [
     "wonder-and-awe",
     "trust"
@@ -1778,8 +1766,7 @@
     "love-of-neighbor"
    ],
    "image": [
-    "sea-and-storm",
-    "harvest"
+    "wind-and-breath"
    ],
    "mood": [
     "wonder-and-awe",
@@ -1871,7 +1858,6 @@
    "theme": [
     "repentance",
     "mercy-and-forgiveness",
-    "word-of-god",
     "grace"
    ],
    "image": [],
@@ -1889,8 +1875,7 @@
    "title": "Your face, Lord, do I seek",
    "theme": [
     "prayer-and-worship",
-    "repentance",
-    "word-of-god"
+    "faith-and-trust"
    ],
    "image": [],
    "mood": [
@@ -1965,9 +1950,7 @@
     "providence-and-care",
     "hope-and-promise"
    ],
-   "image": [
-    "wind-and-breath"
-   ],
+   "image": [],
    "mood": [
     "trust",
     "comfort-and-consolation"
@@ -2068,11 +2051,10 @@
    "number": "135",
    "title": "Be exalted, Lord, in your strength",
    "theme": [
-    "deliverance",
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "deliverance"
    ],
    "image": [
-    "sea-and-storm",
     "hand-and-arm"
    ],
    "mood": [
@@ -2243,7 +2225,8 @@
     "hope-and-promise"
    ],
    "image": [
-    "rock-and-refuge"
+    "rock-and-refuge",
+    "hand-and-arm"
    ],
    "mood": [
     "comfort-and-consolation",
@@ -2798,7 +2781,7 @@
    "number": "169",
    "title": "In thee is gladness",
    "theme": [
-    "resurrection-and-life",
+    "prayer-and-worship",
     "thanksgiving"
    ],
    "image": [],
@@ -2905,7 +2888,6 @@
    "title": "Jesus, the very thought of thee",
    "theme": [
     "prayer-and-worship",
-    "love-of-neighbor",
     "grace"
    ],
    "image": [
@@ -3016,7 +2998,8 @@
     "prayer-and-worship"
    ],
    "image": [
-    "king-and-throne"
+    "king-and-throne",
+    "lamb"
    ],
    "mood": [
     "praise-and-exultation"
@@ -3053,13 +3036,13 @@
    "title": "Jesu, thy boundless love to me",
    "theme": [
     "grace",
-    "faith-and-trust",
+    "sanctification-holiness",
     "prayer-and-worship"
    ],
    "image": [],
    "mood": [
     "tenderness",
-    "joy"
+    "longing-and-waiting"
    ],
    "function": []
   },
@@ -3069,7 +3052,7 @@
    "title": "Jesu, thy boundless love to me",
    "theme": [
     "grace",
-    "faith-and-trust"
+    "sanctification-holiness"
    ],
    "image": [],
    "mood": [
@@ -3666,7 +3649,7 @@
    "title": "Holy, holy, holy Lord God of Hosts",
    "theme": [
     "prayer-and-worship",
-    "wisdom"
+    "trinity"
    ],
    "image": [
     "king-and-throne"
@@ -3685,9 +3668,9 @@
    "number": "212b",
    "title": "Who shall stand in God's holy place",
    "theme": [
-    "wisdom",
     "prayer-and-worship",
-    "justice"
+    "justice",
+    "sanctification-holiness"
    ],
    "image": [
     "mountain",
@@ -3707,7 +3690,7 @@
    "theme": [
     "messianic-hope",
     "kingdom-of-god",
-    "ascension-and-reign"
+    "hope-and-promise"
    ],
    "image": [
     "gate-and-door",
@@ -3727,8 +3710,7 @@
    "title": "Savior of the nations, come",
    "theme": [
     "incarnation",
-    "messianic-hope",
-    "mission-and-witness"
+    "messianic-hope"
    ],
    "image": [
     "manger-and-birth"
@@ -3851,7 +3833,8 @@
    "number": "221",
    "title": "In the bleak midwinter, frosty winds made moan",
    "theme": [
-    "incarnation"
+    "incarnation",
+    "call-and-discipleship"
    ],
    "image": [
     "manger-and-birth"
@@ -4058,7 +4041,8 @@
    "number": "232",
    "title": "When Christmas morn is dawning",
    "theme": [
-    "incarnation"
+    "incarnation",
+    "thanksgiving"
    ],
    "image": [
     "manger-and-birth",
@@ -4360,7 +4344,8 @@
    ],
    "image": [
     "star",
-    "light"
+    "light",
+    "bride-and-bridegroom"
    ],
    "mood": [
     "joy",
@@ -4425,7 +4410,8 @@
    "title": "While shepherds kept their watching",
    "theme": [
     "incarnation",
-    "epiphany-manifestation"
+    "epiphany-manifestation",
+    "mission-and-witness"
    ],
    "image": [
     "shepherd",
@@ -4535,8 +4521,7 @@
    "title": "We meet you, O Christ, in many a guise",
    "theme": [
     "love-of-neighbor",
-    "call-and-discipleship",
-    "incarnation"
+    "call-and-discipleship"
    ],
    "image": [],
    "mood": [
@@ -4654,7 +4639,6 @@
    "number": "263",
    "title": "When Jesus the healer passed through Galilee",
    "theme": [
-    "mission-and-witness",
     "love-of-neighbor",
     "grace"
    ],
@@ -4879,7 +4863,8 @@
    "number": "275",
    "title": "The kingdom of God is like",
    "theme": [
-    "kingdom-of-god"
+    "kingdom-of-god",
+    "hope-and-promise"
    ],
    "image": [
     "seed-and-growth"
@@ -5108,7 +5093,8 @@
     "grace"
    ],
    "image": [
-    "cross-and-tree"
+    "cross-and-tree",
+    "blood"
    ],
    "mood": [
     "wonder-and-awe",
@@ -5459,8 +5445,7 @@
    "title": "The strife is o'er, the battle done",
    "theme": [
     "resurrection-and-life",
-    "deliverance",
-    "atonement"
+    "deliverance"
    ],
    "image": [
     "tomb-and-grave"
@@ -5476,7 +5461,8 @@
    "number": "307",
    "title": "Christ is risen!",
    "theme": [
-    "resurrection-and-life"
+    "resurrection-and-life",
+    "hope-and-promise"
    ],
    "image": [],
    "mood": [
@@ -5581,7 +5567,8 @@
    "number": "313",
    "title": "Cristo vive, fuera el llanto (Christ is risen, Christ is living)",
    "theme": [
-    "resurrection-and-life"
+    "resurrection-and-life",
+    "hope-and-promise"
    ],
    "image": [],
    "mood": [
@@ -5759,7 +5746,8 @@
    "number": "322",
    "title": "Low in the grave he lay",
    "theme": [
-    "resurrection-and-life"
+    "resurrection-and-life",
+    "hope-and-promise"
    ],
    "image": [
     "tomb-and-grave"
@@ -5778,9 +5766,7 @@
     "ascension-and-reign",
     "prayer-and-worship"
    ],
-   "image": [
-    "cloud"
-   ],
+   "image": [],
    "mood": [
     "wonder-and-awe"
    ],
@@ -6009,7 +5995,8 @@
    "number": "336",
    "title": "Of all the Spirit's gifts to me",
    "theme": [
-    "holy-spirit"
+    "holy-spirit",
+    "grace"
    ],
    "image": [],
    "mood": [
@@ -6027,9 +6014,7 @@
     "faith-and-trust",
     "mercy-and-forgiveness"
    ],
-   "image": [
-    "light"
-   ],
+   "image": [],
    "mood": [
     "assurance",
     "exhortation"
@@ -6166,8 +6151,7 @@
     "mission-and-witness"
    ],
    "image": [
-    "sea-and-storm",
-    "road-and-journey"
+    "sea-and-storm"
    ],
    "mood": [
     "longing-and-waiting",
@@ -6187,8 +6171,7 @@
     "hope-and-promise"
    ],
    "image": [
-    "sea-and-storm",
-    "rock-and-refuge"
+    "sea-and-storm"
    ],
    "mood": [
     "assurance",
@@ -6291,7 +6274,6 @@
     "grace"
    ],
    "image": [
-    "water",
     "bread",
     "yoke-and-burden"
    ],
@@ -6658,7 +6640,7 @@
    "theme": [
     "grace",
     "atonement",
-    "love-of-neighbor"
+    "passion-and-cross"
    ],
    "image": [
     "garden",
@@ -6693,6 +6675,7 @@
    "number": "373",
    "title": "Nothing between my soul and my Savior",
    "theme": [
+    "sanctification-holiness",
     "obedience-and-gods-will",
     "faith-and-trust"
    ],
@@ -6853,12 +6836,13 @@
    "title": "Have thine own way Lord",
    "theme": [
     "obedience-and-gods-will",
+    "sanctification-holiness",
     "call-and-discipleship"
    ],
    "image": [],
    "mood": [
-    "trust",
-    "longing-and-waiting"
+    "longing-and-waiting",
+    "trust"
    ],
    "function": []
   },
@@ -6887,7 +6871,7 @@
    "theme": [
     "grace",
     "holy-spirit",
-    "prayer-and-worship"
+    "sanctification-holiness"
    ],
    "image": [],
    "mood": [
@@ -6902,8 +6886,8 @@
    "title": "Love divine, all loves excelling",
    "theme": [
     "grace",
-    "holy-spirit",
-    "love-of-neighbor"
+    "sanctification-holiness",
+    "holy-spirit"
    ],
    "image": [],
    "mood": [
@@ -6969,9 +6953,9 @@
    "number": "388",
    "title": "O come and dwell in me",
    "theme": [
+    "sanctification-holiness",
     "holy-spirit",
-    "grace",
-    "call-and-discipleship"
+    "grace"
    ],
    "image": [],
    "mood": [
@@ -7055,7 +7039,8 @@
    "number": "393",
    "title": "Spirit of the living God, fall afresh on me",
    "theme": [
-    "holy-spirit"
+    "holy-spirit",
+    "prayer-and-worship"
    ],
    "image": [
     "fire"
@@ -7088,9 +7073,9 @@
    "number": "395",
    "title": "Take time to be holy",
    "theme": [
+    "sanctification-holiness",
     "prayer-and-worship",
-    "call-and-discipleship",
-    "obedience-and-gods-will"
+    "call-and-discipleship"
    ],
    "image": [],
    "mood": [
@@ -7125,9 +7110,7 @@
     "prayer-and-worship",
     "grace"
    ],
-   "image": [
-    "vineyard"
-   ],
+   "image": [],
    "mood": [
     "longing-and-waiting",
     "trust"
@@ -7140,7 +7123,6 @@
    "title": "Jesus calls us o'er the tumult",
    "theme": [
     "call-and-discipleship",
-    "mission-and-witness",
     "obedience-and-gods-will"
    ],
    "image": [
@@ -7158,7 +7140,7 @@
    "title": "Take my life, and let it be",
    "theme": [
     "call-and-discipleship",
-    "thanksgiving",
+    "sanctification-holiness",
     "humility-and-servanthood"
    ],
    "image": [],
@@ -7194,8 +7176,8 @@
    "number": "401",
    "title": "Lord, I want to be more holy in my heart",
    "theme": [
+    "sanctification-holiness",
     "call-and-discipleship",
-    "repentance",
     "prayer-and-worship"
    ],
    "image": [],
@@ -7211,13 +7193,12 @@
    "title": "Lord, I want to be a Christian in my heart",
    "theme": [
     "call-and-discipleship",
-    "repentance",
+    "sanctification-holiness",
     "faith-and-trust"
    ],
    "image": [],
    "mood": [
-    "longing-and-waiting",
-    "penitence"
+    "longing-and-waiting"
    ],
    "function": []
   },
@@ -7245,7 +7226,8 @@
     "prayer-and-worship"
    ],
    "image": [
-    "mountain"
+    "mountain",
+    "fire"
    ],
    "mood": [
     "joy",
@@ -7343,8 +7325,8 @@
    "number": "410",
    "title": "I want a principle within of watchful, godly fear",
    "theme": [
+    "sanctification-holiness",
     "repentance",
-    "obedience-and-gods-will",
     "grace"
    ],
    "image": [],
@@ -7378,7 +7360,7 @@
    "title": "Almighty God, you have given us grace at this time",
    "theme": [
     "prayer-and-worship",
-    "grace"
+    "church-and-unity"
    ],
    "image": [],
    "mood": [
@@ -7393,13 +7375,11 @@
    "number": "413",
    "title": "A charge to keep I have",
    "theme": [
+    "sanctification-holiness",
     "call-and-discipleship",
-    "obedience-and-gods-will",
-    "mission-and-witness"
+    "obedience-and-gods-will"
    ],
-   "image": [
-    "yoke-and-burden"
-   ],
+   "image": [],
    "mood": [
     "resolve-and-sending",
     "exhortation"
@@ -7413,11 +7393,13 @@
    "number": "414",
    "title": "Thou hidden love of God",
    "theme": [
-    "love-of-neighbor",
+    "sanctification-holiness",
     "prayer-and-worship",
     "faith-and-trust"
    ],
-   "image": [],
+   "image": [
+    "wilderness"
+   ],
    "mood": [
     "longing-and-waiting"
    ],
@@ -7464,14 +7446,14 @@
    "number": "417",
    "title": "O for a heart to praise my God",
    "theme": [
-    "repentance",
+    "sanctification-holiness",
     "grace",
     "prayer-and-worship"
    ],
    "image": [],
    "mood": [
-    "penitence",
-    "longing-and-waiting"
+    "longing-and-waiting",
+    "penitence"
    ],
    "function": [
     "confession"
@@ -7517,6 +7499,7 @@
    "title": "Breathe on me, Breath of God",
    "theme": [
     "holy-spirit",
+    "sanctification-holiness",
     "prayer-and-worship"
    ],
    "image": [
@@ -7553,9 +7536,9 @@
    "number": "422",
    "title": "Jesus thine all victorious love",
    "theme": [
+    "sanctification-holiness",
     "grace",
-    "holy-spirit",
-    "obedience-and-gods-will"
+    "holy-spirit"
    ],
    "image": [
     "fire"
@@ -7571,12 +7554,9 @@
    "title": "Thou has made us for thyself",
    "theme": [
     "peace-of-god",
-    "faith-and-trust",
-    "grace"
+    "faith-and-trust"
    ],
-   "image": [
-    "yoke-and-burden"
-   ],
+   "image": [],
    "mood": [
     "longing-and-waiting",
     "comfort-and-consolation"
@@ -8382,11 +8362,13 @@
    "number": "470",
    "title": "My God, I love thee",
    "theme": [
+    "passion-and-cross",
     "grace",
-    "faith-and-trust",
-    "passion-and-cross"
+    "prayer-and-worship"
    ],
-   "image": [],
+   "image": [
+    "cross-and-tree"
+   ],
    "mood": [
     "tenderness",
     "trust"
@@ -8431,9 +8413,7 @@
     "prayer-and-worship",
     "faith-and-trust"
    ],
-   "image": [
-    "yoke-and-burden"
-   ],
+   "image": [],
    "mood": [
     "comfort-and-consolation",
     "trust"
@@ -8489,6 +8469,7 @@
    "title": "Come down, O Love divine",
    "theme": [
     "holy-spirit",
+    "sanctification-holiness",
     "grace"
    ],
    "image": [
@@ -8663,7 +8644,8 @@
    "number": "485",
    "title": "Let us pray to the Lord",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "mercy-and-forgiveness"
    ],
    "image": [],
    "mood": [
@@ -8678,7 +8660,8 @@
    "number": "486",
    "title": "Alleluia",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "grace"
    ],
    "image": [],
    "mood": [
@@ -8911,7 +8894,7 @@
    "title": "Spirit of God, descend upon my heart",
    "theme": [
     "holy-spirit",
-    "love-of-neighbor",
+    "prayer-and-worship",
     "faith-and-trust"
    ],
    "image": [],
@@ -8927,8 +8910,8 @@
    "number": "501",
    "title": "O Thou who camest from above",
    "theme": [
+    "sanctification-holiness",
     "holy-spirit",
-    "call-and-discipleship",
     "love-of-neighbor"
    ],
    "image": [
@@ -9208,7 +9191,7 @@
    "title": "In my distress I cry to the Lord",
    "theme": [
     "deliverance",
-    "mercy-and-forgiveness",
+    "peace-of-god",
     "hope-and-promise"
    ],
    "image": [],
@@ -9697,8 +9680,7 @@
     "repentance"
    ],
    "image": [
-    "wind-and-breath",
-    "fire"
+    "wind-and-breath"
    ],
    "mood": [
     "longing-and-waiting"
@@ -10077,8 +10059,7 @@
    "title": "Father, we thank you for you planted",
    "theme": [
     "thanksgiving",
-    "church-and-unity",
-    "word-of-god"
+    "church-and-unity"
    ],
    "image": [
     "bread",
@@ -11157,7 +11138,7 @@
    "theme": [
     "church-and-unity",
     "grace",
-    "mercy-and-forgiveness"
+    "hospitality-of-god"
    ],
    "image": [
     "bread",
@@ -13272,7 +13253,8 @@
     "hope-and-promise"
    ],
    "image": [
-    "light"
+    "light",
+    "lamb"
    ],
    "mood": [
     "longing-and-waiting"
@@ -13493,12 +13475,10 @@
    "title": "Walk in the light of God's counsel",
    "theme": [
     "wisdom",
-    "word-of-god",
-    "law-and-commandment"
+    "word-of-god"
    ],
    "image": [
-    "light",
-    "road-and-journey"
+    "light"
    ],
    "mood": [
     "exhortation"
@@ -14230,6 +14210,7 @@
    "title": "Search me, O God, and know my heart",
    "theme": [
     "repentance",
+    "sanctification-holiness",
     "prayer-and-worship"
    ],
    "image": [],
@@ -14725,7 +14706,8 @@
    "number": "804b",
    "title": "My soul longs for your courts, O Lord",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "faith-and-trust"
    ],
    "image": [],
    "mood": [
@@ -15876,7 +15858,9 @@
    "number": "899",
    "title": "Amen, Amen",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "incarnation",
+    "resurrection-and-life"
    ],
    "image": [],
    "mood": [
@@ -16001,7 +15985,7 @@
    "theme": [
     "grace",
     "holy-spirit",
-    "repentance"
+    "sanctification-holiness"
    ],
    "image": [],
    "mood": [
@@ -16194,7 +16178,8 @@
    "number": "2014",
    "title": "Alleluia, alleluia, alleluia",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "thanksgiving"
    ],
    "image": [],
    "mood": [
@@ -16279,7 +16264,8 @@
    "number": "2019",
    "title": "Holy, holy, holy, holy, holy, holy is our Lord (Santo, santo, santo, santo, santo, santo es el Señor)",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "trinity"
    ],
    "image": [],
    "mood": [
@@ -16401,7 +16387,8 @@
    "number": "2026",
    "title": "Halle, Halle, Halleluja!",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "thanksgiving"
    ],
    "image": [],
    "mood": [
@@ -16608,8 +16595,7 @@
    "title": "Father, I adore you",
    "theme": [
     "prayer-and-worship",
-    "trinity",
-    "love-of-neighbor"
+    "trinity"
    ],
    "image": [],
    "mood": [
@@ -16700,7 +16686,8 @@
    "number": "2043",
    "title": "Now he is living the Christ",
    "theme": [
-    "resurrection-and-life"
+    "resurrection-and-life",
+    "hope-and-promise"
    ],
    "image": [
     "tomb-and-grave"
@@ -16771,8 +16758,8 @@
    "number": "2047",
    "title": "Bring many names, beautiful and good",
    "theme": [
-    "creation",
     "prayer-and-worship",
+    "creation",
     "trinity"
    ],
    "image": [
@@ -16952,9 +16939,7 @@
     "faith-and-trust",
     "providence-and-care"
    ],
-   "image": [
-    "rock-and-refuge"
-   ],
+   "image": [],
    "mood": [
     "trust",
     "assurance"
@@ -17045,7 +17030,7 @@
    ],
    "image": [
     "rock-and-refuge",
-    "lamb"
+    "star"
    ],
    "mood": [
     "assurance",
@@ -17091,7 +17076,6 @@
    "title": "Lord, you are more precious than silver",
    "theme": [
     "prayer-and-worship",
-    "wealth-and-possessions",
     "faith-and-trust"
    ],
    "image": [],
@@ -17128,7 +17112,8 @@
    "number": "2067",
    "title": "Amen, we praise your name, O God",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "thanksgiving"
    ],
    "image": [
     "name"
@@ -17181,7 +17166,8 @@
    "number": "2070",
    "title": "He is exalted, the King is exalted on high",
    "theme": [
-    "ascension-and-reign"
+    "ascension-and-reign",
+    "prayer-and-worship"
    ],
    "image": [
     "king-and-throne"
@@ -17746,8 +17732,7 @@
     "mission-and-witness"
    ],
    "image": [
-    "sea-and-storm",
-    "harvest"
+    "sea-and-storm"
    ],
    "mood": [
     "resolve-and-sending"
@@ -17995,7 +17980,8 @@
    "number": "2115",
    "title": "Christ has risen while earth slumbers",
    "theme": [
-    "resurrection-and-life"
+    "resurrection-and-life",
+    "hope-and-promise"
    ],
    "image": [
     "light",
@@ -18156,7 +18142,8 @@
    "number": "2124",
    "title": "Come, O Holy Spirit, come",
    "theme": [
-    "holy-spirit"
+    "holy-spirit",
+    "prayer-and-worship"
    ],
    "image": [
     "fire",
@@ -18319,7 +18306,7 @@
    "number": "2133",
    "title": "Give me a clean heart so I may serve",
    "theme": [
-    "repentance",
+    "sanctification-holiness",
     "humility-and-servanthood",
     "call-and-discipleship"
    ],
@@ -18641,8 +18628,8 @@
    "number": "2152",
    "title": "Change my heart, O God",
    "theme": [
+    "sanctification-holiness",
     "repentance",
-    "holy-spirit",
     "grace"
    ],
    "image": [],
@@ -18835,7 +18822,7 @@
    "number": "2164",
    "title": "Lord, prepare me to be a sanctuary",
    "theme": [
-    "holy-spirit",
+    "sanctification-holiness",
     "prayer-and-worship",
     "call-and-discipleship"
    ],
@@ -18883,8 +18870,8 @@
    "number": "2167",
    "title": "More like you, Jesus, more like you",
    "theme": [
-    "call-and-discipleship",
-    "humility-and-servanthood"
+    "sanctification-holiness",
+    "call-and-discipleship"
    ],
    "image": [],
    "mood": [
@@ -19480,9 +19467,7 @@
     "prayer-and-worship",
     "peace-of-god"
    ],
-   "image": [
-    "wilderness"
-   ],
+   "image": [],
    "mood": [
     "comfort-and-consolation",
     "tenderness"
@@ -20247,8 +20232,7 @@
     "love-of-neighbor"
    ],
    "image": [
-    "gate-and-door",
-    "harvest"
+    "gate-and-door"
    ],
    "mood": [
     "resolve-and-sending",
@@ -20449,15 +20433,20 @@
    "number": "2255",
    "title": "In the singing, in the silence",
    "theme": [
-    "holy-spirit",
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "grace"
    ],
-   "image": [],
+   "image": [
+    "bread",
+    "cup"
+   ],
    "mood": [
     "wonder-and-awe",
     "comfort-and-consolation"
    ],
-   "function": []
+   "function": [
+    "table-communion"
+   ]
   },
   {
    "hymnal": "FWS",
@@ -20497,7 +20486,8 @@
    "number": "2257b",
    "title": "Holy, holy, holy, Lord",
    "theme": [
-    "prayer-and-worship"
+    "prayer-and-worship",
+    "trinity"
    ],
    "image": [],
    "mood": [

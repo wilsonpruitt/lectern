@@ -1,7 +1,7 @@
 {
   "name": "Lectern tag lexicon",
-  "version": "v1.1 (frozen — whole church year)",
-  "status": "FROZEN. v1.1 added 4 recurring tags surfaced during the full-RCL pass (humility-and-servanthood, obedience-and-gods-will, bride-and-bridegroom, prison-and-chains). Deliberately NOT added: plumb-line + a foreboding mood — single-use, would be dead tags (a tag used once connects nothing). Tag readings AND hymns against THIS list; new concepts merged in deliberately, never forked ad hoc. Canonical term + one-line definition per tag.",
+  "version": "v1.2 (frozen — whole church year)",
+  "status": "FROZEN. v1.2 added 1 theme tag — sanctification-holiness — surfaced independently by BOTH the Wesley-sermon pass and the full-hymn pass (Wesley's signature theme, previously homeless); applied across all fitting readings+sermons+hymns. v1.1 added 4 recurring tags surfaced during the full-RCL pass (humility-and-servanthood, obedience-and-gods-will, bride-and-bridegroom, prison-and-chains). Deliberately NOT added: plumb-line + a foreboding mood + daily-prayer-morning-evening — single-use/narrow, would be dead or near-dead tags (a tag used once connects nothing). Tag readings AND hymns against THIS list; new concepts merged in deliberately, never forked ad hoc. Canonical term + one-line definition per tag.",
   "method": "open-tag a slice -> consolidate into controlled vocab -> freeze -> tag everything against it. Faceted: an item carries tags across multiple axes. See reference_tagging-philosophy.md.",
   "facets": {
     "theme": {
@@ -38,6 +38,7 @@
         "mission-and-witness": "being sent; proclaiming, going to the nations",
         "church-and-unity": "the body of Christ; communion of the faithful",
         "love-of-neighbor": "the second commandment; mercy enacted toward others",
+        "sanctification-holiness": "growth in holiness; entire sanctification, Christian perfection, the heart made wholly love; 'be holy as I am holy' (Wesley's signature)",
         "humility-and-servanthood": "lowliness; the servant form, washing feet, the last made first",
         "obedience-and-gods-will": "doing the will of God; 'not my will but yours'; faithful submission",
         "wisdom": "the fear of the Lord; discernment, folly and prudence",
