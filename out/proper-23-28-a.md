@@ -12,9 +12,6 @@ to the streets (Matt 22).
 Come to the table the Lord has spread.
 **The feast is ready, and the doors are open.**
 
-On this mountain God lays out rich food for all peoples.
-**Here our cups overflow.**
-
 We came hungry, and grief came with us.
 **God will swallow up death and wipe every tear away.**
 

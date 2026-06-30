@@ -10,8 +10,10 @@ drafts. It is descriptive of what Wilson already writes, not an imposed style.
 - **Antiphonal / responsive.** Leader speaks a plain line; the congregation
   answers. In the corpus the congregation's part is marked **bold**; keep that
   convention (leader = plain, response = bold).
-- **3 to 6 exchanges**, occasionally up to 7 (Palm Sunday, Pentecost). Never a
-  monologue. Median is 4.
+- **2 to 4 exchanges — 4 to 8 lines total.** That is the range; stay inside it.
+  Four couplets (8 lines) is the long end, two (4 lines) the short. Never a
+  monologue. Brevity is the discipline — if a couplet isn't pulling weight, cut
+  it rather than round up.
 - **Short lines.** One breath each. A leader line rarely runs past two clauses;
   responses are usually shorter than the prompt that draws them out.
 - **A gathering turn at the end.** The last exchange resolves the movement —
