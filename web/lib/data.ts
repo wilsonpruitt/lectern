@@ -31,9 +31,11 @@ export type ResourceLink = {
   url: string;
 };
 export type DoctrineLink = { title: string; url: string; themes: string[] };
+export type SocialLink = { para: string; title: string; cite: string; themes: string[] };
 export type Lenses = {
   readings: { role: string; ref: string; refKey: string; links: ResourceLink[] }[];
   doctrine: DoctrineLink[];
+  social: SocialLink[];
 };
 export type Track = {
   label: string;

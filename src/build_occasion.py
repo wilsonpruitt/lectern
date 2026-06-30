@@ -160,6 +160,7 @@ def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
                     for r in readings
                 ],
                 "doctrine": conn.doctrine_links(day_themes),
+                "social": conn.social_principles_links(day_themes),
             },
         }
     return {

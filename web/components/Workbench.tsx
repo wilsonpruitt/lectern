@@ -160,6 +160,22 @@ function Lenses({ lenses }: { lenses: LensesData }) {
         </div>
       ) : null}
 
+      {lenses.social?.length ? (
+        <div className="doctrine social-principles">
+          <span className="eyebrow">Social-ethical application</span>
+          <p className="micro reg-desc">
+            What the church calls us to do — UMC Social Principles (2024 Book of
+            Discipline). Citations to look up; the text is © UM Publishing House.
+          </p>
+          {lenses.social.map((s) => (
+            <div key={s.para} className="doctrine-link social-cite">
+              <span className="title">{s.cite}</span>
+              <span className="doctrine-themes">{s.themes.join(" · ")}</span>
+            </div>
+          ))}
+        </div>
+      ) : null}
+
       <p className="lens-foot micro">
         Coming: Greek &amp; Hebrew reading helps. {!anyLinks ? "" : ""}
       </p>

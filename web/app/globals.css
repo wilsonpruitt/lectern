@@ -66,6 +66,8 @@ a { color: inherit; text-decoration: none; }
 .doctrine-link:hover .title { color: var(--reed-deep); }
 .doctrine-link .title { font-family: var(--serif); font-size: 17px; color: var(--ink); }
 .doctrine-themes { font-size: var(--t-caption); color: var(--fen-mist); text-align: right; }
+.social-cite .title { font-family: var(--serif); font-size: 16px; color: var(--ink); }
+.social-cite { cursor: default; }
 .lens-foot { margin-top: var(--space-5); color: var(--fg-quiet); }
 
 /* empty / not-yet states */

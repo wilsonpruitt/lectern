@@ -157,3 +157,56 @@ def doctrine_links(themes) -> list[dict]:
             out.append({"title": title, "url": url,
                         "themes": sorted(by_doc[doc_key])})
     return out
+
+
+# --- UMC Social Principles (2024 BoD ¶¶160-164) — social-ethical application ---
+# POINTER-ONLY: the BoD is © The United Methodist Publishing House, so we store
+# only the citation (¶ + community title) + our editorial theme tags — never the
+# prose. Source: ~/church-documents documents/discipline/bod-2024.json. Five
+# sections (the revised "communities"); subsection-level tagging is a later pass
+# (the body's subsections aren't cleanly delimited). url=None by design — no
+# public reader exists yet; these are citations a preacher looks up in the BoD.
+SOCIAL_PRINCIPLES = {
+    "160": "The Community of All Creation",
+    "161": "The Economic Community",
+    "162": "The Social Community",
+    "163": "The Political Community",
+    "164": "Our Social Creed",
+}
+
+# Authored bridge (AI-drafted, Wilson curates): the day's faceted THEME tags ->
+# the Social Principle community that speaks to it. Each theme points to its most
+# relevant 1-2 communities (kept tight so a justice day doesn't surface all five).
+THEME_SOCIAL: dict[str, list[str]] = {
+    "creation": ["160"],
+    "providence-and-care": ["160"],
+    "wealth-and-possessions": ["161"],
+    "justice": ["162", "163"],
+    "love-of-neighbor": ["162"],
+    "mercy-and-forgiveness": ["162"],
+    "humility-and-servanthood": ["162"],
+    "hospitality-of-god": ["162"],
+    "peace-of-god": ["163"],
+    "law-and-commandment": ["163"],
+    "mission-and-witness": ["163"],
+    "kingdom-of-god": ["163"],
+    "thanksgiving": ["164"],
+    "prayer-and-worship": ["164"],
+}
+
+
+def social_principles_links(themes) -> list[dict]:
+    """Day-level social-ethical application: dedup Social Principle sections across
+    the day's themes. Pointer-only. Returns [{para, title, cite, themes}]."""
+    by_para: dict[str, set] = {}
+    for th in themes:
+        for para in THEME_SOCIAL.get(th, []):
+            by_para.setdefault(para, set()).add(th)
+    out = []
+    for para in SOCIAL_PRINCIPLES:               # numeric order
+        if para in by_para:
+            title = SOCIAL_PRINCIPLES[para]
+            out.append({"para": f"¶{para}", "title": title,
+                        "cite": f"¶{para} · {title}",
+                        "themes": sorted(by_para[para])})
+    return out
