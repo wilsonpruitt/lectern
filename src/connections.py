@@ -43,12 +43,13 @@ CATENA_NT_SLUG = {
 TOPO_SLUG = {"Josh": "joshua", "Judg": "judges", "Ruth": "ruth",
              "Jonah": "jonah", "Acts": "acts"}
 
-# --- Annales: chronological editions, by the book each one narrates. Only the
-# two LIVE editions (verified 200) — the Diatessaron/Gospel-harmony exists in the
-# repo but is NOT deployed (/harmony 404s), so Gospels get no Annales link yet. ---
+# --- Annales: chronological editions, by the book each one narrates. All three
+# verified live (200): /divided-monarchy, /life-of-paul, and the Gospel harmony at
+# /harmony/diatessaron (deployed 2026-06-30; note the route is /harmony/<slug>). ---
 ANNALES_DIVIDED = {"1Kgs", "2Kgs", "2Chr"}             # the Divided Monarchy
 ANNALES_PAUL = {"Acts", "Rom", "1Cor", "2Cor", "Gal", "Eph", "Phil", "Col",
                 "1Thess", "2Thess", "1Tim", "2Tim", "Titus", "Phlm"}  # Life of Paul
+ANNALES_GOSPEL = {"Matt", "Mark", "Luke", "John"}      # the Diatessaron harmony
 
 
 def reading_links(refkey: str) -> list[dict]:
@@ -77,8 +78,11 @@ def reading_links(refkey: str) -> list[dict]:
         out.append({"resource": "Topographia", "kind": "geography",
                     "label": "Map & places", "url": url})
 
-    # Annales — chronology (by edition; only the two live editions)
-    if book in ANNALES_DIVIDED:
+    # Annales — chronology (by edition)
+    if book in ANNALES_GOSPEL:
+        out.append({"resource": "Annales", "kind": "chronology",
+                    "label": "Gospel harmony", "url": f"{ANNALES}/harmony/diatessaron"})
+    elif book in ANNALES_DIVIDED:
         out.append({"resource": "Annales", "kind": "chronology",
                     "label": "Divided Monarchy", "url": f"{ANNALES}/divided-monarchy"})
     elif book in ANNALES_PAUL:
