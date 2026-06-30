@@ -87,7 +87,10 @@ a { color: inherit; text-decoration: none; }
 .witnesses { list-style: none; margin: 0 0 var(--space-3); padding: 0; border-top: 1px solid var(--border); }
 .witness { padding: var(--space-2) 0; border-bottom: 1px solid var(--border); }
 .witness:last-child { border-bottom: 0; }
-.witness .father { display: block; font-family: var(--sans); font-size: var(--t-caption); font-weight: 600; color: var(--reed-deep); letter-spacing: 0.2px; }
+.witness .father { display: flex; align-items: baseline; gap: 8px; font-family: var(--sans); font-size: var(--t-caption); font-weight: 600; color: var(--reed-deep); letter-spacing: 0.2px; }
+.witness .tradition { font-weight: 400; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--fg-quiet); }
+.witness .pointer-tag { font-weight: 600; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--fen-mist); border: 1px solid var(--border-strong); border-radius: var(--radius-pill); padding: 0 6px; }
+.witness .witness-cite { font-style: normal; font-weight: 600; color: var(--fen); }
 .witness .reading { font-family: var(--serif); font-size: 15px; font-style: italic; color: var(--fen-mist); line-height: 1.5; }
 .say-do p { font-family: var(--sans); font-size: var(--t-body-sm); line-height: 1.5; color: var(--fg); margin: 0 0 4px; }
 .say-do .sd-lbl { display: inline-block; min-width: 38px; font-size: var(--t-micro); text-transform: uppercase; letter-spacing: 1px; color: var(--fen); font-weight: 600; }

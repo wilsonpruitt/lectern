@@ -51,7 +51,14 @@ export type CallRegister = {
   lines: [string, string][];
 };
 export type Calls = { track: string; registers: CallRegister[] } | null;
-export type TurnWitness = { father: string; reading: string; work?: string };
+export type TurnWitness = {
+  author: string;
+  tradition: string;
+  work?: string;
+  mode: "text" | "pointer";
+  reading: string;
+  cite?: string;
+};
 export type TurnDoor = {
   landing: string;
   claim: string;

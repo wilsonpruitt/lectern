@@ -6,6 +6,24 @@ import type { Occasion, Track, Lenses as LensesData, Turn as TurnData } from "@/
 
 type TabKey = "sermons" | "hymns" | "calls" | "turn" | "lenses";
 
+// canonical tradition key -> display label (mirrors src/turn_sources.py). New
+// traditions (eastern/modern/reformation…) slot in here as sources are added.
+const TRADITION_LABEL: Record<string, string> = {
+  "latin-patristic": "Latin Fathers",
+  "greek-patristic": "Greek Fathers",
+  pseudonymous: "Greek Fathers (attrib.)",
+  medieval: "Medieval",
+  conciliar: "Conciliar",
+  jewish: "Jewish",
+  wesleyan: "Wesleyan",
+  reformed: "Reformed",
+  reformation: "Reformation",
+  puritan: "Puritan",
+  "protestant-19c": "19th-c. Protestant",
+  eastern: "Eastern / Philokalic",
+  modern: "Modern",
+};
+
 function Chips({ tags }: { tags: string[] }) {
   if (!tags?.length) return null;
   return (
@@ -217,8 +235,17 @@ function Turn({ turn }: { turn: TurnData }) {
             <ul className="witnesses">
               {d.witnesses.map((w, j) => (
                 <li key={j} className="witness">
-                  <span className="father">{w.father}</span>
-                  <span className="reading">{w.reading}</span>
+                  <span className="father">
+                    {w.author}
+                    <span className="tradition">{TRADITION_LABEL[w.tradition] ?? w.tradition}</span>
+                    {w.mode === "pointer" ? <span className="pointer-tag">cited</span> : null}
+                  </span>
+                  <span className="reading">
+                    {w.reading}
+                    {w.mode === "pointer" && w.cite ? (
+                      <span className="witness-cite"> — {w.cite}</span>
+                    ) : null}
+                  </span>
                 </li>
               ))}
             </ul>
