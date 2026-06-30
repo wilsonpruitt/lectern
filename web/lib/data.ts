@@ -51,11 +51,30 @@ export type CallRegister = {
   lines: [string, string][];
 };
 export type Calls = { track: string; registers: CallRegister[] } | null;
+export type TurnWitness = { father: string; reading: string; work?: string };
+export type TurnDoor = {
+  landing: string;
+  claim: string;
+  witnesses: TurnWitness[];
+  say: string;
+  do: string;
+};
+export type Turn = {
+  pericope: string;
+  refKey: string;
+  gravity: string;
+  trap: string;
+  hinge: string;
+  doors: TurnDoor[];
+  subtract: string;
+  source: string;
+  status: string;
+} | null;
 export type Occasion = {
   occasion: { id: string; name: string | null; year: string; season: string | null };
   tracks: Record<string, Track>;
   calls: Calls;
-  turn: unknown | null;
+  turn: Turn;
   lenses: unknown | null;
 };
 

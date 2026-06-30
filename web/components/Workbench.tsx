@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { Occasion, Track, Lenses as LensesData } from "@/lib/data";
+import type { Occasion, Track, Lenses as LensesData, Turn as TurnData } from "@/lib/data";
 
 type TabKey = "sermons" | "hymns" | "calls" | "turn" | "lenses";
 
@@ -183,6 +183,58 @@ function Lenses({ lenses }: { lenses: LensesData }) {
   );
 }
 
+function Turn({ turn }: { turn: TurnData }) {
+  if (!turn)
+    return (
+      <Soon
+        title="The Turn"
+        desc="Reduce the day's abundance to two or three attested focus drafts — one thing to say, one thing to do. Built from the church's actual reading-traditions (Catena Aurea), not generated. Coming, week by week."
+      />
+    );
+  return (
+    <div className="turn">
+      <div className="turn-head">
+        <span className="eyebrow">The Turn · {turn.pericope}</span>
+        {turn.status === "draft" ? <span className="badge">draft</span> : null}
+      </div>
+
+      <div className="turn-frame">
+        <p className="turn-block"><span className="turn-lbl">The day&rsquo;s gravity</span>{turn.gravity}</p>
+        <p className="turn-block"><span className="turn-lbl">The trap</span>{turn.trap}</p>
+        <p className="turn-block hinge"><span className="turn-lbl">The hinge</span>{turn.hinge}</p>
+      </div>
+
+      <p className="turn-doors-intro micro">{turn.subtract}</p>
+
+      <div className="doors">
+        {turn.doors.map((d, i) => (
+          <div className="door" key={i}>
+            <div className="door-head">
+              <span className="door-n">{i + 1}</span>
+              <span className="door-landing">{d.landing}</span>
+            </div>
+            <p className="door-claim">{d.claim}</p>
+            <ul className="witnesses">
+              {d.witnesses.map((w, j) => (
+                <li key={j} className="witness">
+                  <span className="father">{w.father}</span>
+                  <span className="reading">{w.reading}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="say-do">
+              <p><span className="sd-lbl">Say</span>{d.say}</p>
+              <p><span className="sd-lbl">Do</span>{d.do}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <p className="turn-source micro">{turn.source}</p>
+    </div>
+  );
+}
+
 function Soon({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="slot-soon">
@@ -220,7 +272,7 @@ export default function Workbench({
     ["hymns", "Hymns", false],
     ["calls", "Call to Worship", false],
     ["lenses", "Lenses", false],
-    ["turn", "The Turn", true],
+    ["turn", "The Turn", !occ.turn],
   ];
 
   return (
@@ -296,12 +348,7 @@ export default function Workbench({
             {tab === "hymns" && <Hymns track={t} />}
             {tab === "calls" && <Calls occ={occ} reg={reg} setReg={setReg} />}
             {tab === "lenses" && <Lenses lenses={t.lenses} />}
-            {tab === "turn" && (
-              <Soon
-                title="The Turn"
-                desc="Reduce the day's abundance to two or three attested focus drafts — one thing to say, one thing to do."
-              />
-            )}
+            {tab === "turn" && <Turn turn={occ.turn} />}
           </div>
         </main>
       </div>

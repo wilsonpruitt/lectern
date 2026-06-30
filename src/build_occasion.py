@@ -41,6 +41,7 @@ import connections as conn          # reading_links / doctrine_links (interpreti
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
 CALLS = LECTERN / "corpus" / "calls-to-worship" / "drafts"
+TURN = LECTERN / "corpus" / "turn"
 FACETS = list(tc.WEIGHTS)           # theme, image, mood, function
 
 
@@ -137,6 +138,17 @@ def load_calls(occ_id: str) -> dict | None:
     return {"track": blob.get("track"), "registers": blob.get("registers", [])}
 
 
+def load_turn(occ_id: str) -> dict | None:
+    """The Turn card (reception-grounded; corpus/turn/<id>.json) if authored."""
+    f = TURN / f"{occ_id}.json"
+    if not f.exists():
+        return None
+    blob = json.loads(f.read_text(encoding="utf-8"))
+    return {k: blob[k] for k in
+            ("pericope", "refKey", "gravity", "trap", "hinge", "doors",
+             "subtract", "source", "status") if k in blob}
+
+
 def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
           hymn_idf: dict) -> dict:
     tracks_in = track_readings(occ, rcl_tags)
@@ -170,7 +182,7 @@ def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
         },
         "tracks": tracks_out,
         "calls": load_calls(occ["id"]),
-        "turn": None,
+        "turn": load_turn(occ["id"]),
         "lenses": None,
     }
 

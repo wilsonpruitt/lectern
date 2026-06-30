@@ -70,6 +70,29 @@ a { color: inherit; text-decoration: none; }
 .social-cite { cursor: default; }
 .lens-foot { margin-top: var(--space-5); color: var(--fg-quiet); }
 
+/* ---------- the Turn (reduction to a claim) ---------- */
+.turn-head { display: flex; align-items: baseline; gap: var(--space-3); margin-bottom: var(--space-4); }
+.turn-frame { border-left: 2px solid var(--reed); padding: 2px 0 2px var(--space-4); margin-bottom: var(--space-5); }
+.turn-block { font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink); margin: 0 0 var(--space-3); }
+.turn-block:last-child { margin-bottom: 0; }
+.turn-block.hinge { color: var(--reed-deep); font-style: italic; }
+.turn-lbl { display: block; font-family: var(--sans); font-size: var(--t-micro); text-transform: uppercase; letter-spacing: 1px; color: var(--fen-mist); margin-bottom: 3px; font-style: normal; }
+.turn-doors-intro { color: var(--fg-muted); margin: 0 0 var(--space-4); max-width: 56ch; }
+.doors { display: flex; flex-direction: column; gap: var(--space-4); }
+.door { border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5); background: var(--ivory); }
+.door-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+.door-n { font-family: var(--sans); font-weight: 700; font-size: 13px; color: var(--fg-on-fen); background: var(--fen); border-radius: 50%; width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; flex: none; }
+.door-landing { font-family: var(--sans); font-weight: 600; font-size: var(--t-body); color: var(--fen); letter-spacing: -0.1px; }
+.door-claim { font-family: var(--serif); font-size: 17px; line-height: 1.5; color: var(--ink); margin: 0 0 var(--space-3); }
+.witnesses { list-style: none; margin: 0 0 var(--space-3); padding: 0; border-top: 1px solid var(--border); }
+.witness { padding: var(--space-2) 0; border-bottom: 1px solid var(--border); }
+.witness:last-child { border-bottom: 0; }
+.witness .father { display: block; font-family: var(--sans); font-size: var(--t-caption); font-weight: 600; color: var(--reed-deep); letter-spacing: 0.2px; }
+.witness .reading { font-family: var(--serif); font-size: 15px; font-style: italic; color: var(--fen-mist); line-height: 1.5; }
+.say-do p { font-family: var(--sans); font-size: var(--t-body-sm); line-height: 1.5; color: var(--fg); margin: 0 0 4px; }
+.say-do .sd-lbl { display: inline-block; min-width: 38px; font-size: var(--t-micro); text-transform: uppercase; letter-spacing: 1px; color: var(--fen); font-weight: 600; }
+.turn-source { margin-top: var(--space-5); color: var(--fg-quiet); }
+
 /* empty / not-yet states */
 .empty {
   font-family: var(--sans); font-size: var(--t-body-sm); color: var(--fg-quiet);
