@@ -93,6 +93,7 @@ export type IndexEntry = {
   trackKeys: string[];
   readings: { role: string; ref: string }[];
   hasCalls: boolean;
+  hasTurn: boolean;
 };
 
 const BUILD_DIR = path.join(process.cwd(), "..", "data", "build");

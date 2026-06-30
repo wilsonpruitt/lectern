@@ -226,6 +226,7 @@ def main() -> None:
             "readings": [{"role": r["role"], "ref": r["ref"]}
                          for r in first_track["readings"]],
             "hasCalls": bool(doc["calls"]),
+            "hasTurn": bool(doc["turn"]),
         })
         if to_stdout and len(targets) == 1:
             print(json.dumps(doc, indent=2, ensure_ascii=False))
