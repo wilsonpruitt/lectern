@@ -100,6 +100,7 @@
           "title": "Sermon 101",
           "author": "John Wesley",
           "text": "Luke 22:19",
+          "url": null,
           "tags": [
             "kingdom-of-god",
             "table-and-feast",
@@ -112,6 +113,7 @@
           "title": "On the Wedding Garment",
           "author": "John Wesley",
           "text": "Matthew 22:12",
+          "url": "https://www.resourceumc.org/en/content/sermon-120-on-the-wedding-garment",
           "tags": [
             "lament",
             "prayer-and-worship",
@@ -123,6 +125,7 @@
           "title": "On Zeal",
           "author": "John Wesley",
           "text": "Galatians 4:18",
+          "url": "https://www.resourceumc.org/en/content/sermon-92-on-zeal",
           "tags": [
             "prayer-and-worship",
             "table-and-feast",
@@ -134,6 +137,7 @@
           "title": "The Means of Grace",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "prayer-and-worship",
             "table-and-feast",
@@ -145,6 +149,7 @@
           "title": "CW Sermon IV: Matthew 5:20",
           "author": "Charles Wesley",
           "text": "Matthew 5:20",
+          "url": null,
           "tags": [
             "kingdom-of-god",
             "prayer-and-worship",
@@ -156,6 +161,7 @@
           "title": "Upon Our Lord's Sermon on the Mount XIII",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-33-upon-our-lords-sermon-on-the-mount-xiii",
           "tags": [
             "kingdom-of-god",
             "prayer-and-worship",
@@ -317,70 +323,110 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
             ]
           },
           {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "title": "General Rules",
+            "article": "the slaveholding clause",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
+            "themes": [
+              "justice"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "justice"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
               "kingdom-of-god"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "justice",
-              "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
-            "themes": [
-              "covenant",
-              "faith-and-trust"
             ]
           }
         ],
         "social": [
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship",
+              "thanksgiving"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
+            "themes": [
+              "hospitality-of-god"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "community": "The Political Community",
+            "topic": "Basic Rights & Freedoms",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
             "themes": [
-              "hospitality-of-god",
               "justice"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "community": "The Economic Community",
+            "topic": "Poverty & Income Inequality",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
             "themes": [
-              "justice",
-              "kingdom-of-god"
-            ]
-          },
-          {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
-            "themes": [
-              "prayer-and-worship",
-              "thanksgiving"
+              "justice"
             ]
           }
         ]
@@ -483,6 +529,7 @@
           "title": "The Wilderness State",
           "author": "John Wesley",
           "text": "John 16:22",
+          "url": "https://www.resourceumc.org/en/content/sermon-46-the-wilderness-state",
           "tags": [
             "grace",
             "joy",
@@ -495,6 +542,7 @@
           "title": "CW Sermon II: Psalm 91:11",
           "author": "Charles Wesley",
           "text": "Psalm 91:11",
+          "url": null,
           "tags": [
             "grace",
             "joy",
@@ -507,6 +555,7 @@
           "title": "Sermon 101",
           "author": "John Wesley",
           "text": "Luke 22:19",
+          "url": null,
           "tags": [
             "kingdom-of-god",
             "table-and-feast",
@@ -519,6 +568,7 @@
           "title": "Sermon 094",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "grace",
             "kingdom-of-god",
@@ -530,6 +580,7 @@
           "title": "CW Sermon III: Luke 16:10",
           "author": "Charles Wesley",
           "text": "Luke 16:10",
+          "url": null,
           "tags": [
             "comfort-and-consolation",
             "grace",
@@ -542,6 +593,7 @@
           "title": "On the Wedding Garment",
           "author": "John Wesley",
           "text": "Matthew 22:12",
+          "url": "https://www.resourceumc.org/en/content/sermon-120-on-the-wedding-garment",
           "tags": [
             "lament",
             "prayer-and-worship",
@@ -710,72 +762,118 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "hope-and-promise",
-              "mercy-and-forgiveness",
-              "providence-and-care"
+              "covenant"
             ]
           },
           {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "kingdom-of-god"
+              "hope-and-promise"
             ]
           },
           {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "grace",
               "prayer-and-worship"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "covenant",
-              "grace",
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
             ]
           }
         ],
         "social": [
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
-              "providence-and-care"
+              "prayer-and-worship",
+              "thanksgiving"
             ]
           },
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
-              "hospitality-of-god",
+              "hospitality-of-god"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Restorative Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#restorative",
+            "themes": [
               "mercy-and-forgiveness"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "community": "The Political Community",
+            "topic": "Criminal Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
-              "kingdom-of-god"
+              "mercy-and-forgiveness"
             ]
           },
           {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "prayer-and-worship",
-              "thanksgiving"
+              "providence-and-care"
             ]
           }
         ]

@@ -94,6 +94,7 @@
           "title": "CW Sermon III: Luke 16:10",
           "author": "Charles Wesley",
           "text": "Luke 16:10",
+          "url": null,
           "tags": [
             "church-and-unity",
             "comfort-and-consolation",
@@ -106,6 +107,7 @@
           "title": "Sermon 135",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "assurance",
             "church-and-unity",
@@ -118,6 +120,7 @@
           "title": "The Witness of Our Own Spirit",
           "author": "John Wesley",
           "text": "2 Corinthians 1:12",
+          "url": "https://www.resourceumc.org/en/content/sermon-12-the-witness-of-our-own-spirit",
           "tags": [
             "assurance",
             "grace",
@@ -130,6 +133,7 @@
           "title": "CW Sermon VIII: Matthew 6:22-23",
           "author": "Charles Wesley",
           "text": "Matthew 6:22-23",
+          "url": null,
           "tags": [
             "church-and-unity",
             "grace",
@@ -141,6 +145,7 @@
           "title": "CW Sermon II: Psalm 91:11",
           "author": "Charles Wesley",
           "text": "Psalm 91:11",
+          "url": null,
           "tags": [
             "church-and-unity",
             "grace",
@@ -152,6 +157,7 @@
           "title": "Heaviness Through Manifold Temptations",
           "author": "John Wesley",
           "text": "1 Peter 1:6",
+          "url": "https://www.resourceumc.org/en/content/sermon-47-heaviness-through-manifold-temptations",
           "tags": [
             "assurance",
             "grace",
@@ -327,77 +333,180 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "creation",
-              "holy-spirit",
-              "hope-and-promise",
-              "last-things",
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
-            "themes": [
-              "baptism",
-              "church-and-unity",
-              "creation",
-              "holy-spirit",
-              "last-things",
-              "trinity"
-            ]
-          },
-          {
-            "title": "The Athanasian Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/",
-            "themes": [
-              "trinity"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "grace",
               "mission-and-witness"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Nicene Creed",
+            "article": "the Holy Spirit, the giver of life",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
             "themes": [
-              "baptism",
-              "church-and-unity",
-              "faith-and-trust",
+              "holy-spirit"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IV, the Holy Ghost",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
+            "themes": [
+              "holy-spirit"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "of one Being with the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Athanasian Creed",
+            "article": "one God in Trinity",
+            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
               "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "last-things"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XVII, Baptism",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
+            "themes": [
+              "baptism"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one baptism for the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
+            "themes": [
+              "baptism"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one holy catholic and apostolic Church",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
+            "themes": [
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XIII, the Church",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
+            "themes": [
+              "church-and-unity"
             ]
           }
         ],
         "social": [
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
             "themes": [
-              "creation",
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
             "themes": [
-              "mission-and-witness",
               "peace-of-god"
             ]
           },
           {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "thanksgiving"
             ]

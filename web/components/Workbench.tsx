@@ -58,7 +58,13 @@ function Sermons({ track }: { track: Track }) {
       {track.sermons.map((s, i) => (
         <div className="rec" key={i}>
           <div className="line1">
-            <span className="title">{s.title}</span>
+            {s.url ? (
+              <a className="title link" href={s.url} target="_blank" rel="noopener noreferrer">
+                {s.title} ↗
+              </a>
+            ) : (
+              <span className="title">{s.title}</span>
+            )}
             {s.author ? <span className="by">{s.author}</span> : null}
             <span className="score">{s.score.toFixed(1)}</span>
           </div>
@@ -171,7 +177,9 @@ function Lenses({ lenses }: { lenses: LensesData }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="title">{d.title}</span>
+              <span className="title">
+                {d.title} <span className="article">· {d.article} ↗</span>
+              </span>
               <span className="doctrine-themes">{d.themes.join(" · ")}</span>
             </a>
           ))}
@@ -182,14 +190,22 @@ function Lenses({ lenses }: { lenses: LensesData }) {
         <div className="doctrine social-principles">
           <span className="eyebrow">Social-ethical application</span>
           <p className="micro reg-desc">
-            What the church calls us to do — UMC Social Principles (2024 Book of
-            Discipline). Citations to look up; the text is © UM Publishing House.
+            What the church calls us to do — the UMC Social Principles, linked to the
+            specific position at umc.org.
           </p>
           {lenses.social.map((s) => (
-            <div key={s.para} className="doctrine-link social-cite">
-              <span className="title">{s.cite}</span>
+            <a
+              key={s.url}
+              className="doctrine-link"
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="title">
+                {s.community} <span className="article">· {s.topic} ↗</span>
+              </span>
               <span className="doctrine-themes">{s.themes.join(" · ")}</span>
-            </div>
+            </a>
           ))}
         </div>
       ) : null}

@@ -100,6 +100,7 @@
           "title": "On the Wedding Garment",
           "author": "John Wesley",
           "text": "Matthew 22:12",
+          "url": "https://www.resourceumc.org/en/content/sermon-120-on-the-wedding-garment",
           "tags": [
             "atonement",
             "call-and-discipleship",
@@ -112,6 +113,7 @@
           "title": "Sermon 130",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "atonement",
             "love-of-neighbor",
@@ -123,6 +125,7 @@
           "title": "On Zeal",
           "author": "John Wesley",
           "text": "Galatians 4:18",
+          "url": "https://www.resourceumc.org/en/content/sermon-92-on-zeal",
           "tags": [
             "love-of-neighbor",
             "table-and-feast",
@@ -134,6 +137,7 @@
           "title": "Sermon 101",
           "author": "John Wesley",
           "text": "Luke 22:19",
+          "url": null,
           "tags": [
             "atonement",
             "table-and-feast",
@@ -145,6 +149,7 @@
           "title": "The Good Steward",
           "author": "John Wesley",
           "text": "Luke 16:2",
+          "url": "https://www.resourceumc.org/en/content/sermon-51-the-good-steward",
           "tags": [
             "atonement",
             "call-and-discipleship",
@@ -156,6 +161,7 @@
           "title": "The Circumcision of the Heart",
           "author": "John Wesley",
           "text": "Romans 2:29",
+          "url": "https://www.resourceumc.org/en/content/sermon-17-the-circumcision-of-the-heart",
           "tags": [
             "assurance",
             "atonement",
@@ -332,63 +338,102 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "providence-and-care",
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
-            "themes": [
-              "atonement",
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "call-and-discipleship",
-              "love-of-neighbor",
               "mission-and-witness"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
             "themes": [
-              "atonement",
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
               "faith-and-trust"
             ]
-          }
-        ],
-        "social": [
+          },
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "title": "General Rules",
+            "article": "doing good to bodies and souls",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "love-of-neighbor"
+            ]
+          }
+        ],
+        "social": [
+          {
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "hospitality-of-god",
               "love-of-neighbor"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "mission-and-witness"
+              "providence-and-care"
+            ]
+          },
+          {
+            "community": "The Social Community",
+            "topic": "Racism, Ethnocentrism & Tribalism",
+            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
+            "themes": [
+              "love-of-neighbor"
             ]
           }
         ]

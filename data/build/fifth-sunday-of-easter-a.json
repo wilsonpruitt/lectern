@@ -102,6 +102,7 @@
           "title": "Sermon 099",
           "author": "John Wesley",
           "text": "Matthew 25:34",
+          "url": null,
           "tags": [
             "church-and-unity",
             "king-and-throne",
@@ -113,6 +114,7 @@
           "title": "Sermon 135",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "assurance",
             "church-and-unity",
@@ -125,6 +127,7 @@
           "title": "CW Sermon VIII: Matthew 6:22-23",
           "author": "Charles Wesley",
           "text": "Matthew 6:22-23",
+          "url": null,
           "tags": [
             "church-and-unity",
             "grace",
@@ -136,6 +139,7 @@
           "title": "CW Sermon III: Luke 16:10",
           "author": "Charles Wesley",
           "text": "Luke 16:10",
+          "url": null,
           "tags": [
             "church-and-unity",
             "comfort-and-consolation",
@@ -147,6 +151,7 @@
           "title": "Heaviness Through Manifold Temptations",
           "author": "John Wesley",
           "text": "1 Peter 1:6",
+          "url": "https://www.resourceumc.org/en/content/sermon-47-heaviness-through-manifold-temptations",
           "tags": [
             "assurance",
             "call-and-discipleship",
@@ -158,6 +163,7 @@
           "title": "On Friendship with the World",
           "author": "John Wesley",
           "text": "Romans 12:2",
+          "url": "https://www.resourceumc.org/en/content/sermon-80-on-friendship-with-the-world",
           "tags": [
             "assurance",
             "call-and-discipleship",
@@ -330,67 +336,141 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "hope-and-promise",
-              "incarnation",
-              "mercy-and-forgiveness",
-              "saints-and-witnesses"
-            ]
-          },
-          {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
-            "themes": [
-              "church-and-unity",
-              "incarnation",
-              "trinity"
-            ]
-          },
-          {
-            "title": "The Athanasian Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/",
-            "themes": [
-              "incarnation",
-              "trinity"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "call-and-discipleship",
-              "grace",
               "mission-and-witness"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Apostles' Creed",
+            "article": "the communion of saints",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
             "themes": [
-              "church-and-unity",
-              "faith-and-trust",
-              "grace",
+              "saints-and-witnesses"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "of one Being with the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Athanasian Creed",
+            "article": "one God in Trinity",
+            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "incarnate of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "born of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one holy catholic and apostolic Church",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
+            "themes": [
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XIII, the Church",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
+            "themes": [
+              "church-and-unity"
             ]
           }
         ],
         "social": [
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "community": "The Political Community",
+            "topic": "Restorative Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#restorative",
             "themes": [
               "mercy-and-forgiveness"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "community": "The Political Community",
+            "topic": "Criminal Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
-              "mission-and-witness"
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           }
         ]

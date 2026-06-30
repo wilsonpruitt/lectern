@@ -94,6 +94,7 @@
           "title": "Upon Our Lord's Sermon on the Mount III",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-23-upon-our-lords-sermon-on-the-mount-iii",
           "tags": [
             "assurance",
             "call-and-discipleship",
@@ -106,6 +107,7 @@
           "title": "Upon Our Lord's Sermon on the Mount XIII",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-33-upon-our-lords-sermon-on-the-mount-xiii",
           "tags": [
             "call-and-discipleship",
             "kingdom-of-god",
@@ -118,6 +120,7 @@
           "title": "Upon Our Lord's Sermon on the Mount IX",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-29-upon-our-lords-sermon-on-the-mount-ix",
           "tags": [
             "call-and-discipleship",
             "harvest",
@@ -129,6 +132,7 @@
           "title": "Satan's Devices",
           "author": "John Wesley",
           "text": "2 Corinthians 2:11",
+          "url": "https://www.resourceumc.org/en/content/sermon-42-satans-devices",
           "tags": [
             "assurance",
             "call-and-discipleship",
@@ -140,6 +144,7 @@
           "title": "CW Sermon X: Exodus 20:8",
           "author": "Charles Wesley",
           "text": "Exodus 20:8",
+          "url": null,
           "tags": [
             "call-and-discipleship",
             "kingdom-of-god",
@@ -151,6 +156,7 @@
           "title": "Of Good Angels",
           "author": "John Wesley",
           "text": "Hebrews 1:14",
+          "url": "https://www.resourceumc.org/en/content/sermon-71-of-good-angels",
           "tags": [
             "call-and-discipleship",
             "kingdom-of-god",
@@ -301,65 +307,109 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "hope-and-promise",
-              "judgment",
-              "providence-and-care",
-              "resurrection-and-life"
+              "mission-and-witness"
             ]
           },
           {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "judgment",
-              "kingdom-of-god",
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "call-and-discipleship",
-              "mission-and-witness",
               "prayer-and-worship"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
             ]
-          }
-        ],
-        "social": [
+          },
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
-              "kingdom-of-god",
-              "mission-and-witness"
+              "kingdom-of-god"
+            ]
+          }
+        ],
+        "social": [
+          {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship"
             ]
           },
           {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "prayer-and-worship"
+              "providence-and-care"
             ]
           }
         ]
@@ -453,6 +503,7 @@
           "title": "Upon Our Lord's Sermon on the Mount III",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-23-upon-our-lords-sermon-on-the-mount-iii",
           "tags": [
             "assurance",
             "joy",
@@ -465,6 +516,7 @@
           "title": "Satan's Devices",
           "author": "John Wesley",
           "text": "2 Corinthians 2:11",
+          "url": "https://www.resourceumc.org/en/content/sermon-42-satans-devices",
           "tags": [
             "assurance",
             "harvest",
@@ -476,6 +528,7 @@
           "title": "CW Sermon II: Psalm 91:11",
           "author": "Charles Wesley",
           "text": "Psalm 91:11",
+          "url": null,
           "tags": [
             "joy",
             "kingdom-of-god",
@@ -487,6 +540,7 @@
           "title": "CW Sermon IV: Matthew 5:20",
           "author": "Charles Wesley",
           "text": "Matthew 5:20",
+          "url": null,
           "tags": [
             "kingdom-of-god",
             "prayer-and-worship",
@@ -498,6 +552,7 @@
           "title": "Sermon 097",
           "author": "John Wesley",
           "text": "Hebrews 13:17",
+          "url": null,
           "tags": [
             "joy",
             "kingdom-of-god",
@@ -509,6 +564,7 @@
           "title": "The Signs of the Times",
           "author": "John Wesley",
           "text": "Matthew 16:3",
+          "url": "https://www.resourceumc.org/en/content/sermon-66-the-signs-of-the-times",
           "tags": [
             "assurance",
             "kingdom-of-god",
@@ -668,65 +724,102 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "hope-and-promise",
-              "judgment",
-              "providence-and-care",
-              "resurrection-and-life"
+              "mission-and-witness"
             ]
           },
           {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "judgment",
-              "kingdom-of-god",
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "mission-and-witness",
               "prayer-and-worship"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
             ]
-          }
-        ],
-        "social": [
+          },
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
-              "kingdom-of-god",
-              "mission-and-witness"
+              "kingdom-of-god"
             ]
-          },
+          }
+        ],
+        "social": [
           {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "prayer-and-worship",
               "thanksgiving"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]

@@ -89,6 +89,7 @@
           "title": "Sermon 130",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "kingdom-of-god",
             "prophetic-warning",
@@ -100,6 +101,7 @@
           "title": "A Caution Against Bigotry",
           "author": "John Wesley",
           "text": "Mark 9:38",
+          "url": "https://www.resourceumc.org/en/content/sermon-38-a-caution-against-bigotry",
           "tags": [
             "harvest",
             "kingdom-of-god"
@@ -110,6 +112,7 @@
           "title": "Upon Our Lord's Sermon on the Mount IX",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-29-upon-our-lords-sermon-on-the-mount-ix",
           "tags": [
             "harvest",
             "kingdom-of-god"
@@ -120,6 +123,7 @@
           "title": "Sermon 121",
           "author": "John Wesley",
           "text": "Psalm 73:20",
+          "url": null,
           "tags": [
             "assurance",
             "kingdom-of-god",
@@ -131,6 +135,7 @@
           "title": "Satan's Devices",
           "author": "John Wesley",
           "text": "2 Corinthians 2:11",
+          "url": "https://www.resourceumc.org/en/content/sermon-42-satans-devices",
           "tags": [
             "assurance",
             "harvest"
@@ -141,6 +146,7 @@
           "title": "CW Sermon VI: John 13:7",
           "author": "Charles Wesley",
           "text": "John 13:7",
+          "url": null,
           "tags": [
             "assurance",
             "kingdom-of-god"
@@ -293,64 +299,119 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "the catalog of harms",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-catalog-of-harms/",
             "themes": [
-              "hope-and-promise",
-              "judgment",
-              "resurrection-and-life"
+              "idolatry"
             ]
           },
           {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "title": "Articles of Religion",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
             "themes": [
-              "judgment",
-              "kingdom-of-god",
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "idolatry",
-              "justice",
               "wealth-and-possessions"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
             ]
-          }
-        ],
-        "social": [
+          },
           {
-            "para": "¶161",
-            "title": "The Economic Community",
-            "cite": "¶161 · The Economic Community",
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
             "themes": [
-              "wealth-and-possessions"
+              "judgment"
             ]
           },
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the slaveholding clause",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
             "themes": [
               "justice"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "justice"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
+            ]
+          }
+        ],
+        "social": [
+          {
+            "community": "The Economic Community",
+            "topic": "Responsible Consumerism",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
+            "themes": [
+              "idolatry",
+              "wealth-and-possessions"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Poverty & Income Inequality",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
             "themes": [
               "justice",
-              "kingdom-of-god"
+              "wealth-and-possessions"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Basic Rights & Freedoms",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
+            "themes": [
+              "justice"
             ]
           }
         ]

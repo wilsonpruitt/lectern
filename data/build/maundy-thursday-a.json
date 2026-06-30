@@ -104,6 +104,7 @@
           "title": "Upon Our Lord's Sermon on the Mount III",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-23-upon-our-lords-sermon-on-the-mount-iii",
           "tags": [
             "assurance",
             "call-and-discipleship",
@@ -117,6 +118,7 @@
           "title": "On the Wedding Garment",
           "author": "John Wesley",
           "text": "Matthew 22:12",
+          "url": "https://www.resourceumc.org/en/content/sermon-120-on-the-wedding-garment",
           "tags": [
             "atonement",
             "call-and-discipleship",
@@ -129,6 +131,7 @@
           "title": "Sermon 130",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "atonement",
             "love-of-neighbor",
@@ -140,6 +143,7 @@
           "title": "Upon Our Lord's Sermon on the Mount IV",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-24-upon-our-lords-sermon-on-the-mount-iv",
           "tags": [
             "call-and-discipleship",
             "prayer-and-worship",
@@ -151,6 +155,7 @@
           "title": "The Lord Our Righteousness",
           "author": "John Wesley",
           "text": "Jeremiah 23:6",
+          "url": "https://www.resourceumc.org/en/content/sermon-20-the-lord-our-righteousness",
           "tags": [
             "assurance",
             "atonement",
@@ -163,6 +168,7 @@
           "title": "The Repentance of Believers",
           "author": "John Wesley",
           "text": "Mark 1:15",
+          "url": "https://www.resourceumc.org/en/content/sermon-14-the-repentance-of-believers",
           "tags": [
             "assurance",
             "call-and-discipleship",
@@ -322,48 +328,94 @@
         ],
         "doctrine": [
           {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
               "atonement"
             ]
           },
           {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
-              "call-and-discipleship",
-              "humility-and-servanthood",
-              "love-of-neighbor",
-              "prayer-and-worship"
+              "atonement"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "General Rules",
+            "article": "doing good to bodies and souls",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "atonement",
-              "covenant"
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "themes": [
+              "humility-and-servanthood"
             ]
           }
         ],
         "social": [
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
-              "humility-and-servanthood",
+              "prayer-and-worship",
+              "thanksgiving"
+            ]
+          },
+          {
+            "community": "The Social Community",
+            "topic": "Racism, Ethnocentrism & Tribalism",
+            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
+            "themes": [
               "love-of-neighbor"
             ]
           },
           {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
-              "prayer-and-worship",
-              "thanksgiving"
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "The Dignity of Work",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#work",
+            "themes": [
+              "humility-and-servanthood"
             ]
           }
         ]

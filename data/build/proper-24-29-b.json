@@ -96,6 +96,7 @@
           "title": "CW Sermon X: Exodus 20:8",
           "author": "Charles Wesley",
           "text": "Exodus 20:8",
+          "url": null,
           "tags": [
             "atonement",
             "call-and-discipleship",
@@ -108,6 +109,7 @@
           "title": "CW Sermon IV: Matthew 5:20",
           "author": "Charles Wesley",
           "text": "Matthew 5:20",
+          "url": null,
           "tags": [
             "atonement",
             "kingdom-of-god",
@@ -120,6 +122,7 @@
           "title": "Upon Our Lord's Sermon on the Mount XIII",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-33-upon-our-lords-sermon-on-the-mount-xiii",
           "tags": [
             "call-and-discipleship",
             "kingdom-of-god",
@@ -132,6 +135,7 @@
           "title": "CW Sermon IX: Mark 12:30",
           "author": "Charles Wesley",
           "text": "Mark 12:30",
+          "url": null,
           "tags": [
             "atonement",
             "kingdom-of-god",
@@ -143,6 +147,7 @@
           "title": "Sermon 130",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "atonement",
             "kingdom-of-god",
@@ -154,6 +159,7 @@
           "title": "Upon Our Lord's Sermon on the Mount IV",
           "author": "John Wesley",
           "text": null,
+          "url": "https://www.resourceumc.org/en/content/sermon-24-upon-our-lords-sermon-on-the-mount-iv",
           "tags": [
             "call-and-discipleship",
             "prayer-and-worship",
@@ -314,73 +320,126 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "creation",
-              "passion-and-cross",
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
-            "themes": [
-              "atonement",
-              "creation",
-              "kingdom-of-god",
-              "passion-and-cross"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "call-and-discipleship",
-              "humility-and-servanthood",
               "prayer-and-worship"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
               "atonement"
             ]
-          }
-        ],
-        "social": [
+          },
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
-              "creation",
+              "atonement",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
-            "themes": [
-              "humility-and-servanthood"
-            ]
-          },
-          {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
               "kingdom-of-god"
             ]
           },
           {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "themes": [
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "themes": [
+              "humility-and-servanthood"
+            ]
+          }
+        ],
+        "social": [
+          {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "prayer-and-worship"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "The Dignity of Work",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#work",
+            "themes": [
+              "humility-and-servanthood"
             ]
           }
         ]
@@ -471,6 +530,7 @@
           "title": "The Lord Our Righteousness",
           "author": "John Wesley",
           "text": "Jeremiah 23:6",
+          "url": "https://www.resourceumc.org/en/content/sermon-20-the-lord-our-righteousness",
           "tags": [
             "assurance",
             "atonement",
@@ -483,6 +543,7 @@
           "title": "CW Sermon X: Exodus 20:8",
           "author": "Charles Wesley",
           "text": "Exodus 20:8",
+          "url": null,
           "tags": [
             "atonement",
             "call-and-discipleship",
@@ -494,6 +555,7 @@
           "title": "CW Sermon IV: Matthew 5:20",
           "author": "Charles Wesley",
           "text": "Matthew 5:20",
+          "url": null,
           "tags": [
             "atonement",
             "kingdom-of-god",
@@ -505,6 +567,7 @@
           "title": "God's Approbation of His Works",
           "author": "John Wesley",
           "text": "Genesis 1:31",
+          "url": "https://www.resourceumc.org/en/content/sermon-56-gods-approbation-of-his-works",
           "tags": [
             "atonement",
             "kingdom-of-god",
@@ -516,6 +579,7 @@
           "title": "On the Wedding Garment",
           "author": "John Wesley",
           "text": "Matthew 22:12",
+          "url": "https://www.resourceumc.org/en/content/sermon-120-on-the-wedding-garment",
           "tags": [
             "atonement",
             "call-and-discipleship",
@@ -527,6 +591,7 @@
           "title": "Sermon 101",
           "author": "John Wesley",
           "text": "Luke 22:19",
+          "url": null,
           "tags": [
             "atonement",
             "kingdom-of-god",
@@ -683,62 +748,94 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
-              "passion-and-cross",
-              "providence-and-care"
+              "call-and-discipleship"
             ]
           },
           {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
               "atonement",
-              "kingdom-of-god",
               "passion-and-cross"
             ]
           },
           {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "call-and-discipleship",
-              "humility-and-servanthood"
+              "providence-and-care"
             ]
           },
           {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
-              "atonement",
-              "faith-and-trust"
+              "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "themes": [
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "themes": [
+              "humility-and-servanthood"
             ]
           }
         ],
         "social": [
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "community": "The Economic Community",
+            "topic": "The Dignity of Work",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#work",
             "themes": [
               "humility-and-servanthood"
-            ]
-          },
-          {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
-            "themes": [
-              "kingdom-of-god"
             ]
           }
         ]

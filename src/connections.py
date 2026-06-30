@@ -91,126 +91,173 @@ def reading_links(refkey: str) -> list[dict]:
     return out
 
 
-# --- Doctrine: theme -> creed/confession document (theological application) ---
-DOCS = {
-    "apostles": ("The Apostles' Creed", f"{DOCTRINE}/creeds/apostles-creed/"),
-    "nicene": ("The Nicene Creed", f"{DOCTRINE}/creeds/nicene-creed/"),
-    "athanasian": ("The Athanasian Creed", f"{DOCTRINE}/creeds/athanasian-creed/"),
-    "rules": ("Wesley's General Rules", f"{DOCTRINE}/wesleyan/general-rules/"),
-    "articles": ("The Articles of Religion", f"{DOCTRINE}/wesleyan/articles-of-religion/"),
+# --- Doctrine: theme -> SPECIFIC creed clause / confession article (deep-link) ---
+# doctrine.wrootpress.com has a per-phrase route /<family>/<doc>/<phrase-slug>/ —
+# so we link straight to the relevant article, not the document landing.
+DOC_FAMILY = {
+    "apostles-creed": "creeds", "nicene-creed": "creeds", "athanasian-creed": "creeds",
+    "general-rules": "wesleyan", "articles-of-religion": "wesleyan",
+}
+DOC_TITLE = {
+    "apostles-creed": "Apostles' Creed", "nicene-creed": "Nicene Creed",
+    "athanasian-creed": "Athanasian Creed", "general-rules": "General Rules",
+    "articles-of-religion": "Articles of Religion",
 }
 
-# Authored bridge (AI-drafted, pending Wilson's curation). Maps the day's faceted
-# THEME tags to the documents that confess that theme. Themes with no strong
-# creedal locus (wisdom, thanksgiving, hospitality-of-god, peace-of-god, …) are
-# intentionally omitted — a thin link is worse than none.
-THEME_DOCTRINE: dict[str, list[str]] = {
-    "trinity": ["nicene", "athanasian"],
-    "incarnation": ["nicene", "athanasian", "apostles"],
-    "atonement": ["nicene", "articles"],
-    "passion-and-cross": ["apostles", "nicene"],
-    "resurrection-and-life": ["apostles", "nicene"],
-    "ascension-and-reign": ["apostles", "nicene"],
-    "holy-spirit": ["nicene", "apostles"],
-    "last-things": ["apostles", "nicene"],
-    "judgment": ["apostles", "nicene"],
-    "church-and-unity": ["nicene", "articles"],
-    "baptism": ["articles", "nicene"],
-    "grace": ["articles", "rules"],
-    "mercy-and-forgiveness": ["apostles", "articles"],
-    "repentance": ["articles", "rules"],
-    "sanctification-holiness": ["rules", "articles"],
-    "faith-and-trust": ["articles"],
-    "sin-and-fall": ["articles"],
-    "law-and-commandment": ["articles", "rules"],
-    "obedience-and-gods-will": ["rules"],
-    "call-and-discipleship": ["rules"],
-    "love-of-neighbor": ["rules"],
-    "wealth-and-possessions": ["rules"],
-    "justice": ["rules"],
-    "humility-and-servanthood": ["rules"],
-    "saints-and-witnesses": ["apostles"],
-    "covenant": ["articles"],
-    "word-of-god": ["articles"],
-    "creation": ["nicene", "apostles"],
-    "providence-and-care": ["apostles"],
-    "messianic-hope": ["nicene"],
-    "epiphany-manifestation": ["nicene"],
-    "transfiguration-glory": ["nicene"],
-    "kingdom-of-god": ["nicene"],
-    "hope-and-promise": ["apostles"],
-    "prayer-and-worship": ["rules"],
-    "mission-and-witness": ["rules"],
-    "idolatry": ["rules"],
-    "temptation-and-testing": ["rules"],
+# Authored bridge (AI-drafted, Wilson curates): theme -> [(doc, phrase_slug, article
+# label)] — the specific clause/article that confesses the theme. Phrase slugs are
+# the real doctrine-site routes (verified from ~/doctrine annotations).
+THEME_DOCTRINE: dict[str, list[tuple]] = {
+    "trinity": [("nicene-creed", "of-one-being-with-the-father", "of one Being with the Father"),
+                ("athanasian-creed", "one-god-in-trinity", "one God in Trinity")],
+    "incarnation": [("nicene-creed", "incarnate-of-the-virgin-mary", "incarnate of the Virgin Mary"),
+                    ("apostles-creed", "born-of-the-virgin-mary", "born of the Virgin Mary")],
+    "atonement": [("articles-of-religion", "article-20-of-the-one-oblation-of-christ", "Art. XX, the One Oblation of Christ"),
+                  ("nicene-creed", "crucified-suffered-buried", "crucified, suffered, buried")],
+    "passion-and-cross": [("apostles-creed", "was-crucified", "was crucified"),
+                          ("nicene-creed", "crucified-suffered-buried", "crucified, suffered, buried")],
+    "resurrection-and-life": [("apostles-creed", "the-resurrection-of-the-body", "the resurrection of the body"),
+                              ("nicene-creed", "on-the-third-day-he-rose", "on the third day he rose")],
+    "ascension-and-reign": [("apostles-creed", "he-ascended-into-heaven", "he ascended into heaven"),
+                            ("nicene-creed", "ascended-into-heaven", "ascended into heaven")],
+    "holy-spirit": [("nicene-creed", "i-believe-in-the-holy-spirit", "the Holy Spirit, the giver of life"),
+                    ("articles-of-religion", "article-4-of-the-holy-ghost", "Art. IV, the Holy Ghost")],
+    "last-things": [("apostles-creed", "and-the-life-everlasting", "the life everlasting"),
+                    ("nicene-creed", "the-life-of-the-world-to-come", "the life of the world to come")],
+    "judgment": [("apostles-creed", "from-thence-he-shall-come-to-judge", "he shall come to judge"),
+                 ("nicene-creed", "will-come-again-to-judge", "will come again to judge")],
+    "church-and-unity": [("nicene-creed", "one-holy-catholic-and-apostolic-church", "one holy catholic and apostolic Church"),
+                         ("articles-of-religion", "article-13-of-the-church", "Art. XIII, the Church")],
+    "baptism": [("articles-of-religion", "article-17-of-baptism", "Art. XVII, Baptism"),
+                ("nicene-creed", "one-baptism-for-the-forgiveness-of-sins", "one baptism for the forgiveness of sins")],
+    "grace": [("articles-of-religion", "article-9-of-the-justification-of-man", "Art. IX, the Justification of Man"),
+              ("articles-of-religion", "article-8-of-free-will", "Art. VIII, Free Will")],
+    "mercy-and-forgiveness": [("apostles-creed", "the-forgiveness-of-sins", "the forgiveness of sins")],
+    "repentance": [("articles-of-religion", "article-12-of-sin-after-justification", "Art. XII, Sin After Justification")],
+    "sanctification-holiness": [("articles-of-religion", "article-26-of-sanctification", "Of Sanctification"),
+                                ("general-rules", "evidenced-by-its-fruits", "evidenced by its fruits")],
+    "faith-and-trust": [("articles-of-religion", "article-9-of-the-justification-of-man", "Art. IX, justification by faith")],
+    "sin-and-fall": [("articles-of-religion", "article-7-of-original-or-birth-sin", "Art. VII, Original Sin")],
+    "law-and-commandment": [("general-rules", "first-rule-do-no-harm", "do no harm"),
+                            ("articles-of-religion", "article-6-of-the-old-testament", "Art. VI, the Old Testament")],
+    "obedience-and-gods-will": [("general-rules", "second-rule-do-good", "do good")],
+    "call-and-discipleship": [("general-rules", "the-one-condition", "the one condition")],
+    "love-of-neighbor": [("general-rules", "doing-good-to-bodies-and-souls", "doing good to bodies and souls")],
+    "wealth-and-possessions": [("articles-of-religion", "article-24-of-christian-mens-goods", "Art. XXIV, Christian Men's Goods")],
+    "justice": [("general-rules", "the-slaveholding-clause", "the slaveholding clause"),
+                ("general-rules", "first-rule-do-no-harm", "do no harm")],
+    "humility-and-servanthood": [("general-rules", "second-rule-do-good", "do good")],
+    "saints-and-witnesses": [("apostles-creed", "the-communion-of-saints", "the communion of saints")],
+    "covenant": [("articles-of-religion", "article-6-of-the-old-testament", "Art. VI, the Old Testament")],
+    "word-of-god": [("articles-of-religion", "article-5-of-the-sufficiency-of-the-holy-scriptures", "Art. V, Sufficiency of Scripture")],
+    "creation": [("nicene-creed", "maker-of-heaven-and-earth", "maker of heaven and earth"),
+                 ("apostles-creed", "creator-of-heaven-and-earth", "creator of heaven and earth")],
+    "providence-and-care": [("apostles-creed", "the-father-almighty", "the Father almighty")],
+    "messianic-hope": [("nicene-creed", "eternally-begotten-of-the-father", "eternally begotten of the Father")],
+    "epiphany-manifestation": [("nicene-creed", "god-from-god-light-from-light", "God from God, Light from Light")],
+    "transfiguration-glory": [("nicene-creed", "god-from-god-light-from-light", "God from God, Light from Light")],
+    "kingdom-of-god": [("nicene-creed", "the-life-of-the-world-to-come", "the life of the world to come")],
+    "hope-and-promise": [("apostles-creed", "and-the-life-everlasting", "the life everlasting")],
+    "prayer-and-worship": [("general-rules", "third-rule-the-ordinances-of-god", "the ordinances of God")],
+    "mission-and-witness": [("general-rules", "doing-good-to-bodies-and-souls", "doing good")],
+    "idolatry": [("general-rules", "the-catalog-of-harms", "the catalog of harms")],
+    "temptation-and-testing": [("general-rules", "first-rule-do-no-harm", "do no harm")],
 }
 
 
 def doctrine_links(themes) -> list[dict]:
-    """Day-level theological application: dedup documents across the day's themes,
-    each carrying which theme(s) pointed to it. Returns [{title, url, themes}]."""
-    by_doc: dict[str, set] = {}
+    """Theological application: dedup specific articles across the day's themes.
+    Returns [{title (document), article, url, themes}] deep-linked to the clause."""
+    by_art: dict[tuple, set] = {}
+    order: list[tuple] = []
     for th in themes:
-        for doc in THEME_DOCTRINE.get(th, []):
-            by_doc.setdefault(doc, set()).add(th)
+        for doc, phrase, label in THEME_DOCTRINE.get(th, []):
+            key = (doc, phrase, label)
+            if key not in by_art:
+                by_art[key] = set()
+                order.append(key)
+            by_art[key].add(th)
     out = []
-    # stable doc order = order in DOCS
-    for doc_key in DOCS:
-        if doc_key in by_doc:
-            title, url = DOCS[doc_key]
-            out.append({"title": title, "url": url,
-                        "themes": sorted(by_doc[doc_key])})
+    for doc, phrase, label in order:
+        out.append({
+            "title": DOC_TITLE[doc], "article": label,
+            "url": f"{DOCTRINE}/{DOC_FAMILY[doc]}/{doc}/{phrase}/",
+            "themes": sorted(by_art[(doc, phrase, label)]),
+        })
     return out
 
 
-# --- UMC Social Principles (2024 BoD ¶¶160-164) — social-ethical application ---
-# POINTER-ONLY: the BoD is © The United Methodist Publishing House, so we store
-# only the citation (¶ + community title) + our editorial theme tags — never the
-# prose. Source: ~/church-documents documents/discipline/bod-2024.json. Five
-# sections (the revised "communities"); subsection-level tagging is a later pass
-# (the body's subsections aren't cleanly delimited). url=None by design — no
-# public reader exists yet; these are citations a preacher looks up in the BoD.
-SOCIAL_PRINCIPLES = {
-    "160": "The Community of All Creation",
-    "161": "The Economic Community",
-    "162": "The Social Community",
-    "163": "The Political Community",
-    "164": "Our Social Creed",
+# --- UMC Social Principles (2024) — social-ethical application, deep-linked ---
+# The official revised Social Principles are published BY TOPIC on umc.org, each
+# with an in-page anchor — so we link to the specific position (not a landing, and
+# not the © BoD prose). theme -> [(community, anchor, topic label)].
+SOCIAL_PAGE = {
+    "natural": ("Community of All Creation", "https://www.umc.org/en/content/social-principles-the-natural-world"),
+    "economic": ("The Economic Community", "https://www.umc.org/en/content/social-principles-the-economic-community"),
+    "social": ("The Social Community", "https://www.umc.org/en/content/social-principles-the-social-community"),
+    "political": ("The Political Community", "https://www.umc.org/en/content/social-principles-the-political-community"),
+    "creed": ("Our Social Creed", "https://www.umc.org/en/content/our-social-creed"),
 }
 
-# Authored bridge (AI-drafted, Wilson curates): the day's faceted THEME tags ->
-# the Social Principle community that speaks to it. Each theme points to its most
-# relevant 1-2 communities (kept tight so a justice day doesn't surface all five).
-THEME_SOCIAL: dict[str, list[str]] = {
-    "creation": ["160"],
-    "providence-and-care": ["160"],
-    "wealth-and-possessions": ["161"],
-    "justice": ["162", "163"],
-    "love-of-neighbor": ["162"],
-    "mercy-and-forgiveness": ["162"],
-    "humility-and-servanthood": ["162"],
-    "hospitality-of-god": ["162"],
-    "peace-of-god": ["163"],
-    "law-and-commandment": ["163"],
-    "mission-and-witness": ["163"],
-    "kingdom-of-god": ["163"],
-    "thanksgiving": ["164"],
-    "prayer-and-worship": ["164"],
+# Authored bridge (AI-drafted, Wilson curates): theme -> [(community, anchor, label)].
+# Anchors verified from the umc.org community pages.
+THEME_SOCIAL: dict[str, list[tuple]] = {
+    "creation": [("natural", "stewardship-of-creation", "Stewardship of Creation"),
+                 ("natural", "global-warming", "Global Warming & Climate Change")],
+    "providence-and-care": [("natural", "creatures", "Caring for All Creatures")],
+    "wealth-and-possessions": [("economic", "poverty", "Poverty & Income Inequality"),
+                               ("economic", "consumerism", "Responsible Consumerism")],
+    "justice": [("political", "basic-rights", "Basic Rights & Freedoms"),
+                ("economic", "poverty", "Poverty & Income Inequality")],
+    "love-of-neighbor": [("social", "racism", "Racism, Ethnocentrism & Tribalism"),
+                         ("political", "migrants", "Migrants, Immigrants & Refugees")],
+    "mercy-and-forgiveness": [("political", "restorative", "Restorative Justice"),
+                              ("political", "criminal-justice", "Criminal Justice")],
+    "humility-and-servanthood": [("economic", "work", "The Dignity of Work")],
+    "hospitality-of-god": [("political", "migrants", "Migrants, Immigrants & Refugees")],
+    "peace-of-god": [("political", "war", "War & Military Service")],
+    "law-and-commandment": [("political", "civil-disobedience", "Civil Disobedience")],
+    "suffering-and-endurance": [("political", "health-care", "Health Care")],
+    "idolatry": [("economic", "consumerism", "Responsible Consumerism")],
+    "prayer-and-worship": [("economic", "sabbath", "Sabbath & Renewal Time")],
+    "thanksgiving": [("economic", "sabbath", "Sabbath & Renewal Time")],
 }
 
 
 def social_principles_links(themes) -> list[dict]:
-    """Day-level social-ethical application: dedup Social Principle sections across
-    the day's themes. Pointer-only. Returns [{para, title, cite, themes}]."""
-    by_para: dict[str, set] = {}
+    """Social-ethical application: dedup specific umc.org positions across the day's
+    themes. Returns [{community, topic, url, themes}] deep-linked to the anchor."""
+    by_pos: dict[tuple, set] = {}
+    order: list[tuple] = []
     for th in themes:
-        for para in THEME_SOCIAL.get(th, []):
-            by_para.setdefault(para, set()).add(th)
+        for comm, anchor, label in THEME_SOCIAL.get(th, []):
+            key = (comm, anchor, label)
+            if key not in by_pos:
+                by_pos[key] = set()
+                order.append(key)
+            by_pos[key].add(th)
     out = []
-    for para in SOCIAL_PRINCIPLES:               # numeric order
-        if para in by_para:
-            title = SOCIAL_PRINCIPLES[para]
-            out.append({"para": f"¶{para}", "title": title,
-                        "cite": f"¶{para} · {title}",
-                        "themes": sorted(by_para[para])})
+    for comm, anchor, label in order:
+        community, page = SOCIAL_PAGE[comm]
+        url = f"{page}#{anchor}" if anchor else page
+        out.append({"community": community, "topic": label, "url": url,
+                    "themes": sorted(by_pos[(comm, anchor, label)])})
     return out
+
+
+# --- Wesley sermons -> their text at resourceumc.org (numeric index) ---
+# URL pattern (verified): /en/content/sermon-<N>-<title-slug>. Built only for the
+# numbered standard sermons (id jw-sermon-NNN) with a real title.
+import re as _re  # noqa: E402
+
+
+def wesley_sermon_url(sermon_id: str | None, title: str | None) -> str | None:
+    if not sermon_id or not title:
+        return None
+    m = _re.match(r"jw-sermon-0*(\d+)$", sermon_id)
+    if not m or _re.match(r"(?i)sermon\s*\d+$", title.strip()):
+        return None  # named-id or untitled "Sermon N" — no reliable slug
+    n = int(m.group(1))
+    slug = _re.sub(r"[^a-z0-9]+", "-",
+                   title.lower().replace("'", "").replace("’", "")).strip("-")
+    return f"https://www.resourceumc.org/en/content/sermon-{n}-{slug}"

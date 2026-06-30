@@ -91,6 +91,7 @@
           "title": "On Friendship with the World",
           "author": "John Wesley",
           "text": "Romans 12:2",
+          "url": "https://www.resourceumc.org/en/content/sermon-80-on-friendship-with-the-world",
           "tags": [
             "assurance",
             "grace",
@@ -102,6 +103,7 @@
           "title": "The Great Privilege of Those Born of God",
           "author": "John Wesley",
           "text": "1 John 3:9",
+          "url": "https://www.resourceumc.org/en/content/sermon-19-the-great-privilege-of-those-born-of-god",
           "tags": [
             "assurance",
             "grace",
@@ -113,6 +115,7 @@
           "title": "The Marks of the New Birth",
           "author": "John Wesley",
           "text": "John 3:8",
+          "url": "https://www.resourceumc.org/en/content/sermon-18-the-marks-of-the-new-birth",
           "tags": [
             "assurance",
             "grace",
@@ -124,6 +127,7 @@
           "title": "The Spirit of Bondage and of Adoption",
           "author": "John Wesley",
           "text": "Romans 8:15",
+          "url": "https://www.resourceumc.org/en/content/sermon-9-the-spirit-of-bondage-and-of-adoption",
           "tags": [
             "assurance",
             "grace",
@@ -135,6 +139,7 @@
           "title": "The Lord Our Righteousness",
           "author": "John Wesley",
           "text": "Jeremiah 23:6",
+          "url": "https://www.resourceumc.org/en/content/sermon-20-the-lord-our-righteousness",
           "tags": [
             "assurance",
             "grace",
@@ -146,6 +151,7 @@
           "title": "CW Sermon II: Psalm 91:11",
           "author": "Charles Wesley",
           "text": "Psalm 91:11",
+          "url": null,
           "tags": [
             "grace",
             "prayer-and-worship"
@@ -304,70 +310,101 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
-            "themes": [
-              "hope-and-promise",
-              "incarnation",
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
-            "themes": [
-              "incarnation",
-              "messianic-hope"
-            ]
-          },
-          {
-            "title": "The Athanasian Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/",
-            "themes": [
-              "incarnation"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "grace",
-              "mission-and-witness",
-              "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "The Articles of Religion",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
-            "themes": [
-              "grace",
-              "mercy-and-forgiveness"
-            ]
-          }
-        ],
-        "social": [
-          {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "mission-and-witness"
             ]
           },
           {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
               "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "incarnate of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "born of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
+            "themes": [
+              "messianic-hope"
+            ]
+          }
+        ],
+        "social": [
+          {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Restorative Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#restorative",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Criminal Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
+            "themes": [
+              "mercy-and-forgiveness"
             ]
           }
         ]

@@ -94,17 +94,18 @@ def sermon_recs(day_tags: set, sermons: dict, top: int = 6) -> list[dict]:
     # 1.0). The IDF rarity weighting is calibrated on the hymn corpus; applying
     # it to sermons would silently change the already-approved sermon recs.
     scored = []
-    for _sid, s in sermons.items():
+    for sid, s in sermons.items():
         score, shared = tc.score(tc.tagset(s), day_tags, {})
         if score > 0:
-            scored.append((score, s, shared))
-    scored.sort(key=lambda x: (-x[0], x[1].get("title", "")))
+            scored.append((score, sid, s, shared))
+    scored.sort(key=lambda x: (-x[0], x[2].get("title", "")))
     out = []
-    for score, s, shared in scored[:top]:
+    for score, sid, s, shared in scored[:top]:
         out.append({
             "title": s.get("title"),
             "author": s.get("author"),
             "text": s.get("refDisplay"),
+            "url": conn.wesley_sermon_url(sid, s.get("title")),
             "tags": sorted(t for (_f, t) in shared),
             "score": round(score, 2),
         })

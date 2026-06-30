@@ -92,6 +92,7 @@
           "title": "Sermon 130",
           "author": "John Wesley",
           "text": null,
+          "url": null,
           "tags": [
             "kingdom-of-god",
             "love-of-neighbor",
@@ -104,6 +105,7 @@
           "title": "On Visiting the Sick",
           "author": "John Wesley",
           "text": "Matthew 25:36",
+          "url": "https://www.resourceumc.org/en/content/sermon-98-on-visiting-the-sick",
           "tags": [
             "kingdom-of-god",
             "love-of-neighbor",
@@ -115,6 +117,7 @@
           "title": "Spiritual Idolatry",
           "author": "John Wesley",
           "text": "1 John 5:21",
+          "url": "https://www.resourceumc.org/en/content/sermon-78-spiritual-idolatry",
           "tags": [
             "kingdom-of-god",
             "love-of-neighbor",
@@ -126,6 +129,7 @@
           "title": "Wandering Thoughts",
           "author": "John Wesley",
           "text": "2 Corinthians 10:5",
+          "url": "https://www.resourceumc.org/en/content/sermon-41-wandering-thoughts",
           "tags": [
             "kingdom-of-god",
             "love-of-neighbor",
@@ -137,6 +141,7 @@
           "title": "CW Sermon IV: Matthew 5:20",
           "author": "Charles Wesley",
           "text": "Matthew 5:20",
+          "url": null,
           "tags": [
             "kingdom-of-god",
             "prayer-and-worship",
@@ -148,6 +153,7 @@
           "title": "On Temptation",
           "author": "John Wesley",
           "text": "1 Corinthians 10:13",
+          "url": "https://www.resourceumc.org/en/content/sermon-82-on-temptation",
           "tags": [
             "kingdom-of-god",
             "prayer-and-worship",
@@ -299,69 +305,143 @@
         ],
         "doctrine": [
           {
-            "title": "The Apostles' Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "creation",
-              "hope-and-promise",
-              "judgment",
-              "last-things",
-              "providence-and-care",
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "The Nicene Creed",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
-            "themes": [
-              "creation",
-              "judgment",
-              "kingdom-of-god",
-              "last-things",
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Wesley's General Rules",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
-            "themes": [
-              "love-of-neighbor",
               "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god",
+              "last-things"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good to bodies and souls",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "love-of-neighbor"
             ]
           }
         ],
         "social": [
           {
-            "para": "¶160",
-            "title": "The Community of All Creation",
-            "cite": "¶160 · The Community of All Creation",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
-              "creation",
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
               "providence-and-care"
             ]
           },
           {
-            "para": "¶162",
-            "title": "The Social Community",
-            "cite": "¶162 · The Social Community",
+            "community": "The Social Community",
+            "topic": "Racism, Ethnocentrism & Tribalism",
+            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
             "themes": [
               "love-of-neighbor"
             ]
           },
           {
-            "para": "¶163",
-            "title": "The Political Community",
-            "cite": "¶163 · The Political Community",
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
-              "kingdom-of-god"
-            ]
-          },
-          {
-            "para": "¶164",
-            "title": "Our Social Creed",
-            "cite": "¶164 · Our Social Creed",
-            "themes": [
-              "prayer-and-worship"
+              "love-of-neighbor"
             ]
           }
         ]
