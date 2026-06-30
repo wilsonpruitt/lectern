@@ -90,6 +90,13 @@ python3.11 src/tag_connect.py proper-23-28-a
 Gospel Feast" recommends for this Sunday via shared feast/hospitality tags,
 though the scripture index only ever linked it to Luke 14.
 
+## Next: full hymn corpus
+
+Readings (746/746) and Wesley sermons (155) are tagged; the hymn corpus is the
+last item set. The plan to tag the full UMH + The Faith We Sing corpus against
+the frozen lexicon — sources, copyright posture, pipeline, and the subagent
+prompt template — is in **`docs/hymn-tagging-plan.md`**.
+
 ## Dependency
 
 Reads `~/reception-corpus/data/rcl.json` (the shared RCL spine, Years A/B/C).
