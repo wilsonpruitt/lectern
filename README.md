@@ -37,6 +37,32 @@ python3.11 src/call_to_worship.py --list "Lent"     # find occasion ids
 python3.11 src/call_to_worship.py proper-23-28-a     # bundle for one Sunday
 ```
 
+## Hymn recommendations (second feature)
+
+Copyright-safe **pointer-only** hymn recs keyed to the lectionary: store and emit
+hymn *numbers + hymnal* (facts), never lyrics or music.
+
+- **`data/umh_scripture_index.json`** — the UMH *Index of Scripture: Hymns,
+  Canticles, Prayers & Poems*, vision-OCR'd from Wilson's scanned copy
+  (pp. 924-925). Each entry: `cite` (e.g. "Psalm 23") → `hymns` (UMH numbers).
+  Coverage so far: Genesis–1 Corinthians 5; epistles tail + the Services/Psalter
+  index + TFWS are a pending second OCR pass (see the file's `coverage` field).
+- **`src/hymns.py`** — resolves each index citation to an OSIS refKey via
+  reception-corpus's `parse_citation` (the *same* keys as the RCL spine, so the
+  join is exact), then verse-range-overlaps the day's readings against the index.
+
+```sh
+python3.11 src/hymns.py proper-23-28-a
+```
+
+`out/proper-23-28-a-hymns.md` is the worked proof (Psalm 23 → UMH 128/136/137/
+138/518; Matt 22:1-14 → 427 via verse overlap).
+
+**Sourcing = hybrid** (decided 2026-06-30): the PDF Scripture Index gives the
+canonical UMH/TFWS `passage → in-hymnal number` backbone; **hymnary.org**
+(`/api/scripture?reference=...`) is the planned enrichment for the non-standard
+connections the print index omits.
+
 ## Dependency
 
 Reads `~/reception-corpus/data/rcl.json` (the shared RCL spine, Years A/B/C).
