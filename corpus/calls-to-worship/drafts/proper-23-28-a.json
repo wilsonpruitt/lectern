@@ -1,0 +1,40 @@
+{
+  "_note": "Curated Call-to-Worship drafts for one occasion. The generative half of the pipeline is hand-curated (model drafts from the bundle + voice.md/registers.md, Wilson approves), so the approved drafts live here as data the build step consumes. Antiphonal: leader plain / CONGREGATION bold. track = which reading track the call leans on.",
+  "occasion": "proper-23-28-a",
+  "track": "complementary",
+  "registers": [
+    {
+      "key": "A",
+      "label": "Spare",
+      "desc": "house voice · 4–8 lines",
+      "lines": [
+        ["Come to the table the Lord has spread.", "The feast is ready, and the doors are open."],
+        ["We came hungry, and grief came with us.", "God will swallow up death and wipe every tear away."],
+        ["The invitation has gone out into the streets.", "We heard it, and we have come."],
+        ["Come, let us worship the God who sets the table.", "We come to the feast. Amen."]
+      ]
+    },
+    {
+      "key": "B",
+      "label": "Immersive",
+      "desc": "sensory anchor · building refrain",
+      "lines": [
+        ["Can you smell it? The bread is warm, the cup is poured, the table runs longer than your eyes can follow.", "There is a place for you at this table."],
+        ["Come in from the road and the long week — come hungry, come grieving, come just as you are.", "There is a place for you at this table."],
+        ["For God is spreading a feast on the mountain, swallowing up death, wiping the tears from every face.", "There is a place for you at this table."],
+        ["So pull up a chair, friends. The host has been waiting for you.", "There is a place for you at this table. Thanks be to God!"]
+      ]
+    },
+    {
+      "key": "C",
+      "label": "Hybrid",
+      "desc": "economy + one refrain",
+      "lines": [
+        ["Smell the bread; the table is set.", "There is room for you here."],
+        ["We come in from the road, hungry and grieving.", "There is room for you here."],
+        ["God spreads the feast and wipes away every tear.", "There is room for you here."],
+        ["Come, let us worship the God who keeps our place.", "We come to the table. Thanks be to God."]
+      ]
+    }
+  ]
+}
