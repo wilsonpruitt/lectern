@@ -16,11 +16,13 @@ Wilson's own voice, fully specced in `voice.md`. **2–4 exchanges, 4–8 lines.
 Restraint is the register: short lines, concrete images, no padding, the
 Scripture carried by allusion. This is the default and the approved baseline.
 
-## B — Immersive (Marcia McFee register)
+## B — Immersive
 
-A sensory, thematic, building style in the mold of McFee's Worship Design Studio
-work. *Wilson's note: not his taste, but many planners prefer it — so it's a
-first-class option, written to its own standard, not as a watered version of A.*
+A sensory, thematic, building style — the expansive, pastoral register many
+worship-design planners favor (we don't name the practitioner it evokes; those
+who know the school will recognize it). *Wilson's note: not his taste, but many
+planners prefer it — so it's a first-class option, written to its own standard,
+not as a watered version of A.*
 
 - **Built on one sensory anchor** for the day (smell the bread, feel the water,
   the warmth of the fire) — something the body can imagine, repeated.

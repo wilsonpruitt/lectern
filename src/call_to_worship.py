@@ -65,7 +65,8 @@ def main() -> None:
     print(f"\n# Voice spec: {VOICE}")
     print(f"# Registers: {VOICE.parent / 'registers.md'}")
     print("# Draft THREE calls from the readings above — A (spare house voice), "
-          "B (immersive/McFee), C (hybrid). Lean on the Psalm + Gospel; "
+          "B (immersive — sensory anchor + building refrain), C (hybrid). "
+          "Lean on the Psalm + Gospel; "
           "weave, don't quote.")
 
 

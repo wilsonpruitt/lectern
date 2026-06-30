@@ -26,7 +26,7 @@ written in the voice of the ones already in use at Covenant UMC Austin.
   the call from that bundle + `voice.md`.
 - **`corpus/calls-to-worship/registers.md`** — three registers drafted per
   Sunday from the same readings: **A** spare (house voice), **B** immersive
-  (Marcia McFee style — sensory anchor + building refrain), **C** hybrid.
+  (immersive — sensory anchor + building refrain), **C** hybrid.
 - **`out/`** — worked drafts. `out/proper-23-28-a.md` is the proof-of-feel
   example (the banquet: Isa 25 / Ps 23 / Matt 22), all three registers.
 
