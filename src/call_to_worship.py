@@ -63,8 +63,10 @@ def main() -> None:
     b = bundle(occ)
     print(json.dumps(b, indent=2, ensure_ascii=False))
     print(f"\n# Voice spec: {VOICE}")
-    print("# Draft the call from the readings above, in that voice. "
-          "Lean on the Psalm + Gospel; weave, don't quote.")
+    print(f"# Registers: {VOICE.parent / 'registers.md'}")
+    print("# Draft THREE calls from the readings above — A (spare house voice), "
+          "B (immersive/McFee), C (hybrid). Lean on the Psalm + Gospel; "
+          "weave, don't quote.")
 
 
 if __name__ == "__main__":
