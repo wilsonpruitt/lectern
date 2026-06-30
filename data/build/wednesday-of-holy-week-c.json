@@ -224,7 +224,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "At the table he is troubled in spirit.",
+            "One who dips the bread will betray him."
+          ],
+          [
+            "He gives the morsel, and Judas goes out.",
+            "And it was night."
+          ],
+          [
+            "Yet now the Son of Man is glorified.",
+            "We run the race set before us; come, let us worship."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "He dips the morsel and holds it out across the table, to the one whose heart is already turned away.",
+            "The hour has come."
+          ],
+          [
+            "Judas takes the bread and rises; the door opens, the dark pours in, and it was night.",
+            "The hour has come."
+          ],
+          [
+            "He gave his back to those who struck him and did not hide his face from shame, the witness who endured the cross.",
+            "The hour has come."
+          ],
+          [
+            "Make haste, O God, to help us; let us run with our eyes fixed on him. Come, let us worship.",
+            "The hour has come. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "He hands the bread to the betrayer, and Judas goes out.",
+            "The hour has come."
+          ],
+          [
+            "The door opens on the dark, and it was night.",
+            "The hour has come."
+          ],
+          [
+            "Yet the Son of Man is glorified; come, let us worship.",
+            "The hour has come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

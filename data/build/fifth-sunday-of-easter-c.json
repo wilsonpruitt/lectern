@@ -237,7 +237,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Christ is risen!",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "A new command: love one another as I have loved you.",
+            "By this everyone will know we are his."
+          ],
+          [
+            "See, the home of God is among mortals; he makes all things new.",
+            "He will wipe every tear from their eyes."
+          ],
+          [
+            "Sun and moon, sea and mountain, young and old: praise the Lord.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Come as you are, with whatever the week has worn down in you, and hear a voice from the throne: See, I am making all things new.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "The God who flung the stars and named the sea comes close enough to wipe the tears from your face with his own hand.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "And he leaves us one new command to carry out the door: love one another, the way I have loved you.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "For by this love — not by our arguing, not by our certainty — the world will know whose we are.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "So all you works of the Lord, all you peoples, sing the new song:",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A new command: love one another as I have loved you.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "See, God makes a home with us and makes all things new.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He wipes the tears from every face with his own hand.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "All creation, sing; come, let us worship.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -475,7 +475,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "A boy brings five loaves and two fish to a hungry crowd.",
+            "And in the hands of Jesus, little becomes more than enough."
+          ],
+          [
+            "They ate, all five thousand, and the baskets ran over.",
+            "God spreads a table where we saw only lack."
+          ],
+          [
+            "Across the dark water a voice: It is I; do not be afraid.",
+            "We will not fear; the Lord is in the boat."
+          ],
+          [
+            "Come, let us worship the God who feeds us.",
+            "We come hungry, and we are filled. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Five thousand people on a green hillside, and nothing but a boy's lunch, five barley loaves and two small fish, passed into the hands of Jesus.",
+            "Give us this bread always."
+          ],
+          [
+            "He gives thanks and breaks it, and it keeps coming, basket after basket, until everyone has eaten their fill and twelve baskets are left over.",
+            "Give us this bread always."
+          ],
+          [
+            "Night falls, the wind comes up, the disciples strain at the oars, and across the black water he walks, saying, It is I; do not be afraid.",
+            "Give us this bread always."
+          ],
+          [
+            "So bring your little here, your not-enough; in the hands of Jesus it will feed the whole hungry crowd of you.",
+            "Give us this bread always."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Five loaves, two fish, and a hillside of hungry people.",
+            "Give us this bread always."
+          ],
+          [
+            "He breaks it, and the baskets overflow.",
+            "Give us this bread always."
+          ],
+          [
+            "Across the dark water: It is I; do not be afraid.",
+            "Give us this bread always."
+          ],
+          [
+            "Come, let us worship the God who feeds us.",
+            "Give us this bread always. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

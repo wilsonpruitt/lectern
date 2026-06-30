@@ -508,7 +508,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "As a deer longs for flowing streams, so we have come, thirsty for God.",
+            "Why are you cast down, my soul? Hope in God."
+          ],
+          [
+            "We came from the tombs and the noise, like the man Jesus set free.",
+            "He has clothed us, and given us back our right minds."
+          ],
+          [
+            "Out of the wind and the fire came a sound of sheer silence — the voice of God.",
+            "Speak, Lord; we are listening."
+          ],
+          [
+            "Come, let us worship, and tell what God has done.",
+            "We will declare how much God has done for us. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Picture a deer at the end of a long dry day, picking its way down to the streambed — that is your soul, thirsty, leaning toward living water.",
+            "Hope in God; we shall again give praise."
+          ],
+          [
+            "Some of us come worn down, like Elijah under the broom tree, ready to give up — and the angel says, get up and eat, the way is long.",
+            "Hope in God; we shall again give praise."
+          ],
+          [
+            "Some of us come like the man among the tombs, and Jesus speaks, and the chains fall, and we are in our right minds at his feet.",
+            "Hope in God; we shall again give praise."
+          ],
+          [
+            "So bring your thirst and your tears to the stream this morning. Drink deep, and tell the mercy you have found.",
+            "Hope in God; we shall again give praise. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Thirsty as a deer for the stream, we come.",
+            "Hope in God."
+          ],
+          [
+            "From the tombs and the chains, Jesus has set us free.",
+            "Hope in God."
+          ],
+          [
+            "In wind and fire, a quiet voice still calls.",
+            "Hope in God."
+          ],
+          [
+            "Come, drink deep, and worship.",
+            "Hope in God, who is our help. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

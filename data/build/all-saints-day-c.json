@@ -249,7 +249,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Sing to the Lord a new song; praise him in the assembly of the faithful.",
+            "With all the saints, we bless your name."
+          ],
+          [
+            "The saints of the Most High shall receive the kingdom.",
+            "With all the saints, we bless your name."
+          ],
+          [
+            "Blessed are you who are poor, who hunger, who weep now.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Stand for a moment with the great company — the ones who finished the race and rest from their labors.",
+            "With all the saints, we bless your name."
+          ],
+          [
+            "They were not the powerful but the poor, the hungry, the grieving, the merciful.",
+            "With all the saints, we bless your name."
+          ],
+          [
+            "And the kingdom was given to them, an inheritance no moth or rust can touch.",
+            "With all the saints, we bless your name."
+          ],
+          [
+            "So we join our small voices to that great chorus, with eyes of the heart enlightened.",
+            "With all the saints, we bless your name!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "We stand with the great company who rest from their labors.",
+            "With all the saints, we bless your name."
+          ],
+          [
+            "Not the powerful but the poor inherit the kingdom.",
+            "With all the saints, we bless your name."
+          ],
+          [
+            "We add our voices to that great chorus.",
+            "With all the saints, we bless your name. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

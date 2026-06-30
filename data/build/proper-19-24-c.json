@@ -340,21 +340,6 @@
       ],
       "sermons": [
         {
-          "title": "The Lord Our Righteousness",
-          "author": "John Wesley",
-          "text": "Jeremiah 23:6",
-          "tags": [
-            "assurance",
-            "call-and-discipleship",
-            "grace",
-            "joy",
-            "lament",
-            "penitence",
-            "repentance"
-          ],
-          "score": 5.4
-        },
-        {
           "title": "Upon Our Lord's Sermon on the Mount III",
           "author": "John Wesley",
           "text": null,
@@ -366,6 +351,21 @@
             "prayer-and-worship",
             "repentance",
             "tenderness"
+          ],
+          "score": 5.4
+        },
+        {
+          "title": "The Lord Our Righteousness",
+          "author": "John Wesley",
+          "text": "Jeremiah 23:6",
+          "tags": [
+            "assurance",
+            "call-and-discipleship",
+            "grace",
+            "joy",
+            "lament",
+            "penitence",
+            "repentance"
           ],
           "score": 5.4
         },
@@ -398,20 +398,6 @@
           "score": 4.8
         },
         {
-          "title": "The Repentance of Believers",
-          "author": "John Wesley",
-          "text": "Mark 1:15",
-          "tags": [
-            "assurance",
-            "call-and-discipleship",
-            "joy",
-            "penitence",
-            "prayer-and-worship",
-            "repentance"
-          ],
-          "score": 4.8
-        },
-        {
           "title": "The Wilderness State",
           "author": "John Wesley",
           "text": "John 16:22",
@@ -422,6 +408,20 @@
             "prayer-and-worship",
             "repentance",
             "tenderness"
+          ],
+          "score": 4.8
+        },
+        {
+          "title": "The Repentance of Believers",
+          "author": "John Wesley",
+          "text": "Mark 1:15",
+          "tags": [
+            "assurance",
+            "call-and-discipleship",
+            "joy",
+            "penitence",
+            "prayer-and-worship",
+            "repentance"
           ],
           "score": 4.8
         }
@@ -511,7 +511,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "One sheep wandered off, and the shepherd left the ninety-nine to find it.",
+            "He lays it on his shoulders and carries it home rejoicing."
+          ],
+          [
+            "A woman lit a lamp and swept the house until the lost coin gleamed.",
+            "Rejoice with me; what was lost is found."
+          ],
+          [
+            "Christ Jesus came to save sinners, and we are not too far gone for grace.",
+            "Mercy reached the worst of us; mercy reaches us still."
+          ],
+          [
+            "Come, you who were found, and worship.",
+            "There is joy in heaven over us. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Picture a woman on her knees with a lamp, sweeping every corner of a dark house, fingers brushing the floor for one small coin.",
+            "Rejoice with me; what was lost is found."
+          ],
+          [
+            "And when it catches the light at last, she does not pocket it quietly — she runs to the neighbors, calling everyone to be glad.",
+            "Rejoice with me; what was lost is found."
+          ],
+          [
+            "So it is with the shepherd and the strayed sheep, hoisted onto his shoulders and carried home; so it is in heaven over one who turns back.",
+            "Rejoice with me; what was lost is found."
+          ],
+          [
+            "However far off you have felt this week, hear this: Christ came for sinners, and mercy has come looking for you. You are found.",
+            "Rejoice with me; what was lost is found. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The shepherd carries the lost one home on his shoulders.",
+            "What was lost is found."
+          ],
+          [
+            "A lamp is lit; the swept house gives up its coin.",
+            "What was lost is found."
+          ],
+          [
+            "Christ came for sinners; mercy came for us.",
+            "What was lost is found."
+          ],
+          [
+            "Come, you who were found, and worship.",
+            "What was lost is found. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

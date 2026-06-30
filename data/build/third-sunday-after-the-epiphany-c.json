@@ -245,7 +245,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The law of the Lord is perfect, reviving the soul.",
+            "Today this scripture is fulfilled in our hearing."
+          ],
+          [
+            "He has anointed me to bring good news to the poor.",
+            "Today this scripture is fulfilled in our hearing."
+          ],
+          [
+            "The joy of the Lord is your strength.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The scroll is unrolled, the room goes still, and the reader finds the place.",
+            "Today this word is fulfilled in our hearing."
+          ],
+          [
+            "Good news to the poor, release to the captives, sight to the blind, freedom for the crushed.",
+            "Today this word is fulfilled in our hearing."
+          ],
+          [
+            "He rolls up the scroll and says: this is not someday; this is now, this is here.",
+            "Today this word is fulfilled in our hearing."
+          ],
+          [
+            "We are one body, joined to him and to each other; do not grieve, for the joy of the Lord is our strength.",
+            "Today this word is fulfilled in our hearing!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The scroll unrolled, the room gone still.",
+            "Today this word is fulfilled in our hearing."
+          ],
+          [
+            "Good news to the poor, freedom for the crushed.",
+            "Today this word is fulfilled in our hearing."
+          ],
+          [
+            "Not someday — now; the joy of the Lord is our strength.",
+            "Today this word is fulfilled in our hearing. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

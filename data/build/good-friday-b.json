@@ -255,7 +255,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "My God, my God, why have you forsaken me?",
+            "He was wounded for our transgressions."
+          ],
+          [
+            "He was despised, and we held him of no account.",
+            "Upon him was the punishment that made us whole."
+          ],
+          [
+            "From the cross he cries, It is finished.",
+            "By his wounds we are healed."
+          ],
+          [
+            "Let us draw near in silence to the cross.",
+            "We behold the Lamb of God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "On a hill outside the wall they lift him up between two thieves, and the sky goes dark over Jerusalem.",
+            "By his wounds we are healed."
+          ],
+          [
+            "He was despised and rejected, a man of sorrows, and we hid our faces from him.",
+            "By his wounds we are healed."
+          ],
+          [
+            "He was wounded for our transgressions, crushed for our iniquities; the punishment that made us whole fell on him.",
+            "By his wounds we are healed."
+          ],
+          [
+            "From the dry ground of the cross he cries out, My God, why have you forsaken me, and then: It is finished.",
+            "By his wounds we are healed."
+          ],
+          [
+            "So let us draw near with confidence, through the curtain of his torn flesh, and worship.",
+            "By his wounds we are healed. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "They lift him up; the sky goes dark.",
+            "By his wounds we are healed."
+          ],
+          [
+            "Despised, rejected, a man of sorrows.",
+            "By his wounds we are healed."
+          ],
+          [
+            "He is wounded for our transgressions.",
+            "By his wounds we are healed."
+          ],
+          [
+            "From the cross he cries, It is finished.",
+            "By his wounds we are healed. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

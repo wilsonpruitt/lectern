@@ -251,7 +251,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "A bruised reed he will not break.",
+            "He will faithfully bring forth justice."
+          ],
+          [
+            "Mary poured out the ointment, and the house filled with its scent.",
+            "In your light, O Lord, we see light."
+          ],
+          [
+            "The fountain of life is with you.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Come, let us worship the servant on his way.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A jar breaks open, and the whole house fills with the scent of pure nard, costly and poured out without counting the cost.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Mary kneels and wipes his feet with her hair, loving him toward the grave while there is still time to love him.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "This is the servant Isaiah saw: a bruised reed he will not break, a dim wick he will not snuff out, justice carried gently to the nations.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "With you is the fountain of life, and in your light we see light; your steadfast love reaches to the clouds.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Come, while the fragrance still hangs in the air; come and worship the servant on his way to the cross.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The jar breaks; the house fills with the scent of nard.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "A bruised reed he will not break; a dim wick he will not quench.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "With you is the fountain of life; in your light we see light.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Come, let us worship the servant on his way.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

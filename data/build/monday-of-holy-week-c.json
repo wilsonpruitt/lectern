@@ -251,7 +251,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The lamp is lit against the gathering dark.",
+            "In your light we see light."
+          ],
+          [
+            "Mary pours the nard; the house breathes its fragrance.",
+            "She has kept it for the day of his burial."
+          ],
+          [
+            "A bruised reed he will not break.",
+            "Come, let us worship the servant of the Lord."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The fragrance of Mary's nard still hangs in the room, costly and poured out, kept for the day of his burial.",
+            "The hour has come."
+          ],
+          [
+            "He will not break the bruised reed or quench the dimly burning wick; gently he leads the servant's way.",
+            "The hour has come."
+          ],
+          [
+            "With you is the fountain of life, and in your light we see light, even as the shadow lengthens toward the cross.",
+            "The hour has come."
+          ],
+          [
+            "So come near while the lamp still burns; the plot is laid, the road is set. Come, let us worship.",
+            "The hour has come. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Mary's nard fills the house, kept for the day of his burial.",
+            "The hour has come."
+          ],
+          [
+            "A bruised reed he will not break; in his light we see light.",
+            "The hour has come."
+          ],
+          [
+            "The shadow lengthens toward the cross; come, let us worship.",
+            "The hour has come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

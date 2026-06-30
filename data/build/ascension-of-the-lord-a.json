@@ -261,7 +261,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "As they watched, he was lifted up,",
+            "and a cloud took him from their sight."
+          ],
+          [
+            "God has gone up with a shout,",
+            "the Lord with the sound of the trumpet."
+          ],
+          [
+            "His hands were raised in blessing over us.",
+            "We are sent to be his witnesses."
+          ],
+          [
+            "Lift up your hearts!",
+            "Christ reigns. Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Watch with the eleven on the hillside as he raises his wounded hands above them, still blessing as he goes, until a cloud receives him.",
+            "Lift up your hearts: Christ reigns!"
+          ],
+          [
+            "Hear the trumpet and the shout go up — God has ascended, and the King of glory is seated above every power and name.",
+            "Lift up your hearts: Christ reigns!"
+          ],
+          [
+            "Why do you stand looking up to heaven? There is a world to love and a gospel to carry, and you will be his witnesses.",
+            "Lift up your hearts: Christ reigns!"
+          ],
+          [
+            "So clap your hands, all you peoples; sing praises to our God, sing praises.",
+            "Lift up your hearts: Christ reigns!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "He lifted his hands, blessed them, and was carried from their sight.",
+            "Lift up your hearts: Christ reigns!"
+          ],
+          [
+            "God has gone up with a shout and the sound of the trumpet.",
+            "Lift up your hearts: Christ reigns!"
+          ],
+          [
+            "Why stand gazing up? You will be his witnesses.",
+            "Lift up your hearts: Christ reigns!"
+          ],
+          [
+            "Clap your hands, all you peoples. Come, let us worship.",
+            "Lift up your hearts: Christ reigns!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

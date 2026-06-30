@@ -256,7 +256,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The souls of the righteous are in the hand of God.",
+            "No torment will ever touch them."
+          ],
+          [
+            "Lift up your heads, O gates;",
+            "the King of glory comes in."
+          ],
+          [
+            "See, the home of God is among mortals.",
+            "Death will be no more, and every tear wiped away."
+          ],
+          [
+            "Come, let us worship with all the saints.",
+            "We come, and they come with us. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "At the tomb of his friend Jesus wept, and then he called with a loud voice: Lazarus, come out! Unbind him, and let him go.",
+            "God will wipe away every tear."
+          ],
+          [
+            "For the souls of the faithful are in the hand of God, and no torment will touch them; they are at peace.",
+            "God will wipe away every tear."
+          ],
+          [
+            "See, God is making all things new — a new heaven, a new earth, and death itself undone.",
+            "God will wipe away every tear."
+          ],
+          [
+            "So lift up your heads, you gates; the King of glory is coming, and a great cloud of witnesses comes with him. Come, let us worship.",
+            "God will wipe away every tear. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The souls of the righteous rest in God's hand.",
+            "Death shall be no more."
+          ],
+          [
+            "Jesus stood at the grave and called Lazarus out.",
+            "Death shall be no more."
+          ],
+          [
+            "God makes all things new and wipes every tear.",
+            "Death shall be no more."
+          ],
+          [
+            "Come, let us worship with all the saints.",
+            "God will wipe away every tear. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

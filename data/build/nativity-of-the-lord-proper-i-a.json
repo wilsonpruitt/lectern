@@ -251,7 +251,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The people who walked in darkness have seen a great light.",
+            "For to us a child is born."
+          ],
+          [
+            "Tonight in Bethlehem there is no room, and a child is laid in a manger.",
+            "Glory to God in the highest."
+          ],
+          [
+            "The angels fill the sky over the shepherds' field.",
+            "And on earth, peace."
+          ],
+          [
+            "Come, let us worship the newborn King.",
+            "Glory to God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The night is cold and the town is full, and in a back stall, by lamplight, a young mother lays her baby in a feed-trough of straw.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "Out on the dark hillside the shepherds are knocked to their knees by light, and the whole sky is singing.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "The light the prophet promised has come — to people who walked in darkness, a child, and his name is Prince of Peace.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "So come close to the manger, all of you; there is room here for the whole tired world.",
+            "The Word became flesh and dwells among us. Glory to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "By lamplight a child is laid in the straw.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "On a dark hillside the sky breaks into song.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "The people in darkness have seen a great light.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "Come, let us worship the newborn King.",
+            "The Word became flesh and dwells among us. Glory to God!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

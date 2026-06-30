@@ -234,7 +234,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Christ is risen!",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "While it was still dark, Mary came to the tomb and found the stone moved away.",
+            "She turned, and a known voice spoke her name."
+          ],
+          [
+            "This is the day the Lord has made;",
+            "the stone the builders rejected is now the cornerstone."
+          ],
+          [
+            "Go and tell it: we have seen the Lord.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Come out into the garden while the dew is still on the grass and the sky is going from gray to gold.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "The tomb stands open and empty, the stone rolled back, the linen folded where the body had lain.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Mary stands there weeping, and a voice she knows says her name — Mary — and the morning breaks all the way open.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "This is the day the Lord has made; the gates of the righteous swing wide.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "So lift your heads and sing, all you who came here grieving:",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The garden is gray with dawn, the tomb thrown open.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "A known voice speaks her name, and grief turns to morning.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "This is the day the Lord has made.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Come, let us worship the living Lord.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

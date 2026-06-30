@@ -265,7 +265,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Holy, holy, holy is the Lord of hosts.",
+            "Here am I; send me."
+          ],
+          [
+            "The whole earth is full of his glory.",
+            "Here am I; send me."
+          ],
+          [
+            "Put out into the deep water and let down your nets.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The temple shakes, the room fills with smoke, and a voice cries Holy across the thresholds.",
+            "Here am I, Lord; send me."
+          ],
+          [
+            "Who am I to stand here, a person of unclean lips — and yet a coal of mercy touches me clean.",
+            "Here am I, Lord; send me."
+          ],
+          [
+            "And on a lake, tired fishermen who caught nothing all night are told: try again, deeper.",
+            "Here am I, Lord; send me."
+          ],
+          [
+            "The nets break with abundance; the unworthy are called; do not be afraid.",
+            "Here am I, Lord; send me!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The temple shakes; a voice cries Holy.",
+            "Here am I, Lord; send me."
+          ],
+          [
+            "A coal of mercy touches unclean lips clean.",
+            "Here am I, Lord; send me."
+          ],
+          [
+            "Put out into the deep; the nets break with grace.",
+            "Here am I, Lord; send me. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -241,7 +241,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Before I formed you in the womb I knew you.",
+            "In you, O Lord, we take refuge."
+          ],
+          [
+            "Do not be afraid, for I am with you to deliver you.",
+            "In you, O Lord, we take refuge."
+          ],
+          [
+            "And now faith, hope, and love abide; the greatest of these is love.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Hear the word spoken to a young and frightened prophet: I knew you before you were.",
+            "In you, O Lord, we take refuge."
+          ],
+          [
+            "Do not say you are too young, too small, too unready; I will put my words in your mouth.",
+            "In you, O Lord, we take refuge."
+          ],
+          [
+            "The truth is not always welcome; even hometowns turn on the ones who tell it.",
+            "In you, O Lord, we take refuge."
+          ],
+          [
+            "But love bears all things, believes all things, hopes all things, endures all things.",
+            "In you, O Lord, we take refuge; love never ends!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Before you were formed, God knew you and called you.",
+            "In you, O Lord, we take refuge."
+          ],
+          [
+            "Do not be afraid; God puts his words in your mouth.",
+            "In you, O Lord, we take refuge."
+          ],
+          [
+            "Love bears, believes, hopes, endures; love never ends.",
+            "In you, O Lord, we take refuge. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

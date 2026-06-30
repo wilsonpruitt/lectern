@@ -259,7 +259,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The Lord is my shepherd; I shall not want.",
+            "He leads us beside still waters."
+          ],
+          [
+            "We have wandered through the valley of shadow.",
+            "But you are with us; we fear no evil."
+          ],
+          [
+            "The good shepherd lays down his life for the sheep.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Come, let us worship; he knows us by name.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Come and lie down in the green grass, you who are tired of running, and let the Shepherd lead you to still water.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He calls each of us by name, and we know his voice, the way sheep know the one who feeds them.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He does not run when the wolf comes; he is no hired hand; he lays down his life for the sheep.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "And though we walk through the darkest valley, his rod and staff are with us, and his table is already set.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The Shepherd leads us beside still waters.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He calls us by name, and we know his voice.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He lays down his life for the sheep.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Come, let us follow where he leads.",
+            "We shall not want. Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -245,7 +245,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "How lovely is your dwelling place, O Lord of hosts.",
+            "My soul longs for the courts of the Lord."
+          ],
+          [
+            "Even the sparrow finds a home near your altar.",
+            "Happy are those who dwell in your house."
+          ],
+          [
+            "Simeon took the child and blessed God.",
+            "A light for revelation, a glory for your people."
+          ],
+          [
+            "Come, let us worship in the house of the Lord.",
+            "How lovely is your dwelling place! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A young couple climbs the temple steps with a baby and two small birds, the poor man's offering, and walks into the house of God.",
+            "How lovely is your dwelling place, O Lord!"
+          ],
+          [
+            "My soul longs and faints for your courts; even the sparrow finds a home and the swallow a nest near your altar.",
+            "How lovely is your dwelling place, O Lord!"
+          ],
+          [
+            "And old Simeon, who had waited his whole life, lifts the child and calls him a light to the nations, a glory for Israel.",
+            "How lovely is your dwelling place, O Lord!"
+          ],
+          [
+            "So we come into these courts carrying our own long waiting, and we worship the light that has come.",
+            "How lovely is your dwelling place, O Lord! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Up the temple steps they carry the child.",
+            "How lovely is your dwelling place, O Lord!"
+          ],
+          [
+            "Even the sparrow finds a home near your altar.",
+            "How lovely is your dwelling place, O Lord!"
+          ],
+          [
+            "Simeon lifts him: a light for the nations.",
+            "How lovely is your dwelling place, O Lord!"
+          ],
+          [
+            "Come, let us worship in the house of the Lord.",
+            "How lovely is your dwelling place, O Lord! Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

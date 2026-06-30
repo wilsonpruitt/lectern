@@ -244,7 +244,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Mary set out and hurried to the hill country, to the house of Elizabeth.",
+            "And the child leaped in the womb for joy."
+          ],
+          [
+            "Blessed are you among women, and blessed is the fruit of your womb.",
+            "My soul magnifies the Lord, and my spirit rejoices in God my Savior."
+          ],
+          [
+            "He has brought down the powerful and lifted up the lowly;",
+            "he has filled the hungry and sent the rich away empty."
+          ],
+          [
+            "Come, let us magnify the Lord who keeps his promise.",
+            "My soul magnifies the Lord!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Picture two women meeting on a doorstep in the hills, one old and long past hope, one young and only just beginning.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "At the sound of the greeting the child leaps in the womb, and the Spirit fills the older woman with a shout: Blessed are you!",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "And out of the young woman pours a song the poor have always sung: he scatters the proud and lifts the lowly from the dust.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "He fills the hungry with good things and remembers the mercy he promised long ago.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "So sing with Mary and Hannah and every mother of hope:",
+            "My soul magnifies the Lord!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Mary hurries to the hills, and the child leaps for joy.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "Blessed are you among women, and blessed the One you carry.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "He lifts the lowly from the dust and fills the hungry.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "Come, let us rejoice in God our Savior.",
+            "My soul magnifies the Lord!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

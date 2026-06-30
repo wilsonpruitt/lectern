@@ -248,7 +248,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Come, Holy Spirit,",
+            "the fire of God, the breath of life."
+          ],
+          [
+            "Come like the wind that filled the house,",
+            "and rest like flame on all who wait."
+          ],
+          [
+            "Send forth your Spirit, and we are made new.",
+            "Renew the face of the earth."
+          ],
+          [
+            "Come, Holy Spirit.",
+            "Breathe on us, and we will worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "They were all together when the sound came — a rushing wind that filled the whole house and would not be shut out.",
+            "Come, Holy Spirit, breathe on us."
+          ],
+          [
+            "Then the fire: tongues of flame resting on each of them, and strangers from every nation hearing their own language spoken.",
+            "Come, Holy Spirit, breathe on us."
+          ],
+          [
+            "The same breath that hovered over the waters, the same breath the risen Lord blew into the room — that breath is moving here.",
+            "Come, Holy Spirit, breathe on us."
+          ],
+          [
+            "Send forth your Spirit, O God; renew the face of the earth, and kindle your fire in us.",
+            "Come, Holy Spirit, breathe on us."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A rushing wind filled the house where they waited.",
+            "Come, Holy Spirit, breathe on us."
+          ],
+          [
+            "Tongues of fire rested on them, and every nation heard.",
+            "Come, Holy Spirit, breathe on us."
+          ],
+          [
+            "The risen Lord breathed, and they were filled.",
+            "Come, Holy Spirit, breathe on us."
+          ],
+          [
+            "Send forth your Spirit; renew the earth. Come, let us worship.",
+            "Come, Holy Spirit, breathe on us."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

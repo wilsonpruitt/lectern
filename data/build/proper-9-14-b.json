@@ -486,7 +486,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Great is the Lord, and greatly to be praised.",
+            "In the city of our God, on the holy mountain."
+          ],
+          [
+            "He sent them out two by two, with nothing for the road.",
+            "No bread, no bag, only the Word and one another."
+          ],
+          [
+            "A prophet is honored everywhere but at home.",
+            "Still we will go where Christ would send us."
+          ],
+          [
+            "Come, let us worship; then come, let us be sent.",
+            "We come to praise, and we will go. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Walk about Zion, count her towers, feel the ground under your feet; this is the city of our God, and God is its sure defense.",
+            "Great is the Lord, and greatly to be praised."
+          ],
+          [
+            "Jesus calls the twelve and sends them down the road two by two, taking nothing but a staff: no bread, no bag, no money in their belts.",
+            "Great is the Lord, and greatly to be praised."
+          ],
+          [
+            "Even at home they would not believe him, and he marveled, yet he kept sending, kept healing, kept calling unlikely people to go.",
+            "Great is the Lord, and greatly to be praised."
+          ],
+          [
+            "So worship now, and then lace up your sandals; the same Lord who gathers us here will send us out light and unafraid.",
+            "Great is the Lord, and greatly to be praised, and we will go."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Walk about Zion; this is the city of our God.",
+            "Great is the Lord, greatly to be praised."
+          ],
+          [
+            "He sends us out two by two, light for the road.",
+            "Great is the Lord, greatly to be praised."
+          ],
+          [
+            "Honored or not, we go where Christ sends.",
+            "Great is the Lord, greatly to be praised."
+          ],
+          [
+            "Come, let us worship, then let us be sent.",
+            "Great is the Lord, greatly to be praised. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

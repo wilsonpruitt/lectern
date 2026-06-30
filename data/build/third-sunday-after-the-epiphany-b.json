@@ -235,7 +235,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The time is fulfilled; the kingdom of God is near.",
+            "Repent, and believe the good news."
+          ],
+          [
+            "Jesus walked the shore and called the fishermen.",
+            "Follow me, and I will make you fish for people."
+          ],
+          [
+            "They left their nets and went with him.",
+            "Here we are; we leave our nets to follow."
+          ],
+          [
+            "Come, let us worship and answer the call.",
+            "Here we are; we follow you. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Down by the sea the nets were heavy and wet, the morning's work half done, when a stranger walked the shore and called them by name.",
+            "We leave our nets and follow you."
+          ],
+          [
+            "The time is fulfilled, he said, the kingdom of God has come near; turn around, and trust the good news.",
+            "We leave our nets and follow you."
+          ],
+          [
+            "And they left the boats, left the nets, left their father with the hired hands, and went.",
+            "We leave our nets and follow you."
+          ],
+          [
+            "For God alone our souls wait in silence; he is our rock, and when he calls we rise.",
+            "We leave our nets and follow you. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Jesus walks the shore where the nets are drying.",
+            "We leave our nets and follow you."
+          ],
+          [
+            "The kingdom is near; repent and believe.",
+            "We leave our nets and follow you."
+          ],
+          [
+            "They drop the nets and leave the boat behind.",
+            "We leave our nets and follow you."
+          ],
+          [
+            "Come, let us worship and answer his call.",
+            "We leave our nets and follow you. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

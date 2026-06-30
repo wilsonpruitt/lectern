@@ -261,7 +261,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Christ is risen!",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Peace I leave with you; my peace I give to you.",
+            "Let not your hearts be troubled or afraid."
+          ],
+          [
+            "Those who love me will keep my word, and we will come and make our home with them.",
+            "The Father will send the Spirit to teach us all things."
+          ],
+          [
+            "Come to the city of light, the river of life, the tree whose leaves heal the nations.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Imagine a city where the gates never close and the night never falls, because the Lamb himself is its light.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Down its main street runs a river bright as crystal, and on the banks a tree whose leaves are for the healing of the nations.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "And the One who makes that home says to you now: Peace I leave with you; do not let your hearts be afraid.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Those who love me will keep my word, and the Father and I will come and make our home with them.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "So bring your troubled heart to the river and the light:",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Peace I leave with you; do not be afraid.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Those who love me, my Father and I will make our home with them.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "A river of life runs through the city, the tree healing the nations.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Come to the light that never fails; let us worship.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -224,7 +224,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "He gave the bread to the one who would betray him.",
+            "And it was night."
+          ],
+          [
+            "Be pleased, O God, to deliver us; make haste to help us.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "We run with endurance the race set before us.",
+            "Looking to Jesus, who endured the cross."
+          ],
+          [
+            "Come, let us worship as the shadows fall.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "At the table he is troubled in spirit, and he takes a piece of bread, dips it, and hands it to the one who will sell him.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "The friend takes the morsel and rises and goes out, and the gospel says only this: and it was night.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Make haste, O God, to deliver us; you are our help and our deliverer; do not delay.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Around us hangs a great cloud of witnesses; lay aside every weight, and run the race set before you.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Look to Jesus, who for the joy set before him endured the cross. Come, let us worship as night comes on.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "He hands the bread to the one who will betray him; it was night.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Make haste, O God, to help us; do not delay.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Surrounded by a cloud of witnesses, we run the race.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Looking to Jesus, come, let us worship.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -239,7 +239,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Arise, shine; your light has come.",
+            "The glory of the Lord rises upon us."
+          ],
+          [
+            "Wise men followed a star out of the east.",
+            "We have come to kneel before the King."
+          ],
+          [
+            "They opened their treasures: gold, frankincense, myrrh.",
+            "We bring him all that we are."
+          ],
+          [
+            "Come, let us worship the light of the world.",
+            "Glory to God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Lift your eyes from the dark road and look up — there is a light in the east, low and steady, and it is moving, and it is meant to be followed.",
+            "Arise, shine; your light has come."
+          ],
+          [
+            "Over a land still wrapped in night, the glory of the Lord is rising, and the nations are streaming toward the brightness.",
+            "Arise, shine; your light has come."
+          ],
+          [
+            "Travelers from far countries kneel in a small house and open their treasures — gold, frankincense, and myrrh.",
+            "Arise, shine; your light has come."
+          ],
+          [
+            "So bring what you carry and lay it down; the One the star pointed to is here.",
+            "Arise, shine; your light has come. Glory to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A light rises in the east; the dark gives way.",
+            "Arise, shine; your light has come."
+          ],
+          [
+            "The wise men follow the star to the child.",
+            "Arise, shine; your light has come."
+          ],
+          [
+            "They open their treasures and kneel down.",
+            "Arise, shine; your light has come."
+          ],
+          [
+            "Come, let us worship the light of the world.",
+            "Arise, shine; your light has come. Glory to God!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -252,7 +252,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "While we were talking, he stood among us.",
+            "Peace be with you, he said."
+          ],
+          [
+            "We were startled, thinking we saw a ghost.",
+            "But look at my hands; touch me and see."
+          ],
+          [
+            "He took a piece of fish and ate before us.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He opened our minds to understand. Come, let us worship.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Come and stand close, you who are startled and slow to believe, you who half expect a ghost.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "See his hands, see his feet; this is no spirit but flesh and bone, the friend you watched them kill.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Watch him take the broiled fish and eat it in front of you, ordinary as any supper.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Then he opens your mind like a book, and the light of his face falls on you, and you can lie down in peace.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "He stands among us: do not be afraid.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Touch my hands and feet; it is myself.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He eats the fish and opens up the Scriptures.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Come, let us worship in the light of his face.",
+            "We are witnesses. Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

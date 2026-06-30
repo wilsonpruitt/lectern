@@ -237,7 +237,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Your steadfast love, O Lord, extends to the heavens.",
+            "With you is the fountain of life."
+          ],
+          [
+            "The water blushed into wine, and the best was kept for last.",
+            "With you is the fountain of life."
+          ],
+          [
+            "He revealed his glory, and his disciples believed.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A wedding running out of wine, an ordinary feast on the edge of embarrassment.",
+            "In you is the fountain of life."
+          ],
+          [
+            "Six stone jars, plain water, a quiet word — and abundance no one ordered.",
+            "In you is the fountain of life."
+          ],
+          [
+            "This is the sign of the kingdom: the best is not behind us; the best is still being poured.",
+            "In you is the fountain of life."
+          ],
+          [
+            "So bring your empty jars, your run-dry places; the glory of God is generous.",
+            "In you is the fountain of life; we drink and are glad!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A feast run dry; plain water poured.",
+            "In you is the fountain of life."
+          ],
+          [
+            "Six stone jars, a quiet word, abundance.",
+            "In you is the fountain of life."
+          ],
+          [
+            "The best is still being poured; bring your empty jars.",
+            "In you is the fountain of life. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -472,7 +472,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Hear, O Israel: the Lord our God, the Lord is one.",
+            "We will love the Lord with all our heart."
+          ],
+          [
+            "And the second is like it:",
+            "love your neighbor as yourself."
+          ],
+          [
+            "On these two hang the whole of the law.",
+            "We are not far from the kingdom of God."
+          ],
+          [
+            "Come, let us worship with heart and soul and strength.",
+            "We come to love God and neighbor. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A scribe asked, Which commandment is the first of all? And Jesus answered with the words Israel has carried since Moses: Hear, O Israel, the Lord our God, the Lord is one.",
+            "Love the Lord your God with all your heart."
+          ],
+          [
+            "Bind these words on your hand, write them on your doorposts, teach them to your children, keep them close as breath.",
+            "Love the Lord your God with all your heart."
+          ],
+          [
+            "And do not stop there, he said; the second is like it — you shall love your neighbor as yourself.",
+            "Love the Lord your God with all your heart."
+          ],
+          [
+            "You are not far from the kingdom. Come near now; bring your whole heart and soul and strength and worship.",
+            "Love the Lord your God with all your heart, and your neighbor as yourself. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Hear, O Israel: the Lord our God is one.",
+            "With all our heart."
+          ],
+          [
+            "You shall love the Lord your God.",
+            "With all our heart."
+          ],
+          [
+            "And love your neighbor as yourself.",
+            "With all our heart."
+          ],
+          [
+            "Come near; you are not far from the kingdom.",
+            "We come to love God and neighbor. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

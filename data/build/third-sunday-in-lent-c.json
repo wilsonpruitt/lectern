@@ -250,7 +250,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Welcome, pilgrims on the way to the cross.",
+            "We are learning to follow Jesus."
+          ],
+          [
+            "The land is dry, and our souls are thirsty.",
+            "We thirst for the living God."
+          ],
+          [
+            "Come to the waters, all who have no money; come, buy and eat.",
+            "We come; let us worship the Lord who satisfies."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Can you feel the thirst — the dry and weary land where there is no water, the tongue that cleaves for want of a spring?",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "You who have no money, you who have spent it all on what does not satisfy, come to the waters and drink.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "The gardener kneels at the barren tree, loosens the soil, and pleads for one more year.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "So seek the Lord while he may be found; come to the table he has spread.",
+            "We are pilgrims on the way to the cross. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Our souls thirst in a dry and weary land.",
+            "Turn us, O God, and we will return."
+          ],
+          [
+            "Come to the waters, all who are thirsty; come and drink.",
+            "Turn us, O God, and we will return."
+          ],
+          [
+            "The tree is given one more year to bear; seek the Lord while he is near.",
+            "Turn us, O God, and we will return. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

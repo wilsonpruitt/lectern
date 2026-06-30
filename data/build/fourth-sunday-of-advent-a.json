@@ -237,7 +237,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "A child will be born, and they will call him Emmanuel.",
+            "God is with us."
+          ],
+          [
+            "Restore us, O God; let your face shine.",
+            "Then we shall be saved."
+          ],
+          [
+            "He will be named Jesus, for he saves his people.",
+            "God is with us."
+          ],
+          [
+            "Come, let us worship the God who draws near.",
+            "Come, Lord Jesus. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Hold this name in your mouth like a promise: Emmanuel — God with us — the name given before the child was born.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "We have prayed in the long dark, O Shepherd of Israel: turn your face toward us, let it shine, and bring us home.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "An angel steadies a frightened man in his sleep: do not be afraid; name the child Jesus, for he will save.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "The waiting is almost over; the One whose name means God-with-us is at the door.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A child is coming; his name is God-with-us.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Turn your face toward us, Shepherd, and shine.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Do not be afraid; he comes to save.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Come, let us worship Emmanuel.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

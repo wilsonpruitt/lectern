@@ -224,7 +224,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The days are surely coming, says the Lord.",
+            "We lift up our souls and wait."
+          ],
+          [
+            "A righteous Branch will spring up for the land.",
+            "We lift up our souls and wait."
+          ],
+          [
+            "Stand up and raise your heads; your redemption draws near.",
+            "Come, let us worship the God who is coming. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Look up. The night is wide and the stars are unsteady, and somewhere a green shoot is pushing through frozen ground.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Into our waiting, into the long dark of the year, God is doing a slow and certain thing.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "A branch will grow from an old cut stump; what looked finished is not finished.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "So lift up your heads, watch the horizon, lean toward the dawn.",
+            "Come, Lord Jesus, come. We are watching for you."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A green branch from an old stump — God is not finished.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "We lift up our souls in the long dark.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Lift up your heads; redemption draws near.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

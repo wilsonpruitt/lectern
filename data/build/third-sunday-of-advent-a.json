@@ -243,7 +243,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The desert will blossom; the dry land will sing.",
+            "Sorrow and sighing will flee away."
+          ],
+          [
+            "The blind see, the lame leap, the silent shout.",
+            "This is the work of the One who comes."
+          ],
+          [
+            "Be patient, like the farmer waiting for rain.",
+            "The harvest of God is near."
+          ],
+          [
+            "Come, let us worship with joy.",
+            "Come, Lord Jesus. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Feel the dry ground under your feet, cracked and thirsty — and then the water comes, and the desert breaks into bloom.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "The eyes of the blind are opening, the locked ears unsealed, the ones who could not walk are leaping like deer.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "So be patient, the way a farmer is patient, watching the sky for the early rain and the late.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Come up the holy road with singing; the ransomed of the Lord are going home.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The thirsty desert blooms and starts to sing.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "The blind now see; the lame leap up for joy.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Be patient for the harvest, near at hand.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Come, let us worship the God of joy.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

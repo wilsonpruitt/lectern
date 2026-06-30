@@ -262,7 +262,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "In the wilderness they were dying of their own venom.",
+            "God lifted up a sign, and those who looked were healed."
+          ],
+          [
+            "So the Son of Man was lifted on a tree.",
+            "God so loved the world that he gave his only Son."
+          ],
+          [
+            "What the world calls foolishness,",
+            "we call the power and the wisdom of God."
+          ],
+          [
+            "Come, lift your eyes to the cross.",
+            "We look to the cross and live. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Look up. In the desert a bronze serpent caught the light, and the dying turned their faces toward it and breathed again.",
+            "We look to the cross and live."
+          ],
+          [
+            "Look up. On a hill outside the city the Son of Man was lifted between earth and sky, and the love of God was spread as wide as his arms.",
+            "We look to the cross and live."
+          ],
+          [
+            "Wherever you have been bitten, whatever poison you carry, turn your face this way; God did not send the Son to condemn the world but to save it.",
+            "We look to the cross and live."
+          ],
+          [
+            "So sing a new song, for God has done marvelous things. Lift high the cross and come to worship.",
+            "We look to the cross and live. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "In the desert the dying looked up at the sign God raised.",
+            "We look, and we live."
+          ],
+          [
+            "On the hill the Son of Man was lifted for the world.",
+            "We look, and we live."
+          ],
+          [
+            "God so loved that he gave; he came not to condemn.",
+            "We look, and we live."
+          ],
+          [
+            "Come, lift your eyes and worship.",
+            "We look to the cross and live. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

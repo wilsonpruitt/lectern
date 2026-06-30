@@ -262,7 +262,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "In the wilderness, what wounded was lifted up to heal.",
+            "We look to the cross and live."
+          ],
+          [
+            "God so loved the world that he gave his only Son.",
+            "We look to the cross and live."
+          ],
+          [
+            "The message of the cross is the power of God.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Remember the desert: a people dying of their own venom, told to look up at the thing that wounded them.",
+            "We look to the cross and live."
+          ],
+          [
+            "What the world calls foolishness — a man on a tree — God calls power and wisdom.",
+            "We look to the cross and live."
+          ],
+          [
+            "For God so loved the world that he gave, and gave, and held nothing back.",
+            "We look to the cross and live."
+          ],
+          [
+            "So lift your eyes to the lifted Christ; not to condemn the world, but to save it.",
+            "We look to the cross and live!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "What wounded us is lifted up to heal.",
+            "We look to the cross and live."
+          ],
+          [
+            "The foolishness of the cross is the power of God.",
+            "We look to the cross and live."
+          ],
+          [
+            "God so loved the world that he gave his Son.",
+            "We look to the cross and live. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

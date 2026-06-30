@@ -469,7 +469,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Before a word is on our tongue, O Lord, you know it.",
+            "You search us out; you know us through and through."
+          ],
+          [
+            "The lamp of God has not gone out; a boy hears his name in the dark.",
+            "Speak, Lord; your servant is listening."
+          ],
+          [
+            "You made the sabbath for us, not us for the sabbath.",
+            "Here we lay our burdens down and breathe."
+          ],
+          [
+            "Come, let us worship the God who knows us by name.",
+            "We come to listen and obey. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "It is the middle of the night, the lamp of God still flickering, and a voice you almost miss is calling your name.",
+            "Speak, Lord; your servant is listening."
+          ],
+          [
+            "There is no dark deep enough to hide you from God; the night is as bright as the day to the One who knit you together.",
+            "Speak, Lord; your servant is listening."
+          ],
+          [
+            "You come carrying a long week, hungry as the disciples in the grainfields, and God says the day of rest was made for you.",
+            "Speak, Lord; your servant is listening."
+          ],
+          [
+            "So lay down your burden and lift up your head; the One who knows you completely is glad you have come.",
+            "Speak, Lord; your servant is listening. Here we are."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The lamp still burns; a voice calls in the dark.",
+            "Speak, Lord; we are listening."
+          ],
+          [
+            "You knew our words before we spoke them.",
+            "Speak, Lord; we are listening."
+          ],
+          [
+            "The sabbath was made for us; here we rest.",
+            "Speak, Lord; we are listening."
+          ],
+          [
+            "Come, let us worship the God who calls us by name.",
+            "Speak, Lord; we are listening. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

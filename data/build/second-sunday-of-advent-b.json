@@ -248,7 +248,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "A voice cries out in the wilderness.",
+            "Prepare the way of the Lord."
+          ],
+          [
+            "Make the rough places a level road.",
+            "Every valley shall be lifted up."
+          ],
+          [
+            "One is coming whose sandal we cannot untie.",
+            "We wait for him in the wilderness."
+          ],
+          [
+            "Come, let us worship and ready the way.",
+            "Come, Lord Jesus. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Out in the wilderness a voice is crying — clear the road, fill the valleys, bring down the hills, and make a straight way home.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Comfort, comfort my people, says your God; the warfare is ended, the long exile done.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "He will feed his flock like a shepherd, gather the lambs close, and carry the weary in his arms.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "So we step into the wilderness to wait, and we make the road ready for our God.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A voice cries out across the wilderness.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Make the road straight; fill every valley.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "The Shepherd gathers the lambs in his arms.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Come, let us worship and prepare the way.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

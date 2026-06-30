@@ -251,7 +251,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "He emptied himself, taking the form of a servant.",
+            "He humbled himself and obeyed, even to death."
+          ],
+          [
+            "He did not hide his face from shame and spitting.",
+            "Into your hands, O Lord, we commit our spirits."
+          ],
+          [
+            "At the table he gave the bread and the cup.",
+            "This is my body; this is my blood, poured out for you."
+          ],
+          [
+            "Come, let us worship the One who goes to the cross.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The shouting of Sunday has died down; now the table is set in an upper room, and the bread is broken, and the cup is poured out.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "The servant gives his back to those who strike, his cheeks to those who pull the beard, and does not turn his face away.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Though he was in the form of God, he emptied himself, took the form of a slave, and became obedient even to death on a cross.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Into the long night he goes, betrayed with a kiss, abandoned in a garden, handed over to the powers.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "So every knee shall bend and every tongue confess that he is Lord. Come, let us worship and follow him down.",
+            "Do not be far from us, O Lord; into your hands we commit our spirits. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The shouts fade; the bread is broken, the cup poured out.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "He emptied himself, obedient even to death on a cross.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Into your hands we commit our spirits.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "Come, let us worship the One who goes to the cross.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

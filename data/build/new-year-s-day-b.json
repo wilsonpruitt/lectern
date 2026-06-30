@@ -238,7 +238,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "For everything there is a season under heaven.",
+            "A time to be born, and a time to die."
+          ],
+          [
+            "The One on the throne says: I make all things new.",
+            "I am the beginning and the end."
+          ],
+          [
+            "Whatever you did for the least of these, you did for me.",
+            "Lord, when did we see you? Teach us to see."
+          ],
+          [
+            "Come, let us worship at the turning of the year.",
+            "Glory to God in the highest! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The old year closes and a new one opens, and the One seated on the throne says: See, I am making all things new.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "For everything there is a season — a time to weep and a time to laugh, a time to mourn and a time to dance.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "He will wipe every tear from our eyes; death and mourning and crying will be no more, for the old order has passed away.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "So we step into the new year looking for his face in the least of these, and we worship the Alpha and the Omega.",
+            "Glory to God in the highest! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "For everything there is a season under heaven.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "Behold, says the Lord, I make all things new.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "He wipes every tear; the old has passed away.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "Come, let us worship the beginning and the end.",
+            "Glory to God in the highest! Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

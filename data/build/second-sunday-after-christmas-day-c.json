@@ -250,7 +250,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Sing for joy; the Lord has gathered his people home.",
+            "The Word became flesh, full of grace and truth."
+          ],
+          [
+            "They shall be radiant over the goodness of the Lord.",
+            "The Word became flesh, full of grace and truth."
+          ],
+          [
+            "From his fullness we have received grace upon grace.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Imagine a long road home — the scattered being gathered, the weeping turned to dancing.",
+            "The Word became flesh and lived among us."
+          ],
+          [
+            "God has gathered us from far places and turned our mourning into joy.",
+            "The Word became flesh and lived among us."
+          ],
+          [
+            "For the Word who was in the beginning has come and made his home with us.",
+            "The Word became flesh and lived among us."
+          ],
+          [
+            "And from his endless fullness we receive grace, and then more grace.",
+            "The Word became flesh, full of grace and truth!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The scattered gathered, mourning turned to dancing.",
+            "The Word became flesh and lived among us."
+          ],
+          [
+            "The Word of the beginning makes his home with us.",
+            "The Word became flesh and lived among us."
+          ],
+          [
+            "From his fullness, grace upon grace.",
+            "The Word became flesh, full of grace and truth. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

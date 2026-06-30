@@ -257,7 +257,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Do not fear, for I have redeemed you; I have called you by name.",
+            "You are mine, says the Lord."
+          ],
+          [
+            "When you pass through the waters, I will be with you.",
+            "You are mine, says the Lord."
+          ],
+          [
+            "A voice came from heaven: You are my beloved.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Feel the water — cold, then warm, running down, the river closing over and opening again.",
+            "You are my beloved; with you I am well pleased."
+          ],
+          [
+            "The same voice that thundered over the deep speaks now, gentle, over you.",
+            "You are my beloved; with you I am well pleased."
+          ],
+          [
+            "Do not fear; you have been called by name, and the waters cannot sweep you away.",
+            "You are my beloved; with you I am well pleased."
+          ],
+          [
+            "Heaven opens; the Spirit descends; and the word over Jesus is the word over you.",
+            "You are my beloved; with you I am well pleased!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Called by name, you pass through the waters unafraid.",
+            "You are my beloved; with you I am well pleased."
+          ],
+          [
+            "The voice over the deep speaks gently over you.",
+            "You are my beloved; with you I am well pleased."
+          ],
+          [
+            "Heaven opens, the Spirit falls, the word is spoken.",
+            "You are my beloved. Come, let us worship. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -238,7 +238,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "For everything there is a season.",
+            "And a time for every matter under heaven."
+          ],
+          [
+            "See, God is making all things new.",
+            "The old has gone; behold, the new."
+          ],
+          [
+            "Whatever you did for the least of these, you did for me.",
+            "Send us to the ones you love."
+          ],
+          [
+            "Come, let us worship at the turning of the year.",
+            "Thanks be to God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A year has worn down to its last hour, and you carry into this room all of it — the planting and the uprooting, the weeping and the laughing.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "Hear the One on the throne say it over your tired year: See, I am making all things new — and he wipes the tears from your face.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "He points us back out the door, toward the hungry and the stranger and the prisoner: whatever you did for them, you did for me.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "So step into the new year unafraid; the Alpha and the Omega holds both ends of your days.",
+            "The Word became flesh and dwells among us. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "For everything there is a season under heaven.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "God says, See, I am making all things new.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "What you did for the least, you did for me.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "Come, let us worship at the turn of the year.",
+            "The Word became flesh and dwells among us. Thanks be to God!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

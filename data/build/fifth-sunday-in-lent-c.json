@@ -259,7 +259,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "God is doing a new thing; do you not perceive it?",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "A way through the wilderness, rivers in the desert.",
+            "We press on toward the prize of God's call."
+          ],
+          [
+            "Mary breaks the jar; the house fills with the scent of love.",
+            "We pour out our lives; come, let us worship."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Breathe in — the whole house fills with the scent of broken nard, a year's wages poured out over his feet.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "She loosens her hair and wipes his feet, and the fragrance follows him toward the tomb he will not refuse.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "For God is making a way in the wilderness, rivers where the ground was only dust.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "Those who sow in tears will reap with shouts of joy. Press on; the road bends now toward Jerusalem.",
+            "We are pilgrims on the way to the cross. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Mary pours the costly nard, and the house is filled with its fragrance.",
+            "Turn us, O God, and we will return."
+          ],
+          [
+            "God is making a way in the wilderness, rivers in the desert.",
+            "Turn us, O God, and we will return."
+          ],
+          [
+            "We press on toward the goal; the road turns to Jerusalem.",
+            "Turn us, O God, and we will return. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

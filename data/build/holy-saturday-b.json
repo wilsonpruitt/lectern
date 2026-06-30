@@ -233,7 +233,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "They laid him in a tomb cut from the rock.",
+            "And they rolled a stone against the door."
+          ],
+          [
+            "If a tree is cut down, there is hope it will sprout.",
+            "But where, O God, is our hope now?"
+          ],
+          [
+            "The earth keeps its silence; the stone is sealed.",
+            "Into your hands we commend our spirits."
+          ],
+          [
+            "We wait through the long sabbath of the grave.",
+            "We wait in silence for the Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The body has been taken down, wrapped in linen, and laid in a new tomb in the garden.",
+            "We wait in silence for the Lord."
+          ],
+          [
+            "A great stone is rolled across the entrance, sealed and guarded; the long sabbath settles over the earth.",
+            "We wait in silence for the Lord."
+          ],
+          [
+            "Job's question hangs in the air: a tree cut down may sprout again, but when we lie down, do we rise?",
+            "We wait in silence for the Lord."
+          ],
+          [
+            "Into your hands, O God, we commend our spirits, and all we love that lies in the dark.",
+            "We wait in silence for the Lord."
+          ],
+          [
+            "So we keep watch at the sealed door, neither in grief's full night nor yet in morning.",
+            "We wait in silence for the Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "They lay him in a tomb cut from the rock.",
+            "Into your hands we commend our spirits."
+          ],
+          [
+            "A stone is rolled and sealed across the door.",
+            "Into your hands we commend our spirits."
+          ],
+          [
+            "The long sabbath settles; the earth keeps still.",
+            "Into your hands we commend our spirits."
+          ],
+          [
+            "We watch and wait for what God will do.",
+            "Into your hands we commend our spirits. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

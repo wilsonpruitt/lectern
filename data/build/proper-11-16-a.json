@@ -472,7 +472,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Jacob lay down on a stone and dreamed of a ladder.",
+            "Surely the Lord is in this place."
+          ],
+          [
+            "Where can we go from your Spirit, where flee from your face?",
+            "If we make our bed in the dark, you are there."
+          ],
+          [
+            "You searched us out before we said a word.",
+            "You have known us all along."
+          ],
+          [
+            "Come, let us worship the God who is here.",
+            "This is the house of God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Feel the hard stone Jacob put under his head in the empty country, alone, on the run, with nowhere left to go.",
+            "Surely the Lord is in this place."
+          ],
+          [
+            "And in the night a stairway opened from earth to heaven, angels going up and down, and a voice promising: I am with you.",
+            "Surely the Lord is in this place."
+          ],
+          [
+            "The psalmist says it too — there is no dark you can crawl into where God is not already waiting.",
+            "Surely the Lord is in this place."
+          ],
+          [
+            "You were searched and known before you walked through that door, and the God who knows you is glad you came.",
+            "Surely the Lord is in this place. This is the gate of heaven!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Jacob slept on a stone and saw heaven open.",
+            "Surely the Lord is in this place."
+          ],
+          [
+            "There is no dark where you are not already waiting.",
+            "Surely the Lord is in this place."
+          ],
+          [
+            "You knew us before we spoke a single word.",
+            "Surely the Lord is in this place."
+          ],
+          [
+            "Come, let us worship; this is the gate of heaven.",
+            "Surely the Lord is in this place. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -485,7 +485,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Do not work for the bread that perishes.",
+            "Give us the bread that lasts to eternal life."
+          ],
+          [
+            "I am the bread of life, says the Lord.",
+            "Whoever comes to him will never hunger again."
+          ],
+          [
+            "Create in us a clean heart, O God.",
+            "Renew a right spirit within us."
+          ],
+          [
+            "Come, all who hunger; come, let us worship.",
+            "We come to the bread of life. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The crowd hunts him down the next morning, still tasting yesterday's bread, and he says: do not work for food that spoils.",
+            "Give us this bread always."
+          ],
+          [
+            "What our ancestors ate in the wilderness kept them one more day; this bread comes down from heaven and gives life to the world.",
+            "Give us this bread always."
+          ],
+          [
+            "I am the bread of life, he says; whoever comes to me will never be hungry, whoever believes will never be thirsty again.",
+            "Give us this bread always."
+          ],
+          [
+            "So bring the hunger underneath your hunger, the thirst no cup has touched; here is the One your soul was made for.",
+            "Give us this bread always."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Do not work for the bread that spoils.",
+            "Give us this bread always."
+          ],
+          [
+            "I am the bread of life, says the Lord.",
+            "Give us this bread always."
+          ],
+          [
+            "Whoever comes to him will never hunger.",
+            "Give us this bread always."
+          ],
+          [
+            "Come, all who are hungry; come and worship.",
+            "Give us this bread always. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

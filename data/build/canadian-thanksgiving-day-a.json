@@ -257,7 +257,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "You crown the year with your bounty; the valleys deck themselves with grain.",
+            "The earth is full of the goodness of God."
+          ],
+          [
+            "Ten were healed; one came back to say thank you.",
+            "We return to give God thanks and praise."
+          ],
+          [
+            "Remember the Lord your God, who brought you into a good land.",
+            "We will not forget the hand that feeds us."
+          ],
+          [
+            "Come, let us worship the Giver of every good gift.",
+            "We come with grateful hearts. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Look out over the fields at harvest, the valleys clothed with grain, the wagon tracks running over with abundance — God has visited the earth and watered it.",
+            "The earth is full of the goodness of God."
+          ],
+          [
+            "We come like the one leper who turned back, who fell at Jesus' feet and could not stop saying thank you.",
+            "The earth is full of the goodness of God."
+          ],
+          [
+            "Remember the bread in the wilderness, the springs in the dry land, the good country God has given us to keep.",
+            "The earth is full of the goodness of God."
+          ],
+          [
+            "And do not say, my own hand has won me this; every harvest is a gift, every breath is grace.",
+            "The earth is full of the goodness of God."
+          ],
+          [
+            "So come with full hands and fuller hearts, and give God thanks.",
+            "The earth is full of the goodness of God. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "You crown the year with bounty; the fields are decked with grain.",
+            "The earth is full of God's goodness."
+          ],
+          [
+            "One leper turned back to say thank you.",
+            "The earth is full of God's goodness."
+          ],
+          [
+            "Remember the Lord who brings us into a good land.",
+            "The earth is full of God's goodness."
+          ],
+          [
+            "Come, let us worship the Giver of all gifts.",
+            "We come with grateful hearts. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

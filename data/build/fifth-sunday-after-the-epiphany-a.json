@@ -231,7 +231,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "You are the salt of the earth.",
+            "You are the light of the world."
+          ],
+          [
+            "Share your bread; loose the bonds of the oppressed.",
+            "Then our light shall break forth like the dawn."
+          ],
+          [
+            "Let your light shine before others.",
+            "That they may give glory to God."
+          ],
+          [
+            "Come, let us worship the God who lights us.",
+            "Let our light shine. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "This is the fast God is after: not bowed heads and empty bellies, but bread broken for the hungry and the chains struck off the bound.",
+            "Let your light break forth like the dawn."
+          ],
+          [
+            "Do that, says the prophet, and your light will break out like the morning, and your healing will spring up quick.",
+            "Let your light break forth like the dawn."
+          ],
+          [
+            "You are salt, Jesus says, so do not lose your savor; you are a city on a hill that cannot be hidden.",
+            "Let your light break forth like the dawn."
+          ],
+          [
+            "So do not hide the lamp under a basket; set it high, and let the whole house fill with light.",
+            "Let your light break forth like the dawn. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "You are the salt of the earth, the light of the world.",
+            "Let your light break forth like the dawn."
+          ],
+          [
+            "Share your bread and loose the bonds of the bound.",
+            "Let your light break forth like the dawn."
+          ],
+          [
+            "Set the lamp up high, not under a basket.",
+            "Let your light break forth like the dawn."
+          ],
+          [
+            "Come, let us worship the God who lights us.",
+            "Let your light break forth like the dawn. Thanks be to God!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -516,7 +516,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "How lovely is your dwelling place, O Lord of hosts.",
+            "God, be merciful to us."
+          ],
+          [
+            "The tax collector would not lift his eyes, but beat his breast.",
+            "God, be merciful to us."
+          ],
+          [
+            "The Lord hears the cry of the lowly.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Two people go up to pray; one lists his merits, the other can barely raise his head.",
+            "God, be merciful to me, a sinner."
+          ],
+          [
+            "And it is the second one — empty-handed, honest, broken open — who goes home justified.",
+            "God, be merciful to me, a sinner."
+          ],
+          [
+            "The God of hosts does not despise a contrite heart; he hears the cry of the lowly.",
+            "God, be merciful to me, a sinner."
+          ],
+          [
+            "So we come with no merits to count, only mercy to ask, and that is enough.",
+            "God, be merciful to me, a sinner!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Two go up to pray; one boasts, one bows.",
+            "God, be merciful to me, a sinner."
+          ],
+          [
+            "The empty-handed one goes home justified.",
+            "God, be merciful to me, a sinner."
+          ],
+          [
+            "We bring no merits, only mercy to ask.",
+            "God, be merciful to me, a sinner. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

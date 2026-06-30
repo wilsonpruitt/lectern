@@ -506,7 +506,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Jacob wrestled till daybreak by the river.",
+            "I will not let you go until you bless me."
+          ],
+          [
+            "He limped away with a new name and the dawn.",
+            "We come marked by the struggle, and blessed."
+          ],
+          [
+            "The crowd was hungry, and the disciples had nothing.",
+            "Jesus took the bread, gave thanks, and all were fed."
+          ],
+          [
+            "Come, let us worship the God who blesses and feeds.",
+            "We come hungry; bless us. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Smell the loaves and the fish broken open on a deserted hillside, five thousand fed from almost nothing.",
+            "In your hands, there is enough."
+          ],
+          [
+            "Jacob fought the stranger all night by the Jabbok, holding on through the dark, refusing to let go.",
+            "In your hands, there is enough."
+          ],
+          [
+            "He would not loose his grip until the blessing came — and it came, with a new name and a wound and the sunrise.",
+            "In your hands, there is enough."
+          ],
+          [
+            "Bring your empty baskets and your hungry hearts; Jesus takes the little we have, gives thanks, and it overflows.",
+            "In your hands, there is enough. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Jacob held on through the dark till the blessing came.",
+            "In your hands, there is enough."
+          ],
+          [
+            "He limped into the dawn with a new name.",
+            "In your hands, there is enough."
+          ],
+          [
+            "Jesus took five loaves, gave thanks, and all were fed.",
+            "In your hands, there is enough."
+          ],
+          [
+            "Come, let us worship the God who feeds us.",
+            "In your hands, there is enough. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

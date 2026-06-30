@@ -246,7 +246,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Make a joyful noise to the Lord, all the earth.",
+            "Give thanks to the Lord, for he is good."
+          ],
+          [
+            "Bring the first fruits of the ground and set them before God.",
+            "Give thanks to the Lord, for he is good."
+          ],
+          [
+            "Rejoice in the Lord always; the Lord is near.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Set down the basket of first fruits and look back over the road that brought you here.",
+            "Give thanks to the Lord, for he is good!"
+          ],
+          [
+            "We were wanderers and strangers, and God made for us a place and a plenty.",
+            "Give thanks to the Lord, for he is good!"
+          ],
+          [
+            "Do not be anxious for anything; in everything, by prayer with thanksgiving, come to God.",
+            "Give thanks to the Lord, for he is good!"
+          ],
+          [
+            "For Christ is the bread that does not run out; come to him and rejoice — and again, rejoice.",
+            "Give thanks to the Lord, for his love endures forever!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Set down the first fruits; look back over the road.",
+            "Give thanks to the Lord, for he is good."
+          ],
+          [
+            "We were wanderers; God gave us a place and plenty.",
+            "Give thanks to the Lord, for he is good."
+          ],
+          [
+            "Christ is the bread that never runs out; rejoice.",
+            "Give thanks to the Lord, for he is good. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -255,7 +255,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "He rises from supper, ties the towel, and kneels.",
+            "He washes our feet and bids us do the same."
+          ],
+          [
+            "He takes the bread, the cup of salvation.",
+            "This is his body and his blood, given for us."
+          ],
+          [
+            "A new commandment he gives us this night.",
+            "Love one another as I have loved you. Come, let us worship."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Feel the warm water poured over tired feet, the towel at his waist, the Lord of all kneeling on the floor.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "This is the night of the lamb and the blood on the door, the night God passed over and led the people out.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "He takes the bread and gives thanks; he lifts the cup of salvation and calls on the name of the Lord.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "Do this in remembrance of me, he says, and stoops once more to serve. Come, let us worship.",
+            "Love one another as I have loved you. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "He kneels with the basin and towel and washes our feet.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "He breaks the bread, he pours the cup of salvation.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "Do this in remembrance; come, let us worship.",
+            "Love one another as I have loved you. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

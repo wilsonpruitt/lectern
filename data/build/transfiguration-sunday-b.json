@@ -253,7 +253,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "They climbed the mountain and saw him changed.",
+            "His clothes a dazzling white, no bleach so bright."
+          ],
+          [
+            "A cloud overshadowed them, and a voice spoke.",
+            "This is my Son, the Beloved; listen to him!"
+          ],
+          [
+            "The God who said: let light shine out of darkness,",
+            "has shone in our hearts with the glory of Christ."
+          ],
+          [
+            "Come, let us worship on the holy mountain.",
+            "Listen to him, the Beloved. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "They went up the high mountain, just the three of them, and there before their eyes he was transfigured, his clothes blazing whiter than anything on earth.",
+            "This is my Son, the Beloved; listen to him!"
+          ],
+          [
+            "Moses and Elijah stood with him, and Peter, hardly knowing what to say, blurted out: Lord, it is good for us to be here.",
+            "This is my Son, the Beloved; listen to him!"
+          ],
+          [
+            "Then a cloud came down and wrapped them in shadow, and out of the cloud a voice spoke that silenced every other.",
+            "This is my Son, the Beloved; listen to him!"
+          ],
+          [
+            "The God who said, Let light shine out of darkness, has lit our hearts with the face of Christ. Come and behold him.",
+            "This is my Son, the Beloved; listen to him! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "They climb the mountain and see him blaze with light.",
+            "This is my Son, the Beloved; listen to him!"
+          ],
+          [
+            "A cloud comes down, and a voice speaks from it.",
+            "This is my Son, the Beloved; listen to him!"
+          ],
+          [
+            "Light shines out of darkness into our hearts.",
+            "This is my Son, the Beloved; listen to him!"
+          ],
+          [
+            "Come, let us worship on the holy mountain.",
+            "This is my Son, the Beloved; listen to him! Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

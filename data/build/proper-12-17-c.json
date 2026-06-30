@@ -506,7 +506,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Lord, teach us to pray.",
+            "Give us this day our daily bread."
+          ],
+          [
+            "Ask, and it will be given; knock, and the door will open.",
+            "We come knocking, and we trust the One inside."
+          ],
+          [
+            "Steadfast love and faithfulness have met; righteousness and peace have kissed.",
+            "The Lord will speak peace to the people."
+          ],
+          [
+            "Come, lift your empty hands and worship.",
+            "Our Father, hallowed be your name. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Imagine knocking on a friend's door at midnight, needing bread, and keeping at it until the bolt slides back — that is what Jesus says prayer is like.",
+            "Lord, teach us to pray."
+          ],
+          [
+            "He does not hand us fancy words. He hands us bread: give us this day, forgive us, lead us, deliver us.",
+            "Lord, teach us to pray."
+          ],
+          [
+            "Ask, and it is given; seek, and you find; knock, and the door swings wide — for God gives the Spirit to those who ask.",
+            "Lord, teach us to pray."
+          ],
+          [
+            "So come to the door this morning with your hunger and your hope. The God where mercy and truth meet is already reaching for the latch.",
+            "Lord, teach us to pray. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "We come knocking, needing bread.",
+            "Lord, teach us to pray."
+          ],
+          [
+            "Ask, and receive; knock, and the door opens.",
+            "Lord, teach us to pray."
+          ],
+          [
+            "Here mercy and truth finally meet.",
+            "Lord, teach us to pray."
+          ],
+          [
+            "Lift your empty hands and worship.",
+            "Lord, teach us to pray. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

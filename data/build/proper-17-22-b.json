@@ -476,7 +476,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The voice of my beloved! Look, he comes leaping over the hills.",
+            "Arise, my love, and come away."
+          ],
+          [
+            "The winter is past, the rains are over and gone.",
+            "The flowers appear; the time of singing has come."
+          ],
+          [
+            "Every good and perfect gift is from above.",
+            "We come to receive, and to be doers of the word."
+          ],
+          [
+            "Come away from your locked rooms; come, let us worship.",
+            "The time of singing has come. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Listen, the voice of your beloved, bounding over the mountains, calling through the lattice: rise up and come away with me.",
+            "The winter is past; the time of singing has come."
+          ],
+          [
+            "The cold gray season is over, the rain has stopped, the ground is thick with flowers, and the voice of the turtledove is back in the land.",
+            "The winter is past; the time of singing has come."
+          ],
+          [
+            "Every good and perfect gift comes down from the Father of lights, in whom there is no shifting shadow, only steady morning.",
+            "The winter is past; the time of singing has come."
+          ],
+          [
+            "So come out of whatever wintered you; be quick to listen, slow to anger, doers of the word, and sing.",
+            "The winter is past; the time of singing has come, and we have come to sing."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The voice of the beloved: arise and come away.",
+            "The time of singing has come."
+          ],
+          [
+            "Winter is over; the flowers are on the earth.",
+            "The time of singing has come."
+          ],
+          [
+            "Every good gift comes down from the Father of lights.",
+            "The time of singing has come."
+          ],
+          [
+            "Come, doers of the word; come, let us worship.",
+            "The time of singing has come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

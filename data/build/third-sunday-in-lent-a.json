@@ -232,7 +232,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The way is long, and we are thirsty.",
+            "We seek the living water of Jesus."
+          ],
+          [
+            "You met a stranger at the well at noon.",
+            "Give us this water, that we never thirst again."
+          ],
+          [
+            "You struck the rock in the desert, and the people drank.",
+            "Come, let us worship; let us not harden our hearts."
+          ],
+          [
+            "Come to the spring that rises to eternal life.",
+            "We are pilgrims on the way to the cross. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Noon, and the heat presses down; you stop at the well, dusty and thirsty, with no bucket and a long way still to go.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "A stranger is sitting there, and he asks you for a drink, and somehow he knows everything you have ever done.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "He offers water you cannot draw from any well, a spring that rises up inside you to eternal life.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "Long ago he split the rock in the wilderness and the desert ran with streams; he has not run dry.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "So come, all who are thirsty; come and drink. Come, let us worship and not harden our hearts.",
+            "We are pilgrims on the way to the cross. Give us this water. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The road is dry; we come to the well thirsty.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "You give the water that becomes a spring within us.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "You struck the rock, and the desert ran with streams.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "Come, let us drink; come, let us worship.",
+            "We are pilgrims on the way to the cross. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

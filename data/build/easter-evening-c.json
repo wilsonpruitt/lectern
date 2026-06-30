@@ -261,7 +261,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Christ is risen!",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Two walked the road home at evening, talking of all they had lost.",
+            "A stranger fell in step and opened the Scriptures to them."
+          ],
+          [
+            "They knew him at last in the breaking of the bread,",
+            "and their hearts burned within them."
+          ],
+          [
+            "Stay with us, Lord; the day is far spent.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Walk the road as the light goes long and gold, the dust of a hard week still on your feet.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "A stranger falls in step beside you and begins to speak, and something in you starts to warm.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "At the table he takes the bread, blesses, breaks it — and your eyes fly open, and you know him.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "On the holy mountain a feast is spread, the shroud over the nations torn away, every tear wiped dry.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "So come to the table where he is known, and tell what you saw on the road:",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The day grows late; we walk the road home.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "A stranger opens the Scriptures, and our hearts catch fire.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "He breaks the bread, and we know him.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Stay with us, Lord, and we will worship.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

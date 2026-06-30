@@ -498,7 +498,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The crowd grumbled: is this not Joseph's son?",
+            "Yet the Father draws us, and we come."
+          ],
+          [
+            "I am the living bread come down from heaven.",
+            "Whoever eats this bread will live forever."
+          ],
+          [
+            "Out of the depths we wait for the Lord.",
+            "More than the watchman waits for morning."
+          ],
+          [
+            "Come, you who hunger for life; come, let us worship.",
+            "We come to the living bread. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "They grumble among themselves: we know his father and mother, so who is he to come down from heaven?",
+            "Give us this bread always."
+          ],
+          [
+            "No one comes unless the Father draws them, and you are here, which means you have already been drawn by a love older than your doubt.",
+            "Give us this bread always."
+          ],
+          [
+            "I am the living bread, he says; eat this bread and you will live forever, for the bread I give is my own flesh for the life of the world.",
+            "Give us this bread always."
+          ],
+          [
+            "So come up out of the depths, all you who wait for morning; the bread of heaven is set before you now.",
+            "Give us this bread always."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "They grumbled: is this not Joseph's son?",
+            "Give us this bread always."
+          ],
+          [
+            "I am the living bread come down from heaven.",
+            "Give us this bread always."
+          ],
+          [
+            "Whoever eats this bread will live forever.",
+            "Give us this bread always."
+          ],
+          [
+            "Come up from the depths; come, let us worship.",
+            "Give us this bread always. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -258,7 +258,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "I am the vine; you are the branches.",
+            "Apart from him we can do nothing."
+          ],
+          [
+            "Abide in me, and I in you, he says.",
+            "And we will bear much fruit."
+          ],
+          [
+            "The Father prunes us that we may grow.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Come, let us abide in the living Vine.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Come close to the Vine, you branches, you who feel cut back and bare this season.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "The sap that rises in him rises in you; abide there, and the leaves will come, and after the leaves the fruit.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "The Gardener's knife is not cruelty but care, clearing away what cannot bear so that you can.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Stay rooted in his love, and your life will hang heavy with good fruit, like grapes in the warm of autumn.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "I am the vine; you are the branches.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Abide in me, and you will bear much fruit.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "The Gardener prunes us, and we grow.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Come, let us abide in him.",
+            "We will bear good fruit. Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

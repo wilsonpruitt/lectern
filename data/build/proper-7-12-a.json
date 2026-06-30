@@ -514,7 +514,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Hagar wept in the wilderness, her water gone.",
+            "And God heard the voice of the boy."
+          ],
+          [
+            "He opened her eyes, and there was a well.",
+            "The God who sees does not forget us."
+          ],
+          [
+            "Do not be afraid, says Jesus; even the sparrow is counted.",
+            "We are worth more than many sparrows."
+          ],
+          [
+            "Come, let us worship the God who hears.",
+            "We come, unafraid. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Picture the wilderness at noon — the skin of water empty, the throat dry, no shade and no road home.",
+            "The God who sees is here."
+          ],
+          [
+            "Hagar set the child under a bush and turned away, unable to watch him die — and God heard, and opened her eyes to a well.",
+            "The God who sees is here."
+          ],
+          [
+            "Jesus says the hairs of your head are numbered, and not one sparrow falls without your Father knowing.",
+            "The God who sees is here."
+          ],
+          [
+            "So whatever desert you crossed to get to this room, you were never out of God's sight for a moment.",
+            "The God who sees is here. Do not be afraid!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Hagar's water was gone, the wilderness wide.",
+            "The God who sees is here."
+          ],
+          [
+            "God heard the boy and opened her eyes to a well.",
+            "The God who sees is here."
+          ],
+          [
+            "Not one sparrow falls outside the Father's knowing.",
+            "The God who sees is here."
+          ],
+          [
+            "Come, let us worship, and put down our fear.",
+            "The God who sees is here. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

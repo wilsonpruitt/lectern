@@ -442,7 +442,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The teachers love the long robes and the best seats.",
+            "But God sees the widow at the treasury."
+          ],
+          [
+            "The rich gave out of their plenty;",
+            "she gave out of her poverty everything she had."
+          ],
+          [
+            "Two small coins, all she owned —",
+            "and the jar of meal was not spent."
+          ],
+          [
+            "Come, let us worship the God who lifts the poor.",
+            "We bring all that we are. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "At Zarephath a widow scraped the last handful of meal from the jar, certain it was her final meal — and the jar was not spent; day after day it did not run dry.",
+            "She gave out of her poverty all that she had."
+          ],
+          [
+            "At the temple another widow came to the treasury and dropped in two small coins, the least that anyone gave that day.",
+            "She gave out of her poverty all that she had."
+          ],
+          [
+            "The rich poured in out of their abundance; she put in everything she owned, her whole living.",
+            "She gave out of her poverty all that she had."
+          ],
+          [
+            "This is the God who keeps the jar full and lifts up the poor. Come, bring your whole life and worship.",
+            "She gave out of her poverty all that she had. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The widow dropped in two small coins.",
+            "We bring all that we have."
+          ],
+          [
+            "She gave not from her plenty but from her need.",
+            "We bring all that we have."
+          ],
+          [
+            "At Zarephath the jar of meal was not spent.",
+            "We bring all that we have."
+          ],
+          [
+            "Come, let us worship the God who provides.",
+            "We bring all that we have. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

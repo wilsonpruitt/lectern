@@ -255,7 +255,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Unless a grain of wheat falls and dies, it stays alone.",
+            "But if it dies, it bears much fruit."
+          ],
+          [
+            "I will write my law upon their hearts, says the Lord.",
+            "Create in us clean hearts, O God."
+          ],
+          [
+            "Now the hour has come for the Son to be glorified.",
+            "We would see Jesus."
+          ],
+          [
+            "And I, when I am lifted up, will draw all people.",
+            "Come, let us follow him home. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A single grain lies in the dark earth, and unless it falls and dies, it stays a single grain.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "But buried, broken open, it rises into a harvest, and this is how the Son will be glorified.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "God will write a new covenant on hearts of flesh, and remember our sin no more.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "Now the hour has come; lifted from the earth, he will draw the whole world to himself.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "So we say with the seekers at the festival: we would see Jesus. Come, let us follow.",
+            "We are pilgrims on the way to the cross. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The grain must fall and die to bear its fruit.",
+            "Lead us in your way."
+          ],
+          [
+            "Write your new covenant on our hearts.",
+            "Lead us in your way."
+          ],
+          [
+            "The hour has come; the Son is glorified.",
+            "Lead us in your way."
+          ],
+          [
+            "Lifted up, he draws us all to himself.",
+            "Lead us in your way. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -261,7 +261,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "At evening two walked the road, talking of all that had happened.",
+            "A stranger drew near and walked with them."
+          ],
+          [
+            "He opened the scriptures until their hearts burned.",
+            "He broke the bread, and they knew him."
+          ],
+          [
+            "On the mountain God spreads a feast and wipes away every tear.",
+            "Death is swallowed up forever."
+          ],
+          [
+            "Christ is risen!",
+            "Christ is risen, alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The day is far spent and the road has been long; come in from the dusk and sit at the table, friends.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "Watch the stranger take the bread, give thanks, break it — and feel how your heart was burning all along the way.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "This is the feast the prophet saw on the mountain, the cup poured out, the tears wiped from every face.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "So stay, for it is evening, and the Lord is known to us in the breaking of the bread.",
+            "Christ is risen, alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "At evening two walked the road, and a stranger joined them.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "He broke the bread, and their eyes were opened.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "Their hearts had been burning all along the way.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "Stay with us, Lord; it is evening. Come, let us worship.",
+            "Christ is risen, alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

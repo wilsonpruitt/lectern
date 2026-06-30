@@ -246,7 +246,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The Lord has gone up, and we wait for the promise.",
+            "We gather in one place and pray."
+          ],
+          [
+            "With one accord the disciples kept to prayer.",
+            "We wait for the gift the Father gives."
+          ],
+          [
+            "Holy Father, keep them in your name, that they may be one.",
+            "Make us one as you are one."
+          ],
+          [
+            "Christ is risen!",
+            "Christ is risen, alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Come up the stairs to the room where they waited, doors closed against the city, hearts turned toward a promise not yet kept.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "They were of one accord, the women and the eleven, holding to prayer in the long space between the going and the coming.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "And over them, even now, the Lord is praying: Holy Father, keep them, that they may be one as we are one.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "So we wait together, and we will not wait in vain.",
+            "Christ is risen, alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The Lord has ascended; in the upper room we wait.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "With one accord we hold to prayer.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "He prays for us: that we may be one.",
+            "Christ is risen, alleluia!"
+          ],
+          [
+            "We wait for the promise. Come, let us worship.",
+            "Christ is risen, alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -490,7 +490,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "I lift up my eyes to the hills; from where will my help come?",
+            "We will not let you go until you bless us."
+          ],
+          [
+            "Jacob wrestled until the breaking of the day.",
+            "We will not let you go until you bless us."
+          ],
+          [
+            "Our help comes from the Lord, who keeps our going out and coming in.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "All night by the river a man wrestles a stranger and will not quit, even limping, even spent.",
+            "We will not let you go until you bless us."
+          ],
+          [
+            "Pray like that, Jesus says — like the widow who wore down the judge — and do not lose heart.",
+            "We will not let you go until you bless us."
+          ],
+          [
+            "The Lord neither slumbers nor sleeps; he keeps watch over your life.",
+            "We will not let you go until you bless us."
+          ],
+          [
+            "So we come to worship holding on, lifting our eyes to the hills, asking and not giving up.",
+            "We will not let you go until you bless us!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "All night Jacob wrestles and will not quit.",
+            "We will not let you go until you bless us."
+          ],
+          [
+            "Pray like the widow; do not lose heart.",
+            "We will not let you go until you bless us."
+          ],
+          [
+            "Our help comes from the Lord, who never sleeps.",
+            "We will not let you go until you bless us. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

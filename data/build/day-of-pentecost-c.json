@@ -248,7 +248,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Come, Holy Spirit,",
+            "the fire of God, the breath of life."
+          ],
+          [
+            "A sound like a rushing wind filled the house, and tongues of flame rested on each of them,",
+            "and they spoke of God's deeds in every language under heaven."
+          ],
+          [
+            "You send forth your Spirit, and the face of the earth is made new;",
+            "the Spirit cries within us, Abba, Father."
+          ],
+          [
+            "Come, Holy Spirit.",
+            "May we feel God's fire through our worship."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Wait in the upstairs room with the doors shut and the morning quiet, and then — a sound, far off and coming closer, like a great wind.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ],
+          [
+            "It fills the whole house, and over each head a small tongue of flame comes to rest, and no one is left untouched.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ],
+          [
+            "The doors fly open and they spill into the street, and every traveler hears the wonders of God in their own mother tongue.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ],
+          [
+            "You send out your breath and the dust comes alive; you renew the face of the whole tired earth.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ],
+          [
+            "So fall on us again, Spirit of truth and comfort, and teach us to cry: Abba, Father.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A rushing wind fills the house; flame rests on every head.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ],
+          [
+            "They spill into the street, and every language hears the wonders of God.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ],
+          [
+            "You send your breath, and the face of the earth is made new.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ],
+          [
+            "Teach us to cry, Abba, Father; come, let us worship.",
+            "Come, Holy Spirit, the fire of God, the breath of life!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

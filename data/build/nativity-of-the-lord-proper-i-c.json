@@ -251,7 +251,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The people who walked in darkness have seen a great light.",
+            "To us a child is born."
+          ],
+          [
+            "The grace of God has appeared, bringing salvation to all.",
+            "To us a child is born."
+          ],
+          [
+            "Glory to God in the highest, and peace on earth.",
+            "Come, let us adore him. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "It is night, and the fields are cold, and ordinary people are keeping watch.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "Suddenly the dark is torn open with light, and the sky is loud with song.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "To you is born this day a Savior — wrapped in cloth, laid in a feeding trough.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "The great light has come to the smallest place; God is here, and God is for us.",
+            "Glory to God in the highest, and peace on earth!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A great light for those in darkness; to us a child is born.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "Grace has appeared, a Savior in a manger.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "God comes to the smallest place; come, adore him.",
+            "Glory to God in the highest! Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

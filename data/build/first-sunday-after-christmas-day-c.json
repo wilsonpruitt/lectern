@@ -240,7 +240,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Praise the Lord from the heavens; praise him in the heights.",
+            "Let us clothe ourselves with love."
+          ],
+          [
+            "The child grew, and the favor of God was upon him.",
+            "Let us clothe ourselves with love."
+          ],
+          [
+            "Whatever you do, do it all in the name of the Lord Jesus.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The angels have gone; the shepherds have gone home. The work of an ordinary life begins.",
+            "Praise the Lord; let his name be praised."
+          ],
+          [
+            "A boy grows up in Nazareth, year by quiet year, in wisdom and in grace.",
+            "Praise the Lord; let his name be praised."
+          ],
+          [
+            "So we put on, like clothing, compassion and kindness and patience.",
+            "Praise the Lord; let his name be praised."
+          ],
+          [
+            "And over it all we put on love, which binds everything together.",
+            "Praise the Lord; let his name be praised forever!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The shepherds gone home, an ordinary life begins.",
+            "Praise the Lord; let his name be praised."
+          ],
+          [
+            "A child grows in wisdom and in grace.",
+            "Praise the Lord; let his name be praised."
+          ],
+          [
+            "Clothe yourselves with love, and do all in his name.",
+            "Praise the Lord; let his name be praised. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

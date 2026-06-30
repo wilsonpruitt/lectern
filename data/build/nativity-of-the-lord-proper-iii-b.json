@@ -238,7 +238,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "In the beginning was the Word.",
+            "And the Word was with God, and the Word was God."
+          ],
+          [
+            "The light shines in the darkness.",
+            "And the darkness has not overcome it."
+          ],
+          [
+            "The Word became flesh and lived among us.",
+            "We have seen his glory, full of grace and truth."
+          ],
+          [
+            "Come, let us worship the Word made flesh.",
+            "Glory to God in the highest! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Before the first morning, before the stars were hung, the Word was already there, and the Word was God.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "Into the deep dark of the world that light came shining, and all the darkness could not put it out.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "And the Word became flesh — bone of our bone, breath of our breath — and pitched his tent among us.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "We have seen his glory with our own eyes, full of grace and truth. Come and behold him.",
+            "Glory to God in the highest, and peace on earth! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Before all things, the Word was with God.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "The light shines, and the dark cannot put it out.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "The Word became flesh and lived among us.",
+            "Glory to God in the highest!"
+          ],
+          [
+            "Come, let us worship and behold his glory.",
+            "Glory to God in the highest! Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

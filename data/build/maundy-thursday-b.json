@@ -255,7 +255,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "He rose from supper, took a towel, and knelt.",
+            "He washed his disciples' feet."
+          ],
+          [
+            "This is my body, broken for you.",
+            "This cup is the new covenant in my blood."
+          ],
+          [
+            "I give you a new commandment, he said.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "Come to the table he has set.",
+            "We lift the cup of salvation. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "On the last night, he ties a towel around himself, pours water into a basin, and stoops to wash the feet of his friends.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "He takes the bread, gives thanks, and breaks it: this is my body, given for you.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "He lifts the cup of salvation: this is the new covenant, poured out for many.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "As the blood once marked the doorposts and death passed over, so he marks us as his own.",
+            "Love one another as I have loved you."
+          ],
+          [
+            "So come to the table, let your feet be washed, and learn the commandment by heart.",
+            "Love one another as I have loved you. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "He kneels with a towel and washes our feet.",
+            "Love one another."
+          ],
+          [
+            "This is my body, broken for you.",
+            "Love one another."
+          ],
+          [
+            "This cup is the covenant in my blood.",
+            "Love one another."
+          ],
+          [
+            "Come to the table he has set.",
+            "Love one another, as I have loved you. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

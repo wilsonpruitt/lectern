@@ -265,7 +265,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Christ is risen!",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "They fished all night and caught nothing,",
+            "and at daybreak a voice from the shore filled the nets."
+          ],
+          [
+            "You turned our mourning into dancing;",
+            "by the charcoal fire he asked, Do you love me? Then feed my sheep."
+          ],
+          [
+            "Come and have breakfast, the risen Lord says.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Stand on the shore in the gray of early morning, your nets empty, your arms tired from a long and fruitless night.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "A figure on the beach calls out, cast the net again — and it comes up so full it will not break.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "There is a charcoal fire going, and fish on it, and bread, and the smell of breakfast drifts across the water: Come and eat.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "By that same fire he asks the question three times over: Do you love me? Then feed my sheep.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "You turned our weeping into dancing; we come to the fire to be fed and sent:",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The nets are empty, the long night gone.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "A voice from the shore fills them to breaking.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Bread and fish on the fire: Come and have breakfast.",
+            "Christ is risen, Alleluia!"
+          ],
+          [
+            "Do you love me? Feed my sheep. Come, let us worship.",
+            "Christ is risen, Alleluia!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

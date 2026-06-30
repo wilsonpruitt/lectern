@@ -248,7 +248,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Sing aloud; do not fear.",
+            "The Lord our God is in our midst."
+          ],
+          [
+            "Shout for joy; the Lord has taken away the judgment against you.",
+            "The Lord our God is in our midst."
+          ],
+          [
+            "Rejoice in the Lord always; again I say, rejoice.",
+            "Come, let us worship with joy. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Can you hear it? Under the gray of these short days, a song is starting up.",
+            "Joy is welling up like water."
+          ],
+          [
+            "The Lord has turned away your shame and gathered the ones who grieved.",
+            "Joy is welling up like water."
+          ],
+          [
+            "With joy you will draw water from the wells of salvation.",
+            "Joy is welling up like water."
+          ],
+          [
+            "So do not be anxious; the Lord is near, and near is no small thing.",
+            "Joy is welling up like water. Rejoice!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Sing aloud; the Lord is in your midst.",
+            "Joy is welling up like water."
+          ],
+          [
+            "Draw water from the wells of salvation.",
+            "Joy is welling up like water."
+          ],
+          [
+            "The Lord is near; rejoice, and again rejoice.",
+            "Joy is welling up like water. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

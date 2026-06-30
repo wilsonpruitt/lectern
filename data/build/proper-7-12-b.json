@@ -463,7 +463,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The Lord is a stronghold for the oppressed, a refuge in trouble.",
+            "Those who know your name put their trust in you."
+          ],
+          [
+            "The wind howled and the waves broke into the boat.",
+            "And Jesus rose and said: Peace. Be still."
+          ],
+          [
+            "We come with sword and spear too small for our giants.",
+            "We come in the name of the Lord of hosts."
+          ],
+          [
+            "Come, let us worship the God who calms the sea.",
+            "We come, and we are not afraid. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Night on the water, the waves breaking over the side, the boat already filling, and you wonder if the One asleep in the stern even cares.",
+            "Peace. Be still."
+          ],
+          [
+            "Whatever giant stands over you, taller and louder than your faith, remember the boy who ran at it with five smooth stones and the name of God.",
+            "Peace. Be still."
+          ],
+          [
+            "The Lord is a refuge for the crushed, a stronghold in the time of trouble; the storm has never once had the last word.",
+            "Peace. Be still."
+          ],
+          [
+            "So come into the boat, all of you who are afraid; the wind drops, the sea goes glassy, and a great calm settles over the water.",
+            "Peace. Be still, and know that God is here."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The waves break in; the boat is filling.",
+            "Peace. Be still."
+          ],
+          [
+            "You are a refuge when the giants roar.",
+            "Peace. Be still."
+          ],
+          [
+            "Jesus stands; the wind lies down.",
+            "Peace. Be still."
+          ],
+          [
+            "Come, let us worship; do not be afraid.",
+            "Peace. Be still. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

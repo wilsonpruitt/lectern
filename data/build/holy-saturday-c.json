@@ -233,7 +233,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The stone is rolled; the tomb is sealed.",
+            "In the silence, we wait for you."
+          ],
+          [
+            "Job's question hangs in the dark: if we die, shall we live again?",
+            "Into your hand we commit our spirit."
+          ],
+          [
+            "The Sabbath rest covers the grave.",
+            "We wait, O Lord, for the morning."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The body is wrapped and laid in the rock-cut tomb; the great stone is rolled, the seal is set, the guards take their watch.",
+            "In the silence, we wait for you."
+          ],
+          [
+            "A mortal, born of woman, lies down and does not rise; if a tree is cut down there is hope, but who will answer for the dead?",
+            "In the silence, we wait for you."
+          ],
+          [
+            "You are our rock and our refuge; into your hand we commit our spirit, even here, even now.",
+            "In the silence, we wait for you."
+          ],
+          [
+            "The whole creation holds its breath through the long Sabbath dark; we wait for a morning that has not yet come.",
+            "In the silence, we wait for you. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The stone is rolled and the tomb is sealed.",
+            "In the silence, we wait for you."
+          ],
+          [
+            "Into your hand we commit our spirit.",
+            "In the silence, we wait for you."
+          ],
+          [
+            "Through the long Sabbath we wait for the morning.",
+            "In the silence, we wait for you. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

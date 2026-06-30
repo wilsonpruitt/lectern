@@ -484,7 +484,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The boat was far from land, beaten by the waves.",
+            "And out of the storm Jesus came walking."
+          ],
+          [
+            "Peter stepped down, then saw the wind and began to sink.",
+            "Lord, save me — and at once the hand reached out."
+          ],
+          [
+            "Take heart, says Jesus; it is I, do not be afraid.",
+            "We come out of the storm to you."
+          ],
+          [
+            "Come, let us worship the God who holds us up.",
+            "We come; do not let us go. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Feel the boat pitch in the dark, the wind against you, the water cold and rising and no shore in sight.",
+            "Take heart; do not be afraid."
+          ],
+          [
+            "Then a figure on the waves, and a voice over the storm you half remember from somewhere safe: it is I.",
+            "Take heart; do not be afraid."
+          ],
+          [
+            "Peter climbed out onto the water, then felt the wind, and the moment he doubted, he began to go under.",
+            "Take heart; do not be afraid."
+          ],
+          [
+            "But the hand was faster than the wave — Jesus caught him, and the same hand reaches for you.",
+            "Take heart; do not be afraid. He will not let us sink!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The boat was beaten far from shore in the dark.",
+            "Take heart; do not be afraid."
+          ],
+          [
+            "Across the waves Jesus came: it is I.",
+            "Take heart; do not be afraid."
+          ],
+          [
+            "Peter sank, and at once the hand reached out.",
+            "Take heart; do not be afraid."
+          ],
+          [
+            "Come, let us worship the God who holds us up.",
+            "Take heart; do not be afraid. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -244,7 +244,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Mary set out and hurried to the hills.",
+            "She came to Elizabeth's door with the good news in her."
+          ],
+          [
+            "At the sound of her voice the child leaped for joy.",
+            "Blessed are you, and blessed is the child you carry."
+          ],
+          [
+            "He has lifted up the lowly and filled the hungry.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "Come, let us worship the God who keeps his promise.",
+            "We rejoice in God our Savior. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Picture two women at a doorway in the hill country — one old and long past hope, one young and only beginning — and the whole promise of God between them.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "At Mary's greeting the child kicks and leaps in Elizabeth's body, joy quickening before a word is spoken.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "For God has looked on the lowly and remembered his mercy, casting down the mighty and lifting the poor from the dust.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "He fills the hungry with good things and keeps the promise made to our mothers and fathers long ago.",
+            "My soul magnifies the Lord!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Mary hurried to the hills with good news in her.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "At her greeting the child leaped for joy.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "God lifts the lowly and fills the hungry.",
+            "My soul magnifies the Lord!"
+          ],
+          [
+            "He remembers his mercy. Come, let us worship.",
+            "My soul magnifies the Lord!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

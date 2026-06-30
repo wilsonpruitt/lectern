@@ -494,7 +494,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "How lovely is your dwelling place, O Lord of hosts.",
+            "Our souls long for the courts of the living God."
+          ],
+          [
+            "This teaching is hard; many turned and walked away.",
+            "But Lord, to whom shall we go?"
+          ],
+          [
+            "Will God really dwell on the earth with us?",
+            "Heaven cannot hold you, yet you meet us here."
+          ],
+          [
+            "You have the words of eternal life; come, let us worship.",
+            "We have come, and we will stay. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "How lovely is your dwelling place; even the sparrow finds a home and the swallow a nest near your altar, O Lord of hosts.",
+            "Give us this bread always."
+          ],
+          [
+            "Solomon stood in the finished temple and wondered aloud: will God truly dwell on earth, when heaven itself cannot contain you?",
+            "Give us this bread always."
+          ],
+          [
+            "The teaching was hard, and many who had followed turned back and walked with him no more; he asked the twelve, will you also go?",
+            "Give us this bread always."
+          ],
+          [
+            "And Peter answered for all of us: Lord, to whom shall we go? You have the words of eternal life; so here we are, and here we stay.",
+            "Give us this bread always. You have the words of eternal life."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "How lovely is your dwelling place, O Lord.",
+            "Give us this bread always."
+          ],
+          [
+            "The saying was hard, and many turned away.",
+            "Give us this bread always."
+          ],
+          [
+            "But Lord, to whom else would we go?",
+            "Give us this bread always."
+          ],
+          [
+            "You have the words of life; come, let us worship.",
+            "Give us this bread always. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

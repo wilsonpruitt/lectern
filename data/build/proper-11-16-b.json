@@ -501,7 +501,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Come away to a deserted place and rest a while.",
+            "Even here we are gathered to the heart of God."
+          ],
+          [
+            "The crowd was like sheep without a shepherd.",
+            "And he had compassion, and began to teach."
+          ],
+          [
+            "I will not take my steadfast love from you, says the Lord.",
+            "Your covenant stands firm; your mercy never ends."
+          ],
+          [
+            "Come, all you weary; come, let us worship.",
+            "We come away to rest in God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "You have given and given until there was no time even to eat; the Shepherd knows, and says: come away by yourselves to a quiet place.",
+            "Come away and rest a while."
+          ],
+          [
+            "But the crowds run ahead around the lake, hungry and lost like sheep without a shepherd, and his heart breaks open with compassion.",
+            "Come away and rest a while."
+          ],
+          [
+            "This is the steadfast love God swore to David: a love that will not be taken back, firm as the heavens, sure as the dawn.",
+            "Come away and rest a while."
+          ],
+          [
+            "So bring your tiredness here; wherever he goes, the sick are laid in the marketplace just to touch the edge of his cloak and be healed.",
+            "Come away and rest a while, for the Shepherd is here."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Come to a quiet place; lay your burdens down.",
+            "Come away and rest a while."
+          ],
+          [
+            "He saw the crowds and had compassion on them.",
+            "Come away and rest a while."
+          ],
+          [
+            "God's steadfast love will never be taken away.",
+            "Come away and rest a while."
+          ],
+          [
+            "Come, all you weary; come, let us worship.",
+            "Come away and rest a while. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

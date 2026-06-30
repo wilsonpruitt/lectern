@@ -215,7 +215,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Open to me the gates of righteousness.",
+            "This is the gate of the Lord."
+          ],
+          [
+            "Blessed is the one who comes in the name of the Lord.",
+            "Hosanna in the highest!"
+          ],
+          [
+            "They spread their cloaks and branches on the road.",
+            "Hosanna to the Son of David!"
+          ],
+          [
+            "Come, let us go up with him to the city.",
+            "Hosanna! Blessed is the one who comes. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Hear the crowd swell along the road, cloaks and green branches thrown down in the dust before him.",
+            "Hosanna! Blessed is the one who comes in the name of the Lord!"
+          ],
+          [
+            "He rides not a warhorse but a borrowed colt, humble and lowly, a king the city never expected.",
+            "Hosanna! Blessed is the one who comes in the name of the Lord!"
+          ],
+          [
+            "Open wide the gates of righteousness; the stone the builders rejected has become the cornerstone.",
+            "Hosanna! Blessed is the one who comes in the name of the Lord!"
+          ],
+          [
+            "So lift your branches, lift your voices, and go up with him to the holy city.",
+            "Hosanna! Blessed is the one who comes in the name of the Lord! Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Branches and cloaks strew the dusty road.",
+            "Hosanna in the highest!"
+          ],
+          [
+            "A humble king rides in on a borrowed colt.",
+            "Hosanna in the highest!"
+          ],
+          [
+            "Open the gates; the cornerstone arrives.",
+            "Hosanna in the highest!"
+          ],
+          [
+            "Come, go up with him to the city.",
+            "Hosanna in the highest! Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -472,7 +472,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "A man ran up and knelt: Good Teacher, what must I do?",
+            "Jesus looked at him and loved him."
+          ],
+          [
+            "Go, sell what you have; then come, follow.",
+            "But his hands were full, and he went away grieving."
+          ],
+          [
+            "Who then can be saved?",
+            "For mortals it is impossible, but not for God."
+          ],
+          [
+            "Come, let us worship with open hands.",
+            "With God, all things are possible. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A man came running and fell on his knees: Good Teacher, what must I do to inherit eternal life? And Jesus, looking at him, loved him.",
+            "With God, all things are possible."
+          ],
+          [
+            "One thing you lack, he said: go, sell what you have, give it away, and you will have treasure in heaven. And the man's face fell, for he had much.",
+            "With God, all things are possible."
+          ],
+          [
+            "How hard it is to loosen our grip, to let our hands fall open, to seek good and not evil and live.",
+            "With God, all things are possible."
+          ],
+          [
+            "So come to the throne of grace and find mercy. Lay your burden down and worship.",
+            "With God, all things are possible. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A rich man knelt and asked the way to life.",
+            "All things are possible with God."
+          ],
+          [
+            "Sell what you have, and come, follow me.",
+            "All things are possible with God."
+          ],
+          [
+            "Who then can be saved? For God, nothing is impossible.",
+            "All things are possible with God."
+          ],
+          [
+            "Come to the throne of grace and worship.",
+            "All things are possible with God. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

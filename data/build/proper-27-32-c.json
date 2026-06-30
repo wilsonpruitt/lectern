@@ -457,7 +457,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Hear a just cause, O Lord; attend to my cry.",
+            "I know that my Redeemer lives."
+          ],
+          [
+            "From my flesh I shall see God.",
+            "I know that my Redeemer lives."
+          ],
+          [
+            "He is God not of the dead, but of the living.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "From the ash heap, stripped of everything, Job says the thing that should not be sayable: I know.",
+            "I know that my Redeemer lives."
+          ],
+          [
+            "O that my words were carved in rock forever — my Redeemer lives, and stands at last upon the earth.",
+            "I know that my Redeemer lives."
+          ],
+          [
+            "For our God is the God of the living; to him all of them are alive.",
+            "I know that my Redeemer lives."
+          ],
+          [
+            "So we worship in hope that outlasts the grave, sheltered in the shadow of God's wings.",
+            "I know that my Redeemer lives!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "From the ash heap Job says the unsayable thing.",
+            "I know that my Redeemer lives."
+          ],
+          [
+            "God is the God not of the dead but of the living.",
+            "I know that my Redeemer lives."
+          ],
+          [
+            "We worship in hope that outlasts the grave.",
+            "I know that my Redeemer lives. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

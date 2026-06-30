@@ -255,7 +255,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "My God, my God, why have you forsaken me?",
+            "He was despised, and we held him of no account."
+          ],
+          [
+            "Like a lamb led to the slaughter, he did not open his mouth.",
+            "He was wounded for our transgressions."
+          ],
+          [
+            "It is finished; he bows his head.",
+            "By his wounds we are healed."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "See the tree raised against the noon-dark sky, the wood, the nails, the King with thorns for a crown.",
+            "By his wounds we are healed."
+          ],
+          [
+            "He was despised and rejected, a man of sorrows acquainted with grief, and we hid our faces from him.",
+            "By his wounds we are healed."
+          ],
+          [
+            "Like a lamb led to the slaughter he was silent; he was wounded for our transgressions, crushed for our sins.",
+            "By his wounds we are healed."
+          ],
+          [
+            "It is finished, he says, and bows his head; through the torn curtain a new and living way is opened. Come, behold him.",
+            "By his wounds we are healed. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The cross is lifted up against the darkened sky.",
+            "By his wounds we are healed."
+          ],
+          [
+            "Like a lamb led to slaughter, he opens not his mouth.",
+            "By his wounds we are healed."
+          ],
+          [
+            "It is finished; he bows his head.",
+            "By his wounds we are healed. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

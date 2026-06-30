@@ -247,7 +247,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "God called Abram out and gave him a new name.",
+            "By faith we are children of the promise."
+          ],
+          [
+            "If any want to follow, let them take up the cross.",
+            "We are learning to follow Jesus."
+          ],
+          [
+            "Those who lose their life for the gospel will save it.",
+            "Teach us to let go and follow."
+          ],
+          [
+            "From the ends of the earth, come, let us worship.",
+            "All the families of the earth shall bow down. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "To an old man and a barren woman, God speaks a promise and hands them new names.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "And to all who would follow, Jesus says plainly: take up your cross and come.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "It is a hard word, that to save your life you must first lose it, that the road runs through Jerusalem.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "Yet the ends of the earth will remember and turn to the Lord; every family will bow.",
+            "We are pilgrims on the way to the cross."
+          ],
+          [
+            "So shoulder what he gives you, and walk; we do not go alone.",
+            "We are pilgrims on the way to the cross. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "God gives a barren house a name and a promise.",
+            "Lead us in your way."
+          ],
+          [
+            "Take up the cross, Jesus says; come and follow.",
+            "Lead us in your way."
+          ],
+          [
+            "To save our life we must first lose it.",
+            "Lead us in your way."
+          ],
+          [
+            "From the ends of the earth, come, let us worship.",
+            "Lead us in your way. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

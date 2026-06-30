@@ -489,7 +489,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Great are the works of the Lord.",
+            "We return to give you thanks."
+          ],
+          [
+            "Ten were healed, and one came back praising God.",
+            "We return to give you thanks."
+          ],
+          [
+            "He remembers his covenant forever.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A foreign general dips seven times in a muddy river and comes up clean as a child.",
+            "We return to give you thanks."
+          ],
+          [
+            "Ten lepers are healed on the road, but only one turns around to fall at Jesus' feet.",
+            "We return to give you thanks."
+          ],
+          [
+            "Healing is everywhere; gratitude is rarer — and gratitude is the whole of worship.",
+            "We return to give you thanks."
+          ],
+          [
+            "So we are the one who came back, loud and unashamed, glorifying God.",
+            "We return to give you thanks!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A foreign general comes up from the river clean.",
+            "We return to give you thanks."
+          ],
+          [
+            "Ten are healed; one turns back to praise.",
+            "We return to give you thanks."
+          ],
+          [
+            "We are the one who came back, unashamed.",
+            "We return to give you thanks. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

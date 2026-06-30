@@ -243,7 +243,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "A voice cries out in the wilderness.",
+            "Prepare the way of the Lord."
+          ],
+          [
+            "From a cut-down stump, a green shoot rises.",
+            "The hope of God is not finished with us."
+          ],
+          [
+            "The wolf will lie down with the lamb.",
+            "And a little child will lead them."
+          ],
+          [
+            "Come, let us worship the God who makes peace.",
+            "Come, Lord Jesus. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Look at the stump, cut to the ground, and look closer — one green shoot is pushing up through the dead wood.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Out in the wilderness a rough voice is calling: straighten the road, fill the valleys, make a way home.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Picture the day the prophet saw — wolf and lamb together, the child unafraid, no one hurt on all God's mountain.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Welcome one another, then, as Christ has welcomed you, and turn your faces toward the One still coming.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A green shoot breaks from the old dead stump.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "A voice in the wilderness: prepare the way.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "The wolf and the lamb will rest together.",
+            "Come, Lord Jesus, come."
+          ],
+          [
+            "Come, let us worship the God of peace.",
+            "Come, Lord Jesus, come. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

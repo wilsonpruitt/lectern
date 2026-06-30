@@ -499,7 +499,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "You turned our wailing into dancing, and stripped off our sackcloth.",
+            "Weeping may stay for the night, but joy comes with the morning."
+          ],
+          [
+            "Like Naaman, we washed and were made clean.",
+            "What we could not heal in ourselves, God has healed."
+          ],
+          [
+            "The harvest is plentiful; the Lord sends us out two by two.",
+            "Peace to this house, and to all who live here."
+          ],
+          [
+            "Come, sing to the Lord and give thanks.",
+            "We will praise you, and not be silent. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Imagine Naaman, proud and sick, stepping down into the muddy Jordan once, twice, seven times, and rising with the skin of a child.",
+            "Joy comes with the morning."
+          ],
+          [
+            "This is the God who hears us in the long night, who turns our mourning into dancing and unties the sackcloth from our waist.",
+            "Joy comes with the morning."
+          ],
+          [
+            "And this God is not done — the fields are white, the laborers are few, and Jesus is sending us out with peace in our mouths.",
+            "Joy comes with the morning."
+          ],
+          [
+            "So come up out of the water, shake off the night, and sing. There is dancing to be done and good news to carry.",
+            "Joy comes with the morning. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Washed clean in the river like Naaman, we come.",
+            "Joy comes with the morning."
+          ],
+          [
+            "You turned our mourning into dancing.",
+            "Joy comes with the morning."
+          ],
+          [
+            "The harvest waits; you send us out with peace.",
+            "Joy comes with the morning."
+          ],
+          [
+            "Come, sing to the Lord and give thanks.",
+            "Joy comes with the morning. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

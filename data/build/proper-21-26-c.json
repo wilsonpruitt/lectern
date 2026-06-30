@@ -456,7 +456,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Happy are those whose help is the God of Jacob.",
+            "The Lord lifts up those who are bowed down."
+          ],
+          [
+            "At the rich man's gate, Lazarus longed for crumbs.",
+            "The Lord lifts up those who are bowed down."
+          ],
+          [
+            "The Lord watches over the stranger and upholds the orphan.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Picture the gate: feasting on one side, hunger on the other, and a name God does not forget — Lazarus.",
+            "The Lord lifts up those who are bowed down."
+          ],
+          [
+            "Woe to the ones at ease, the prophet says, who do not grieve the ruin around them.",
+            "The Lord lifts up those who are bowed down."
+          ],
+          [
+            "But our God gives food to the hungry, frees the prisoner, opens the eyes of the blind.",
+            "The Lord lifts up those who are bowed down."
+          ],
+          [
+            "So we come not at ease but awake, content with enough, rich toward God.",
+            "The Lord lifts up those who are bowed down!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Feasting on one side of the gate, hunger on the other.",
+            "The Lord lifts up those who are bowed down."
+          ],
+          [
+            "Woe to the ones at ease who do not grieve.",
+            "The Lord lifts up those who are bowed down."
+          ],
+          [
+            "Come awake, content with enough, rich toward God.",
+            "The Lord lifts up those who are bowed down. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

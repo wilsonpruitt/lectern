@@ -236,7 +236,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Unless a grain of wheat falls and dies, it remains alone.",
+            "But if it dies, it bears much fruit."
+          ],
+          [
+            "The message of the cross is foolishness to the perishing.",
+            "To us who are being saved, it is the power of God."
+          ],
+          [
+            "In you, O Lord, we take refuge; you have held us from birth.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "The hour has come; come, let us worship.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Hold a single seed in your hand, hard and dry; it can stay whole and alone, or it can fall into the dark and break open.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "The hour has come, he says, for the Son of Man to be glorified, and glory turns out to mean a seed dropped into the ground to die.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "The cross looks like foolishness to those who are perishing, like weakness, like loss; but it is the power and wisdom of God.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "From the womb you called your servant, named us before we drew breath; from our youth you have been our refuge.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "And I, when I am lifted up, will draw all people to myself. Come, let us worship and be drawn.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A grain of wheat must fall and die to bear its fruit.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "The cross is foolishness to some, but to us the power of God.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "From our youth you have been our refuge and our rock.",
+            "Do not be far from us, O Lord."
+          ],
+          [
+            "The hour has come. Come, let us worship.",
+            "Do not be far from us, O Lord. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

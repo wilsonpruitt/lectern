@@ -233,7 +233,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The stone is rolled across the tomb; the seal is set.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "If mortals die, will they live again?",
+            "Into your hand we commit our spirits."
+          ],
+          [
+            "The whole earth keeps a sabbath of grief.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "Come, let us keep watch until the morning.",
+            "We wait for the Lord in the silence. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "A stone is rolled across the mouth of the grave, the soldiers take their post, the seal is pressed into the clay, and everything goes still.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "This is the day with no liturgy, the long sabbath of God, the in-between hours when the Lord of life lies among the dead.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "Job's old question hangs in the air: if a mortal dies, will they live again? and the tomb gives back no answer yet.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "Into your hand we commit our spirits; you are our rock and our refuge; even here you have not let us go.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "So keep watch through the dark with us; do not be afraid of the quiet. Come, let us wait and worship.",
+            "We wait for the Lord in the silence. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The stone is sealed; the soldiers keep their watch.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "If mortals die, will they live? Into your hand we commit all.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "The earth keeps a long sabbath of grief.",
+            "We wait for the Lord in the silence."
+          ],
+          [
+            "Come, let us keep watch until the morning.",
+            "We wait for the Lord in the silence. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

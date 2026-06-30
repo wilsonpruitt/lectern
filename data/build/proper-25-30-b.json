@@ -491,7 +491,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "By the roadside a blind man hears the crowd.",
+            "Jesus, Son of David, have mercy on me!"
+          ],
+          [
+            "They told him to be quiet; he cried out the more.",
+            "Jesus, Son of David, have mercy on me!"
+          ],
+          [
+            "What do you want me to do? Teacher, let me see again.",
+            "Your faith has made you well."
+          ],
+          [
+            "Come, let us worship and follow on the way.",
+            "We see, and we follow. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Beside the Jericho road sat Bartimaeus, blind and begging, and when he heard that it was Jesus he began to shout.",
+            "Jesus, Son of David, have mercy on us."
+          ],
+          [
+            "They hushed him, but he only cried louder, until Jesus stopped and said, Call him here. Take heart; he is calling you.",
+            "Jesus, Son of David, have mercy on us."
+          ],
+          [
+            "He threw off his cloak and came. What do you want? Teacher, let me see. And at once the light came back.",
+            "Jesus, Son of David, have mercy on us."
+          ],
+          [
+            "See, God is bringing the people home, the blind among them, by a level road and streams of water. Come, let us follow and worship.",
+            "Jesus, Son of David, have mercy on us. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A blind man called out from the roadside.",
+            "Lord, let us see."
+          ],
+          [
+            "They told him to hush; he cried out louder.",
+            "Lord, let us see."
+          ],
+          [
+            "What do you want? Teacher, let me see again.",
+            "Lord, let us see."
+          ],
+          [
+            "His sight returned, and he followed on the way.",
+            "We see, and we follow. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -452,7 +452,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "How long, O Lord, must we cry for help?",
+            "Increase our faith, O Lord."
+          ],
+          [
+            "The righteous shall live by their faith.",
+            "Increase our faith, O Lord."
+          ],
+          [
+            "Be still before the Lord, and wait patiently.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The prophet stands at the watchpost and shouts into the silence: how long, how long?",
+            "Increase our faith, O Lord."
+          ],
+          [
+            "And the answer comes slowly: the vision waits for its time; the righteous live by faith.",
+            "Increase our faith, O Lord."
+          ],
+          [
+            "Even faith the size of a mustard seed is enough for the God who keeps his word.",
+            "Increase our faith, O Lord."
+          ],
+          [
+            "So we wait, not idle but trusting, doing the work given us, leaving the rest to God.",
+            "Increase our faith, O Lord!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "How long, O Lord? The watchman cries into the silence.",
+            "Increase our faith, O Lord."
+          ],
+          [
+            "The righteous live by faith; the vision keeps its time.",
+            "Increase our faith, O Lord."
+          ],
+          [
+            "Faith like a mustard seed is enough.",
+            "Increase our faith, O Lord. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

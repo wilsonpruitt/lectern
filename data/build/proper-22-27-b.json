@@ -462,7 +462,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "When we look at the heavens, the moon and stars you set in place —",
+            "what are we, that you would care for us?"
+          ],
+          [
+            "Yet you crown us with glory and honor.",
+            "You take us up in your arms."
+          ],
+          [
+            "Let the children come; do not stop them.",
+            "The kingdom belongs to such as these."
+          ],
+          [
+            "Come, let us worship with empty hands.",
+            "We come like children. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "When Jesus saw them keeping the little ones away he was indignant: Let the children come to me. And he took them up in his arms and blessed them.",
+            "We come to you like children."
+          ],
+          [
+            "For this is how the kingdom is received — not earned, not bought, but opened to like a gift placed in small and trusting hands.",
+            "We come to you like children."
+          ],
+          [
+            "What are we, that you are mindful of us? Yet you crown us with glory; you call us your own.",
+            "We come to you like children."
+          ],
+          [
+            "So come without your defenses, come without your résumé. There is a blessing here for you.",
+            "We come to you like children. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Jesus took the little ones up in his arms.",
+            "We come like children."
+          ],
+          [
+            "The kingdom belongs to such as these.",
+            "We come like children."
+          ],
+          [
+            "What are we, that you should care for us?",
+            "We come like children."
+          ],
+          [
+            "Come with open hands and be blessed.",
+            "We come like children. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

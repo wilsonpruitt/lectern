@@ -251,7 +251,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Here is my servant, whom I uphold.",
+            "A bruised reed he will not break."
+          ],
+          [
+            "Mary breaks the jar; the house fills with fragrance.",
+            "She has kept it for the day of his burial."
+          ],
+          [
+            "In your light, O God, we see light.",
+            "Your love reaches to the heavens."
+          ],
+          [
+            "Come, let us pour out our worship.",
+            "We follow the servant to the cross. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The scent of costly nard still hangs in the room where Mary knelt and poured it over his feet.",
+            "We follow the servant to the cross."
+          ],
+          [
+            "A whole year's wages spilled in one extravagant act, and the fragrance filled the house.",
+            "We follow the servant to the cross."
+          ],
+          [
+            "Here is God's servant: a bruised reed he will not break, a dimly burning wick he will not quench.",
+            "We follow the servant to the cross."
+          ],
+          [
+            "In his light we see light; from the fountain of his life we drink.",
+            "We follow the servant to the cross."
+          ],
+          [
+            "So pour out what is precious; the day of his burial draws near.",
+            "We follow the servant to the cross. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The fragrance of poured-out nard fills the room.",
+            "Here is the servant of God."
+          ],
+          [
+            "A bruised reed he will not break.",
+            "Here is the servant of God."
+          ],
+          [
+            "In your light, O God, we see light.",
+            "Here is the servant of God."
+          ],
+          [
+            "Come, let us pour out our worship.",
+            "Here is the servant of God. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

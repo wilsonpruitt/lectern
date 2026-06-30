@@ -488,7 +488,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Grant us to sit at your right and your left.",
+            "You do not know what you are asking."
+          ],
+          [
+            "Can you drink the cup that I drink?",
+            "We will drink the cup."
+          ],
+          [
+            "Whoever would be great must be servant of all.",
+            "The Son of Man came not to be served but to serve."
+          ],
+          [
+            "Come, let us worship the one who gave his life.",
+            "We come to serve. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "James and John leaned in close: Teacher, let us sit beside you in glory. And Jesus asked, Can you drink the cup that I am about to drink?",
+            "Not to be served, but to serve."
+          ],
+          [
+            "For greatness here runs backward — the first becomes the slave, the throne is a towel and a basin, the crown is thorns.",
+            "Not to be served, but to serve."
+          ],
+          [
+            "He was wounded for our transgressions; by his stripes we are healed; he poured out his life and carried us home.",
+            "Not to be served, but to serve."
+          ],
+          [
+            "So come and drink the cup of mercy, and follow the one who gave himself away. Come, let us worship.",
+            "Not to be served, but to serve. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "James and John asked for the seats of glory.",
+            "We come to serve."
+          ],
+          [
+            "Can you drink the cup that I drink?",
+            "We come to serve."
+          ],
+          [
+            "The Son of Man came to give his life for many.",
+            "We come to serve."
+          ],
+          [
+            "Come, let us worship the servant Lord.",
+            "Not to be served, but to serve. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

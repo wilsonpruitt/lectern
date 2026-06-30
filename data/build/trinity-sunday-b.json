@@ -267,7 +267,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The voice of the Lord thunders over the waters.",
+            "Holy, holy, holy is the Lord."
+          ],
+          [
+            "High above us a throne, and smoke, and a coal of fire.",
+            "Whom shall God send? Here we are."
+          ],
+          [
+            "The Spirit blows where it will, and we hear the sound.",
+            "By the Spirit we cry out, Abba, Father."
+          ],
+          [
+            "Father, Son, and Holy Spirit, come, let us worship.",
+            "We come to the God who is Three in One. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Listen — over the deep waters a voice is rolling like thunder, and the whole temple fills with smoke.",
+            "Holy, holy, holy is the Lord."
+          ],
+          [
+            "Feel the wind move through the room; you cannot see where it comes from or where it goes, but it is the breath of God on your face.",
+            "Holy, holy, holy is the Lord."
+          ],
+          [
+            "You were born of water and Spirit, and the same Spirit teaches your mouth one trembling word: Abba, Father.",
+            "Holy, holy, holy is the Lord."
+          ],
+          [
+            "So come, you who are afraid and undone; the God of fire has touched your lips and called your name.",
+            "Holy, holy, holy is the Lord. Here we are; send us."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The wind moves where it will; the Spirit is loose among us.",
+            "Holy is the Lord."
+          ],
+          [
+            "A coal of fire, a throne, a cry that shakes the door.",
+            "Holy is the Lord."
+          ],
+          [
+            "Born of water and the Spirit, we learn to say: Abba.",
+            "Holy is the Lord."
+          ],
+          [
+            "Come, let us worship Father, Son, and Spirit.",
+            "Holy is the Lord. Here we are; send us."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -480,7 +480,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The landowner went out at dawn, and at noon, and at the eleventh hour.",
+            "The Lord is good to all, and his mercy is over all."
+          ],
+          [
+            "Are you envious because I am generous?",
+            "The Lord is gracious and slow to anger."
+          ],
+          [
+            "We who came late are paid in full.",
+            "Great is the Lord, and greatly to be praised."
+          ],
+          [
+            "Come, let us worship the God whose grace offends our arithmetic.",
+            "We come to the generous God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Stand in the marketplace as the long day ends, the light going gold, certain you have been passed over — and hear the voice that says, you also, come.",
+            "The Lord is gracious and good to all."
+          ],
+          [
+            "We keep our ledgers of who worked longest and who deserves the most.",
+            "The Lord is gracious and good to all."
+          ],
+          [
+            "But God opens his hand to the latecomer, the outsider, even to Nineveh, even to us.",
+            "The Lord is gracious and good to all."
+          ],
+          [
+            "The first will be last and the last first, and the wage is the same: grace.",
+            "The Lord is gracious and good to all."
+          ],
+          [
+            "So come, whatever the hour, and receive what you could not earn.",
+            "The Lord is gracious and good to all. Thanks be to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "At the eleventh hour the call still comes: you also, come.",
+            "God is good to all."
+          ],
+          [
+            "We count who deserves the most.",
+            "God is good to all."
+          ],
+          [
+            "But grace is not a wage; it is a gift.",
+            "God is good to all."
+          ],
+          [
+            "Come, whatever the hour, and worship.",
+            "We come to the generous God. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

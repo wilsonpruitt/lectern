@@ -245,7 +245,72 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "How lovely is your dwelling place, O Lord of hosts.",
+            "My eyes have seen your salvation."
+          ],
+          [
+            "The Lord whom you seek will suddenly come to his temple.",
+            "My eyes have seen your salvation."
+          ],
+          [
+            "A light for revelation, and glory for your people.",
+            "Come, let us worship. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Two old people have waited their whole lives in the temple for one promise to come true.",
+            "My eyes have seen your salvation."
+          ],
+          [
+            "And here it is — carried in by a poor young couple — a forty-day-old child.",
+            "My eyes have seen your salvation."
+          ],
+          [
+            "Simeon takes him up and is ready, at last, to go in peace.",
+            "My eyes have seen your salvation."
+          ],
+          [
+            "A light to the nations and a glory to God's people, longed-for and finally here.",
+            "My eyes have seen your salvation; now let your servant go in peace!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Two elders wait a lifetime in the temple.",
+            "My eyes have seen your salvation."
+          ],
+          [
+            "A poor couple carries in the long-awaited child.",
+            "My eyes have seen your salvation."
+          ],
+          [
+            "A light to the nations; now we go in peace.",
+            "My eyes have seen your salvation. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

@@ -227,7 +227,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The boy Samuel heard his name in the night.",
+            "Speak, Lord, your servant is listening."
+          ],
+          [
+            "You have searched me and known me, O God.",
+            "You knew my words before I spoke them."
+          ],
+          [
+            "Jesus said: come and see. I saw you.",
+            "Where the world overlooks us, you know us by name."
+          ],
+          [
+            "Come, let us worship the God who calls.",
+            "Speak, Lord, your servant is listening. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "In the night, when the lamp of God had not yet gone out, a voice called a boy by name — and called, and called again.",
+            "Speak, Lord, your servant is listening."
+          ],
+          [
+            "O Lord, you have searched me and you know me; you knit me together, you trace my path, you know my sitting down and my rising up.",
+            "Speak, Lord, your servant is listening."
+          ],
+          [
+            "Jesus saw Nathanael under the fig tree before anyone introduced them, and said simply: come and see.",
+            "Speak, Lord, your servant is listening."
+          ],
+          [
+            "So we come, already known and already called, and we open our ears to the One who names us.",
+            "Speak, Lord, your servant is listening. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "A voice calls in the night, and a boy answers.",
+            "Speak, Lord, your servant is listening."
+          ],
+          [
+            "You have searched me and known me, O God.",
+            "Speak, Lord, your servant is listening."
+          ],
+          [
+            "Jesus says: I saw you. Come and see.",
+            "Speak, Lord, your servant is listening."
+          ],
+          [
+            "Come, let us worship the God who calls us.",
+            "Speak, Lord, your servant is listening. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

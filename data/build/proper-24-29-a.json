@@ -440,7 +440,84 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Whose image is this? Caesar's. Then give to God what is God's.",
+            "We bear God's image; to God we belong."
+          ],
+          [
+            "I am the Lord, and there is no other.",
+            "Sing to the Lord a new song; the Lord reigns."
+          ],
+          [
+            "The nations and their coins are not our king.",
+            "Declare God's glory among the peoples."
+          ],
+          [
+            "Come, let us worship the One who alone is Lord.",
+            "We give ourselves to God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "Hold a coin in your hand and read the face stamped on it, then look at the face beside you, stamped with the image of God.",
+            "The Lord reigns; sing a new song."
+          ],
+          [
+            "Give Caesar his coins and his due, but give to God what bears God's likeness — give God yourself.",
+            "The Lord reigns; sing a new song."
+          ],
+          [
+            "For there is no other: not Cyrus, not Caesar, not any throne under heaven; the Lord forms the light and the dark.",
+            "The Lord reigns; sing a new song."
+          ],
+          [
+            "Declare his glory among the nations, his marvelous works among all the peoples.",
+            "The Lord reigns; sing a new song."
+          ],
+          [
+            "So come, you who bear his image, and worship.",
+            "The Lord reigns; sing a new song. Let the earth rejoice!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Whose image is on the coin? And whose image do you bear?",
+            "We belong to God; the Lord reigns."
+          ],
+          [
+            "I am the Lord, and there is no other.",
+            "We belong to God; the Lord reigns."
+          ],
+          [
+            "Give Caesar his coins; give God yourself.",
+            "We belong to God; the Lord reigns."
+          ],
+          [
+            "Come, let us sing the Lord a new song.",
+            "We give ourselves to God. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

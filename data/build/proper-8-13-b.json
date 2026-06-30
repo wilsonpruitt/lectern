@@ -471,7 +471,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "semicontinuous",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "Out of the depths we cry to you, O Lord.",
+            "With you there is steadfast love and power to redeem."
+          ],
+          [
+            "A woman reaches through the crowd to touch his cloak.",
+            "If we but touch the hem, we shall be made well."
+          ],
+          [
+            "Into the room of death he speaks: Little girl, get up.",
+            "And the dead are raised; we will not fear."
+          ],
+          [
+            "Come, let us worship the God who lifts us from the deep.",
+            "We come, and we are healed. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "You have been low, lower than you say out loud, down where the morning feels like it will never come.",
+            "Out of the depths we cry to you."
+          ],
+          [
+            "A woman bleeding twelve years pushes through the crowd, certain that if she can just reach the hem of his cloak she will be whole.",
+            "Out of the depths we cry to you."
+          ],
+          [
+            "He takes a dead child by the hand and says, Talitha cum, little girl, I say to you, arise, and her breath comes back.",
+            "Out of the depths we cry to you."
+          ],
+          [
+            "So reach out here, whatever you are carrying; the same hand is stretched toward you, and morning is coming.",
+            "Out of the depths we cry to you, and you lift us up."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "From the deep places we call your name.",
+            "Out of the depths, we cry to you."
+          ],
+          [
+            "We press through the crowd to touch his cloak.",
+            "Out of the depths, we cry to you."
+          ],
+          [
+            "He takes the child's hand: Little one, arise.",
+            "Out of the depths, we cry to you."
+          ],
+          [
+            "Come, let us worship the God who raises us.",
+            "Out of the depths, we cry to you. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

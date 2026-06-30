@@ -252,7 +252,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "single",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The Lord bless you and keep you.",
+            "The Lord make his face to shine upon us."
+          ],
+          [
+            "On the eighth day they gave him a name.",
+            "Jesus: the Lord saves."
+          ],
+          [
+            "How majestic is your name in all the earth.",
+            "We are no longer slaves, but children."
+          ],
+          [
+            "Come, let us worship in the name of Jesus.",
+            "Glory to God. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "The Lord bless you and keep you; the Lord make his face shine on you — the old blessing that lays God's own name on his people like light.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "On the eighth day the child is given his name, the name the angel spoke: Jesus, because he will save.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "Because of this child you are no longer a slave but a daughter, a son, with the Spirit in you crying Abba, Father.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "So lift up that name above every name, here in this house and to the ends of the earth.",
+            "The Word became flesh and dwells among us. Glory to God!"
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "The Lord bless you and keep you and shine on you.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "On the eighth day they named the child Jesus.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "No longer slaves, we cry out, Abba, Father.",
+            "The Word became flesh and dwells among us."
+          ],
+          [
+            "Come, let us worship in the name of Jesus.",
+            "The Word became flesh and dwells among us. Glory to God!"
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }

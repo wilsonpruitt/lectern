@@ -462,7 +462,80 @@
       ]
     }
   },
-  "calls": null,
+  "calls": {
+    "track": "complementary",
+    "registers": [
+      {
+        "key": "A",
+        "label": "Spare",
+        "desc": "house voice · 4–8 lines",
+        "lines": [
+          [
+            "The Teacher turns and asks the old question.",
+            "Who do you say that I am?"
+          ],
+          [
+            "Not a rumor, not a guess —",
+            "You are the Messiah, the Christ of God."
+          ],
+          [
+            "Then take up your cross and come.",
+            "We will lose our lives to find them."
+          ],
+          [
+            "Come, let us worship the Lord who walks ahead.",
+            "We come to follow Jesus. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "B",
+        "label": "Immersive",
+        "desc": "sensory anchor · building refrain",
+        "lines": [
+          [
+            "On the road to Caesarea Jesus stops and turns: Who do people say that I am? And then, closer: Who do you say that I am?",
+            "You are the Messiah; we will follow you."
+          ],
+          [
+            "He sets his face toward the city like flint, like the servant who would not turn away though they struck him.",
+            "You are the Messiah; we will follow you."
+          ],
+          [
+            "He says the hard thing plainly: take up the cross, lose your life, and you will find it again.",
+            "You are the Messiah; we will follow you."
+          ],
+          [
+            "So we lift the cup of salvation and call on the name of the Lord. Come, let us worship.",
+            "You are the Messiah; we will follow you. Amen."
+          ]
+        ]
+      },
+      {
+        "key": "C",
+        "label": "Hybrid",
+        "desc": "economy + one refrain",
+        "lines": [
+          [
+            "Jesus turns and asks who we say he is.",
+            "You are the Messiah; we will follow you."
+          ],
+          [
+            "He sets his face toward the cross.",
+            "You are the Messiah; we will follow you."
+          ],
+          [
+            "He calls us to lose our lives and find them.",
+            "You are the Messiah; we will follow you."
+          ],
+          [
+            "Come, let us worship and walk behind him.",
+            "We come to follow Jesus. Amen."
+          ]
+        ]
+      }
+    ]
+  },
   "turn": null,
   "lenses": null
 }
