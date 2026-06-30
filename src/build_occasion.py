@@ -88,9 +88,12 @@ def day_tagset(readings: list[dict]) -> set:
 
 
 def sermon_recs(day_tags: set, sermons: dict, top: int = 6) -> list[dict]:
+    # Sermons are scored UNWEIGHTED (empty idf -> tc.score defaults each tag to
+    # 1.0). The IDF rarity weighting is calibrated on the hymn corpus; applying
+    # it to sermons would silently change the already-approved sermon recs.
     scored = []
     for _sid, s in sermons.items():
-        score, shared = tc.score(tc.tagset(s), day_tags)
+        score, shared = tc.score(tc.tagset(s), day_tags, {})
         if score > 0:
             scored.append((score, s, shared))
     scored.sort(key=lambda x: (-x[0], x[1].get("title", "")))
@@ -106,10 +109,10 @@ def sermon_recs(day_tags: set, sermons: dict, top: int = 6) -> list[dict]:
     return out
 
 
-def hymn_recs(day_tags: set, hymns: list[dict], top: int = 6) -> list[dict]:
+def hymn_recs(day_tags: set, hymns: list[dict], idf: dict, top: int = 6) -> list[dict]:
     scored = []
     for h in hymns:
-        score, shared = tc.score(tc.tagset(h), day_tags)
+        score, shared = tc.score(tc.tagset(h), day_tags, idf)
         if score > 0:
             scored.append((score, h, shared))
     scored.sort(key=lambda x: (-x[0], x[1].get("number", 0)))
@@ -133,7 +136,8 @@ def load_calls(occ_id: str) -> dict | None:
     return {"track": blob.get("track"), "registers": blob.get("registers", [])}
 
 
-def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict]) -> dict:
+def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
+          hymn_idf: dict) -> dict:
     tracks_in = track_readings(occ, rcl_tags)
     labels = {"semicontinuous": "Semicontinuous", "complementary": "Complementary",
               "single": "Readings"}
@@ -146,7 +150,7 @@ def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict]) -> dict:
             "label": labels.get(tr, tr),
             "readings": readings,
             "sermons": sermon_recs(dts, sermons),
-            "hymns": hymn_recs(dts, hymns),
+            "hymns": hymn_recs(dts, hymns, hymn_idf),
         }
     return {
         "occasion": {
@@ -171,6 +175,7 @@ def main() -> None:
     rcl_tags = tc.load("rcl_tags.json")
     sermons = tc.load("sermon_tags.json")["sermons"]
     hymns = tc.load("hymn_tags.json")["hymns"]
+    hymn_idf = tc.idf_weights(hymns)   # IDF over the hymn corpus (per tag_connect)
 
     if args == ["--all"]:
         targets = spine["occasions"]
@@ -183,7 +188,7 @@ def main() -> None:
     BUILD.mkdir(parents=True, exist_ok=True)
     n_calls = 0
     for occ in targets:
-        doc = build(occ, rcl_tags, sermons, hymns)
+        doc = build(occ, rcl_tags, sermons, hymns, hymn_idf)
         if doc["calls"]:
             n_calls += 1
         if to_stdout and len(targets) == 1:

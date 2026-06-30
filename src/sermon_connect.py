@@ -18,7 +18,7 @@ def recommend(track_readings, sermons, top=6):
     day_tags = set().union(*[tg for (_d, tg) in track_readings.values()]) if track_readings else set()
     scored = []
     for sid, s in sermons.items():
-        sc, shared = tc.score(tc.tagset(s), day_tags)
+        sc, shared = tc.score(tc.tagset(s), day_tags, {})  # unweighted (no hymn-IDF)
         if sc > 0:
             scored.append((sc, sid, s, shared))
     scored.sort(key=lambda x: (-x[0], x[1]))
