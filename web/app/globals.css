@@ -1,0 +1,104 @@
+@import "./brand.css";
+@import "./shell.css";
+
+/* ---------------------------------------------------------------------------
+   Lectern shell — app layout over the Fen & Ink tokens + prototype components.
+   The prototype (layout-rail) proved the spatial model; these classes lift its
+   inline styles into named, reusable rules.
+--------------------------------------------------------------------------- */
+html, body { background: var(--paper, var(--bg, #fbf8f1)); color: var(--ink); }
+a { color: inherit; text-decoration: none; }
+
+.wrap { max-width: 1180px; margin: 0 auto; }
+
+/* masthead links */
+.masthead a.brandlink { display: flex; align-items: baseline; gap: 10px; }
+.masthead .weeknav a.btn { text-decoration: none; display: inline-block; }
+
+/* ---------- workbench (Layout A: pinned readings rail + tool tabs) ---------- */
+.workbench { display: flex; gap: 0; min-height: 72vh; }
+.rail {
+  width: 320px; flex: none; padding: var(--space-5);
+  border-right: 1px solid var(--border); background: var(--bg-sunken);
+}
+.panel { flex: 1; padding: 0 var(--space-6) var(--space-5); min-width: 0; }
+.panel-body { padding-top: var(--space-4); max-width: 660px; }
+
+/* day note */
+.rail .daynote { margin-top: var(--space-4); }
+
+/* call register description */
+.reg-desc { margin-bottom: var(--space-3); }
+
+/* score pill on recs */
+.rec .score {
+  margin-left: auto; font-family: var(--sans); font-size: 11px;
+  color: var(--fen-mist); background: var(--bg-sunken);
+  border-radius: var(--radius-pill); padding: 1px 8px;
+}
+.rec .line1 { width: 100%; }
+
+/* empty / not-yet states */
+.empty {
+  font-family: var(--sans); font-size: var(--t-body-sm); color: var(--fg-quiet);
+  padding: var(--space-4) 0;
+}
+
+/* ---------- index (home) ---------- */
+.hero { padding: var(--space-7) var(--space-6) var(--space-5); }
+.hero .lectern-xl {
+  font-family: var(--serif); font-weight: 500; font-size: 52px; color: var(--fen);
+  letter-spacing: 0.3px; line-height: 1.05; margin: 0;
+}
+.hero .thesis {
+  font-family: var(--serif); font-style: italic; font-size: 21px; color: var(--fen-mist);
+  max-width: 30em; line-height: 1.5; margin: var(--space-4) 0 0;
+}
+.hero .imprint { font-size: var(--t-caption); color: var(--fg-quiet); letter-spacing: 0.4px; margin-top: var(--space-3); }
+.yearpick { display: flex; gap: var(--space-4); padding: 0 var(--space-6) var(--space-7); flex-wrap: wrap; }
+.yearcard {
+  flex: 1 1 240px; border: 1px solid var(--border-strong); border-radius: var(--radius-lg);
+  padding: var(--space-5); background: var(--ivory); box-shadow: var(--shadow-sm);
+  transition: box-shadow .15s ease, border-color .15s ease;
+}
+.yearcard:hover { border-color: var(--reed); box-shadow: var(--shadow-md, var(--shadow-sm)); }
+.yearcard .yr { font-family: var(--serif); font-size: 34px; color: var(--fen); }
+.yearcard .lede { font-size: var(--t-body-sm); color: var(--fg-muted); margin-top: 4px; }
+.yearcard .count { font-size: var(--t-caption); color: var(--fg-quiet); margin-top: var(--space-3); }
+
+/* ---------- year view (the across-the-year axis) ---------- */
+.yearhead { padding: var(--space-6) var(--space-6) var(--space-3); }
+.yearhead h1 { font-family: var(--serif); font-weight: 500; font-size: 32px; color: var(--fen); }
+.yearhead .sub { font-size: var(--t-body-sm); color: var(--fg-muted); margin-top: 4px; }
+.season-block { padding: 0 var(--space-6) var(--space-5); }
+.season-block > .eyebrow { margin-top: var(--space-5); color: var(--reed-deep); }
+.occ-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: var(--space-3); margin-top: var(--space-3);
+}
+.occ-card {
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+  padding: var(--space-4); background: var(--ivory);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.occ-card:hover { border-color: var(--reed); box-shadow: var(--shadow-sm); }
+.occ-card .nm { font-family: var(--serif); font-size: 17px; color: var(--ink); }
+.occ-card .rd { font-size: var(--t-caption); color: var(--fen-mist); margin-top: 4px; line-height: 1.4; }
+.occ-card .tk { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; color: var(--fg-quiet); margin-top: 6px; }
+
+/* breadcrumb / back link */
+.crumb { padding: var(--space-4) var(--space-6) 0; font-size: var(--t-caption); color: var(--fen-mist); }
+.crumb a:hover { color: var(--reed-deep); }
+
+/* footer */
+.footer {
+  font-size: var(--t-caption); color: var(--fg-quiet); text-align: center;
+  padding: var(--space-6); border-top: 1px solid var(--border); margin-top: var(--space-6);
+}
+
+@media (max-width: 720px) {
+  .workbench { flex-direction: column; }
+  .rail { width: auto; border-right: 0; border-bottom: 1px solid var(--border); }
+  .panel { padding: 0 var(--space-4) var(--space-4); }
+  .masthead { flex-wrap: wrap; gap: var(--space-3); }
+}

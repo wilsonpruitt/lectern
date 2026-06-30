@@ -1,0 +1,22 @@
+{
+  "name": "lectern-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lectern — preacher's workbench shell (Layout A). Static export over data/build/*.json.",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

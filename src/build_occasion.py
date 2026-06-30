@@ -187,18 +187,38 @@ def main() -> None:
 
     BUILD.mkdir(parents=True, exist_ok=True)
     n_calls = 0
+    index = []
     for occ in targets:
         doc = build(occ, rcl_tags, sermons, hymns, hymn_idf)
         if doc["calls"]:
             n_calls += 1
+        # ordered index entry (spine order is liturgical) for nav + the year view
+        first_track = next(iter(doc["tracks"].values()), {"readings": []})
+        index.append({
+            "id": doc["occasion"]["id"],
+            "name": doc["occasion"]["name"],
+            "year": doc["occasion"]["year"],
+            "season": doc["occasion"]["season"],
+            "trackKeys": list(doc["tracks"].keys()),
+            "readings": [{"role": r["role"], "ref": r["ref"]}
+                         for r in first_track["readings"]],
+            "hasCalls": bool(doc["calls"]),
+        })
         if to_stdout and len(targets) == 1:
             print(json.dumps(doc, indent=2, ensure_ascii=False))
             continue
         out = BUILD / f"{occ['id']}.json"
         out.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")
+    # Only (re)write the ordered index on a full build, so partial runs don't
+    # truncate it. Filename starts with "_" so the web data layer skips it.
+    if not to_stdout and args == ["--all"]:
+        (BUILD / "_index.json").write_text(
+            json.dumps({"occasions": index}, indent=2, ensure_ascii=False),
+            encoding="utf-8")
     if not to_stdout:
         print(f"wrote {len(targets)} occasion file(s) to {BUILD}  "
-              f"({n_calls} with curated calls)")
+              f"({n_calls} with curated calls)"
+              + ("  + _index.json" if args == ['--all'] else ""))
 
 
 if __name__ == "__main__":

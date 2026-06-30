@@ -1,0 +1,249 @@
+/* ============================================================
+   Wroot Labs — colors & type tokens
+   "Fen & Ink" palette. EB Garamond (display) + Inter (body).
+   ============================================================ */
+
+/* Local variable fonts. Both families MUST be present — never substitute. */
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/fonts/EBGaramond-VF.ttf") format("truetype-variations"),
+       url("/fonts/EBGaramond-VF.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/fonts/EBGaramond-Italic-VF.ttf") format("truetype-variations"),
+       url("/fonts/EBGaramond-Italic-VF.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VF.ttf") format("truetype-variations"),
+       url("/fonts/Inter-VF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Italic-VF.ttf") format("truetype-variations"),
+       url("/fonts/Inter-Italic-VF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* ---------- Color: brand ---------- */
+  --fen:           #2C3E4A;   /* primary — fen water */
+  --fen-mist:      #5B6B76;   /* primary muted */
+  --ink:           #1A2128;   /* deepest text */
+  --reed:          #C9A86A;   /* accent — reed/ochre */
+  --reed-deep:     #A98748;   /* accent on hover/press */
+
+  /* ---------- Color: surfaces & neutrals ---------- */
+  --parchment:     #F7F3EC;   /* page surface */
+  --ivory:         #FBF8F1;   /* raised surface (cards, panels) */
+  --slate-100:     #E7E2D7;   /* hairline borders, dividers */
+  --slate-200:     #D6D0C2;   /* stronger borders */
+  --slate-300:     #B6B0A2;   /* disabled, low-contrast UI */
+  --slate-600:     #54595E;   /* muted body text */
+
+  /* ---------- Color: semantic (UI) ---------- */
+  --bg:            var(--parchment);
+  --bg-raised:     var(--ivory);
+  --bg-sunken:     #EFEAE0;
+  --fg:            var(--ink);
+  --fg-muted:      var(--slate-600);
+  --fg-quiet:      #7A7E81;
+  --fg-on-fen:     var(--ivory);
+  --fg-on-reed:    var(--ink);
+  --border:        var(--slate-100);
+  --border-strong: var(--slate-200);
+  --focus-ring:    rgba(44, 62, 74, 0.35);
+
+  /* ---------- Color: status (muted, parish-feeling) ---------- */
+  --ok:            #5B7A4E;   /* moss */
+  --ok-bg:         #EAEDD7;
+  --warn:          #B07A2B;   /* deeper reed */
+  --warn-bg:       #F4E8CF;
+  --danger:        #8C3A2E;   /* oxblood */
+  --danger-bg:     #F1D9D2;
+  --info:          #3F5C73;
+  --info-bg:       #DCE4EA;
+
+  /* ---------- Type: families ---------- */
+  --serif:         "EB Garamond", "Adobe Garamond Pro", Garamond, Georgia, serif;
+  --sans:          "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono:          ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  /* ---------- Type: scale (display = serif, ui = sans) ---------- */
+  --t-display-xl:  64px;
+  --t-display-lg:  48px;
+  --t-display-md:  36px;
+  --t-display-sm:  28px;
+  --t-h1:          32px;
+  --t-h2:          24px;
+  --t-h3:          18px;
+  --t-body:        16px;
+  --t-body-sm:     14px;
+  --t-caption:     13px;
+  --t-micro:       12px;
+
+  /* ---------- Type: line-heights ---------- */
+  --lh-display:    1.08;
+  --lh-heading:    1.2;
+  --lh-prose:      1.6;
+  --lh-ui:         1.45;
+
+  /* ---------- Type: weights ---------- */
+  --w-regular:     400;
+  --w-medium:      500;
+  --w-semibold:    600;
+
+  /* ---------- Spacing (4-step) ---------- */
+  --space-1:       4px;
+  --space-2:       8px;
+  --space-3:       12px;
+  --space-4:       16px;
+  --space-5:       24px;
+  --space-6:       32px;
+  --space-7:       48px;
+  --space-8:       64px;
+  --space-9:       96px;
+
+  /* ---------- Radius ---------- */
+  --radius-sm:     4px;
+  --radius-md:     6px;
+  --radius-lg:     10px;
+  --radius-xl:     14px;
+  --radius-pill:   999px;
+
+  /* ---------- Elevation (intentionally restrained) ---------- */
+  --shadow-hairline: inset 0 0 0 1px var(--border);
+  --shadow-sm:       0 1px 0 rgba(26, 33, 40, 0.04), 0 1px 2px rgba(26, 33, 40, 0.04);
+  --shadow-md:       0 1px 0 rgba(26, 33, 40, 0.04), 0 4px 12px rgba(26, 33, 40, 0.06);
+  --shadow-pop:      0 8px 28px rgba(26, 33, 40, 0.10);
+
+  /* ---------- Motion ---------- */
+  --ease-quiet:    cubic-bezier(0.32, 0.72, 0.32, 1);
+  --dur-fast:      120ms;
+  --dur-base:      200ms;
+  --dur-slow:      320ms;
+
+  /* ---------- Reading widths ---------- */
+  --measure-prose: 64ch;
+  --measure-ui:    52ch;
+}
+
+/* ============================================================
+   Semantic element styles. Keep these *quiet*.
+   ============================================================ */
+
+html { color-scheme: light; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-size: var(--t-body);
+  line-height: var(--lh-ui);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Display headings — serif, fen, calm tracking */
+.display, h1.display {
+  font-family: var(--serif);
+  font-weight: var(--w-medium);
+  color: var(--fen);
+  letter-spacing: 0.2px;
+  line-height: var(--lh-display);
+}
+.display-xl { font-family: var(--serif); font-weight: var(--w-medium); color: var(--fen); font-size: var(--t-display-xl); line-height: var(--lh-display); letter-spacing: 0.2px; }
+.display-lg { font-family: var(--serif); font-weight: var(--w-medium); color: var(--fen); font-size: var(--t-display-lg); line-height: var(--lh-display); letter-spacing: 0.2px; }
+.display-md { font-family: var(--serif); font-weight: var(--w-medium); color: var(--fen); font-size: var(--t-display-md); line-height: var(--lh-heading); letter-spacing: 0.2px; }
+.display-sm { font-family: var(--serif); font-weight: var(--w-medium); color: var(--fen); font-size: var(--t-display-sm); line-height: var(--lh-heading); letter-spacing: 0.2px; }
+
+/* Page-title flourish */
+.title-italic { font-family: var(--serif); font-style: italic; font-weight: var(--w-regular); color: var(--fen-mist); }
+
+/* h1–h3 default to UI sans (dashboard surfaces). For editorial views,
+   author writes <h1 class="display-lg">. */
+h1 { font-family: var(--sans); font-weight: var(--w-semibold); font-size: var(--t-h1); line-height: var(--lh-heading); color: var(--fen); margin: 0; letter-spacing: -0.1px; }
+h2 { font-family: var(--sans); font-weight: var(--w-semibold); font-size: var(--t-h2); line-height: var(--lh-heading); color: var(--fen); margin: 0; letter-spacing: -0.1px; }
+h3 { font-family: var(--sans); font-weight: var(--w-semibold); font-size: var(--t-h3); line-height: var(--lh-heading); color: var(--fen); margin: 0; }
+
+/* Eyebrow / section label — small caps, tight tracking */
+.eyebrow {
+  font-family: var(--sans);
+  font-size: var(--t-micro);
+  font-weight: var(--w-semibold);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--fen-mist);
+}
+
+/* Body */
+p { color: var(--fg); font-size: var(--t-body); line-height: var(--lh-prose); margin: 0; }
+p.muted { color: var(--fg-muted); }
+.prose { font-family: var(--sans); font-size: var(--t-body); line-height: var(--lh-prose); color: var(--fg); max-width: var(--measure-prose); }
+.prose-serif { font-family: var(--serif); font-size: 19px; line-height: 1.65; color: var(--ink); max-width: var(--measure-prose); }
+.prose-serif p + p { margin-top: 0.9em; text-indent: 1.4em; }
+.prose-serif p:first-child { text-indent: 0; }
+
+/* Inline */
+small, .caption { font-size: var(--t-caption); color: var(--fg-muted); }
+.micro { font-size: var(--t-micro); color: var(--fg-muted); }
+code, kbd, samp, pre { font-family: var(--mono); font-size: 0.92em; }
+code { background: var(--bg-sunken); padding: 1px 6px; border-radius: var(--radius-sm); color: var(--ink); }
+kbd { font-family: var(--mono); font-size: 11px; padding: 2px 6px; border: 1px solid var(--border-strong); border-bottom-width: 2px; border-radius: 4px; background: var(--ivory); color: var(--fen); }
+
+/* Editorial: drop-cap, footnote refs, apparatus criticus */
+.dropcap::first-letter {
+  font-family: var(--serif);
+  float: left;
+  font-size: 4.2em;
+  line-height: 0.9;
+  padding: 6px 10px 0 0;
+  color: var(--fen);
+  font-weight: var(--w-medium);
+}
+.footnote-ref {
+  font-family: var(--sans);
+  font-size: 0.7em;
+  vertical-align: super;
+  color: var(--reed-deep);
+  text-decoration: none;
+  font-weight: var(--w-semibold);
+  padding: 0 2px;
+}
+.apparatus {
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--slate-600);
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+.apparatus .lemma { color: var(--ink); font-weight: var(--w-medium); }
+.apparatus .siglum { font-style: italic; color: var(--fen-mist); }
+
+/* Links */
+a { color: var(--fen); text-decoration-color: var(--reed); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { color: var(--ink); text-decoration-color: var(--reed-deep); }
+
+/* Selection */
+::selection { background: rgba(201, 168, 106, 0.35); color: var(--ink); }
+
+/* Focus ring — single, calm */
+:where(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+hr { border: 0; height: 1px; background: var(--border); margin: var(--space-6) 0; }
