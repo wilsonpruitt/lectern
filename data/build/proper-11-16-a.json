@@ -314,6 +314,64 @@
         ],
         "doctrine": [
           {
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "God from God, Light from Light",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
+            "themes": [
+              "epiphany-manifestation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god",
+              "last-things"
+            ]
+          },
+          {
             "title": "Apostles' Creed",
             "article": "he shall come to judge",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
@@ -339,32 +397,6 @@
           },
           {
             "title": "Nicene Creed",
-            "article": "God from God, Light from Light",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
-            "themes": [
-              "epiphany-manifestation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise",
-              "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god",
-              "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
             "article": "the Holy Spirit, the giver of life",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
             "themes": [
@@ -378,57 +410,9 @@
             "themes": [
               "holy-spirit"
             ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
-            "themes": [
-              "covenant"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
           }
         ],
         "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
           {
             "community": "Community of All Creation",
             "topic": "Stewardship of Creation",
@@ -443,6 +427,22 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
             "themes": [
               "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           }
         ]
@@ -753,19 +753,53 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the slaveholding clause",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
             "themes": [
-              "justice"
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
+            "themes": [
+              "repentance"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god",
+              "last-things"
             ]
           },
           {
             "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "justice"
+              "prayer-and-worship"
             ]
           },
           {
@@ -786,36 +820,18 @@
           },
           {
             "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "article": "the slaveholding clause",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
             "themes": [
-              "prayer-and-worship"
+              "justice"
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
             "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise",
-              "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god",
-              "last-things"
+              "justice"
             ]
           },
           {
@@ -833,49 +849,9 @@
             "themes": [
               "holy-spirit"
             ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
-            "themes": [
-              "repentance"
-            ]
           }
         ],
         "social": [
-          {
-            "community": "The Political Community",
-            "topic": "Basic Rights & Freedoms",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
-            "themes": [
-              "justice"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Poverty & Income Inequality",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
-            "themes": [
-              "justice"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
           {
             "community": "The Political Community",
             "topic": "Restorative Justice",
@@ -893,11 +869,35 @@
             ]
           },
           {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
             "community": "The Political Community",
             "topic": "Health Care",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
               "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Basic Rights & Freedoms",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
+            "themes": [
+              "justice"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Poverty & Income Inequality",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
+            "themes": [
+              "justice"
             ]
           }
         ]
@@ -1052,6 +1052,11 @@
         "do": "Turn anxious or vengeful hearts from rendering verdicts now to entrusting the harvest to God — and to living as wheat."
       }
     ],
+    "synthesis": {
+      "convergence": "The readings show a sovereignty that looks like forbearance — a God who judges with mildness and teaches his people to be kind (Wisdom 12), who abounds in steadfast love (Psalm 86), who waits with a groaning creation that hopes for what it cannot yet see (Romans 8) — over a field where wheat and weeds grow tangled until harvest.",
+      "claim": "The God who could uproot every weed chooses patience and kindness instead — and asks the same costly patience of you.",
+      "here": "For people quick to sort the world (and the church) into the righteous and the villains, the move is the hard patience of hope: leave the harvest to God, extend to the 'weeds' the mildness God extends to you, and wait — with the whole groaning creation — for a verdict that is not yours to render."
+    },
     "subtract": "Three doors, three landings — patience (let both grow), vigilance (while they slept), hope-and-warning (the harvest sorts it). Choose one for your people and let the others go.",
     "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
     "status": "draft"

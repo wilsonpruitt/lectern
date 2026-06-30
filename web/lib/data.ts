@@ -67,6 +67,7 @@ export type TurnDoor = {
   say: string;
   do: string;
 };
+export type TurnSynthesis = { convergence: string; claim: string; here: string };
 export type Turn = {
   pericope: string;
   refKey: string;
@@ -74,6 +75,7 @@ export type Turn = {
   trap: string;
   hinge: string;
   doors: TurnDoor[];
+  synthesis?: TurnSynthesis;
   subtract: string;
   source: string;
   status: string;

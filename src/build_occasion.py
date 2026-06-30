@@ -147,7 +147,7 @@ def load_turn(occ_id: str) -> dict | None:
     blob = json.loads(f.read_text(encoding="utf-8"))
     return {k: blob[k] for k in
             ("pericope", "refKey", "gravity", "trap", "hinge", "doors",
-             "subtract", "source", "status") if k in blob}
+             "synthesis", "subtract", "source", "status") if k in blob}
 
 
 def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],

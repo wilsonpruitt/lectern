@@ -96,6 +96,13 @@ a { color: inherit; text-decoration: none; }
 .witness .reading { font-family: var(--serif); font-size: 15px; font-style: italic; color: var(--fen-mist); line-height: 1.5; }
 .say-do p { font-family: var(--sans); font-size: var(--t-body-sm); line-height: 1.5; color: var(--fg); margin: 0 0 4px; }
 .say-do .sd-lbl { display: inline-block; min-width: 38px; font-size: var(--t-micro); text-transform: uppercase; letter-spacing: 1px; color: var(--fen); font-weight: 600; }
+.synthesis { margin-top: var(--space-5); padding: var(--space-4) var(--space-5); border-radius: var(--radius-lg); background: var(--bg-sunken); border: 1px solid var(--border); }
+.synthesis-head { display: flex; align-items: baseline; gap: var(--space-3); }
+.synthesis-head .eyebrow { color: var(--fen); margin-bottom: 0; }
+.syn-note { color: var(--fg-quiet); margin: 6px 0 var(--space-4); max-width: 58ch; }
+.syn-block { font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink); margin: 0 0 var(--space-3); }
+.syn-block:last-child { margin-bottom: 0; }
+.syn-block.claim { color: var(--fen); font-weight: 500; font-family: var(--sans); font-size: 17px; }
 .turn-source { margin-top: var(--space-5); color: var(--fg-quiet); }
 
 /* empty / not-yet states */

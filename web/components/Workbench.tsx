@@ -273,6 +273,23 @@ function Turn({ turn }: { turn: TurnData }) {
         ))}
       </div>
 
+      {turn.synthesis ? (
+        <div className="synthesis">
+          <div className="synthesis-head">
+            <span className="eyebrow">Synthesis · bringing the texts together</span>
+            <span className="badge">editorial</span>
+          </div>
+          <p className="micro syn-note">
+            Less the church&rsquo;s traditions, more your context — how the day&rsquo;s
+            readings converge, and the move toward these people this week. It names the
+            one thing; it doesn&rsquo;t preach it for you.
+          </p>
+          <p className="syn-block"><span className="turn-lbl">How they converge</span>{turn.synthesis.convergence}</p>
+          <p className="syn-block claim"><span className="turn-lbl">The one thing together</span>{turn.synthesis.claim}</p>
+          <p className="syn-block"><span className="turn-lbl">Here, this week</span>{turn.synthesis.here}</p>
+        </div>
+      ) : null}
+
       <p className="turn-source micro">{turn.source}</p>
     </div>
   );

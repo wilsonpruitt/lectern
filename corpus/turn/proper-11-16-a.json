@@ -11,8 +11,20 @@
       "landing": "Let both grow",
       "claim": "You are not the reaper — pulling the weeds now would tear up wheat with them, so the command is a hard patience that leaves room for the weed to become wheat.",
       "witnesses": [
-        { "author": "Jerome", "tradition": "latin-patristic", "work": "Catena Aurea", "mode": "text", "reading": "Room for repentance is left, and we are warned not to cut off a brother hastily, since one who today is corrupted by error may tomorrow be set right." },
-        { "author": "John Chrysostom", "tradition": "greek-patristic", "work": "Catena Aurea", "mode": "text", "reading": "This the Lord spoke to forbid any putting to death; for we ought not to kill even a heretic, since so a never-ending war would be brought into the world." }
+        {
+          "author": "Jerome",
+          "tradition": "latin-patristic",
+          "work": "Catena Aurea",
+          "mode": "text",
+          "reading": "Room for repentance is left, and we are warned not to cut off a brother hastily, since one who today is corrupted by error may tomorrow be set right."
+        },
+        {
+          "author": "John Chrysostom",
+          "tradition": "greek-patristic",
+          "work": "Catena Aurea",
+          "mode": "text",
+          "reading": "This the Lord spoke to forbid any putting to death; for we ought not to kill even a heretic, since so a never-ending war would be brought into the world."
+        }
       ],
       "say": "Your hands are not steady enough to weed God's field; the patience that galls you is mercy leaving a door open.",
       "do": "Name one person they have already written off as a weed, and ask them to keep the door of repentance open instead of uprooting."
@@ -21,8 +33,20 @@
       "landing": "While they slept",
       "claim": "The weeds came in the unguarded hour, sown by an enemy and not by God — which both names the origin of evil and calls the sleepers to wake.",
       "witnesses": [
-        { "author": "Augustine", "tradition": "latin-patristic", "work": "Catena Aurea", "mode": "text", "reading": "\"While men slept\" — while the leaders of the Church lay in supineness, and after the Apostles had fallen into the sleep of death, then the enemy came." },
-        { "author": "John Wesley", "tradition": "wesleyan", "work": "Explanatory Notes", "mode": "text", "reading": "While men slept — they ought to have watched; the Lord of the field never sleeps. An enemy has done this: a plain answer to the great question of the origin of evil." }
+        {
+          "author": "Augustine",
+          "tradition": "latin-patristic",
+          "work": "Catena Aurea",
+          "mode": "text",
+          "reading": "\"While men slept\" — while the leaders of the Church lay in supineness, and after the Apostles had fallen into the sleep of death, then the enemy came."
+        },
+        {
+          "author": "John Wesley",
+          "tradition": "wesleyan",
+          "work": "Explanatory Notes",
+          "mode": "text",
+          "reading": "While men slept — they ought to have watched; the Lord of the field never sleeps. An enemy has done this: a plain answer to the great question of the origin of evil."
+        }
       ],
       "say": "The weeds in your life and your church are not from the hand of God — they were sown in a sleeping hour, and the call is to wake.",
       "do": "Point to one unguarded place — a habit, a relationship, a corner of the church — where vigilance has lapsed, and watch there again."
@@ -31,8 +55,20 @@
       "landing": "The harvest sorts it",
       "claim": "The mixed field is not the last word — there is a harvest, a real and final sorting that belongs to God, where the weeds are bound and the righteous shine like the sun.",
       "witnesses": [
-        { "author": "John Chrysostom", "tradition": "greek-patristic", "work": "Catena Aurea", "mode": "text", "reading": "Behold the love of God: ready to show mercy, slow to punish. When he sows, he sows himself; when he punishes, he punishes by others — by the angels." },
-        { "author": "Remigius of Auxerre", "tradition": "medieval", "work": "Catena Aurea", "mode": "text", "reading": "The harvest is the day of judgment, when the good are parted from the evil by the ministry of angels; the righteous, who now shine for an example, shall then shine as the sun." }
+        {
+          "author": "John Chrysostom",
+          "tradition": "greek-patristic",
+          "work": "Catena Aurea",
+          "mode": "text",
+          "reading": "Behold the love of God: ready to show mercy, slow to punish. When he sows, he sows himself; when he punishes, he punishes by others — by the angels."
+        },
+        {
+          "author": "Remigius of Auxerre",
+          "tradition": "medieval",
+          "work": "Catena Aurea",
+          "mode": "text",
+          "reading": "The harvest is the day of judgment, when the good are parted from the evil by the ministry of angels; the righteous, who now shine for an example, shall then shine as the sun."
+        }
       ],
       "say": "Leave the verdict to the harvest — it is coming, it is God's, and the wheat will shine in it.",
       "do": "Turn anxious or vengeful hearts from rendering verdicts now to entrusting the harvest to God — and to living as wheat."
@@ -40,5 +76,10 @@
   ],
   "subtract": "Three doors, three landings — patience (let both grow), vigilance (while they slept), hope-and-warning (the harvest sorts it). Choose one for your people and let the others go.",
   "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
-  "status": "draft"
+  "status": "draft",
+  "synthesis": {
+    "convergence": "The readings show a sovereignty that looks like forbearance — a God who judges with mildness and teaches his people to be kind (Wisdom 12), who abounds in steadfast love (Psalm 86), who waits with a groaning creation that hopes for what it cannot yet see (Romans 8) — over a field where wheat and weeds grow tangled until harvest.",
+    "claim": "The God who could uproot every weed chooses patience and kindness instead — and asks the same costly patience of you.",
+    "here": "For people quick to sort the world (and the church) into the righteous and the villains, the move is the hard patience of hope: leave the harvest to God, extend to the 'weeds' the mildness God extends to you, and wait — with the whole groaning creation — for a verdict that is not yours to render."
+  }
 }
