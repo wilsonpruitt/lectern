@@ -1,32 +1,11780 @@
 {
-  "note": "Reading tags keyed by OSIS refKey (reusable across years/occasions where a text recurs). Tagged against lexicon.json v0. Seed slice = Year A Propers 22-25. Production tagging should read the WEB text (via Fons) for auditability; these were assigned from the passages directly.",
-  "readings": {
-    "Exod.20.1-Exod.20.4": {"theme": ["covenant", "idolatry", "justice"], "image": ["mountain", "fire"], "mood": ["fear-and-trembling"], "function": ["illumination-word"]},
-    "Ps.19": {"theme": ["providence-and-care", "faithfulness"], "image": ["light"], "mood": ["wonder-and-awe", "praise-and-exultation"], "function": ["illumination-word"]},
-    "Isa.5.1-Isa.5.7": {"theme": ["judgment", "justice"], "image": ["vineyard"], "mood": ["lament"], "function": []},
-    "Ps.80.7-Ps.80.15": {"theme": ["deliverance", "judgment"], "image": ["vineyard", "shepherd"], "mood": ["lament", "longing-and-waiting"], "function": ["lament-intercession"]},
-    "Phil.3.4-Phil.3.14": {"theme": ["call-and-discipleship", "grace"], "image": ["road-and-journey"], "mood": ["resolve-and-sending"], "function": ["sending-benediction"]},
-    "Matt.21.33-Matt.21.46": {"theme": ["judgment", "kingdom-of-god"], "image": ["vineyard", "rock-and-refuge"], "mood": ["fear-and-trembling"], "function": []},
-
-    "Exod.32.1-Exod.32.14": {"theme": ["idolatry", "repentance", "providence-and-care"], "image": ["mountain", "fire"], "mood": ["fear-and-trembling", "penitence"], "function": ["confession", "lament-intercession"]},
-    "Ps.106.1-Ps.106.6": {"theme": ["idolatry", "thanksgiving", "deliverance"], "image": ["wilderness"], "mood": ["penitence", "praise-and-exultation"], "function": ["confession", "thanksgiving-offering"]},
-    "Isa.25.1-Isa.25.9": {"theme": ["deliverance", "hospitality-of-god", "resurrection-and-life", "thanksgiving"], "image": ["table-and-feast", "mountain"], "mood": ["comfort-and-consolation", "praise-and-exultation", "joy"], "function": ["thanksgiving-offering", "table-communion"]},
-    "Ps.23": {"theme": ["providence-and-care", "faithfulness", "hospitality-of-god"], "image": ["shepherd", "table-and-feast", "valley-and-shadow", "water"], "mood": ["trust", "comfort-and-consolation"], "function": ["gathering", "table-communion"]},
-    "Phil.4.1-Phil.4.9": {"theme": ["peace-of-god", "thanksgiving", "faithfulness"], "image": [], "mood": ["joy", "trust", "comfort-and-consolation"], "function": ["sending-benediction", "thanksgiving-offering"]},
-    "Matt.22.1-Matt.22.14": {"theme": ["kingdom-of-god", "hospitality-of-god", "judgment", "grace"], "image": ["table-and-feast", "garment-and-robe"], "mood": ["longing-and-waiting"], "function": ["table-communion", "gathering"]},
-
-    "Exod.33.12-Exod.33.23": {"theme": ["providence-and-care", "covenant"], "image": ["mountain", "light"], "mood": ["wonder-and-awe", "longing-and-waiting"], "function": []},
-    "Ps.99": {"theme": ["justice", "faithfulness"], "image": ["mountain"], "mood": ["fear-and-trembling", "praise-and-exultation"], "function": ["gathering"]},
-    "Isa.45.1-Isa.45.7": {"theme": ["providence-and-care", "deliverance"], "image": ["light"], "mood": ["wonder-and-awe"], "function": []},
-    "Ps.96.1-Ps.96.9": {"theme": ["kingdom-of-god", "justice"], "image": [], "mood": ["praise-and-exultation", "joy"], "function": ["gathering"]},
-    "1Thess.1.1-1Thess.1.10": {"theme": ["faithfulness", "call-and-discipleship", "thanksgiving"], "image": [], "mood": ["joy", "resolve-and-sending"], "function": ["thanksgiving-offering"]},
-    "Matt.22.15-Matt.22.22": {"theme": ["kingdom-of-god", "justice"], "image": [], "mood": [], "function": []},
-
-    "Deut.34.1-Deut.34.12": {"theme": ["faithfulness", "deliverance"], "image": ["mountain", "road-and-journey"], "mood": ["comfort-and-consolation", "longing-and-waiting"], "function": []},
-    "Ps.90.1-Ps.90.6": {"theme": ["providence-and-care"], "image": ["rock-and-refuge"], "mood": ["lament", "trust"], "function": ["lament-intercession"]},
-    "Lev.19.1-Lev.19.2": {"theme": ["justice", "covenant", "call-and-discipleship"], "image": [], "mood": ["resolve-and-sending"], "function": []},
-    "Ps.1": {"theme": ["justice", "faithfulness"], "image": ["road-and-journey", "water"], "mood": ["trust"], "function": []},
-    "1Thess.2.1-1Thess.2.8": {"theme": ["call-and-discipleship", "faithfulness"], "image": [], "mood": ["resolve-and-sending"], "function": []},
-    "Matt.22.34-Matt.22.46": {"theme": ["justice", "call-and-discipleship", "covenant"], "image": [], "mood": [], "function": []}
+ "note": "Reading tags keyed by OSIS refKey (reusable across years/occasions where a text recurs). Tagged against lexicon.json v0. Seed slice = Year A Propers 22-25. Production tagging should read the WEB text (via Fons) for auditability; these were assigned from the passages directly. [v1: full RCL tagged via 8 parallel taggers against frozen lexicon v1, 2026-06-30.]",
+ "readings": {
+  "Exod.20.1-Exod.20.4": {
+   "theme": [
+    "covenant",
+    "idolatry",
+    "justice"
+   ],
+   "image": [
+    "fire",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Ps.19": {
+   "theme": [
+    "faithfulness",
+    "providence-and-care"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Isa.5.1-Isa.5.7": {
+   "theme": [
+    "judgment",
+    "justice"
+   ],
+   "image": [
+    "vineyard"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Ps.80.7-Ps.80.15": {
+   "theme": [
+    "deliverance",
+    "judgment"
+   ],
+   "image": [
+    "shepherd",
+    "vineyard"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Phil.3.4-Phil.3.14": {
+   "theme": [
+    "call-and-discipleship",
+    "grace"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Matt.21.33-Matt.21.46": {
+   "theme": [
+    "judgment",
+    "kingdom-of-god"
+   ],
+   "image": [
+    "rock-and-refuge",
+    "vineyard"
+   ],
+   "mood": [
+    "fear-and-trembling"
+   ],
+   "function": []
+  },
+  "Exod.32.1-Exod.32.14": {
+   "theme": [
+    "idolatry",
+    "providence-and-care",
+    "repentance"
+   ],
+   "image": [
+    "fire",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "penitence"
+   ],
+   "function": [
+    "confession",
+    "lament-intercession"
+   ]
+  },
+  "Ps.106.1-Ps.106.6": {
+   "theme": [
+    "deliverance",
+    "idolatry",
+    "thanksgiving"
+   ],
+   "image": [
+    "wilderness"
+   ],
+   "mood": [
+    "penitence",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "confession",
+    "thanksgiving-offering"
+   ]
+  },
+  "Isa.25.1-Isa.25.9": {
+   "theme": [
+    "deliverance",
+    "hospitality-of-god",
+    "resurrection-and-life",
+    "thanksgiving"
+   ],
+   "image": [
+    "mountain",
+    "table-and-feast"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "table-communion",
+    "thanksgiving-offering"
+   ]
+  },
+  "Ps.23": {
+   "theme": [
+    "faithfulness",
+    "hospitality-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "shepherd",
+    "table-and-feast",
+    "valley-and-shadow",
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "trust"
+   ],
+   "function": [
+    "gathering",
+    "table-communion"
+   ]
+  },
+  "Phil.4.1-Phil.4.9": {
+   "theme": [
+    "faithfulness",
+    "peace-of-god",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "joy",
+    "trust"
+   ],
+   "function": [
+    "sending-benediction",
+    "thanksgiving-offering"
+   ]
+  },
+  "Matt.22.1-Matt.22.14": {
+   "theme": [
+    "grace",
+    "hospitality-of-god",
+    "judgment",
+    "kingdom-of-god"
+   ],
+   "image": [
+    "garment-and-robe",
+    "table-and-feast"
+   ],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": [
+    "gathering",
+    "table-communion"
+   ]
+  },
+  "Exod.33.12-Exod.33.23": {
+   "theme": [
+    "covenant",
+    "providence-and-care"
+   ],
+   "image": [
+    "light",
+    "mountain"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.99": {
+   "theme": [
+    "faithfulness",
+    "justice"
+   ],
+   "image": [
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "Isa.45.1-Isa.45.7": {
+   "theme": [
+    "deliverance",
+    "providence-and-care"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.96.1-Ps.96.9": {
+   "theme": [
+    "justice",
+    "kingdom-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "1Thess.1.1-1Thess.1.10": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Matt.22.15-Matt.22.22": {
+   "theme": [
+    "justice",
+    "kingdom-of-god"
+   ],
+   "image": [],
+   "mood": [],
+   "function": []
+  },
+  "Deut.34.1-Deut.34.12": {
+   "theme": [
+    "deliverance",
+    "faithfulness"
+   ],
+   "image": [
+    "mountain",
+    "road-and-journey"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.90.1-Ps.90.6": {
+   "theme": [
+    "providence-and-care"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Lev.19.1-Lev.19.2": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "justice"
+   ],
+   "image": [],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Ps.1": {
+   "theme": [
+    "faithfulness",
+    "justice"
+   ],
+   "image": [
+    "road-and-journey",
+    "water"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "1Thess.2.1-1Thess.2.8": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness"
+   ],
+   "image": [],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Matt.22.34-Matt.22.46": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "justice"
+   ],
+   "image": [],
+   "mood": [],
+   "function": []
+  },
+  "Isa.2.1-Isa.2.5": {
+   "theme": [
+    "hope-and-promise",
+    "kingdom-of-god",
+    "peace-of-god"
+   ],
+   "image": [
+    "light",
+    "mountain",
+    "road-and-journey"
+   ],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "Ps.122": {
+   "theme": [
+    "peace-of-god",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "gate-and-door"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Rom.13.11-Rom.13.14": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "repentance"
+   ],
+   "image": [
+    "darkness-and-night",
+    "garment-and-robe",
+    "light"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.24.36-Matt.24.44": {
+   "theme": [
+    "call-and-discipleship",
+    "judgment",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Isa.11.1-Isa.11.10": {
+   "theme": [
+    "justice",
+    "messianic-hope",
+    "peace-of-god"
+   ],
+   "image": [
+    "lamb",
+    "mountain",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.72.1-Ps.72.7": {
+   "theme": [
+    "justice",
+    "kingdom-of-god",
+    "messianic-hope"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Rom.15.4-Rom.15.13": {
+   "theme": [
+    "church-and-unity",
+    "hope-and-promise",
+    "mission-and-witness"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "joy"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Matt.3.1-Matt.3.12": {
+   "theme": [
+    "baptism",
+    "judgment",
+    "repentance"
+   ],
+   "image": [
+    "fire",
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Isa.35.1-Isa.35.10": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise"
+   ],
+   "image": [
+    "road-and-journey",
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.146.5-Ps.146.10": {
+   "theme": [
+    "faithfulness",
+    "justice",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Jas.5.7-Jas.5.10": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "gate-and-door",
+    "harvest"
+   ],
+   "mood": [
+    "exhortation",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Matt.11.2-Matt.11.11": {
+   "theme": [
+    "faith-and-trust",
+    "kingdom-of-god",
+    "messianic-hope"
+   ],
+   "image": [
+    "wilderness"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Isa.7.10-Isa.7.16": {
+   "theme": [
+    "hope-and-promise",
+    "incarnation",
+    "messianic-hope"
+   ],
+   "image": [
+    "manger-and-birth",
+    "name"
+   ],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.80.1-Ps.80.7": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "light",
+    "shepherd"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Rom.1.1-Rom.1.7": {
+   "theme": [
+    "grace",
+    "messianic-hope",
+    "mission-and-witness"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Matt.1.18-Matt.1.25": {
+   "theme": [
+    "incarnation",
+    "mercy-and-forgiveness",
+    "messianic-hope"
+   ],
+   "image": [
+    "manger-and-birth",
+    "name"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.9.2-Isa.9.7": {
+   "theme": [
+    "deliverance",
+    "messianic-hope",
+    "peace-of-god"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light",
+    "manger-and-birth"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": []
+  },
+  "Ps.96": {
+   "theme": [
+    "kingdom-of-god",
+    "mission-and-witness",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Titus.2.11-Titus.2.14": {
+   "theme": [
+    "atonement",
+    "grace",
+    "hope-and-promise"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.2.1-Luke.2.14": {
+   "theme": [
+    "epiphany-manifestation",
+    "incarnation",
+    "peace-of-god"
+   ],
+   "image": [
+    "manger-and-birth",
+    "shepherd"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.62.6-Isa.62.12": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise"
+   ],
+   "image": [
+    "name",
+    "road-and-journey"
+   ],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.97": {
+   "theme": [
+    "judgment",
+    "kingdom-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "cloud",
+    "fire",
+    "light"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Titus.3.4-Titus.3.7": {
+   "theme": [
+    "baptism",
+    "grace",
+    "holy-spirit"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Luke.2.1-Luke.2.7": {
+   "theme": [
+    "epiphany-manifestation",
+    "incarnation",
+    "thanksgiving"
+   ],
+   "image": [
+    "manger-and-birth",
+    "shepherd"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.52.7-Isa.52.10": {
+   "theme": [
+    "deliverance",
+    "mission-and-witness",
+    "peace-of-god"
+   ],
+   "image": [
+    "hand-and-arm",
+    "mountain"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": []
+  },
+  "Ps.98": {
+   "theme": [
+    "deliverance",
+    "judgment",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "hand-and-arm",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Heb.1.1-Heb.1.4": {
+   "theme": [
+    "ascension-and-reign",
+    "incarnation",
+    "word-of-god"
+   ],
+   "image": [
+    "king-and-throne",
+    "light"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "John.1.1-John.1.14": {
+   "theme": [
+    "creation",
+    "incarnation",
+    "word-of-god"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.63.7-Isa.63.9": {
+   "theme": [
+    "deliverance",
+    "faithfulness",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "tenderness"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Ps.148": {
+   "theme": [
+    "creation",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "mountain",
+    "star"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Heb.2.10-Heb.2.18": {
+   "theme": [
+    "atonement",
+    "deliverance",
+    "incarnation"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Matt.2.13-Matt.2.23": {
+   "theme": [
+    "deliverance",
+    "providence-and-care",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Num.6.22-Num.6.27": {
+   "theme": [
+    "peace-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "light",
+    "name"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Ps.8": {
+   "theme": [
+    "creation",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "name",
+    "star"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Gal.4.4-Gal.4.7": {
+   "theme": [
+    "grace",
+    "holy-spirit",
+    "incarnation"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Luke.2.15-Luke.2.21": {
+   "theme": [
+    "epiphany-manifestation",
+    "incarnation",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "manger-and-birth",
+    "name",
+    "shepherd"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": []
+  },
+  "Eccl.3.1-Eccl.3.13": {
+   "theme": [
+    "creation",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "Rev.21.1-Rev.21.6": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Matt.25.31-Matt.25.46": {
+   "theme": [
+    "judgment",
+    "kingdom-of-god",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "king-and-throne",
+    "shepherd"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Jer.31.7-Jer.31.14": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise"
+   ],
+   "image": [
+    "road-and-journey",
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": []
+  },
+  "Ps.147.12-Ps.147.20": {
+   "theme": [
+    "prayer-and-worship",
+    "providence-and-care",
+    "word-of-god"
+   ],
+   "image": [
+    "bread",
+    "gate-and-door"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Eph.1.3-Eph.1.14": {
+   "theme": [
+    "atonement",
+    "grace",
+    "holy-spirit"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "John.1.1-John.1.9": {
+   "theme": [
+    "grace",
+    "incarnation",
+    "word-of-god"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.60.1-Isa.60.6": {
+   "theme": [
+    "epiphany-manifestation",
+    "hope-and-promise",
+    "mission-and-witness"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": []
+  },
+  "Eph.3.1-Eph.3.12": {
+   "theme": [
+    "church-and-unity",
+    "epiphany-manifestation",
+    "mission-and-witness"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Matt.2.1-Matt.2.12": {
+   "theme": [
+    "epiphany-manifestation",
+    "messianic-hope",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "star"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.42.1-Isa.42.9": {
+   "theme": [
+    "holy-spirit",
+    "justice",
+    "mission-and-witness"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Ps.29": {
+   "theme": [
+    "creation",
+    "peace-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "fire",
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Acts.10.34-Acts.10.43": {
+   "theme": [
+    "hospitality-of-god",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Matt.3.13-Matt.3.17": {
+   "theme": [
+    "baptism",
+    "epiphany-manifestation",
+    "holy-spirit"
+   ],
+   "image": [
+    "trumpet-and-voice",
+    "water"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Isa.49.1-Isa.49.7": {
+   "theme": [
+    "call-and-discipleship",
+    "messianic-hope",
+    "mission-and-witness"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Ps.40.1-Ps.40.11": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "thanksgiving"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "1Cor.1.1-1Cor.1.9": {
+   "theme": [
+    "faithfulness",
+    "grace",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "John.1.29-John.1.42": {
+   "theme": [
+    "call-and-discipleship",
+    "messianic-hope",
+    "mission-and-witness"
+   ],
+   "image": [
+    "lamb"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Isa.9.1-Isa.9.4": {
+   "theme": [
+    "deliverance",
+    "epiphany-manifestation",
+    "hope-and-promise"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light",
+    "yoke-and-burden"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": []
+  },
+  "Ps.27.1": {
+   "theme": [
+    "faith-and-trust",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "light",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": []
+  },
+  "1Cor.1.10-1Cor.1.18": {
+   "theme": [
+    "church-and-unity",
+    "passion-and-cross"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.4.12-Matt.4.23": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "mission-and-witness"
+   ],
+   "image": [
+    "light",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Mic.6.1-Mic.6.8": {
+   "theme": [
+    "justice",
+    "love-of-neighbor",
+    "repentance"
+   ],
+   "image": [
+    "mountain"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.15": {
+   "theme": [
+    "justice",
+    "law-and-commandment"
+   ],
+   "image": [
+    "mountain"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "1Cor.1.18-1Cor.1.31": {
+   "theme": [
+    "grace",
+    "passion-and-cross",
+    "wisdom"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.5.1-Matt.5.12": {
+   "theme": [
+    "justice",
+    "kingdom-of-god",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Mal.3.1-Mal.3.4": {
+   "theme": [
+    "judgment",
+    "messianic-hope",
+    "repentance"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.84": {
+   "theme": [
+    "hope-and-promise",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "joy",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "Heb.2.14-Heb.2.18": {
+   "theme": [
+    "atonement",
+    "deliverance",
+    "incarnation"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Luke.2.22-Luke.2.40": {
+   "theme": [
+    "epiphany-manifestation",
+    "messianic-hope",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.58.1-Isa.58.9": {
+   "theme": [
+    "justice",
+    "love-of-neighbor",
+    "repentance"
+   ],
+   "image": [
+    "bread",
+    "light"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.112.1-Ps.112.9": {
+   "theme": [
+    "faith-and-trust",
+    "justice",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "1Cor.2.1-1Cor.2.12": {
+   "theme": [
+    "holy-spirit",
+    "passion-and-cross",
+    "wisdom"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Matt.5.13-Matt.5.20": {
+   "theme": [
+    "call-and-discipleship",
+    "law-and-commandment",
+    "mission-and-witness"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Exod.24.12-Exod.24.18": {
+   "theme": [
+    "covenant",
+    "law-and-commandment",
+    "transfiguration-glory"
+   ],
+   "image": [
+    "cloud",
+    "fire",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.2": {
+   "theme": [
+    "judgment",
+    "kingdom-of-god",
+    "messianic-hope"
+   ],
+   "image": [
+    "king-and-throne",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling"
+   ],
+   "function": []
+  },
+  "2Pet.1.16-2Pet.1.21": {
+   "theme": [
+    "faith-and-trust",
+    "transfiguration-glory",
+    "word-of-god"
+   ],
+   "image": [
+    "light",
+    "mountain"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Matt.17.1-Matt.17.9": {
+   "theme": [
+    "epiphany-manifestation",
+    "transfiguration-glory"
+   ],
+   "image": [
+    "cloud",
+    "light",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Joel.2.1-Joel.2.2": {
+   "theme": [
+    "judgment",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [
+    "darkness-and-night",
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "penitence",
+    "prophetic-warning"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Ps.51.1-Ps.51.17": {
+   "theme": [
+    "mercy-and-forgiveness",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "penitence"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "2Cor.5.20-2Cor.6.10": {
+   "theme": [
+    "atonement",
+    "repentance",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.6.1-Matt.6.6": {
+   "theme": [
+    "call-and-discipleship",
+    "prayer-and-worship",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Gen.2.15-Gen.2.17": {
+   "theme": [
+    "creation",
+    "sin-and-fall",
+    "temptation-and-testing"
+   ],
+   "image": [
+    "garden"
+   ],
+   "mood": [
+    "fear-and-trembling"
+   ],
+   "function": []
+  },
+  "Ps.32": {
+   "theme": [
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "penitence",
+    "trust"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "Rom.5.12-Rom.5.19": {
+   "theme": [
+    "atonement",
+    "grace",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Matt.4.1-Matt.4.11": {
+   "theme": [
+    "faith-and-trust",
+    "temptation-and-testing",
+    "word-of-god"
+   ],
+   "image": [
+    "bread",
+    "wilderness"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "Gen.12.1-Gen.12.4": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "hope-and-promise"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Ps.121": {
+   "theme": [
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "mountain",
+    "road-and-journey"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Rom.4.1-Rom.4.5": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "grace"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "John.3.1-John.3.17": {
+   "theme": [
+    "baptism",
+    "grace",
+    "holy-spirit"
+   ],
+   "image": [
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Exod.17.1-Exod.17.7": {
+   "theme": [
+    "deliverance",
+    "providence-and-care",
+    "temptation-and-testing"
+   ],
+   "image": [
+    "rock-and-refuge",
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Ps.95": {
+   "theme": [
+    "creation",
+    "faithfulness",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "exhortation",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "Rom.5.1-Rom.5.11": {
+   "theme": [
+    "atonement",
+    "grace",
+    "peace-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "John.4.5-John.4.42": {
+   "theme": [
+    "grace",
+    "mission-and-witness",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "1Sam.16.1-1Sam.16.13": {
+   "theme": [
+    "call-and-discipleship",
+    "holy-spirit",
+    "providence-and-care"
+   ],
+   "image": [
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Eph.5.8-Eph.5.14": {
+   "theme": [
+    "call-and-discipleship",
+    "grace",
+    "repentance"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "John.9.1-John.9.41": {
+   "theme": [
+    "call-and-discipleship",
+    "epiphany-manifestation",
+    "faith-and-trust",
+    "sin-and-fall"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ezek.37.1-Ezek.37.14": {
+   "theme": [
+    "exile-and-return",
+    "holy-spirit",
+    "hope-and-promise",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "tomb-and-grave",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.130": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "penitence"
+   ],
+   "function": [
+    "confession",
+    "lament-intercession"
+   ]
+  },
+  "Rom.8.6-Rom.8.11": {
+   "theme": [
+    "holy-spirit",
+    "resurrection-and-life",
+    "sin-and-fall"
+   ],
+   "image": [
+    "wind-and-breath"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "John.11.1-John.11.45": {
+   "theme": [
+    "faith-and-trust",
+    "messianic-hope",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Isa.7.10-Isa.7.14": {
+   "theme": [
+    "hope-and-promise",
+    "incarnation",
+    "messianic-hope"
+   ],
+   "image": [
+    "manger-and-birth",
+    "name"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Ps.45": {
+   "theme": [
+    "kingdom-of-god",
+    "messianic-hope"
+   ],
+   "image": [
+    "garment-and-robe",
+    "king-and-throne",
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Heb.10.4-Heb.10.10": {
+   "theme": [
+    "atonement",
+    "faithfulness",
+    "incarnation"
+   ],
+   "image": [
+    "lamb"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Luke.1.26-Luke.1.38": {
+   "theme": [
+    "call-and-discipleship",
+    "grace",
+    "incarnation",
+    "messianic-hope"
+   ],
+   "image": [
+    "manger-and-birth",
+    "name"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.118.1-Ps.118.2": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "thanksgiving"
+   ],
+   "image": [
+    "gate-and-door",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Matt.21.1-Matt.21.11": {
+   "theme": [
+    "kingdom-of-god",
+    "messianic-hope"
+   ],
+   "image": [
+    "garment-and-robe",
+    "king-and-throne",
+    "road-and-journey"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "Isa.50.4-Isa.50.9": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "resolve-and-sending",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.31.9-Ps.31.16": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "hand-and-arm",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Phil.2.5-Phil.2.11": {
+   "theme": [
+    "ascension-and-reign",
+    "atonement",
+    "incarnation",
+    "passion-and-cross"
+   ],
+   "image": [
+    "cross-and-tree",
+    "king-and-throne",
+    "name"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Matt.26.14-Matt.27.66": {
+   "theme": [
+    "atonement",
+    "passion-and-cross",
+    "sin-and-fall",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "blood",
+    "bread",
+    "cross-and-tree",
+    "cup"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Ps.36.5-Ps.36.11": {
+   "theme": [
+    "faithfulness",
+    "grace",
+    "providence-and-care"
+   ],
+   "image": [
+    "light",
+    "rock-and-refuge",
+    "water"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": []
+  },
+  "Heb.9.11-Heb.9.15": {
+   "theme": [
+    "atonement",
+    "covenant",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "blood",
+    "lamb"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "John.12.1-John.12.11": {
+   "theme": [
+    "call-and-discipleship",
+    "passion-and-cross",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "oil-and-anointing",
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Ps.71.1-Ps.71.14": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "John.12.20-John.12.36": {
+   "theme": [
+    "call-and-discipleship",
+    "epiphany-manifestation",
+    "passion-and-cross",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Ps.70": {
+   "theme": [
+    "deliverance",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Heb.12.1-Heb.12.3": {
+   "theme": [
+    "call-and-discipleship",
+    "saints-and-witnesses",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "cross-and-tree",
+    "road-and-journey"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.13.21-John.13.32": {
+   "theme": [
+    "passion-and-cross",
+    "sin-and-fall"
+   ],
+   "image": [
+    "bread",
+    "darkness-and-night"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Exod.12.1-Exod.12.4": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "blood",
+    "bread",
+    "lamb"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Ps.116.1-Ps.116.2": {
+   "theme": [
+    "deliverance",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "cup",
+    "name"
+   ],
+   "mood": [
+    "joy",
+    "trust"
+   ],
+   "function": [
+    "table-communion",
+    "thanksgiving-offering"
+   ]
+  },
+  "1Cor.11.23-1Cor.11.26": {
+   "theme": [
+    "atonement",
+    "covenant",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "blood",
+    "bread",
+    "cup"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "John.13.1-John.13.17": {
+   "theme": [
+    "call-and-discipleship",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "exhortation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Isa.52.13-Isa.53.12": {
+   "theme": [
+    "atonement",
+    "mercy-and-forgiveness",
+    "passion-and-cross",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "lamb"
+   ],
+   "mood": [
+    "lament",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.22": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Heb.10.16-Heb.10.25": {
+   "theme": [
+    "atonement",
+    "church-and-unity",
+    "covenant",
+    "hope-and-promise"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "John.18.1-John.19.42": {
+   "theme": [
+    "atonement",
+    "kingdom-of-god",
+    "passion-and-cross"
+   ],
+   "image": [
+    "blood",
+    "cross-and-tree",
+    "garden",
+    "king-and-throne"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Job.14.1-Job.14.14": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.31.1-Ps.31.4": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust"
+   ],
+   "image": [
+    "hand-and-arm",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "1Pet.4.1-1Pet.4.8": {
+   "theme": [
+    "call-and-discipleship",
+    "love-of-neighbor",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.27.57-Matt.27.66": {
+   "theme": [
+    "passion-and-cross",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Gen.1.1-Gen.2.4": {
+   "theme": [
+    "creation",
+    "word-of-god"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light",
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.136.1-Ps.136.9": {
+   "theme": [
+    "creation",
+    "deliverance",
+    "faithfulness",
+    "thanksgiving"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Gen.7.1-Gen.7.5": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "judgment",
+    "providence-and-care"
+   ],
+   "image": [
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.46": {
+   "theme": [
+    "faith-and-trust",
+    "peace-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "mountain",
+    "rock-and-refuge",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Gen.22.1-Gen.22.18": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "providence-and-care",
+    "temptation-and-testing"
+   ],
+   "image": [
+    "lamb",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.16": {
+   "theme": [
+    "faith-and-trust",
+    "providence-and-care",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "cup"
+   ],
+   "mood": [
+    "joy",
+    "trust"
+   ],
+   "function": []
+  },
+  "Exod.14.10-Exod.14.31": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "cloud",
+    "hand-and-arm",
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Exod.15.1-Exod.15.13": {
+   "theme": [
+    "deliverance",
+    "faithfulness",
+    "thanksgiving"
+   ],
+   "image": [
+    "hand-and-arm",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Isa.55.1-Isa.55.11": {
+   "theme": [
+    "covenant",
+    "grace",
+    "hospitality-of-god",
+    "word-of-god"
+   ],
+   "image": [
+    "bread",
+    "table-and-feast",
+    "water"
+   ],
+   "mood": [
+    "exhortation",
+    "joy"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "Isa.12.2-Isa.12.6": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "thanksgiving"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Bar.3.9-Bar.3.15": {
+   "theme": [
+    "exile-and-return",
+    "law-and-commandment",
+    "wisdom"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ezek.36.24-Ezek.36.28": {
+   "theme": [
+    "covenant",
+    "exile-and-return",
+    "holy-spirit",
+    "repentance"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Ps.42": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ps.143": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "confession",
+    "lament-intercession"
+   ]
+  },
+  "Zeph.3.14-Zeph.3.20": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise",
+    "kingdom-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Rom.6.3-Rom.6.11": {
+   "theme": [
+    "baptism",
+    "grace",
+    "resurrection-and-life",
+    "sin-and-fall"
+   ],
+   "image": [
+    "tomb-and-grave",
+    "water"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Ps.114": {
+   "theme": [
+    "deliverance",
+    "providence-and-care"
+   ],
+   "image": [
+    "mountain",
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Matt.28.1-Matt.28.10": {
+   "theme": [
+    "hope-and-promise",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Col.3.1-Col.3.4": {
+   "theme": [
+    "call-and-discipleship",
+    "hope-and-promise",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.20.1-John.20.18": {
+   "theme": [
+    "faith-and-trust",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "garden",
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.25.6-Isa.25.9": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "mountain",
+    "table-and-feast",
+    "vine-wine"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "1Cor.5.6-1Cor.5.8": {
+   "theme": [
+    "call-and-discipleship",
+    "repentance"
+   ],
+   "image": [
+    "bread",
+    "lamb"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.24.13-Luke.24.49": {
+   "theme": [
+    "faith-and-trust",
+    "mission-and-witness",
+    "resurrection-and-life",
+    "word-of-god"
+   ],
+   "image": [
+    "bread",
+    "road-and-journey"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Acts.2.14": {
+   "theme": [
+    "messianic-hope",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "1Pet.1.3-1Pet.1.9": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "resurrection-and-life",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "assurance",
+    "joy"
+   ],
+   "function": []
+  },
+  "John.20.19-John.20.31": {
+   "theme": [
+    "faith-and-trust",
+    "holy-spirit",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "wind-and-breath"
+   ],
+   "mood": [
+    "assurance",
+    "joy"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Ps.116.1-Ps.116.4": {
+   "theme": [
+    "deliverance",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "cup",
+    "name"
+   ],
+   "mood": [
+    "joy",
+    "trust"
+   ],
+   "function": [
+    "table-communion",
+    "thanksgiving-offering"
+   ]
+  },
+  "1Pet.1.17-1Pet.1.23": {
+   "theme": [
+    "atonement",
+    "call-and-discipleship",
+    "love-of-neighbor",
+    "word-of-god"
+   ],
+   "image": [
+    "blood",
+    "lamb",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.24.13-Luke.24.35": {
+   "theme": [
+    "faith-and-trust",
+    "resurrection-and-life",
+    "word-of-god"
+   ],
+   "image": [
+    "bread",
+    "road-and-journey"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Acts.2.42-Acts.2.47": {
+   "theme": [
+    "church-and-unity",
+    "prayer-and-worship",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "bread",
+    "table-and-feast"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "1Pet.2.19-1Pet.2.25": {
+   "theme": [
+    "atonement",
+    "call-and-discipleship",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "cross-and-tree",
+    "lamb",
+    "shepherd"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.10.1-John.10.10": {
+   "theme": [
+    "deliverance",
+    "messianic-hope",
+    "providence-and-care"
+   ],
+   "image": [
+    "gate-and-door",
+    "shepherd"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Acts.7.55-Acts.7.60": {
+   "theme": [
+    "mercy-and-forgiveness",
+    "mission-and-witness",
+    "saints-and-witnesses",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "king-and-throne",
+    "light"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.31.1-Ps.31.5": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust"
+   ],
+   "image": [
+    "hand-and-arm",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "1Pet.2.2-1Pet.2.10": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "grace"
+   ],
+   "image": [
+    "bread",
+    "light",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.14.1-John.14.14": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "incarnation",
+    "trinity"
+   ],
+   "image": [
+    "gate-and-door",
+    "road-and-journey"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Acts.17.22-Acts.17.31": {
+   "theme": [
+    "creation",
+    "idolatry",
+    "mission-and-witness",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.66.8-Ps.66.20": {
+   "theme": [
+    "deliverance",
+    "prayer-and-worship",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "fire",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "1Pet.3.13-1Pet.3.22": {
+   "theme": [
+    "atonement",
+    "baptism",
+    "mission-and-witness",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "John.14.15-John.14.21": {
+   "theme": [
+    "call-and-discipleship",
+    "holy-spirit",
+    "love-of-neighbor",
+    "trinity"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Acts.1.1-Acts.1.11": {
+   "theme": [
+    "ascension-and-reign",
+    "holy-spirit",
+    "kingdom-of-god",
+    "mission-and-witness"
+   ],
+   "image": [
+    "cloud"
+   ],
+   "mood": [
+    "resolve-and-sending",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Ps.47": {
+   "theme": [
+    "ascension-and-reign",
+    "kingdom-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne",
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Eph.1.15-Eph.1.23": {
+   "theme": [
+    "ascension-and-reign",
+    "church-and-unity",
+    "hope-and-promise",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Luke.24.44-Luke.24.53": {
+   "theme": [
+    "ascension-and-reign",
+    "mission-and-witness",
+    "resurrection-and-life",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Acts.1.6-Acts.1.14": {
+   "theme": [
+    "ascension-and-reign",
+    "holy-spirit",
+    "mission-and-witness",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "cloud"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Ps.68.1-Ps.68.10": {
+   "theme": [
+    "deliverance",
+    "justice",
+    "providence-and-care"
+   ],
+   "image": [
+    "hand-and-arm",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "1Pet.4.12-1Pet.4.14": {
+   "theme": [
+    "hope-and-promise",
+    "providence-and-care",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.17.1-John.17.11": {
+   "theme": [
+    "ascension-and-reign",
+    "church-and-unity",
+    "prayer-and-worship",
+    "trinity"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Acts.2.1-Acts.2.21": {
+   "theme": [
+    "church-and-unity",
+    "holy-spirit",
+    "last-things",
+    "mission-and-witness"
+   ],
+   "image": [
+    "fire",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.104.24-Ps.104.34": {
+   "theme": [
+    "creation",
+    "holy-spirit",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "sea-and-storm",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "1Cor.12.3-1Cor.12.13": {
+   "theme": [
+    "baptism",
+    "church-and-unity",
+    "holy-spirit"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.20.19-John.20.23": {
+   "theme": [
+    "holy-spirit",
+    "mercy-and-forgiveness",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "wind-and-breath"
+   ],
+   "mood": [
+    "assurance",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "1Sam.2.1-1Sam.2.10": {
+   "theme": [
+    "justice",
+    "kingdom-of-god",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Ps.113": {
+   "theme": [
+    "justice",
+    "kingdom-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Rom.12.9-Rom.12.16": {
+   "theme": [
+    "call-and-discipleship",
+    "hospitality-of-god",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.1.39-Luke.1.57": {
+   "theme": [
+    "incarnation",
+    "kingdom-of-god",
+    "messianic-hope",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "manger-and-birth"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "2Cor.13.11-2Cor.13.13": {
+   "theme": [
+    "church-and-unity",
+    "grace",
+    "peace-of-god",
+    "trinity"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Matt.28.16-Matt.28.20": {
+   "theme": [
+    "ascension-and-reign",
+    "baptism",
+    "mission-and-witness",
+    "trinity"
+   ],
+   "image": [
+    "mountain"
+   ],
+   "mood": [
+    "assurance",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "baptism-renewal",
+    "sending-benediction"
+   ]
+  },
+  "Gen.12.1-Gen.12.9": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "faith-and-trust",
+    "hope-and-promise"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "resolve-and-sending",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.33.1-Ps.33.12": {
+   "theme": [
+    "creation",
+    "prayer-and-worship",
+    "providence-and-care",
+    "word-of-god"
+   ],
+   "image": [
+    "sea-and-storm"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Hos.5.15-Hos.6.6": {
+   "theme": [
+    "faithfulness",
+    "judgment",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "penitence",
+    "prophetic-warning"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Ps.50.7-Ps.50.15": {
+   "theme": [
+    "judgment",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Rom.4.13-Rom.4.25": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "grace",
+    "hope-and-promise"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Matt.9.9-Matt.9.13": {
+   "theme": [
+    "call-and-discipleship",
+    "grace",
+    "hospitality-of-god",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Gen.18.1-Gen.18.15": {
+   "theme": [
+    "faithfulness",
+    "hope-and-promise",
+    "hospitality-of-god"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Exod.19.2-Exod.19.8": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "law-and-commandment"
+   ],
+   "image": [
+    "mountain"
+   ],
+   "mood": [
+    "exhortation",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.100": {
+   "theme": [
+    "faithfulness",
+    "prayer-and-worship",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "gate-and-door",
+    "shepherd"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Rom.5.1-Rom.5.8": {
+   "theme": [
+    "atonement",
+    "grace",
+    "peace-of-god",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "Matt.9.35-Matt.10.8": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "love-of-neighbor",
+    "mission-and-witness"
+   ],
+   "image": [
+    "harvest",
+    "shepherd"
+   ],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Gen.21.8-Gen.21.21": {
+   "theme": [
+    "deliverance",
+    "faithfulness",
+    "providence-and-care"
+   ],
+   "image": [
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "lament"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.86.1-Ps.86.10": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Jer.20.7-Jer.20.13": {
+   "theme": [
+    "call-and-discipleship",
+    "deliverance",
+    "faithfulness",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ps.69.7-Ps.69.10": {
+   "theme": [
+    "deliverance",
+    "mercy-and-forgiveness",
+    "prayer-and-worship",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Rom.6.1-Rom.6.11": {
+   "theme": [
+    "baptism",
+    "grace",
+    "resurrection-and-life",
+    "sin-and-fall"
+   ],
+   "image": [
+    "tomb-and-grave",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Matt.10.24-Matt.10.39": {
+   "theme": [
+    "call-and-discipleship",
+    "mission-and-witness",
+    "providence-and-care",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Gen.22.1-Gen.22.14": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "providence-and-care",
+    "temptation-and-testing"
+   ],
+   "image": [
+    "lamb",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.13": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Jer.28.5-Jer.28.9": {
+   "theme": [
+    "faithfulness",
+    "judgment",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.89.1-Ps.89.4": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "hope-and-promise",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Rom.6.12-Rom.6.23": {
+   "theme": [
+    "baptism",
+    "deliverance",
+    "grace",
+    "sin-and-fall"
+   ],
+   "image": [
+    "yoke-and-burden"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.10.40-Matt.10.42": {
+   "theme": [
+    "hospitality-of-god",
+    "love-of-neighbor",
+    "mission-and-witness"
+   ],
+   "image": [
+    "cup",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Gen.24.34-Gen.24.38": {
+   "theme": [
+    "faithfulness",
+    "hope-and-promise",
+    "providence-and-care"
+   ],
+   "image": [
+    "road-and-journey",
+    "water"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.45.10-Ps.45.17": {
+   "theme": [
+    "covenant",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "garment-and-robe",
+    "king-and-throne"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Zech.9.9-Zech.9.12": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "messianic-hope",
+    "peace-of-god"
+   ],
+   "image": [
+    "blood",
+    "king-and-throne"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Ps.145.8-Ps.145.14": {
+   "theme": [
+    "kingdom-of-god",
+    "mercy-and-forgiveness",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Rom.7.15-Rom.7.25": {
+   "theme": [
+    "deliverance",
+    "grace",
+    "law-and-commandment",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "penitence"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Matt.11.16-Matt.11.19": {
+   "theme": [
+    "call-and-discipleship",
+    "grace",
+    "kingdom-of-god",
+    "wisdom"
+   ],
+   "image": [
+    "yoke-and-burden"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "tenderness"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Gen.25.19-Gen.25.34": {
+   "theme": [
+    "covenant",
+    "providence-and-care",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.119.105-Ps.119.112": {
+   "theme": [
+    "faith-and-trust",
+    "faithfulness",
+    "law-and-commandment",
+    "word-of-god"
+   ],
+   "image": [
+    "light",
+    "road-and-journey"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Isa.55.10-Isa.55.13": {
+   "theme": [
+    "creation",
+    "hope-and-promise",
+    "providence-and-care",
+    "word-of-god"
+   ],
+   "image": [
+    "seed-and-growth",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "joy"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Ps.65.1-Ps.65.8": {
+   "theme": [
+    "creation",
+    "prayer-and-worship",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "harvest",
+    "water"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Rom.8.1-Rom.8.11": {
+   "theme": [
+    "deliverance",
+    "grace",
+    "holy-spirit",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "Matt.13.1-Matt.13.9": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "word-of-god"
+   ],
+   "image": [
+    "harvest",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "exhortation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Gen.28.10-Gen.28.19": {
+   "theme": [
+    "covenant",
+    "epiphany-manifestation",
+    "hope-and-promise",
+    "providence-and-care"
+   ],
+   "image": [
+    "gate-and-door",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.139.1-Ps.139.12": {
+   "theme": [
+    "creation",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "darkness-and-night",
+    "hand-and-arm",
+    "light"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Wis.12.13": {
+   "theme": [
+    "judgment",
+    "justice",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.86.11-Ps.86.17": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Rom.8.12-Rom.8.25": {
+   "theme": [
+    "holy-spirit",
+    "hope-and-promise",
+    "last-things",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Matt.13.24-Matt.13.30": {
+   "theme": [
+    "judgment",
+    "kingdom-of-god",
+    "last-things"
+   ],
+   "image": [
+    "harvest",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Gen.29.15-Gen.29.28": {
+   "theme": [
+    "faithfulness",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.105.1-Ps.105.11": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "faithfulness",
+    "thanksgiving"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "1Kgs.3.5-1Kgs.3.12": {
+   "theme": [
+    "grace",
+    "prayer-and-worship",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.119.129-Ps.119.136": {
+   "theme": [
+    "faith-and-trust",
+    "law-and-commandment",
+    "word-of-god"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Rom.8.26-Rom.8.39": {
+   "theme": [
+    "faithfulness",
+    "holy-spirit",
+    "hope-and-promise",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "Matt.13.31-Matt.13.33": {
+   "theme": [
+    "kingdom-of-god",
+    "wisdom"
+   ],
+   "image": [
+    "bread",
+    "seed-and-growth",
+    "table-and-feast"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Gen.32.22-Gen.32.31": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "name",
+    "water"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.17.1-Ps.17.7": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "justice",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "hand-and-arm",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Isa.55.1-Isa.55.5": {
+   "theme": [
+    "covenant",
+    "grace",
+    "hope-and-promise",
+    "hospitality-of-god"
+   ],
+   "image": [
+    "bread",
+    "table-and-feast",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Ps.145.8-Ps.145.9": {
+   "theme": [
+    "kingdom-of-god",
+    "mercy-and-forgiveness",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Rom.9.1-Rom.9.5": {
+   "theme": [
+    "covenant",
+    "exile-and-return",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Matt.14.13-Matt.14.21": {
+   "theme": [
+    "hospitality-of-god",
+    "kingdom-of-god",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "bread",
+    "table-and-feast",
+    "wilderness"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Gen.37.1-Gen.37.4": {
+   "theme": [
+    "providence-and-care",
+    "sin-and-fall",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Ps.105.1-Ps.105.6": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "1Kgs.19.9-1Kgs.19.18": {
+   "theme": [
+    "call-and-discipleship",
+    "epiphany-manifestation",
+    "faithfulness",
+    "providence-and-care"
+   ],
+   "image": [
+    "fire",
+    "mountain",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.85.8-Ps.85.13": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "justice",
+    "peace-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Rom.10.5-Rom.10.15": {
+   "theme": [
+    "faith-and-trust",
+    "grace",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.14.22-Matt.14.33": {
+   "theme": [
+    "deliverance",
+    "epiphany-manifestation",
+    "faith-and-trust"
+   ],
+   "image": [
+    "hand-and-arm",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "trust"
+   ],
+   "function": []
+  },
+  "Gen.45.1-Gen.45.15": {
+   "theme": [
+    "deliverance",
+    "mercy-and-forgiveness",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Ps.133": {
+   "theme": [
+    "church-and-unity",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Isa.56.1": {
+   "theme": [
+    "hospitality-of-god",
+    "justice",
+    "mission-and-witness",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "gate-and-door",
+    "mountain"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.67": {
+   "theme": [
+    "mission-and-witness",
+    "prayer-and-worship",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "harvest",
+    "light"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "sending-benediction"
+   ]
+  },
+  "Rom.11.1-Rom.11.2": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "grace",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Matt.15.10-Matt.15.20": {
+   "theme": [
+    "faith-and-trust",
+    "hospitality-of-god",
+    "mercy-and-forgiveness",
+    "sin-and-fall"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "exhortation",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Exod.1.8-Exod.2.10": {
+   "theme": [
+    "deliverance",
+    "providence-and-care",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.124": {
+   "theme": [
+    "deliverance",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": []
+  },
+  "Isa.51.1-Isa.51.6": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "faithfulness",
+    "hope-and-promise"
+   ],
+   "image": [
+    "garden",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.138": {
+   "theme": [
+    "faithfulness",
+    "prayer-and-worship",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Rom.12.1-Rom.12.8": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Matt.16.13-Matt.16.20": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "faith-and-trust",
+    "messianic-hope"
+   ],
+   "image": [
+    "gate-and-door",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Exod.3.1-Exod.3.15": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "deliverance",
+    "epiphany-manifestation"
+   ],
+   "image": [
+    "fire",
+    "mountain",
+    "name"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Jer.15.15-Jer.15.21": {
+   "theme": [
+    "call-and-discipleship",
+    "deliverance",
+    "suffering-and-endurance",
+    "word-of-god"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ps.26.1-Ps.26.8": {
+   "theme": [
+    "faith-and-trust",
+    "justice",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Rom.12.9-Rom.12.21": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "love-of-neighbor",
+    "peace-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.16.21-Matt.16.28": {
+   "theme": [
+    "call-and-discipleship",
+    "passion-and-cross",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Exod.12.1-Exod.12.14": {
+   "theme": [
+    "atonement",
+    "covenant",
+    "deliverance",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "blood",
+    "bread",
+    "lamb"
+   ],
+   "mood": [
+    "exhortation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Ps.149": {
+   "theme": [
+    "judgment",
+    "justice",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Ezek.33.7-Ezek.33.11": {
+   "theme": [
+    "judgment",
+    "mercy-and-forgiveness",
+    "mission-and-witness",
+    "repentance"
+   ],
+   "image": [
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.119.33-Ps.119.40": {
+   "theme": [
+    "faith-and-trust",
+    "law-and-commandment",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Rom.13.8-Rom.13.14": {
+   "theme": [
+    "call-and-discipleship",
+    "last-things",
+    "law-and-commandment",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "darkness-and-night",
+    "garment-and-robe",
+    "light"
+   ],
+   "mood": [
+    "exhortation",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Matt.18.15-Matt.18.20": {
+   "theme": [
+    "church-and-unity",
+    "love-of-neighbor",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Num.21.4-Num.21.9": {
+   "theme": [
+    "deliverance",
+    "judgment",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [
+    "cross-and-tree",
+    "wilderness"
+   ],
+   "mood": [
+    "penitence",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.98.1-Ps.98.5": {
+   "theme": [
+    "deliverance",
+    "justice",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "hand-and-arm",
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "1Cor.1.18-1Cor.1.24": {
+   "theme": [
+    "atonement",
+    "grace",
+    "passion-and-cross",
+    "wisdom"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "exhortation",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "John.3.13-John.3.17": {
+   "theme": [
+    "atonement",
+    "grace",
+    "passion-and-cross",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Exod.14.19-Exod.14.31": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "cloud",
+    "hand-and-arm",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Gen.50.15-Gen.50.21": {
+   "theme": [
+    "deliverance",
+    "mercy-and-forgiveness",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "tenderness"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.103.1-Ps.103.7": {
+   "theme": [
+    "grace",
+    "mercy-and-forgiveness",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "pardon-assurance",
+    "praise-opening"
+   ]
+  },
+  "Rom.14.1-Rom.14.12": {
+   "theme": [
+    "church-and-unity",
+    "judgment",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.18.21-Matt.18.35": {
+   "theme": [
+    "grace",
+    "judgment",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Exod.16.2-Exod.16.15": {
+   "theme": [
+    "faithfulness",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "bread",
+    "wilderness"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Jonah.3.10-Jonah.4.11": {
+   "theme": [
+    "hospitality-of-god",
+    "judgment",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.145.1-Ps.145.8": {
+   "theme": [
+    "grace",
+    "mercy-and-forgiveness",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Phil.1.21-Phil.1.30": {
+   "theme": [
+    "call-and-discipleship",
+    "faith-and-trust",
+    "resurrection-and-life",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Matt.20.1-Matt.20.16": {
+   "theme": [
+    "grace",
+    "kingdom-of-god",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "harvest",
+    "vineyard"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.78.1-Ps.78.4": {
+   "theme": [
+    "deliverance",
+    "faithfulness",
+    "providence-and-care",
+    "word-of-god"
+   ],
+   "image": [
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Ezek.18.1-Ezek.18.4": {
+   "theme": [
+    "judgment",
+    "justice",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.25.1-Ps.25.9": {
+   "theme": [
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "repentance",
+    "wisdom"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Phil.2.1-Phil.2.13": {
+   "theme": [
+    "ascension-and-reign",
+    "call-and-discipleship",
+    "incarnation",
+    "passion-and-cross"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "exhortation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Matt.21.23-Matt.21.32": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "repentance"
+   ],
+   "image": [
+    "vineyard"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Deut.8.7-Deut.8.18": {
+   "theme": [
+    "faithfulness",
+    "providence-and-care",
+    "thanksgiving",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "bread",
+    "road-and-journey",
+    "wilderness"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Ps.65": {
+   "theme": [
+    "creation",
+    "grace",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "harvest",
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "2Cor.9.6-2Cor.9.15": {
+   "theme": [
+    "grace",
+    "providence-and-care",
+    "thanksgiving",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "harvest",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "exhortation",
+    "joy"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Luke.17.11-Luke.17.19": {
+   "theme": [
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort",
+    "thanksgiving-offering"
+   ]
+  },
+  "Rev.7.9-Rev.7.17": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "resurrection-and-life",
+    "saints-and-witnesses"
+   ],
+   "image": [
+    "garment-and-robe",
+    "lamb",
+    "table-and-feast",
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "healing-and-comfort",
+    "praise-opening"
+   ]
+  },
+  "Ps.34.1-Ps.34.10": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "1John.3.1-1John.3.3": {
+   "theme": [
+    "grace",
+    "hope-and-promise",
+    "last-things",
+    "saints-and-witnesses"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Josh.3.7-Josh.3.17": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "faithfulness",
+    "providence-and-care"
+   ],
+   "image": [
+    "road-and-journey",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.107.1-Ps.107.7": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "road-and-journey",
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Mic.3.5-Mic.3.12": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "justice"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.43": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "light",
+    "mountain"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "1Thess.2.9-1Thess.2.13": {
+   "theme": [
+    "mission-and-witness",
+    "thanksgiving",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Matt.23.1-Matt.23.12": {
+   "theme": [
+    "call-and-discipleship",
+    "judgment",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Josh.24.1-Josh.24.3": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "faithfulness",
+    "idolatry"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "baptism-renewal",
+    "creed-affirmation"
+   ]
+  },
+  "Ps.78.1-Ps.78.7": {
+   "theme": [
+    "faithfulness",
+    "hope-and-promise",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Wis.6.12-Wis.6.16": {
+   "theme": [
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Wis.6.17-Wis.6.20": {
+   "theme": [
+    "kingdom-of-god",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "1Thess.4.13-1Thess.4.18": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "cloud",
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Matt.25.1-Matt.25.13": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "last-things"
+   ],
+   "image": [
+    "gate-and-door",
+    "light",
+    "oil-and-anointing",
+    "table-and-feast"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Judg.4.1-Judg.4.7": {
+   "theme": [
+    "call-and-discipleship",
+    "deliverance",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.123": {
+   "theme": [
+    "faith-and-trust",
+    "prayer-and-worship",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Zeph.1.7": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "fear-and-trembling",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.90.1-Ps.90.8": {
+   "theme": [
+    "creation",
+    "judgment",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "lament",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "1Thess.5.1-1Thess.5.11": {
+   "theme": [
+    "call-and-discipleship",
+    "hope-and-promise",
+    "last-things"
+   ],
+   "image": [
+    "darkness-and-night",
+    "garment-and-robe",
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Matt.25.14-Matt.25.30": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "judgment",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ezek.34.11-Ezek.34.16": {
+   "theme": [
+    "judgment",
+    "justice",
+    "messianic-hope",
+    "providence-and-care"
+   ],
+   "image": [
+    "shepherd"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.95.1-Ps.95.7": {
+   "theme": [
+    "creation",
+    "prayer-and-worship",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "rock-and-refuge",
+    "sea-and-storm",
+    "shepherd"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Isa.64.1-Isa.64.9": {
+   "theme": [
+    "hope-and-promise",
+    "judgment",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [
+    "fire",
+    "mountain"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "confession",
+    "lament-intercession"
+   ]
+  },
+  "1Cor.1.3-1Cor.1.9": {
+   "theme": [
+    "faithfulness",
+    "grace",
+    "hope-and-promise",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Mark.13.24-Mark.13.37": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "messianic-hope"
+   ],
+   "image": [
+    "cloud",
+    "darkness-and-night",
+    "light",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Isa.40.1-Isa.40.11": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "messianic-hope",
+    "word-of-god"
+   ],
+   "image": [
+    "road-and-journey",
+    "shepherd",
+    "wilderness"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.85.1-Ps.85.2": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "mercy-and-forgiveness",
+    "peace-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "2Pet.3.8-2Pet.3.15": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "exhortation",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Mark.1.1-Mark.1.8": {
+   "theme": [
+    "baptism",
+    "messianic-hope",
+    "mission-and-witness",
+    "repentance"
+   ],
+   "image": [
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Isa.61.1-Isa.61.4": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "justice",
+    "mission-and-witness"
+   ],
+   "image": [
+    "garden",
+    "garment-and-robe",
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Ps.126": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise",
+    "thanksgiving"
+   ],
+   "image": [
+    "harvest",
+    "seed-and-growth",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "1Thess.5.16-1Thess.5.24": {
+   "theme": [
+    "faithfulness",
+    "holy-spirit",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "joy"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "John.1.6-John.1.8": {
+   "theme": [
+    "messianic-hope",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "2Sam.7.1-2Sam.7.11": {
+   "theme": [
+    "covenant",
+    "hope-and-promise",
+    "messianic-hope",
+    "providence-and-care"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Luke.1.46-Luke.1.55": {
+   "theme": [
+    "faithfulness",
+    "justice",
+    "kingdom-of-god",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Rom.16.25-Rom.16.27": {
+   "theme": [
+    "faith-and-trust",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Isa.61.10-Isa.62.3": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "justice",
+    "thanksgiving"
+   ],
+   "image": [
+    "garden",
+    "garment-and-robe",
+    "light",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Gen.1.1-Gen.1.5": {
+   "theme": [
+    "creation",
+    "word-of-god"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light",
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Acts.19.1-Acts.19.7": {
+   "theme": [
+    "baptism",
+    "holy-spirit"
+   ],
+   "image": [
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Mark.1.4-Mark.1.11": {
+   "theme": [
+    "baptism",
+    "holy-spirit",
+    "incarnation",
+    "repentance"
+   ],
+   "image": [
+    "light",
+    "water",
+    "wilderness",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "1Sam.3.1-1Sam.3.10": {
+   "theme": [
+    "call-and-discipleship",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "resolve-and-sending",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.139.1-Ps.139.6": {
+   "theme": [
+    "creation",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [
+    "darkness-and-night",
+    "hand-and-arm"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "1Cor.6.12-1Cor.6.20": {
+   "theme": [
+    "call-and-discipleship",
+    "holy-spirit",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.1.43-John.1.51": {
+   "theme": [
+    "call-and-discipleship",
+    "epiphany-manifestation",
+    "messianic-hope"
+   ],
+   "image": [],
+   "mood": [
+    "resolve-and-sending",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Jonah.3.1-Jonah.3.5": {
+   "theme": [
+    "judgment",
+    "mercy-and-forgiveness",
+    "mission-and-witness",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Ps.62.5-Ps.62.12": {
+   "theme": [
+    "faith-and-trust",
+    "providence-and-care",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "1Cor.7.29-1Cor.7.31": {
+   "theme": [
+    "call-and-discipleship",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Mark.1.14-Mark.1.20": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "mission-and-witness",
+    "repentance"
+   ],
+   "image": [
+    "harvest",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Deut.18.15-Deut.18.20": {
+   "theme": [
+    "call-and-discipleship",
+    "messianic-hope",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.111": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "thanksgiving",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "1Cor.8.1-1Cor.8.13": {
+   "theme": [
+    "church-and-unity",
+    "idolatry",
+    "love-of-neighbor",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Mark.1.21-Mark.1.28": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "2Kgs.2.1-2Kgs.2.12": {
+   "theme": [
+    "ascension-and-reign",
+    "call-and-discipleship",
+    "providence-and-care"
+   ],
+   "image": [
+    "fire",
+    "road-and-journey",
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.50.1-Ps.50.6": {
+   "theme": [
+    "covenant",
+    "judgment",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "fire",
+    "light"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "2Cor.4.3-2Cor.4.6": {
+   "theme": [
+    "epiphany-manifestation",
+    "transfiguration-glory",
+    "word-of-god"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Mark.9.2-Mark.9.9": {
+   "theme": [
+    "epiphany-manifestation",
+    "incarnation",
+    "transfiguration-glory"
+   ],
+   "image": [
+    "cloud",
+    "garment-and-robe",
+    "light",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Gen.9.8-Gen.9.17": {
+   "theme": [
+    "covenant",
+    "creation",
+    "hope-and-promise",
+    "providence-and-care"
+   ],
+   "image": [
+    "cloud",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.25.1-Ps.25.10": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "wisdom"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "1Pet.3.18-1Pet.3.22": {
+   "theme": [
+    "atonement",
+    "baptism",
+    "deliverance",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Mark.1.9-Mark.1.15": {
+   "theme": [
+    "baptism",
+    "kingdom-of-god",
+    "repentance",
+    "temptation-and-testing"
+   ],
+   "image": [
+    "water",
+    "wilderness",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Gen.17.1-Gen.17.7": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "faithfulness",
+    "hope-and-promise"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.22.23-Ps.22.31": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Mark.8.31-Mark.8.38": {
+   "theme": [
+    "call-and-discipleship",
+    "passion-and-cross",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Exod.20.1-Exod.20.17": {
+   "theme": [
+    "covenant",
+    "idolatry",
+    "law-and-commandment"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "1Cor.1.18-1Cor.1.25": {
+   "theme": [
+    "grace",
+    "passion-and-cross",
+    "wisdom"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "John.2.13-John.2.22": {
+   "theme": [
+    "judgment",
+    "prayer-and-worship",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.107.1-Ps.107.3": {
+   "theme": [
+    "deliverance",
+    "mercy-and-forgiveness",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "gate-and-door"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "healing-and-comfort",
+    "thanksgiving-offering"
+   ]
+  },
+  "Eph.2.1-Eph.2.10": {
+   "theme": [
+    "grace",
+    "mercy-and-forgiveness",
+    "resurrection-and-life",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "John.3.14-John.3.21": {
+   "theme": [
+    "atonement",
+    "faith-and-trust",
+    "grace",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "cross-and-tree",
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Jer.31.31-Jer.31.34": {
+   "theme": [
+    "covenant",
+    "hope-and-promise",
+    "law-and-commandment",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Ps.51.1-Ps.51.12": {
+   "theme": [
+    "holy-spirit",
+    "mercy-and-forgiveness",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "penitence"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Heb.5.5-Heb.5.10": {
+   "theme": [
+    "atonement",
+    "passion-and-cross",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "John.12.20-John.12.33": {
+   "theme": [
+    "atonement",
+    "call-and-discipleship",
+    "passion-and-cross",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "cross-and-tree",
+    "harvest",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Mark.11.1-Mark.11.11": {
+   "theme": [
+    "kingdom-of-god",
+    "messianic-hope",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "garment-and-robe",
+    "king-and-throne",
+    "road-and-journey"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Mark.14.1-Mark.15.47": {
+   "theme": [
+    "atonement",
+    "passion-and-cross",
+    "sin-and-fall",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "blood",
+    "cross-and-tree",
+    "cup"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "lament"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Mark.16.1-Mark.16.8": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "garment-and-robe",
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "1Cor.15.1-1Cor.15.11": {
+   "theme": [
+    "grace",
+    "mission-and-witness",
+    "resurrection-and-life",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Acts.4.32-Acts.4.35": {
+   "theme": [
+    "church-and-unity",
+    "holy-spirit",
+    "justice",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "1John.1.1-1John.2.2": {
+   "theme": [
+    "atonement",
+    "incarnation",
+    "mercy-and-forgiveness",
+    "sin-and-fall"
+   ],
+   "image": [
+    "blood",
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "confession",
+    "pardon-assurance"
+   ]
+  },
+  "Acts.3.12-Acts.3.19": {
+   "theme": [
+    "faith-and-trust",
+    "mission-and-witness",
+    "repentance",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Ps.4": {
+   "theme": [
+    "faith-and-trust",
+    "peace-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "1John.3.1-1John.3.7": {
+   "theme": [
+    "grace",
+    "hope-and-promise",
+    "love-of-neighbor",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Luke.24.36-Luke.24.48": {
+   "theme": [
+    "mission-and-witness",
+    "peace-of-god",
+    "resurrection-and-life",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Acts.4.5-Acts.4.12": {
+   "theme": [
+    "deliverance",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "name",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "1John.3.16-1John.3.24": {
+   "theme": [
+    "call-and-discipleship",
+    "faith-and-trust",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.10.11-John.10.18": {
+   "theme": [
+    "atonement",
+    "call-and-discipleship",
+    "providence-and-care"
+   ],
+   "image": [
+    "lamb",
+    "shepherd"
+   ],
+   "mood": [
+    "assurance",
+    "tenderness"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Acts.8.26-Acts.8.40": {
+   "theme": [
+    "baptism",
+    "hospitality-of-god",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [
+    "lamb",
+    "road-and-journey",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Ps.22.25-Ps.22.31": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "1John.4.7-1John.4.21": {
+   "theme": [
+    "atonement",
+    "faith-and-trust",
+    "incarnation",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.15.1-John.15.8": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "faithfulness"
+   ],
+   "image": [
+    "harvest",
+    "vine-wine",
+    "vineyard"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Acts.10.44-Acts.10.48": {
+   "theme": [
+    "baptism",
+    "holy-spirit",
+    "hospitality-of-god",
+    "mission-and-witness"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "1John.5.1-1John.5.6": {
+   "theme": [
+    "faith-and-trust",
+    "law-and-commandment",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "blood",
+    "water"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "John.15.9-John.15.17": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "vineyard"
+   ],
+   "mood": [
+    "joy",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Acts.1.15-Acts.1.17": {
+   "theme": [
+    "call-and-discipleship",
+    "mission-and-witness",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "1John.5.9-1John.5.13": {
+   "theme": [
+    "faith-and-trust",
+    "resurrection-and-life",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "John.17.6-John.17.19": {
+   "theme": [
+    "church-and-unity",
+    "mission-and-witness",
+    "prayer-and-worship",
+    "word-of-god"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "tenderness"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Rom.8.22-Rom.8.27": {
+   "theme": [
+    "holy-spirit",
+    "hope-and-promise",
+    "prayer-and-worship",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "John.15.26-John.15.27": {
+   "theme": [
+    "holy-spirit",
+    "mission-and-witness",
+    "trinity"
+   ],
+   "image": [
+    "wind-and-breath"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Isa.6.1-Isa.6.8": {
+   "theme": [
+    "call-and-discipleship",
+    "mission-and-witness",
+    "prayer-and-worship",
+    "repentance"
+   ],
+   "image": [
+    "fire",
+    "king-and-throne",
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "confession",
+    "gathering"
+   ]
+  },
+  "Rom.8.12-Rom.8.17": {
+   "theme": [
+    "grace",
+    "holy-spirit",
+    "hope-and-promise",
+    "trinity"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Deut.5.12-Deut.5.15": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "law-and-commandment"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.81.1-Ps.81.10": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "exhortation",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "2Cor.4.5-2Cor.4.12": {
+   "theme": [
+    "grace",
+    "mission-and-witness",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Mark.2.23-Mark.3.6": {
+   "theme": [
+    "kingdom-of-god",
+    "law-and-commandment",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "1Sam.8.4-1Sam.8.11": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "kingdom-of-god",
+    "sin-and-fall"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Gen.3.8-Gen.3.15": {
+   "theme": [
+    "judgment",
+    "messianic-hope",
+    "sin-and-fall"
+   ],
+   "image": [
+    "garden"
+   ],
+   "mood": [
+    "lament",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "2Cor.4.13-2Cor.5.1": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "resurrection-and-life",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Mark.3.20-Mark.3.35": {
+   "theme": [
+    "call-and-discipleship",
+    "holy-spirit",
+    "kingdom-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "1Sam.15.34-1Sam.16.13": {
+   "theme": [
+    "call-and-discipleship",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [
+    "king-and-throne",
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.20": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne",
+    "name"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ezek.17.22-Ezek.17.24": {
+   "theme": [
+    "hope-and-promise",
+    "kingdom-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "seed-and-growth"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.92.1-Ps.92.4": {
+   "theme": [
+    "faithfulness",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "seed-and-growth"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "2Cor.5.6-2Cor.5.10": {
+   "theme": [
+    "faith-and-trust",
+    "judgment",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Mark.4.26-Mark.4.34": {
+   "theme": [
+    "hope-and-promise",
+    "kingdom-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "harvest",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "1Sam.17.1": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "name",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "resolve-and-sending",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.9.9-Ps.9.20": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "judgment",
+    "justice"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Job.38.1-Job.38.11": {
+   "theme": [
+    "creation",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [
+    "sea-and-storm",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "2Cor.6.1-2Cor.6.13": {
+   "theme": [
+    "grace",
+    "mission-and-witness",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Mark.4.35-Mark.4.41": {
+   "theme": [
+    "faith-and-trust",
+    "peace-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "sea-and-storm"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "2Sam.1.1": {
+   "theme": [
+    "saints-and-witnesses",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Wis.1.13-Wis.1.15": {
+   "theme": [
+    "creation",
+    "resurrection-and-life",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Ps.30": {
+   "theme": [
+    "deliverance",
+    "resurrection-and-life",
+    "thanksgiving"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "2Cor.8.7-2Cor.8.15": {
+   "theme": [
+    "grace",
+    "justice",
+    "thanksgiving",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Mark.5.21-Mark.5.43": {
+   "theme": [
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "2Sam.5.1-2Sam.5.5": {
+   "theme": [
+    "covenant",
+    "kingdom-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "king-and-throne",
+    "shepherd"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Ps.48": {
+   "theme": [
+    "kingdom-of-god",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "king-and-throne",
+    "mountain",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Ezek.2.1-Ezek.2.5": {
+   "theme": [
+    "call-and-discipleship",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [
+    "wind-and-breath"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "2Cor.12.2-2Cor.12.10": {
+   "theme": [
+    "faith-and-trust",
+    "grace",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Mark.6.1-Mark.6.13": {
+   "theme": [
+    "call-and-discipleship",
+    "faith-and-trust",
+    "mission-and-witness"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "2Sam.6.1-2Sam.6.5": {
+   "theme": [
+    "covenant",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Ps.24": {
+   "theme": [
+    "creation",
+    "kingdom-of-god",
+    "prayer-and-worship",
+    "wisdom"
+   ],
+   "image": [
+    "gate-and-door",
+    "king-and-throne",
+    "mountain"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Amos.7.7-Amos.7.15": {
+   "theme": [
+    "call-and-discipleship",
+    "judgment",
+    "justice"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Mark.6.14-Mark.6.29": {
+   "theme": [
+    "judgment",
+    "sin-and-fall",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "2Sam.7.1-2Sam.7.14": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "hope-and-promise",
+    "messianic-hope"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.89.20-Ps.89.37": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "hope-and-promise",
+    "messianic-hope"
+   ],
+   "image": [
+    "king-and-throne",
+    "oil-and-anointing",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Jer.23.1-Jer.23.6": {
+   "theme": [
+    "hope-and-promise",
+    "judgment",
+    "justice",
+    "messianic-hope"
+   ],
+   "image": [
+    "shepherd"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Eph.2.11-Eph.2.22": {
+   "theme": [
+    "atonement",
+    "church-and-unity",
+    "grace",
+    "peace-of-god"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Mark.6.30-Mark.6.34": {
+   "theme": [
+    "call-and-discipleship",
+    "mercy-and-forgiveness",
+    "providence-and-care"
+   ],
+   "image": [
+    "shepherd",
+    "wilderness"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "tenderness"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "2Sam.11.1-2Sam.11.15": {
+   "theme": [
+    "judgment",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.14": {
+   "theme": [
+    "deliverance",
+    "judgment",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "2Kgs.4.42-2Kgs.4.44": {
+   "theme": [
+    "hospitality-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread",
+    "harvest"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.145.10-Ps.145.18": {
+   "theme": [
+    "creation",
+    "kingdom-of-god",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "hand-and-arm",
+    "table-and-feast"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Eph.3.14-Eph.3.21": {
+   "theme": [
+    "holy-spirit",
+    "love-of-neighbor",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation",
+    "tenderness"
+   ],
+   "function": [
+    "lament-intercession",
+    "sending-benediction"
+   ]
+  },
+  "John.6.1-John.6.21": {
+   "theme": [
+    "faith-and-trust",
+    "kingdom-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread",
+    "harvest",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "2Sam.11.26-2Sam.12.13": {
+   "theme": [
+    "judgment",
+    "mercy-and-forgiveness",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [
+    "lamb"
+   ],
+   "mood": [
+    "penitence",
+    "prophetic-warning"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Exod.16.2-Exod.16.4": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread",
+    "cloud",
+    "wilderness"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.78.23-Ps.78.29": {
+   "theme": [
+    "deliverance",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "bread",
+    "harvest"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Eph.4.1-Eph.4.16": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "holy-spirit"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.6.24-John.6.35": {
+   "theme": [
+    "faith-and-trust",
+    "incarnation",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "2Sam.18.5-2Sam.18.9": {
+   "theme": [
+    "judgment",
+    "sin-and-fall",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "1Kgs.19.4-1Kgs.19.8": {
+   "theme": [
+    "faithfulness",
+    "providence-and-care",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "bread",
+    "road-and-journey",
+    "wilderness"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "lament"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.34.1-Ps.34.8": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Eph.4.25-Eph.5.2": {
+   "theme": [
+    "call-and-discipleship",
+    "love-of-neighbor",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.6.35": {
+   "theme": [
+    "faith-and-trust",
+    "incarnation",
+    "providence-and-care",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "bread"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "1Kgs.2.10-1Kgs.2.12": {
+   "theme": [
+    "kingdom-of-god",
+    "prayer-and-worship",
+    "wisdom"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Prov.9.1-Prov.9.6": {
+   "theme": [
+    "hospitality-of-god",
+    "wisdom"
+   ],
+   "image": [
+    "bread",
+    "table-and-feast",
+    "vine-wine"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "Ps.34.9-Ps.34.14": {
+   "theme": [
+    "faith-and-trust",
+    "peace-of-god",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "trust"
+   ],
+   "function": []
+  },
+  "Eph.5.15-Eph.5.20": {
+   "theme": [
+    "holy-spirit",
+    "prayer-and-worship",
+    "thanksgiving",
+    "wisdom"
+   ],
+   "image": [
+    "vine-wine"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.6.51-John.6.58": {
+   "theme": [
+    "atonement",
+    "incarnation",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "blood",
+    "bread"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "1Kgs.8.1": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "hospitality-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "cloud",
+    "name"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "lament-intercession",
+    "praise-opening"
+   ]
+  },
+  "Josh.24.1-Josh.24.2": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "faith-and-trust",
+    "idolatry"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Ps.34.15-Ps.34.22": {
+   "theme": [
+    "deliverance",
+    "justice",
+    "providence-and-care",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "trust"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Eph.6.10-Eph.6.20": {
+   "theme": [
+    "faith-and-trust",
+    "prayer-and-worship",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "John.6.56-John.6.69": {
+   "theme": [
+    "call-and-discipleship",
+    "faith-and-trust",
+    "incarnation",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "bread"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Song.2.8-Song.2.13": {
+   "theme": [
+    "creation",
+    "hope-and-promise",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "garden",
+    "vine-wine"
+   ],
+   "mood": [
+    "joy",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.45.1-Ps.45.2": {
+   "theme": [
+    "kingdom-of-god",
+    "messianic-hope",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne",
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Deut.4.1-Deut.4.2": {
+   "theme": [
+    "covenant",
+    "law-and-commandment",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Jas.1.17-Jas.1.27": {
+   "theme": [
+    "justice",
+    "law-and-commandment",
+    "love-of-neighbor",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Mark.7.1-Mark.7.8": {
+   "theme": [
+    "law-and-commandment",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Prov.22.1-Prov.22.2": {
+   "theme": [
+    "justice",
+    "wealth-and-possessions",
+    "wisdom"
+   ],
+   "image": [
+    "seed-and-growth"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.125": {
+   "theme": [
+    "faith-and-trust",
+    "justice",
+    "providence-and-care"
+   ],
+   "image": [
+    "mountain",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "Isa.35.4-Isa.35.7": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "messianic-hope"
+   ],
+   "image": [
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ps.146": {
+   "theme": [
+    "justice",
+    "kingdom-of-god",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Jas.2.1-Jas.2.10": {
+   "theme": [
+    "faith-and-trust",
+    "justice",
+    "love-of-neighbor",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Mark.7.24-Mark.7.37": {
+   "theme": [
+    "faith-and-trust",
+    "hospitality-of-god",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Prov.1.20-Prov.1.33": {
+   "theme": [
+    "judgment",
+    "repentance",
+    "wisdom"
+   ],
+   "image": [
+    "gate-and-door"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.116.1-Ps.116.9": {
+   "theme": [
+    "deliverance",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "cup"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Jas.3.1-Jas.3.12": {
+   "theme": [
+    "law-and-commandment",
+    "sin-and-fall",
+    "wisdom"
+   ],
+   "image": [
+    "fire",
+    "water"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Mark.8.27-Mark.8.38": {
+   "theme": [
+    "call-and-discipleship",
+    "messianic-hope",
+    "passion-and-cross"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Prov.31.10-Prov.31.31": {
+   "theme": [
+    "faithfulness",
+    "justice",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Wis.1.16-Wis.2.1": {
+   "theme": [
+    "judgment",
+    "sin-and-fall",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.54": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Jas.3.13-Jas.4.3": {
+   "theme": [
+    "peace-of-god",
+    "repentance",
+    "sin-and-fall",
+    "wisdom"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Mark.9.30-Mark.9.37": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "passion-and-cross"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Esth.7.1-Esth.7.6": {
+   "theme": [
+    "deliverance",
+    "judgment",
+    "providence-and-care"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": []
+  },
+  "Num.11.4-Num.11.6": {
+   "theme": [
+    "holy-spirit",
+    "providence-and-care",
+    "sin-and-fall"
+   ],
+   "image": [
+    "bread",
+    "wilderness"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Ps.19.7-Ps.19.14": {
+   "theme": [
+    "law-and-commandment",
+    "wisdom",
+    "word-of-god"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Jas.5.13-Jas.5.20": {
+   "theme": [
+    "faith-and-trust",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Mark.9.38-Mark.9.50": {
+   "theme": [
+    "call-and-discipleship",
+    "judgment",
+    "sin-and-fall"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Job.1.1": {
+   "theme": [
+    "faith-and-trust",
+    "suffering-and-endurance",
+    "temptation-and-testing"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.26": {
+   "theme": [
+    "faithfulness",
+    "justice",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Gen.2.18-Gen.2.24": {
+   "theme": [
+    "covenant",
+    "creation",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "garden"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Mark.10.2-Mark.10.16": {
+   "theme": [
+    "covenant",
+    "kingdom-of-god",
+    "law-and-commandment"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Job.23.1-Job.23.9": {
+   "theme": [
+    "faith-and-trust",
+    "prayer-and-worship",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "darkness-and-night"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ps.22.1-Ps.22.15": {
+   "theme": [
+    "faith-and-trust",
+    "prayer-and-worship",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Amos.5.6-Amos.5.7": {
+   "theme": [
+    "judgment",
+    "justice",
+    "repentance"
+   ],
+   "image": [
+    "gate-and-door"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.90.12-Ps.90.17": {
+   "theme": [
+    "hope-and-promise",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Heb.4.12-Heb.4.16": {
+   "theme": [
+    "grace",
+    "mercy-and-forgiveness",
+    "word-of-god"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Mark.10.17-Mark.10.31": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Joel.2.21-Joel.2.27": {
+   "theme": [
+    "creation",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "harvest",
+    "vine-wine"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "1Tim.2.1-1Tim.2.7": {
+   "theme": [
+    "atonement",
+    "mission-and-witness",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Matt.6.25-Matt.6.33": {
+   "theme": [
+    "faith-and-trust",
+    "kingdom-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Job.38.1-Job.38.7": {
+   "theme": [
+    "creation",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [
+    "sea-and-storm",
+    "star"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.104.1-Ps.104.9": {
+   "theme": [
+    "creation",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "light",
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Isa.53.4-Isa.53.12": {
+   "theme": [
+    "atonement",
+    "passion-and-cross",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "lamb"
+   ],
+   "mood": [
+    "lament",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.91.9-Ps.91.16": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Heb.5.1-Heb.5.10": {
+   "theme": [
+    "atonement",
+    "call-and-discipleship",
+    "passion-and-cross"
+   ],
+   "image": [
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Mark.10.35-Mark.10.45": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "passion-and-cross"
+   ],
+   "image": [
+    "cup"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Job.42.1-Job.42.6": {
+   "theme": [
+    "faith-and-trust",
+    "providence-and-care",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "penitence",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Jer.31.7-Jer.31.9": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise"
+   ],
+   "image": [
+    "road-and-journey",
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": []
+  },
+  "Heb.7.23-Heb.7.28": {
+   "theme": [
+    "ascension-and-reign",
+    "atonement",
+    "faithfulness"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Mark.10.46-Mark.10.52": {
+   "theme": [
+    "call-and-discipleship",
+    "faith-and-trust",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "light",
+    "road-and-journey"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ruth.1.1-Ruth.1.18": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "lament",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Deut.6.1-Deut.6.9": {
+   "theme": [
+    "covenant",
+    "law-and-commandment",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Ps.119.1-Ps.119.8": {
+   "theme": [
+    "faithfulness",
+    "law-and-commandment",
+    "word-of-god"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Heb.9.11-Heb.9.14": {
+   "theme": [
+    "atonement",
+    "mercy-and-forgiveness",
+    "passion-and-cross"
+   ],
+   "image": [
+    "blood",
+    "lamb"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Mark.12.28-Mark.12.34": {
+   "theme": [
+    "kingdom-of-god",
+    "law-and-commandment",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Wis.3.1-Wis.3.9": {
+   "theme": [
+    "hope-and-promise",
+    "resurrection-and-life",
+    "saints-and-witnesses"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "John.11.32-John.11.44": {
+   "theme": [
+    "faith-and-trust",
+    "incarnation",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Ruth.3.1-Ruth.3.5": {
+   "theme": [
+    "covenant",
+    "faithfulness",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Ps.127": {
+   "theme": [
+    "creation",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "1Kgs.17.8-1Kgs.17.16": {
+   "theme": [
+    "faith-and-trust",
+    "hospitality-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Heb.9.24-Heb.9.28": {
+   "theme": [
+    "ascension-and-reign",
+    "atonement",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Mark.12.38-Mark.12.44": {
+   "theme": [
+    "justice",
+    "prayer-and-worship",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "1Sam.1.4-1Sam.1.20": {
+   "theme": [
+    "faith-and-trust",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Dan.12.1-Dan.12.3": {
+   "theme": [
+    "judgment",
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "light",
+    "star"
+   ],
+   "mood": [
+    "assurance",
+    "fear-and-trembling"
+   ],
+   "function": []
+  },
+  "Heb.10.11-Heb.10.14": {
+   "theme": [
+    "atonement",
+    "church-and-unity",
+    "hope-and-promise"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Mark.13.1-Mark.13.8": {
+   "theme": [
+    "hope-and-promise",
+    "judgment",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "2Sam.23.1-2Sam.23.7": {
+   "theme": [
+    "covenant",
+    "kingdom-of-god",
+    "messianic-hope"
+   ],
+   "image": [
+    "king-and-throne",
+    "light"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.132.1-Ps.132.12": {
+   "theme": [
+    "covenant",
+    "messianic-hope",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne",
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": []
+  },
+  "Dan.7.9-Dan.7.10": {
+   "theme": [
+    "ascension-and-reign",
+    "judgment",
+    "kingdom-of-god"
+   ],
+   "image": [
+    "cloud",
+    "fire",
+    "king-and-throne"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.93": {
+   "theme": [
+    "ascension-and-reign",
+    "creation",
+    "kingdom-of-god"
+   ],
+   "image": [
+    "king-and-throne",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Rev.1.4-Rev.1.8": {
+   "theme": [
+    "ascension-and-reign",
+    "kingdom-of-god",
+    "last-things"
+   ],
+   "image": [
+    "blood",
+    "cloud",
+    "king-and-throne"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "John.18.33-John.18.37": {
+   "theme": [
+    "ascension-and-reign",
+    "kingdom-of-god",
+    "word-of-god"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Jer.33.14-Jer.33.16": {
+   "theme": [
+    "covenant",
+    "justice",
+    "messianic-hope"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "1Thess.3.9-1Thess.3.13": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Luke.21.25-Luke.21.36": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "messianic-hope"
+   ],
+   "image": [
+    "cloud",
+    "sea-and-storm",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Bar.5.1-Bar.5.9": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise"
+   ],
+   "image": [
+    "garment-and-robe",
+    "light",
+    "road-and-journey"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": []
+  },
+  "Luke.1.68-Luke.1.79": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "messianic-hope"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Phil.1.3-Phil.1.11": {
+   "theme": [
+    "church-and-unity",
+    "hope-and-promise",
+    "thanksgiving"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "assurance",
+    "joy"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Luke.3.1-Luke.3.6": {
+   "theme": [
+    "deliverance",
+    "messianic-hope",
+    "repentance"
+   ],
+   "image": [
+    "road-and-journey",
+    "wilderness"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Phil.4.4-Phil.4.7": {
+   "theme": [
+    "peace-of-god",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "joy"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Luke.3.7-Luke.3.18": {
+   "theme": [
+    "justice",
+    "messianic-hope",
+    "repentance"
+   ],
+   "image": [
+    "fire",
+    "harvest"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Mic.5.2-Mic.5.5": {
+   "theme": [
+    "messianic-hope",
+    "peace-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "shepherd"
+   ],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Heb.10.5-Heb.10.10": {
+   "theme": [
+    "atonement",
+    "incarnation",
+    "law-and-commandment"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Luke.1.39-Luke.1.45": {
+   "theme": [
+    "incarnation",
+    "kingdom-of-god",
+    "messianic-hope"
+   ],
+   "image": [
+    "manger-and-birth"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "1Sam.2.18-1Sam.2.20": {
+   "theme": [
+    "call-and-discipleship",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Col.3.12-Col.3.17": {
+   "theme": [
+    "church-and-unity",
+    "love-of-neighbor",
+    "thanksgiving"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Luke.2.41-Luke.2.52": {
+   "theme": [
+    "incarnation",
+    "wisdom",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Isa.43.1-Isa.43.7": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "providence-and-care"
+   ],
+   "image": [
+    "fire",
+    "name",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Acts.8.14-Acts.8.17": {
+   "theme": [
+    "baptism",
+    "church-and-unity",
+    "holy-spirit"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Luke.3.15-Luke.3.17": {
+   "theme": [
+    "baptism",
+    "holy-spirit",
+    "messianic-hope"
+   ],
+   "image": [
+    "fire",
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Isa.62.1-Isa.62.5": {
+   "theme": [
+    "covenant",
+    "exile-and-return",
+    "hope-and-promise"
+   ],
+   "image": [
+    "garment-and-robe",
+    "king-and-throne",
+    "light"
+   ],
+   "mood": [
+    "joy",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.36.5-Ps.36.10": {
+   "theme": [
+    "faithfulness",
+    "grace",
+    "providence-and-care"
+   ],
+   "image": [
+    "light",
+    "water"
+   ],
+   "mood": [
+    "trust",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "1Cor.12.1-1Cor.12.11": {
+   "theme": [
+    "church-and-unity",
+    "grace",
+    "holy-spirit"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "John.2.1-John.2.11": {
+   "theme": [
+    "epiphany-manifestation",
+    "grace",
+    "hospitality-of-god"
+   ],
+   "image": [
+    "table-and-feast",
+    "vine-wine",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Neh.8.1-Neh.8.3": {
+   "theme": [
+    "law-and-commandment",
+    "prayer-and-worship",
+    "thanksgiving",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "gathering",
+    "illumination-word"
+   ]
+  },
+  "1Cor.12.12-1Cor.12.31": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "holy-spirit"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.4.14-Luke.4.21": {
+   "theme": [
+    "justice",
+    "messianic-hope",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Jer.1.4-Jer.1.10": {
+   "theme": [
+    "call-and-discipleship",
+    "mission-and-witness",
+    "providence-and-care",
+    "word-of-god"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "assurance",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Ps.71.1-Ps.71.6": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "1Cor.13.1-1Cor.13.13": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Luke.4.21-Luke.4.30": {
+   "theme": [
+    "grace",
+    "mission-and-witness",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Luke.5.1-Luke.5.11": {
+   "theme": [
+    "call-and-discipleship",
+    "grace",
+    "mission-and-witness"
+   ],
+   "image": [
+    "harvest",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "resolve-and-sending",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Jer.17.5-Jer.17.10": {
+   "theme": [
+    "faith-and-trust",
+    "idolatry",
+    "judgment",
+    "wisdom"
+   ],
+   "image": [
+    "seed-and-growth",
+    "water"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "1Cor.15.12-1Cor.15.20": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Luke.6.17-Luke.6.26": {
+   "theme": [
+    "judgment",
+    "justice",
+    "kingdom-of-god",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Gen.45.3-Gen.45.11": {
+   "theme": [
+    "deliverance",
+    "mercy-and-forgiveness",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Ps.37.1-Ps.37.11": {
+   "theme": [
+    "faith-and-trust",
+    "justice",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "trust"
+   ],
+   "function": []
+  },
+  "1Cor.15.35-1Cor.15.38": {
+   "theme": [
+    "hope-and-promise",
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "seed-and-growth"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Luke.6.27-Luke.6.38": {
+   "theme": [
+    "grace",
+    "love-of-neighbor",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Exod.34.29-Exod.34.35": {
+   "theme": [
+    "epiphany-manifestation",
+    "transfiguration-glory",
+    "word-of-god"
+   ],
+   "image": [
+    "garment-and-robe",
+    "light",
+    "mountain"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "2Cor.3.12-2Cor.4.2": {
+   "theme": [
+    "grace",
+    "holy-spirit",
+    "transfiguration-glory",
+    "word-of-god"
+   ],
+   "image": [
+    "garment-and-robe",
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.9.28-Luke.9.36": {
+   "theme": [
+    "epiphany-manifestation",
+    "prayer-and-worship",
+    "transfiguration-glory"
+   ],
+   "image": [
+    "cloud",
+    "garment-and-robe",
+    "light",
+    "mountain"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Deut.26.1-Deut.26.11": {
+   "theme": [
+    "covenant",
+    "deliverance",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "hand-and-arm",
+    "harvest"
+   ],
+   "mood": [],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Ps.91.1-Ps.91.2": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Rom.10.8-Rom.10.13": {
+   "theme": [
+    "faith-and-trust",
+    "grace",
+    "mission-and-witness"
+   ],
+   "image": [
+    "name"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Luke.4.1-Luke.4.13": {
+   "theme": [
+    "faith-and-trust",
+    "temptation-and-testing",
+    "word-of-god"
+   ],
+   "image": [
+    "bread",
+    "wilderness"
+   ],
+   "mood": [
+    "resolve-and-sending",
+    "trust"
+   ],
+   "function": []
+  },
+  "Gen.15.1-Gen.15.12": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "hope-and-promise"
+   ],
+   "image": [
+    "darkness-and-night",
+    "fire",
+    "star"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.27": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "hope-and-promise",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "light",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": []
+  },
+  "Phil.3.17-Phil.4.1": {
+   "theme": [
+    "call-and-discipleship",
+    "hope-and-promise",
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Luke.13.31-Luke.13.35": {
+   "theme": [
+    "judgment",
+    "mission-and-witness",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Isa.55.1-Isa.55.9": {
+   "theme": [
+    "grace",
+    "hospitality-of-god",
+    "repentance",
+    "word-of-god"
+   ],
+   "image": [
+    "bread",
+    "table-and-feast",
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.63.1-Ps.63.8": {
+   "theme": [
+    "faith-and-trust",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": []
+  },
+  "1Cor.10.1-1Cor.10.13": {
+   "theme": [
+    "faithfulness",
+    "idolatry",
+    "judgment",
+    "temptation-and-testing"
+   ],
+   "image": [
+    "cloud",
+    "sea-and-storm",
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Luke.13.1-Luke.13.9": {
+   "theme": [
+    "judgment",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [
+    "seed-and-growth",
+    "vineyard"
+   ],
+   "mood": [
+    "exhortation",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Josh.5.9-Josh.5.12": {
+   "theme": [
+    "covenant",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "bread",
+    "harvest"
+   ],
+   "mood": [],
+   "function": []
+  },
+  "2Cor.5.16-2Cor.5.21": {
+   "theme": [
+    "atonement",
+    "creation",
+    "grace",
+    "mission-and-witness"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.15.1-Luke.15.3": {
+   "theme": [
+    "grace",
+    "hospitality-of-god",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [
+    "garment-and-robe",
+    "table-and-feast"
+   ],
+   "mood": [
+    "joy",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Isa.43.16-Isa.43.21": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "hope-and-promise"
+   ],
+   "image": [
+    "road-and-journey",
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "John.12.1-John.12.8": {
+   "theme": [
+    "call-and-discipleship",
+    "passion-and-cross",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Luke.19.28-Luke.19.40": {
+   "theme": [
+    "kingdom-of-god",
+    "messianic-hope",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne",
+    "road-and-journey"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Luke.22.14-Luke.23.56": {
+   "theme": [
+    "atonement",
+    "passion-and-cross",
+    "sin-and-fall",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "bread",
+    "cross-and-tree",
+    "cup",
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "lament"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Luke.24.1-Luke.24.12": {
+   "theme": [
+    "hope-and-promise",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "1Cor.15.19-1Cor.15.26": {
+   "theme": [
+    "ascension-and-reign",
+    "hope-and-promise",
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "assurance",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Acts.5.27-Acts.5.32": {
+   "theme": [
+    "holy-spirit",
+    "mission-and-witness",
+    "repentance",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Ps.118.14-Ps.118.29": {
+   "theme": [
+    "deliverance",
+    "resurrection-and-life",
+    "thanksgiving"
+   ],
+   "image": [
+    "gate-and-door",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Acts.9.1-Acts.9.6": {
+   "theme": [
+    "call-and-discipleship",
+    "grace",
+    "mission-and-witness"
+   ],
+   "image": [
+    "light",
+    "road-and-journey"
+   ],
+   "mood": [
+    "resolve-and-sending",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Rev.5.11-Rev.5.14": {
+   "theme": [
+    "ascension-and-reign",
+    "creation",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "king-and-throne",
+    "lamb"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "John.21.1-John.21.19": {
+   "theme": [
+    "call-and-discipleship",
+    "mercy-and-forgiveness",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [
+    "bread",
+    "sea-and-storm",
+    "shepherd"
+   ],
+   "mood": [
+    "assurance",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Acts.9.36-Acts.9.43": {
+   "theme": [
+    "love-of-neighbor",
+    "mission-and-witness",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "John.10.22-John.10.30": {
+   "theme": [
+    "faith-and-trust",
+    "faithfulness",
+    "providence-and-care"
+   ],
+   "image": [
+    "shepherd"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Acts.11.1-Acts.11.18": {
+   "theme": [
+    "church-and-unity",
+    "holy-spirit",
+    "hospitality-of-god",
+    "mission-and-witness"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "John.13.31-John.13.35": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "love-of-neighbor"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Acts.16.9-Acts.16.15": {
+   "theme": [
+    "baptism",
+    "call-and-discipleship",
+    "hospitality-of-god",
+    "mission-and-witness"
+   ],
+   "image": [
+    "road-and-journey",
+    "water"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Rev.21.10": {
+   "theme": [
+    "creation",
+    "hope-and-promise",
+    "hospitality-of-god",
+    "last-things"
+   ],
+   "image": [
+    "garden",
+    "gate-and-door",
+    "light",
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "John.14.23-John.14.29": {
+   "theme": [
+    "faithfulness",
+    "holy-spirit",
+    "peace-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Acts.16.16-Acts.16.34": {
+   "theme": [
+    "baptism",
+    "deliverance",
+    "mission-and-witness"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Rev.22.12-Rev.22.14": {
+   "theme": [
+    "grace",
+    "hope-and-promise",
+    "last-things",
+    "messianic-hope"
+   ],
+   "image": [
+    "star",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "John.17.20-John.17.26": {
+   "theme": [
+    "church-and-unity",
+    "love-of-neighbor",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Rom.8.14-Rom.8.17": {
+   "theme": [
+    "baptism",
+    "grace",
+    "holy-spirit",
+    "hope-and-promise"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "joy"
+   ],
+   "function": []
+  },
+  "John.14.8-John.14.17": {
+   "theme": [
+    "faith-and-trust",
+    "holy-spirit",
+    "peace-of-god",
+    "trinity"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Prov.8.1-Prov.8.4": {
+   "theme": [
+    "creation",
+    "wisdom",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "joy",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Rom.5.1-Rom.5.5": {
+   "theme": [
+    "faith-and-trust",
+    "grace",
+    "peace-of-god",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "John.16.12-John.16.15": {
+   "theme": [
+    "holy-spirit",
+    "trinity",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "1Kgs.19.1-1Kgs.19.4": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "providence-and-care",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "fire",
+    "mountain",
+    "wilderness",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "lament"
+   ],
+   "function": []
+  },
+  "Isa.65.1-Isa.65.9": {
+   "theme": [
+    "grace",
+    "idolatry",
+    "judgment",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "lament",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.22.19-Ps.22.28": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Gal.3.23-Gal.3.29": {
+   "theme": [
+    "baptism",
+    "church-and-unity",
+    "grace",
+    "law-and-commandment"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Luke.8.26-Luke.8.39": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "mission-and-witness"
+   ],
+   "image": [
+    "sea-and-storm",
+    "tomb-and-grave"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "2Kgs.2.1-2Kgs.2.2": {
+   "theme": [
+    "ascension-and-reign",
+    "call-and-discipleship",
+    "faithfulness",
+    "holy-spirit"
+   ],
+   "image": [
+    "fire",
+    "garment-and-robe",
+    "water",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Ps.77.1-Ps.77.2": {
+   "theme": [
+    "deliverance",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "road-and-journey",
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "1Kgs.19.15-1Kgs.19.16": {
+   "theme": [
+    "call-and-discipleship",
+    "mission-and-witness"
+   ],
+   "image": [
+    "garment-and-robe",
+    "oil-and-anointing"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Gal.5.1": {
+   "theme": [
+    "holy-spirit",
+    "law-and-commandment",
+    "love-of-neighbor",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.9.51-Luke.9.62": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "mission-and-witness"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "2Kgs.5.1-2Kgs.5.14": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "grace"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Isa.66.10-Isa.66.14": {
+   "theme": [
+    "hope-and-promise",
+    "peace-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Ps.66.1-Ps.66.9": {
+   "theme": [
+    "deliverance",
+    "thanksgiving"
+   ],
+   "image": [
+    "fire",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "gathering",
+    "praise-opening"
+   ]
+  },
+  "Gal.6.1-Gal.6.6": {
+   "theme": [
+    "creation",
+    "holy-spirit",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "cross-and-tree",
+    "harvest",
+    "seed-and-growth",
+    "yoke-and-burden"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.10.1-Luke.10.11": {
+   "theme": [
+    "call-and-discipleship",
+    "kingdom-of-god",
+    "mission-and-witness"
+   ],
+   "image": [
+    "harvest",
+    "lamb",
+    "road-and-journey"
+   ],
+   "mood": [
+    "resolve-and-sending"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Amos.7.7-Amos.7.17": {
+   "theme": [
+    "judgment",
+    "justice",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.82": {
+   "theme": [
+    "judgment",
+    "justice"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Deut.30.9-Deut.30.14": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "law-and-commandment",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Col.1.1-Col.1.14": {
+   "theme": [
+    "grace",
+    "hope-and-promise",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "darkness-and-night",
+    "light"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Luke.10.25-Luke.10.37": {
+   "theme": [
+    "law-and-commandment",
+    "love-of-neighbor",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "oil-and-anointing",
+    "road-and-journey"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Amos.8.1-Amos.8.12": {
+   "theme": [
+    "judgment",
+    "justice",
+    "wealth-and-possessions",
+    "word-of-god"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "lament",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.52": {
+   "theme": [
+    "faith-and-trust",
+    "judgment",
+    "justice"
+   ],
+   "image": [
+    "seed-and-growth"
+   ],
+   "mood": [
+    "prophetic-warning",
+    "trust"
+   ],
+   "function": []
+  },
+  "Gen.18.1-Gen.18.10": {
+   "theme": [
+    "covenant",
+    "hope-and-promise",
+    "hospitality-of-god",
+    "providence-and-care"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Col.1.15-Col.1.28": {
+   "theme": [
+    "ascension-and-reign",
+    "atonement",
+    "creation",
+    "incarnation"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "creed-affirmation"
+   ]
+  },
+  "Luke.10.38-Luke.10.42": {
+   "theme": [
+    "call-and-discipleship",
+    "prayer-and-worship",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Hos.1.2-Hos.1.10": {
+   "theme": [
+    "covenant",
+    "idolatry",
+    "judgment",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.85": {
+   "theme": [
+    "exile-and-return",
+    "hope-and-promise",
+    "mercy-and-forgiveness",
+    "peace-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Gen.18.20-Gen.18.32": {
+   "theme": [
+    "judgment",
+    "justice",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "fear-and-trembling",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Col.2.6-Col.2.15": {
+   "theme": [
+    "atonement",
+    "baptism",
+    "faith-and-trust",
+    "grace"
+   ],
+   "image": [
+    "cross-and-tree",
+    "seed-and-growth"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Luke.11.1-Luke.11.13": {
+   "theme": [
+    "faith-and-trust",
+    "holy-spirit",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread",
+    "gate-and-door"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Hos.11.1-Hos.11.11": {
+   "theme": [
+    "deliverance",
+    "idolatry",
+    "mercy-and-forgiveness",
+    "providence-and-care"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "lament",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Ps.107.1-Ps.107.9": {
+   "theme": [
+    "deliverance",
+    "mercy-and-forgiveness",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "road-and-journey",
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": [
+    "gathering",
+    "thanksgiving-offering"
+   ]
+  },
+  "Eccl.1.2": {
+   "theme": [
+    "suffering-and-endurance",
+    "wealth-and-possessions",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "lament"
+   ],
+   "function": []
+  },
+  "Ps.49.1-Ps.49.12": {
+   "theme": [
+    "last-things",
+    "wealth-and-possessions",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Col.3.1-Col.3.11": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "resurrection-and-life",
+    "sin-and-fall"
+   ],
+   "image": [
+    "garment-and-robe"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": [
+    "baptism-renewal"
+   ]
+  },
+  "Luke.12.13-Luke.12.21": {
+   "theme": [
+    "judgment",
+    "last-things",
+    "wealth-and-possessions",
+    "wisdom"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Isa.1.1": {
+   "theme": [
+    "judgment",
+    "justice",
+    "prayer-and-worship",
+    "repentance"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Ps.50.1-Ps.50.8": {
+   "theme": [
+    "judgment",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "fire",
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "prophetic-warning",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Gen.15.1-Gen.15.6": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "hope-and-promise"
+   ],
+   "image": [
+    "star"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.33.12-Ps.33.22": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "providence-and-care"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "trust"
+   ],
+   "function": []
+  },
+  "Heb.11.1-Heb.11.3": {
+   "theme": [
+    "covenant",
+    "faith-and-trust",
+    "hope-and-promise",
+    "saints-and-witnesses"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Luke.12.32-Luke.12.40": {
+   "theme": [
+    "faith-and-trust",
+    "kingdom-of-god",
+    "last-things",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "gate-and-door",
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.80.1-Ps.80.2": {
+   "theme": [
+    "deliverance",
+    "exile-and-return",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "light",
+    "shepherd",
+    "vineyard"
+   ],
+   "mood": [
+    "lament",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Jer.23.23-Jer.23.29": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "word-of-god"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Heb.11.29-Heb.12.2": {
+   "theme": [
+    "faith-and-trust",
+    "passion-and-cross",
+    "saints-and-witnesses",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "cross-and-tree",
+    "road-and-journey",
+    "sea-and-storm"
+   ],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Luke.12.49-Luke.12.56": {
+   "theme": [
+    "call-and-discipleship",
+    "judgment",
+    "last-things"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Isa.58.9-Isa.58.14": {
+   "theme": [
+    "hope-and-promise",
+    "justice",
+    "law-and-commandment",
+    "love-of-neighbor"
+   ],
+   "image": [
+    "garden",
+    "light",
+    "water"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.103.1-Ps.103.8": {
+   "theme": [
+    "grace",
+    "mercy-and-forgiveness",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Heb.12.18-Heb.12.29": {
+   "theme": [
+    "covenant",
+    "judgment",
+    "kingdom-of-god",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "blood",
+    "fire",
+    "mountain",
+    "trumpet-and-voice"
+   ],
+   "mood": [
+    "fear-and-trembling",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Luke.13.10-Luke.13.17": {
+   "theme": [
+    "deliverance",
+    "kingdom-of-god",
+    "law-and-commandment",
+    "mercy-and-forgiveness"
+   ],
+   "image": [
+    "yoke-and-burden"
+   ],
+   "mood": [
+    "joy"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Jer.2.4-Jer.2.13": {
+   "theme": [
+    "covenant",
+    "idolatry",
+    "judgment",
+    "sin-and-fall"
+   ],
+   "image": [
+    "water",
+    "wilderness"
+   ],
+   "mood": [
+    "lament",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.81.1": {
+   "theme": [
+    "deliverance",
+    "idolatry",
+    "law-and-commandment",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread"
+   ],
+   "mood": [
+    "exhortation",
+    "lament"
+   ],
+   "function": []
+  },
+  "Sir.10.12-Sir.10.18": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "sin-and-fall",
+    "wisdom"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Ps.112": {
+   "theme": [
+    "faithfulness",
+    "justice",
+    "wealth-and-possessions",
+    "wisdom"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": []
+  },
+  "Heb.13.1-Heb.13.8": {
+   "theme": [
+    "faithfulness",
+    "hospitality-of-god",
+    "love-of-neighbor",
+    "thanksgiving"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": [
+    "sending-benediction"
+   ]
+  },
+  "Luke.14.1": {
+   "theme": [
+    "hospitality-of-god",
+    "justice",
+    "kingdom-of-god",
+    "wisdom"
+   ],
+   "image": [
+    "table-and-feast"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Jer.18.1-Jer.18.11": {
+   "theme": [
+    "creation",
+    "judgment",
+    "providence-and-care",
+    "repentance"
+   ],
+   "image": [],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Deut.30.15-Deut.30.20": {
+   "theme": [
+    "call-and-discipleship",
+    "covenant",
+    "faithfulness",
+    "law-and-commandment"
+   ],
+   "image": [
+    "road-and-journey"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Phlm.1.1-Phlm.1.21": {
+   "theme": [
+    "church-and-unity",
+    "grace",
+    "love-of-neighbor",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "tenderness"
+   ],
+   "function": []
+  },
+  "Luke.14.25-Luke.14.33": {
+   "theme": [
+    "call-and-discipleship",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "cross-and-tree"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Jer.4.11-Jer.4.12": {
+   "theme": [
+    "creation",
+    "judgment",
+    "last-things",
+    "sin-and-fall"
+   ],
+   "image": [
+    "darkness-and-night",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "lament",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Exod.32.7-Exod.32.14": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "hand-and-arm"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ps.51.1-Ps.51.10": {
+   "theme": [
+    "grace",
+    "mercy-and-forgiveness",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "penitence"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "1Tim.1.12-1Tim.1.17": {
+   "theme": [
+    "call-and-discipleship",
+    "grace",
+    "mercy-and-forgiveness",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "Luke.15.1-Luke.15.10": {
+   "theme": [
+    "grace",
+    "hospitality-of-god",
+    "mercy-and-forgiveness",
+    "repentance"
+   ],
+   "image": [
+    "lamb",
+    "shepherd"
+   ],
+   "mood": [
+    "joy",
+    "tenderness"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "Jer.8.18-Jer.9.1": {
+   "theme": [
+    "exile-and-return",
+    "judgment",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ps.79.1-Ps.79.9": {
+   "theme": [
+    "exile-and-return",
+    "judgment",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Amos.8.4-Amos.8.7": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "justice",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "harvest"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Luke.16.1-Luke.16.13": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "wealth-and-possessions",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Jer.32.1-Jer.32.3": {
+   "theme": [
+    "covenant",
+    "exile-and-return",
+    "faith-and-trust",
+    "hope-and-promise"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "longing-and-waiting"
+   ],
+   "function": []
+  },
+  "Ps.91.1-Ps.91.6": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "providence-and-care"
+   ],
+   "image": [
+    "darkness-and-night",
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "assurance",
+    "trust"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "Amos.6.1": {
+   "theme": [
+    "idolatry",
+    "judgment",
+    "justice",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "table-and-feast",
+    "vine-wine"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "1Tim.6.6-1Tim.6.19": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "last-things",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.16.19-Luke.16.31": {
+   "theme": [
+    "judgment",
+    "justice",
+    "last-things",
+    "wealth-and-possessions"
+   ],
+   "image": [
+    "gate-and-door",
+    "table-and-feast"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Lam.1.1-Lam.1.6": {
+   "theme": [
+    "exile-and-return",
+    "judgment",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "lament"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Lam.3.19-Lam.3.26": {
+   "theme": [
+    "faithfulness",
+    "hope-and-promise",
+    "mercy-and-forgiveness",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Hab.1.1-Hab.1.4": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "judgment",
+    "justice"
+   ],
+   "image": [],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Ps.37.1-Ps.37.9": {
+   "theme": [
+    "faith-and-trust",
+    "justice",
+    "providence-and-care",
+    "wisdom"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "trust"
+   ],
+   "function": []
+  },
+  "2Tim.1.1-2Tim.1.14": {
+   "theme": [
+    "call-and-discipleship",
+    "faith-and-trust",
+    "grace",
+    "holy-spirit"
+   ],
+   "image": [
+    "fire"
+   ],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Luke.17.5-Luke.17.10": {
+   "theme": [
+    "call-and-discipleship",
+    "faith-and-trust"
+   ],
+   "image": [
+    "seed-and-growth"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Jer.29.1": {
+   "theme": [
+    "exile-and-return",
+    "hope-and-promise",
+    "mission-and-witness",
+    "providence-and-care"
+   ],
+   "image": [
+    "garden"
+   ],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.66.1-Ps.66.12": {
+   "theme": [
+    "deliverance",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [
+    "fire",
+    "sea-and-storm",
+    "water"
+   ],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "2Kgs.5.1-2Kgs.5.3": {
+   "theme": [
+    "deliverance",
+    "faith-and-trust",
+    "grace",
+    "mission-and-witness"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "wonder-and-awe"
+   ],
+   "function": [
+    "healing-and-comfort"
+   ]
+  },
+  "2Tim.2.8-2Tim.2.15": {
+   "theme": [
+    "faithfulness",
+    "resurrection-and-life",
+    "suffering-and-endurance",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Phil.4.4-Phil.4.9": {
+   "theme": [
+    "peace-of-god",
+    "prayer-and-worship",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "joy"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "John.6.25-John.6.35": {
+   "theme": [
+    "faith-and-trust",
+    "incarnation",
+    "providence-and-care"
+   ],
+   "image": [
+    "bread"
+   ],
+   "mood": [
+    "assurance"
+   ],
+   "function": [
+    "table-communion"
+   ]
+  },
+  "Jer.31.27-Jer.31.34": {
+   "theme": [
+    "covenant",
+    "hope-and-promise",
+    "law-and-commandment",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Ps.119.97-Ps.119.104": {
+   "theme": [
+    "law-and-commandment",
+    "wisdom",
+    "word-of-god"
+   ],
+   "image": [
+    "light"
+   ],
+   "mood": [
+    "joy",
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "2Tim.3.14-2Tim.4.5": {
+   "theme": [
+    "call-and-discipleship",
+    "faithfulness",
+    "mission-and-witness",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "resolve-and-sending"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Luke.18.1-Luke.18.8": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "justice",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "exhortation",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "Joel.2.23-Joel.2.32": {
+   "theme": [
+    "holy-spirit",
+    "last-things",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [
+    "fire",
+    "harvest",
+    "wind-and-breath"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": []
+  },
+  "Sir.35.12-Sir.35.17": {
+   "theme": [
+    "judgment",
+    "justice",
+    "mercy-and-forgiveness",
+    "prayer-and-worship"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Ps.84.1-Ps.84.7": {
+   "theme": [
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "road-and-journey",
+    "table-and-feast",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "longing-and-waiting"
+   ],
+   "function": [
+    "gathering"
+   ]
+  },
+  "2Tim.4.6-2Tim.4.8": {
+   "theme": [
+    "deliverance",
+    "faithfulness",
+    "hope-and-promise",
+    "suffering-and-endurance"
+   ],
+   "image": [
+    "cup",
+    "king-and-throne"
+   ],
+   "mood": [
+    "assurance",
+    "resolve-and-sending"
+   ],
+   "function": []
+  },
+  "Luke.18.9-Luke.18.14": {
+   "theme": [
+    "grace",
+    "prayer-and-worship",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [],
+   "mood": [
+    "penitence"
+   ],
+   "function": [
+    "confession"
+   ]
+  },
+  "Dan.7.1-Dan.7.3": {
+   "theme": [
+    "judgment",
+    "kingdom-of-god",
+    "last-things",
+    "saints-and-witnesses"
+   ],
+   "image": [
+    "sea-and-storm"
+   ],
+   "mood": [
+    "assurance",
+    "wonder-and-awe"
+   ],
+   "function": []
+  },
+  "Eph.1.11-Eph.1.23": {
+   "theme": [
+    "ascension-and-reign",
+    "church-and-unity",
+    "hope-and-promise",
+    "saints-and-witnesses"
+   ],
+   "image": [
+    "king-and-throne"
+   ],
+   "mood": [
+    "assurance",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Luke.6.20-Luke.6.31": {
+   "theme": [
+    "justice",
+    "kingdom-of-god",
+    "love-of-neighbor",
+    "mercy-and-forgiveness"
+   ],
+   "image": [],
+   "mood": [
+    "comfort-and-consolation",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Ps.119.137-Ps.119.144": {
+   "theme": [
+    "faithfulness",
+    "justice",
+    "law-and-commandment",
+    "word-of-god"
+   ],
+   "image": [],
+   "mood": [
+    "trust"
+   ],
+   "function": [
+    "illumination-word"
+   ]
+  },
+  "Isa.1.10-Isa.1.18": {
+   "theme": [
+    "justice",
+    "mercy-and-forgiveness",
+    "prayer-and-worship",
+    "repentance"
+   ],
+   "image": [
+    "blood"
+   ],
+   "mood": [
+    "prophetic-warning"
+   ],
+   "function": [
+    "confession",
+    "pardon-assurance"
+   ]
+  },
+  "Ps.32.1-Ps.32.7": {
+   "theme": [
+    "grace",
+    "mercy-and-forgiveness",
+    "repentance",
+    "sin-and-fall"
+   ],
+   "image": [
+    "rock-and-refuge",
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "penitence"
+   ],
+   "function": [
+    "confession",
+    "pardon-assurance"
+   ]
+  },
+  "2Thess.1.1-2Thess.1.4": {
+   "theme": [
+    "faith-and-trust",
+    "judgment",
+    "suffering-and-endurance",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.19.1-Luke.19.10": {
+   "theme": [
+    "deliverance",
+    "grace",
+    "repentance",
+    "wealth-and-possessions"
+   ],
+   "image": [],
+   "mood": [
+    "joy"
+   ],
+   "function": [
+    "pardon-assurance"
+   ]
+  },
+  "Hag.1.15-Hag.2.9": {
+   "theme": [
+    "holy-spirit",
+    "hope-and-promise",
+    "peace-of-god",
+    "providence-and-care"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "comfort-and-consolation"
+   ],
+   "function": []
+  },
+  "Ps.145.1-Ps.145.5": {
+   "theme": [
+    "faithfulness",
+    "kingdom-of-god",
+    "providence-and-care",
+    "thanksgiving"
+   ],
+   "image": [],
+   "mood": [
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening"
+   ]
+  },
+  "Job.19.23-Job.19.27": {
+   "theme": [
+    "faith-and-trust",
+    "hope-and-promise",
+    "resurrection-and-life",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "longing-and-waiting",
+    "trust"
+   ],
+   "function": []
+  },
+  "Ps.17.1-Ps.17.9": {
+   "theme": [
+    "faith-and-trust",
+    "justice",
+    "prayer-and-worship",
+    "providence-and-care"
+   ],
+   "image": [
+    "rock-and-refuge"
+   ],
+   "mood": [
+    "lament",
+    "trust"
+   ],
+   "function": [
+    "lament-intercession"
+   ]
+  },
+  "2Thess.2.1-2Thess.2.5": {
+   "theme": [
+    "faithfulness",
+    "grace",
+    "hope-and-promise",
+    "last-things"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.20.27-Luke.20.38": {
+   "theme": [
+    "last-things",
+    "resurrection-and-life"
+   ],
+   "image": [],
+   "mood": [
+    "assurance"
+   ],
+   "function": []
+  },
+  "Isa.65.17-Isa.65.25": {
+   "theme": [
+    "creation",
+    "hope-and-promise",
+    "last-things",
+    "peace-of-god"
+   ],
+   "image": [
+    "garden",
+    "vineyard"
+   ],
+   "mood": [
+    "comfort-and-consolation",
+    "joy"
+   ],
+   "function": []
+  },
+  "Isa.12": {
+   "theme": [
+    "deliverance",
+    "prayer-and-worship",
+    "thanksgiving",
+    "trinity"
+   ],
+   "image": [
+    "water"
+   ],
+   "mood": [
+    "joy",
+    "praise-and-exultation"
+   ],
+   "function": [
+    "praise-opening",
+    "thanksgiving-offering"
+   ]
+  },
+  "Mal.4.1-Mal.4.2": {
+   "theme": [
+    "deliverance",
+    "hope-and-promise",
+    "judgment",
+    "last-things"
+   ],
+   "image": [
+    "fire",
+    "light"
+   ],
+   "mood": [
+    "assurance",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "2Thess.3.6-2Thess.3.13": {
+   "theme": [
+    "call-and-discipleship",
+    "church-and-unity",
+    "faithfulness"
+   ],
+   "image": [
+    "bread"
+   ],
+   "mood": [
+    "exhortation"
+   ],
+   "function": []
+  },
+  "Luke.21.5-Luke.21.19": {
+   "theme": [
+    "judgment",
+    "last-things",
+    "mission-and-witness",
+    "suffering-and-endurance"
+   ],
+   "image": [],
+   "mood": [
+    "assurance",
+    "prophetic-warning"
+   ],
+   "function": []
+  },
+  "Col.1.11-Col.1.20": {
+   "theme": [
+    "ascension-and-reign",
+    "atonement",
+    "church-and-unity",
+    "creation"
+   ],
+   "image": [
+    "blood",
+    "cross-and-tree",
+    "king-and-throne"
+   ],
+   "mood": [
+    "praise-and-exultation",
+    "wonder-and-awe"
+   ],
+   "function": [
+    "thanksgiving-offering"
+   ]
+  },
+  "Luke.23.33-Luke.23.43": {
+   "theme": [
+    "ascension-and-reign",
+    "kingdom-of-god",
+    "mercy-and-forgiveness",
+    "passion-and-cross"
+   ],
+   "image": [
+    "cross-and-tree",
+    "king-and-throne"
+   ],
+   "mood": [
+    "assurance",
+    "lament"
+   ],
+   "function": []
   }
+ }
 }
