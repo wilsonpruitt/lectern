@@ -63,6 +63,33 @@ canonical UMH/TFWS `passage → in-hymnal number` backbone; **hymnary.org**
 (`/api/scripture?reference=...`) is the planned enrichment for the non-standard
 connections the print index omits.
 
+## Tag layer — the robust index (third feature)
+
+A faceted **controlled vocabulary** tagged onto both readings and hymns, so they
+connect by *meaning* — surfacing the non-standard connections the printed
+scripture index can't (still pointer-only: tags are our editorial metadata, no
+lyrics stored).
+
+Method (decided 2026-06-30): open-tag a slice of the RCL → consolidate into a
+frozen lexicon → tag the rest + the hymns against it. Faceted across **theme /
+image / mood / function**.
+
+- **`data/tags/lexicon.json`** — the controlled vocabulary (v0 seed, from Year A
+  Propers 22-25). Canonical term + definition per tag, four facets.
+- **`data/tags/rcl_tags.json`** — reading tags keyed by OSIS refKey (reusable
+  wherever a text recurs).
+- **`data/tags/hymn_tags.json`** — hymn tags (number + title + tags; proof set).
+- **`src/tag_connect.py`** — scores hymns by weighted shared-tag overlap with the
+  day's readings, **track-aware** (Pentecost dual tracks scored separately).
+
+```sh
+python3.11 src/tag_connect.py proper-23-28-a
+```
+
+`out/proper-23-28-a-tag-recs.md` shows the win: UMH 339 "Come, Sinners, to the
+Gospel Feast" recommends for this Sunday via shared feast/hospitality tags,
+though the scripture index only ever linked it to Luke 14.
+
 ## Dependency
 
 Reads `~/reception-corpus/data/rcl.json` (the shared RCL spine, Years A/B/C).

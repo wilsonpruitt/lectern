@@ -1,0 +1,20 @@
+{
+  "note": "Hymn tags against lexicon.json v0. POINTER-ONLY: number + title (factual identifier) + our editorial tags; NO lyrics stored. Hymn text read only to assign tags (transient, from Wilson's PDFs). PROOF SET, hand-assigned. Titles are from recall and the in-hymnal NUMBERS should be verified against the hymnal; shepherd/feast numbers were cross-checked against data/umh_scripture_index.json (Ps23 -> 128/136/138/518; Luke 14:16-24 -> 339/616).",
+  "hymns": [
+    {"hymnal": "UMH", "number": 128, "title": "He Leadeth Me: O Blessed Thought", "theme": ["providence-and-care", "faithfulness"], "image": ["road-and-journey", "water"], "mood": ["trust"], "function": []},
+    {"hymnal": "UMH", "number": 136, "title": "The King of Love My Shepherd Is", "theme": ["providence-and-care", "grace"], "image": ["shepherd", "table-and-feast", "water"], "mood": ["trust", "comfort-and-consolation"], "function": []},
+    {"hymnal": "UMH", "number": 138, "title": "The Lord's My Shepherd, I'll Not Want", "theme": ["providence-and-care", "faithfulness"], "image": ["shepherd", "table-and-feast", "valley-and-shadow", "water"], "mood": ["trust"], "function": []},
+    {"hymnal": "UMH", "number": 518, "title": "O Thou in Whose Presence", "theme": ["providence-and-care"], "image": ["shepherd", "rock-and-refuge"], "mood": ["trust", "longing-and-waiting"], "function": []},
+    {"hymnal": "UMH", "number": 339, "title": "Come, Sinners, to the Gospel Feast", "theme": ["grace", "hospitality-of-god", "kingdom-of-god"], "image": ["table-and-feast"], "mood": ["longing-and-waiting"], "function": ["gathering", "table-communion"]},
+    {"hymnal": "UMH", "number": 616, "title": "Come, Sinners, to the Gospel Feast (Part II)", "theme": ["grace", "hospitality-of-god"], "image": ["table-and-feast", "bread"], "mood": ["longing-and-waiting"], "function": ["table-communion"]},
+    {"hymnal": "UMH", "number": 614, "title": "For the Bread Which You Have Broken", "theme": ["thanksgiving", "peace-of-god"], "image": ["table-and-feast", "bread"], "mood": ["comfort-and-consolation"], "function": ["table-communion"]},
+    {"hymnal": "UMH", "number": 631, "title": "O Food to Pilgrims Given", "theme": ["thanksgiving"], "image": ["table-and-feast", "bread", "road-and-journey"], "mood": ["longing-and-waiting"], "function": ["table-communion"]},
+    {"hymnal": "UMH", "number": 707, "title": "Hymn of Promise", "theme": ["resurrection-and-life", "faithfulness"], "image": ["harvest"], "mood": ["wonder-and-awe", "longing-and-waiting"], "function": []},
+    {"hymnal": "UMH", "number": 393, "title": "Spirit of the Living God", "theme": ["call-and-discipleship"], "image": ["fire"], "mood": ["longing-and-waiting"], "function": ["illumination-word"]},
+    {"hymnal": "UMH", "number": 269, "title": "Lord, Who Throughout These Forty Days", "theme": ["repentance", "call-and-discipleship"], "image": ["wilderness"], "mood": ["penitence"], "function": ["confession"]},
+    {"hymnal": "UMH", "number": 110, "title": "A Mighty Fortress Is Our God", "theme": ["deliverance", "faithfulness"], "image": ["rock-and-refuge"], "mood": ["trust", "fear-and-trembling"], "function": []},
+    {"hymnal": "TFWS", "number": 2126, "title": "All Who Hunger Gather Gladly", "theme": ["hospitality-of-god", "grace"], "image": ["table-and-feast", "bread", "water"], "mood": ["longing-and-waiting", "joy"], "function": ["table-communion", "gathering"]},
+    {"hymnal": "UMH", "number": 89, "title": "Joyful, Joyful, We Adore Thee", "theme": ["thanksgiving", "grace"], "image": ["light"], "mood": ["joy", "praise-and-exultation"], "function": ["gathering"]},
+    {"hymnal": "UMH", "number": 400, "title": "Come, Thou Fount of Every Blessing", "theme": ["grace", "covenant"], "image": ["rock-and-refuge", "water"], "mood": ["trust", "joy"], "function": []}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "note": "Reading tags keyed by OSIS refKey (reusable across years/occasions where a text recurs). Tagged against lexicon.json v0. Seed slice = Year A Propers 22-25. Production tagging should read the WEB text (via Fons) for auditability; these were assigned from the passages directly.",
+  "readings": {
+    "Exod.20.1-Exod.20.4": {"theme": ["covenant", "idolatry", "justice"], "image": ["mountain", "fire"], "mood": ["fear-and-trembling"], "function": ["illumination-word"]},
+    "Ps.19": {"theme": ["providence-and-care", "faithfulness"], "image": ["light"], "mood": ["wonder-and-awe", "praise-and-exultation"], "function": ["illumination-word"]},
+    "Isa.5.1-Isa.5.7": {"theme": ["judgment", "justice"], "image": ["vineyard"], "mood": ["lament"], "function": []},
+    "Ps.80.7-Ps.80.15": {"theme": ["deliverance", "judgment"], "image": ["vineyard", "shepherd"], "mood": ["lament", "longing-and-waiting"], "function": ["lament-intercession"]},
+    "Phil.3.4-Phil.3.14": {"theme": ["call-and-discipleship", "grace"], "image": ["road-and-journey"], "mood": ["resolve-and-sending"], "function": ["sending-benediction"]},
+    "Matt.21.33-Matt.21.46": {"theme": ["judgment", "kingdom-of-god"], "image": ["vineyard", "rock-and-refuge"], "mood": ["fear-and-trembling"], "function": []},
+
+    "Exod.32.1-Exod.32.14": {"theme": ["idolatry", "repentance", "providence-and-care"], "image": ["mountain", "fire"], "mood": ["fear-and-trembling", "penitence"], "function": ["confession", "lament-intercession"]},
+    "Ps.106.1-Ps.106.6": {"theme": ["idolatry", "thanksgiving", "deliverance"], "image": ["wilderness"], "mood": ["penitence", "praise-and-exultation"], "function": ["confession", "thanksgiving-offering"]},
+    "Isa.25.1-Isa.25.9": {"theme": ["deliverance", "hospitality-of-god", "resurrection-and-life", "thanksgiving"], "image": ["table-and-feast", "mountain"], "mood": ["comfort-and-consolation", "praise-and-exultation", "joy"], "function": ["thanksgiving-offering", "table-communion"]},
+    "Ps.23": {"theme": ["providence-and-care", "faithfulness", "hospitality-of-god"], "image": ["shepherd", "table-and-feast", "valley-and-shadow", "water"], "mood": ["trust", "comfort-and-consolation"], "function": ["gathering", "table-communion"]},
+    "Phil.4.1-Phil.4.9": {"theme": ["peace-of-god", "thanksgiving", "faithfulness"], "image": [], "mood": ["joy", "trust", "comfort-and-consolation"], "function": ["sending-benediction", "thanksgiving-offering"]},
+    "Matt.22.1-Matt.22.14": {"theme": ["kingdom-of-god", "hospitality-of-god", "judgment", "grace"], "image": ["table-and-feast", "garment-and-robe"], "mood": ["longing-and-waiting"], "function": ["table-communion", "gathering"]},
+
+    "Exod.33.12-Exod.33.23": {"theme": ["providence-and-care", "covenant"], "image": ["mountain", "light"], "mood": ["wonder-and-awe", "longing-and-waiting"], "function": []},
+    "Ps.99": {"theme": ["justice", "faithfulness"], "image": ["mountain"], "mood": ["fear-and-trembling", "praise-and-exultation"], "function": ["gathering"]},
+    "Isa.45.1-Isa.45.7": {"theme": ["providence-and-care", "deliverance"], "image": ["light"], "mood": ["wonder-and-awe"], "function": []},
+    "Ps.96.1-Ps.96.9": {"theme": ["kingdom-of-god", "justice"], "image": [], "mood": ["praise-and-exultation", "joy"], "function": ["gathering"]},
+    "1Thess.1.1-1Thess.1.10": {"theme": ["faithfulness", "call-and-discipleship", "thanksgiving"], "image": [], "mood": ["joy", "resolve-and-sending"], "function": ["thanksgiving-offering"]},
+    "Matt.22.15-Matt.22.22": {"theme": ["kingdom-of-god", "justice"], "image": [], "mood": [], "function": []},
+
+    "Deut.34.1-Deut.34.12": {"theme": ["faithfulness", "deliverance"], "image": ["mountain", "road-and-journey"], "mood": ["comfort-and-consolation", "longing-and-waiting"], "function": []},
+    "Ps.90.1-Ps.90.6": {"theme": ["providence-and-care"], "image": ["rock-and-refuge"], "mood": ["lament", "trust"], "function": ["lament-intercession"]},
+    "Lev.19.1-Lev.19.2": {"theme": ["justice", "covenant", "call-and-discipleship"], "image": [], "mood": ["resolve-and-sending"], "function": []},
+    "Ps.1": {"theme": ["justice", "faithfulness"], "image": ["road-and-journey", "water"], "mood": ["trust"], "function": []},
+    "1Thess.2.1-1Thess.2.8": {"theme": ["call-and-discipleship", "faithfulness"], "image": [], "mood": ["resolve-and-sending"], "function": []},
+    "Matt.22.34-Matt.22.46": {"theme": ["justice", "call-and-discipleship", "covenant"], "image": [], "mood": [], "function": []}
+  }
+}
