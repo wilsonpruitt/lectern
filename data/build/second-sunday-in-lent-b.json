@@ -244,7 +244,105 @@
           ],
           "score": 1.82
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Genesis 17:1-7, 15-16",
+            "refKey": "Gen.17.1-Gen.17.7",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 22:23-31",
+            "refKey": "Ps.22.23-Ps.22.31",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "Romans 4:13-25",
+            "refKey": "Rom.4.13-Rom.4.25",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/romans"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Mark 8:31-38",
+            "refKey": "Mark.8.31-Mark.8.38",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/mark"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "hope-and-promise",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "kingdom-of-god",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "call-and-discipleship",
+              "grace",
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "covenant",
+              "faith-and-trust",
+              "grace"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

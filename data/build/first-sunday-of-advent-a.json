@@ -250,7 +250,105 @@
           ],
           "score": 2.06
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Isaiah 2:1-5",
+            "refKey": "Isa.2.1-Isa.2.5",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 122",
+            "refKey": "Ps.122",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "Romans 13:11-14",
+            "refKey": "Rom.13.11-Rom.13.14",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/romans"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Matthew 24:36-44",
+            "refKey": "Matt.24.36-Matt.24.44",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/matthew"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "hope-and-promise",
+              "judgment",
+              "last-things"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "judgment",
+              "kingdom-of-god",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "call-and-discipleship",
+              "prayer-and-worship",
+              "repentance"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "repentance"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

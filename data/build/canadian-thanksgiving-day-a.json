@@ -254,7 +254,104 @@
           ],
           "score": 2.35
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Deuteronomy 8:7-18",
+            "refKey": "Deut.8.7-Deut.8.18",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 65",
+            "refKey": "Ps.65",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "2 Corinthians 9:6-15",
+            "refKey": "2Cor.9.6-2Cor.9.15",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/2-corinthians"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Luke 17:11-19",
+            "refKey": "Luke.17.11-Luke.17.19",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/luke"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "creation",
+              "mercy-and-forgiveness",
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "grace",
+              "wealth-and-possessions"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "faith-and-trust",
+              "grace",
+              "mercy-and-forgiveness"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

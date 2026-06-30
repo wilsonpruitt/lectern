@@ -230,7 +230,97 @@
           ],
           "score": 1.98
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Job 14:1-14",
+            "refKey": "Job.14.1-Job.14.14",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 31:1-4, 15-16",
+            "refKey": "Ps.31.1-Ps.31.4",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "1 Peter 4:1-8",
+            "refKey": "1Pet.4.1-1Pet.4.8",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/1-peter"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Matthew 27:57-66",
+            "refKey": "Matt.27.57-Matt.27.66",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/matthew"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "hope-and-promise",
+              "last-things",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "last-things",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "call-and-discipleship",
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

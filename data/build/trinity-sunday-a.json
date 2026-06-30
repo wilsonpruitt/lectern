@@ -249,7 +249,117 @@
           ],
           "score": 2.38
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Genesis 1:1-2:4a",
+            "refKey": "Gen.1.1-Gen.2.4",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 8",
+            "refKey": "Ps.8",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "2 Corinthians 13:11-13",
+            "refKey": "2Cor.13.11-2Cor.13.13",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/2-corinthians"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Matthew 28:16-20",
+            "refKey": "Matt.28.16-Matt.28.20",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/matthew"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "ascension-and-reign",
+              "creation",
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "ascension-and-reign",
+              "baptism",
+              "church-and-unity",
+              "creation",
+              "trinity"
+            ]
+          },
+          {
+            "title": "The Athanasian Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "grace",
+              "mission-and-witness",
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "baptism",
+              "church-and-unity",
+              "grace",
+              "word-of-god"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

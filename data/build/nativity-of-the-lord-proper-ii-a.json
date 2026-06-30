@@ -256,7 +256,116 @@
           ],
           "score": 2.42
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Isaiah 62:6-12",
+            "refKey": "Isa.62.6-Isa.62.12",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 97",
+            "refKey": "Ps.97",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "Titus 3:4-7",
+            "refKey": "Titus.3.4-Titus.3.7",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/titus"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Luke 2:(1-7), 8-20",
+            "refKey": "Luke.2.1-Luke.2.7",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/luke"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "holy-spirit",
+              "hope-and-promise",
+              "incarnation",
+              "judgment"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "baptism",
+              "epiphany-manifestation",
+              "holy-spirit",
+              "incarnation",
+              "judgment",
+              "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "The Athanasian Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "grace",
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "baptism",
+              "grace"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

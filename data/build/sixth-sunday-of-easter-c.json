@@ -258,7 +258,114 @@
           ],
           "score": 2.24
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Acts 16:9-15",
+            "refKey": "Acts.16.9-Acts.16.15",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/acts"
+              },
+              {
+                "resource": "Topographia",
+                "kind": "geography",
+                "label": "Map & places",
+                "url": "https://topographia.wrootpress.com/books/acts/16/"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 67",
+            "refKey": "Ps.67",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "Revelation 21:10, 22-22:5",
+            "refKey": "Rev.21.10",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/revelation"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "John 14:23-29",
+            "refKey": "John.14.23-John.14.29",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/john"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "creation",
+              "holy-spirit",
+              "hope-and-promise",
+              "last-things",
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "baptism",
+              "creation",
+              "holy-spirit",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "call-and-discipleship",
+              "mission-and-witness",
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "baptism"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

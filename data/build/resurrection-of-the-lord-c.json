@@ -231,7 +231,117 @@
           ],
           "score": 1.93
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Acts 10:34-43",
+            "refKey": "Acts.10.34-Acts.10.43",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/acts"
+              },
+              {
+                "resource": "Topographia",
+                "kind": "geography",
+                "label": "Map & places",
+                "url": "https://topographia.wrootpress.com/books/acts/10/"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 118:1-2, 14-24",
+            "refKey": "Ps.118.1-Ps.118.2",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "1 Corinthians 15:19-26",
+            "refKey": "1Cor.15.19-1Cor.15.26",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/1-corinthians"
+              },
+              {
+                "resource": "Annales",
+                "kind": "chronology",
+                "label": "Life of Paul",
+                "url": "https://annales.wrootpress.com/life-of-paul"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "John 20:1-18",
+            "refKey": "John.20.1-John.20.18",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/john"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "ascension-and-reign",
+              "hope-and-promise",
+              "last-things",
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "ascension-and-reign",
+              "kingdom-of-god",
+              "last-things",
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

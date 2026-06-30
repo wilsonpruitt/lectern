@@ -24,11 +24,23 @@ export type Hymn = {
   tags: string[];
   score: number;
 };
+export type ResourceLink = {
+  resource: string;
+  kind: string;
+  label: string;
+  url: string;
+};
+export type DoctrineLink = { title: string; url: string; themes: string[] };
+export type Lenses = {
+  readings: { role: string; ref: string; refKey: string; links: ResourceLink[] }[];
+  doctrine: DoctrineLink[];
+};
 export type Track = {
   label: string;
   readings: Reading[];
   sermons: Sermon[];
   hymns: Hymn[];
+  lenses: Lenses;
 };
 export type CallRegister = {
   key: string;

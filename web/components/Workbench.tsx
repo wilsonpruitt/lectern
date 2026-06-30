@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { Occasion, Track } from "@/lib/data";
+import type { Occasion, Track, Lenses as LensesData } from "@/lib/data";
 
 type TabKey = "sermons" | "hymns" | "calls" | "turn" | "lenses";
 
@@ -103,6 +103,70 @@ function Calls({ occ, reg, setReg }: { occ: Occasion; reg: string; setReg: (k: s
   );
 }
 
+function Lenses({ lenses }: { lenses: LensesData }) {
+  const anyLinks = lenses.readings.some((r) => r.links.length > 0);
+  return (
+    <div className="lenses">
+      <p className="lenses-intro">
+        Tools for interpretation across the Wroot Press family — how the text has been
+        read, where and when it happened, what it means for belief. Not the text itself.
+      </p>
+      <ul className="lens-readings">
+        {lenses.readings.map((r) => (
+          <li key={r.role + r.refKey} className="lens-reading">
+            <div className="lens-ref">
+              <span className="role">{r.role}</span> {r.ref}
+            </div>
+            {r.links.length ? (
+              <div className="lens-links">
+                {r.links.map((l) => (
+                  <a
+                    key={l.resource + l.url}
+                    className={`lens-link kind-${l.kind}`}
+                    href={l.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="lens-res">{l.resource}</span>
+                    <span className="lens-lbl">{l.label}</span>
+                  </a>
+                ))}
+              </div>
+            ) : (
+              <div className="lens-none">no resource covers this reading yet</div>
+            )}
+          </li>
+        ))}
+      </ul>
+
+      {lenses.doctrine.length ? (
+        <div className="doctrine">
+          <span className="eyebrow">Theological application</span>
+          <p className="micro reg-desc">
+            What the church confesses on the day&rsquo;s themes — from Doctrine.
+          </p>
+          {lenses.doctrine.map((d) => (
+            <a
+              key={d.url}
+              className="doctrine-link"
+              href={d.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="title">{d.title}</span>
+              <span className="doctrine-themes">{d.themes.join(" · ")}</span>
+            </a>
+          ))}
+        </div>
+      ) : null}
+
+      <p className="lens-foot micro">
+        Coming: Greek &amp; Hebrew reading helps. {!anyLinks ? "" : ""}
+      </p>
+    </div>
+  );
+}
+
 function Soon({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="slot-soon">
@@ -139,8 +203,8 @@ export default function Workbench({
     ["sermons", "Sermons", false],
     ["hymns", "Hymns", false],
     ["calls", "Call to Worship", false],
+    ["lenses", "Lenses", false],
     ["turn", "The Turn", true],
-    ["lenses", "Lenses", true],
   ];
 
   return (
@@ -215,16 +279,11 @@ export default function Workbench({
             {tab === "sermons" && <Sermons track={t} />}
             {tab === "hymns" && <Hymns track={t} />}
             {tab === "calls" && <Calls occ={occ} reg={reg} setReg={setReg} />}
+            {tab === "lenses" && <Lenses lenses={t.lenses} />}
             {tab === "turn" && (
               <Soon
                 title="The Turn"
                 desc="Reduce the day's abundance to two or three attested focus drafts — one thing to say, one thing to do."
-              />
-            )}
-            {tab === "lenses" && (
-              <Soon
-                title="Lenses"
-                desc="Catena echoes, commentary, and reception history for each reading."
               />
             )}
           </div>

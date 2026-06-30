@@ -236,7 +236,108 @@
           ],
           "score": 2.13
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Ruth 1:1-18",
+            "refKey": "Ruth.1.1-Ruth.1.18",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              },
+              {
+                "resource": "Topographia",
+                "kind": "geography",
+                "label": "Map & places",
+                "url": "https://topographia.wrootpress.com/books/ruth/1/"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 146",
+            "refKey": "Ps.146",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "Hebrews 9:11-14",
+            "refKey": "Heb.9.11-Heb.9.14",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/hebrews"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Mark 12:28-34",
+            "refKey": "Mark.12.28-Mark.12.34",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/mark"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "mercy-and-forgiveness",
+              "passion-and-cross",
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "atonement",
+              "kingdom-of-god",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "justice",
+              "law-and-commandment",
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "atonement",
+              "covenant",
+              "law-and-commandment",
+              "mercy-and-forgiveness"
+            ]
+          }
+        ]
+      }
     },
     "complementary": {
       "label": "Complementary",
@@ -469,7 +570,101 @@
           ],
           "score": 2.18
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Deuteronomy 6:1-9",
+            "refKey": "Deut.6.1-Deut.6.9",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 119:1-8",
+            "refKey": "Ps.119.1-Ps.119.8",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "Hebrews 9:11-14",
+            "refKey": "Heb.9.11-Heb.9.14",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/hebrews"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Mark 12:28-34",
+            "refKey": "Mark.12.28-Mark.12.34",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/mark"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "mercy-and-forgiveness",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "atonement",
+              "kingdom-of-god",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "law-and-commandment",
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "atonement",
+              "covenant",
+              "law-and-commandment",
+              "mercy-and-forgiveness",
+              "word-of-god"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

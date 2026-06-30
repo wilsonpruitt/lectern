@@ -212,7 +212,54 @@
           ],
           "score": 1.97
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "psalm",
+            "ref": "Psalm 118:1-2, 19-29",
+            "refKey": "Ps.118.1-Ps.118.2",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Mark 11:1-11",
+            "refKey": "Mark.11.1-Mark.11.11",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/mark"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "kingdom-of-god",
+              "messianic-hope"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

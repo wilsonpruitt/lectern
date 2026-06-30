@@ -252,7 +252,107 @@
           ],
           "score": 2.38
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "first",
+            "ref": "Genesis 9:8-17",
+            "refKey": "Gen.9.8-Gen.9.17",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "psalm",
+            "ref": "Psalm 25:1-10",
+            "refKey": "Ps.25.1-Ps.25.10",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "second",
+            "ref": "1 Peter 3:18-22",
+            "refKey": "1Pet.3.18-1Pet.3.22",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/1-peter"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Mark 1:9-15",
+            "refKey": "Mark.1.9-Mark.1.15",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/mark"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Apostles' Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/",
+            "themes": [
+              "creation",
+              "hope-and-promise",
+              "mercy-and-forgiveness",
+              "providence-and-care",
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "atonement",
+              "baptism",
+              "creation",
+              "kingdom-of-god",
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Wesley's General Rules",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/",
+            "themes": [
+              "repentance",
+              "temptation-and-testing"
+            ]
+          },
+          {
+            "title": "The Articles of Religion",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/",
+            "themes": [
+              "atonement",
+              "baptism",
+              "covenant",
+              "faith-and-trust",
+              "mercy-and-forgiveness",
+              "repentance"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {

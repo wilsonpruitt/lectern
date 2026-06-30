@@ -36,6 +36,7 @@ from pathlib import Path
 
 import tag_connect as tc            # WEIGHTS, load, tagset, score, SPINE, TAGS
 import sermon_connect as sc         # recommend (sermon variant)
+import connections as conn          # reading_links / doctrine_links (interpretive layer)
 
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
@@ -146,11 +147,20 @@ def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
         if not readings:
             continue
         dts = day_tagset(readings)
+        day_themes = {t for (f, t) in dts if f == "theme"}
         tracks_out[tr] = {
             "label": labels.get(tr, tr),
             "readings": readings,
             "sermons": sermon_recs(dts, sermons),
             "hymns": hymn_recs(dts, hymns, hymn_idf),
+            "lenses": {
+                "readings": [
+                    {"role": r["role"], "ref": r["ref"], "refKey": r["refKey"],
+                     "links": conn.reading_links(r["refKey"])}
+                    for r in readings
+                ],
+                "doctrine": conn.doctrine_links(day_themes),
+            },
         }
     return {
         "occasion": {

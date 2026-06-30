@@ -204,7 +204,47 @@
           ],
           "score": 1.82
         }
-      ]
+      ],
+      "lenses": {
+        "readings": [
+          {
+            "role": "psalm",
+            "ref": "Psalm 118:1-2, 19-29",
+            "refKey": "Ps.118.1-Ps.118.2",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Index Fontium",
+                "url": "https://catena.wrootpress.com/fontium"
+              }
+            ]
+          },
+          {
+            "role": "gospel",
+            "ref": "Matthew 21:1-11",
+            "refKey": "Matt.21.1-Matt.21.11",
+            "links": [
+              {
+                "resource": "Catena",
+                "kind": "reception",
+                "label": "Fathers & echoes",
+                "url": "https://catena.wrootpress.com/matthew"
+              }
+            ]
+          }
+        ],
+        "doctrine": [
+          {
+            "title": "The Nicene Creed",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/",
+            "themes": [
+              "kingdom-of-god",
+              "messianic-hope"
+            ]
+          }
+        ]
+      }
     }
   },
   "calls": {
