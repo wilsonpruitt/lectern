@@ -88,6 +88,16 @@ export type Occasion = {
   lenses: unknown | null;
 };
 
+export type SeriesMembership = {
+  id: string;
+  role: string;
+  roleLabel: string;
+  book: string;
+  week: number;
+  of: number;
+  prev: string | null;
+  next: string | null;
+};
 export type IndexEntry = {
   id: string;
   name: string | null;
@@ -97,6 +107,18 @@ export type IndexEntry = {
   readings: { role: string; ref: string }[];
   hasCalls: boolean;
   hasTurn: boolean;
+  series: SeriesMembership[];
+};
+export type Series = {
+  id: string;
+  role: string;
+  roleLabel: string;
+  book: string;
+  bookCode: string;
+  weeks: number;
+  occasions: string[];
+  from: string | null;
+  to: string | null;
 };
 
 const BUILD_DIR = path.join(process.cwd(), "..", "data", "build");
@@ -180,6 +202,21 @@ export function groupBySeason(occs: Occasion[]): { season: string; items: Occasi
   return [...groups.entries()]
     .sort((a, b) => seasonRank(a[0]) - seasonRank(b[0]))
     .map(([season, items]) => ({ season, items }));
+}
+
+// Native series (the founding thesis) written by build_occasion.py --all.
+let _series: Record<string, Series[]> | null = null;
+export function seriesByYear(year: string): Series[] {
+  if (!_series) {
+    _series = JSON.parse(
+      fs.readFileSync(path.join(BUILD_DIR, "_series.json"), "utf-8")
+    ) as Record<string, Series[]>;
+  }
+  return _series[year.toUpperCase()] ?? [];
+}
+
+export function indexEntry(id: string): IndexEntry | undefined {
+  return orderedIndex().find((e) => e.id === id);
 }
 
 export const YEARS = ["A", "B", "C"] as const;

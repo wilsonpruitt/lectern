@@ -53,6 +53,9 @@ export default async function YearPage({ params }: { params: Promise<{ abc: stri
               Year {y}
             </Link>
           ))}
+          <Link className="btn ghost" href={`/series/${year.toLowerCase()}/`}>
+            as series ↗
+          </Link>
         </div>
       </header>
 

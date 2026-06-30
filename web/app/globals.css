@@ -188,6 +188,29 @@ a { color: inherit; text-decoration: none; }
 .occ-card .rd { font-size: var(--t-caption); color: var(--fen-mist); margin-top: 4px; line-height: 1.4; }
 .occ-card .tk { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; color: var(--fg-quiet); margin-top: 6px; }
 
+/* ---------- series: the deck ---------- */
+.series-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-3); margin-top: var(--space-3); }
+.series-card { border: 1px solid var(--border); border-left: 3px solid var(--reed); border-radius: var(--radius-md); padding: var(--space-4); background: var(--ivory); }
+.series-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); }
+.series-book { font-family: var(--serif); font-size: 21px; color: var(--fen); }
+.series-weeks { font-family: var(--sans); font-size: var(--t-caption); color: var(--reed-deep); font-weight: 600; }
+.series-span { font-size: var(--t-caption); color: var(--fen-mist); margin-top: 3px; line-height: 1.4; }
+.series-weeks-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: var(--space-3); }
+.series-week { width: 26px; height: 26px; display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-size: 12px; color: var(--fen); background: var(--bg-sunken); border-radius: var(--radius-sm, 5px); border: 1px solid var(--border); }
+.series-week:hover { border-color: var(--reed); color: var(--reed-deep); background: var(--ivory); }
+.yearcard-series { color: var(--reed-deep); }
+.yearcard-series:hover { color: var(--fen); }
+
+/* ---------- series membership strip (workbench) ---------- */
+.series-strip { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-3); padding: var(--space-3) var(--space-6); border-bottom: 1px solid var(--border); background: var(--bg-sunken); }
+.series-strip-lbl { font-family: var(--sans); font-size: var(--t-micro); text-transform: uppercase; letter-spacing: 1px; color: var(--fen-mist); }
+.series-tag { display: inline-flex; align-items: center; gap: 2px; }
+.series-tag-main { font-family: var(--serif); font-size: 15px; color: var(--ink); padding: 2px 8px; border-radius: var(--radius-pill); border: 1px solid var(--border); background: var(--ivory); }
+.series-tag-main:hover { border-color: var(--reed); }
+.series-tag .wk { font-family: var(--sans); font-size: 11px; color: var(--fen-mist); }
+.series-tag .step { font-family: var(--sans); color: var(--fen); padding: 0 4px; font-size: 15px; }
+.series-tag .step.off { color: var(--slate-300); }
+
 /* breadcrumb / back link */
 .crumb { padding: var(--space-4) var(--space-6) 0; font-size: var(--t-caption); color: var(--fen-mist); }
 .crumb a:hover { color: var(--reed-deep); }

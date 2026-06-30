@@ -37,6 +37,7 @@ from pathlib import Path
 import tag_connect as tc            # WEIGHTS, load, tagset, score, SPINE, TAGS
 import sermon_connect as sc         # recommend (sermon variant)
 import connections as conn          # reading_links / doctrine_links (interpretive layer)
+import series as series_mod         # native series detection (the founding thesis)
 
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
@@ -210,6 +211,8 @@ def main() -> None:
             sys.exit(f"no such occasion(s): {', '.join(sorted(missing))}")
 
     BUILD.mkdir(parents=True, exist_ok=True)
+    series_by_year = series_mod.build()              # native series (founding thesis)
+    membership = series_mod.membership(series_by_year)
     n_calls = 0
     index = []
     for occ in targets:
@@ -228,6 +231,7 @@ def main() -> None:
                          for r in first_track["readings"]],
             "hasCalls": bool(doc["calls"]),
             "hasTurn": bool(doc["turn"]),
+            "series": membership.get(doc["occasion"]["id"], []),
         })
         if to_stdout and len(targets) == 1:
             print(json.dumps(doc, indent=2, ensure_ascii=False))
@@ -239,6 +243,9 @@ def main() -> None:
     if not to_stdout and args == ["--all"]:
         (BUILD / "_index.json").write_text(
             json.dumps({"occasions": index}, indent=2, ensure_ascii=False),
+            encoding="utf-8")
+        (BUILD / "_series.json").write_text(
+            json.dumps(series_by_year, indent=2, ensure_ascii=False),
             encoding="utf-8")
     if not to_stdout:
         print(f"wrote {len(targets)} occasion file(s) to {BUILD}  "

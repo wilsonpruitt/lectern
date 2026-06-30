@@ -27,7 +27,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 8,
+          "prev": null,
+          "next": "second-sunday-of-advent-a"
+        },
+        {
+          "id": "a-gospel-matt-first-sunday-of-advent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "second-sunday-of-advent-a"
+        }
+      ]
     },
     {
       "id": "second-sunday-of-advent-a",
@@ -56,7 +78,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 8,
+          "prev": "first-sunday-of-advent-a",
+          "next": "third-sunday-of-advent-a"
+        },
+        {
+          "id": "a-gospel-matt-first-sunday-of-advent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 2,
+          "of": 4,
+          "prev": "first-sunday-of-advent-a",
+          "next": "third-sunday-of-advent-a"
+        }
+      ]
     },
     {
       "id": "third-sunday-of-advent-a",
@@ -85,7 +129,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 8,
+          "prev": "second-sunday-of-advent-a",
+          "next": "fourth-sunday-of-advent-a"
+        },
+        {
+          "id": "a-gospel-matt-first-sunday-of-advent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 3,
+          "of": 4,
+          "prev": "second-sunday-of-advent-a",
+          "next": "fourth-sunday-of-advent-a"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-of-advent-a",
@@ -114,7 +180,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 4,
+          "of": 8,
+          "prev": "third-sunday-of-advent-a",
+          "next": "nativity-of-the-lord-proper-i-a"
+        },
+        {
+          "id": "a-gospel-matt-first-sunday-of-advent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 4,
+          "of": 4,
+          "prev": "third-sunday-of-advent-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-i-a",
@@ -143,7 +231,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 5,
+          "of": 8,
+          "prev": "fourth-sunday-of-advent-a",
+          "next": "nativity-of-the-lord-proper-ii-a"
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-ii-a",
@@ -172,7 +272,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 6,
+          "of": 8,
+          "prev": "nativity-of-the-lord-proper-i-a",
+          "next": "nativity-of-the-lord-proper-iii-a"
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-iii-a",
@@ -201,7 +313,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 7,
+          "of": 8,
+          "prev": "nativity-of-the-lord-proper-ii-a",
+          "next": "first-sunday-after-christmas-day-a"
+        }
+      ]
     },
     {
       "id": "first-sunday-after-christmas-day-a",
@@ -230,7 +354,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-first-sunday-of-advent-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 8,
+          "of": 8,
+          "prev": "nativity-of-the-lord-proper-iii-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "holy-name-of-jesus-a",
@@ -259,7 +395,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "new-year-s-day-a",
@@ -288,7 +425,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-after-christmas-day-a",
@@ -317,7 +455,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "epiphany-of-the-lord-a",
@@ -346,7 +485,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-epiphany-of-the-lord-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "baptism-of-the-lord-a"
+        }
+      ]
     },
     {
       "id": "baptism-of-the-lord-a",
@@ -375,7 +526,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-epiphany-of-the-lord-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 4,
+          "prev": "epiphany-of-the-lord-a",
+          "next": "second-sunday-after-the-epiphany-a"
+        }
+      ]
     },
     {
       "id": "second-sunday-after-the-epiphany-a",
@@ -404,7 +567,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-epiphany-of-the-lord-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 4,
+          "prev": "baptism-of-the-lord-a",
+          "next": "third-sunday-after-the-epiphany-a"
+        },
+        {
+          "id": "a-second-1cor-second-sunday-after-the-epiphany-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "third-sunday-after-the-epiphany-a"
+        }
+      ]
     },
     {
       "id": "third-sunday-after-the-epiphany-a",
@@ -433,7 +618,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-epiphany-of-the-lord-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 4,
+          "of": 4,
+          "prev": "second-sunday-after-the-epiphany-a",
+          "next": null
+        },
+        {
+          "id": "a-second-1cor-second-sunday-after-the-epiphany-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 2,
+          "of": 3,
+          "prev": "second-sunday-after-the-epiphany-a",
+          "next": "fourth-sunday-after-the-epiphany-a"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-after-the-epiphany-a",
@@ -462,7 +669,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-second-1cor-second-sunday-after-the-epiphany-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 3,
+          "of": 3,
+          "prev": "third-sunday-after-the-epiphany-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "presentation-of-the-lord-a",
@@ -491,7 +710,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "fifth-sunday-after-the-epiphany-a",
@@ -520,7 +740,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-fifth-sunday-after-the-epiphany-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "transfiguration-sunday-a"
+        }
+      ]
     },
     {
       "id": "transfiguration-sunday-a",
@@ -549,7 +781,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-fifth-sunday-after-the-epiphany-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 2,
+          "of": 4,
+          "prev": "fifth-sunday-after-the-epiphany-a",
+          "next": "ash-wednesday-a"
+        }
+      ]
     },
     {
       "id": "ash-wednesday-a",
@@ -578,7 +822,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-fifth-sunday-after-the-epiphany-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 3,
+          "of": 4,
+          "prev": "transfiguration-sunday-a",
+          "next": "first-sunday-in-lent-a"
+        }
+      ]
     },
     {
       "id": "first-sunday-in-lent-a",
@@ -607,7 +863,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-fifth-sunday-after-the-epiphany-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 4,
+          "of": 4,
+          "prev": "ash-wednesday-a",
+          "next": null
+        },
+        {
+          "id": "a-second-rom-first-sunday-in-lent-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "second-sunday-in-lent-a"
+        }
+      ]
     },
     {
       "id": "second-sunday-in-lent-a",
@@ -636,7 +914,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-second-sunday-in-lent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "third-sunday-in-lent-a"
+        },
+        {
+          "id": "a-second-rom-first-sunday-in-lent-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 2,
+          "of": 3,
+          "prev": "first-sunday-in-lent-a",
+          "next": "third-sunday-in-lent-a"
+        }
+      ]
     },
     {
       "id": "third-sunday-in-lent-a",
@@ -665,7 +965,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-second-sunday-in-lent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 4,
+          "prev": "second-sunday-in-lent-a",
+          "next": "fourth-sunday-in-lent-a"
+        },
+        {
+          "id": "a-second-rom-first-sunday-in-lent-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 3,
+          "of": 3,
+          "prev": "second-sunday-in-lent-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "fourth-sunday-in-lent-a",
@@ -694,7 +1016,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-second-sunday-in-lent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 4,
+          "prev": "third-sunday-in-lent-a",
+          "next": "fifth-sunday-in-lent-a"
+        }
+      ]
     },
     {
       "id": "fifth-sunday-in-lent-a",
@@ -723,7 +1057,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-second-sunday-in-lent-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 4,
+          "of": 4,
+          "prev": "fourth-sunday-in-lent-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "annunciation-of-the-lord-a",
@@ -752,7 +1098,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "liturgy-of-the-palms-a",
@@ -773,7 +1120,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "liturgy-of-the-passion-a",
@@ -802,7 +1150,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-isa-liturgy-of-the-passion-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "monday-of-holy-week-a"
+        }
+      ]
     },
     {
       "id": "monday-of-holy-week-a",
@@ -831,7 +1191,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-monday-of-holy-week-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "tuesday-of-holy-week-a"
+        },
+        {
+          "id": "a-first-isa-liturgy-of-the-passion-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 4,
+          "prev": "liturgy-of-the-passion-a",
+          "next": "tuesday-of-holy-week-a"
+        }
+      ]
     },
     {
       "id": "tuesday-of-holy-week-a",
@@ -860,7 +1242,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-monday-of-holy-week-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 5,
+          "prev": "monday-of-holy-week-a",
+          "next": "wednesday-of-holy-week-a"
+        },
+        {
+          "id": "a-first-isa-liturgy-of-the-passion-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 4,
+          "prev": "monday-of-holy-week-a",
+          "next": "wednesday-of-holy-week-a"
+        }
+      ]
     },
     {
       "id": "wednesday-of-holy-week-a",
@@ -889,7 +1293,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-monday-of-holy-week-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 5,
+          "prev": "tuesday-of-holy-week-a",
+          "next": "maundy-thursday-a"
+        },
+        {
+          "id": "a-first-isa-liturgy-of-the-passion-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 4,
+          "of": 4,
+          "prev": "tuesday-of-holy-week-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "maundy-thursday-a",
@@ -918,7 +1344,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-monday-of-holy-week-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 4,
+          "of": 5,
+          "prev": "wednesday-of-holy-week-a",
+          "next": "good-friday-a"
+        }
+      ]
     },
     {
       "id": "good-friday-a",
@@ -947,7 +1385,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-john-monday-of-holy-week-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 5,
+          "of": 5,
+          "prev": "maundy-thursday-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "holy-saturday-a",
@@ -976,7 +1426,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "easter-vigil-a",
@@ -1073,7 +1524,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "resurrection-of-the-lord-a",
@@ -1102,7 +1554,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "easter-evening-a",
@@ -1131,7 +1584,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-of-easter-a",
@@ -1160,7 +1614,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 1,
+          "of": 8,
+          "prev": null,
+          "next": "third-sunday-of-easter-a"
+        },
+        {
+          "id": "a-second-1pet-second-sunday-of-easter-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Peter",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "third-sunday-of-easter-a"
+        }
+      ]
     },
     {
       "id": "third-sunday-of-easter-a",
@@ -1189,7 +1665,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 2,
+          "of": 8,
+          "prev": "second-sunday-of-easter-a",
+          "next": "fourth-sunday-of-easter-a"
+        },
+        {
+          "id": "a-second-1pet-second-sunday-of-easter-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Peter",
+          "week": 2,
+          "of": 5,
+          "prev": "second-sunday-of-easter-a",
+          "next": "fourth-sunday-of-easter-a"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-of-easter-a",
@@ -1218,7 +1716,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 3,
+          "of": 8,
+          "prev": "third-sunday-of-easter-a",
+          "next": "fifth-sunday-of-easter-a"
+        },
+        {
+          "id": "a-second-1pet-second-sunday-of-easter-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Peter",
+          "week": 3,
+          "of": 5,
+          "prev": "third-sunday-of-easter-a",
+          "next": "fifth-sunday-of-easter-a"
+        },
+        {
+          "id": "a-gospel-john-fourth-sunday-of-easter-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "fifth-sunday-of-easter-a"
+        }
+      ]
     },
     {
       "id": "fifth-sunday-of-easter-a",
@@ -1247,7 +1777,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 4,
+          "of": 8,
+          "prev": "fourth-sunday-of-easter-a",
+          "next": "sixth-sunday-of-easter-a"
+        },
+        {
+          "id": "a-second-1pet-second-sunday-of-easter-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Peter",
+          "week": 4,
+          "of": 5,
+          "prev": "fourth-sunday-of-easter-a",
+          "next": "sixth-sunday-of-easter-a"
+        },
+        {
+          "id": "a-gospel-john-fourth-sunday-of-easter-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 3,
+          "prev": "fourth-sunday-of-easter-a",
+          "next": "sixth-sunday-of-easter-a"
+        }
+      ]
     },
     {
       "id": "sixth-sunday-of-easter-a",
@@ -1276,7 +1838,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 5,
+          "of": 8,
+          "prev": "fifth-sunday-of-easter-a",
+          "next": "ascension-of-the-lord-a"
+        },
+        {
+          "id": "a-second-1pet-second-sunday-of-easter-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Peter",
+          "week": 5,
+          "of": 5,
+          "prev": "fifth-sunday-of-easter-a",
+          "next": null
+        },
+        {
+          "id": "a-gospel-john-fourth-sunday-of-easter-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 3,
+          "prev": "fifth-sunday-of-easter-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "ascension-of-the-lord-a",
@@ -1305,7 +1899,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 6,
+          "of": 8,
+          "prev": "sixth-sunday-of-easter-a",
+          "next": "seventh-sunday-of-easter-a"
+        }
+      ]
     },
     {
       "id": "seventh-sunday-of-easter-a",
@@ -1334,7 +1940,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 7,
+          "of": 8,
+          "prev": "ascension-of-the-lord-a",
+          "next": "day-of-pentecost-a"
+        }
+      ]
     },
     {
       "id": "day-of-pentecost-a",
@@ -1363,7 +1981,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-acts-second-sunday-of-easter-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 8,
+          "of": 8,
+          "prev": "seventh-sunday-of-easter-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "visitation-of-mary-to-elizabeth-a",
@@ -1392,7 +2022,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "trinity-sunday-a",
@@ -1421,7 +2052,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 1,
+          "of": 15,
+          "prev": null,
+          "next": "proper-5-10-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 1,
+          "of": 12,
+          "prev": null,
+          "next": "proper-5-10-a"
+        }
+      ]
     },
     {
       "id": "proper-5-10-a",
@@ -1451,7 +2104,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 2,
+          "of": 15,
+          "prev": "trinity-sunday-a",
+          "next": "proper-6-11-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 1,
+          "of": 14,
+          "prev": null,
+          "next": "proper-6-11-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 2,
+          "of": 12,
+          "prev": "trinity-sunday-a",
+          "next": "proper-6-11-a"
+        }
+      ]
     },
     {
       "id": "proper-6-11-a",
@@ -1481,7 +2166,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 3,
+          "of": 15,
+          "prev": "proper-5-10-a",
+          "next": "proper-7-12-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 2,
+          "of": 14,
+          "prev": "proper-5-10-a",
+          "next": "proper-7-12-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 3,
+          "of": 12,
+          "prev": "proper-5-10-a",
+          "next": "proper-7-12-a"
+        }
+      ]
     },
     {
       "id": "proper-7-12-a",
@@ -1511,7 +2228,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 4,
+          "of": 15,
+          "prev": "proper-6-11-a",
+          "next": "proper-8-13-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 3,
+          "of": 14,
+          "prev": "proper-6-11-a",
+          "next": "proper-8-13-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 4,
+          "of": 12,
+          "prev": "proper-6-11-a",
+          "next": "proper-8-13-a"
+        }
+      ]
     },
     {
       "id": "proper-8-13-a",
@@ -1541,7 +2290,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 5,
+          "of": 15,
+          "prev": "proper-7-12-a",
+          "next": "proper-9-14-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 4,
+          "of": 14,
+          "prev": "proper-7-12-a",
+          "next": "proper-9-14-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 5,
+          "of": 12,
+          "prev": "proper-7-12-a",
+          "next": "proper-9-14-a"
+        }
+      ]
     },
     {
       "id": "proper-9-14-a",
@@ -1571,7 +2352,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": true
+      "hasTurn": true,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 6,
+          "of": 15,
+          "prev": "proper-8-13-a",
+          "next": "proper-10-15-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 5,
+          "of": 14,
+          "prev": "proper-8-13-a",
+          "next": "proper-10-15-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 6,
+          "of": 12,
+          "prev": "proper-8-13-a",
+          "next": "proper-10-15-a"
+        }
+      ]
     },
     {
       "id": "proper-10-15-a",
@@ -1601,7 +2414,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": true
+      "hasTurn": true,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 7,
+          "of": 15,
+          "prev": "proper-9-14-a",
+          "next": "proper-11-16-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 6,
+          "of": 14,
+          "prev": "proper-9-14-a",
+          "next": "proper-11-16-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 7,
+          "of": 12,
+          "prev": "proper-9-14-a",
+          "next": "proper-11-16-a"
+        }
+      ]
     },
     {
       "id": "proper-11-16-a",
@@ -1631,7 +2476,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": true
+      "hasTurn": true,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 8,
+          "of": 15,
+          "prev": "proper-10-15-a",
+          "next": "proper-12-17-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 7,
+          "of": 14,
+          "prev": "proper-10-15-a",
+          "next": "proper-12-17-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 8,
+          "of": 12,
+          "prev": "proper-10-15-a",
+          "next": "proper-12-17-a"
+        }
+      ]
     },
     {
       "id": "proper-12-17-a",
@@ -1661,7 +2538,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": true
+      "hasTurn": true,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 9,
+          "of": 15,
+          "prev": "proper-11-16-a",
+          "next": "proper-13-18-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 8,
+          "of": 14,
+          "prev": "proper-11-16-a",
+          "next": "proper-13-18-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 9,
+          "of": 12,
+          "prev": "proper-11-16-a",
+          "next": "proper-13-18-a"
+        }
+      ]
     },
     {
       "id": "proper-13-18-a",
@@ -1691,7 +2600,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 10,
+          "of": 15,
+          "prev": "proper-12-17-a",
+          "next": "proper-14-19-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 9,
+          "of": 14,
+          "prev": "proper-12-17-a",
+          "next": "proper-14-19-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 10,
+          "of": 12,
+          "prev": "proper-12-17-a",
+          "next": "proper-14-19-a"
+        }
+      ]
     },
     {
       "id": "proper-14-19-a",
@@ -1721,7 +2662,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 11,
+          "of": 15,
+          "prev": "proper-13-18-a",
+          "next": "proper-15-20-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 10,
+          "of": 14,
+          "prev": "proper-13-18-a",
+          "next": "proper-15-20-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 11,
+          "of": 12,
+          "prev": "proper-13-18-a",
+          "next": "proper-15-20-a"
+        }
+      ]
     },
     {
       "id": "proper-15-20-a",
@@ -1751,7 +2724,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 12,
+          "of": 15,
+          "prev": "proper-14-19-a",
+          "next": "proper-16-21-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 11,
+          "of": 14,
+          "prev": "proper-14-19-a",
+          "next": "proper-16-21-a"
+        },
+        {
+          "id": "a-first-gen-trinity-sunday-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Genesis",
+          "week": 12,
+          "of": 12,
+          "prev": "proper-14-19-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-16-21-a",
@@ -1781,7 +2786,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 13,
+          "of": 15,
+          "prev": "proper-15-20-a",
+          "next": "proper-17-22-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 12,
+          "of": 14,
+          "prev": "proper-15-20-a",
+          "next": "proper-17-22-a"
+        },
+        {
+          "id": "a-first-exod-proper-16-21-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "proper-17-22-a"
+        }
+      ]
     },
     {
       "id": "proper-17-22-a",
@@ -1811,7 +2848,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 14,
+          "of": 15,
+          "prev": "proper-16-21-a",
+          "next": "proper-18-23-a"
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 13,
+          "of": 14,
+          "prev": "proper-16-21-a",
+          "next": "proper-18-23-a"
+        },
+        {
+          "id": "a-first-exod-proper-16-21-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 2,
+          "of": 3,
+          "prev": "proper-16-21-a",
+          "next": "proper-18-23-a"
+        }
+      ]
     },
     {
       "id": "proper-18-23-a",
@@ -1841,7 +2910,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-trinity-sunday-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 15,
+          "of": 15,
+          "prev": "proper-17-22-a",
+          "next": null
+        },
+        {
+          "id": "a-second-rom-proper-5-10-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 14,
+          "of": 14,
+          "prev": "proper-17-22-a",
+          "next": null
+        },
+        {
+          "id": "a-first-exod-proper-16-21-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 3,
+          "of": 3,
+          "prev": "proper-17-22-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "holy-cross-a",
@@ -1870,7 +2971,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-19-24-a",
@@ -1900,7 +3002,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-exod-proper-19-24-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "proper-20-25-a"
+        },
+        {
+          "id": "a-gospel-matt-proper-19-24-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "proper-20-25-a"
+        }
+      ]
     },
     {
       "id": "proper-20-25-a",
@@ -1930,7 +3054,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": true
+      "hasTurn": true,
+      "series": [
+        {
+          "id": "a-first-exod-proper-19-24-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 2,
+          "of": 5,
+          "prev": "proper-19-24-a",
+          "next": "proper-21-26-a"
+        },
+        {
+          "id": "a-gospel-matt-proper-19-24-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 2,
+          "of": 5,
+          "prev": "proper-19-24-a",
+          "next": "proper-21-26-a"
+        },
+        {
+          "id": "a-second-phil-proper-20-25-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Philippians",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "proper-21-26-a"
+        }
+      ]
     },
     {
       "id": "proper-21-26-a",
@@ -1960,7 +3116,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-exod-proper-19-24-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 3,
+          "of": 5,
+          "prev": "proper-20-25-a",
+          "next": "proper-22-27-a"
+        },
+        {
+          "id": "a-gospel-matt-proper-19-24-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 3,
+          "of": 5,
+          "prev": "proper-20-25-a",
+          "next": "proper-22-27-a"
+        },
+        {
+          "id": "a-second-phil-proper-20-25-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Philippians",
+          "week": 2,
+          "of": 4,
+          "prev": "proper-20-25-a",
+          "next": "proper-22-27-a"
+        }
+      ]
     },
     {
       "id": "proper-22-27-a",
@@ -1990,7 +3178,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-first-exod-proper-19-24-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 4,
+          "of": 5,
+          "prev": "proper-21-26-a",
+          "next": "proper-23-28-a"
+        },
+        {
+          "id": "a-gospel-matt-proper-19-24-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 4,
+          "of": 5,
+          "prev": "proper-21-26-a",
+          "next": "proper-23-28-a"
+        },
+        {
+          "id": "a-second-phil-proper-20-25-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Philippians",
+          "week": 3,
+          "of": 4,
+          "prev": "proper-21-26-a",
+          "next": "proper-23-28-a"
+        }
+      ]
     },
     {
       "id": "proper-23-28-a",
@@ -2020,7 +3240,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": true
+      "hasTurn": true,
+      "series": [
+        {
+          "id": "a-first-exod-proper-19-24-a",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Exodus",
+          "week": 5,
+          "of": 5,
+          "prev": "proper-22-27-a",
+          "next": null
+        },
+        {
+          "id": "a-gospel-matt-proper-19-24-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 5,
+          "of": 5,
+          "prev": "proper-22-27-a",
+          "next": null
+        },
+        {
+          "id": "a-second-phil-proper-20-25-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Philippians",
+          "week": 4,
+          "of": 4,
+          "prev": "proper-22-27-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "canadian-thanksgiving-day-a",
@@ -2049,7 +3301,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-24-29-a",
@@ -2079,7 +3332,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-proper-24-29-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 1,
+          "of": 7,
+          "prev": null,
+          "next": "proper-25-30-a"
+        }
+      ]
     },
     {
       "id": "proper-25-30-a",
@@ -2109,7 +3374,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-proper-24-29-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 2,
+          "of": 7,
+          "prev": "proper-24-29-a",
+          "next": "all-saints-day-a"
+        }
+      ]
     },
     {
       "id": "all-saints-day-a",
@@ -2138,7 +3415,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-proper-24-29-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 3,
+          "of": 7,
+          "prev": "proper-25-30-a",
+          "next": "proper-26-31-a"
+        }
+      ]
     },
     {
       "id": "proper-26-31-a",
@@ -2168,7 +3457,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-proper-24-29-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 4,
+          "of": 7,
+          "prev": "all-saints-day-a",
+          "next": "proper-27-32-a"
+        },
+        {
+          "id": "a-second-1thess-proper-26-31-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Thessalonians",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "proper-27-32-a"
+        }
+      ]
     },
     {
       "id": "proper-27-32-a",
@@ -2198,7 +3509,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-proper-24-29-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 5,
+          "of": 7,
+          "prev": "proper-26-31-a",
+          "next": "proper-28-33-a"
+        },
+        {
+          "id": "a-second-1thess-proper-26-31-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Thessalonians",
+          "week": 2,
+          "of": 3,
+          "prev": "proper-26-31-a",
+          "next": "proper-28-33-a"
+        }
+      ]
     },
     {
       "id": "proper-28-33-a",
@@ -2228,7 +3561,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-proper-24-29-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 6,
+          "of": 7,
+          "prev": "proper-27-32-a",
+          "next": "reign-of-christ-proper-29-34-a"
+        },
+        {
+          "id": "a-second-1thess-proper-26-31-a",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Thessalonians",
+          "week": 3,
+          "of": 3,
+          "prev": "proper-27-32-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "reign-of-christ-proper-29-34-a",
@@ -2258,7 +3613,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "a-gospel-matt-proper-24-29-a",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Matthew",
+          "week": 7,
+          "of": 7,
+          "prev": "proper-28-33-a",
+          "next": null
+        }
+      ]
     },
     {
       "id": "thanksgiving-day-usa-a",
@@ -2287,7 +3654,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "first-sunday-of-advent-b",
@@ -2316,7 +3684,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-first-sunday-of-advent-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "second-sunday-of-advent-b"
+        }
+      ]
     },
     {
       "id": "second-sunday-of-advent-b",
@@ -2345,7 +3725,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-first-sunday-of-advent-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 3,
+          "prev": "first-sunday-of-advent-b",
+          "next": "third-sunday-of-advent-b"
+        }
+      ]
     },
     {
       "id": "third-sunday-of-advent-b",
@@ -2374,7 +3766,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-first-sunday-of-advent-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 3,
+          "prev": "second-sunday-of-advent-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "fourth-sunday-of-advent-b",
@@ -2403,7 +3807,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-luke-fourth-sunday-of-advent-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "nativity-of-the-lord-proper-i-b"
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-i-b",
@@ -2432,7 +3848,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-nativity-of-the-lord-proper-i-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "nativity-of-the-lord-proper-ii-b"
+        },
+        {
+          "id": "b-gospel-luke-fourth-sunday-of-advent-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 2,
+          "of": 3,
+          "prev": "fourth-sunday-of-advent-b",
+          "next": "nativity-of-the-lord-proper-ii-b"
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-ii-b",
@@ -2461,7 +3899,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-nativity-of-the-lord-proper-i-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 4,
+          "prev": "nativity-of-the-lord-proper-i-b",
+          "next": "nativity-of-the-lord-proper-iii-b"
+        },
+        {
+          "id": "b-gospel-luke-fourth-sunday-of-advent-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 3,
+          "of": 3,
+          "prev": "nativity-of-the-lord-proper-i-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-iii-b",
@@ -2490,7 +3950,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-nativity-of-the-lord-proper-i-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 4,
+          "prev": "nativity-of-the-lord-proper-ii-b",
+          "next": "first-sunday-after-christmas-day-b"
+        }
+      ]
     },
     {
       "id": "first-sunday-after-christmas-day-b",
@@ -2519,7 +3991,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-nativity-of-the-lord-proper-i-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 4,
+          "of": 4,
+          "prev": "nativity-of-the-lord-proper-iii-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "holy-name-of-jesus-b",
@@ -2548,7 +4032,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "new-year-s-day-b",
@@ -2577,7 +4062,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-after-thechristmas-b",
@@ -2606,7 +4092,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "epiphany-of-the-lord-b",
@@ -2635,7 +4122,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "baptism-of-the-lord-b",
@@ -2664,7 +4152,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-after-the-epiphany-b",
@@ -2693,7 +4182,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-1cor-second-sunday-after-the-epiphany-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "third-sunday-after-the-epiphany-b"
+        }
+      ]
     },
     {
       "id": "third-sunday-after-the-epiphany-b",
@@ -2722,7 +4223,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-1cor-second-sunday-after-the-epiphany-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 2,
+          "of": 3,
+          "prev": "second-sunday-after-the-epiphany-b",
+          "next": "fourth-sunday-after-the-epiphany-b"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-after-the-epiphany-b",
@@ -2751,7 +4264,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-1cor-second-sunday-after-the-epiphany-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 3,
+          "of": 3,
+          "prev": "third-sunday-after-the-epiphany-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "presentation-of-the-lord-b",
@@ -2780,7 +4305,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "transfiguration-sunday-b",
@@ -2809,7 +4335,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "ash-wednesday-b",
@@ -2838,7 +4365,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "first-sunday-in-lent-b",
@@ -2867,7 +4395,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-in-lent-b",
@@ -2896,7 +4425,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "third-sunday-in-lent-b",
@@ -2925,7 +4455,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-john-third-sunday-in-lent-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "fourth-sunday-in-lent-b"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-in-lent-b",
@@ -2954,7 +4496,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-john-third-sunday-in-lent-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 3,
+          "prev": "third-sunday-in-lent-b",
+          "next": "fifth-sunday-in-lent-b"
+        }
+      ]
     },
     {
       "id": "fifth-sunday-in-lent-b",
@@ -2983,7 +4537,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-john-third-sunday-in-lent-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 3,
+          "prev": "fourth-sunday-in-lent-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "liturgy-of-the-palms-b",
@@ -3004,7 +4570,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "liturgy-of-the-passion-b",
@@ -3033,7 +4600,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-liturgy-of-the-passion-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "monday-of-holy-week-b"
+        }
+      ]
     },
     {
       "id": "monday-of-holy-week-b",
@@ -3062,7 +4641,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-liturgy-of-the-passion-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 4,
+          "prev": "liturgy-of-the-passion-b",
+          "next": "tuesday-of-holy-week-b"
+        },
+        {
+          "id": "b-gospel-john-monday-of-holy-week-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "tuesday-of-holy-week-b"
+        }
+      ]
     },
     {
       "id": "tuesday-of-holy-week-b",
@@ -3091,7 +4692,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-liturgy-of-the-passion-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 4,
+          "prev": "monday-of-holy-week-b",
+          "next": "wednesday-of-holy-week-b"
+        },
+        {
+          "id": "b-gospel-john-monday-of-holy-week-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 4,
+          "prev": "monday-of-holy-week-b",
+          "next": "wednesday-of-holy-week-b"
+        }
+      ]
     },
     {
       "id": "wednesday-of-holy-week-b",
@@ -3120,7 +4743,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-isa-liturgy-of-the-passion-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 4,
+          "of": 4,
+          "prev": "tuesday-of-holy-week-b",
+          "next": null
+        },
+        {
+          "id": "b-gospel-john-monday-of-holy-week-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 4,
+          "prev": "tuesday-of-holy-week-b",
+          "next": "maundy-thursday-b"
+        }
+      ]
     },
     {
       "id": "maundy-thursday-b",
@@ -3149,7 +4794,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-john-monday-of-holy-week-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 4,
+          "of": 4,
+          "prev": "wednesday-of-holy-week-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "annunciation-of-the-lord-b",
@@ -3178,7 +4835,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "good-friday-b",
@@ -3207,7 +4865,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "holy-saturday-b",
@@ -3236,7 +4895,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "easter-vigil-b",
@@ -3333,7 +4993,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "resurrection-of-the-lord-b",
@@ -3362,7 +5023,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "easter-evening-b",
@@ -3391,7 +5053,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-of-easter-b",
@@ -3420,7 +5083,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 1,
+          "of": 8,
+          "prev": null,
+          "next": "third-sunday-of-easter-b"
+        },
+        {
+          "id": "b-second-1john-second-sunday-of-easter-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 John",
+          "week": 1,
+          "of": 6,
+          "prev": null,
+          "next": "third-sunday-of-easter-b"
+        }
+      ]
     },
     {
       "id": "third-sunday-of-easter-b",
@@ -3449,7 +5134,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 2,
+          "of": 8,
+          "prev": "second-sunday-of-easter-b",
+          "next": "fourth-sunday-of-easter-b"
+        },
+        {
+          "id": "b-second-1john-second-sunday-of-easter-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 John",
+          "week": 2,
+          "of": 6,
+          "prev": "second-sunday-of-easter-b",
+          "next": "fourth-sunday-of-easter-b"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-of-easter-b",
@@ -3478,7 +5185,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 3,
+          "of": 8,
+          "prev": "third-sunday-of-easter-b",
+          "next": "fifth-sunday-of-easter-b"
+        },
+        {
+          "id": "b-second-1john-second-sunday-of-easter-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 John",
+          "week": 3,
+          "of": 6,
+          "prev": "third-sunday-of-easter-b",
+          "next": "fifth-sunday-of-easter-b"
+        },
+        {
+          "id": "b-gospel-john-fourth-sunday-of-easter-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "fifth-sunday-of-easter-b"
+        }
+      ]
     },
     {
       "id": "fifth-sunday-of-easter-b",
@@ -3507,7 +5246,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 4,
+          "of": 8,
+          "prev": "fourth-sunday-of-easter-b",
+          "next": "sixth-sunday-of-easter-b"
+        },
+        {
+          "id": "b-second-1john-second-sunday-of-easter-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 John",
+          "week": 4,
+          "of": 6,
+          "prev": "fourth-sunday-of-easter-b",
+          "next": "sixth-sunday-of-easter-b"
+        },
+        {
+          "id": "b-gospel-john-fourth-sunday-of-easter-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 4,
+          "prev": "fourth-sunday-of-easter-b",
+          "next": "sixth-sunday-of-easter-b"
+        }
+      ]
     },
     {
       "id": "sixth-sunday-of-easter-b",
@@ -3536,7 +5307,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 5,
+          "of": 8,
+          "prev": "fifth-sunday-of-easter-b",
+          "next": "seventh-sunday-of-easter-b"
+        },
+        {
+          "id": "b-second-1john-second-sunday-of-easter-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 John",
+          "week": 5,
+          "of": 6,
+          "prev": "fifth-sunday-of-easter-b",
+          "next": "seventh-sunday-of-easter-b"
+        },
+        {
+          "id": "b-gospel-john-fourth-sunday-of-easter-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 4,
+          "prev": "fifth-sunday-of-easter-b",
+          "next": "seventh-sunday-of-easter-b"
+        }
+      ]
     },
     {
       "id": "seventh-sunday-of-easter-b",
@@ -3565,7 +5368,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 6,
+          "of": 8,
+          "prev": "sixth-sunday-of-easter-b",
+          "next": "ascension-of-the-lord-b"
+        },
+        {
+          "id": "b-second-1john-second-sunday-of-easter-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 John",
+          "week": 6,
+          "of": 6,
+          "prev": "sixth-sunday-of-easter-b",
+          "next": null
+        },
+        {
+          "id": "b-gospel-john-fourth-sunday-of-easter-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 4,
+          "of": 4,
+          "prev": "sixth-sunday-of-easter-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "ascension-of-the-lord-b",
@@ -3594,7 +5429,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 7,
+          "of": 8,
+          "prev": "seventh-sunday-of-easter-b",
+          "next": "day-of-pentecost-b"
+        }
+      ]
     },
     {
       "id": "day-of-pentecost-b",
@@ -3623,7 +5470,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-acts-second-sunday-of-easter-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 8,
+          "of": 8,
+          "prev": "ascension-of-the-lord-b",
+          "next": null
+        },
+        {
+          "id": "b-second-rom-day-of-pentecost-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "trinity-sunday-b"
+        }
+      ]
     },
     {
       "id": "trinity-sunday-b",
@@ -3652,7 +5521,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-rom-day-of-pentecost-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 2,
+          "of": 3,
+          "prev": "day-of-pentecost-b",
+          "next": "visitation-of-mary-to-elizabeth-b"
+        }
+      ]
     },
     {
       "id": "visitation-of-mary-to-elizabeth-b",
@@ -3681,7 +5562,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-1sam-visitation-of-mary-to-elizabeth-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "1 Samuel",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "proper-4-9-b"
+        },
+        {
+          "id": "b-second-rom-day-of-pentecost-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Romans",
+          "week": 3,
+          "of": 3,
+          "prev": "trinity-sunday-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-4-9-b",
@@ -3711,7 +5614,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 1,
+          "of": 8,
+          "prev": null,
+          "next": "proper-5-10-b"
+        },
+        {
+          "id": "b-second-2cor-proper-4-9-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Corinthians",
+          "week": 1,
+          "of": 6,
+          "prev": null,
+          "next": "proper-5-10-b"
+        },
+        {
+          "id": "b-first-1sam-visitation-of-mary-to-elizabeth-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "1 Samuel",
+          "week": 2,
+          "of": 5,
+          "prev": "visitation-of-mary-to-elizabeth-b",
+          "next": "proper-5-10-b"
+        }
+      ]
     },
     {
       "id": "proper-5-10-b",
@@ -3741,7 +5676,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 2,
+          "of": 8,
+          "prev": "proper-4-9-b",
+          "next": "proper-6-11-b"
+        },
+        {
+          "id": "b-second-2cor-proper-4-9-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Corinthians",
+          "week": 2,
+          "of": 6,
+          "prev": "proper-4-9-b",
+          "next": "proper-6-11-b"
+        },
+        {
+          "id": "b-first-1sam-visitation-of-mary-to-elizabeth-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "1 Samuel",
+          "week": 3,
+          "of": 5,
+          "prev": "proper-4-9-b",
+          "next": "proper-6-11-b"
+        }
+      ]
     },
     {
       "id": "proper-6-11-b",
@@ -3771,7 +5738,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 3,
+          "of": 8,
+          "prev": "proper-5-10-b",
+          "next": "proper-7-12-b"
+        },
+        {
+          "id": "b-second-2cor-proper-4-9-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Corinthians",
+          "week": 3,
+          "of": 6,
+          "prev": "proper-5-10-b",
+          "next": "proper-7-12-b"
+        },
+        {
+          "id": "b-first-1sam-visitation-of-mary-to-elizabeth-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "1 Samuel",
+          "week": 4,
+          "of": 5,
+          "prev": "proper-5-10-b",
+          "next": "proper-7-12-b"
+        }
+      ]
     },
     {
       "id": "proper-7-12-b",
@@ -3801,7 +5800,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 4,
+          "of": 8,
+          "prev": "proper-6-11-b",
+          "next": "proper-8-13-b"
+        },
+        {
+          "id": "b-second-2cor-proper-4-9-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Corinthians",
+          "week": 4,
+          "of": 6,
+          "prev": "proper-6-11-b",
+          "next": "proper-8-13-b"
+        },
+        {
+          "id": "b-first-1sam-visitation-of-mary-to-elizabeth-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "1 Samuel",
+          "week": 5,
+          "of": 5,
+          "prev": "proper-6-11-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-8-13-b",
@@ -3831,7 +5862,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 5,
+          "of": 8,
+          "prev": "proper-7-12-b",
+          "next": "proper-9-14-b"
+        },
+        {
+          "id": "b-first-2sam-proper-8-13-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "2 Samuel",
+          "week": 1,
+          "of": 7,
+          "prev": null,
+          "next": "proper-9-14-b"
+        },
+        {
+          "id": "b-second-2cor-proper-4-9-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Corinthians",
+          "week": 5,
+          "of": 6,
+          "prev": "proper-7-12-b",
+          "next": "proper-9-14-b"
+        }
+      ]
     },
     {
       "id": "proper-9-14-b",
@@ -3861,7 +5924,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 6,
+          "of": 8,
+          "prev": "proper-8-13-b",
+          "next": "proper-10-15-b"
+        },
+        {
+          "id": "b-first-2sam-proper-8-13-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "2 Samuel",
+          "week": 2,
+          "of": 7,
+          "prev": "proper-8-13-b",
+          "next": "proper-10-15-b"
+        },
+        {
+          "id": "b-second-2cor-proper-4-9-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Corinthians",
+          "week": 6,
+          "of": 6,
+          "prev": "proper-8-13-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-10-15-b",
@@ -3891,7 +5986,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 7,
+          "of": 8,
+          "prev": "proper-9-14-b",
+          "next": "proper-11-16-b"
+        },
+        {
+          "id": "b-first-2sam-proper-8-13-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "2 Samuel",
+          "week": 3,
+          "of": 7,
+          "prev": "proper-9-14-b",
+          "next": "proper-11-16-b"
+        },
+        {
+          "id": "b-second-eph-proper-10-15-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Ephesians",
+          "week": 1,
+          "of": 7,
+          "prev": null,
+          "next": "proper-11-16-b"
+        }
+      ]
     },
     {
       "id": "proper-11-16-b",
@@ -3921,7 +6048,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-4-9-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 8,
+          "of": 8,
+          "prev": "proper-10-15-b",
+          "next": null
+        },
+        {
+          "id": "b-first-2sam-proper-8-13-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "2 Samuel",
+          "week": 4,
+          "of": 7,
+          "prev": "proper-10-15-b",
+          "next": "proper-12-17-b"
+        },
+        {
+          "id": "b-second-eph-proper-10-15-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Ephesians",
+          "week": 2,
+          "of": 7,
+          "prev": "proper-10-15-b",
+          "next": "proper-12-17-b"
+        }
+      ]
     },
     {
       "id": "proper-12-17-b",
@@ -3951,7 +6110,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-2sam-proper-8-13-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "2 Samuel",
+          "week": 5,
+          "of": 7,
+          "prev": "proper-11-16-b",
+          "next": "proper-13-18-b"
+        },
+        {
+          "id": "b-second-eph-proper-10-15-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Ephesians",
+          "week": 3,
+          "of": 7,
+          "prev": "proper-11-16-b",
+          "next": "proper-13-18-b"
+        },
+        {
+          "id": "b-gospel-john-proper-12-17-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "proper-13-18-b"
+        }
+      ]
     },
     {
       "id": "proper-13-18-b",
@@ -3981,7 +6172,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-2sam-proper-8-13-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "2 Samuel",
+          "week": 6,
+          "of": 7,
+          "prev": "proper-12-17-b",
+          "next": "proper-14-19-b"
+        },
+        {
+          "id": "b-second-eph-proper-10-15-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Ephesians",
+          "week": 4,
+          "of": 7,
+          "prev": "proper-12-17-b",
+          "next": "proper-14-19-b"
+        },
+        {
+          "id": "b-gospel-john-proper-12-17-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 5,
+          "prev": "proper-12-17-b",
+          "next": "proper-14-19-b"
+        }
+      ]
     },
     {
       "id": "proper-14-19-b",
@@ -4011,7 +6234,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-first-2sam-proper-8-13-b",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "2 Samuel",
+          "week": 7,
+          "of": 7,
+          "prev": "proper-13-18-b",
+          "next": null
+        },
+        {
+          "id": "b-second-eph-proper-10-15-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Ephesians",
+          "week": 5,
+          "of": 7,
+          "prev": "proper-13-18-b",
+          "next": "proper-15-20-b"
+        },
+        {
+          "id": "b-gospel-john-proper-12-17-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 5,
+          "prev": "proper-13-18-b",
+          "next": "proper-15-20-b"
+        }
+      ]
     },
     {
       "id": "proper-15-20-b",
@@ -4041,7 +6296,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-eph-proper-10-15-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Ephesians",
+          "week": 6,
+          "of": 7,
+          "prev": "proper-14-19-b",
+          "next": "proper-16-21-b"
+        },
+        {
+          "id": "b-gospel-john-proper-12-17-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 4,
+          "of": 5,
+          "prev": "proper-14-19-b",
+          "next": "proper-16-21-b"
+        }
+      ]
     },
     {
       "id": "proper-16-21-b",
@@ -4071,7 +6348,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-eph-proper-10-15-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Ephesians",
+          "week": 7,
+          "of": 7,
+          "prev": "proper-15-20-b",
+          "next": null
+        },
+        {
+          "id": "b-gospel-john-proper-12-17-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 5,
+          "of": 5,
+          "prev": "proper-15-20-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-17-22-b",
@@ -4101,7 +6400,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-18-23-b",
@@ -4131,7 +6431,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "holy-cross-b",
@@ -4160,7 +6461,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-19-24-b",
@@ -4190,7 +6492,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-19-24-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "proper-20-25-b"
+        },
+        {
+          "id": "b-second-jas-proper-19-24-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "James",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "proper-20-25-b"
+        }
+      ]
     },
     {
       "id": "proper-20-25-b",
@@ -4220,7 +6544,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-19-24-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 2,
+          "of": 5,
+          "prev": "proper-19-24-b",
+          "next": "proper-21-26-b"
+        },
+        {
+          "id": "b-second-jas-proper-19-24-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "James",
+          "week": 2,
+          "of": 3,
+          "prev": "proper-19-24-b",
+          "next": "proper-21-26-b"
+        }
+      ]
     },
     {
       "id": "proper-21-26-b",
@@ -4250,7 +6596,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-19-24-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 3,
+          "of": 5,
+          "prev": "proper-20-25-b",
+          "next": "proper-22-27-b"
+        },
+        {
+          "id": "b-second-jas-proper-19-24-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "James",
+          "week": 3,
+          "of": 3,
+          "prev": "proper-20-25-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-22-27-b",
@@ -4280,7 +6648,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-19-24-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 4,
+          "of": 5,
+          "prev": "proper-21-26-b",
+          "next": "proper-23-28-b"
+        }
+      ]
     },
     {
       "id": "proper-23-28-b",
@@ -4310,7 +6690,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-gospel-mark-proper-19-24-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 5,
+          "of": 5,
+          "prev": "proper-22-27-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "canadian-thanksgiving-day-b",
@@ -4339,7 +6731,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-24-29-b",
@@ -4369,7 +6762,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-heb-proper-24-29-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Hebrews",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "proper-25-30-b"
+        },
+        {
+          "id": "b-gospel-mark-proper-24-29-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "proper-25-30-b"
+        }
+      ]
     },
     {
       "id": "proper-25-30-b",
@@ -4399,7 +6814,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-heb-proper-24-29-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Hebrews",
+          "week": 2,
+          "of": 3,
+          "prev": "proper-24-29-b",
+          "next": "proper-26-31-b"
+        },
+        {
+          "id": "b-gospel-mark-proper-24-29-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 2,
+          "of": 3,
+          "prev": "proper-24-29-b",
+          "next": "proper-26-31-b"
+        }
+      ]
     },
     {
       "id": "proper-26-31-b",
@@ -4429,7 +6866,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "b-second-heb-proper-24-29-b",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Hebrews",
+          "week": 3,
+          "of": 3,
+          "prev": "proper-25-30-b",
+          "next": null
+        },
+        {
+          "id": "b-gospel-mark-proper-24-29-b",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Mark",
+          "week": 3,
+          "of": 3,
+          "prev": "proper-25-30-b",
+          "next": null
+        }
+      ]
     },
     {
       "id": "all-saints-day-b",
@@ -4458,7 +6917,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-27-32-b",
@@ -4488,7 +6948,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-28-33-b",
@@ -4518,7 +6979,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "reign-of-christ-proper-29-34-b",
@@ -4548,7 +7010,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "thanksgiving-day-usa-b",
@@ -4577,7 +7040,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "first-sunday-of-advent-c",
@@ -4606,7 +7070,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-of-advent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 1,
+          "of": 6,
+          "prev": null,
+          "next": "second-sunday-of-advent-c"
+        }
+      ]
     },
     {
       "id": "second-sunday-of-advent-c",
@@ -4635,7 +7111,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-of-advent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 2,
+          "of": 6,
+          "prev": "first-sunday-of-advent-c",
+          "next": "third-sunday-of-advent-c"
+        }
+      ]
     },
     {
       "id": "third-sunday-of-advent-c",
@@ -4664,7 +7152,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-of-advent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 3,
+          "of": 6,
+          "prev": "second-sunday-of-advent-c",
+          "next": "fourth-sunday-of-advent-c"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-of-advent-c",
@@ -4693,7 +7193,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-of-advent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 4,
+          "of": 6,
+          "prev": "third-sunday-of-advent-c",
+          "next": "nativity-of-the-lord-proper-i-c"
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-i-c",
@@ -4722,7 +7234,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-of-advent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 5,
+          "of": 6,
+          "prev": "fourth-sunday-of-advent-c",
+          "next": "nativity-of-the-lord-proper-ii-c"
+        },
+        {
+          "id": "c-first-isa-nativity-of-the-lord-proper-i-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "nativity-of-the-lord-proper-ii-c"
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-ii-c",
@@ -4751,7 +7285,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-of-advent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 6,
+          "of": 6,
+          "prev": "nativity-of-the-lord-proper-i-c",
+          "next": null
+        },
+        {
+          "id": "c-first-isa-nativity-of-the-lord-proper-i-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 3,
+          "prev": "nativity-of-the-lord-proper-i-c",
+          "next": "nativity-of-the-lord-proper-iii-c"
+        }
+      ]
     },
     {
       "id": "nativity-of-the-lord-proper-iii-c",
@@ -4780,7 +7336,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-isa-nativity-of-the-lord-proper-i-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 3,
+          "prev": "nativity-of-the-lord-proper-ii-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "first-sunday-after-christmas-day-c",
@@ -4809,7 +7377,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "holy-name-of-jesus-c",
@@ -4838,7 +7407,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "new-year-s-day-c",
@@ -4867,7 +7437,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-after-christmas-day-c",
@@ -4896,7 +7467,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "epiphany-of-the-lord-c",
@@ -4925,7 +7497,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-isa-epiphany-of-the-lord-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "baptism-of-the-lord-c"
+        }
+      ]
     },
     {
       "id": "baptism-of-the-lord-c",
@@ -4954,7 +7538,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-isa-epiphany-of-the-lord-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 3,
+          "prev": "epiphany-of-the-lord-c",
+          "next": "second-sunday-after-the-epiphany-c"
+        }
+      ]
     },
     {
       "id": "second-sunday-after-the-epiphany-c",
@@ -4983,7 +7579,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-isa-epiphany-of-the-lord-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 3,
+          "prev": "baptism-of-the-lord-c",
+          "next": null
+        },
+        {
+          "id": "c-second-1cor-second-sunday-after-the-epiphany-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "third-sunday-after-the-epiphany-c"
+        }
+      ]
     },
     {
       "id": "third-sunday-after-the-epiphany-c",
@@ -5012,7 +7630,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-third-sunday-after-the-epiphany-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 1,
+          "of": 7,
+          "prev": null,
+          "next": "fourth-sunday-after-the-epiphany-c"
+        },
+        {
+          "id": "c-second-1cor-second-sunday-after-the-epiphany-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 2,
+          "of": 3,
+          "prev": "second-sunday-after-the-epiphany-c",
+          "next": "fourth-sunday-after-the-epiphany-c"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-after-the-epiphany-c",
@@ -5041,7 +7681,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-third-sunday-after-the-epiphany-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 2,
+          "of": 7,
+          "prev": "third-sunday-after-the-epiphany-c",
+          "next": "presentation-of-the-lord-c"
+        },
+        {
+          "id": "c-second-1cor-second-sunday-after-the-epiphany-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 3,
+          "of": 3,
+          "prev": "third-sunday-after-the-epiphany-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "presentation-of-the-lord-c",
@@ -5070,7 +7732,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-third-sunday-after-the-epiphany-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 3,
+          "of": 7,
+          "prev": "fourth-sunday-after-the-epiphany-c",
+          "next": "fifth-sunday-after-the-epiphany-c"
+        }
+      ]
     },
     {
       "id": "fifth-sunday-after-the-epiphany-c",
@@ -5099,7 +7773,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-third-sunday-after-the-epiphany-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 4,
+          "of": 7,
+          "prev": "presentation-of-the-lord-c",
+          "next": "sixth-sunday-after-the-epiphany-c"
+        },
+        {
+          "id": "c-second-1cor-fifth-sunday-after-the-epiphany-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "sixth-sunday-after-the-epiphany-c"
+        }
+      ]
     },
     {
       "id": "sixth-sunday-after-the-epiphany-c",
@@ -5128,7 +7824,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-third-sunday-after-the-epiphany-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 5,
+          "of": 7,
+          "prev": "fifth-sunday-after-the-epiphany-c",
+          "next": "seventh-sunday-after-the-epiphany-c"
+        },
+        {
+          "id": "c-second-1cor-fifth-sunday-after-the-epiphany-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 2,
+          "of": 3,
+          "prev": "fifth-sunday-after-the-epiphany-c",
+          "next": "seventh-sunday-after-the-epiphany-c"
+        }
+      ]
     },
     {
       "id": "seventh-sunday-after-the-epiphany-c",
@@ -5157,7 +7875,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-third-sunday-after-the-epiphany-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 6,
+          "of": 7,
+          "prev": "sixth-sunday-after-the-epiphany-c",
+          "next": "transfiguration-sunday-c"
+        },
+        {
+          "id": "c-second-1cor-fifth-sunday-after-the-epiphany-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "1 Corinthians",
+          "week": 3,
+          "of": 3,
+          "prev": "sixth-sunday-after-the-epiphany-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "transfiguration-sunday-c",
@@ -5186,7 +7926,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-third-sunday-after-the-epiphany-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 7,
+          "of": 7,
+          "prev": "seventh-sunday-after-the-epiphany-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "ash-wednesday-c",
@@ -5215,7 +7967,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "first-sunday-in-lent-c",
@@ -5244,7 +7997,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-in-lent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "second-sunday-in-lent-c"
+        }
+      ]
     },
     {
       "id": "second-sunday-in-lent-c",
@@ -5273,7 +8038,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-in-lent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 2,
+          "of": 5,
+          "prev": "first-sunday-in-lent-c",
+          "next": "third-sunday-in-lent-c"
+        }
+      ]
     },
     {
       "id": "third-sunday-in-lent-c",
@@ -5302,7 +8079,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-in-lent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 3,
+          "of": 5,
+          "prev": "second-sunday-in-lent-c",
+          "next": "annunciation-of-the-lord-c"
+        }
+      ]
     },
     {
       "id": "annunciation-of-the-lord-c",
@@ -5331,7 +8120,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-in-lent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 4,
+          "of": 5,
+          "prev": "third-sunday-in-lent-c",
+          "next": "fourth-sunday-in-lent-c"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-in-lent-c",
@@ -5360,7 +8161,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-first-sunday-in-lent-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 5,
+          "of": 5,
+          "prev": "annunciation-of-the-lord-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "fifth-sunday-in-lent-c",
@@ -5389,7 +8202,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "liturgy-of-the-palms-c",
@@ -5410,7 +8224,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "liturgy-of-the-passion-c",
@@ -5439,7 +8254,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-isa-liturgy-of-the-passion-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "monday-of-holy-week-c"
+        }
+      ]
     },
     {
       "id": "monday-of-holy-week-c",
@@ -5468,7 +8295,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-monday-of-holy-week-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "tuesday-of-holy-week-c"
+        },
+        {
+          "id": "c-first-isa-liturgy-of-the-passion-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 2,
+          "of": 4,
+          "prev": "liturgy-of-the-passion-c",
+          "next": "tuesday-of-holy-week-c"
+        }
+      ]
     },
     {
       "id": "tuesday-of-holy-week-c",
@@ -5497,7 +8346,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-monday-of-holy-week-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 5,
+          "prev": "monday-of-holy-week-c",
+          "next": "wednesday-of-holy-week-c"
+        },
+        {
+          "id": "c-first-isa-liturgy-of-the-passion-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 3,
+          "of": 4,
+          "prev": "monday-of-holy-week-c",
+          "next": "wednesday-of-holy-week-c"
+        }
+      ]
     },
     {
       "id": "wednesday-of-holy-week-c",
@@ -5526,7 +8397,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-monday-of-holy-week-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 5,
+          "prev": "tuesday-of-holy-week-c",
+          "next": "maundy-thursday-c"
+        },
+        {
+          "id": "c-first-isa-liturgy-of-the-passion-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Isaiah",
+          "week": 4,
+          "of": 4,
+          "prev": "tuesday-of-holy-week-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "maundy-thursday-c",
@@ -5555,7 +8448,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-monday-of-holy-week-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 4,
+          "of": 5,
+          "prev": "wednesday-of-holy-week-c",
+          "next": "good-friday-c"
+        }
+      ]
     },
     {
       "id": "good-friday-c",
@@ -5584,7 +8489,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-monday-of-holy-week-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 5,
+          "of": 5,
+          "prev": "maundy-thursday-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "holy-saturday-c",
@@ -5613,7 +8530,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "easter-vigil-c",
@@ -5710,7 +8628,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "resurrection-of-the-lord-c",
@@ -5739,7 +8658,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "easter-evening-c",
@@ -5768,7 +8688,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "second-sunday-of-easter-c",
@@ -5797,7 +8718,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-acts-second-sunday-of-easter-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 1,
+          "of": 6,
+          "prev": null,
+          "next": "third-sunday-of-easter-c"
+        },
+        {
+          "id": "c-second-rev-second-sunday-of-easter-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Revelation",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "third-sunday-of-easter-c"
+        },
+        {
+          "id": "c-gospel-john-second-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 5,
+          "prev": null,
+          "next": "third-sunday-of-easter-c"
+        }
+      ]
     },
     {
       "id": "third-sunday-of-easter-c",
@@ -5826,7 +8779,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-acts-second-sunday-of-easter-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 2,
+          "of": 6,
+          "prev": "second-sunday-of-easter-c",
+          "next": "fourth-sunday-of-easter-c"
+        },
+        {
+          "id": "c-second-rev-second-sunday-of-easter-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Revelation",
+          "week": 2,
+          "of": 5,
+          "prev": "second-sunday-of-easter-c",
+          "next": "fourth-sunday-of-easter-c"
+        },
+        {
+          "id": "c-gospel-john-second-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 5,
+          "prev": "second-sunday-of-easter-c",
+          "next": "fourth-sunday-of-easter-c"
+        }
+      ]
     },
     {
       "id": "fourth-sunday-of-easter-c",
@@ -5855,7 +8840,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-acts-second-sunday-of-easter-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 3,
+          "of": 6,
+          "prev": "third-sunday-of-easter-c",
+          "next": "fifth-sunday-of-easter-c"
+        },
+        {
+          "id": "c-second-rev-second-sunday-of-easter-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Revelation",
+          "week": 3,
+          "of": 5,
+          "prev": "third-sunday-of-easter-c",
+          "next": "fifth-sunday-of-easter-c"
+        },
+        {
+          "id": "c-gospel-john-second-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 5,
+          "prev": "third-sunday-of-easter-c",
+          "next": "fifth-sunday-of-easter-c"
+        }
+      ]
     },
     {
       "id": "fifth-sunday-of-easter-c",
@@ -5884,7 +8901,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-acts-second-sunday-of-easter-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 4,
+          "of": 6,
+          "prev": "fourth-sunday-of-easter-c",
+          "next": "sixth-sunday-of-easter-c"
+        },
+        {
+          "id": "c-second-rev-second-sunday-of-easter-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Revelation",
+          "week": 4,
+          "of": 5,
+          "prev": "fourth-sunday-of-easter-c",
+          "next": "sixth-sunday-of-easter-c"
+        },
+        {
+          "id": "c-gospel-john-second-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 4,
+          "of": 5,
+          "prev": "fourth-sunday-of-easter-c",
+          "next": "sixth-sunday-of-easter-c"
+        }
+      ]
     },
     {
       "id": "sixth-sunday-of-easter-c",
@@ -5913,7 +8962,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-acts-second-sunday-of-easter-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 5,
+          "of": 6,
+          "prev": "fifth-sunday-of-easter-c",
+          "next": "ascension-of-the-lord-c"
+        },
+        {
+          "id": "c-second-rev-second-sunday-of-easter-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Revelation",
+          "week": 5,
+          "of": 5,
+          "prev": "fifth-sunday-of-easter-c",
+          "next": null
+        },
+        {
+          "id": "c-gospel-john-second-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 5,
+          "of": 5,
+          "prev": "fifth-sunday-of-easter-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "ascension-of-the-lord-c",
@@ -5942,7 +9023,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-first-acts-second-sunday-of-easter-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Acts",
+          "week": 6,
+          "of": 6,
+          "prev": "sixth-sunday-of-easter-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "visitation-of-mary-to-elizabeth-c",
@@ -5971,7 +9064,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "seventh-sunday-of-easter-c",
@@ -6000,7 +9094,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-seventh-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "day-of-pentecost-c"
+        }
+      ]
     },
     {
       "id": "day-of-pentecost-c",
@@ -6029,7 +9135,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-seventh-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 2,
+          "of": 3,
+          "prev": "seventh-sunday-of-easter-c",
+          "next": "trinity-sunday-c"
+        }
+      ]
     },
     {
       "id": "trinity-sunday-c",
@@ -6058,7 +9176,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-john-seventh-sunday-of-easter-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "John",
+          "week": 3,
+          "of": 3,
+          "prev": "day-of-pentecost-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-7-12-c",
@@ -6088,7 +9218,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 1,
+          "of": 13,
+          "prev": null,
+          "next": "proper-8-13-c"
+        },
+        {
+          "id": "c-second-gal-proper-7-12-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Galatians",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "proper-8-13-c"
+        }
+      ]
     },
     {
       "id": "proper-8-13-c",
@@ -6118,7 +9270,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 2,
+          "of": 13,
+          "prev": "proper-7-12-c",
+          "next": "proper-9-14-c"
+        },
+        {
+          "id": "c-second-gal-proper-7-12-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Galatians",
+          "week": 2,
+          "of": 3,
+          "prev": "proper-7-12-c",
+          "next": "proper-9-14-c"
+        }
+      ]
     },
     {
       "id": "proper-9-14-c",
@@ -6148,7 +9322,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 3,
+          "of": 13,
+          "prev": "proper-8-13-c",
+          "next": "proper-10-15-c"
+        },
+        {
+          "id": "c-second-gal-proper-7-12-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Galatians",
+          "week": 3,
+          "of": 3,
+          "prev": "proper-8-13-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-10-15-c",
@@ -6178,7 +9374,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 4,
+          "of": 13,
+          "prev": "proper-9-14-c",
+          "next": "proper-11-16-c"
+        },
+        {
+          "id": "c-second-col-proper-10-15-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Colossians",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "proper-11-16-c"
+        }
+      ]
     },
     {
       "id": "proper-11-16-c",
@@ -6208,7 +9426,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 5,
+          "of": 13,
+          "prev": "proper-10-15-c",
+          "next": "proper-12-17-c"
+        },
+        {
+          "id": "c-second-col-proper-10-15-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Colossians",
+          "week": 2,
+          "of": 4,
+          "prev": "proper-10-15-c",
+          "next": "proper-12-17-c"
+        }
+      ]
     },
     {
       "id": "proper-12-17-c",
@@ -6238,7 +9478,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 6,
+          "of": 13,
+          "prev": "proper-11-16-c",
+          "next": "proper-13-18-c"
+        },
+        {
+          "id": "c-second-col-proper-10-15-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Colossians",
+          "week": 3,
+          "of": 4,
+          "prev": "proper-11-16-c",
+          "next": "proper-13-18-c"
+        }
+      ]
     },
     {
       "id": "proper-13-18-c",
@@ -6268,7 +9530,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 7,
+          "of": 13,
+          "prev": "proper-12-17-c",
+          "next": "proper-14-19-c"
+        },
+        {
+          "id": "c-second-col-proper-10-15-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Colossians",
+          "week": 4,
+          "of": 4,
+          "prev": "proper-12-17-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-14-19-c",
@@ -6298,7 +9582,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 8,
+          "of": 13,
+          "prev": "proper-13-18-c",
+          "next": "proper-15-20-c"
+        },
+        {
+          "id": "c-second-heb-proper-14-19-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Hebrews",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "proper-15-20-c"
+        }
+      ]
     },
     {
       "id": "proper-15-20-c",
@@ -6328,7 +9634,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 9,
+          "of": 13,
+          "prev": "proper-14-19-c",
+          "next": "proper-16-21-c"
+        },
+        {
+          "id": "c-second-heb-proper-14-19-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Hebrews",
+          "week": 2,
+          "of": 4,
+          "prev": "proper-14-19-c",
+          "next": "proper-16-21-c"
+        }
+      ]
     },
     {
       "id": "proper-16-21-c",
@@ -6358,7 +9686,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 10,
+          "of": 13,
+          "prev": "proper-15-20-c",
+          "next": "proper-17-22-c"
+        },
+        {
+          "id": "c-first-jer-proper-16-21-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Jeremiah",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "proper-17-22-c"
+        },
+        {
+          "id": "c-second-heb-proper-14-19-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Hebrews",
+          "week": 3,
+          "of": 4,
+          "prev": "proper-15-20-c",
+          "next": "proper-17-22-c"
+        }
+      ]
     },
     {
       "id": "proper-17-22-c",
@@ -6388,7 +9748,39 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 11,
+          "of": 13,
+          "prev": "proper-16-21-c",
+          "next": "proper-18-23-c"
+        },
+        {
+          "id": "c-first-jer-proper-16-21-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Jeremiah",
+          "week": 2,
+          "of": 4,
+          "prev": "proper-16-21-c",
+          "next": "proper-18-23-c"
+        },
+        {
+          "id": "c-second-heb-proper-14-19-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "Hebrews",
+          "week": 4,
+          "of": 4,
+          "prev": "proper-16-21-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "proper-18-23-c",
@@ -6418,7 +9810,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 12,
+          "of": 13,
+          "prev": "proper-17-22-c",
+          "next": "proper-19-24-c"
+        },
+        {
+          "id": "c-first-jer-proper-16-21-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Jeremiah",
+          "week": 3,
+          "of": 4,
+          "prev": "proper-17-22-c",
+          "next": "proper-19-24-c"
+        }
+      ]
     },
     {
       "id": "proper-19-24-c",
@@ -6448,7 +9862,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-7-12-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 13,
+          "of": 13,
+          "prev": "proper-18-23-c",
+          "next": null
+        },
+        {
+          "id": "c-first-jer-proper-16-21-c",
+          "role": "first",
+          "roleLabel": "First reading",
+          "book": "Jeremiah",
+          "week": 4,
+          "of": 4,
+          "prev": "proper-18-23-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "holy-cross-c",
@@ -6477,7 +9913,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-20-25-c",
@@ -6507,7 +9944,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-20-25-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 1,
+          "of": 4,
+          "prev": null,
+          "next": "proper-21-26-c"
+        }
+      ]
     },
     {
       "id": "proper-21-26-c",
@@ -6537,7 +9986,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-20-25-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 2,
+          "of": 4,
+          "prev": "proper-20-25-c",
+          "next": "proper-22-27-c"
+        }
+      ]
     },
     {
       "id": "proper-22-27-c",
@@ -6567,7 +10028,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-20-25-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 3,
+          "of": 4,
+          "prev": "proper-21-26-c",
+          "next": "proper-23-28-c"
+        }
+      ]
     },
     {
       "id": "proper-23-28-c",
@@ -6597,7 +10070,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-20-25-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 4,
+          "of": 4,
+          "prev": "proper-22-27-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "canadian-thanksgiving-day-c",
@@ -6626,7 +10111,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     },
     {
       "id": "proper-24-29-c",
@@ -6656,7 +10142,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-24-29-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 1,
+          "of": 7,
+          "prev": null,
+          "next": "proper-25-30-c"
+        }
+      ]
     },
     {
       "id": "proper-25-30-c",
@@ -6686,7 +10184,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-24-29-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 2,
+          "of": 7,
+          "prev": "proper-24-29-c",
+          "next": "all-saints-day-c"
+        }
+      ]
     },
     {
       "id": "all-saints-day-c",
@@ -6715,7 +10225,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-24-29-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 3,
+          "of": 7,
+          "prev": "proper-25-30-c",
+          "next": "proper-26-31-c"
+        }
+      ]
     },
     {
       "id": "proper-26-31-c",
@@ -6745,7 +10267,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-24-29-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 4,
+          "of": 7,
+          "prev": "all-saints-day-c",
+          "next": "proper-27-32-c"
+        },
+        {
+          "id": "c-second-2thess-proper-26-31-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Thessalonians",
+          "week": 1,
+          "of": 3,
+          "prev": null,
+          "next": "proper-27-32-c"
+        }
+      ]
     },
     {
       "id": "proper-27-32-c",
@@ -6775,7 +10319,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-24-29-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 5,
+          "of": 7,
+          "prev": "proper-26-31-c",
+          "next": "proper-28-33-c"
+        },
+        {
+          "id": "c-second-2thess-proper-26-31-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Thessalonians",
+          "week": 2,
+          "of": 3,
+          "prev": "proper-26-31-c",
+          "next": "proper-28-33-c"
+        }
+      ]
     },
     {
       "id": "proper-28-33-c",
@@ -6805,7 +10371,29 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-24-29-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 6,
+          "of": 7,
+          "prev": "proper-27-32-c",
+          "next": "reign-of-christ-proper-29-34-c"
+        },
+        {
+          "id": "c-second-2thess-proper-26-31-c",
+          "role": "second",
+          "roleLabel": "Epistle",
+          "book": "2 Thessalonians",
+          "week": 3,
+          "of": 3,
+          "prev": "proper-27-32-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "reign-of-christ-proper-29-34-c",
@@ -6835,7 +10423,19 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": [
+        {
+          "id": "c-gospel-luke-proper-24-29-c",
+          "role": "gospel",
+          "roleLabel": "Gospel",
+          "book": "Luke",
+          "week": 7,
+          "of": 7,
+          "prev": "proper-28-33-c",
+          "next": null
+        }
+      ]
     },
     {
       "id": "thanksgiving-day-usa-c",
@@ -6864,7 +10464,8 @@
         }
       ],
       "hasCalls": true,
-      "hasTurn": false
+      "hasTurn": false,
+      "series": []
     }
   ]
 }

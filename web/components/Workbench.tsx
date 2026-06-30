@@ -2,7 +2,13 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { Occasion, Track, Lenses as LensesData, Turn as TurnData } from "@/lib/data";
+import type {
+  Occasion,
+  Track,
+  Lenses as LensesData,
+  Turn as TurnData,
+  SeriesMembership,
+} from "@/lib/data";
 
 type TabKey = "sermons" | "hymns" | "calls" | "turn" | "lenses";
 
@@ -305,16 +311,48 @@ function Soon({ title, desc }: { title: string; desc: string }) {
   );
 }
 
+function SeriesStrip({ series, year }: { series: SeriesMembership[]; year: string }) {
+  if (!series.length) return null;
+  return (
+    <div className="series-strip">
+      <span className="series-strip-lbl">Series</span>
+      {series.map((m) => (
+        <span className="series-tag" key={m.id}>
+          {m.prev ? (
+            <Link className="step" href={`/${m.prev}/`} aria-label="previous in series">
+              ‹
+            </Link>
+          ) : (
+            <span className="step off">‹</span>
+          )}
+          <Link className="series-tag-main" href={`/series/${year.toLowerCase()}/`}>
+            {m.book} <span className="wk">{m.week}/{m.of}</span>
+          </Link>
+          {m.next ? (
+            <Link className="step" href={`/${m.next}/`} aria-label="next in series">
+              ›
+            </Link>
+          ) : (
+            <span className="step off">›</span>
+          )}
+        </span>
+      ))}
+    </div>
+  );
+}
+
 export default function Workbench({
   occ,
   yearHref,
   prevId,
   nextId,
+  series = [],
 }: {
   occ: Occasion;
   yearHref: string;
   prevId: string | null;
   nextId: string | null;
+  series?: SeriesMembership[];
 }) {
   const trackKeys = Object.keys(occ.tracks);
   const dual = trackKeys.length > 1;
@@ -383,6 +421,8 @@ export default function Workbench({
           </Link>
         </div>
       </header>
+
+      <SeriesStrip series={series} year={o.year} />
 
       <div className="workbench">
         <aside className="rail">

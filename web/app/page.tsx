@@ -95,11 +95,19 @@ export default function Home() {
         <span className="eyebrow">Browse the church year</span>
         <div className="yearpick">
           {YEARS.map((y) => (
-            <Link className="yearcard" href={`/year/${y.toLowerCase()}/`} key={y}>
-              <div className="yr">Year {y}</div>
-              <div className="lede">{YEAR_LEDE[y]}</div>
-              <div className="count">{counts[y]} occasions →</div>
-            </Link>
+            <div className="yearcard" key={y}>
+              <Link href={`/year/${y.toLowerCase()}/`}>
+                <div className="yr">Year {y}</div>
+                <div className="lede">{YEAR_LEDE[y]}</div>
+              </Link>
+              <div className="count">
+                <Link href={`/year/${y.toLowerCase()}/`}>{counts[y]} occasions</Link>
+                {" · "}
+                <Link href={`/series/${y.toLowerCase()}/`} className="yearcard-series">
+                  as series →
+                </Link>
+              </div>
+            </div>
           ))}
         </div>
       </section>

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Workbench from "@/components/Workbench";
-import { allOccasions, getOccasion, neighbors } from "@/lib/data";
+import { allOccasions, getOccasion, neighbors, indexEntry } from "@/lib/data";
 
 export function generateStaticParams() {
   return allOccasions().map((o) => ({ occasion: o.occasion.id }));
@@ -17,6 +17,7 @@ export default async function OccasionPage({
   const occ = getOccasion(occasion);
   if (!occ) notFound();
   const { prev, next } = neighbors(occasion);
+  const series = indexEntry(occasion)?.series ?? [];
   return (
     <div className="wrap">
       <Workbench
@@ -24,6 +25,7 @@ export default async function OccasionPage({
         yearHref={`/year/${occ.occasion.year.toLowerCase()}/`}
         prevId={prev}
         nextId={next}
+        series={series}
       />
       <div className="footer">
         Lectern · a Wroot Press workbench. Sermon &amp; hymn recommendations connect by
