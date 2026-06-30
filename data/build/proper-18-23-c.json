@@ -272,7 +272,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/philemon"
+                "url": "https://catena.wrootpress.com/philemon#p-1.1"
               },
               {
                 "resource": "Annales",
@@ -291,7 +291,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/luke"
+                "url": "https://catena.wrootpress.com/luke#p-14.5"
               },
               {
                 "resource": "Annales",
@@ -305,10 +305,10 @@
         "doctrine": [
           {
             "title": "Articles of Religion",
-            "article": "Art. XXIV, Christian Men's Goods",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
             "themes": [
-              "wealth-and-possessions"
+              "repentance"
             ]
           },
           {
@@ -317,6 +317,30 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
+            "themes": [
+              "wealth-and-possessions"
             ]
           },
           {
@@ -337,38 +361,6 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
             "article": "the forgiveness of sins",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
             "themes": [
@@ -381,14 +373,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
-            "themes": [
-              "repentance"
             ]
           },
           {
@@ -414,6 +398,22 @@
             "themes": [
               "church-and-unity"
             ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
           }
         ],
         "social": [
@@ -431,22 +431,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
             "themes": [
               "wealth-and-possessions"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Stewardship of Creation",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Global Warming & Climate Change",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
-            "themes": [
-              "creation"
             ]
           },
           {
@@ -487,6 +471,22 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
             ]
           }
         ]
@@ -751,7 +751,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/philemon"
+                "url": "https://catena.wrootpress.com/philemon#p-1.1"
               },
               {
                 "resource": "Annales",
@@ -770,7 +770,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/luke"
+                "url": "https://catena.wrootpress.com/luke#p-14.5"
               },
               {
                 "resource": "Annales",
@@ -783,11 +783,28 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XXIV, Christian Men's Goods",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
+            "title": "General Rules",
+            "article": "the slaveholding clause",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
             "themes": [
-              "wealth-and-possessions"
+              "justice"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "justice",
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
             ]
           },
           {
@@ -800,11 +817,11 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Articles of Religion",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
             "themes": [
-              "call-and-discipleship"
+              "wealth-and-possessions"
             ]
           },
           {
@@ -824,28 +841,11 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
-            "themes": [
-              "justice",
-              "law-and-commandment"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
             "article": "the forgiveness of sins",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
             "themes": [
               "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the slaveholding clause",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
-            "themes": [
-              "justice"
             ]
           },
           {
@@ -875,6 +875,14 @@
         ],
         "social": [
           {
+            "community": "The Political Community",
+            "topic": "Basic Rights & Freedoms",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
+            "themes": [
+              "justice"
+            ]
+          },
+          {
             "community": "The Economic Community",
             "topic": "Poverty & Income Inequality",
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
@@ -884,19 +892,19 @@
             ]
           },
           {
-            "community": "The Economic Community",
-            "topic": "Responsible Consumerism",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
-            "themes": [
-              "wealth-and-possessions"
-            ]
-          },
-          {
             "community": "The Political Community",
             "topic": "Civil Disobedience",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
             "themes": [
               "law-and-commandment"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Responsible Consumerism",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
+            "themes": [
+              "wealth-and-possessions"
             ]
           },
           {
@@ -913,14 +921,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Basic Rights & Freedoms",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
-            "themes": [
-              "justice"
             ]
           },
           {

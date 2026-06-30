@@ -279,7 +279,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/revelation"
+                "url": "https://catena.wrootpress.com/revelation#p-21.1"
               }
             ]
           },
@@ -292,7 +292,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/matthew"
+                "url": "https://catena.wrootpress.com/matthew#p-25.3"
               },
               {
                 "resource": "Annales",
@@ -305,36 +305,19 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise",
-              "last-things"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the resurrection of the body",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
             "title": "Nicene Creed",
-            "article": "on the third day he rose",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
             "themes": [
-              "resurrection-and-life"
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
             ]
           },
           {
@@ -354,27 +337,12 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
+              "hope-and-promise",
+              "last-things"
             ]
           },
           {
@@ -388,22 +356,46 @@
           },
           {
             "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "General Rules",
             "article": "doing good to bodies and souls",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "love-of-neighbor"
             ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
           }
         ],
         "social": [
-          {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
           {
             "community": "Community of All Creation",
             "topic": "Stewardship of Creation",
@@ -421,11 +413,11 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
-              "providence-and-care"
+              "prayer-and-worship"
             ]
           },
           {
@@ -442,6 +434,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]

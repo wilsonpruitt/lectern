@@ -263,7 +263,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/acts"
+                "url": "https://catena.wrootpress.com/acts#p-2.1"
               },
               {
                 "resource": "Topographia",
@@ -301,7 +301,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/1-corinthians"
+                "url": "https://catena.wrootpress.com/1-corinthians#p-12.1"
               },
               {
                 "resource": "Annales",
@@ -320,7 +320,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/john"
+                "url": "https://catena.wrootpress.com/john#p-20.5"
               },
               {
                 "resource": "Annales",
@@ -333,11 +333,19 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "title": "Articles of Religion",
+            "article": "Art. XVII, Baptism",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
             "themes": [
-              "mission-and-witness"
+              "baptism"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one baptism for the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
+            "themes": [
+              "baptism"
             ]
           },
           {
@@ -358,6 +366,30 @@
           },
           {
             "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "last-things"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "last-things"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
             "article": "the resurrection of the body",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
             "themes": [
@@ -373,67 +405,11 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XVII, Baptism",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
-            "themes": [
-              "baptism"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "one baptism for the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
-            "themes": [
-              "baptism"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
             "article": "the Father almighty",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "last-things"
             ]
           },
           {
@@ -451,25 +427,33 @@
             "themes": [
               "church-and-unity"
             ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
           }
         ],
         "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Stewardship of Creation",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Global Warming & Climate Change",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
-            "themes": [
-              "creation"
-            ]
-          },
           {
             "community": "The Political Community",
             "topic": "Restorative Justice",
@@ -500,6 +484,22 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "thanksgiving"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
             ]
           }
         ]

@@ -15,12 +15,42 @@ Two kinds of connection:
     confession documents (the theological-application surface).
 """
 from __future__ import annotations
+import json
+import re
 import sys
 from pathlib import Path
 
 RECEPTION_SRC = Path.home() / "reception-corpus" / "src"
 sys.path.insert(0, str(RECEPTION_SRC))
 import osis  # noqa: E402  (parse_refkey -> {book, chapter, ...})
+
+# Catena's reader supports a documented deep-link: /<book>#p-<pericope-id> scrolls
+# to and flags that pericope. We resolve the day's reading to its pericope id by
+# matching against ~/catena/data/<slug>.json (loaded lazily, build-time only).
+_CATENA_DATA = Path.home() / "catena" / "data"
+_catena_cache: dict = {}
+
+
+def _catena_pericope_id(slug, chapter, v1, v2):
+    if slug not in _catena_cache:
+        f = _CATENA_DATA / f"{slug}.json"
+        _catena_cache[slug] = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+    book = _catena_cache[slug]
+    if not book:
+        return None
+    fallback = None
+    for per in book.get("pericopes", []):
+        if per.get("ch") != chapter:
+            continue
+        m = re.match(r"\d+:(\d+)(?:-(\d+))?", per.get("ref", ""))
+        if not m:
+            fallback = fallback or per.get("id")
+            continue
+        pv1 = int(m.group(1))
+        pv2 = int(m.group(2)) if m.group(2) else pv1
+        if pv1 <= v2 and v1 <= pv2:          # verse-range overlap
+            return per.get("id")
+    return fallback
 
 CATENA = "https://catena.wrootpress.com"
 TOPO = "https://topographia.wrootpress.com"
@@ -62,11 +92,14 @@ def reading_links(refkey: str) -> list[dict]:
     ch = p.get("chapter") or 0
     out: list[dict] = []
 
-    # Catena — reception history (how the church read it)
+    # Catena — reception history (how the church read it); deep-link to the pericope
     slug = CATENA_NT_SLUG.get(book)
     if slug:
+        pid = _catena_pericope_id(slug, ch, p["v_start"],
+                                  p.get("v_end_true") or p["v_start"]) if ch else None
+        url = f"{CATENA}/{slug}#p-{pid}" if pid else f"{CATENA}/{slug}"
         out.append({"resource": "Catena", "kind": "reception",
-                    "label": "Fathers & echoes", "url": f"{CATENA}/{slug}"})
+                    "label": "Fathers & echoes", "url": url})
     else:
         out.append({"resource": "Catena", "kind": "reception",
                     "label": "Index Fontium", "url": f"{CATENA}/fontium"})
@@ -248,16 +281,13 @@ def social_principles_links(themes) -> list[dict]:
 # --- Wesley sermons -> their text at resourceumc.org (numeric index) ---
 # URL pattern (verified): /en/content/sermon-<N>-<title-slug>. Built only for the
 # numbered standard sermons (id jw-sermon-NNN) with a real title.
-import re as _re  # noqa: E402
-
-
 def wesley_sermon_url(sermon_id: str | None, title: str | None) -> str | None:
     if not sermon_id or not title:
         return None
-    m = _re.match(r"jw-sermon-0*(\d+)$", sermon_id)
-    if not m or _re.match(r"(?i)sermon\s*\d+$", title.strip()):
+    m = re.match(r"jw-sermon-0*(\d+)$", sermon_id)
+    if not m or re.match(r"(?i)sermon\s*\d+$", title.strip()):
         return None  # named-id or untitled "Sermon N" — no reliable slug
     n = int(m.group(1))
-    slug = _re.sub(r"[^a-z0-9]+", "-",
-                   title.lower().replace("'", "").replace("’", "")).strip("-")
+    slug = re.sub(r"[^a-z0-9]+", "-",
+                  title.lower().replace("'", "").replace("’", "")).strip("-")
     return f"https://www.resourceumc.org/en/content/sermon-{n}-{slug}"

@@ -269,7 +269,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/colossians"
+                "url": "https://catena.wrootpress.com/colossians#p-1.1"
               },
               {
                 "resource": "Annales",
@@ -288,7 +288,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/luke"
+                "url": "https://catena.wrootpress.com/luke#p-10.5"
               },
               {
                 "resource": "Annales",
@@ -301,43 +301,28 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise"
-            ]
-          },
-          {
             "title": "Articles of Religion",
-            "article": "Art. IX, the Justification of Man",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
             "themes": [
-              "grace"
+              "word-of-god"
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. VIII, Free Will",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "title": "General Rules",
+            "article": "the slaveholding clause",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
             "themes": [
-              "grace"
+              "justice"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "justice",
+              "law-and-commandment"
             ]
           },
           {
@@ -357,20 +342,35 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
-            "themes": [
-              "justice",
-              "law-and-commandment"
-            ]
-          },
-          {
             "title": "Articles of Religion",
             "article": "Art. VI, the Old Testament",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
               "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
             ]
           },
           {
@@ -383,14 +383,6 @@
           },
           {
             "title": "General Rules",
-            "article": "the slaveholding clause",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
-            "themes": [
-              "justice"
-            ]
-          },
-          {
-            "title": "General Rules",
             "article": "doing good to bodies and souls",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
@@ -398,22 +390,37 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "word-of-god"
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
             ]
           }
         ],
         "social": [
           {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "community": "The Political Community",
+            "topic": "Basic Rights & Freedoms",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
             "themes": [
-              "prayer-and-worship",
-              "thanksgiving"
+              "justice"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Poverty & Income Inequality",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
+            "themes": [
+              "justice"
             ]
           },
           {
@@ -422,6 +429,15 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
             "themes": [
               "law-and-commandment"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship",
+              "thanksgiving"
             ]
           },
           {
@@ -438,22 +454,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Basic Rights & Freedoms",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
-            "themes": [
-              "justice"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Poverty & Income Inequality",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
-            "themes": [
-              "justice"
             ]
           },
           {
@@ -756,7 +756,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/colossians"
+                "url": "https://catena.wrootpress.com/colossians#p-1.1"
               },
               {
                 "resource": "Annales",
@@ -775,7 +775,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/luke"
+                "url": "https://catena.wrootpress.com/luke#p-10.5"
               },
               {
                 "resource": "Annales",
@@ -789,27 +789,10 @@
         "doctrine": [
           {
             "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
             "themes": [
-              "covenant",
-              "law-and-commandment"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
+              "word-of-god"
             ]
           },
           {
@@ -818,6 +801,23 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant",
+              "law-and-commandment"
             ]
           },
           {
@@ -838,10 +838,10 @@
           },
           {
             "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "law-and-commandment"
+              "prayer-and-worship"
             ]
           },
           {
@@ -853,23 +853,31 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
-            "themes": [
-              "word-of-god"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "doing good to bodies and souls",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "love-of-neighbor"
             ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "Civil Disobedience",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
+            "themes": [
+              "law-and-commandment"
+            ]
+          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
@@ -877,14 +885,6 @@
             "themes": [
               "prayer-and-worship",
               "thanksgiving"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Civil Disobedience",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
-            "themes": [
-              "law-and-commandment"
             ]
           },
           {

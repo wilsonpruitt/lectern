@@ -274,7 +274,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/acts"
+                "url": "https://catena.wrootpress.com/acts#p-4.2"
               },
               {
                 "resource": "Topographia",
@@ -312,7 +312,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/1-john"
+                "url": "https://catena.wrootpress.com/1-john#p-3.16"
               }
             ]
           },
@@ -325,7 +325,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/john"
+                "url": "https://catena.wrootpress.com/john#p-10.3"
               },
               {
                 "resource": "Annales",
@@ -337,30 +337,6 @@
           }
         ],
         "doctrine": [
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the resurrection of the body",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "on the third day he rose",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
           {
             "title": "General Rules",
             "article": "the one condition",
@@ -395,10 +371,18 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
             "themes": [
-              "providence-and-care"
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
             ]
           },
           {
@@ -407,6 +391,22 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "love-of-neighbor"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
             ]
           }
         ],
@@ -421,19 +421,19 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "community": "The Social Community",
             "topic": "Racism, Ethnocentrism & Tribalism",
             "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
             "themes": [
               "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]

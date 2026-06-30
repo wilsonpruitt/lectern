@@ -267,7 +267,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/1-corinthians"
+                "url": "https://catena.wrootpress.com/1-corinthians#p-15.2"
               },
               {
                 "resource": "Annales",
@@ -286,7 +286,7 @@
                 "resource": "Catena",
                 "kind": "reception",
                 "label": "Fathers & echoes",
-                "url": "https://catena.wrootpress.com/luke"
+                "url": "https://catena.wrootpress.com/luke#p-6.4"
               },
               {
                 "resource": "Annales",
@@ -300,50 +300,26 @@
         "doctrine": [
           {
             "title": "General Rules",
+            "article": "the slaveholding clause",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
+            "themes": [
+              "justice"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "justice"
+            ]
+          },
+          {
+            "title": "General Rules",
             "article": "the catalog of harms",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-catalog-of-harms/",
             "themes": [
               "idolatry"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XXIV, Christian Men's Goods",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
-            "themes": [
-              "wealth-and-possessions"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the resurrection of the body",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "on the third day he rose",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
             ]
           },
           {
@@ -363,19 +339,19 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the slaveholding clause",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "justice"
+              "faith-and-trust"
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "title": "Articles of Religion",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
             "themes": [
-              "justice"
+              "wealth-and-possessions"
             ]
           },
           {
@@ -385,16 +361,39 @@
             "themes": [
               "kingdom-of-god"
             ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
           }
         ],
         "social": [
           {
-            "community": "The Economic Community",
-            "topic": "Responsible Consumerism",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
+            "community": "The Political Community",
+            "topic": "Basic Rights & Freedoms",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
             "themes": [
-              "idolatry",
-              "wealth-and-possessions"
+              "justice"
             ]
           },
           {
@@ -407,11 +406,12 @@
             ]
           },
           {
-            "community": "The Political Community",
-            "topic": "Basic Rights & Freedoms",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#basic-rights",
+            "community": "The Economic Community",
+            "topic": "Responsible Consumerism",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
             "themes": [
-              "justice"
+              "idolatry",
+              "wealth-and-possessions"
             ]
           }
         ]
