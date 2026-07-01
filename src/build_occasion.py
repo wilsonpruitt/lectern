@@ -119,7 +119,7 @@ def sermon_recs(day_tags: set, sermons: dict, top: int = 6) -> list[dict]:
         score, shared = tc.score(tc.tagset(s), day_tags, {})
         if score > 0:
             scored.append((score, sid, s, shared))
-    scored.sort(key=lambda x: (-x[0], x[2].get("title", "")))
+    scored.sort(key=lambda x: (-x[0], x[2].get("title") or "", x[1]))  # sid = unique
     out = []
     for score, sid, s, shared in scored[:top]:
         out.append({
@@ -139,7 +139,8 @@ def hymn_recs(day_tags: set, hymns: list[dict], idf: dict, top: int = 6) -> list
         score, shared = tc.score(tc.tagset(h), day_tags, idf)
         if score > 0:
             scored.append((score, h, shared))
-    scored.sort(key=lambda x: (-x[0], x[1].get("number", 0)))
+    scored.sort(key=lambda x: (-x[0], x[1].get("number") or 0,
+                               x[1].get("hymnal") or "", x[1].get("title") or ""))
     out = []
     for score, h, shared in scored[:top]:
         out.append({

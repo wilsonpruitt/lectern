@@ -32,7 +32,7 @@ def recommend(day_tags: set, songs: list[dict], top: int = 6) -> list[dict]:
         if score > 0:
             scored.append((score, s, shared))
     # tie-break by how often Covenant actually uses the song (their core repertoire)
-    scored.sort(key=lambda x: (-x[0], -(x[1].get("timesUsed") or 0)))
+    scored.sort(key=lambda x: (-x[0], -(x[1].get("timesUsed") or 0), x[1].get("title") or ""))
     out = []
     for score, s, shared in scored[:top]:
         out.append({

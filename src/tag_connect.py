@@ -87,7 +87,10 @@ def occasion_tracks(occ, rcl_tags):
 
 def score(hymn_tags, day_tags, idf):
     shared = hymn_tags & day_tags
-    s = sum(WEIGHTS[f] * idf.get((f, t), 1.0) for (f, t) in shared)
+    # sum in a stable order — set iteration order is hash-randomized per process, and
+    # float addition isn't associative, so an unsorted sum makes scores (and thus
+    # near-tied rankings) non-deterministic across builds.
+    s = sum(WEIGHTS[f] * idf.get((f, t), 1.0) for (f, t) in sorted(shared))
     return s, shared
 
 
