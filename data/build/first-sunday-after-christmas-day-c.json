@@ -3,7 +3,9 @@
     "id": "first-sunday-after-christmas-day-c",
     "name": "First Sunday after Christmas Day",
     "year": "C",
-    "season": "Christmas"
+    "season": "Christmas",
+    "date": "2027-12-26",
+    "display": "Dec 26, 2027"
   },
   "tracks": {
     "single": {
@@ -313,30 +315,6 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
-            "themes": [
-              "word-of-god"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
-            ]
-          },
-          {
             "title": "Nicene Creed",
             "article": "maker of heaven and earth",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
@@ -353,11 +331,19 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "doing good to bodies and souls",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "title": "Articles of Religion",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
             "themes": [
-              "love-of-neighbor"
+              "word-of-god"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
             ]
           },
           {
@@ -369,19 +355,11 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "incarnate of the Virgin Mary",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
+            "title": "General Rules",
+            "article": "doing good to bodies and souls",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "incarnation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "born of the Virgin Mary",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
-            "themes": [
-              "incarnation"
+              "love-of-neighbor"
             ]
           },
           {
@@ -399,18 +377,33 @@
             "themes": [
               "church-and-unity"
             ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "incarnate of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "born of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
           }
         ],
         "social": [
-          {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
-            "themes": [
-              "prayer-and-worship",
-              "thanksgiving"
-            ]
-          },
           {
             "community": "Community of All Creation",
             "topic": "Stewardship of Creation",
@@ -428,6 +421,23 @@
             ]
           },
           {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship",
+              "thanksgiving"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
             "community": "The Social Community",
             "topic": "Racism, Ethnocentrism & Tribalism",
             "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
@@ -441,14 +451,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "love-of-neighbor"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
             ]
           }
         ]

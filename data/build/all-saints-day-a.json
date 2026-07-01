@@ -3,7 +3,9 @@
     "id": "all-saints-day-a",
     "name": "All Saints Day",
     "year": "A",
-    "season": "Season after Pentecost"
+    "season": "Season after Pentecost",
+    "date": "2026-11-01",
+    "display": "Nov 1, 2026"
   },
   "tracks": {
     "single": {
@@ -306,43 +308,35 @@
         ],
         "doctrine": [
           {
-            "title": "Apostles' Creed",
-            "article": "the resurrection of the body",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "title": "Articles of Religion",
+            "article": "Of Sanctification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-26-of-sanctification/",
             "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "on the third day he rose",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the communion of saints",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
-            "themes": [
-              "saints-and-witnesses"
+              "sanctification-holiness"
             ]
           },
           {
             "title": "General Rules",
-            "article": "the slaveholding clause",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
+            "article": "evidenced by its fruits",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/evidenced-by-its-fruits/",
             "themes": [
-              "justice"
+              "sanctification-holiness"
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "justice"
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
             ]
           },
           {
@@ -364,19 +358,35 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Of Sanctification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-26-of-sanctification/",
+            "title": "Apostles' Creed",
+            "article": "the communion of saints",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
             "themes": [
-              "sanctification-holiness"
+              "saints-and-witnesses"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
             "title": "General Rules",
-            "article": "evidenced by its fruits",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/evidenced-by-its-fruits/",
+            "article": "the slaveholding clause",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
             "themes": [
-              "sanctification-holiness"
+              "justice"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "justice"
             ]
           },
           {
@@ -388,27 +398,19 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, the Justification of Man",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
             "themes": [
-              "grace"
+              "resurrection-and-life"
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. VIII, Free Will",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
             "themes": [
-              "grace"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
+              "resurrection-and-life"
             ]
           }
         ],
@@ -419,14 +421,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "thanksgiving"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
             ]
           },
           {
@@ -443,6 +437,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
             "themes": [
               "justice"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           },
           {

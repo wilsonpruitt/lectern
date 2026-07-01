@@ -3,7 +3,9 @@
     "id": "fifth-sunday-in-lent-b",
     "name": "Fifth Sunday in Lent",
     "year": "B",
-    "season": "Lent"
+    "season": "Lent",
+    "date": "2027-03-21",
+    "display": "Mar 21, 2027"
   },
   "tracks": {
     "single": {
@@ -322,19 +324,61 @@
         ],
         "doctrine": [
           {
-            "title": "Apostles' Creed",
-            "article": "the resurrection of the body",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
             "themes": [
-              "resurrection-and-life"
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant",
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
+            "themes": [
+              "repentance"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "themes": [
+              "passion-and-cross"
             ]
           },
           {
             "title": "Nicene Creed",
-            "article": "on the third day he rose",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
-              "resurrection-and-life"
+              "atonement",
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "themes": [
+              "obedience-and-gods-will"
             ]
           },
           {
@@ -354,52 +398,11 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
-            "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "atonement",
-              "passion-and-cross"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
-            "themes": [
-              "repentance"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
             "article": "the life everlasting",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
               "hope-and-promise"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
             ]
           },
           {
@@ -411,46 +414,45 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "was crucified",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
-            "themes": [
-              "passion-and-cross"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "do good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
-            "themes": [
-              "obedience-and-gods-will"
-            ]
-          },
-          {
             "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "covenant",
-              "law-and-commandment"
+              "atonement"
             ]
           },
           {
             "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
-              "law-and-commandment"
+              "call-and-discipleship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
             ]
           }
         ],
         "social": [
           {
             "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "topic": "Civil Disobedience",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
             "themes": [
-              "suffering-and-endurance"
+              "law-and-commandment"
             ]
           },
           {
@@ -471,10 +473,10 @@
           },
           {
             "community": "The Political Community",
-            "topic": "Civil Disobedience",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
-              "law-and-commandment"
+              "suffering-and-endurance"
             ]
           }
         ]

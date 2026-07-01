@@ -3,7 +3,9 @@
     "id": "trinity-sunday-c",
     "name": "Trinity Sunday",
     "year": "C",
-    "season": "Season after Pentecost"
+    "season": "Season after Pentecost",
+    "date": "2028-06-11",
+    "display": "Jun 11, 2028"
   },
   "tracks": {
     "single": {
@@ -311,38 +313,6 @@
         "doctrine": [
           {
             "title": "Nicene Creed",
-            "article": "the Holy Spirit, the giver of life",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
-            "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IV, the Holy Ghost",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
-            "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
-            "themes": [
-              "word-of-god"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
             "article": "maker of heaven and earth",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
             "themes": [
@@ -355,30 +325,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
             "themes": [
               "creation"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "of one Being with the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
-            "themes": [
-              "trinity"
-            ]
-          },
-          {
-            "title": "Athanasian Creed",
-            "article": "one God in Trinity",
-            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
-            "themes": [
-              "trinity"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
             ]
           },
           {
@@ -398,39 +344,71 @@
             ]
           },
           {
+            "title": "Nicene Creed",
+            "article": "of one Being with the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Athanasian Creed",
+            "article": "one God in Trinity",
+            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
+            "themes": [
+              "word-of-god"
+            ]
+          },
+          {
             "title": "Articles of Religion",
             "article": "Art. IX, justification by faith",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
             ]
-          }
-        ],
-        "social": [
+          },
           {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "title": "Nicene Creed",
+            "article": "the Holy Spirit, the giver of life",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
             "themes": [
-              "peace-of-god"
+              "holy-spirit"
             ]
           },
           {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "title": "Articles of Religion",
+            "article": "Art. IV, the Holy Ghost",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
+            "themes": [
+              "holy-spirit"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
               "prayer-and-worship"
             ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
+          }
+        ],
+        "social": [
           {
             "community": "Community of All Creation",
             "topic": "Stewardship of Creation",
@@ -448,11 +426,35 @@
             ]
           },
           {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
+            ]
+          },
+          {
             "community": "Community of All Creation",
             "topic": "Caring for All Creatures",
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
             ]
           }
         ]

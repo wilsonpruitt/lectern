@@ -73,6 +73,7 @@ export default async function YearPage({ params }: { params: Promise<{ abc: stri
               return (
                 <Link className="occ-card" href={`/${e.id}/`} key={e.id}>
                   <div className="nm">{e.name}</div>
+                  {e.display ? <div className="occ-card-date">{e.display}</div> : null}
                   {gospel ? <div className="rd">{gospel.ref}</div> : null}
                   <div className="tk">
                     {e.trackKeys.length > 1 ? "dual track" : "single track"}

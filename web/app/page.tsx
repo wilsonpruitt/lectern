@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { indexByYear, YEARS } from "@/lib/data";
-import { weeksAhead, ANCHOR } from "@/lib/now";
+import { weeksAhead, CURRENT } from "@/lib/now";
 
 const YEAR_LEDE: Record<string, string> = {
   A: "Matthew · the kingdom in parables",
@@ -37,10 +37,13 @@ export default function Home() {
 
       {thisSunday ? (
         <section className="this-sunday">
-          <span className="eyebrow">This Sunday · Year {ANCHOR.year}</span>
+          <span className="eyebrow">This Sunday · Year {CURRENT.year}</span>
           <Link href={`/${thisSunday.id}/`} className="sunday-feature">
             <div className="sf-main">
-              <div className="sf-name">{thisSunday.name}</div>
+              <div className="sf-name">
+                {thisSunday.name}
+                {thisSunday.display ? <span className="sf-date">{thisSunday.display}</span> : null}
+              </div>
               <div className="sf-readings">
                 {thisSunday.readings.map((r) => (
                   <span key={r.role} className="sf-reading">
@@ -65,6 +68,7 @@ export default function Home() {
                   return (
                     <Link key={e.id} href={`/${e.id}/`} className="ahead-card">
                       <div className="ac-name">{e.name}</div>
+                      {e.display ? <div className="ac-date">{e.display}</div> : null}
                       {gospel ? <div className="ac-gospel">{gospel.ref}</div> : null}
                       <div className="ac-badges">
                         {e.hasTurn ? <span className="dot reed" title="The Turn ready" /> : null}

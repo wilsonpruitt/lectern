@@ -38,6 +38,7 @@ import tag_connect as tc            # WEIGHTS, load, tagset, score, SPINE, TAGS
 import sermon_connect as sc         # recommend (sermon variant)
 import connections as conn          # reading_links / doctrine_links (interpretive layer)
 import series as series_mod         # native series detection (the founding thesis)
+import liturgical_dates as litdates  # calendar date of each occasion (current cycle)
 
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
@@ -213,10 +214,12 @@ def main() -> None:
     BUILD.mkdir(parents=True, exist_ok=True)
     series_by_year = series_mod.build()              # native series (founding thesis)
     membership = series_mod.membership(series_by_year)
+    occ_dates = litdates.all_dates()                 # calendar date per occasion
     n_calls = 0
     index = []
     for occ in targets:
         doc = build(occ, rcl_tags, sermons, hymns, hymn_idf)
+        doc["occasion"].update(occ_dates.get(occ["id"], {}))
         if doc["calls"]:
             n_calls += 1
         # ordered index entry (spine order is liturgical) for nav + the year view
@@ -232,6 +235,7 @@ def main() -> None:
             "hasCalls": bool(doc["calls"]),
             "hasTurn": bool(doc["turn"]),
             "series": membership.get(doc["occasion"]["id"], []),
+            **occ_dates.get(doc["occasion"]["id"], {}),
         })
         if to_stdout and len(targets) == 1:
             print(json.dumps(doc, indent=2, ensure_ascii=False))

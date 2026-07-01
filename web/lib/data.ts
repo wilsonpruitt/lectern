@@ -81,7 +81,14 @@ export type Turn = {
   status: string;
 } | null;
 export type Occasion = {
-  occasion: { id: string; name: string | null; year: string; season: string | null };
+  occasion: {
+    id: string;
+    name: string | null;
+    year: string;
+    season: string | null;
+    date?: string;
+    display?: string;
+  };
   tracks: Record<string, Track>;
   calls: Calls;
   turn: Turn;
@@ -108,6 +115,8 @@ export type IndexEntry = {
   hasCalls: boolean;
   hasTurn: boolean;
   series: SeriesMembership[];
+  date?: string;
+  display?: string;
 };
 export type Series = {
   id: string;

@@ -3,7 +3,9 @@
     "id": "tuesday-of-holy-week-c",
     "name": "Tuesday of Holy Week",
     "year": "C",
-    "season": "Holy Week"
+    "season": "Holy Week",
+    "date": "2028-04-11",
+    "display": "Apr 11, 2028"
   },
   "tracks": {
     "single": {
@@ -309,35 +311,11 @@
         ],
         "doctrine": [
           {
-            "title": "Apostles' Creed",
-            "article": "the resurrection of the body",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "on the third day he rose",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
             "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
             "themes": [
-              "mission-and-witness"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
+              "humility-and-servanthood"
             ]
           },
           {
@@ -346,38 +324,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "was crucified",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
-            "themes": [
-              "passion-and-cross"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "passion-and-cross"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "God from God, Light from Light",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
-            "themes": [
-              "epiphany-manifestation"
             ]
           },
           {
@@ -397,11 +343,19 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
             "themes": [
-              "humility-and-servanthood"
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "passion-and-cross"
             ]
           },
           {
@@ -411,23 +365,71 @@
             "themes": [
               "faith-and-trust"
             ]
-          }
-        ],
-        "social": [
+          },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "title": "Nicene Creed",
+            "article": "God from God, Light from Light",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
+            "themes": [
+              "epiphany-manifestation"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
+            "themes": [
+              "messianic-hope"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
             ]
           },
+          {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          }
+        ],
+        "social": [
           {
             "community": "The Economic Community",
             "topic": "The Dignity of Work",
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#work",
             "themes": [
               "humility-and-servanthood"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]

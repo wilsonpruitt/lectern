@@ -3,7 +3,9 @@
     "id": "proper-26-31-b",
     "name": "Proper 26 (31)",
     "year": "B",
-    "season": "Season after Pentecost"
+    "season": "Season after Pentecost",
+    "date": "2027-10-31",
+    "display": "Oct 31, 2027"
   },
   "tracks": {
     "semicontinuous": {
@@ -312,11 +314,37 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
             "themes": [
-              "atonement"
+              "justice",
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant",
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "themes": [
+              "passion-and-cross"
             ]
           },
           {
@@ -329,52 +357,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "the slaveholding clause",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
             "themes": [
               "justice"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
-            "themes": [
-              "justice",
-              "law-and-commandment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "was crucified",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
-            "themes": [
-              "passion-and-cross"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good to bodies and souls",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "love-of-neighbor"
             ]
           },
           {
@@ -386,16 +373,39 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "title": "General Rules",
+            "article": "doing good to bodies and souls",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "covenant",
-              "law-and-commandment"
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
             ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "Civil Disobedience",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
+            "themes": [
+              "law-and-commandment"
+            ]
+          },
           {
             "community": "The Political Community",
             "topic": "Restorative Justice",
@@ -429,6 +439,14 @@
             ]
           },
           {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
             "community": "The Social Community",
             "topic": "Racism, Ethnocentrism & Tribalism",
             "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
@@ -442,22 +460,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "love-of-neighbor"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Civil Disobedience",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
-            "themes": [
-              "law-and-commandment"
             ]
           }
         ]
@@ -765,10 +767,43 @@
         "doctrine": [
           {
             "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "atonement"
+              "covenant",
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
+            "themes": [
+              "word-of-god"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "themes": [
+              "passion-and-cross"
             ]
           },
           {
@@ -781,30 +816,6 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
-            "themes": [
-              "word-of-god"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "doing good to bodies and souls",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
@@ -813,28 +824,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "was crucified",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
-            "themes": [
-              "passion-and-cross"
-            ]
-          },
-          {
             "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "covenant",
-              "law-and-commandment"
+              "atonement"
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
-              "law-and-commandment"
+              "kingdom-of-god"
             ]
           }
         ],
@@ -856,6 +858,14 @@
             ]
           },
           {
+            "community": "The Political Community",
+            "topic": "Civil Disobedience",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
+            "themes": [
+              "law-and-commandment"
+            ]
+          },
+          {
             "community": "The Social Community",
             "topic": "Racism, Ethnocentrism & Tribalism",
             "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
@@ -869,14 +879,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "love-of-neighbor"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Civil Disobedience",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
-            "themes": [
-              "law-and-commandment"
             ]
           }
         ]

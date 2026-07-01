@@ -3,7 +3,9 @@
     "id": "third-sunday-of-advent-a",
     "name": "Third Sunday of Advent",
     "year": "A",
-    "season": "Advent"
+    "season": "Advent",
+    "date": "2025-12-14",
+    "display": "Dec 14, 2025"
   },
   "tracks": {
     "single": {
@@ -310,11 +312,29 @@
         ],
         "doctrine": [
           {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "messianic-hope"
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
@@ -334,21 +354,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise",
-              "last-things"
-            ]
-          },
-          {
             "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "kingdom-of-god",
-              "last-things"
+              "messianic-hope"
             ]
           },
           {
@@ -357,14 +367,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
             ]
           }
         ],

@@ -3,7 +3,9 @@
     "id": "day-of-pentecost-c",
     "name": "Day of Pentecost",
     "year": "C",
-    "season": "Pentecost"
+    "season": "Pentecost",
+    "date": "2028-06-04",
+    "display": "Jun 4, 2028"
   },
   "tracks": {
     "single": {
@@ -333,79 +335,6 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, the Justification of Man",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "grace"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VIII, Free Will",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
-            "themes": [
-              "grace"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the Holy Spirit, the giver of life",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
-            "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IV, the Holy Ghost",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
-            "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XVII, Baptism",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
-            "themes": [
-              "baptism"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "one baptism for the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
-            "themes": [
-              "baptism"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise",
-              "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "last-things"
-            ]
-          },
-          {
             "title": "Nicene Creed",
             "article": "maker of heaven and earth",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
@@ -419,6 +348,22 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
             "themes": [
               "creation"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
             ]
           },
           {
@@ -439,10 +384,19 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "providence-and-care"
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "last-things"
             ]
           },
           {
@@ -451,6 +405,46 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the Holy Spirit, the giver of life",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
+            "themes": [
+              "holy-spirit"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IV, the Holy Ghost",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
+            "themes": [
+              "holy-spirit"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XVII, Baptism",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
+            "themes": [
+              "baptism"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one baptism for the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
+            "themes": [
+              "baptism"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           },
           {
@@ -468,25 +462,17 @@
             "themes": [
               "church-and-unity"
             ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
           }
         ],
         "social": [
-          {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
-            "themes": [
-              "peace-of-god"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
-            "themes": [
-              "thanksgiving"
-            ]
-          },
           {
             "community": "Community of All Creation",
             "topic": "Stewardship of Creation",
@@ -501,6 +487,22 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
             "themes": [
               "creation"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "thanksgiving"
             ]
           },
           {

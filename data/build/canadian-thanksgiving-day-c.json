@@ -3,7 +3,9 @@
     "id": "canadian-thanksgiving-day-c",
     "name": "Canadian Thanksgiving Day",
     "year": "C",
-    "season": "Season after Pentecost"
+    "season": "Season after Pentecost",
+    "date": "2028-10-09",
+    "display": "Oct 9, 2028"
   },
   "tracks": {
     "single": {
@@ -319,11 +321,19 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "prayer-and-worship"
+              "covenant"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
@@ -332,6 +342,14 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
             ]
           },
           {
@@ -349,33 +367,9 @@
             "themes": [
               "incarnation"
             ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
-            "themes": [
-              "covenant"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
           }
         ],
         "social": [
-          {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
-            "themes": [
-              "peace-of-god"
-            ]
-          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
@@ -391,6 +385,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
             ]
           }
         ]

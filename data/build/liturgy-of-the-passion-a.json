@@ -3,7 +3,9 @@
     "id": "liturgy-of-the-passion-a",
     "name": "Liturgy of the Passion",
     "year": "A",
-    "season": "Holy Week"
+    "season": "Holy Week",
+    "date": "2026-03-29",
+    "display": "Mar 29, 2026"
   },
   "tracks": {
     "single": {
@@ -324,11 +326,19 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
             "themes": [
-              "atonement"
+              "humility-and-servanthood"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "themes": [
+              "passion-and-cross"
             ]
           },
           {
@@ -341,11 +351,11 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "call-and-discipleship"
+              "faith-and-trust"
             ]
           },
           {
@@ -357,11 +367,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "was crucified",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "passion-and-cross"
+              "atonement"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
             ]
           },
           {
@@ -395,39 +413,23 @@
             "themes": [
               "incarnation"
             ]
-          },
-          {
-            "title": "General Rules",
-            "article": "do good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
-            "themes": [
-              "humility-and-servanthood"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
           }
         ],
         "social": [
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
           {
             "community": "The Economic Community",
             "topic": "The Dignity of Work",
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#work",
             "themes": [
               "humility-and-servanthood"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           }
         ]

@@ -3,7 +3,9 @@
     "id": "wednesday-of-holy-week-a",
     "name": "Wednesday of Holy Week",
     "year": "A",
-    "season": "Holy Week"
+    "season": "Holy Week",
+    "date": "2026-04-01",
+    "display": "Apr 1, 2026"
   },
   "tracks": {
     "single": {
@@ -291,27 +293,19 @@
         ],
         "doctrine": [
           {
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "themes": [
+              "humility-and-servanthood"
+            ]
+          },
+          {
             "title": "Apostles' Creed",
             "article": "the communion of saints",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
             "themes": [
               "saints-and-witnesses"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VII, Original Sin",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
-            "themes": [
-              "sin-and-fall"
             ]
           },
           {
@@ -331,29 +325,37 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "title": "Articles of Religion",
+            "article": "Art. VII, Original Sin",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
             "themes": [
-              "humility-and-servanthood"
+              "sin-and-fall"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
             ]
           }
         ],
         "social": [
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
           {
             "community": "The Economic Community",
             "topic": "The Dignity of Work",
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#work",
             "themes": [
               "humility-and-servanthood"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           }
         ]

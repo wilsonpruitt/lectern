@@ -3,7 +3,9 @@
     "id": "transfiguration-sunday-a",
     "name": "Transfiguration Sunday",
     "year": "A",
-    "season": "Epiphany"
+    "season": "Epiphany",
+    "date": "2026-02-15",
+    "display": "Feb 15, 2026"
   },
   "tracks": {
     "single": {
@@ -303,11 +305,12 @@
         ],
         "doctrine": [
           {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "messianic-hope"
+              "covenant",
+              "law-and-commandment"
             ]
           },
           {
@@ -327,19 +330,19 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god"
-            ]
-          },
-          {
             "title": "Articles of Religion",
             "article": "Art. V, Sufficiency of Scripture",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
             "themes": [
               "word-of-god"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
@@ -352,20 +355,11 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
-            "themes": [
-              "covenant",
-              "law-and-commandment"
+              "messianic-hope"
             ]
           },
           {
@@ -374,6 +368,14 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
             "themes": [
               "law-and-commandment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
             ]
           }
         ],

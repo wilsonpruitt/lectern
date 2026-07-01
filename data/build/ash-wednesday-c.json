@@ -3,7 +3,9 @@
     "id": "ash-wednesday-c",
     "name": "Ash Wednesday",
     "year": "C",
-    "season": "Lent"
+    "season": "Lent",
+    "date": "2028-03-01",
+    "display": "Mar 1, 2028"
   },
   "tracks": {
     "single": {
@@ -312,19 +314,35 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
             "themes": [
-              "atonement"
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
             ]
           },
           {
             "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
             "themes": [
-              "atonement"
+              "judgment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
+            "themes": [
+              "wealth-and-possessions"
             ]
           },
           {
@@ -345,34 +363,26 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. XXIV, Christian Men's Goods",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
+            "article": "Art. VII, Original Sin",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
             "themes": [
-              "wealth-and-possessions"
+              "sin-and-fall"
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "judgment"
+              "atonement"
             ]
           },
           {
             "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
+              "atonement"
             ]
           },
           {
@@ -382,31 +392,23 @@
             "themes": [
               "call-and-discipleship"
             ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VII, Original Sin",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
-            "themes": [
-              "sin-and-fall"
-            ]
           }
         ],
         "social": [
           {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "community": "The Political Community",
+            "topic": "Restorative Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#restorative",
             "themes": [
-              "prayer-and-worship"
+              "mercy-and-forgiveness"
             ]
           },
           {
             "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "topic": "Criminal Justice",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
-              "suffering-and-endurance"
+              "mercy-and-forgiveness"
             ]
           },
           {
@@ -426,19 +428,19 @@
             ]
           },
           {
-            "community": "The Political Community",
-            "topic": "Restorative Justice",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#restorative",
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
-              "mercy-and-forgiveness"
+              "prayer-and-worship"
             ]
           },
           {
             "community": "The Political Community",
-            "topic": "Criminal Justice",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
-              "mercy-and-forgiveness"
+              "suffering-and-endurance"
             ]
           }
         ]

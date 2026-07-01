@@ -3,7 +3,9 @@
     "id": "visitation-of-mary-to-elizabeth-b",
     "name": "Visitation of Mary to Elizabeth",
     "year": "B",
-    "season": "Easter"
+    "season": "Easter",
+    "date": "2027-05-31",
+    "display": "May 31, 2027"
   },
   "tracks": {
     "single": {
@@ -317,22 +319,6 @@
         ],
         "doctrine": [
           {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "the slaveholding clause",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
@@ -350,18 +336,18 @@
           },
           {
             "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "kingdom-of-god"
+              "messianic-hope"
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "call-and-discipleship"
+              "providence-and-care"
             ]
           },
           {
@@ -373,11 +359,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "providence-and-care"
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
             ]
           },
           {
@@ -395,9 +389,26 @@
             "themes": [
               "incarnation"
             ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
+            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
+            "themes": [
+              "hospitality-of-god",
+              "love-of-neighbor"
+            ]
+          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
@@ -424,28 +435,19 @@
             ]
           },
           {
-            "community": "The Social Community",
-            "topic": "Racism, Ethnocentrism & Tribalism",
-            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
-            "themes": [
-              "love-of-neighbor"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Migrants, Immigrants & Refugees",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
-            "themes": [
-              "hospitality-of-god",
-              "love-of-neighbor"
-            ]
-          },
-          {
             "community": "Community of All Creation",
             "topic": "Caring for All Creatures",
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
+            ]
+          },
+          {
+            "community": "The Social Community",
+            "topic": "Racism, Ethnocentrism & Tribalism",
+            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
+            "themes": [
+              "love-of-neighbor"
             ]
           }
         ]

@@ -3,7 +3,9 @@
     "id": "baptism-of-the-lord-c",
     "name": "Baptism of the Lord",
     "year": "C",
-    "season": "Epiphany"
+    "season": "Epiphany",
+    "date": "2028-01-09",
+    "display": "Jan 9, 2028"
   },
   "tracks": {
     "single": {
@@ -336,6 +338,38 @@
         ],
         "doctrine": [
           {
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the Holy Spirit, the giver of life",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
@@ -349,22 +383,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
             "themes": [
               "holy-spirit"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
             ]
           },
           {
@@ -385,18 +403,10 @@
           },
           {
             "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
+              "messianic-hope"
             ]
           },
           {
@@ -405,14 +415,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
-            "themes": [
-              "covenant"
             ]
           },
           {
@@ -434,22 +436,6 @@
         ],
         "social": [
           {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
-            "themes": [
-              "peace-of-god"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
             "community": "Community of All Creation",
             "topic": "Stewardship of Creation",
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
@@ -466,11 +452,27 @@
             ]
           },
           {
+            "community": "The Economic Community",
+            "topic": "Sabbath & Renewal Time",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
             "community": "Community of All Creation",
             "topic": "Caring for All Creatures",
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
             ]
           }
         ]

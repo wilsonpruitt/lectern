@@ -384,7 +384,11 @@ export default function Workbench({
           <div className="name">
             {o.name} · Year {o.year}
           </div>
-          <div className="meta">{o.season}</div>
+          <div className="meta">
+            {o.display ? <span className="occ-date">{o.display}</span> : null}
+            {o.display ? " · " : ""}
+            {o.season}
+          </div>
         </div>
         <div className="spacer" />
         {dual ? (
