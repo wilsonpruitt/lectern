@@ -6,6 +6,15 @@
 import { useState, useCallback, useRef } from "react";
 import type { GreekVerse as Verse, GreekWord } from "@/lib/greek";
 
+// ASCII-safe filename slug for a lexKey — hex of its NFC-UTF8 bytes. Must match
+// reception-corpus greek.lex_slug(): Greek filenames don't survive Vercel static routing.
+function lexSlug(lexKey: string): string {
+  const bytes = new TextEncoder().encode(lexKey.normalize("NFC"));
+  return Array.from(bytes)
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
 type LexEntry = {
   lexKey: string;
   headword: string;
@@ -33,7 +42,7 @@ export default function GreekVerse({ verse }: { verse: Verse }) {
     }
     setLoading(true);
     try {
-      const res = await fetch(`/api/greek/lex/${encodeURIComponent(key)}.json`);
+      const res = await fetch(`/api/greek/lex/${lexSlug(key)}.json`);
       const data = res.ok ? ((await res.json()) as LexEntry) : null;
       cache.current.set(key, data);
       setEntry(data);
