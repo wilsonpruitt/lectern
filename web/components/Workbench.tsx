@@ -223,7 +223,39 @@ function Lenses({ lenses }: { lenses: LensesData }) {
   );
 }
 
-function Turn({ turn }: { turn: TurnData }) {
+function TurnSeriesBox({ series, year }: { series: SeriesMembership[]; year: string }) {
+  const withArc = series.filter((m) => m.arc || m.beat);
+  return (
+    <div className="turn-series">
+      <span className="eyebrow">In its series · which beat to hit</span>
+      {withArc.length ? (
+        withArc.map((m) => (
+          <div className="ts-row" key={m.id}>
+            <Link href={`/series/${year.toLowerCase()}/`} className="ts-series">
+              {m.book} <span className="wk">{m.week}/{m.of}</span>
+            </Link>
+            {m.beat ? (
+              <div className="ts-beat">
+                <span className="ts-beat-label">{m.beat.label}</span>
+                {m.beat.note ? <span className="ts-beat-note">{m.beat.note}</span> : null}
+              </div>
+            ) : null}
+          </div>
+        ))
+      ) : series.length ? (
+        <p className="micro ts-none">
+          This Sunday runs in {series.map((m) => `${m.book} (${m.week}/${m.of})`).join(", ")}
+          {" "}— narrative beats for these tracks are still being written.
+        </p>
+      ) : (
+        <p className="micro ts-none">Not part of a native series this week.</p>
+      )}
+      <p className="micro ts-thematic">Thematic series (a coming layer) will add their beats here too.</p>
+    </div>
+  );
+}
+
+function Turn({ turn, series, year }: { turn: TurnData; series: SeriesMembership[]; year: string }) {
   if (!turn)
     return (
       <Soon
@@ -237,6 +269,8 @@ function Turn({ turn }: { turn: TurnData }) {
         <span className="eyebrow">The Turn · {turn.pericope}</span>
         {turn.status === "draft" ? <span className="badge">draft</span> : null}
       </div>
+
+      <TurnSeriesBox series={series} year={year} />
 
       <div className="turn-frame">
         <p className="turn-block"><span className="turn-lbl">The day&rsquo;s gravity</span>{turn.gravity}</p>
@@ -452,7 +486,7 @@ export default function Workbench({
             {tab === "hymns" && <Hymns track={t} />}
             {tab === "calls" && <Calls occ={occ} reg={reg} setReg={setReg} />}
             {tab === "lenses" && <Lenses lenses={t.lenses} />}
-            {tab === "turn" && <Turn turn={occ.turn} />}
+            {tab === "turn" && <Turn turn={occ.turn} series={series} year={o.year} />}
           </div>
         </main>
       </div>

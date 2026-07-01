@@ -18,7 +18,22 @@ import re
 from pathlib import Path
 
 SPINE = Path.home() / "reception-corpus" / "data" / "rcl.json"
+NARRATIVES = Path(__file__).resolve().parent.parent / "corpus" / "series" / "narratives.json"
 MIN_RUN = 3
+
+
+def _narratives() -> dict:
+    if NARRATIVES.exists():
+        return {k: v for k, v in json.loads(NARRATIVES.read_text()).items()
+                if not k.startswith("_")}
+    return {}
+
+
+def _beat_for(beats: list, week: int) -> dict | None:
+    for b in beats or []:
+        if b["from"] <= week <= b["to"]:
+            return {"label": b["label"], "note": b.get("note")}
+    return None
 
 # OSIS book code -> display name (the books that actually run in the RCL tracks)
 BOOK_NAME = {
@@ -100,11 +115,16 @@ def build() -> dict:
     by_year: dict[str, list] = {}
     for o in spine["occasions"]:
         by_year.setdefault(o["year"], []).append(o)
+    narr = _narratives()
     out = {}
     for y, occs in by_year.items():
         series = native_series(occs)
-        for s in series:                       # stable id
+        for s in series:                       # stable id + narrative arc/beats
             s["id"] = f"{y.lower()}-{s['role']}-{s['bookCode'].lower()}-{s['occasions'][0]}"
+            n = narr.get(s["id"])
+            if n:
+                s["arc"] = n.get("arc")
+                s["beats"] = n.get("beats", [])
         out[y] = series
     return out
 
@@ -122,6 +142,8 @@ def membership(series_by_year: dict) -> dict:
                     "book": s["book"], "week": i + 1, "of": len(ids),
                     "prev": ids[i - 1] if i > 0 else None,
                     "next": ids[i + 1] if i < len(ids) - 1 else None,
+                    "arc": s.get("arc"),
+                    "beat": _beat_for(s.get("beats"), i + 1),
                 })
     # within an occasion, show the longest series first
     for oid in mem:

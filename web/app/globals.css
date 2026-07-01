@@ -201,7 +201,24 @@ a { color: inherit; text-decoration: none; }
 .series-book { font-family: var(--serif); font-size: 21px; color: var(--fen); }
 .series-weeks { font-family: var(--sans); font-size: var(--t-caption); color: var(--reed-deep); font-weight: 600; }
 .series-span { font-size: var(--t-caption); color: var(--fen-mist); margin-top: 3px; line-height: 1.4; }
+.series-arc { font-family: var(--serif); font-style: italic; font-size: 15px; color: var(--fen-mist); line-height: 1.5; margin: var(--space-3) 0 0; }
+.series-beats { margin: var(--space-3) 0 0; padding-left: 20px; }
+.series-beats li { font-size: var(--t-body-sm); color: var(--fg); margin-bottom: 5px; line-height: 1.45; }
+.series-beats .beat-label { font-weight: 600; color: var(--fen); }
+.series-beats .beat-note { color: var(--fg-muted); }
 .series-weeks-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: var(--space-3); }
+
+/* Turn series box — which beat to hit today */
+.turn-series { margin-bottom: var(--space-5); padding: var(--space-4); border: 1px solid var(--border-strong); border-radius: var(--radius-lg); background: var(--ivory); }
+.turn-series > .eyebrow { color: var(--reed-deep); }
+.ts-row { display: flex; align-items: baseline; gap: var(--space-3); padding: var(--space-2) 0; border-top: 1px solid var(--border); }
+.ts-row:first-of-type { border-top: 0; }
+.ts-series { flex: none; font-family: var(--serif); font-size: 16px; color: var(--fen); }
+.ts-series .wk { font-family: var(--sans); font-size: 11px; color: var(--fen-mist); }
+.ts-beat-label { font-family: var(--sans); font-weight: 600; font-size: var(--t-body-sm); color: var(--ink); }
+.ts-beat-note { display: block; font-size: var(--t-caption); color: var(--fg-muted); line-height: 1.45; }
+.ts-none { color: var(--fg-quiet); margin: 6px 0 0; }
+.ts-thematic { color: var(--slate-300); margin: var(--space-3) 0 0; }
 .series-week { width: 26px; height: 26px; display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-size: 12px; color: var(--fen); background: var(--bg-sunken); border-radius: var(--radius-sm, 5px); border: 1px solid var(--border); }
 .series-week:hover { border-color: var(--reed); color: var(--reed-deep); background: var(--ivory); }
 .yearcard-series { color: var(--reed-deep); }

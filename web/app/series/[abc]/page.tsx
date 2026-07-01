@@ -69,6 +69,17 @@ export default async function SeriesPage({ params }: { params: Promise<{ abc: st
                   <div className="series-span">
                     {s.from} → {s.to}
                   </div>
+                  {s.arc ? <p className="series-arc">{s.arc}</p> : null}
+                  {s.beats?.length ? (
+                    <ol className="series-beats">
+                      {s.beats.map((b) => (
+                        <li key={b.label}>
+                          <span className="beat-label">{b.label}</span>
+                          {b.note ? <span className="beat-note"> — {b.note}</span> : null}
+                        </li>
+                      ))}
+                    </ol>
+                  ) : null}
                   <div className="series-weeks-list">
                     {s.occasions.map((oid, i) => (
                       <Link key={oid} href={`/${oid}/`} className="series-week" title={names.get(oid) ?? oid}>

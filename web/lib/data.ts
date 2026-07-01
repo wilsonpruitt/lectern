@@ -95,6 +95,7 @@ export type Occasion = {
   lenses: unknown | null;
 };
 
+export type SeriesBeat = { label: string; note?: string | null };
 export type SeriesMembership = {
   id: string;
   role: string;
@@ -104,6 +105,8 @@ export type SeriesMembership = {
   of: number;
   prev: string | null;
   next: string | null;
+  arc?: string | null;
+  beat?: SeriesBeat | null;
 };
 export type IndexEntry = {
   id: string;
@@ -128,6 +131,8 @@ export type Series = {
   occasions: string[];
   from: string | null;
   to: string | null;
+  arc?: string | null;
+  beats?: { from: number; to: number; label: string; note?: string | null }[];
 };
 
 const BUILD_DIR = path.join(process.cwd(), "..", "data", "build");
