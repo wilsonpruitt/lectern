@@ -43,8 +43,26 @@ import liturgical_dates as litdates  # calendar date of each occasion (current c
 
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
+API = LECTERN / "web" / "public" / "api"      # public JSON API (served at /api/*)
 CALLS = LECTERN / "corpus" / "calls-to-worship" / "drafts"
 TURN = LECTERN / "corpus" / "turn"
+
+
+def worship_block(doc: dict) -> dict:
+    """A Circuit-friendly, flattened 'drop into the service' payload: the call to
+    worship + the day's scriptures, hymns, and praise for the primary track."""
+    tracks = doc["tracks"]
+    tkey = "complementary" if "complementary" in tracks else next(iter(tracks), None)
+    t = tracks.get(tkey, {"readings": [], "hymns": [], "praise": []})
+    return {
+        "occasion": doc["occasion"],
+        "track": tkey,
+        "callToWorship": doc["calls"],                       # Wilson's own calls
+        "scriptures": [{"role": r["role"], "ref": r["ref"], "refKey": r["refKey"]}
+                       for r in t["readings"]],
+        "hymns": t["hymns"],
+        "praise": t["praise"],
+    }
 FACETS = list(tc.WEIGHTS)           # theme, image, mood, function
 
 
@@ -245,6 +263,11 @@ def main() -> None:
             continue
         out = BUILD / f"{occ['id']}.json"
         out.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")
+        # public API mirror (full contract + a Circuit-friendly `worship` block)
+        API.mkdir(parents=True, exist_ok=True)
+        api_doc = {**doc, "worship": worship_block(doc)}
+        (API / f"{occ['id']}.json").write_text(
+            json.dumps(api_doc, ensure_ascii=False), encoding="utf-8")
     # Only (re)write the ordered index on a full build, so partial runs don't
     # truncate it. Filename starts with "_" so the web data layer skips it.
     if not to_stdout and args == ["--all"]:
@@ -254,6 +277,30 @@ def main() -> None:
         (BUILD / "_series.json").write_text(
             json.dumps(series_by_year, indent=2, ensure_ascii=False),
             encoding="utf-8")
+        # public API index + series + a self-describing manifest
+        API.mkdir(parents=True, exist_ok=True)
+        (API / "index.json").write_text(
+            json.dumps({"occasions": index}, ensure_ascii=False), encoding="utf-8")
+        (API / "series.json").write_text(
+            json.dumps(series_by_year, ensure_ascii=False), encoding="utf-8")
+        (API / "manifest.json").write_text(json.dumps({
+            "name": "Lectern API",
+            "description": "Per-occasion lectionary data for the RCL — readings, "
+                           "hymn & praise recommendations, calls to worship, the "
+                           "Turn, lenses, native series. Static JSON, CORS-open.",
+            "base": "https://lectern.wrootpress.com/api",
+            "endpoints": {
+                "index": "/api/index.json  — ordered occasions (id, name, date, "
+                         "hasCalls, hasTurn, series membership)",
+                "occasion": "/api/{id}.json  — full contract + a flattened `worship` "
+                            "block (callToWorship, scriptures, hymns, praise) for "
+                            "dropping into a service plan",
+                "series": "/api/series.json  — native series per year",
+            },
+            "count": len(index),
+            "pointerOnly": "Hymn/praise/sermon/confessional text is NOT included — "
+                           "only citations, numbers, titles, tags, and links.",
+        }, indent=2, ensure_ascii=False), encoding="utf-8")
     if not to_stdout:
         print(f"wrote {len(targets)} occasion file(s) to {BUILD}  "
               f"({n_calls} with curated calls)"
