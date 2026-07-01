@@ -32,7 +32,13 @@ export default function Home() {
           year: the day&rsquo;s readings anchored, with sermon companions, hymns, calls to
           worship, the church&rsquo;s reading-traditions, and the Turn arranged around them.
         </p>
-        <p className="imprint">a Wroot Press workbench</p>
+        <p className="imprint">
+          a{" "}
+          <a href="https://wrootpress.com" className="imprint-link">
+            Wroot Press
+          </a>{" "}
+          workbench
+        </p>
       </section>
 
       {thisSunday ? (
@@ -117,6 +123,11 @@ export default function Home() {
       </section>
 
       <div className="footer">
+        <div className="footer-links">
+          <a href="https://wrootpress.com">Wroot Press ↗</a>
+          <span className="dot-sep">·</span>
+          <a href="https://wrootlabs.com">Wroot Labs ↗</a>
+        </div>
         Recommendations connect readings, sermons, and hymns by shared faceted tags — not
         scripture coincidence. The Turn&rsquo;s focus drafts are surfaced from the church&rsquo;s
         attested reading-traditions (Catena Aurea), not generated. Pointer-only: no

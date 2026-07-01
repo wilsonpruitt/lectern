@@ -128,6 +128,12 @@ a { color: inherit; text-decoration: none; }
   max-width: 30em; line-height: 1.5; margin: var(--space-4) 0 0;
 }
 .hero .imprint { font-size: var(--t-caption); color: var(--fg-quiet); letter-spacing: 0.4px; margin-top: var(--space-3); }
+.hero .imprint-link { color: var(--fen); border-bottom: 1px solid var(--border-strong); }
+.hero .imprint-link:hover { color: var(--reed-deep); border-color: var(--reed); }
+.footer-links { display: flex; justify-content: center; gap: var(--space-3); margin-bottom: var(--space-3); }
+.footer-links a { font-family: var(--sans); font-size: var(--t-body-sm); color: var(--fen); font-weight: 500; }
+.footer-links a:hover { color: var(--reed-deep); }
+.footer-links .dot-sep { color: var(--fg-quiet); }
 /* this Sunday + the weeks ahead */
 .this-sunday { padding: 0 var(--space-6) var(--space-6); }
 .this-sunday > .eyebrow { color: var(--reed-deep); }
