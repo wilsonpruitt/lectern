@@ -10,8 +10,8 @@ a single self-contained JSON at data/build/<occasion-id>.json with the shape:
       "tracks": {                       # "single" when the day has no dual tracks
         "<track>": {
           "label": str,
-          "readings": [{role, ref, refKey, tags:{facet:[..]}}],
-          "sermons":  [{title, author, text, tags:[..], score}],
+          "readings": [{role, ref, refKey, tags:{facet:[..]}, notes:[{chapter,v_start,v_end,text}]}],
+          "sermons":  [{title, author, text, tags:[..], score}],   # secondary, tag-based
           "hymns":    [{hymnal, number, title, tags:[..], score}]
         }, ...
       },
@@ -40,6 +40,7 @@ import connections as conn          # reading_links / doctrine_links (interpreti
 import praise as praise_mod         # praise-song recs (Covenant repertoire, pointer-only)
 import series as series_mod         # native series detection (the founding thesis)
 import liturgical_dates as litdates  # calendar date of each occasion (current cycle)
+import wesley_notes as wn           # Wesley's Notes per reading (primary Wesley resource)
 
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
@@ -72,7 +73,7 @@ def reading_tags(rcl_tags: dict, refkey: str) -> dict:
     return {f: list(d.get(f, [])) for f in FACETS if d.get(f)}
 
 
-def track_readings(occ: dict, rcl_tags: dict) -> dict:
+def track_readings(occ: dict, rcl_tags: dict, notes_con) -> dict:
     """{track: [reading-dict]} mirroring tag_connect.occasion_tracks but keeping
     refKey + ordered, contract-shaped reading dicts. Untracked readings appear in
     both tracks; 'alt' (or-alternative) readings are dropped, as in the connector."""
@@ -87,6 +88,7 @@ def track_readings(occ: dict, rcl_tags: dict) -> dict:
             "ref": r["refDisplay"],
             "refKey": r["refKey"],
             "tags": reading_tags(rcl_tags, r["refKey"]),
+            "notes": wn.notes_for_refkey(r["refKey"], notes_con),
         }
         tr = r.get("track")
         if tr in tracks:
@@ -173,8 +175,8 @@ def load_turn(occ_id: str) -> dict | None:
 
 
 def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
-          hymn_idf: dict, praise_songs: list[dict]) -> dict:
-    tracks_in = track_readings(occ, rcl_tags)
+          hymn_idf: dict, praise_songs: list[dict], notes_con) -> dict:
+    tracks_in = track_readings(occ, rcl_tags, notes_con)
     labels = {"semicontinuous": "Semicontinuous", "complementary": "Complementary",
               "single": "Readings"}
     tracks_out = {}
@@ -237,10 +239,11 @@ def main() -> None:
     series_by_year = series_mod.build()              # native series (founding thesis)
     membership = series_mod.membership(series_by_year)
     occ_dates = litdates.all_dates()                 # calendar date per occasion
+    notes_con = wn.connect()
     n_calls = 0
     index = []
     for occ in targets:
-        doc = build(occ, rcl_tags, sermons, hymns, hymn_idf, praise_songs)
+        doc = build(occ, rcl_tags, sermons, hymns, hymn_idf, praise_songs, notes_con)
         doc["occasion"].update(occ_dates.get(occ["id"], {}))
         if doc["calls"]:
             n_calls += 1

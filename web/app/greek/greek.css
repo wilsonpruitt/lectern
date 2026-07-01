@@ -1,0 +1,80 @@
+/* Greek study tool — interlinear parsing (left) + classical lexicon panel (right).
+   Uses the Fen & Ink tokens from brand.css. */
+
+.gk-wrap { padding: var(--space-5, 20px) var(--space-4, 16px) 64px; }
+
+.gk-head {
+  display: flex; align-items: baseline; gap: 16px;
+  padding-bottom: 12px; margin-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+.gk-back { font-family: var(--sans); font-size: var(--t-body-sm); color: var(--reed-deep); }
+.gk-ref { font-family: var(--serif); font-size: 1.9rem; margin: 0; color: var(--ink); }
+.gk-vnav { margin-left: auto; display: flex; gap: 14px; font-family: var(--sans); font-size: var(--t-body-sm); }
+.gk-vnav a { color: var(--reed-deep); font-weight: 600; }
+.gk-vnav .off { color: var(--fg-quiet); opacity: 0.5; }
+
+.gk-lede, .gk-lede { max-width: var(--measure-prose, 66ch); color: var(--fg-muted); line-height: var(--lh-prose, 1.6); }
+
+/* ---- jump selector ---- */
+.gk-jump { display: flex; gap: 8px; margin: 18px 0 26px; flex-wrap: wrap; }
+.gk-jump select, .gk-jump button {
+  font-family: var(--sans); font-size: var(--t-body-sm);
+  padding: 7px 10px; border: 1px solid var(--border); border-radius: var(--radius-md, 8px);
+  background: var(--bg-raised, #fff); color: var(--ink);
+}
+.gk-jump button { background: var(--reed); color: var(--fg-on-reed, #fff); font-weight: 600; cursor: pointer; border-color: var(--reed); }
+
+.gk-booklist { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 6px; }
+.gk-booklist a { font-family: var(--serif); font-size: 1.1rem; color: var(--reed-deep); font-weight: 600; }
+.gk-quiet, .gk-booklist .gk-quiet { font-family: var(--sans); font-size: var(--t-caption); color: var(--fg-quiet); }
+
+/* ---- two-column study layout ---- */
+.gk-layout { display: grid; grid-template-columns: 1fr 380px; gap: 28px; align-items: start; }
+@media (max-width: 860px) { .gk-layout { grid-template-columns: 1fr; } }
+
+/* interlinear words */
+.gk-text { display: flex; flex-wrap: wrap; gap: 8px; }
+.gk-word {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
+  padding: 8px 10px; border: 1px solid transparent; border-radius: var(--radius-md, 8px);
+  background: var(--bg-sunken); cursor: pointer; text-align: left;
+  transition: border-color var(--dur-fast, 120ms) var(--ease-quiet, ease);
+}
+.gk-word:hover { border-color: var(--border-strong, var(--border)); }
+.gk-word.sel { border-color: var(--reed); background: var(--fen-mist, var(--bg-raised)); }
+.gk-surface { font-family: var(--serif); font-size: 1.3rem; color: var(--ink); line-height: 1.2; }
+.gk-gloss { font-family: var(--sans); font-size: var(--t-caption, 0.78rem); color: var(--reed-deep); }
+.gk-morph { font-family: var(--sans); font-size: var(--t-micro, 0.68rem); color: var(--fg-quiet); }
+
+/* lexicon panel */
+.gk-panel {
+  position: sticky; top: 16px;
+  border: 1px solid var(--border); border-radius: var(--radius-lg, 12px);
+  background: var(--bg-raised, #fff); padding: 16px 18px; min-height: 120px;
+}
+@media (max-width: 860px) { .gk-panel { position: static; } }
+.gk-hint { font-family: var(--sans); font-size: var(--t-body-sm); color: var(--fg-quiet); margin: 4px 0; }
+.gk-nomatch { color: var(--fg-muted); }
+
+.gk-entry-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.gk-lemma { font-family: var(--serif); font-size: 1.5rem; color: var(--ink); }
+.gk-entry-morph { font-family: var(--sans); font-size: var(--t-caption); color: var(--fg-quiet); }
+
+.gk-source { margin-top: 12px; }
+.gk-source h4 { font-family: var(--sans); font-size: var(--t-micro, 0.68rem); text-transform: uppercase; letter-spacing: 0.06em; color: var(--reed-deep); margin: 0 0 6px; }
+.gk-toggle { font-family: var(--sans); font-size: var(--t-caption); color: var(--reed-deep); background: none; border: none; padding: 0; cursor: pointer; font-weight: 600; }
+.gk-lsj-teaser { font-family: var(--sans); font-size: var(--t-caption); color: var(--fg-muted); margin: 4px 0 0; }
+
+/* rendered lexicon HTML */
+.gk-lex { font-family: var(--serif); font-size: var(--t-body-sm, 0.9rem); line-height: 1.55; color: var(--fg); }
+.gk-lex .tr { font-style: italic; color: var(--ink); }
+.gk-lex .grk { font-family: var(--serif); }
+.gk-lex .sense { margin: 4px 0; }
+.gk-lex .sense .sn { font-weight: 700; color: var(--reed-deep); }
+.gk-lex .sense.lvl2 { margin-left: 10px; }
+.gk-lex .homograph { margin: 6px 0; padding-left: 8px; border-left: 2px solid var(--border); }
+.gk-lex .homograph .hn { font-weight: 700; color: var(--reed-deep); margin-right: 4px; }
+
+.gk-foot { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--border); font-family: var(--sans); font-size: var(--t-caption); color: var(--fg-quiet); line-height: 1.5; max-width: 70ch; }
+.gk-foot a { color: var(--reed-deep); text-decoration: underline; }

@@ -4,11 +4,18 @@
 import fs from "node:fs";
 import path from "node:path";
 
+export type WesleyNote = {
+  chapter: number;
+  v_start: number;
+  v_end: number;
+  text: string;
+};
 export type Reading = {
   role: string;
   ref: string;
   refKey: string;
   tags: Record<string, string[]>;
+  notes: WesleyNote[];
 };
 export type Sermon = {
   title: string | null;

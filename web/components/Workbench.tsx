@@ -10,7 +10,7 @@ import type {
   SeriesMembership,
 } from "@/lib/data";
 
-type TabKey = "sermons" | "hymns" | "praise" | "calls" | "turn" | "lenses";
+type TabKey = "notes" | "hymns" | "praise" | "calls" | "turn" | "lenses";
 
 // canonical tradition key -> display label (mirrors src/turn_sources.py). New
 // traditions (eastern/modern/reformation…) slot in here as sources are added.
@@ -43,16 +43,85 @@ function Chips({ tags }: { tags: string[] }) {
   );
 }
 
-function Readings({ track }: { track: Track }) {
+// Link an NT reading to its Greek study page — the first verse of the pericope, and only for
+// books we've baked Greek data for (avoids dead links while the corpus grows book by book).
+function greekHref(refKey: string, greekBooks: string[]): string | null {
+  const start = refKey.split("-")[0];
+  const [book, ch, v] = start.split(".");
+  if (!v || !greekBooks.includes(book)) return null;
+  return `/greek/${book}.${ch}.${v}/`;
+}
+
+function Readings({ track, greekBooks }: { track: Track; greekBooks: string[] }) {
   return (
     <ul className="readings">
-      {track.readings.map((r) => (
-        <li className="reading" key={r.role + r.refKey}>
-          <div className="role">{r.role}</div>
-          <div className="ref">{r.ref}</div>
-        </li>
-      ))}
+      {track.readings.map((r) => {
+        const gk = greekHref(r.refKey, greekBooks);
+        return (
+          <li className="reading" key={r.role + r.refKey}>
+            <div className="role">{r.role}</div>
+            <div className="ref">{r.ref}</div>
+            {gk && (
+              <Link className="study-greek" href={gk}>
+                Study the Greek →
+              </Link>
+            )}
+          </li>
+        );
+      })}
     </ul>
+  );
+}
+
+function Notes({ track }: { track: Track }) {
+  const anyNotes = track.readings.some((r) => r.notes.length > 0);
+  return (
+    <div className="notes">
+      <p className="lenses-intro">
+        John Wesley&rsquo;s own <em>Explanatory Notes Upon the Old and New Testament</em> on
+        the day&rsquo;s readings &mdash; his verse-by-verse commentary, not a summary of it.{" "}
+        <a
+          className="notes-source-link"
+          href="https://notes.historyofmethodism.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read the full edition ↗
+        </a>
+      </p>
+      {!anyNotes ? (
+        <div className="empty">Wesley did not comment on any of today&rsquo;s readings.</div>
+      ) : (
+        track.readings.map((r) => (
+          <div className="notes-reading" key={r.role + r.refKey}>
+            <div className="notes-reading-head">
+              <span className="role">{r.role}</span> {r.ref}
+            </div>
+            {r.notes.length ? (
+              <ul className="wesley-notes">
+                {r.notes.map((n, i) => {
+                  const vrange =
+                    n.v_start === n.v_end ? `${n.v_start}` : `${n.v_start}–${n.v_end}`;
+                  return (
+                    <li className="wesley-note" key={i}>
+                      <span className="wn-v">v.{vrange}</span>
+                      <span className="wn-text">{n.text}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            ) : (
+              <div className="empty small">no note on this passage</div>
+            )}
+          </div>
+        ))
+      )}
+
+      <div className="related-sermons">
+        <span className="eyebrow">Related Wesley sermons</span>
+        <Sermons track={track} />
+      </div>
+    </div>
   );
 }
 
@@ -411,26 +480,28 @@ export default function Workbench({
   prevId,
   nextId,
   series = [],
+  greekBooks = [],
 }: {
   occ: Occasion;
   yearHref: string;
   prevId: string | null;
   nextId: string | null;
   series?: SeriesMembership[];
+  greekBooks?: string[];
 }) {
   const trackKeys = Object.keys(occ.tracks);
   const dual = trackKeys.length > 1;
   const [track, setTrack] = useState(
     trackKeys.includes("complementary") ? "complementary" : trackKeys[0]
   );
-  const [tab, setTab] = useState<TabKey>("sermons");
+  const [tab, setTab] = useState<TabKey>("notes");
   const [reg, setReg] = useState("A");
 
   const t = occ.tracks[track] ?? occ.tracks[trackKeys[0]];
   const o = occ.occasion;
 
   const tabs: [TabKey, string, boolean][] = [
-    ["sermons", "Sermons", false],
+    ["notes", "Wesley's Notes", false],
     ["hymns", "Hymns", false],
     ["praise", "Praise", false],
     ["calls", "Call to Worship", false],
@@ -496,7 +567,7 @@ export default function Workbench({
       <div className="workbench">
         <aside className="rail">
           <span className="eyebrow">The day · {t.label} track</span>
-          <Readings track={t} />
+          <Readings track={t} greekBooks={greekBooks} />
         </aside>
         <main className="panel">
           <div className="tabs">
@@ -513,7 +584,7 @@ export default function Workbench({
             ))}
           </div>
           <div className="panel-body">
-            {tab === "sermons" && <Sermons track={t} />}
+            {tab === "notes" && <Notes track={t} />}
             {tab === "hymns" && <Hymns track={t} />}
             {tab === "praise" && <Praise track={t} />}
             {tab === "calls" && <Calls occ={occ} reg={reg} setReg={setReg} />}
