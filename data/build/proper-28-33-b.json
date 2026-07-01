@@ -253,6 +253,88 @@
           "score": 1.85
         }
       ],
+      "praise": [
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "blood"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Let Thy Blood in Mercy Poured",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Let+Thy+Blood+in+Mercy+Poured+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "table-communion"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "All the Poor and Powerless",
+          "timesUsed": 6,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=All+the+Poor+and+Powerless+worship+song",
+          "tags": [
+            "justice",
+            "kingdom-of-god",
+            "praise-and-exultation"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Gratitude",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Gratitude+worship+song",
+          "tags": [
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "thanksgiving"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -316,11 +398,36 @@
         ],
         "doctrine": [
           {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
               "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
             ]
           },
           {
@@ -340,37 +447,12 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise",
-              "last-things"
-            ]
-          },
-          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
               "kingdom-of-god",
               "last-things"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
             ]
           },
           {
@@ -390,19 +472,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "judgment"
+              "faith-and-trust"
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "judgment"
+              "providence-and-care"
             ]
           },
           {
@@ -691,6 +773,89 @@
           "score": 1.96
         }
       ],
+      "praise": [
+        {
+          "title": "Let Thy Blood in Mercy Poured",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Let+Thy+Blood+in+Mercy+Poured+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "cup",
+            "table-communion"
+          ],
+          "score": 4.5
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "hope-and-promise",
+            "light",
+            "trust"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "faith-and-trust",
+            "resurrection-and-life"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "blood"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Ain't No Grave",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Ain%27t+No+Grave+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "last-things",
+            "resurrection-and-life"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -754,6 +919,31 @@
         ],
         "doctrine": [
           {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
             "title": "Articles of Religion",
             "article": "Art. XX, the One Oblation of Christ",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
@@ -767,23 +957,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
               "atonement"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise",
-              "last-things"
             ]
           },
           {
@@ -820,22 +993,6 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
             "article": "the resurrection of the body",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
             "themes": [
@@ -848,6 +1005,14 @@
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
             "themes": [
               "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ],

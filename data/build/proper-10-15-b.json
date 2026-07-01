@@ -261,6 +261,92 @@
           "score": 2.26
         }
       ],
+      "praise": [
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "creation",
+            "holy-spirit",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "atonement",
+            "grace",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.7
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "How Great Is Our God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Great+Is+Our+God+worship+song",
+          "tags": [
+            "creation",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.2
+        },
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "atonement",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -339,34 +425,26 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
+              "covenant"
             ]
           },
           {
             "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
             "themes": [
-              "creation"
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
             ]
           },
           {
@@ -394,22 +472,6 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
             "title": "Nicene Creed",
             "article": "the Holy Spirit, the giver of life",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
@@ -426,6 +488,22 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
@@ -434,11 +512,19 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
             "themes": [
-              "covenant"
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
             ]
           }
         ],
@@ -450,6 +536,14 @@
             "themes": [
               "prayer-and-worship",
               "thanksgiving"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           },
           {
@@ -466,14 +560,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
             "themes": [
               "creation"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
             ]
           }
         ]
@@ -709,6 +795,84 @@
           "score": 1.72
         }
       ],
+      "praise": [
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "blood"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "atonement",
+            "grace",
+            "praise-and-exultation"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Blameless",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Blameless+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "grace"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Wayfaring Stranger",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Wayfaring+Stranger+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "longing-and-waiting",
+            "suffering-and-endurance"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Let Thy Blood in Mercy Poured",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Let+Thy+Blood+in+Mercy+Poured+worship+song",
+          "tags": [
+            "atonement",
+            "blood"
+          ],
+          "score": 2.5
+        },
+        {
+          "title": "When I Survey the Wondrous Cross",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=When+I+Survey+the+Wondrous+Cross+worship+song",
+          "tags": [
+            "atonement",
+            "blood"
+          ],
+          "score": 2.5
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -778,19 +942,27 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "atonement"
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
             ]
           },
           {
             "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
             "themes": [
-              "atonement"
+              "judgment"
             ]
           },
           {
@@ -818,30 +990,6 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
-            ]
-          },
-          {
             "title": "Nicene Creed",
             "article": "the Holy Spirit, the giver of life",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
@@ -858,11 +1006,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "hope-and-promise"
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "atonement"
             ]
           },
           {
@@ -880,9 +1036,25 @@
             "themes": [
               "justice"
             ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
+            ]
+          },
           {
             "community": "The Political Community",
             "topic": "Health Care",
@@ -905,14 +1077,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
             "themes": [
               "justice"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
-            "themes": [
-              "peace-of-god"
             ]
           }
         ]

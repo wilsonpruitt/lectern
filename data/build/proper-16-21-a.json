@@ -258,6 +258,93 @@
           "score": 2.15
         }
       ],
+      "praise": [
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "faith-and-trust",
+            "sea-and-storm",
+            "trust",
+            "water"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 5.1
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "sea-and-storm",
+            "trust"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Jesus, Lover of My Soul",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Jesus%2C+Lover+of+My+Soul+worship+song",
+          "tags": [
+            "providence-and-care",
+            "rock-and-refuge",
+            "sea-and-storm"
+          ],
+          "score": 4.0
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "creed-affirmation",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "New Wine",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=New+Wine+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "sanctification-holiness",
+            "suffering-and-endurance",
+            "trust"
+          ],
+          "score": 3.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -327,14 +414,6 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
             "title": "Articles of Religion",
             "article": "Of Sanctification",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-26-of-sanctification/",
@@ -351,19 +430,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "providence-and-care"
+              "prayer-and-worship"
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "faith-and-trust"
+              "messianic-hope"
             ]
           },
           {
@@ -383,19 +462,27 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the one condition",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
             ]
           }
         ],
@@ -410,19 +497,19 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "community": "The Political Community",
             "topic": "Health Care",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
               "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]
@@ -692,6 +779,96 @@
           "score": 2.14
         }
       ],
+      "praise": [
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust",
+            "hand-and-arm",
+            "healing-and-comfort",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 7.1
+        },
+        {
+          "title": "The Blessing",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Blessing+worship+song",
+          "tags": [
+            "comfort-and-consolation",
+            "faithfulness",
+            "hand-and-arm",
+            "providence-and-care"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "faithfulness",
+            "praise-and-exultation",
+            "providence-and-care",
+            "thanksgiving",
+            "thanksgiving-offering"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "creed-affirmation",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "hope-and-promise",
+            "trust"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Glory, Glory God Is Able",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Glory%2C+Glory+God+Is+Able+worship+song",
+          "tags": [
+            "deliverance",
+            "praise-and-exultation",
+            "praise-opening",
+            "providence-and-care"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -761,11 +938,11 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "prayer-and-worship"
+              "hope-and-promise"
             ]
           },
           {
@@ -785,19 +962,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "providence-and-care"
+              "prayer-and-worship"
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "faith-and-trust"
+              "messianic-hope"
             ]
           },
           {
@@ -817,27 +994,27 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the one condition",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise"
             ]
           }
         ],

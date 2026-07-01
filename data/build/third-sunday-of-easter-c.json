@@ -271,6 +271,95 @@
           "score": 2.22
         }
       ],
+      "praise": [
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "king-and-throne",
+            "lamb",
+            "praise-and-exultation",
+            "resurrection-and-life"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "grace",
+            "king-and-throne",
+            "lamb",
+            "praise-and-exultation"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "Rising Sun",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Rising+Sun+worship+song",
+          "tags": [
+            "light",
+            "mercy-and-forgiveness",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "resurrection-and-life"
+          ],
+          "score": 5.1
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "king-and-throne",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 4.7
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "light",
+            "sea-and-storm"
+          ],
+          "score": 4.0
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -347,6 +436,14 @@
         "doctrine": [
           {
             "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
@@ -370,19 +467,11 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
             "themes": [
-              "creation"
+              "mercy-and-forgiveness"
             ]
           },
           {
@@ -402,30 +491,6 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
             "article": "the resurrection of the body",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
@@ -440,6 +505,30 @@
             "themes": [
               "resurrection-and-life"
             ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
           }
         ],
         "social": [
@@ -450,22 +539,6 @@
             "themes": [
               "prayer-and-worship",
               "thanksgiving"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Stewardship of Creation",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Global Warming & Climate Change",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
-            "themes": [
-              "creation"
             ]
           },
           {
@@ -482,6 +555,22 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
             ]
           }
         ]

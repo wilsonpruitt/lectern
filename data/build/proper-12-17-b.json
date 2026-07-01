@@ -234,6 +234,87 @@
           "score": 1.79
         }
       ],
+      "praise": [
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "holy-spirit",
+            "sea-and-storm",
+            "sending-benediction"
+          ],
+          "score": 4.0
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "sea-and-storm"
+          ],
+          "score": 3.5
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "holy-spirit",
+            "praise-and-exultation",
+            "prayer-and-worship"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Glory, Glory God Is Able",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Glory%2C+Glory+God+Is+Able+worship+song",
+          "tags": [
+            "deliverance",
+            "praise-and-exultation",
+            "providence-and-care"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Build Your Kingdom Here",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Build+Your+Kingdom+Here+worship+song",
+          "tags": [
+            "holy-spirit",
+            "kingdom-of-god",
+            "sending-benediction"
+          ],
+          "score": 2.5
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -311,35 +392,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "doing good to bodies and souls",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "love-of-neighbor"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VII, Original Sin",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
-            "themes": [
-              "sin-and-fall"
             ]
           },
           {
@@ -359,6 +416,14 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. VII, Original Sin",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
+            "themes": [
+              "sin-and-fall"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the Holy Spirit, the giver of life",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
@@ -375,11 +440,27 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
               "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ],
@@ -390,14 +471,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "prayer-and-worship"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
             ]
           },
           {
@@ -414,6 +487,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]
@@ -671,6 +752,92 @@
           "score": 2.42
         }
       ],
+      "praise": [
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "holy-spirit",
+            "sea-and-storm",
+            "sending-benediction",
+            "trust"
+          ],
+          "score": 4.6
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "creation",
+            "holy-spirit",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "hand-and-arm",
+            "providence-and-care"
+          ],
+          "score": 3.5
+        },
+        {
+          "title": "How Great Is Our God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Great+Is+Our+God+worship+song",
+          "tags": [
+            "creation",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.2
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "sea-and-storm",
+            "trust"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Gratitude",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Gratitude+worship+song",
+          "tags": [
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "thanksgiving",
+            "thanksgiving-offering"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -754,43 +921,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "doing good to bodies and souls",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "love-of-neighbor"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
             ]
           },
           {
@@ -810,11 +945,43 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
               "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ],
@@ -829,11 +996,20 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
-              "providence-and-care"
+              "hospitality-of-god",
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "The Social Community",
+            "topic": "Racism, Ethnocentrism & Tribalism",
+            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
+            "themes": [
+              "love-of-neighbor"
             ]
           },
           {
@@ -853,20 +1029,11 @@
             ]
           },
           {
-            "community": "The Social Community",
-            "topic": "Racism, Ethnocentrism & Tribalism",
-            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "love-of-neighbor"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Migrants, Immigrants & Refugees",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
-            "themes": [
-              "hospitality-of-god",
-              "love-of-neighbor"
+              "providence-and-care"
             ]
           }
         ]

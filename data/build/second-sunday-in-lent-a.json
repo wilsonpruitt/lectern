@@ -252,6 +252,89 @@
           "score": 2.42
         }
       ],
+      "praise": [
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "faith-and-trust",
+            "holy-spirit",
+            "sending-benediction",
+            "trust",
+            "water"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "hope-and-promise",
+            "trust"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "This I Know",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+I+Know+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "So Am I",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=So+Am+I+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Yet Not I But Through Christ in Me",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Yet+Not+I+But+Through+Christ+in+Me+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -322,18 +405,34 @@
         "doctrine": [
           {
             "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "providence-and-care"
+              "hope-and-promise"
             ]
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "article": "Art. XVII, Baptism",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
             "themes": [
-              "faith-and-trust"
+              "baptism"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one baptism for the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
+            "themes": [
+              "baptism"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant"
             ]
           },
           {
@@ -350,14 +449,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
             "themes": [
               "grace"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
             ]
           },
           {
@@ -378,34 +469,26 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "covenant"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XVII, Baptism",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
-            "themes": [
-              "baptism"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "one baptism for the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
-            "themes": [
-              "baptism"
+              "faith-and-trust"
             ]
           },
           {
             "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "hope-and-promise"
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
             ]
           }
         ],

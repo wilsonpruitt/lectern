@@ -242,6 +242,84 @@
           "score": 2.23
         }
       ],
+      "praise": [
+        {
+          "title": "The Transfiguration",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Transfiguration+worship+song",
+          "tags": [
+            "cloud",
+            "light",
+            "mountain",
+            "transfiguration-glory",
+            "wonder-and-awe"
+          ],
+          "score": 6.1
+        },
+        {
+          "title": "Light of the World (Here I Am to Worship)",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Light+of+the+World+%28Here+I+Am+to+Worship%29+worship+song",
+          "tags": [
+            "epiphany-manifestation",
+            "light",
+            "wonder-and-awe"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "The Ascension",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Ascension+worship+song",
+          "tags": [
+            "cloud",
+            "king-and-throne"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "light"
+          ],
+          "score": 2.5
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "king-and-throne",
+            "wonder-and-awe"
+          ],
+          "score": 2.1
+        },
+        {
+          "title": "Lo, How a Rose E'er Blooming",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Lo%2C+How+a+Rose+E%27er+Blooming+worship+song",
+          "tags": [
+            "messianic-hope",
+            "wonder-and-awe"
+          ],
+          "score": 1.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -305,14 +383,6 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "do no harm",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
@@ -330,20 +400,11 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
-            "themes": [
-              "word-of-god"
-            ]
-          },
-          {
             "title": "Nicene Creed",
-            "article": "God from God, Light from Light",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "epiphany-manifestation",
-              "transfiguration-glory"
+              "messianic-hope"
             ]
           },
           {
@@ -364,6 +425,23 @@
           },
           {
             "title": "Nicene Creed",
+            "article": "God from God, Light from Light",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
+            "themes": [
+              "epiphany-manifestation",
+              "transfiguration-glory"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
@@ -371,11 +449,11 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
+            "title": "Articles of Religion",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
             "themes": [
-              "messianic-hope"
+              "word-of-god"
             ]
           }
         ],

@@ -256,6 +256,92 @@
           "score": 2.25
         }
       ],
+      "praise": [
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "atonement",
+            "incarnation",
+            "king-and-throne",
+            "praise-and-exultation",
+            "resurrection-and-life"
+          ],
+          "score": 5.1
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "incarnation",
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 4.6
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.7
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "holy-spirit",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "atonement",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "blood"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -340,34 +426,10 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "incarnate of the Virgin Mary",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
-            "themes": [
-              "incarnation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "born of the Virgin Mary",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
-            "themes": [
-              "incarnation"
+              "covenant"
             ]
           },
           {
@@ -387,19 +449,19 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "kingdom-of-god"
+              "atonement"
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
-              "covenant"
+              "atonement"
             ]
           },
           {
@@ -416,6 +478,30 @@
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
             "themes": [
               "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "incarnate of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "born of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
             ]
           }
         ],
@@ -681,6 +767,87 @@
           "score": 2.41
         }
       ],
+      "praise": [
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "faith-and-trust",
+            "resurrection-and-life"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "New Wine",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=New+Wine+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "trust",
+            "vine-wine"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "blood"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "When I Survey the Wondrous Cross",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=When+I+Survey+the+Wondrous+Cross+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "wonder-and-awe"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "atonement",
+            "incarnation",
+            "resurrection-and-life"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "Let Thy Blood in Mercy Poured",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Let+Thy+Blood+in+Mercy+Poured+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "table-communion"
+          ],
+          "score": 3.0
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -758,6 +925,22 @@
             ]
           },
           {
+            "title": "Nicene Creed",
+            "article": "the Holy Spirit, the giver of life",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
+            "themes": [
+              "holy-spirit"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IV, the Holy Ghost",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
+            "themes": [
+              "holy-spirit"
+            ]
+          },
+          {
             "title": "Articles of Religion",
             "article": "Art. XX, the One Oblation of Christ",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
@@ -774,51 +957,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "title": "Articles of Religion",
             "article": "Art. IX, justification by faith",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "incarnate of the Virgin Mary",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
-            "themes": [
-              "incarnation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "born of the Virgin Mary",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
-            "themes": [
-              "incarnation"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the Holy Spirit, the giver of life",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
-            "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IV, the Holy Ghost",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
-            "themes": [
-              "holy-spirit"
             ]
           },
           {
@@ -836,9 +979,41 @@
             "themes": [
               "resurrection-and-life"
             ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "incarnate of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "born of the Virgin Mary",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
+            "themes": [
+              "incarnation"
+            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
+            ]
+          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
@@ -846,14 +1021,6 @@
             "themes": [
               "prayer-and-worship",
               "thanksgiving"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
             ]
           },
           {
@@ -865,11 +1032,11 @@
             ]
           },
           {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "peace-of-god"
+              "providence-and-care"
             ]
           }
         ]

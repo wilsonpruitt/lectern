@@ -37,6 +37,7 @@ from pathlib import Path
 import tag_connect as tc            # WEIGHTS, load, tagset, score, SPINE, TAGS
 import sermon_connect as sc         # recommend (sermon variant)
 import connections as conn          # reading_links / doctrine_links (interpretive layer)
+import praise as praise_mod         # praise-song recs (Covenant repertoire, pointer-only)
 import series as series_mod         # native series detection (the founding thesis)
 import liturgical_dates as litdates  # calendar date of each occasion (current cycle)
 
@@ -153,7 +154,7 @@ def load_turn(occ_id: str) -> dict | None:
 
 
 def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
-          hymn_idf: dict) -> dict:
+          hymn_idf: dict, praise_songs: list[dict]) -> dict:
     tracks_in = track_readings(occ, rcl_tags)
     labels = {"semicontinuous": "Semicontinuous", "complementary": "Complementary",
               "single": "Readings"}
@@ -168,6 +169,7 @@ def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
             "readings": readings,
             "sermons": sermon_recs(dts, sermons),
             "hymns": hymn_recs(dts, hymns, hymn_idf),
+            "praise": praise_mod.recommend(dts, praise_songs),
             "lenses": {
                 "readings": [
                     {"role": r["role"], "ref": r["ref"], "refKey": r["refKey"],
@@ -202,6 +204,7 @@ def main() -> None:
     sermons = tc.load("sermon_tags.json")["sermons"]
     hymns = tc.load("hymn_tags.json")["hymns"]
     hymn_idf = tc.idf_weights(hymns)   # IDF over the hymn corpus (per tag_connect)
+    praise_songs = praise_mod.load_songs()
 
     if args == ["--all"]:
         targets = spine["occasions"]
@@ -218,7 +221,7 @@ def main() -> None:
     n_calls = 0
     index = []
     for occ in targets:
-        doc = build(occ, rcl_tags, sermons, hymns, hymn_idf)
+        doc = build(occ, rcl_tags, sermons, hymns, hymn_idf, praise_songs)
         doc["occasion"].update(occ_dates.get(occ["id"], {}))
         if doc["calls"]:
             n_calls += 1

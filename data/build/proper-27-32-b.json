@@ -227,6 +227,83 @@
           "score": 1.23
         }
       ],
+      "praise": [
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "faith-and-trust"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "faithfulness",
+            "providence-and-care",
+            "thanksgiving-offering"
+          ],
+          "score": 2.5
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "creation",
+            "prayer-and-worship"
+          ],
+          "score": 2.0
+        },
+        {
+          "title": "So Will I (100 Billion X)",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=So+Will+I+%28100+Billion+X%29+worship+song",
+          "tags": [
+            "creation",
+            "providence-and-care"
+          ],
+          "score": 2.0
+        },
+        {
+          "title": "The Blessing",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Blessing+worship+song",
+          "tags": [
+            "faithfulness",
+            "providence-and-care"
+          ],
+          "score": 2.0
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -305,42 +382,18 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "atonement"
+              "covenant"
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "title": "Articles of Religion",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
             "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "last-things"
+              "wealth-and-possessions"
             ]
           },
           {
@@ -360,6 +413,54 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "last-things"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "last-things"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "maker of heaven and earth",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
@@ -373,30 +474,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
             "themes": [
               "creation"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XXIV, Christian Men's Goods",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
-            "themes": [
-              "wealth-and-possessions"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
-            "themes": [
-              "covenant"
             ]
           },
           {
@@ -426,6 +503,23 @@
             ]
           },
           {
+            "community": "The Economic Community",
+            "topic": "Poverty & Income Inequality",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
+            "themes": [
+              "justice",
+              "wealth-and-possessions"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Responsible Consumerism",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
+            "themes": [
+              "wealth-and-possessions"
+            ]
+          },
+          {
             "community": "Community of All Creation",
             "topic": "Caring for All Creatures",
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
@@ -447,23 +541,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
             "themes": [
               "creation"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Poverty & Income Inequality",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#poverty",
-            "themes": [
-              "justice",
-              "wealth-and-possessions"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Responsible Consumerism",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
-            "themes": [
-              "wealth-and-possessions"
             ]
           },
           {
@@ -703,6 +780,87 @@
           "score": 1.43
         }
       ],
+      "praise": [
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.2
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "faith-and-trust"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "All the Poor and Powerless",
+          "timesUsed": 6,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=All+the+Poor+and+Powerless+worship+song",
+          "tags": [
+            "justice",
+            "kingdom-of-god",
+            "praise-and-exultation"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "atonement",
+            "praise-and-exultation"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "atonement",
+            "praise-and-exultation"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -781,43 +939,10 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
             "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god",
-              "last-things"
+              "wealth-and-possessions"
             ]
           },
           {
@@ -838,10 +963,35 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. XXIV, Christian Men's Goods",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "wealth-and-possessions"
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "last-things"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god",
+              "last-things"
             ]
           },
           {
@@ -850,6 +1000,14 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           },
           {
@@ -879,11 +1037,11 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
-              "providence-and-care"
+              "hospitality-of-god"
             ]
           },
           {
@@ -904,11 +1062,11 @@
             ]
           },
           {
-            "community": "The Political Community",
-            "topic": "Migrants, Immigrants & Refugees",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "hospitality-of-god"
+              "providence-and-care"
             ]
           },
           {

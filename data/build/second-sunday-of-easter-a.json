@@ -236,6 +236,88 @@
           "score": 2.06
         }
       ],
+      "praise": [
+        {
+          "title": "Holy Spirit You Are Welcome Here",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Spirit+You+Are+Welcome+Here+worship+song",
+          "tags": [
+            "fire",
+            "holy-spirit",
+            "wind-and-breath"
+          ],
+          "score": 4.0
+        },
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "holy-spirit",
+            "sending-benediction",
+            "trust"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Build Your Kingdom Here",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Build+Your+Kingdom+Here+worship+song",
+          "tags": [
+            "holy-spirit",
+            "mission-and-witness",
+            "resolve-and-sending",
+            "sending-benediction"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "resurrection-and-life"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Ain't No Grave",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Ain%27t+No+Grave+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "resolve-and-sending",
+            "resurrection-and-life"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -311,27 +393,11 @@
         ],
         "doctrine": [
           {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
+              "hope-and-promise"
             ]
           },
           {
@@ -359,6 +425,14 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
             "title": "Apostles' Creed",
             "article": "the resurrection of the body",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
@@ -375,29 +449,37 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "hope-and-promise"
+              "messianic-hope"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ],
         "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
           {
             "community": "The Political Community",
             "topic": "Health Care",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
               "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]

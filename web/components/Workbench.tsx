@@ -10,7 +10,7 @@ import type {
   SeriesMembership,
 } from "@/lib/data";
 
-type TabKey = "sermons" | "hymns" | "calls" | "turn" | "lenses";
+type TabKey = "sermons" | "hymns" | "praise" | "calls" | "turn" | "lenses";
 
 // canonical tradition key -> display label (mirrors src/turn_sources.py). New
 // traditions (eastern/modern/reformation…) slot in here as sources are added.
@@ -97,6 +97,36 @@ function Hymns({ track }: { track: Track }) {
             <span className="score">{h.score.toFixed(1)}</span>
           </div>
           <Chips tags={h.tags} />
+        </div>
+      ))}
+    </>
+  );
+}
+
+function Praise({ track }: { track: Track }) {
+  if (!track.praise?.length)
+    return <div className="empty">No praise song shares the day&rsquo;s tags yet.</div>;
+  return (
+    <>
+      <p className="lenses-intro">
+        From Covenant&rsquo;s own repertoire, connected by shared tags. Pointer-only —
+        titles link out to find the song; usage is how often it&rsquo;s been sung.
+      </p>
+      {track.praise.map((s, i) => (
+        <div className="rec" key={i}>
+          <div className="line1">
+            <a className="title link" href={s.url} target="_blank" rel="noopener noreferrer">
+              {s.title} ↗
+            </a>
+            {s.frequency ? (
+              <span className="by">
+                {s.timesUsed}× · {s.frequency}
+                {s.pd ? " · PD" : ""}
+              </span>
+            ) : null}
+            <span className="score">{s.score.toFixed(1)}</span>
+          </div>
+          <Chips tags={s.tags} />
         </div>
       ))}
     </>
@@ -402,6 +432,7 @@ export default function Workbench({
   const tabs: [TabKey, string, boolean][] = [
     ["sermons", "Sermons", false],
     ["hymns", "Hymns", false],
+    ["praise", "Praise", false],
     ["calls", "Call to Worship", false],
     ["lenses", "Lenses", false],
     ["turn", "The Turn", !occ.turn],
@@ -484,6 +515,7 @@ export default function Workbench({
           <div className="panel-body">
             {tab === "sermons" && <Sermons track={t} />}
             {tab === "hymns" && <Hymns track={t} />}
+            {tab === "praise" && <Praise track={t} />}
             {tab === "calls" && <Calls occ={occ} reg={reg} setReg={setReg} />}
             {tab === "lenses" && <Lenses lenses={t.lenses} />}
             {tab === "turn" && <Turn turn={occ.turn} series={series} year={o.year} />}

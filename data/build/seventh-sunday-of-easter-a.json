@@ -252,6 +252,91 @@
           "score": 2.11
         }
       ],
+      "praise": [
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "deliverance",
+            "hand-and-arm",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 5.0
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.2
+        },
+        {
+          "title": "How Great Is Our God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Great+Is+Our+God+worship+song",
+          "tags": [
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "trinity",
+            "wonder-and-awe"
+          ],
+          "score": 3.2
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "holy-spirit",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Glory, Glory God Is Able",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Glory%2C+Glory+God+Is+Able+worship+song",
+          "tags": [
+            "deliverance",
+            "praise-and-exultation",
+            "praise-opening",
+            "providence-and-care"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "The Blessing",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Blessing+worship+song",
+          "tags": [
+            "comfort-and-consolation",
+            "hand-and-arm",
+            "providence-and-care"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -327,19 +412,27 @@
         ],
         "doctrine": [
           {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
               "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
             ]
           },
           {
@@ -360,22 +453,6 @@
           },
           {
             "title": "Nicene Creed",
-            "article": "one holy catholic and apostolic Church",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
-            "themes": [
-              "church-and-unity"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XIII, the Church",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
-            "themes": [
-              "church-and-unity"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
             "article": "of one Being with the Father",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
             "themes": [
@@ -388,14 +465,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
             "themes": [
               "trinity"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
             ]
           },
           {
@@ -415,11 +484,27 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "title": "Nicene Creed",
+            "article": "one holy catholic and apostolic Church",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
             "themes": [
-              "hope-and-promise"
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XIII, the Church",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
+            "themes": [
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           },
           {
@@ -449,19 +534,19 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "community": "The Political Community",
             "topic": "Health Care",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
               "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           },
           {

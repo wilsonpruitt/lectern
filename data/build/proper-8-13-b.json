@@ -252,6 +252,87 @@
           "score": 1.84
         }
       ],
+      "praise": [
+        {
+          "title": "Brokenness Aside",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Brokenness+Aside+worship+song",
+          "tags": [
+            "grace",
+            "mercy-and-forgiveness",
+            "penitence",
+            "repentance"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "hope-and-promise"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "Yet Not I But Through Christ in Me",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Yet+Not+I+But+Through+Christ+in+Me+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "grace",
+            "resurrection-and-life"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "Pass Me Not, O Gentle Savior",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Pass+Me+Not%2C+O+Gentle+Savior+worship+song",
+          "tags": [
+            "grace",
+            "longing-and-waiting",
+            "mercy-and-forgiveness"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Beautiful Things",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Beautiful+Things+worship+song",
+          "tags": [
+            "grace",
+            "resurrection-and-life",
+            "wonder-and-awe"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Wayfaring Stranger",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Wayfaring+Stranger+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "longing-and-waiting",
+            "suffering-and-endurance"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -321,11 +402,11 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "repentance"
+              "hope-and-promise"
             ]
           },
           {
@@ -337,19 +418,19 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
             "article": "the communion of saints",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
             "themes": [
               "saints-and-witnesses"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
             ]
           },
           {
@@ -370,14 +451,6 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
             "article": "the resurrection of the body",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
             "themes": [
@@ -393,11 +466,19 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "title": "Articles of Religion",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
             "themes": [
-              "hope-and-promise"
+              "repentance"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
@@ -437,14 +518,6 @@
           },
           {
             "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
-          {
-            "community": "The Political Community",
             "topic": "Restorative Justice",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#restorative",
             "themes": [
@@ -457,6 +530,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           },
           {
@@ -708,6 +789,89 @@
           "score": 1.41
         }
       ],
+      "praise": [
+        {
+          "title": "Beautiful Things",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Beautiful+Things+worship+song",
+          "tags": [
+            "creation",
+            "grace",
+            "resurrection-and-life",
+            "wonder-and-awe"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Yet Not I But Through Christ in Me",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Yet+Not+I+But+Through+Christ+in+Me+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace",
+            "resurrection-and-life"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust",
+            "healing-and-comfort"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "resurrection-and-life"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Rising Sun",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Rising+Sun+worship+song",
+          "tags": [
+            "mercy-and-forgiveness",
+            "praise-and-exultation",
+            "resurrection-and-life"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "All the Poor and Powerless",
+          "timesUsed": 6,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=All+the+Poor+and+Powerless+worship+song",
+          "tags": [
+            "justice",
+            "mercy-and-forgiveness",
+            "praise-and-exultation"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -777,22 +941,6 @@
         ],
         "doctrine": [
           {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
             "title": "Articles of Religion",
             "article": "Art. XXIV, Christian Men's Goods",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
@@ -802,18 +950,18 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
             "article": "Art. VII, Original Sin",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
             "themes": [
               "sin-and-fall"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
             ]
           },
           {
@@ -834,14 +982,6 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
             "article": "the resurrection of the body",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
             "themes": [
@@ -854,6 +994,30 @@
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
             "themes": [
               "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
             ]
           },
           {
@@ -874,22 +1038,6 @@
           }
         ],
         "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Stewardship of Creation",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Global Warming & Climate Change",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
-            "themes": [
-              "creation"
-            ]
-          },
           {
             "community": "The Economic Community",
             "topic": "Poverty & Income Inequality",
@@ -929,6 +1077,22 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "thanksgiving"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
             ]
           },
           {

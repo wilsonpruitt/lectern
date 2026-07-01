@@ -250,6 +250,87 @@
           "score": 1.62
         }
       ],
+      "praise": [
+        {
+          "title": "Lo, How a Rose E'er Blooming",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Lo%2C+How+a+Rose+E%27er+Blooming+worship+song",
+          "tags": [
+            "incarnation",
+            "manger-and-birth",
+            "messianic-hope"
+          ],
+          "score": 3.5
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "incarnation",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "All the Poor and Powerless",
+          "timesUsed": 6,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=All+the+Poor+and+Powerless+worship+song",
+          "tags": [
+            "justice",
+            "kingdom-of-god",
+            "praise-and-exultation"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Gratitude",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Gratitude+worship+song",
+          "tags": [
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "thanksgiving"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Welcome Table",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Welcome+Table+worship+song",
+          "tags": [
+            "hospitality-of-god",
+            "joy",
+            "justice"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "praise-and-exultation",
+            "providence-and-care",
+            "thanksgiving"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -327,11 +408,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "providence-and-care"
+              "messianic-hope"
             ]
           },
           {
@@ -343,11 +424,19 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
-              "call-and-discipleship"
+              "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           },
           {
@@ -367,22 +456,6 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "the slaveholding clause",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-slaveholding-clause/",
@@ -397,6 +470,14 @@
             "themes": [
               "justice"
             ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
           }
         ],
         "social": [
@@ -410,11 +491,12 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
-              "providence-and-care"
+              "hospitality-of-god",
+              "love-of-neighbor"
             ]
           },
           {
@@ -426,12 +508,11 @@
             ]
           },
           {
-            "community": "The Political Community",
-            "topic": "Migrants, Immigrants & Refugees",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "hospitality-of-god",
-              "love-of-neighbor"
+              "providence-and-care"
             ]
           },
           {

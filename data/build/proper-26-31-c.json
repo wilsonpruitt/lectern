@@ -245,6 +245,87 @@
           "score": 1.59
         }
       ],
+      "praise": [
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "hope-and-promise",
+            "trust"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "New Wine",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=New+Wine+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "suffering-and-endurance",
+            "trust"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "This I Know",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+I+Know+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "So Am I",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=So+Am+I+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Yet Not I But Through Christ in Me",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Yet+Not+I+But+Through+Christ+in+Me+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -314,27 +395,11 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "repentance"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XXIV, Christian Men's Goods",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
-            "themes": [
-              "wealth-and-possessions"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
+              "hope-and-promise"
             ]
           },
           {
@@ -356,26 +421,10 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
+            "article": "Art. XXIV, Christian Men's Goods",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
             "themes": [
-              "word-of-god"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, the Justification of Man",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "grace"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VIII, Free Will",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
-            "themes": [
-              "grace"
+              "wealth-and-possessions"
             ]
           },
           {
@@ -395,11 +444,35 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "hope-and-promise"
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
+            "themes": [
+              "repentance"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
@@ -409,9 +482,25 @@
             "themes": [
               "justice"
             ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
+            "themes": [
+              "word-of-god"
+            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "Civil Disobedience",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
+            "themes": [
+              "law-and-commandment"
+            ]
+          },
           {
             "community": "The Economic Community",
             "topic": "Poverty & Income Inequality",
@@ -427,14 +516,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
             "themes": [
               "wealth-and-possessions"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Civil Disobedience",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
-            "themes": [
-              "law-and-commandment"
             ]
           },
           {
@@ -720,6 +801,89 @@
           "score": 2.01
         }
       ],
+      "praise": [
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Brokenness Aside",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Brokenness+Aside+worship+song",
+          "tags": [
+            "grace",
+            "mercy-and-forgiveness",
+            "pardon-assurance",
+            "penitence",
+            "repentance"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Let Thy Blood in Mercy Poured",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Let+Thy+Blood+in+Mercy+Poured+worship+song",
+          "tags": [
+            "blood",
+            "mercy-and-forgiveness",
+            "penitence"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "blood",
+            "mercy-and-forgiveness"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Blameless",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Blameless+worship+song",
+          "tags": [
+            "assurance",
+            "grace",
+            "mercy-and-forgiveness"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -798,50 +962,10 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
-            "themes": [
-              "repentance"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
             "article": "Art. XXIV, Christian Men's Goods",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-24-of-christian-mens-goods/",
             "themes": [
               "wealth-and-possessions"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VII, Original Sin",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
-            "themes": [
-              "sin-and-fall"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, the Justification of Man",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "grace"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VIII, Free Will",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
-            "themes": [
-              "grace"
             ]
           },
           {
@@ -861,11 +985,51 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. VII, Original Sin",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
+            "themes": [
+              "sin-and-fall"
+            ]
+          },
+          {
             "title": "Apostles' Creed",
             "article": "the forgiveness of sins",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
             "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, the Justification of Man",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VIII, Free Will",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
+            "themes": [
+              "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
+            "themes": [
+              "repentance"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
@@ -914,14 +1078,6 @@
           },
           {
             "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
-          {
-            "community": "The Political Community",
             "topic": "Restorative Justice",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#restorative",
             "themes": [
@@ -934,6 +1090,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           },
           {

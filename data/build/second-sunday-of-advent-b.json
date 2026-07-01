@@ -254,6 +254,85 @@
           "score": 2.16
         }
       ],
+      "praise": [
+        {
+          "title": "Wayfaring Stranger",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Wayfaring+Stranger+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "last-things",
+            "longing-and-waiting",
+            "road-and-journey"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Brokenness Aside",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Brokenness+Aside+worship+song",
+          "tags": [
+            "mercy-and-forgiveness",
+            "pardon-assurance",
+            "repentance"
+          ],
+          "score": 2.5
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "healing-and-comfort"
+          ],
+          "score": 2.1
+        },
+        {
+          "title": "Holy Spirit You Are Welcome Here",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Spirit+You+Are+Welcome+Here+worship+song",
+          "tags": [
+            "fire",
+            "longing-and-waiting"
+          ],
+          "score": 2.1
+        },
+        {
+          "title": "Pass Me Not, O Gentle Savior",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Pass+Me+Not%2C+O+Gentle+Savior+worship+song",
+          "tags": [
+            "longing-and-waiting",
+            "mercy-and-forgiveness",
+            "pardon-assurance"
+          ],
+          "score": 2.1
+        },
+        {
+          "title": "Just a Closer Walk with Thee",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Just+a+Closer+Walk+with+Thee+worship+song",
+          "tags": [
+            "comfort-and-consolation",
+            "road-and-journey"
+          ],
+          "score": 2.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -326,27 +405,19 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. XVII, Baptism",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
+            "themes": [
+              "baptism"
+            ]
+          },
+          {
             "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "article": "one baptism for the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
             "themes": [
-              "last-things"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
-            "themes": [
-              "repentance"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
-            "themes": [
-              "word-of-god"
+              "baptism"
             ]
           },
           {
@@ -366,19 +437,19 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. XVII, Baptism",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
-              "baptism"
+              "last-things"
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "one baptism for the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
+            "title": "Articles of Religion",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
             "themes": [
-              "baptism"
+              "repentance"
             ]
           },
           {
@@ -388,9 +459,25 @@
             "themes": [
               "messianic-hope"
             ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
+            "themes": [
+              "word-of-god"
+            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
+            ]
+          },
           {
             "community": "The Political Community",
             "topic": "Restorative Justice",
@@ -405,14 +492,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
-            "themes": [
-              "peace-of-god"
             ]
           }
         ]

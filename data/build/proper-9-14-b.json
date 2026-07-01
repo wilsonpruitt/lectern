@@ -257,6 +257,89 @@
           "score": 2.03
         }
       ],
+      "praise": [
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Jesus, Lover of My Soul",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Jesus%2C+Lover+of+My+Soul+worship+song",
+          "tags": [
+            "grace",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 3.5
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "faith-and-trust",
+            "sending-benediction",
+            "trust"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "grace",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -327,6 +410,14 @@
         "doctrine": [
           {
             "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
@@ -334,19 +425,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
             "themes": [
-              "faith-and-trust"
+              "covenant"
             ]
           },
           {
@@ -366,19 +449,11 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
+              "faith-and-trust"
             ]
           },
           {
@@ -390,11 +465,19 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "covenant"
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
             ]
           }
         ],
@@ -408,19 +491,19 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "community": "The Political Community",
             "topic": "Health Care",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
               "suffering-and-endurance"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]
@@ -666,6 +749,87 @@
           "score": 1.7
         }
       ],
+      "praise": [
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "faith-and-trust",
+            "sending-benediction",
+            "trust"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "hand-and-arm"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Wayfaring Stranger",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Wayfaring+Stranger+worship+song",
+          "tags": [
+            "longing-and-waiting",
+            "road-and-journey",
+            "suffering-and-endurance"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Calling You",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Calling+You+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "mission-and-witness",
+            "resolve-and-sending"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "New Wine",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=New+Wine+worship+song",
+          "tags": [
+            "faith-and-trust",
+            "suffering-and-endurance",
+            "trust"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "This I Know",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+I+Know+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "grace"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -736,26 +900,18 @@
         "doctrine": [
           {
             "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
               "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. V, Sufficiency of Scripture",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
-            "themes": [
-              "word-of-god"
             ]
           },
           {
@@ -775,19 +931,27 @@
             ]
           },
           {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. V, Sufficiency of Scripture",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
+            "themes": [
+              "word-of-god"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the one condition",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
             ]
           }
         ],

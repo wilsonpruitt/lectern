@@ -233,6 +233,82 @@
           "score": 1.38
         }
       ],
+      "praise": [
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "faithfulness",
+            "praise-and-exultation",
+            "thanksgiving"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Glory, Glory God Is Able",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Glory%2C+Glory+God+Is+Able+worship+song",
+          "tags": [
+            "deliverance",
+            "praise-and-exultation",
+            "praise-opening"
+          ],
+          "score": 2.1
+        },
+        {
+          "title": "All the Poor and Powerless",
+          "timesUsed": 6,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=All+the+Poor+and+Powerless+worship+song",
+          "tags": [
+            "kingdom-of-god",
+            "praise-and-exultation"
+          ],
+          "score": 1.6
+        },
+        {
+          "title": "Gratitude",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Gratitude+worship+song",
+          "tags": [
+            "praise-and-exultation",
+            "thanksgiving"
+          ],
+          "score": 1.6
+        },
+        {
+          "title": "Lo, How a Rose E'er Blooming",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Lo%2C+How+a+Rose+E%27er+Blooming+worship+song",
+          "tags": [
+            "messianic-hope",
+            "wonder-and-awe"
+          ],
+          "score": 1.6
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "deliverance",
+            "healing-and-comfort"
+          ],
+          "score": 1.5
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -302,11 +378,19 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the catalog of harms",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-catalog-of-harms/",
+            "title": "Nicene Creed",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "idolatry"
+              "messianic-hope"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VI, the Old Testament",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
+            "themes": [
+              "covenant"
             ]
           },
           {
@@ -334,6 +418,22 @@
             ]
           },
           {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the catalog of harms",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-catalog-of-harms/",
+            "themes": [
+              "idolatry"
+            ]
+          },
+          {
             "title": "Articles of Religion",
             "article": "Art. V, Sufficiency of Scripture",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-5-of-the-sufficiency-of-the-holy-scriptures/",
@@ -348,41 +448,9 @@
             "themes": [
               "call-and-discipleship"
             ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VI, the Old Testament",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-6-of-the-old-testament/",
-            "themes": [
-              "covenant"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
           }
         ],
         "social": [
-          {
-            "community": "The Economic Community",
-            "topic": "Responsible Consumerism",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
-            "themes": [
-              "idolatry"
-            ]
-          },
           {
             "community": "The Social Community",
             "topic": "Racism, Ethnocentrism & Tribalism",
@@ -405,6 +473,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "thanksgiving"
+            ]
+          },
+          {
+            "community": "The Economic Community",
+            "topic": "Responsible Consumerism",
+            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#consumerism",
+            "themes": [
+              "idolatry"
             ]
           }
         ]

@@ -265,6 +265,92 @@
           "score": 2.39
         }
       ],
+      "praise": [
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust",
+            "healing-and-comfort",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "faith-and-trust",
+            "resurrection-and-life",
+            "rock-and-refuge"
+          ],
+          "score": 5.1
+        },
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "faith-and-trust",
+            "trust",
+            "water"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "atonement",
+            "lamb",
+            "resurrection-and-life"
+          ],
+          "score": 3.5
+        },
+        {
+          "title": "Jesus, Lover of My Soul",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Jesus%2C+Lover+of+My+Soul+worship+song",
+          "tags": [
+            "comfort-and-consolation",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Welcome Table",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Welcome+Table+worship+song",
+          "tags": [
+            "hospitality-of-god",
+            "table-and-feast",
+            "table-communion"
+          ],
+          "score": 3.0
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -340,6 +426,22 @@
         ],
         "doctrine": [
           {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good to bodies and souls",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "love-of-neighbor"
+            ]
+          },
+          {
             "title": "Articles of Religion",
             "article": "Art. XX, the One Oblation of Christ",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
@@ -356,43 +458,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good to bodies and souls",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "love-of-neighbor"
-            ]
-          },
-          {
             "title": "Articles of Religion",
             "article": "Art. IX, justification by faith",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
             ]
           },
           {
@@ -410,15 +480,32 @@
             "themes": [
               "resurrection-and-life"
             ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
           }
         ],
         "social": [
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
-              "providence-and-care"
+              "hospitality-of-god",
+              "love-of-neighbor"
             ]
           },
           {
@@ -430,12 +517,11 @@
             ]
           },
           {
-            "community": "The Political Community",
-            "topic": "Migrants, Immigrants & Refugees",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "hospitality-of-god",
-              "love-of-neighbor"
+              "providence-and-care"
             ]
           }
         ]

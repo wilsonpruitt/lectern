@@ -264,6 +264,90 @@
           "score": 2.02
         }
       ],
+      "praise": [
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "king-and-throne",
+            "praise-and-exultation",
+            "prayer-and-worship"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "faithfulness",
+            "praise-and-exultation",
+            "providence-and-care",
+            "thanksgiving"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "All the Poor and Powerless",
+          "timesUsed": 6,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=All+the+Poor+and+Powerless+worship+song",
+          "tags": [
+            "gathering",
+            "justice",
+            "kingdom-of-god",
+            "praise-and-exultation"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -333,6 +417,14 @@
         ],
         "doctrine": [
           {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
@@ -341,27 +433,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "he ascended into heaven",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/he-ascended-into-heaven/",
-            "themes": [
-              "ascension-and-reign"
-            ]
-          },
-          {
             "title": "Nicene Creed",
-            "article": "ascended into heaven",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/ascended-into-heaven/",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "ascension-and-reign"
+              "messianic-hope"
             ]
           },
           {
@@ -370,22 +446,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "love-of-neighbor"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "one holy catholic and apostolic Church",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
-            "themes": [
-              "church-and-unity"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XIII, the Church",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
-            "themes": [
-              "church-and-unity"
             ]
           },
           {
@@ -405,6 +465,38 @@
             ]
           },
           {
+            "title": "Apostles' Creed",
+            "article": "he ascended into heaven",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/he-ascended-into-heaven/",
+            "themes": [
+              "ascension-and-reign"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "ascended into heaven",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/ascended-into-heaven/",
+            "themes": [
+              "ascension-and-reign"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one holy catholic and apostolic Church",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
+            "themes": [
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XIII, the Church",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
+            "themes": [
+              "church-and-unity"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
@@ -413,19 +505,11 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "hope-and-promise"
+              "providence-and-care"
             ]
           },
           {
@@ -456,14 +540,6 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "community": "The Social Community",
             "topic": "Racism, Ethnocentrism & Tribalism",
             "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
@@ -477,6 +553,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
             "themes": [
               "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           },
           {
@@ -755,6 +839,92 @@
           "score": 2.09
         }
       ],
+      "praise": [
+        {
+          "title": "Jesus, Lover of My Soul",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Jesus%2C+Lover+of+My+Soul+worship+song",
+          "tags": [
+            "comfort-and-consolation",
+            "providence-and-care",
+            "rock-and-refuge",
+            "sea-and-storm"
+          ],
+          "score": 4.6
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "king-and-throne",
+            "praise-and-exultation",
+            "prayer-and-worship"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "healing-and-comfort",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "creation",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "All the Poor and Powerless",
+          "timesUsed": 6,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=All+the+Poor+and+Powerless+worship+song",
+          "tags": [
+            "gathering",
+            "justice",
+            "kingdom-of-god",
+            "praise-and-exultation"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -824,6 +994,14 @@
         ],
         "doctrine": [
           {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
@@ -832,43 +1010,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
-          {
             "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "he ascended into heaven",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/he-ascended-into-heaven/",
-            "themes": [
-              "ascension-and-reign"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "ascended into heaven",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/ascended-into-heaven/",
-            "themes": [
-              "ascension-and-reign"
+              "messianic-hope"
             ]
           },
           {
@@ -877,22 +1023,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
               "love-of-neighbor"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "one holy catholic and apostolic Church",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
-            "themes": [
-              "church-and-unity"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XIII, the Church",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
-            "themes": [
-              "church-and-unity"
             ]
           },
           {
@@ -912,6 +1042,54 @@
             ]
           },
           {
+            "title": "Apostles' Creed",
+            "article": "he ascended into heaven",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/he-ascended-into-heaven/",
+            "themes": [
+              "ascension-and-reign"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "ascended into heaven",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/ascended-into-heaven/",
+            "themes": [
+              "ascension-and-reign"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "one holy catholic and apostolic Church",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
+            "themes": [
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XIII, the Church",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
+            "themes": [
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
@@ -920,19 +1098,11 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "hope-and-promise"
+              "providence-and-care"
             ]
           },
           {
@@ -963,11 +1133,19 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "community": "The Social Community",
+            "topic": "Racism, Ethnocentrism & Tribalism",
+            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
             "themes": [
-              "providence-and-care"
+              "love-of-neighbor"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Migrants, Immigrants & Refugees",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
+            "themes": [
+              "love-of-neighbor"
             ]
           },
           {
@@ -987,19 +1165,11 @@
             ]
           },
           {
-            "community": "The Social Community",
-            "topic": "Racism, Ethnocentrism & Tribalism",
-            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "love-of-neighbor"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Migrants, Immigrants & Refugees",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#migrants",
-            "themes": [
-              "love-of-neighbor"
+              "providence-and-care"
             ]
           },
           {

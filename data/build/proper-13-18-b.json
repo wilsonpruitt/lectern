@@ -259,6 +259,85 @@
           "score": 1.96
         }
       ],
+      "praise": [
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "faith-and-trust",
+            "holy-spirit",
+            "water"
+          ],
+          "score": 4.5
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Brokenness Aside",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Brokenness+Aside+worship+song",
+          "tags": [
+            "mercy-and-forgiveness",
+            "penitence",
+            "repentance"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "incarnation",
+            "lamb"
+          ],
+          "score": 2.5
+        },
+        {
+          "title": "Let Thy Blood in Mercy Poured",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Let+Thy+Blood+in+Mercy+Poured+worship+song",
+          "tags": [
+            "mercy-and-forgiveness",
+            "penitence",
+            "table-communion"
+          ],
+          "score": 2.1
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust"
+          ],
+          "score": 1.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -329,10 +408,50 @@
         "doctrine": [
           {
             "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
             "themes": [
-              "providence-and-care"
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VII, Original Sin",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
+            "themes": [
+              "sin-and-fall"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the Holy Spirit, the giver of life",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
+            "themes": [
+              "holy-spirit"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IV, the Holy Ghost",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
+            "themes": [
+              "holy-spirit"
             ]
           },
           {
@@ -341,14 +460,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
             "themes": [
               "repentance"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
             ]
           },
           {
@@ -369,26 +480,18 @@
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. VII, Original Sin",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "sin-and-fall"
+              "faith-and-trust"
             ]
           },
           {
             "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
-            "themes": [
-              "judgment"
+              "providence-and-care"
             ]
           },
           {
@@ -414,41 +517,9 @@
             "themes": [
               "call-and-discipleship"
             ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the Holy Spirit, the giver of life",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
-            "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IV, the Holy Ghost",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
-            "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
           }
         ],
         "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
           {
             "community": "The Political Community",
             "topic": "Restorative Justice",
@@ -463,6 +534,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]
@@ -705,6 +784,86 @@
           "score": 2.4
         }
       ],
+      "praise": [
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "faith-and-trust",
+            "holy-spirit",
+            "trust",
+            "water"
+          ],
+          "score": 5.1
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust",
+            "providence-and-care"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "trust"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "The Transfiguration",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Transfiguration+worship+song",
+          "tags": [
+            "cloud",
+            "wonder-and-awe"
+          ],
+          "score": 2.1
+        },
+        {
+          "title": "Glory, Glory God Is Able",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Glory%2C+Glory+God+Is+Able+worship+song",
+          "tags": [
+            "deliverance",
+            "providence-and-care"
+          ],
+          "score": 2.0
+        },
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "providence-and-care",
+            "thanksgiving"
+          ],
+          "score": 2.0
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -774,19 +933,19 @@
         ],
         "doctrine": [
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "title": "Nicene Creed",
+            "article": "the Holy Spirit, the giver of life",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
             "themes": [
-              "providence-and-care"
+              "holy-spirit"
             ]
           },
           {
             "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "article": "Art. IV, the Holy Ghost",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
             "themes": [
-              "faith-and-trust"
+              "holy-spirit"
             ]
           },
           {
@@ -806,11 +965,19 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "call-and-discipleship"
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
             ]
           },
           {
@@ -830,37 +997,29 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "the Holy Spirit, the giver of life",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/i-believe-in-the-holy-spirit/",
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
-              "holy-spirit"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. IV, the Holy Ghost",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-4-of-the-holy-ghost/",
-            "themes": [
-              "holy-spirit"
+              "call-and-discipleship"
             ]
           }
         ],
         "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
-            "themes": [
-              "providence-and-care"
-            ]
-          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
             "themes": [
               "thanksgiving"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]

@@ -262,6 +262,93 @@
           "score": 2.13
         }
       ],
+      "praise": [
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "incarnation",
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 4.6
+        },
+        {
+          "title": "Ain't No Grave",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Ain%27t+No+Grave+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "last-things",
+            "resurrection-and-life",
+            "tomb-and-grave"
+          ],
+          "score": 4.5
+        },
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "incarnation",
+            "king-and-throne",
+            "praise-and-exultation",
+            "resurrection-and-life"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.7
+        },
+        {
+          "title": "How Great Is Our God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Great+Is+Our+God+worship+song",
+          "tags": [
+            "creation",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "wonder-and-awe"
+          ],
+          "score": 3.2
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "creation",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -325,14 +412,6 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
             "article": "the life everlasting",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
@@ -342,12 +421,52 @@
             ]
           },
           {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the communion of saints",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
+            "themes": [
+              "saints-and-witnesses"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
               "kingdom-of-god",
               "last-things"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the resurrection of the body",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
+            "themes": [
+              "resurrection-and-life"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "on the third day he rose",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
+            "themes": [
+              "resurrection-and-life"
             ]
           },
           {
@@ -367,22 +486,6 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
-            "themes": [
-              "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the communion of saints",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
-            "themes": [
-              "saints-and-witnesses"
-            ]
-          },
-          {
             "title": "Nicene Creed",
             "article": "incarnate of the Virgin Mary",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/incarnate-of-the-virgin-mary/",
@@ -396,22 +499,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/born-of-the-virgin-mary/",
             "themes": [
               "incarnation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the resurrection of the body",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-resurrection-of-the-body/",
-            "themes": [
-              "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "on the third day he rose",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
-            "themes": [
-              "resurrection-and-life"
             ]
           }
         ],

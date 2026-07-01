@@ -253,6 +253,92 @@
           "score": 2.28
         }
       ],
+      "praise": [
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "atonement",
+            "incarnation",
+            "king-and-throne",
+            "lamb",
+            "praise-and-exultation"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "atonement",
+            "grace",
+            "king-and-throne",
+            "lamb",
+            "praise-and-exultation"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "Lo, How a Rose E'er Blooming",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Lo%2C+How+a+Rose+E%27er+Blooming+worship+song",
+          "tags": [
+            "incarnation",
+            "manger-and-birth",
+            "messianic-hope",
+            "wonder-and-awe"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "O Praise Him (All This for a King)",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=O+Praise+Him+%28All+This+for+a+King%29+worship+song",
+          "tags": [
+            "incarnation",
+            "king-and-throne",
+            "praise-and-exultation",
+            "praise-opening"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Holy Forever",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Holy+Forever+worship+song",
+          "tags": [
+            "king-and-throne",
+            "praise-and-exultation",
+            "wonder-and-awe"
+          ],
+          "score": 2.7
+        },
+        {
+          "title": "How Deep the Father's Love for Us",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Deep+the+Father%27s+Love+for+Us+worship+song",
+          "tags": [
+            "atonement",
+            "grace",
+            "wonder-and-awe"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -316,19 +402,27 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "atonement"
+              "hope-and-promise"
             ]
           },
           {
             "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "article": "eternally begotten of the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
             "themes": [
-              "atonement"
+              "messianic-hope"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "themes": [
+              "obedience-and-gods-will"
             ]
           },
           {
@@ -345,6 +439,30 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-8-of-free-will/",
             "themes": [
               "grace"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
             ]
           },
           {
@@ -369,38 +487,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "do good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
-            "themes": [
-              "obedience-and-gods-will"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "eternally begotten of the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/eternally-begotten-of-the-father/",
-            "themes": [
-              "messianic-hope"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise"
             ]
           }
         ],

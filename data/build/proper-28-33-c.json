@@ -248,6 +248,89 @@
           "score": 1.9
         }
       ],
+      "praise": [
+        {
+          "title": "How Great Is Our God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Great+Is+Our+God+worship+song",
+          "tags": [
+            "creation",
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "trinity"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Great Are You Lord",
+          "timesUsed": 10,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Great+Are+You+Lord+worship+song",
+          "tags": [
+            "creation",
+            "praise-and-exultation",
+            "praise-opening",
+            "prayer-and-worship"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Gratitude",
+          "timesUsed": 3,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Gratitude+worship+song",
+          "tags": [
+            "praise-and-exultation",
+            "prayer-and-worship",
+            "thanksgiving",
+            "thanksgiving-offering"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "faithfulness",
+            "praise-and-exultation",
+            "thanksgiving",
+            "thanksgiving-offering"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Wayfaring Stranger",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Wayfaring+Stranger+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "last-things",
+            "suffering-and-endurance"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "water"
+          ],
+          "score": 2.5
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -317,14 +400,6 @@
         ],
         "doctrine": [
           {
-            "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
-            "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
             "title": "Apostles' Creed",
             "article": "the life everlasting",
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
@@ -334,27 +409,59 @@
             ]
           },
           {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "themes": [
+              "prayer-and-worship"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "of one Being with the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Athanasian Creed",
+            "article": "one God in Trinity",
+            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
             "title": "Nicene Creed",
             "article": "the life of the world to come",
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
             "themes": [
               "last-things"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
             ]
           },
           {
@@ -375,34 +482,18 @@
           },
           {
             "title": "Nicene Creed",
-            "article": "of one Being with the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
             "themes": [
-              "trinity"
-            ]
-          },
-          {
-            "title": "Athanasian Creed",
-            "article": "one God in Trinity",
-            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
-            "themes": [
-              "trinity"
+              "creation"
             ]
           },
           {
             "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
             "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
-            "themes": [
-              "judgment"
+              "creation"
             ]
           },
           {
@@ -412,17 +503,17 @@
             "themes": [
               "call-and-discipleship"
             ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
-            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
+            ]
+          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
@@ -430,6 +521,14 @@
             "themes": [
               "prayer-and-worship",
               "thanksgiving"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           },
           {
@@ -446,22 +545,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
             "themes": [
               "creation"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
-            "themes": [
-              "peace-of-god"
             ]
           }
         ]
@@ -698,6 +781,85 @@
           "score": 1.9
         }
       ],
+      "praise": [
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "hope-and-promise",
+            "light",
+            "sea-and-storm"
+          ],
+          "score": 5.0
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "hand-and-arm"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Rising Sun",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Rising+Sun+worship+song",
+          "tags": [
+            "light",
+            "praise-and-exultation",
+            "prayer-and-worship"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Wayfaring Stranger",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Wayfaring+Stranger+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "last-things",
+            "suffering-and-endurance"
+          ],
+          "score": 3.0
+        },
+        {
+          "title": "Oceans (Where Feet May Fail)",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Oceans+%28Where+Feet+May+Fail%29+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "sea-and-storm"
+          ],
+          "score": 2.5
+        },
+        {
+          "title": "The Blessing",
+          "timesUsed": 7,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Blessing+worship+song",
+          "tags": [
+            "faithfulness",
+            "hand-and-arm"
+          ],
+          "score": 2.5
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -767,6 +929,23 @@
         ],
         "doctrine": [
           {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise",
+              "last-things"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
@@ -776,11 +955,18 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "article": "he shall come to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
             "themes": [
-              "hope-and-promise",
-              "last-things"
+              "judgment"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "will come again to judge",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
+            "themes": [
+              "judgment"
             ]
           },
           {
@@ -808,35 +994,11 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "he shall come to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/from-thence-he-shall-come-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "will come again to judge",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/will-come-again-to-judge/",
-            "themes": [
-              "judgment"
-            ]
-          },
-          {
             "title": "General Rules",
             "article": "the one condition",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
             ]
           }
         ],

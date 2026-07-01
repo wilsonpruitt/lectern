@@ -264,6 +264,96 @@
           "score": 2.63
         }
       ],
+      "praise": [
+        {
+          "title": "King of Kings",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=King+of+Kings+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "atonement",
+            "creed-affirmation",
+            "incarnation",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "When I Survey the Wondrous Cross",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=When+I+Survey+the+Wondrous+Cross+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "cross-and-tree",
+            "passion-and-cross",
+            "wonder-and-awe"
+          ],
+          "score": 5.6
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "atonement",
+            "creed-affirmation",
+            "cross-and-tree",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 5.5
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "hand-and-arm",
+            "rock-and-refuge"
+          ],
+          "score": 5.0
+        },
+        {
+          "title": "How Deep the Father's Love for Us",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Deep+the+Father%27s+Love+for+Us+worship+song",
+          "tags": [
+            "atonement",
+            "cross-and-tree",
+            "passion-and-cross",
+            "wonder-and-awe"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "This Is Amazing Grace",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=This+Is+Amazing+Grace+worship+song",
+          "tags": [
+            "ascension-and-reign",
+            "atonement",
+            "king-and-throne",
+            "praise-and-exultation"
+          ],
+          "score": 4.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -333,11 +423,19 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "title": "General Rules",
+            "article": "do good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
             "themes": [
-              "atonement"
+              "humility-and-servanthood"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
+            "themes": [
+              "passion-and-cross"
             ]
           },
           {
@@ -347,6 +445,14 @@
             "themes": [
               "atonement",
               "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. VII, Original Sin",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
+            "themes": [
+              "sin-and-fall"
             ]
           },
           {
@@ -366,11 +472,11 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/second-rule-do-good/",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "humility-and-servanthood"
+              "atonement"
             ]
           },
           {
@@ -379,14 +485,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
               "faith-and-trust"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. VII, Original Sin",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-7-of-original-or-birth-sin/",
-            "themes": [
-              "sin-and-fall"
             ]
           },
           {
@@ -411,14 +509,6 @@
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "was crucified",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
-            "themes": [
-              "passion-and-cross"
             ]
           }
         ],

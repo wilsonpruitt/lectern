@@ -242,6 +242,90 @@
           "score": 2.12
         }
       ],
+      "praise": [
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "cross-and-tree",
+            "faith-and-trust",
+            "resurrection-and-life",
+            "rock-and-refuge"
+          ],
+          "score": 5.0
+        },
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "providence-and-care",
+            "rock-and-refuge"
+          ],
+          "score": 4.5
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "light",
+            "trust"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "If You Want to Follow Me",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=If+You+Want+to+Follow+Me+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "cross-and-tree",
+            "passion-and-cross",
+            "resolve-and-sending"
+          ],
+          "score": 4.1
+        },
+        {
+          "title": "How Deep the Father's Love for Us",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Deep+the+Father%27s+Love+for+Us+worship+song",
+          "tags": [
+            "cross-and-tree",
+            "grace",
+            "passion-and-cross"
+          ],
+          "score": 3.5
+        },
+        {
+          "title": "Beautiful Things",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Beautiful+Things+worship+song",
+          "tags": [
+            "grace",
+            "resurrection-and-life",
+            "seed-and-growth"
+          ],
+          "score": 3.5
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -311,11 +395,11 @@
         ],
         "doctrine": [
           {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "providence-and-care"
+              "mission-and-witness"
             ]
           },
           {
@@ -335,11 +419,19 @@
             ]
           },
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "title": "Apostles' Creed",
+            "article": "was crucified",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
             "themes": [
-              "faith-and-trust"
+              "passion-and-cross"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "passion-and-cross"
             ]
           },
           {
@@ -359,27 +451,11 @@
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "God from God, Light from Light",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
             "themes": [
-              "epiphany-manifestation"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
-            "themes": [
-              "call-and-discipleship"
-            ]
-          },
-          {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
+              "faith-and-trust"
             ]
           },
           {
@@ -400,36 +476,44 @@
           },
           {
             "title": "Apostles' Creed",
-            "article": "was crucified",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/was-crucified/",
-            "themes": [
-              "passion-and-cross"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "passion-and-cross"
-            ]
-          }
-        ],
-        "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
             "themes": [
               "providence-and-care"
             ]
           },
+          {
+            "title": "Nicene Creed",
+            "article": "God from God, Light from Light",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/god-from-god-light-from-light/",
+            "themes": [
+              "epiphany-manifestation"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
+          }
+        ],
+        "social": [
           {
             "community": "The Economic Community",
             "topic": "The Dignity of Work",
             "url": "https://www.umc.org/en/content/social-principles-the-economic-community#work",
             "themes": [
               "humility-and-servanthood"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "themes": [
+              "providence-and-care"
             ]
           }
         ]

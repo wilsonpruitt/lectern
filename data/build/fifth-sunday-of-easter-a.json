@@ -263,6 +263,91 @@
           "score": 2.28
         }
       ],
+      "praise": [
+        {
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
+          "tags": [
+            "assurance",
+            "deliverance",
+            "faith-and-trust",
+            "hand-and-arm",
+            "healing-and-comfort",
+            "rock-and-refuge"
+          ],
+          "score": 6.1
+        },
+        {
+          "title": "My Lighthouse",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=My+Lighthouse+worship+song",
+          "tags": [
+            "deliverance",
+            "faith-and-trust",
+            "hope-and-promise",
+            "light",
+            "trust"
+          ],
+          "score": 5.1
+        },
+        {
+          "title": "Wayfaring Stranger",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Wayfaring+Stranger+worship+song",
+          "tags": [
+            "hope-and-promise",
+            "road-and-journey",
+            "suffering-and-endurance"
+          ],
+          "score": 3.5
+        },
+        {
+          "title": "In Christ Alone",
+          "timesUsed": 12,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=In+Christ+Alone+worship+song",
+          "tags": [
+            "assurance",
+            "faith-and-trust",
+            "rock-and-refuge"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Jesus, Lover of My Soul",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Jesus%2C+Lover+of+My+Soul+worship+song",
+          "tags": [
+            "comfort-and-consolation",
+            "grace",
+            "rock-and-refuge"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Just a Closer Walk with Thee",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Just+a+Closer+Walk+with+Thee+worship+song",
+          "tags": [
+            "comfort-and-consolation",
+            "faith-and-trust",
+            "road-and-journey"
+          ],
+          "score": 3.1
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -338,27 +423,19 @@
         ],
         "doctrine": [
           {
-            "title": "Articles of Religion",
-            "article": "Art. IX, justification by faith",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
             "themes": [
-              "faith-and-trust"
+              "hope-and-promise"
             ]
           },
           {
-            "title": "Nicene Creed",
-            "article": "one holy catholic and apostolic Church",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "church-and-unity"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XIII, the Church",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
-            "themes": [
-              "church-and-unity"
+              "mission-and-witness"
             ]
           },
           {
@@ -367,6 +444,30 @@
             "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-communion-of-saints/",
             "themes": [
               "saints-and-witnesses"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "of one Being with the Father",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
+            "themes": [
+              "trinity"
+            ]
+          },
+          {
+            "title": "Athanasian Creed",
+            "article": "one God in Trinity",
+            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
+            "themes": [
+              "trinity"
             ]
           },
           {
@@ -387,18 +488,26 @@
           },
           {
             "title": "Nicene Creed",
-            "article": "of one Being with the Father",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/of-one-being-with-the-father/",
+            "article": "one holy catholic and apostolic Church",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-holy-catholic-and-apostolic-church/",
             "themes": [
-              "trinity"
+              "church-and-unity"
             ]
           },
           {
-            "title": "Athanasian Creed",
-            "article": "one God in Trinity",
-            "url": "https://doctrine.wrootpress.com/creeds/athanasian-creed/one-god-in-trinity/",
+            "title": "Articles of Religion",
+            "article": "Art. XIII, the Church",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-13-of-the-church/",
             "themes": [
-              "trinity"
+              "church-and-unity"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. IX, justification by faith",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
+            "themes": [
+              "faith-and-trust"
             ]
           },
           {
@@ -419,46 +528,14 @@
           },
           {
             "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
-            "themes": [
-              "mission-and-witness"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "General Rules",
             "article": "the one condition",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
               "call-and-discipleship"
             ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise"
-            ]
           }
         ],
         "social": [
-          {
-            "community": "The Political Community",
-            "topic": "Health Care",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
-            "themes": [
-              "suffering-and-endurance"
-            ]
-          },
           {
             "community": "The Political Community",
             "topic": "Restorative Justice",
@@ -473,6 +550,14 @@
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#criminal-justice",
             "themes": [
               "mercy-and-forgiveness"
+            ]
+          },
+          {
+            "community": "The Political Community",
+            "topic": "Health Care",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
+            "themes": [
+              "suffering-and-endurance"
             ]
           }
         ]

@@ -272,6 +272,89 @@
           "score": 2.62
         }
       ],
+      "praise": [
+        {
+          "title": "Let Thy Blood in Mercy Poured",
+          "timesUsed": 4,
+          "frequency": "moderate",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Let+Thy+Blood+in+Mercy+Poured+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "cup",
+            "table-communion"
+          ],
+          "score": 4.5
+        },
+        {
+          "title": "Welcome Table",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Welcome+Table+worship+song",
+          "tags": [
+            "hospitality-of-god",
+            "joy",
+            "table-and-feast",
+            "table-communion"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Build Your Kingdom Here",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Build+Your+Kingdom+Here+worship+song",
+          "tags": [
+            "kingdom-of-god",
+            "mission-and-witness",
+            "resolve-and-sending",
+            "sending-benediction"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "blood"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "When I Survey the Wondrous Cross",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=When+I+Survey+the+Wondrous+Cross+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "wonder-and-awe"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "How Deep the Father's Love for Us",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Deep+the+Father%27s+Love+for+Us+worship+song",
+          "tags": [
+            "atonement",
+            "grace",
+            "wonder-and-awe"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -341,27 +424,27 @@
         ],
         "doctrine": [
           {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "mission-and-witness"
+            ]
+          },
+          {
             "title": "General Rules",
             "article": "the ordinances of God",
             "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
               "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
-            "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "atonement"
             ]
           },
           {
@@ -389,19 +472,19 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "call-and-discipleship"
+              "atonement"
             ]
           },
           {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
-              "mission-and-witness"
+              "atonement"
             ]
           },
           {
@@ -413,15 +496,23 @@
             ]
           },
           {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
             "themes": [
-              "hope-and-promise"
+              "call-and-discipleship"
             ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
+            ]
+          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
@@ -429,14 +520,6 @@
             "themes": [
               "prayer-and-worship",
               "thanksgiving"
-            ]
-          },
-          {
-            "community": "The Social Community",
-            "topic": "Racism, Ethnocentrism & Tribalism",
-            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
-            "themes": [
-              "love-of-neighbor"
             ]
           },
           {
@@ -449,19 +532,19 @@
             ]
           },
           {
+            "community": "The Social Community",
+            "topic": "Racism, Ethnocentrism & Tribalism",
+            "url": "https://www.umc.org/en/content/social-principles-the-social-community#racism",
+            "themes": [
+              "love-of-neighbor"
+            ]
+          },
+          {
             "community": "The Political Community",
             "topic": "Health Care",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
               "suffering-and-endurance"
-            ]
-          },
-          {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
-            "themes": [
-              "peace-of-god"
             ]
           }
         ]
@@ -731,6 +814,88 @@
           "score": 2.11
         }
       ],
+      "praise": [
+        {
+          "title": "The Goodness of God",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "tags": [
+            "faithfulness",
+            "praise-and-exultation",
+            "providence-and-care",
+            "thanksgiving"
+          ],
+          "score": 3.6
+        },
+        {
+          "title": "Build Your Kingdom Here",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Build+Your+Kingdom+Here+worship+song",
+          "tags": [
+            "kingdom-of-god",
+            "mission-and-witness",
+            "resolve-and-sending",
+            "sending-benediction"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "Nothing But the Blood",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Nothing+But+the+Blood+worship+song",
+          "tags": [
+            "assurance",
+            "atonement",
+            "blood"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "When I Survey the Wondrous Cross",
+          "timesUsed": 1,
+          "frequency": "once",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=When+I+Survey+the+Wondrous+Cross+worship+song",
+          "tags": [
+            "atonement",
+            "blood",
+            "wonder-and-awe"
+          ],
+          "score": 3.1
+        },
+        {
+          "title": "How Deep the Father's Love for Us",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=How+Deep+the+Father%27s+Love+for+Us+worship+song",
+          "tags": [
+            "atonement",
+            "grace",
+            "wonder-and-awe"
+          ],
+          "score": 2.6
+        },
+        {
+          "title": "Calling You",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Calling+You+worship+song",
+          "tags": [
+            "call-and-discipleship",
+            "mission-and-witness",
+            "resolve-and-sending"
+          ],
+          "score": 2.6
+        }
+      ],
       "lenses": {
         "readings": [
           {
@@ -801,42 +966,18 @@
         "doctrine": [
           {
             "title": "General Rules",
-            "article": "the ordinances of God",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
+            "article": "doing good",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
             "themes": [
-              "prayer-and-worship"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
-            "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
-            "themes": [
-              "atonement"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the Father almighty",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
-            "themes": [
-              "providence-and-care"
+              "mission-and-witness"
             ]
           },
           {
             "title": "General Rules",
-            "article": "doing good to bodies and souls",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "article": "the ordinances of God",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/third-rule-the-ordinances-of-god/",
             "themes": [
-              "love-of-neighbor"
+              "prayer-and-worship"
             ]
           },
           {
@@ -857,6 +998,14 @@
             ]
           },
           {
+            "title": "General Rules",
+            "article": "doing good to bodies and souls",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "themes": [
+              "love-of-neighbor"
+            ]
+          },
+          {
             "title": "Articles of Religion",
             "article": "Art. IX, the Justification of Man",
             "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-9-of-the-justification-of-man/",
@@ -873,19 +1022,19 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "the one condition",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
             "themes": [
-              "call-and-discipleship"
+              "atonement"
             ]
           },
           {
-            "title": "General Rules",
-            "article": "doing good",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/doing-good-to-bodies-and-souls/",
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
             "themes": [
-              "mission-and-witness"
+              "atonement"
             ]
           },
           {
@@ -895,9 +1044,33 @@
             "themes": [
               "kingdom-of-god"
             ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the Father almighty",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-father-almighty/",
+            "themes": [
+              "providence-and-care"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "the one condition",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/the-one-condition/",
+            "themes": [
+              "call-and-discipleship"
+            ]
           }
         ],
         "social": [
+          {
+            "community": "The Political Community",
+            "topic": "War & Military Service",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "themes": [
+              "peace-of-god"
+            ]
+          },
           {
             "community": "The Economic Community",
             "topic": "Sabbath & Renewal Time",
@@ -908,11 +1081,11 @@
             ]
           },
           {
-            "community": "Community of All Creation",
-            "topic": "Caring for All Creatures",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
+            "community": "The Political Community",
+            "topic": "Civil Disobedience",
+            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
             "themes": [
-              "providence-and-care"
+              "law-and-commandment"
             ]
           },
           {
@@ -933,14 +1106,6 @@
           },
           {
             "community": "The Political Community",
-            "topic": "Civil Disobedience",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#civil-disobedience",
-            "themes": [
-              "law-and-commandment"
-            ]
-          },
-          {
-            "community": "The Political Community",
             "topic": "Health Care",
             "url": "https://www.umc.org/en/content/social-principles-the-political-community#health-care",
             "themes": [
@@ -948,11 +1113,11 @@
             ]
           },
           {
-            "community": "The Political Community",
-            "topic": "War & Military Service",
-            "url": "https://www.umc.org/en/content/social-principles-the-political-community#war",
+            "community": "Community of All Creation",
+            "topic": "Caring for All Creatures",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
-              "peace-of-god"
+              "providence-and-care"
             ]
           }
         ]

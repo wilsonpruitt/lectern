@@ -38,11 +38,21 @@ export type Lenses = {
   doctrine: DoctrineLink[];
   social: SocialLink[];
 };
+export type PraiseSong = {
+  title: string;
+  timesUsed: number | null;
+  frequency: string | null;
+  pd: boolean;
+  url: string;
+  tags: string[];
+  score: number;
+};
 export type Track = {
   label: string;
   readings: Reading[];
   sermons: Sermon[];
   hymns: Hymn[];
+  praise: PraiseSong[];
   lenses: Lenses;
 };
 export type CallRegister = {
