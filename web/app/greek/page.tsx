@@ -8,6 +8,7 @@ export default function GreekLanding() {
   return (
     <div className="wrap gk-wrap">
       <header className="gk-head">
+        <Link href="/" className="gk-back">&larr; Lectern</Link>
         <h1 className="gk-ref">Greek</h1>
       </header>
       <p className="gk-lede">

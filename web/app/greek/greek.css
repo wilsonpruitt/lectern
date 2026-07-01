@@ -9,6 +9,8 @@
   border-bottom: 1px solid var(--border);
 }
 .gk-back { font-family: var(--sans); font-size: var(--t-body-sm); color: var(--reed-deep); }
+.gk-brand { font-family: var(--serif); font-size: var(--t-body); color: var(--ink); font-weight: 600; }
+.gk-brand:hover { color: var(--reed-deep); }
 .gk-ref { font-family: var(--serif); font-size: 1.9rem; margin: 0; color: var(--ink); }
 .gk-vnav { margin-left: auto; display: flex; gap: 14px; font-family: var(--sans); font-size: var(--t-body-sm); }
 .gk-vnav a { color: var(--reed-deep); font-weight: 600; }

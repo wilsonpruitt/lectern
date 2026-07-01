@@ -62,8 +62,8 @@ function Readings({ track, greekBooks }: { track: Track; greekBooks: string[] })
             <div className="role">{r.role}</div>
             <div className="ref">{r.ref}</div>
             {gk && (
-              <Link className="study-greek" href={gk}>
-                Study the Greek →
+              <Link className="study-greek" href={gk} target="_blank" rel="noopener noreferrer">
+                Study the Greek ↗
               </Link>
             )}
           </li>
@@ -316,7 +316,8 @@ function Lenses({ lenses }: { lenses: LensesData }) {
       ) : null}
 
       <p className="lens-foot micro">
-        Coming: Greek &amp; Hebrew reading helps. {!anyLinks ? "" : ""}
+        Greek reading helps are live &mdash; tap &ldquo;Study the Greek&rdquo; on any New Testament
+        reading to open the parsing and classical lexicon. Hebrew to follow.
       </p>
     </div>
   );

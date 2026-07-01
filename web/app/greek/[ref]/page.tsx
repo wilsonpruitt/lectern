@@ -23,6 +23,7 @@ export default async function GreekVersePage({
   return (
     <div className="wrap gk-wrap">
       <header className="gk-head">
+        <Link href="/" className="gk-brand">Lectern</Link>
         <Link href="/greek/" className="gk-back">
           ← Greek
         </Link>
