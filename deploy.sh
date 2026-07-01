@@ -14,6 +14,7 @@ cd web && pnpm build
 echo "==> 3/3  deploying to production"
 cd out
 npx vercel link --yes --project lectern --scope wilson-pruitts-projects >/dev/null
-npx vercel deploy --prod --yes
+# --archive=tgz: upload as one tarball (per-file upload aborts with the many /api files)
+npx vercel deploy --prod --yes --archive=tgz
 
 echo "==> done — https://lectern.wrootpress.com"

@@ -408,18 +408,42 @@
         "doctrine": [
           {
             "title": "Articles of Religion",
-            "article": "Art. XX, the One Oblation of Christ",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "article": "Art. XVII, Baptism",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
             "themes": [
-              "atonement"
+              "baptism"
             ]
           },
           {
             "title": "Nicene Creed",
-            "article": "crucified, suffered, buried",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "article": "one baptism for the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
             "themes": [
-              "atonement"
+              "baptism"
+            ]
+          },
+          {
+            "title": "General Rules",
+            "article": "do no harm",
+            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "themes": [
+              "temptation-and-testing"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the life everlasting",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
+            "themes": [
+              "hope-and-promise"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "the forgiveness of sins",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
+            "themes": [
+              "mercy-and-forgiveness"
             ]
           },
           {
@@ -436,70 +460,6 @@
             "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/on-the-third-day-he-rose/",
             "themes": [
               "resurrection-and-life"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XVII, Baptism",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-17-of-baptism/",
-            "themes": [
-              "baptism"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "one baptism for the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/one-baptism-for-the-forgiveness-of-sins/",
-            "themes": [
-              "baptism"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the life everlasting",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/and-the-life-everlasting/",
-            "themes": [
-              "hope-and-promise"
-            ]
-          },
-          {
-            "title": "Articles of Religion",
-            "article": "Art. XII, Sin After Justification",
-            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
-            "themes": [
-              "repentance"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "maker of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "creator of heaven and earth",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "title": "Apostles' Creed",
-            "article": "the forgiveness of sins",
-            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/the-forgiveness-of-sins/",
-            "themes": [
-              "mercy-and-forgiveness"
-            ]
-          },
-          {
-            "title": "Nicene Creed",
-            "article": "the life of the world to come",
-            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
-            "themes": [
-              "kingdom-of-god"
             ]
           },
           {
@@ -527,31 +487,55 @@
             ]
           },
           {
-            "title": "General Rules",
-            "article": "do no harm",
-            "url": "https://doctrine.wrootpress.com/wesleyan/general-rules/first-rule-do-no-harm/",
+            "title": "Articles of Religion",
+            "article": "Art. XII, Sin After Justification",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-12-of-sin-after-justification/",
             "themes": [
-              "temptation-and-testing"
+              "repentance"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "maker of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/maker-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Apostles' Creed",
+            "article": "creator of heaven and earth",
+            "url": "https://doctrine.wrootpress.com/creeds/apostles-creed/creator-of-heaven-and-earth/",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "the life of the world to come",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/the-life-of-the-world-to-come/",
+            "themes": [
+              "kingdom-of-god"
+            ]
+          },
+          {
+            "title": "Articles of Religion",
+            "article": "Art. XX, the One Oblation of Christ",
+            "url": "https://doctrine.wrootpress.com/wesleyan/articles-of-religion/article-20-of-the-one-oblation-of-christ/",
+            "themes": [
+              "atonement"
+            ]
+          },
+          {
+            "title": "Nicene Creed",
+            "article": "crucified, suffered, buried",
+            "url": "https://doctrine.wrootpress.com/creeds/nicene-creed/crucified-suffered-buried/",
+            "themes": [
+              "atonement"
             ]
           }
         ],
         "social": [
-          {
-            "community": "Community of All Creation",
-            "topic": "Stewardship of Creation",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
-            "themes": [
-              "creation"
-            ]
-          },
-          {
-            "community": "Community of All Creation",
-            "topic": "Global Warming & Climate Change",
-            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
-            "themes": [
-              "creation"
-            ]
-          },
           {
             "community": "The Political Community",
             "topic": "Restorative Justice",
@@ -574,6 +558,22 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Stewardship of Creation",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#stewardship-of-creation",
+            "themes": [
+              "creation"
+            ]
+          },
+          {
+            "community": "Community of All Creation",
+            "topic": "Global Warming & Climate Change",
+            "url": "https://www.umc.org/en/content/social-principles-the-natural-world#global-warming",
+            "themes": [
+              "creation"
             ]
           }
         ]
