@@ -203,7 +203,7 @@ def doctrine_links(themes) -> list[dict]:
     Returns [{title (document), article, url, themes}] deep-linked to the clause."""
     by_art: dict[tuple, set] = {}
     order: list[tuple] = []
-    for th in themes:
+    for th in sorted(themes):
         for doc, phrase, label in THEME_DOCTRINE.get(th, []):
             key = (doc, phrase, label)
             if key not in by_art:
@@ -262,7 +262,7 @@ def social_principles_links(themes) -> list[dict]:
     themes. Returns [{community, topic, url, themes}] deep-linked to the anchor."""
     by_pos: dict[tuple, set] = {}
     order: list[tuple] = []
-    for th in themes:
+    for th in sorted(themes):
         for comm, anchor, label in THEME_SOCIAL.get(th, []):
             key = (comm, anchor, label)
             if key not in by_pos:
