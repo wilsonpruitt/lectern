@@ -190,6 +190,16 @@ a { color: inherit; text-decoration: none; }
 .tool-name { font-family: var(--sans); font-weight: 600; font-size: var(--t-body); color: var(--fen); }
 .tool-desc { font-size: var(--t-body-sm); color: var(--fg-muted); line-height: 1.5; margin-top: 4px; }
 
+/* Original-languages entry point — a real link (unlike the workbench tabs above) */
+.study-tools { padding: 0 var(--space-6) var(--space-5); }
+.study-tools .eyebrow { display: block; margin-bottom: var(--space-3); }
+.tool-link {
+  display: block; max-width: 640px; cursor: pointer;
+  transition: border-color var(--dur-fast, 120ms) var(--ease-quiet, ease);
+}
+.tool-link:hover { border-top-color: var(--reed-deep); }
+.tool-link:hover .tool-name { color: var(--reed-deep); }
+
 .years { padding: var(--space-5) var(--space-6) var(--space-3); }
 .yearpick { display: flex; gap: var(--space-4); padding: var(--space-3) 0 var(--space-7); flex-wrap: wrap; }
 .yearcard {

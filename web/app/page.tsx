@@ -101,6 +101,18 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="study-tools">
+        <span className="eyebrow">Original languages</span>
+        <Link href="/greek/" className="tool tool-link">
+          <div className="tool-name">Greek &rarr;</div>
+          <div className="tool-desc">
+            Word-by-word parsing of the Greek New Testament joined to classical definitions
+            (Liddell-Scott-Jones &amp; Middle Liddell) &mdash; the parsing of an interlinear with
+            the lexicon of Logeion, in one view. Currently Luke; the rest of the NT to follow.
+          </div>
+        </Link>
+      </section>
+
       <section className="years">
         <span className="eyebrow">Browse the church year</span>
         <div className="yearpick">
