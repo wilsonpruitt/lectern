@@ -22,6 +22,14 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = Path.home() / "reception-corpus" / "out"
 DST = ROOT / "web" / "public" / "api" / "greek"
 
+# Canonical NT order (OSIS codes) so the book list reads Matthew→Revelation, not alphabetically.
+NT_ORDER = [
+    "Matt", "Mark", "Luke", "John", "Acts", "Rom", "1Cor", "2Cor", "Gal", "Eph", "Phil", "Col",
+    "1Thess", "2Thess", "1Tim", "2Tim", "Titus", "Phlm", "Heb", "Jas", "1Pet", "2Pet",
+    "1John", "2John", "3John", "Jude", "Rev",
+]
+_ORDER = {code: i for i, code in enumerate(NT_ORDER)}
+
 
 def main():
     nt, lex = SRC / "greek-nt", SRC / "greek-lexicon"
@@ -45,6 +53,8 @@ def main():
         books.append({"code": d["book"], "name": d["bookName"],
                       "verseCount": len(d["verses"]),
                       "chapters": {str(c): chapters[c] for c in sorted(chapters)}})
+
+    books.sort(key=lambda b: _ORDER.get(b["code"], 99))
 
     # short glosses (inline) + per-lemma entries (lazy)
     shutil.copy2(lex / "short-glosses.json", DST / "short-glosses.json")

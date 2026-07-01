@@ -6,6 +6,12 @@
 import { useState, useCallback, useRef } from "react";
 import type { GreekVerse as Verse, GreekWord } from "@/lib/greek";
 
+// Reading form of a word: MorphGNT's surface text keeps punctuation (·, comma, period) but also
+// carries SBL apparatus sigla (⸀⸂⸃…, U+2E00–U+2E1F). Strip the sigla so the verse reads plain.
+function readingText(text: string): string {
+  return text.replace(/[⸀-⸟]/g, "");
+}
+
 // ASCII-safe filename slug for a lexKey — hex of its NFC-UTF8 bytes. Must match
 // reception-corpus greek.lex_slug(): Greek filenames don't survive Vercel static routing.
 function lexSlug(lexKey: string): string {
@@ -58,19 +64,21 @@ export default function GreekVerse({ verse }: { verse: Verse }) {
 
   return (
     <div className="gk-layout">
-      <div className="gk-text">
-        {verse.words.map((w) => (
-          <button
-            key={w.i}
-            className={`gk-word${sel === w.i ? " sel" : ""}`}
-            onClick={() => selectWord(w)}
-          >
-            <span className="gk-surface">{w.word}</span>
-            <span className="gk-gloss">{w.gloss ?? "—"}</span>
-            <span className="gk-morph">{w.morph}</span>
-          </button>
+      {/* Plain reading text — the Greek reads as running prose; parse + gloss stay hidden
+          until a word is tapped (revealed in the panel). Not an interlinear. */}
+      <p className="gk-reading">
+        {verse.words.map((w, idx) => (
+          <span key={w.i}>
+            {idx > 0 && " "}
+            <button
+              className={`gk-word${sel === w.i ? " sel" : ""}`}
+              onClick={() => selectWord(w)}
+            >
+              {readingText(w.text)}
+            </button>
+          </span>
         ))}
-      </div>
+      </p>
 
       <aside className="gk-panel">
         {!selWord && <p className="gk-hint">Tap a word for its classical lexicon entry.</p>}

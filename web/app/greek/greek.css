@@ -33,19 +33,20 @@
 .gk-layout { display: grid; grid-template-columns: 1fr 380px; gap: 28px; align-items: start; }
 @media (max-width: 860px) { .gk-layout { grid-template-columns: 1fr; } }
 
-/* interlinear words */
-.gk-text { display: flex; flex-wrap: wrap; gap: 8px; }
-.gk-word {
-  display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
-  padding: 8px 10px; border: 1px solid transparent; border-radius: var(--radius-md, 8px);
-  background: var(--bg-sunken); cursor: pointer; text-align: left;
-  transition: border-color var(--dur-fast, 120ms) var(--ease-quiet, ease);
+/* plain reading text — the Greek reads as running prose; tap a word to reveal it */
+.gk-reading {
+  font-family: var(--serif); font-size: 1.7rem; line-height: 2; color: var(--ink);
+  margin: 0; max-width: 34ch;
 }
-.gk-word:hover { border-color: var(--border-strong, var(--border)); }
-.gk-word.sel { border-color: var(--reed); background: var(--fen-mist, var(--bg-raised)); }
-.gk-surface { font-family: var(--serif); font-size: 1.3rem; color: var(--ink); line-height: 1.2; }
-.gk-gloss { font-family: var(--sans); font-size: var(--t-caption, 0.78rem); color: var(--reed-deep); }
-.gk-morph { font-family: var(--sans); font-size: var(--t-micro, 0.68rem); color: var(--fg-quiet); }
+.gk-word {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0 1px; margin: 0;
+  cursor: pointer; border-radius: var(--radius-sm, 4px);
+  border-bottom: 2px solid transparent;
+  transition: background var(--dur-fast, 120ms) var(--ease-quiet, ease),
+              border-color var(--dur-fast, 120ms) var(--ease-quiet, ease);
+}
+.gk-word:hover { border-bottom-color: var(--border-strong, var(--border)); }
+.gk-word.sel { background: var(--fen-mist, var(--bg-raised)); border-bottom-color: var(--reed); }
 
 /* lexicon panel */
 .gk-panel {
