@@ -30,6 +30,27 @@ import osis  # noqa: E402  (parse_refkey -> {book, chapter, ...})
 _CATENA_DATA = Path.home() / "catena" / "data"
 _catena_cache: dict = {}
 
+# For OT/deutero readings: Catena's centrifugal trajectory reader
+# (/fontium/read/[slug]) reads a whole OT chapter forward through its NT
+# afterlife. catena-readers.json (the open-data export, WS4) keys every chapter
+# that has one by chapter-level OSIS refKey ("Gen.1") -> reader url. Built at
+# Catena build time by tools/export-dataset.mjs; regenerate there if it goes stale.
+_CATENA_READERS = Path.home() / "catena" / "public" / "data" / "catena-readers.json"
+_readers_cache: dict | None = None
+
+
+def _reader_url(book: str, chapter: int):
+    global _readers_cache
+    if _readers_cache is None:
+        _readers_cache = {}
+        if _CATENA_READERS.exists():
+            data = json.loads(_CATENA_READERS.read_text(encoding="utf-8"))
+            for r in data.get("readers", []):
+                _readers_cache[r["refKey"]] = r["url"]
+    if not chapter:
+        return None
+    return _readers_cache.get(f"{book}.{chapter}")
+
 
 def _catena_pericope_id(slug, chapter, v1, v2):
     if slug not in _catena_cache:
@@ -101,8 +122,13 @@ def reading_links(refkey: str) -> list[dict]:
         out.append({"resource": "Catena", "kind": "reception",
                     "label": "Fathers & echoes", "url": url})
     else:
-        out.append({"resource": "Catena", "kind": "reception",
-                    "label": "Index Fontium", "url": f"{CATENA}/fontium"})
+        reader_url = _reader_url(book, ch)
+        if reader_url:
+            out.append({"resource": "Catena", "kind": "reception",
+                        "label": "Read this chapter forward", "url": reader_url})
+        else:
+            out.append({"resource": "Catena", "kind": "reception",
+                        "label": "Index Fontium", "url": f"{CATENA}/fontium"})
 
     # Topographia — geography (only built books)
     tslug = TOPO_SLUG.get(book)

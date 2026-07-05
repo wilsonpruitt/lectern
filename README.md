@@ -97,6 +97,15 @@ last item set. The plan to tag the full UMH + The Faith We Sing corpus against
 the frozen lexicon — sources, copyright posture, pipeline, and the subagent
 prompt template — is in **`docs/hymn-tagging-plan.md`**.
 
+## Next: wordplay lens (Verbum)
+
+The Lenses tab links each reading to Catena / Topographia / Annales / Doctrine.
+Verbum (the HOW-IT-SOUNDS lens — Hebrew puns and name-plays) is ready to add:
+Verbum publishes a refKey-keyed `/index.json` play manifest, and the consumer
+slots into `src/connections.py::reading_links` (auto-flows to the Lenses tab).
+Full build note — manifest shape, insertion point, overlap algorithm — in
+**`docs/verbum-integration.md`**.
+
 ## Dependency
 
 Reads `~/reception-corpus/data/rcl.json` (the shared RCL spine, Years A/B/C).
