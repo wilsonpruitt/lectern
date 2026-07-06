@@ -102,6 +102,36 @@ ANNALES_PAUL = {"Acts", "Rom", "1Cor", "2Cor", "Gal", "Eph", "Phil", "Col",
                 "1Thess", "2Thess", "1Tim", "2Tim", "Titus", "Phlm"}  # Life of Paul
 ANNALES_GOSPEL = {"Matt", "Mark", "Luke", "John"}      # the Diatessaron harmony
 
+# --- Verbum: the wordplay lens. Curated (not a complete Bible), so link only
+# where a play exists. Manifest is committed locally (~/verbum/public/index.json,
+# read once at build time; no network dep) per docs/verbum-integration.md. ---
+_VERBUM_INDEX = Path.home() / "verbum" / "public" / "index.json"
+_verbum_cache: list | None = None
+
+
+def _verbum_plays():
+    global _verbum_cache
+    if _verbum_cache is None:
+        _verbum_cache = (json.loads(_VERBUM_INDEX.read_text(encoding="utf-8")).get("plays", [])
+                         if _VERBUM_INDEX.exists() else [])
+    return _verbum_cache
+
+
+def _verbum_link(book: str, chapter: int, v_start: int, c_end: int, v_end: int):
+    """First play whose verse range overlaps the reading, or None."""
+    r_start = (chapter, v_start or 0)
+    r_end = (c_end or chapter, v_end or 999)
+    for pl in _verbum_plays():
+        if pl["book"] != book:
+            continue
+        p_start = (pl["start"]["chapter"], pl["start"]["verse"])
+        p_end = (pl["end"]["chapter"], pl["end"]["verse"])
+        if p_start <= r_end and p_end >= r_start:
+            return {"resource": "Verbum", "kind": "wordplay",
+                    "label": f"Wordplay — {pl.get('heading') or pl.get('kindLabel')}",
+                    "url": pl["url"]}
+    return None
+
 
 def reading_links(refkey: str) -> list[dict]:
     """Interpretive resources that resolve to one reading. Ordered Catena ->
@@ -147,6 +177,11 @@ def reading_links(refkey: str) -> list[dict]:
     elif book in ANNALES_PAUL:
         out.append({"resource": "Annales", "kind": "chronology",
                     "label": "Life of Paul", "url": f"{ANNALES}/life-of-paul"})
+
+    # Verbum — wordplay (curated; only where a play exists)
+    vlink = _verbum_link(book, ch, p["v_start"], p.get("c_end") or ch, p.get("v_end_true"))
+    if vlink:
+        out.append(vlink)
     return out
 
 
