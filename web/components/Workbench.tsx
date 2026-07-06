@@ -501,13 +501,31 @@ export default function Workbench({
   const t = occ.tracks[track] ?? occ.tracks[trackKeys[0]];
   const o = occ.occasion;
 
-  const tabs: [TabKey, string, boolean][] = [
-    ["notes", "Wesley's Notes", false],
-    ["hymns", "Hymns", false],
-    ["praise", "Praise", false],
-    ["calls", "Call to Worship", false],
-    ["lenses", "Lenses", false],
-    ["turn", "The Turn", !occ.turn],
+  // Lectern's job this phase is a product for preachers, not a personal workbench —
+  // Covenant's own song list is a church-specific example, not a core feature. Off by
+  // default; a future personal/church build sets NEXT_PUBLIC_CHURCH_LAYER=1.
+  const churchLayer = process.env.NEXT_PUBLIC_CHURCH_LAYER === "1";
+
+  // Two clusters: readings move from interpretation into what the service needs.
+  // The Turn anchors the first cluster and is never disabled — an empty week still
+  // renders (synthesis, or a "coming" panel), never a dead grey tab.
+  const clusters: [string, [TabKey, string, boolean][]][] = [
+    [
+      "Interpret → Preach",
+      [
+        ["notes", "Wesley's Notes", false],
+        ["lenses", "Lenses", false],
+        ["turn", "The Turn", false],
+      ],
+    ],
+    [
+      "For the service",
+      [
+        ["hymns", "Hymns", false],
+        ["calls", "Call to Worship", false],
+        ...(churchLayer ? ([["praise", "Your church's songs (example)", false]] as [TabKey, string, boolean][]) : []),
+      ],
+    ],
   ];
 
   return (
@@ -571,17 +589,24 @@ export default function Workbench({
           <Readings track={t} greekBooks={greekBooks} />
         </aside>
         <main className="panel">
-          <div className="tabs">
-            {tabs.map(([k, lbl, dis]) => (
-              <button
-                key={k}
-                aria-selected={tab === k}
-                disabled={dis}
-                onClick={() => !dis && setTab(k)}
-              >
-                {lbl}
-                {dis ? " ·" : ""}
-              </button>
+          <div className="tab-clusters">
+            {clusters.map(([label, clusterTabs]) => (
+              <div className="tab-cluster" key={label}>
+                <span className="tab-cluster-lbl">{label}</span>
+                <div className="tabs">
+                  {clusterTabs.map(([k, lbl, dis]) => (
+                    <button
+                      key={k}
+                      aria-selected={tab === k}
+                      disabled={dis}
+                      onClick={() => !dis && setTab(k)}
+                    >
+                      {lbl}
+                      {dis ? " ·" : ""}
+                    </button>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
           <div className="panel-body">
