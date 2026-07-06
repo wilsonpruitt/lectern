@@ -742,29 +742,14 @@
         {
           "role": "psalm",
           "ref": "Psalm 103:(1-7), 8-13",
-          "refKey": "Ps.103.1-Ps.103.7",
-          "tags": {
-            "theme": [
-              "grace",
-              "mercy-and-forgiveness",
-              "providence-and-care",
-              "thanksgiving"
-            ],
-            "mood": [
-              "assurance",
-              "praise-and-exultation"
-            ],
-            "function": [
-              "pardon-assurance",
-              "praise-opening"
-            ]
-          },
+          "refKey": "Ps.103.8-Ps.103.13",
+          "tags": {},
           "notes": [
             {
               "chapter": 103,
-              "v_start": 5,
-              "v_end": 5,
-              "text": "The eagles — Which lives long in great strength and vigour."
+              "v_start": 11,
+              "v_end": 11,
+              "text": "So great — So much above their deserts and expectations."
             }
           ]
         },
@@ -897,32 +882,6 @@
           "tags": [
             "church-and-unity",
             "comfort-and-consolation",
-            "grace",
-            "praise-and-exultation"
-          ],
-          "score": 3.2
-        },
-        {
-          "title": "Sermon 135",
-          "author": "John Wesley",
-          "text": null,
-          "url": null,
-          "tags": [
-            "assurance",
-            "church-and-unity",
-            "comfort-and-consolation",
-            "grace"
-          ],
-          "score": 3.2
-        },
-        {
-          "title": "Sermon 100",
-          "author": "John Wesley",
-          "text": "Romans 15:2",
-          "url": null,
-          "tags": [
-            "assurance",
-            "church-and-unity",
             "grace"
           ],
           "score": 2.6
@@ -940,6 +899,18 @@
           "score": 2.6
         },
         {
+          "title": "Sermon 135",
+          "author": "John Wesley",
+          "text": null,
+          "url": null,
+          "tags": [
+            "church-and-unity",
+            "comfort-and-consolation",
+            "grace"
+          ],
+          "score": 2.6
+        },
+        {
           "title": "The General Deliverance",
           "author": "John Wesley",
           "text": "Romans 8:19-22",
@@ -952,33 +923,29 @@
           "score": 2.6
         },
         {
-          "title": "Sermon 121",
-          "author": "John Wesley",
-          "text": "Psalm 73:20",
+          "title": "CW Sermon II: Psalm 91:11",
+          "author": "Charles Wesley",
+          "text": "Psalm 91:11",
           "url": null,
           "tags": [
-            "assurance",
             "church-and-unity",
-            "prophetic-warning"
+            "grace"
           ],
-          "score": 2.2
+          "score": 2.0
+        },
+        {
+          "title": "CW Sermon IX: Mark 12:30",
+          "author": "Charles Wesley",
+          "text": "Mark 12:30",
+          "url": null,
+          "tags": [
+            "church-and-unity",
+            "love-of-neighbor"
+          ],
+          "score": 2.0
         }
       ],
       "hymns": [
-        {
-          "hymnal": "UMH",
-          "number": "824",
-          "title": "As far as the east is from the west",
-          "tags": [
-            "assurance",
-            "comfort-and-consolation",
-            "grace",
-            "mercy-and-forgiveness",
-            "pardon-assurance",
-            "thanksgiving"
-          ],
-          "score": 1.64
-        },
         {
           "hymnal": "UMH",
           "number": "346b",
@@ -990,19 +957,6 @@
             "prophetic-warning"
           ],
           "score": 1.54
-        },
-        {
-          "hymnal": "UMH",
-          "number": "367",
-          "title": "Shackled by a heavy burden",
-          "tags": [
-            "assurance",
-            "deliverance",
-            "grace",
-            "healing-and-comfort",
-            "mercy-and-forgiveness"
-          ],
-          "score": 1.42
         },
         {
           "hymnal": "UMH",
@@ -1019,73 +973,55 @@
         },
         {
           "hymnal": "UMH",
-          "number": "121",
-          "title": "There's a wideness in God's mercy",
+          "number": "691",
+          "title": "Dear Jesus, as a hen covers her chicks",
           "tags": [
-            "assurance",
             "comfort-and-consolation",
-            "grace",
+            "healing-and-comfort",
             "mercy-and-forgiveness",
-            "pardon-assurance"
+            "providence-and-care",
+            "tenderness"
           ],
-          "score": 1.36
+          "score": 1.28
         },
         {
           "hymnal": "UMH",
-          "number": "121b",
-          "title": "There's a wideness in God's mercy",
+          "number": "367",
+          "title": "Shackled by a heavy burden",
           "tags": [
-            "assurance",
-            "comfort-and-consolation",
+            "deliverance",
             "grace",
-            "mercy-and-forgiveness",
-            "pardon-assurance"
+            "healing-and-comfort",
+            "mercy-and-forgiveness"
           ],
-          "score": 1.36
+          "score": 1.25
+        },
+        {
+          "hymnal": "UMH",
+          "number": "560",
+          "title": "Help us accept each other",
+          "tags": [
+            "church-and-unity",
+            "exhortation",
+            "grace",
+            "love-of-neighbor"
+          ],
+          "score": 1.18
+        },
+        {
+          "hymnal": "UMH",
+          "number": "590",
+          "title": "Christ loves the church, with grace beyond all measure",
+          "tags": [
+            "church-and-unity",
+            "grace",
+            "love-of-neighbor",
+            "tenderness"
+          ],
+          "score": 1.18
         }
       ],
       "praise": [
-        {
-          "title": "Psalm 91",
-          "timesUsed": 9,
-          "frequency": "heavy",
-          "pd": false,
-          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
-          "tags": [
-            "assurance",
-            "deliverance",
-            "healing-and-comfort",
-            "providence-and-care"
-          ],
-          "score": 3.1
-        },
-        {
-          "title": "Glory, Glory God Is Able",
-          "timesUsed": 8,
-          "frequency": "heavy",
-          "pd": false,
-          "url": "https://www.youtube.com/results?search_query=Glory%2C+Glory+God+Is+Able+worship+song",
-          "tags": [
-            "deliverance",
-            "praise-and-exultation",
-            "praise-opening",
-            "providence-and-care"
-          ],
-          "score": 3.1
-        },
-        {
-          "title": "Blameless",
-          "timesUsed": 2,
-          "frequency": "occasional",
-          "pd": false,
-          "url": "https://www.youtube.com/results?search_query=Blameless+worship+song",
-          "tags": [
-            "assurance",
-            "grace",
-            "mercy-and-forgiveness"
-          ],
-          "score": 2.6
-        },
         {
           "title": "Jesus, Lover of My Soul",
           "timesUsed": 2,
@@ -1100,17 +1036,29 @@
           "score": 2.6
         },
         {
-          "title": "The Goodness of God",
-          "timesUsed": 1,
-          "frequency": "once",
+          "title": "Psalm 91",
+          "timesUsed": 9,
+          "frequency": "heavy",
           "pd": false,
-          "url": "https://www.youtube.com/results?search_query=The+Goodness+of+God+worship+song",
+          "url": "https://www.youtube.com/results?search_query=Psalm+91+worship+song",
           "tags": [
-            "praise-and-exultation",
-            "providence-and-care",
-            "thanksgiving"
+            "deliverance",
+            "healing-and-comfort",
+            "providence-and-care"
           ],
-          "score": 2.6
+          "score": 2.5
+        },
+        {
+          "title": "Glory, Glory God Is Able",
+          "timesUsed": 8,
+          "frequency": "heavy",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Glory%2C+Glory+God+Is+Able+worship+song",
+          "tags": [
+            "deliverance",
+            "providence-and-care"
+          ],
+          "score": 2.0
         },
         {
           "title": "Brokenness Aside",
@@ -1120,10 +1068,33 @@
           "url": "https://www.youtube.com/results?search_query=Brokenness+Aside+worship+song",
           "tags": [
             "grace",
-            "mercy-and-forgiveness",
-            "pardon-assurance"
+            "mercy-and-forgiveness"
           ],
-          "score": 2.5
+          "score": 2.0
+        },
+        {
+          "title": "Pass Me Not, O Gentle Savior",
+          "timesUsed": 5,
+          "frequency": "regular",
+          "pd": true,
+          "url": "https://www.youtube.com/results?search_query=Pass+Me+Not%2C+O+Gentle+Savior+worship+song",
+          "tags": [
+            "grace",
+            "mercy-and-forgiveness"
+          ],
+          "score": 2.0
+        },
+        {
+          "title": "Blameless",
+          "timesUsed": 2,
+          "frequency": "occasional",
+          "pd": false,
+          "url": "https://www.youtube.com/results?search_query=Blameless+worship+song",
+          "tags": [
+            "grace",
+            "mercy-and-forgiveness"
+          ],
+          "score": 2.0
         }
       ],
       "lenses": {
@@ -1144,7 +1115,7 @@
           {
             "role": "psalm",
             "ref": "Psalm 103:(1-7), 8-13",
-            "refKey": "Ps.103.1-Ps.103.7",
+            "refKey": "Ps.103.8-Ps.103.13",
             "links": [
               {
                 "resource": "Catena",
@@ -1306,14 +1277,6 @@
             "url": "https://www.umc.org/en/content/social-principles-the-natural-world#creatures",
             "themes": [
               "providence-and-care"
-            ]
-          },
-          {
-            "community": "The Economic Community",
-            "topic": "Sabbath & Renewal Time",
-            "url": "https://www.umc.org/en/content/social-principles-the-economic-community#sabbath",
-            "themes": [
-              "thanksgiving"
             ]
           }
         ]
