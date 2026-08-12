@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { indexByYear, YEARS } from "@/lib/data";
-import { weeksAhead, CURRENT } from "@/lib/now";
+import { CURRENT } from "@/lib/now";
+import ThisSunday from "@/components/ThisSunday";
 
 const YEAR_LEDE: Record<string, string> = {
   A: "Matthew · the kingdom in parables",
@@ -19,8 +20,9 @@ const TOOLS = [
 
 export default function Home() {
   const counts = Object.fromEntries(YEARS.map((y) => [y, indexByYear(y).length]));
-  const ahead = weeksAhead(5);
-  const [thisSunday, ...rest] = ahead;
+  // The whole dated year goes to the client — it picks the week from the visitor's
+  // own date, so the strip doesn't freeze at whatever Sunday we last deployed on.
+  const dated = indexByYear(CURRENT.year).filter((e) => e.date);
 
   return (
     <div className="wrap">
@@ -41,53 +43,7 @@ export default function Home() {
         </p>
       </section>
 
-      {thisSunday ? (
-        <section className="this-sunday">
-          <span className="eyebrow">This Sunday · Year {CURRENT.year}</span>
-          <Link href={`/${thisSunday.id}/`} className="sunday-feature">
-            <div className="sf-main">
-              <div className="sf-name">
-                {thisSunday.name}
-                {thisSunday.display ? <span className="sf-date">{thisSunday.display}</span> : null}
-              </div>
-              <div className="sf-readings">
-                {thisSunday.readings.map((r) => (
-                  <span key={r.role} className="sf-reading">
-                    <span className="role">{r.role}</span> {r.ref}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="sf-badges">
-              {thisSunday.hasTurn ? <span className="badge reed">The Turn ready</span> : null}
-              {thisSunday.hasCalls ? <span className="badge">Call ready</span> : null}
-              <span className="open">Open the workbench →</span>
-            </div>
-          </Link>
-
-          {rest.length ? (
-            <>
-              <div className="ahead-label micro">The weeks ahead</div>
-              <div className="ahead-grid">
-                {rest.map((e) => {
-                  const gospel = e.readings.find((r) => r.role === "gospel");
-                  return (
-                    <Link key={e.id} href={`/${e.id}/`} className="ahead-card">
-                      <div className="ac-name">{e.name}</div>
-                      {e.display ? <div className="ac-date">{e.display}</div> : null}
-                      {gospel ? <div className="ac-gospel">{gospel.ref}</div> : null}
-                      <div className="ac-badges">
-                        {e.hasTurn ? <span className="dot reed" title="The Turn ready" /> : null}
-                        {e.hasTurn ? "Turn" : <span className="ac-soon">Turn soon</span>}
-                      </div>
-                    </Link>
-                  );
-                })}
-              </div>
-            </>
-          ) : null}
-        </section>
-      ) : null}
+      <ThisSunday dated={dated} buildDate={new Date().toISOString().slice(0, 10)} />
 
       <section className="tools">
         <span className="eyebrow">The workbench</span>
