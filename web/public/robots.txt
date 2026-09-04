@@ -1,0 +1,38 @@
+# All crawlers welcome. Please pace yourselves — this is a small
+# independent press serving a large corpus of static pages, and a
+# full-speed sweep costs real money. The sitemap below lists every
+# page, so there is no need to crawl by guessing URLs.
+
+User-agent: *
+Allow: /
+Crawl-delay: 10
+
+# AI/training crawlers: same welcome, slower pace.
+User-agent: GPTBot
+Crawl-delay: 30
+
+User-agent: ClaudeBot
+Crawl-delay: 30
+
+User-agent: CCBot
+Crawl-delay: 30
+
+User-agent: Bytespider
+Crawl-delay: 30
+
+User-agent: Amazonbot
+Crawl-delay: 30
+
+User-agent: PerplexityBot
+Crawl-delay: 30
+
+User-agent: meta-externalagent
+Crawl-delay: 30
+
+User-agent: Applebot-Extended
+Crawl-delay: 30
+
+User-agent: Google-Extended
+Crawl-delay: 30
+
+Sitemap: https://lectern.wrootpress.com/sitemap.xml
