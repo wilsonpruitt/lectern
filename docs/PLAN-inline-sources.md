@@ -25,7 +25,10 @@
 > or name something non-biblical ("Kurkh Monolith (extra-biblical)"), and a handful of
 > abbreviated book names (2 Chron, 1/2 Cor, 1 Thess) needed local expansion before
 > `parse_citation` would accept them. All three builders ran clean across the full 1,253-
-> reading corpus with zero crashes; clean `pnpm build`.
+> reading corpus with zero crashes; clean `pnpm build`. One correction to this section's own
+> Proper 10-A example: Matthew 13's sower parable is genuinely not one of the Diatessaron's
+> 60 curated harmony episodes, so Proper 10-A shows no chronology panel at all — verified the
+> harmony mechanism instead on the Transfiguration (Matt 17/Mark 9/Luke 9), which does hit.
 >
 > **✅ Phase 4a DONE 2026-09-10 (Sonnet).** Turn v2 schema (per-track gravity/synthesis)
 > shipped and all 15 existing cards migrated (`scripts/migrate_turn_v2.py`). **Real finding
