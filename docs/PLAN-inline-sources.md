@@ -25,7 +25,26 @@
 > or name something non-biblical ("Kurkh Monolith (extra-biblical)"), and a handful of
 > abbreviated book names (2 Chron, 1/2 Cor, 1 Thess) needed local expansion before
 > `parse_citation` would accept them. All three builders ran clean across the full 1,253-
-> reading corpus with zero crashes; clean `pnpm build`. Next: Phase 4 (track-aware Turn).
+> reading corpus with zero crashes; clean `pnpm build`.
+>
+> **✅ Phase 4a DONE 2026-09-10 (Sonnet).** Turn v2 schema (per-track gravity/synthesis)
+> shipped and all 15 existing cards migrated (`scripts/migrate_turn_v2.py`). **Real finding
+> that overturns this section's own assumption:** the plan asserted all 16 (now 15) cards
+> were written against the complementary track, verified on one example. Checking every
+> card individually — as this section itself demanded ("confirm per card... do not assume")
+> — found that wrong for 9 of 15: the Genesis/Exodus narrative-arc stretch (Propers 13–19,
+> 21, 22) is written against **semicontinuous**, because that track carried the more vivid
+> story that week. Only Propers 9–12, 20, 23 are complementary-anchored. See the migration
+> script and `corpus/turn/SCHEMA.md` for the full per-card mapping. `hasTurnTracks` added to
+> `_index.json`; Workbench's track toggle now switches the Turn tab too, with a quiet
+> "not yet authored for this track" state. Clean `pnpm build`, verified against the full
+> corpus (15 with cards, 213 without, all internally consistent).
+>
+> **⏸ Phase 4b is Opus work (authored prose, per `feedback_opus-for-authored-prose`) and is
+> NOT done.** Start a Fable/Opus session for it: rewrite the SCHEMA.md authoring brief to
+> require Glossa + Wesley witnesses, then backfill each of the 15 cards' un-migrated track
+> (9 need complementary doors/gravity/synthesis authored, 6 need semicontinuous) plus attested
+> first-reading doors going forward.
 
 **Scoped 2026-09-10 (Fable). Executes in a cheaper session: Sonnet for phases 1–3 and the
 schema half of 4; Opus for the authored Turn prose in 4b.** Everything below was read from the
