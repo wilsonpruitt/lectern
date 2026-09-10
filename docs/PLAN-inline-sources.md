@@ -50,12 +50,27 @@
 > reading from the RCL spine) and `scripts/validate_turn.py` (checks every Wesley / Migne / intertext
 > witness is textually grounded in that source's own rows on that passage; caught one ungrounded framing
 > sentence on the pilot card). Authoring brief now in `corpus/turn/SCHEMA.md`. Where Migne has no gloss
-> (Ezekiel 18, 33), doors rest on Wesley plus Catena's intertextual notes. Open follow-ups found along
-> the way: (1) Lectern's Wesley and Glossa tabs read only the first span of split readings — 231 spine
-> readings have more; (2) 26 of ~14,400 Glossa verse addresses printed without `--` were folded into the
-> previous verse by the Phase 1 ingest; (3) some Wesley rows (e.g. Exod 16:2-4) carry his chapter outline
-> under the wrong verse numbers, an older ingest offset; (4) the originally-authored track on each card
-> still has no first-reading doors.
+> (Ezekiel 18, 33), doors rest on Wesley plus Catena's intertextual notes.
+>
+> **✅ Three follow-ups from Phase 4b fixed 2026-09-10 (Sonnet).**
+> 1. **Split readings**: Wesley's Notes and Glossa tabs were reading only the first span of a split
+>    reading (231 of 1,253 spine readings are split). `build_occasion.py`'s new `_union_spans()` queries
+>    every span; 208 of 231 gained Wesley notes and 198 gained Glossa entries once fixed (e.g. Genesis
+>    24:34-38,42-49,58-67 went from 1 to 5 Wesley notes, including Rebekah's "I will go" at v.58).
+> 2. **Misfiled Glossa addresses**: not 26 but 49 (a fuller audit found more than the earlier estimate) —
+>    ~30 with a bare period instead of `--`, 2 with roman-numeral verse numbers, 6 wrapped in `[sic: ...]`
+>    editorial brackets (4 genuine misses), 1 with the dashes printed before the number, 1 using a period
+>    to join a discontinuous verse list (verified against Migne's own Latin). Fixed in
+>    `~/reception-corpus/src/ingest_glossa.py`'s `VERS_RE` + a new `normalize_vers_markup()` pass;
+>    13,686 → 13,733 rows, report gate unchanged at 80.0%.
+> 3. **Wesley chapter-outline bleed**: real, but isolated — checked the whole kjv-wesley corpus for the
+>    shape (outline bullets referencing "ver. X-Y" followed by a note restarting a numbered list) and
+>    Exodus 16 was the only match; a broader "contains a numbered list" signature mostly false-positived
+>    Wesley's own frequent use of lists within one correctly-attributed note (e.g. Genesis 1:1). Fixed in
+>    `~/kjv-wesley`.
+>
+> **Still open, and still Opus work (authored prose):** the originally-authored track on each of the 15
+> cards has no first-reading doors yet.
 
 **Scoped 2026-09-10 (Fable). Executes in a cheaper session: Sonnet for phases 1–3 and the
 schema half of 4; Opus for the authored Turn prose in 4b.** Everything below was read from the
