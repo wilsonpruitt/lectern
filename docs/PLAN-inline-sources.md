@@ -7,7 +7,15 @@
 > instead of a hand table — see the script's `resolve_psalm_offset`). Confirmed live via
 > `turn_sources.available()`. Report gate: 80% overall lemma-match; low ratios on
 > Sirach/Judith/Tobit/Esther (37–64%) are disclosed textual-tradition variance, not bugs — see
-> NOW.md for the full note. Next: Phase 2.
+> NOW.md for the full note.
+>
+> **✅ Phase 2 DONE 2026-09-10 (Sonnet).** Glossa tab shipped beside Wesley's Notes —
+> `src/glossa.py`, `build_occasion.py`'s `glossa`/`glossaBookCovered` fields, and
+> `Workbench.tsx`'s `Glossa` component. Deviated from the plan in one place: some chunks mark
+> the lemma with `«guillemets»` instead of `*asterisks*` (found during Phase 1's gate), so
+> `glossMarkup()` renders both, not just asterisks. Clean `pnpm build`; both empty states
+> verified against real occasions (Hosea for "book not in Migne", a John reading for "no
+> comment on this passage"). Next: Phase 3.
 
 **Scoped 2026-09-10 (Fable). Executes in a cheaper session: Sonnet for phases 1–3 and the
 schema half of 4; Opus for the authored Turn prose in 4b.** Everything below was read from the
