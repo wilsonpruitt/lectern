@@ -77,6 +77,22 @@ def reading_tags(rcl_tags: dict, refkey: str) -> dict:
     return {f: list(d.get(f, [])) for f in FACETS if d.get(f)}
 
 
+def _union_spans(fn, refkeys: list[str], con) -> list[dict]:
+    """Apply fn(refkey, con) -> list[dict] over every span of a (possibly split)
+    reading and merge, deduped by (chapter, v_start, v_end), verse-ordered. A split
+    reading's refKey alone only covers its first span (e.g. Gen 24:34-38 out of
+    34-38, 42-49, 58-67) -- callers must pass r.get("refKeys") or [r["refKey"]]."""
+    seen, out = set(), []
+    for rk in refkeys:
+        for e in fn(rk, con):
+            key = (e["chapter"], e["v_start"], e["v_end"])
+            if key not in seen:
+                seen.add(key)
+                out.append(e)
+    out.sort(key=lambda e: (e["chapter"], e["v_start"]))
+    return out
+
+
 def track_readings(occ: dict, rcl_tags: dict, notes_con) -> dict:
     """{track: [reading-dict]} mirroring tag_connect.occasion_tracks but keeping
     refKey + ordered, contract-shaped reading dicts. Untracked readings appear in
@@ -87,13 +103,14 @@ def track_readings(occ: dict, rcl_tags: dict, notes_con) -> dict:
     for r in occ["readings"]:
         if r.get("alt"):
             continue
+        span_keys = r.get("refKeys") or [r["refKey"]]
         entry = {
             "role": r["role"],
             "ref": r["refDisplay"],
             "refKey": r["refKey"],
             "tags": reading_tags(rcl_tags, r["refKey"]),
-            "notes": wn.notes_for_refkey(r["refKey"], notes_con),
-            "glossa": gl.glosses_for_refkey(r["refKey"], notes_con),
+            "notes": _union_spans(wn.notes_for_refkey, span_keys, notes_con),
+            "glossa": _union_spans(gl.glosses_for_refkey, span_keys, notes_con),
             # lets the tab distinguish "no comment on this passage" from "this book
             # isn't in Migne's recension at all" -- refKey's book code is its first segment
             "glossaBookCovered": gl.book_has_glossa(r["refKey"].split(".", 1)[0], notes_con),
