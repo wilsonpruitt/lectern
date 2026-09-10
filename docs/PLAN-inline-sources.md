@@ -15,7 +15,17 @@
 > the lemma with `«guillemets»` instead of `*asterisks*` (found during Phase 1's gate), so
 > `glossMarkup()` renders both, not just asterisks. Clean `pnpm build`; both empty states
 > verified against real occasions (Hosea for "book not in Migne", a John reading for "no
-> comment on this passage"). Next: Phase 3.
+> comment on this passage").
+>
+> **✅ Phase 3 DONE 2026-09-10 (Sonnet).** Catena echoes, Annales chronology, and the
+> Topographia map now render inline in the Lenses tab (`connections.py`'s `catena_echoes`
+> / `annales_chronology` / `topographia_map`, `PlacesMapPanel`/`ChronologyPanel`/`EchoesPanel`
+> in `Workbench.tsx`, `web/components/PlacesMap.tsx` for the Leaflet map). Real traps found
+> past the plan's own warning: an Annales `ref` field can join several citations with " · "
+> or name something non-biblical ("Kurkh Monolith (extra-biblical)"), and a handful of
+> abbreviated book names (2 Chron, 1/2 Cor, 1 Thess) needed local expansion before
+> `parse_citation` would accept them. All three builders ran clean across the full 1,253-
+> reading corpus with zero crashes; clean `pnpm build`. Next: Phase 4 (track-aware Turn).
 
 **Scoped 2026-09-10 (Fable). Executes in a cheaper session: Sonnet for phases 1–3 and the
 schema half of 4; Opus for the authored Turn prose in 4b.** Everything below was read from the
