@@ -1,92 +1,108 @@
 {
-  "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 20:1-16; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation.",
-  "occasion": "proper-20-25-a",
-  "pericope": "Matthew 20:1-16",
-  "refKey": "Matt.20.1-Matt.20.16",
-  "gravity": "The day pairs Jonah — furious on his hill that God spared Nineveh — with the Psalm's slow-to-anger mercy and the vineyard's equal denarius. One nerve runs through all three: God's generosity offends the deserving. Grace is not fair, and the longest-serving resent it most.",
-  "trap": "It becomes a lesson about fairness (and how the workers should have read the fine print), or a warm word that \"God rewards everyone\" — either way the scandal is explained off. The parable's offense is precisely the equal wage; defuse it and there is no sermon left.",
-  "hinge": "The householder does no one wrong — every promise is kept — and the first are still furious. Grace that is genuinely unfair to our accounting. The only question the text leaves open is whether you can rejoice in that or only resent it.",
-  "doors": [
+ "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 20:1-16; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "occasion": "proper-20-25-a",
+ "pericope": "Matthew 20:1-16",
+ "refKey": "Matt.20.1-Matt.20.16",
+ "trap": "It becomes a lesson about fairness (and how the workers should have read the fine print), or a warm word that \"God rewards everyone\" — either way the scandal is explained off. The parable's offense is precisely the equal wage; defuse it and there is no sermon left.",
+ "hinge": "The householder does no one wrong — every promise is kept — and the first are still furious. Grace that is genuinely unfair to our accounting. The only question the text leaves open is whether you can rejoice in that or only resent it.",
+ "doors": [
+  {
+   "landing": "One denarius for all",
+   "claim": "The wage is eternal life itself, and it is given whole to everyone — heaven is not a pay scale, and the latecomer is not shortchanged.",
+   "witnesses": [
     {
-      "landing": "One denarius for all",
-      "claim": "The wage is eternal life itself, and it is given whole to everyone — heaven is not a pay scale, and the latecomer is not shortchanged.",
-      "witnesses": [
-        {
-          "author": "Origen",
-          "tradition": "greek-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "The denarius here I take to mean salvation itself."
-        },
-        {
-          "author": "Augustine",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Because life eternal shall be equal to all the saints, one denarius is given to all — though in that life the light of merits will still shine diversely."
-        },
-        {
-          "author": "Jerome",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "The denarius bears the figure of the King: you have received my image and likeness. What more do you desire?"
-        }
-      ],
-      "say": "What you are paid is God's own life, given to you entire — there is no larger wage to envy.",
-      "do": "Lead them to receive the denarius as gift, not earnings — to name where they have been counting their hours instead of marvelling at the coin."
+     "author": "Origen",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The denarius here I take to mean salvation itself."
     },
     {
-      "landing": "The eleventh hour",
-      "claim": "The hours are the ages of the world; the last hired are the latecomers — the Gentiles, the deathbed convert, anyone called after us — and they are seated as our equals.",
-      "witnesses": [
-        {
-          "author": "Gregory the Great",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "The morning is the age from Adam to Noah, the third hour Noah to Abraham, the sixth and ninth to Moses and to the Lord, and the eleventh hour from the Lord's coming to the end of the world."
-        },
-        {
-          "author": "John Wesley",
-          "tradition": "wesleyan",
-          "work": "Explanatory Notes",
-          "mode": "text",
-          "reading": "The eleventh hour: the Gentiles, called long after the Jews into the vineyard of the Church — or those in any age who were called late."
-        }
-      ],
-      "say": "You may have worked since morning, but the kingdom is not seniority — the one called at the eleventh hour sits beside you, equal.",
-      "do": "Turn long-time members from a claim of priority to gladness at the latecomer — one person they would secretly rank below themselves."
+     "author": "Augustine",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Because life eternal shall be equal to all the saints, one denarius is given to all — though in that life the light of merits will still shine diversely."
     },
     {
-      "landing": "The evil eye",
-      "claim": "The laborers were not cheated of anything; their grievance is simply that others got more than they deserved — and that envy of grace is the sin the parable exposes in us.",
-      "witnesses": [
-        {
-          "author": "Remigius of Auxerre",
-          "tradition": "medieval",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "By the eye is meant the purpose: they had an evil eye, an evil purpose, because they were grieved at the salvation of the others."
-        },
-        {
-          "author": "Pseudo-Chrysostom",
-          "tradition": "pseudonymous",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Their complaint was not that they were defrauded of their wage, but that the others received more than they deserved — for the envious have as much pain at another's good as at their own ill."
-        }
-      ],
-      "say": "Search the resentment in your own chest when grace runs to someone who didn't earn it — that evil eye, not the wage, is the danger here.",
-      "do": "Send them, like Jonah left outside the city, to one place they are angry that God has been merciful, and to repent of the grudge."
+     "author": "Jerome",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The denarius bears the figure of the King: you have received my image and likeness. What more do you desire?"
     }
-  ],
-  "subtract": "Three doors, three landings — wonder at the equal coin, humility before the latecomer, repentance of the evil eye. They cannot all be preached at once; pick the one your people most need and let the other two go.",
-  "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
-  "status": "draft",
-  "synthesis": {
+   ],
+   "say": "What you are paid is God's own life, given to you entire — there is no larger wage to envy.",
+   "do": "Lead them to receive the denarius as gift, not earnings — to name where they have been counting their hours instead of marvelling at the coin."
+  },
+  {
+   "landing": "The eleventh hour",
+   "claim": "The hours are the ages of the world; the last hired are the latecomers — the Gentiles, the deathbed convert, anyone called after us — and they are seated as our equals.",
+   "witnesses": [
+    {
+     "author": "Gregory the Great",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The morning is the age from Adam to Noah, the third hour Noah to Abraham, the sixth and ninth to Moses and to the Lord, and the eleventh hour from the Lord's coming to the end of the world."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "The eleventh hour: the Gentiles, called long after the Jews into the vineyard of the Church — or those in any age who were called late."
+    }
+   ],
+   "say": "You may have worked since morning, but the kingdom is not seniority — the one called at the eleventh hour sits beside you, equal.",
+   "do": "Turn long-time members from a claim of priority to gladness at the latecomer — one person they would secretly rank below themselves."
+  },
+  {
+   "landing": "The evil eye",
+   "claim": "The laborers were not cheated of anything; their grievance is simply that others got more than they deserved — and that envy of grace is the sin the parable exposes in us.",
+   "witnesses": [
+    {
+     "author": "Remigius of Auxerre",
+     "tradition": "medieval",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "By the eye is meant the purpose: they had an evil eye, an evil purpose, because they were grieved at the salvation of the others."
+    },
+    {
+     "author": "Pseudo-Chrysostom",
+     "tradition": "pseudonymous",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Their complaint was not that they were defrauded of their wage, but that the others received more than they deserved — for the envious have as much pain at another's good as at their own ill."
+    }
+   ],
+   "say": "Search the resentment in your own chest when grace runs to someone who didn't earn it — that evil eye, not the wage, is the danger here.",
+   "do": "Send them, like Jonah left outside the city, to one place they are angry that God has been merciful, and to repent of the grudge."
+  }
+ ],
+ "tracks": {
+  "complementary": {
+   "firstReading": {
+    "ref": "Jonah 3:10-4:11",
+    "refKey": "Jonah.3.10-Jonah.4.11",
+    "doors": []
+   },
+   "gravity": "The day pairs Jonah — furious on his hill that God spared Nineveh — with the Psalm's slow-to-anger mercy and the vineyard's equal denarius. One nerve runs through all three: God's generosity offends the deserving. Grace is not fair, and the longest-serving resent it most.",
+   "synthesis": {
     "convergence": "Jonah sulks that grace reached his enemies; the Psalm praises a God who is good to all and slow to anger; Paul counts his own advantage as nothing next to Christ and others; and the laborers seethe at an equal wage. Together they press one nerve: God's generosity offends the deserving.",
     "claim": "Grace is not fair — and that is the best news in the world, unless you have been keeping count of your hours.",
     "here": "For long-faithful church people — the first-hired, the elder brothers, the Jonahs — the move is to catch the resentment in their own chest when grace runs to the latecomer, and to let God's gentle 'are you angry?' turn them from the gate back to the feast."
+   }
+  },
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Exodus 16:2-15",
+    "refKey": "Exod.16.2-Exod.16.15",
+    "doors": []
+   }
   }
+ },
+ "subtract": "Three doors, three landings — wonder at the equal coin, humility before the latecomer, repentance of the evil eye. They cannot all be preached at once; pick the one your people most need and let the other two go.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
 }

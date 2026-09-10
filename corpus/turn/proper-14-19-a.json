@@ -1,85 +1,101 @@
 {
-  "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation.",
-  "occasion": "proper-14-19-a",
-  "pericope": "Matthew 14:22-33",
-  "refKey": "Matt.14.22-Matt.14.33",
-  "gravity": "Joseph is sold into a pit by his own brothers in the wilderness (Genesis 37); the Psalm recalls how God led Joseph, \"bound in fetters,\" until the appointed word came to pass (Psalm 105); Paul insists faith comes only by a word that must first be sent and heard (Romans 10); and Peter steps out onto the sea and sinks the moment he looks at the wind. The nerve: faith is tested exactly in the gap between the word that calls and the ground giving way beneath it.",
-  "trap": "Becomes a self-help parable (\"keep your eyes on Jesus, not the waves\") or a shame-story about Peter's \"little faith\" — missing that Jesus comes walking toward them in the storm before Peter asks anything, and catches him the instant he calls.",
-  "hinge": "He rebukes Peter's \"little faith\" — but it was a little faith that got him out of the boat and walking on water in the first place, more than the other eleven managed.",
-  "doors": [
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "occasion": "proper-14-19-a",
+ "pericope": "Matthew 14:22-33",
+ "refKey": "Matt.14.22-Matt.14.33",
+ "trap": "Becomes a self-help parable (\"keep your eyes on Jesus, not the waves\") or a shame-story about Peter's \"little faith\" — missing that Jesus comes walking toward them in the storm before Peter asks anything, and catches him the instant he calls.",
+ "hinge": "He rebukes Peter's \"little faith\" — but it was a little faith that got him out of the boat and walking on water in the first place, more than the other eleven managed.",
+ "doors": [
+  {
+   "landing": "He comes to you first",
+   "claim": "Jesus walks toward the disciples in their fourth-watch panic before any of them asks for help — the initiative is his, not Peter's daring.",
+   "witnesses": [
     {
-      "landing": "He comes to you first",
-      "claim": "Jesus walks toward the disciples in their fourth-watch panic before any of them asks for help — the initiative is his, not Peter's daring.",
-      "witnesses": [
-        {
-          "author": "Augustine",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "The Lord came to visit His disciples who are tossed on the sea in the fourth watch of the night — that is, at its close."
-        },
-        {
-          "author": "John Chrysostom",
-          "tradition": "greek-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Christ then did not reveal Himself to His disciples until they cried out; for the more intense their fear, the more did they rejoice in His presence."
-        }
-      ],
-      "say": "He was already walking toward the boat before anyone in it knew to hope for him.",
-      "do": "Ask them to name the storm they assume they're facing alone, and name whose feet are already on the water."
+     "author": "Augustine",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The Lord came to visit His disciples who are tossed on the sea in the fourth watch of the night — that is, at its close."
     },
     {
-      "landing": "Bid me come",
-      "claim": "Peter's faith is real even though it falters — he asks to do the very thing Christ is doing, and is answered.",
-      "witnesses": [
-        {
-          "author": "John Chrysostom",
-          "tradition": "greek-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "See how great his warmth, how great his faith. He said not, Pray and entreat for me; but 'Bid me.'"
-        },
-        {
-          "author": "Augustine",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "This I am not able by myself, but in Thee I am able. Peter confessed what he was in himself, and what he should receive from Him."
-        }
-      ],
-      "say": "Peter didn't ask Jesus to calm the sea for him — he asked to walk on it with him. That is faith, not presumption.",
-      "do": "Have them name one impossible thing they've stopped asking for because it seemed presumptuous, and ask again."
-    },
-    {
-      "landing": "Caught the instant he cries",
-      "claim": "The sinking is not the end of the story — Christ's hand is faster than Peter's fear.",
-      "witnesses": [
-        {
-          "author": "John Chrysostom",
-          "tradition": "greek-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "He bade not the winds to cease, but stretched forth His hand and caught him, because his faith was required."
-        },
-        {
-          "author": "Rabanus Maurus",
-          "tradition": "medieval",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "The Lord looked back upon him, and brought him to repentance; He stretched forth His hand, and forgave him, and thus the disciple found salvation."
-        }
-      ],
-      "say": "He did not still the wind first — he caught Peter first. The rescue came before the calm.",
-      "do": "Ask them to recall a moment they were caught mid-fall, and name whose hand it was."
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Christ then did not reveal Himself to His disciples until they cried out; for the more intense their fear, the more did they rejoice in His presence."
     }
-  ],
-  "subtract": "Three landings — Christ's initiative, Peter's daring ask, or the catching hand. Choose one and let the others go.",
-  "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
-  "status": "draft",
-  "synthesis": {
+   ],
+   "say": "He was already walking toward the boat before anyone in it knew to hope for him.",
+   "do": "Ask them to name the storm they assume they're facing alone, and name whose feet are already on the water."
+  },
+  {
+   "landing": "Bid me come",
+   "claim": "Peter's faith is real even though it falters — he asks to do the very thing Christ is doing, and is answered.",
+   "witnesses": [
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "See how great his warmth, how great his faith. He said not, Pray and entreat for me; but 'Bid me.'"
+    },
+    {
+     "author": "Augustine",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "This I am not able by myself, but in Thee I am able. Peter confessed what he was in himself, and what he should receive from Him."
+    }
+   ],
+   "say": "Peter didn't ask Jesus to calm the sea for him — he asked to walk on it with him. That is faith, not presumption.",
+   "do": "Have them name one impossible thing they've stopped asking for because it seemed presumptuous, and ask again."
+  },
+  {
+   "landing": "Caught the instant he cries",
+   "claim": "The sinking is not the end of the story — Christ's hand is faster than Peter's fear.",
+   "witnesses": [
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "He bade not the winds to cease, but stretched forth His hand and caught him, because his faith was required."
+    },
+    {
+     "author": "Rabanus Maurus",
+     "tradition": "medieval",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The Lord looked back upon him, and brought him to repentance; He stretched forth His hand, and forgave him, and thus the disciple found salvation."
+    }
+   ],
+   "say": "He did not still the wind first — he caught Peter first. The rescue came before the calm.",
+   "do": "Ask them to recall a moment they were caught mid-fall, and name whose hand it was."
+  }
+ ],
+ "tracks": {
+  "complementary": {
+   "firstReading": {
+    "ref": "1 Kings 19:9-18",
+    "refKey": "1Kgs.19.9-1Kgs.19.18",
+    "doors": []
+   }
+  },
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Genesis 37:1-4, 12-28",
+    "refKey": "Gen.37.1-Gen.37.4",
+    "doors": []
+   },
+   "gravity": "Joseph is sold into a pit by his own brothers in the wilderness (Genesis 37); the Psalm recalls how God led Joseph, \"bound in fetters,\" until the appointed word came to pass (Psalm 105); Paul insists faith comes only by a word that must first be sent and heard (Romans 10); and Peter steps out onto the sea and sinks the moment he looks at the wind. The nerve: faith is tested exactly in the gap between the word that calls and the ground giving way beneath it.",
+   "synthesis": {
     "convergence": "Joseph is dragged into a storm not of his making, and God is present in the pit before Joseph can see it (Genesis 37; Psalm 105); Paul insists faith comes only by a word that must first be sent and heard (Romans 10); Peter steps onto chaos and does not drown because a hand is already reaching. Every reading agrees: God is present in the crisis before you can name it, calling by a word that precedes your faith.",
     "claim": "The storm did not start when you noticed it — Christ was already walking toward you across it.",
     "here": "For people paralyzed by \"not enough faith,\" don't demand more faith — point at whose hand is already extended. Their little faith is what got them out of the boat, and it is enough to be caught."
+   }
   }
+ },
+ "subtract": "Three landings — Christ's initiative, Peter's daring ask, or the catching hand. Choose one and let the others go.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
 }

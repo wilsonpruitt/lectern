@@ -1,85 +1,101 @@
 {
-  "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation.",
-  "occasion": "proper-22-27-a",
-  "pericope": "Matthew 21:33-46",
-  "refKey": "Matt.21.33-Matt.21.46",
-  "gravity": "God gives the Ten Words at Sinai — commands meant to order a free people, not shackle them (Exodus 20); Paul, credentials in hand, counts them all as loss for the sake of knowing Christ (Philippians 3); and Jesus tells of tenants who beat, kill, and finally murder the son sent to collect fruit that was never theirs to withhold. The nerve: everything in the vineyard — the hedge, the tower, the winepress — was gift, on loan, and the tenants' whole crime is forgetting that.",
-  "trap": "Becomes flat anti-Jewish caricature (indicting a whole people rather than a specific leadership's specific choice) or bare Christology-trivia (identify the stone, move on) — missing that the parable indicts anyone entrusted with a vineyard who starts treating the produce as their own.",
-  "hinge": "The tenants' plan is chillingly rational — \"this is the heir; let us kill him and have his inheritance\" — the murder isn't rage, it's a business calculation. The horror is how reasonable it sounds from inside the wrong premise.",
-  "doors": [
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "occasion": "proper-22-27-a",
+ "pericope": "Matthew 21:33-46",
+ "refKey": "Matt.21.33-Matt.21.46",
+ "trap": "Becomes flat anti-Jewish caricature (indicting a whole people rather than a specific leadership's specific choice) or bare Christology-trivia (identify the stone, move on) — missing that the parable indicts anyone entrusted with a vineyard who starts treating the produce as their own.",
+ "hinge": "The tenants' plan is chillingly rational — \"this is the heir; let us kill him and have his inheritance\" — the murder isn't rage, it's a business calculation. The horror is how reasonable it sounds from inside the wrong premise.",
+ "doors": [
+  {
+   "landing": "Everything was already gift",
+   "claim": "Hedge, tower, winepress — the tenants inherited an estate they didn't build, and forgot that before the first rent was ever due.",
+   "witnesses": [
     {
-      "landing": "Everything was already gift",
-      "claim": "Hedge, tower, winepress — the tenants inherited an estate they didn't build, and forgot that before the first rent was ever due.",
-      "witnesses": [
-        {
-          "author": "Jerome",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "He hath 'planted' a vine of which Isaiah speaks, 'The vine of the Lord of Hosts is the house of Israel.' And 'hedged it round about.'"
-        },
-        {
-          "author": "Rabanus Maurus",
-          "tradition": "medieval",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Morally; a vineyard has been let out to each of us to dress, when the mystery of baptism was given us, to be cultivated by action."
-        }
-      ],
-      "say": "Nothing you're standing on was built by you — the hedge and the tower were already there before you showed up to work.",
-      "do": "Have them name one thing in their life or ministry they've started treating as self-made rather than received."
+     "author": "Jerome",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "He hath 'planted' a vine of which Isaiah speaks, 'The vine of the Lord of Hosts is the house of Israel.' And 'hedged it round about.'"
     },
     {
-      "landing": "A business calculation, not rage",
-      "claim": "The murder is coldly reasoned — kill the heir, keep the inheritance — which is scarier than a crime of passion, because it means clear thinking got them there.",
-      "witnesses": [
-        {
-          "author": "Rabanus Maurus",
-          "tradition": "medieval",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "The Jews endeavoured by putting Him to death to seize upon the inheritance, when they strove to overthrow the faith which is through Him."
-        },
-        {
-          "author": "John Chrysostom",
-          "tradition": "greek-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Wherefore then did He not send Him immediately? That from what they had done to the others they might accuse themselves."
-        }
-      ],
-      "say": "Sin rarely announces itself as sin — it usually shows up as the reasonable next step from a premise nobody questioned.",
-      "do": "Ask them to name a decision that felt perfectly rational but started from a false premise about what actually belongs to them."
-    },
-    {
-      "landing": "The stone that breaks or grinds",
-      "claim": "There's no neutral way to meet the rejected stone — you're either broken open by it, and can be healed, or you try to grind it down and are ground to powder instead.",
-      "witnesses": [
-        {
-          "author": "Augustine",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Those that fall upon Him, are those that despise and afflict Him. These do not perish utterly, but are broken so that they walk not upright."
-        },
-        {
-          "author": "Pseudo-Chrysostom",
-          "tradition": "pseudonymous",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "It is one thing to be broken, and another to be ground to powder. Of what is broken there remains something; but what is ground to powder is as it were converted into dust."
-        }
-      ],
-      "say": "You cannot stay neutral toward the rejected stone — either it breaks you in a way you can recover from, or you try to break it and there's nothing left of you.",
-      "do": "Ask them which posture they're currently in toward something Christ has asked of them: broken open, or grinding against it."
+     "author": "Rabanus Maurus",
+     "tradition": "medieval",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Morally; a vineyard has been let out to each of us to dress, when the mystery of baptism was given us, to be cultivated by action."
     }
-  ],
-  "subtract": "Three landings — the forgotten gift, the cold calculation, or the two ways to meet the stone. Choose one.",
-  "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
-  "status": "draft",
-  "synthesis": {
+   ],
+   "say": "Nothing you're standing on was built by you — the hedge and the tower were already there before you showed up to work.",
+   "do": "Have them name one thing in their life or ministry they've started treating as self-made rather than received."
+  },
+  {
+   "landing": "A business calculation, not rage",
+   "claim": "The murder is coldly reasoned — kill the heir, keep the inheritance — which is scarier than a crime of passion, because it means clear thinking got them there.",
+   "witnesses": [
+    {
+     "author": "Rabanus Maurus",
+     "tradition": "medieval",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The Jews endeavoured by putting Him to death to seize upon the inheritance, when they strove to overthrow the faith which is through Him."
+    },
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Wherefore then did He not send Him immediately? That from what they had done to the others they might accuse themselves."
+    }
+   ],
+   "say": "Sin rarely announces itself as sin — it usually shows up as the reasonable next step from a premise nobody questioned.",
+   "do": "Ask them to name a decision that felt perfectly rational but started from a false premise about what actually belongs to them."
+  },
+  {
+   "landing": "The stone that breaks or grinds",
+   "claim": "There's no neutral way to meet the rejected stone — you're either broken open by it, and can be healed, or you try to grind it down and are ground to powder instead.",
+   "witnesses": [
+    {
+     "author": "Augustine",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Those that fall upon Him, are those that despise and afflict Him. These do not perish utterly, but are broken so that they walk not upright."
+    },
+    {
+     "author": "Pseudo-Chrysostom",
+     "tradition": "pseudonymous",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "It is one thing to be broken, and another to be ground to powder. Of what is broken there remains something; but what is ground to powder is as it were converted into dust."
+    }
+   ],
+   "say": "You cannot stay neutral toward the rejected stone — either it breaks you in a way you can recover from, or you try to break it and there's nothing left of you.",
+   "do": "Ask them which posture they're currently in toward something Christ has asked of them: broken open, or grinding against it."
+  }
+ ],
+ "tracks": {
+  "complementary": {
+   "firstReading": {
+    "ref": "Isaiah 5:1-7",
+    "refKey": "Isa.5.1-Isa.5.7",
+    "doors": []
+   }
+  },
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Exodus 20:1-4, 7-9, 12-20",
+    "refKey": "Exod.20.1-Exod.20.4",
+    "doors": []
+   },
+   "gravity": "God gives the Ten Words at Sinai — commands meant to order a free people, not shackle them (Exodus 20); Paul, credentials in hand, counts them all as loss for the sake of knowing Christ (Philippians 3); and Jesus tells of tenants who beat, kill, and finally murder the son sent to collect fruit that was never theirs to withhold. The nerve: everything in the vineyard — the hedge, the tower, the winepress — was gift, on loan, and the tenants' whole crime is forgetting that.",
+   "synthesis": {
     "convergence": "The commandments at Sinai order a people who did not create their own freedom (Exodus 20); Paul discards every credential he actually earned to be found in Christ instead (Philippians 3); and the tenants forget, calculate, and finally kill rather than admit the vineyard was never theirs. Every reading names the same temptation: mistaking what you were given for what you made, then defending the mistake past all reason.",
     "claim": "Whatever you're protecting as yours was on loan the whole time — the only question is whether you find that out from the owner or from a broken stone.",
     "here": "For people or institutions confusing stewardship with ownership, don't moralize about greed in the abstract — name the specific gift they've started treating as an entitlement, and ask what rent is actually due."
+   }
   }
+ },
+ "subtract": "Three landings — the forgotten gift, the cold calculation, or the two ways to meet the stone. Choose one.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
 }

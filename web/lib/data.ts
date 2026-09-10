@@ -170,14 +170,24 @@ export type TurnDoor = {
   do: string;
 };
 export type TurnSynthesis = { convergence: string; claim: string; here: string };
+// v2 (Phase 4a): the Gospel doors are shared across tracks; gravity/synthesis and
+// an optional set of attested first-reading doors are PER TRACK. A track present
+// with only firstReading (no gravity) means it hasn't been authored yet -- render
+// that quietly, don't hide the tab. Key is a track id ("complementary",
+// "semicontinuous") or "single" for occasions with no dual tracks.
+export type TurnFirstReading = { ref: string; refKey: string; doors: TurnDoor[] };
+export type TurnTrack = {
+  firstReading: TurnFirstReading;
+  gravity?: string;
+  synthesis?: TurnSynthesis;
+};
 export type Turn = {
   pericope: string;
   refKey: string;
-  gravity: string;
   trap: string;
   hinge: string;
   doors: TurnDoor[];
-  synthesis?: TurnSynthesis;
+  tracks: Record<string, TurnTrack>;
   subtract: string;
   source: string;
   status: string;
@@ -219,6 +229,7 @@ export type IndexEntry = {
   readings: { role: string; ref: string }[];
   hasCalls: boolean;
   hasTurn: boolean;
+  hasTurnTracks: string[];
   series: SeriesMembership[];
   date?: string;
   display?: string;

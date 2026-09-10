@@ -163,6 +163,9 @@ a { color: inherit; text-decoration: none; }
 .turn-block { font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink); margin: 0 0 var(--space-3); }
 .turn-block:last-child { margin-bottom: 0; }
 .turn-block.hinge { color: var(--reed-deep); font-style: italic; }
+.turn-block.turn-not-yet { color: var(--fg-quiet); font-style: italic; }
+.first-reading-doors { margin-top: var(--space-5); }
+.first-reading-doors > .eyebrow { display: block; margin-bottom: var(--space-3); color: var(--fen); }
 .turn-lbl { display: block; font-family: var(--sans); font-size: var(--t-micro); text-transform: uppercase; letter-spacing: 1px; color: var(--fen-mist); margin-bottom: 3px; font-style: normal; }
 .turn-doors-intro { color: var(--fg-muted); margin: 0 0 var(--space-4); max-width: 56ch; }
 .doors { display: flex; flex-direction: column; gap: var(--space-4); }

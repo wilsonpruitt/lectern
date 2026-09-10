@@ -560,7 +560,17 @@ function TurnSeriesBox({ series, year }: { series: SeriesMembership[]; year: str
   );
 }
 
-function Turn({ turn, series, year }: { turn: TurnData; series: SeriesMembership[]; year: string }) {
+function Turn({
+  turn,
+  track,
+  series,
+  year,
+}: {
+  turn: TurnData;
+  track: string;
+  series: SeriesMembership[];
+  year: string;
+}) {
   if (!turn)
     return (
       <Soon
@@ -568,6 +578,9 @@ function Turn({ turn, series, year }: { turn: TurnData; series: SeriesMembership
         desc="Reduce the day's abundance to two or three attested focus drafts — one thing to say, one thing to do. Built from the church's actual reading-traditions (Catena Aurea), not generated. Coming, week by week."
       />
     );
+  // per-track gravity/synthesis (v2, Phase 4a) -- "single" covers occasions with
+  // no dual tracks; the Gospel doors below are shared across tracks either way.
+  const tt = turn.tracks[track] ?? turn.tracks["single"];
   return (
     <div className="turn">
       <div className="turn-head">
@@ -578,7 +591,14 @@ function Turn({ turn, series, year }: { turn: TurnData; series: SeriesMembership
       <TurnSeriesBox series={series} year={year} />
 
       <div className="turn-frame">
-        <p className="turn-block"><span className="turn-lbl">The day&rsquo;s gravity</span>{turn.gravity}</p>
+        {tt?.gravity ? (
+          <p className="turn-block"><span className="turn-lbl">The day&rsquo;s gravity</span>{tt.gravity}</p>
+        ) : (
+          <p className="turn-block turn-not-yet">
+            <span className="turn-lbl">The day&rsquo;s gravity</span>
+            Not yet authored for this track{tt ? ` (from ${tt.firstReading.ref})` : ""}.
+          </p>
+        )}
         <p className="turn-block"><span className="turn-lbl">The trap</span>{turn.trap}</p>
         <p className="turn-block hinge"><span className="turn-lbl">The hinge</span>{turn.hinge}</p>
       </div>
@@ -618,7 +638,43 @@ function Turn({ turn, series, year }: { turn: TurnData; series: SeriesMembership
         ))}
       </div>
 
-      {turn.synthesis ? (
+      {tt?.firstReading.doors.length ? (
+        <div className="doors first-reading-doors">
+          <span className="eyebrow">Doors on {tt.firstReading.ref}</span>
+          {tt.firstReading.doors.map((d, i) => (
+            <div className="door" key={i}>
+              <div className="door-head">
+                <span className="door-n">{i + 1}</span>
+                <span className="door-landing">{d.landing}</span>
+              </div>
+              <p className="door-claim">{d.claim}</p>
+              <ul className="witnesses">
+                {d.witnesses.map((w, j) => (
+                  <li key={j} className="witness">
+                    <span className="father">
+                      {w.author}
+                      <span className="tradition">{TRADITION_LABEL[w.tradition] ?? w.tradition}</span>
+                      {w.mode === "pointer" ? <span className="pointer-tag">cited</span> : null}
+                    </span>
+                    <span className="reading">
+                      {w.reading}
+                      {w.mode === "pointer" && w.cite ? (
+                        <span className="witness-cite"> — {w.cite}</span>
+                      ) : null}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <div className="say-do">
+                <p><span className="sd-lbl">Say</span>{d.say}</p>
+                <p><span className="sd-lbl">Do</span>{d.do}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : null}
+
+      {tt?.synthesis ? (
         <div className="synthesis">
           <div className="synthesis-head">
             <span className="eyebrow">Synthesis · bringing the texts together</span>
@@ -629,9 +685,9 @@ function Turn({ turn, series, year }: { turn: TurnData; series: SeriesMembership
             readings converge, and the move toward these people this week. It names the
             one thing; it doesn&rsquo;t preach it for you.
           </p>
-          <p className="syn-block"><span className="turn-lbl">How they converge</span>{turn.synthesis.convergence}</p>
-          <p className="syn-block claim"><span className="turn-lbl">The one thing together</span>{turn.synthesis.claim}</p>
-          <p className="syn-block"><span className="turn-lbl">Here, this week</span>{turn.synthesis.here}</p>
+          <p className="syn-block"><span className="turn-lbl">How they converge</span>{tt.synthesis.convergence}</p>
+          <p className="syn-block claim"><span className="turn-lbl">The one thing together</span>{tt.synthesis.claim}</p>
+          <p className="syn-block"><span className="turn-lbl">Here, this week</span>{tt.synthesis.here}</p>
         </div>
       ) : null}
 
@@ -822,7 +878,7 @@ export default function Workbench({
             {tab === "praise" && <Praise track={t} />}
             {tab === "calls" && <Calls occ={occ} reg={reg} setReg={setReg} />}
             {tab === "lenses" && <Lenses lenses={t.lenses} />}
-            {tab === "turn" && <Turn turn={occ.turn} series={series} year={o.year} />}
+            {tab === "turn" && <Turn turn={occ.turn} track={track} series={series} year={o.year} />}
           </div>
         </main>
       </div>

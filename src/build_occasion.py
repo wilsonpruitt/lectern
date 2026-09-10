@@ -172,14 +172,19 @@ def load_calls(occ_id: str) -> dict | None:
 
 
 def load_turn(occ_id: str) -> dict | None:
-    """The Turn card (reception-grounded; corpus/turn/<id>.json) if authored."""
+    """The Turn card (reception-grounded; corpus/turn/<id>.json) if authored. v2
+    schema (Phase 4a): the Gospel doors are shared; gravity/synthesis/firstReading
+    are per-TRACK under `tracks` (key "single" for occasions with no dual tracks).
+    A track present with only `firstReading` (no gravity/synthesis) means that
+    track hasn't been authored yet -- Workbench.tsx shows that quietly rather than
+    hiding the tab."""
     f = TURN / f"{occ_id}.json"
     if not f.exists():
         return None
     blob = json.loads(f.read_text(encoding="utf-8"))
     return {k: blob[k] for k in
-            ("pericope", "refKey", "gravity", "trap", "hinge", "doors",
-             "synthesis", "subtract", "source", "status") if k in blob}
+            ("pericope", "refKey", "trap", "hinge", "doors",
+             "tracks", "subtract", "source", "status") if k in blob}
 
 
 def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
@@ -270,6 +275,11 @@ def main() -> None:
                          for r in first_track["readings"]],
             "hasCalls": bool(doc["calls"]),
             "hasTurn": bool(doc["turn"]),
+            # which of the card's tracks actually carry authored gravity/synthesis,
+            # vs. just a firstReading placeholder (Phase 4a) -- lets a consumer tell
+            # "no card" from "card exists but this track isn't authored yet"
+            "hasTurnTracks": ([tr for tr, t in doc["turn"]["tracks"].items() if t.get("gravity")]
+                              if doc["turn"] else []),
             "series": membership.get(doc["occasion"]["id"], []),
             **occ_dates.get(doc["occasion"]["id"], {}),
         })

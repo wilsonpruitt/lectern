@@ -1,85 +1,101 @@
 {
-  "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. Authored after fixing an RCL-parser bug (reception-corpus src/build_rcl.py) that had mis-keyed this occasion's gospel refKey to the optional bracket (Matt 15:10-20) instead of the required Canaanite-woman text (15:21-28).",
-  "occasion": "proper-15-20-a",
-  "pericope": "Matthew 15:21-28",
-  "refKey": "Matt.15.21-Matt.15.28",
-  "gravity": "Joseph, once cast out by his own brothers, reveals himself and weeps: \"I am Joseph your brother\" (Genesis 45); Paul insists God's gifts and call are irrevocable, that mercy was shown to all so that all might receive mercy (Romans 11); and a Canaanite woman — everything Israel was taught to keep its distance from — out-argues Jesus into healing her daughter. The nerve: mercy keeps finding its way to people standing outside every boundary meant to keep them out.",
-  "trap": "Becomes either a troubling \"test of faith\" story that makes Jesus sound cruel on purpose (glossing over how unsettling his silence and the \"dogs\" line actually are) or gets smoothed into generic \"persistence pays off\" advice — missing that this is the one story where a Gentile woman changes the shape of Jesus' mission by arguing with him.",
-  "hinge": "Jesus calls her a dog to her face — and she does not deny it, she uses it. The turn isn't that she out-argues an insult; it's that she takes the insult's own logic and finds mercy already hiding inside it.",
-  "doors": [
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. Authored after fixing an RCL-parser bug (reception-corpus src/build_rcl.py) that had mis-keyed this occasion's gospel refKey to the optional bracket (Matt 15:10-20) instead of the required Canaanite-woman text (15:21-28). [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "occasion": "proper-15-20-a",
+ "pericope": "Matthew 15:21-28",
+ "refKey": "Matt.15.21-Matt.15.28",
+ "trap": "Becomes either a troubling \"test of faith\" story that makes Jesus sound cruel on purpose (glossing over how unsettling his silence and the \"dogs\" line actually are) or gets smoothed into generic \"persistence pays off\" advice — missing that this is the one story where a Gentile woman changes the shape of Jesus' mission by arguing with him.",
+ "hinge": "Jesus calls her a dog to her face — and she does not deny it, she uses it. The turn isn't that she out-argues an insult; it's that she takes the insult's own logic and finds mercy already hiding inside it.",
+ "doors": [
+  {
+   "landing": "She did not deny it, she used it",
+   "claim": "The woman doesn't dispute being called a dog — she takes the metaphor and finds the mercy already implied inside it: even dogs get crumbs.",
+   "witnesses": [
     {
-      "landing": "She did not deny it, she used it",
-      "claim": "The woman doesn't dispute being called a dog — she takes the metaphor and finds the mercy already implied inside it: even dogs get crumbs.",
-      "witnesses": [
-        {
-          "author": "Glossa Ordinaria",
-          "tradition": "medieval",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "The great faith of this Chananaean woman is herein shewed. She believes Him to be God, in that she calls Him 'Lord'; and man, in that she calls Him 'Son of David.'"
-        },
-        {
-          "author": "Jerome",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Wonderful are shewn the faith, patience, and humility of this woman; faith, that she believed that her daughter could be healed; patience, that so many times over..."
-        }
-      ],
-      "say": "She didn't argue that she wasn't a dog — she argued that even dogs get crumbs, and that was enough.",
-      "do": "Ask them to name a label they've been handed that they could turn into an argument for mercy instead of fighting to remove it."
+     "author": "Glossa Ordinaria",
+     "tradition": "medieval",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The great faith of this Chananaean woman is herein shewed. She believes Him to be God, in that she calls Him 'Lord'; and man, in that she calls Him 'Son of David.'"
     },
     {
-      "landing": "The delay was not a no",
-      "claim": "Jesus' silence and hard words are not the final answer — the delay becomes the space where her faith is revealed and honored, not denied.",
-      "witnesses": [
-        {
-          "author": "John Chrysostom",
-          "tradition": "greek-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "This was the cause why Christ was so backward, that He knew what she would say, and would not have her so great excellence hid."
-        },
-        {
-          "author": "Glossa Ordinaria",
-          "tradition": "medieval",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "If the Lord delays the salvation of a soul at the first tears of the supplicating Church, we ought not to despair, or to cease from our prayers, but rather..."
-        }
-      ],
-      "say": "The silence you're getting right now might not be a no — it might be the room your faith needs to be seen.",
-      "do": "Have them name a prayer they've stopped praying because the delay felt like rejection, and pray it once more."
-    },
-    {
-      "landing": "Once Israel the son, we the dogs",
-      "claim": "The categories of \"son\" and \"dog\" do not stay fixed — this story is a hinge where insider and outsider trade places.",
-      "witnesses": [
-        {
-          "author": "Jerome",
-          "tradition": "latin-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "Wonderful change of things! Once Israel the son, and we the dogs; the change in faith has led to a change in the order of our names."
-        },
-        {
-          "author": "John Chrysostom",
-          "tradition": "greek-patristic",
-          "work": "Catena Aurea",
-          "mode": "text",
-          "reading": "When He delivered the Jews from the observance of meats, He then also opened the door to the Gentiles."
-        }
-      ],
-      "say": "Whoever you think is permanently on the outside might be one confession away from trading places with you.",
-      "do": "Ask them to name a category of person they've assumed is permanently \"outside,\" and reconsider it in light of this reversal."
+     "author": "Jerome",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Wonderful are shewn the faith, patience, and humility of this woman; faith, that she believed that her daughter could be healed; patience, that so many times over..."
     }
-  ],
-  "subtract": "Three landings — how she used the insult rather than denying it, the delay as testing (not refusing), or the total reversal of insider/outsider. Choose one and let the others go.",
-  "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
-  "status": "draft",
-  "synthesis": {
+   ],
+   "say": "She didn't argue that she wasn't a dog — she argued that even dogs get crumbs, and that was enough.",
+   "do": "Ask them to name a label they've been handed that they could turn into an argument for mercy instead of fighting to remove it."
+  },
+  {
+   "landing": "The delay was not a no",
+   "claim": "Jesus' silence and hard words are not the final answer — the delay becomes the space where her faith is revealed and honored, not denied.",
+   "witnesses": [
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "This was the cause why Christ was so backward, that He knew what she would say, and would not have her so great excellence hid."
+    },
+    {
+     "author": "Glossa Ordinaria",
+     "tradition": "medieval",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "If the Lord delays the salvation of a soul at the first tears of the supplicating Church, we ought not to despair, or to cease from our prayers, but rather..."
+    }
+   ],
+   "say": "The silence you're getting right now might not be a no — it might be the room your faith needs to be seen.",
+   "do": "Have them name a prayer they've stopped praying because the delay felt like rejection, and pray it once more."
+  },
+  {
+   "landing": "Once Israel the son, we the dogs",
+   "claim": "The categories of \"son\" and \"dog\" do not stay fixed — this story is a hinge where insider and outsider trade places.",
+   "witnesses": [
+    {
+     "author": "Jerome",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Wonderful change of things! Once Israel the son, and we the dogs; the change in faith has led to a change in the order of our names."
+    },
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "When He delivered the Jews from the observance of meats, He then also opened the door to the Gentiles."
+    }
+   ],
+   "say": "Whoever you think is permanently on the outside might be one confession away from trading places with you.",
+   "do": "Ask them to name a category of person they've assumed is permanently \"outside,\" and reconsider it in light of this reversal."
+  }
+ ],
+ "tracks": {
+  "complementary": {
+   "firstReading": {
+    "ref": "Isaiah 56:1, 6-8",
+    "refKey": "Isa.56.1",
+    "doors": []
+   }
+  },
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Genesis 45:1-15",
+    "refKey": "Gen.45.1-Gen.45.15",
+    "doors": []
+   },
+   "gravity": "Joseph, once cast out by his own brothers, reveals himself and weeps: \"I am Joseph your brother\" (Genesis 45); Paul insists God's gifts and call are irrevocable, that mercy was shown to all so that all might receive mercy (Romans 11); and a Canaanite woman — everything Israel was taught to keep its distance from — out-argues Jesus into healing her daughter. The nerve: mercy keeps finding its way to people standing outside every boundary meant to keep them out.",
+   "synthesis": {
     "convergence": "Joseph, once thrown out, reveals himself to the very brothers who cast him out and weeps over them (Genesis 45); Paul insists God's mercy was always headed toward \"all,\" Jew and Gentile both, because God's gifts are never revoked (Romans 11); and a Canaanite woman — the definition of outsider — receives mercy by refusing to let a boundary be the last word. Every reading names the same reversal: the people furthest outside the family turn out to be exactly who mercy was headed toward.",
     "claim": "The boundary you assume disqualifies you might be exactly where mercy is waiting to be found.",
     "here": "For people who assume they're too far outside — too estranged, too late, too other — to qualify for grace, point to the woman who took the very word used to exclude her and found mercy folded inside it."
+   }
   }
+ },
+ "subtract": "Three landings — how she used the insult rather than denying it, the delay as testing (not refusing), or the total reversal of insider/outsider. Choose one and let the others go.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
 }
