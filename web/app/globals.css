@@ -63,6 +63,12 @@ a { color: inherit; text-decoration: none; }
 .wesley-note { display: flex; gap: 10px; align-items: baseline; }
 .wesley-note .wn-v { flex: none; font-family: var(--sans); font-size: var(--t-caption); color: var(--fen-mist); min-width: 3.5em; }
 .wesley-note .wn-text { font-family: var(--serif); font-size: 15px; line-height: 1.55; color: var(--fg); }
+/* Glossa entries can run multiple paragraphs (a second lemma opening later in the
+   comment) -- align the verse marker to the top of the block, not its baseline, and
+   give the paragraphs breathing room without the browser's default block margins. */
+.glossa-note { align-items: flex-start; }
+.glossa-note .wn-text p { margin: 0 0 8px; }
+.glossa-note .wn-text p:last-child { margin-bottom: 0; }
 .related-sermons { margin-top: var(--space-5); padding-top: var(--space-4); border-top: 1px solid var(--border); }
 .related-sermons .eyebrow { color: var(--fen-mist); }
 

@@ -10,7 +10,7 @@ import type {
   SeriesMembership,
 } from "@/lib/data";
 
-type TabKey = "notes" | "hymns" | "praise" | "calls" | "turn" | "lenses";
+type TabKey = "notes" | "glossa" | "hymns" | "praise" | "calls" | "turn" | "lenses";
 
 // canonical tradition key -> display label (mirrors src/turn_sources.py). New
 // traditions (eastern/modern/reformation…) slot in here as sources are added.
@@ -121,6 +121,80 @@ function Notes({ track }: { track: Track }) {
         <span className="eyebrow">Related Wesley sermons</span>
         <Sermons track={track} />
       </div>
+    </div>
+  );
+}
+
+// Renders the Glossa's lemma markup as <em> and \n\n-separated blocks as paragraphs --
+// no markdown library, just enough to keep the lemma visually distinct from the comment.
+// Some chunks mark the lemma with *asterisks*, others with «guillemets» (an inconsistency
+// across translation stints, not a data error); both render the same way here.
+function glossMarkup(text: string, keyPrefix: string) {
+  return text.split(/\n\n+/).map((para, pi) => (
+    <p key={`${keyPrefix}-${pi}`}>
+      {para
+        .split(/(\*[^*]+\*|«[^»]+»)/g)
+        .filter((s) => s !== "")
+        .map((part, i) => {
+          const asterisk = part.match(/^\*([^*]+)\*$/);
+          const guillemet = part.match(/^«\s*([^»]+?)\s*»$/);
+          if (asterisk) return <em key={i}>{asterisk[1]}</em>;
+          if (guillemet) return <em key={i}>{guillemet[1]}</em>;
+          return <span key={i}>{part}</span>;
+        })}
+    </p>
+  ));
+}
+
+function Glossa({ track }: { track: Track }) {
+  const anyGlossa = track.readings.some((r) => r.glossa.length > 0);
+  return (
+    <div className="notes">
+      <p className="lenses-intro">
+        The <em>Glossa ordinaria</em> on the day&rsquo;s readings &mdash; the standard medieval
+        commentary a reader met in the margins of the Bible, here in Migne&rsquo;s abridged
+        nineteenth-century recension: marginal gloss only, fifty-five of the Bible&rsquo;s books,
+        misattributed on its title page to Walafrid Strabo though it is the work of a school.{" "}
+        <a
+          className="notes-source-link"
+          href="https://patrologia.wrootpress.com/glossa/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read the full edition ↗
+        </a>
+      </p>
+      {!anyGlossa ? (
+        <div className="empty">The Glossa has no comment on any of today&rsquo;s readings.</div>
+      ) : (
+        track.readings.map((r) => (
+          <div className="notes-reading" key={r.role + r.refKey}>
+            <div className="notes-reading-head">
+              <span className="role">{r.role}</span> {r.ref}
+            </div>
+            {r.glossa.length ? (
+              <ul className="wesley-notes">
+                {r.glossa.map((g, i) => {
+                  const vrange =
+                    g.v_start === g.v_end ? `${g.v_start}` : `${g.v_start}–${g.v_end}`;
+                  return (
+                    <li className="wesley-note glossa-note" key={i}>
+                      <span className="wn-v">v.{vrange}</span>
+                      <div className="wn-text">{glossMarkup(g.text, `${r.refKey}-${i}`)}</div>
+                    </li>
+                  );
+                })}
+              </ul>
+            ) : (
+              <div className="empty small">
+                {r.glossaBookCovered
+                  ? "The Glossa has no comment on this passage"
+                  : "Migne's recension does not include this book"}
+              </div>
+            )}
+          </div>
+        ))
+      )}
     </div>
   );
 }
@@ -514,6 +588,7 @@ export default function Workbench({
       "Interpret → Preach",
       [
         ["notes", "Wesley's Notes", false],
+        ["glossa", "Glossa", false],
         ["lenses", "Lenses", false],
         ["turn", "The Turn", false],
       ],
@@ -611,6 +686,7 @@ export default function Workbench({
           </div>
           <div className="panel-body">
             {tab === "notes" && <Notes track={t} />}
+            {tab === "glossa" && <Glossa track={t} />}
             {tab === "hymns" && <Hymns track={t} />}
             {tab === "praise" && <Praise track={t} />}
             {tab === "calls" && <Calls occ={occ} reg={reg} setReg={setReg} />}

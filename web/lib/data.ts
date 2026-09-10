@@ -10,12 +10,21 @@ export type WesleyNote = {
   v_end: number;
   text: string;
 };
+export type Gloss = {
+  chapter: number;
+  v_start: number;
+  v_end: number;
+  text: string;
+  anchor: string | null;
+};
 export type Reading = {
   role: string;
   ref: string;
   refKey: string;
   tags: Record<string, string[]>;
   notes: WesleyNote[];
+  glossa: Gloss[];
+  glossaBookCovered: boolean;
 };
 export type Sermon = {
   title: string | null;

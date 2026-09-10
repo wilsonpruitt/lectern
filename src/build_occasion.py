@@ -10,7 +10,10 @@ a single self-contained JSON at data/build/<occasion-id>.json with the shape:
       "tracks": {                       # "single" when the day has no dual tracks
         "<track>": {
           "label": str,
-          "readings": [{role, ref, refKey, tags:{facet:[..]}, notes:[{chapter,v_start,v_end,text}]}],
+          "readings": [{role, ref, refKey, tags:{facet:[..]},
+                        notes:[{chapter,v_start,v_end,text}],
+                        glossa:[{chapter,v_start,v_end,text,anchor}],
+                        glossaBookCovered: bool}],
           "sermons":  [{title, author, text, tags:[..], score}],   # secondary, tag-based
           "hymns":    [{hymnal, number, title, tags:[..], score}]
         }, ...
@@ -41,6 +44,7 @@ import praise as praise_mod         # praise-song recs (Covenant repertoire, poi
 import series as series_mod         # native series detection (the founding thesis)
 import liturgical_dates as litdates  # calendar date of each occasion (current cycle)
 import wesley_notes as wn           # Wesley's Notes per reading (primary Wesley resource)
+import glossa as gl                 # Glossa ordinaria per reading (shares wn's DB connection)
 
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
@@ -89,6 +93,10 @@ def track_readings(occ: dict, rcl_tags: dict, notes_con) -> dict:
             "refKey": r["refKey"],
             "tags": reading_tags(rcl_tags, r["refKey"]),
             "notes": wn.notes_for_refkey(r["refKey"], notes_con),
+            "glossa": gl.glosses_for_refkey(r["refKey"], notes_con),
+            # lets the tab distinguish "no comment on this passage" from "this book
+            # isn't in Migne's recension at all" -- refKey's book code is its first segment
+            "glossaBookCovered": gl.book_has_glossa(r["refKey"].split(".", 1)[0], notes_con),
         }
         tr = r.get("track")
         if tr in tracks:
