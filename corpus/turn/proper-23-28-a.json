@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — reduction to a claim. The DOORS are attested reading-traditions surfaced from the retrieved reception (Catena Aurea, Newman tr.), NOT authored from recall; each witness summary is grounded in the actual Catena text on this pericope. The editorial framing (gravity/trap/hinge/say/do) is AI-drafted and pending Wilson's curation. Choosing one door = rejecting the others; that act of focus is the point. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — reduction to a claim. The DOORS are attested reading-traditions surfaced from the retrieved reception (Catena Aurea, Newman tr.), NOT authored from recall; each witness summary is grounded in the actual Catena text on this pericope. The editorial framing (gravity/trap/hinge/say/do) is AI-drafted and pending Wilson's curation. Choosing one door = rejecting the others; that act of focus is the point. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained Glossa (Migne 22:8, 22:11) witnesses; semicontinuous half authored — gravity, synthesis, two Exodus 32 doors — from src/turn_pull.py output.]",
  "occasion": "proper-23-28-a",
  "pericope": "Matthew 22:1-14",
  "refKey": "Matt.22.1-Matt.22.14",
@@ -52,6 +52,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Those first bidden — the people who thought the feast was theirs — were found not worthy, and the hall was filled from the roads instead."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "To the outgoings: actions are the ways, the outgoings are the failing of actions, because for the most part those are easily converted whom no prosperity attends in earthly doings."
     }
    ],
    "say": "This feast reached you because grace refuses an empty hall — you are the unlikely guest, gathered from the crossroads.",
@@ -74,6 +81,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "The marriage-feast is filled when those gathered by the Apostles sit down — but it behoved that both bad and good be gathered in, until the King himself comes in to see the guests."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "He adds that not all who are in the Church are worthy of the kingdom, lest his own grow slothful."
     }
    ],
    "say": "You are sitting in a mixed hall, and your job is not to inspect your neighbour's garment but to wear your own and trust the King to sort the feast.",
@@ -98,11 +112,69 @@
    "firstReading": {
     "ref": "Exodus 32:1-14",
     "refKey": "Exod.32.1-Exod.32.14",
-    "doors": []
+    "doors": [
+     {
+      "landing": "Weary of waiting",
+      "claim": "The calf is born of impatience: a God who stays with them is not enough, they want one they can see going before them, and they slide there by small steps.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "They were weary of waiting for the promised land. They thought themselves detained too long at Mount Sinai. They had a God that stayed with them, but they must have a God to go before them."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Eating and drinking drove them to play, and play to idolatry. He that despises little things, falls little by little."
+       }
+      ],
+      "say": "They didn't set out to abandon God. They just got tired of waiting, and wanted something they could hold.",
+      "do": "Ask them to name what they reach for when God seems slow, and to bring that impatience to prayer instead."
+     },
+     {
+      "landing": "Standing in the breach",
+      "claim": "God's \"let me alone\" turns out to be an opening for prayer, and Moses takes it: one person's intercession stands between a people and ruin.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Now Moses is standing in the gap to turn away the wrath of God. He took the hint which God gave him when he said, Let me alone, which, though it seemed to forbid his interceding, did really encourage it, by shewing what power the prayer of faith hath with God."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "See here, the power of prayer, God suffers himself to be prevailed with by humble believing importunity."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "He brings in the fathers, who are loved, on behalf of the sons, who offend, and do not deserve to be heard."
+       }
+      ],
+      "say": "God said, \"leave me alone.\" Moses heard an invitation, and he stayed and prayed.",
+      "do": "Have them choose one person or community who has gone astray and stand in the breach for them in prayer every day this week."
+     }
+    ]
+   },
+   "gravity": "Tired of waiting for Moses, Israel melts its gold into a calf and holds a feast to it at the foot of the mountain where the law was given; God says \"let me alone,\" and Moses will not, standing in the breach until the Lord relents (Exodus 32). The Psalm remembers the calf in Horeb and Moses in the breach; Paul answers anxiety with prayer (Philippians 4); and the king's invited guests refuse his wedding feast. The nerve: we trade God's feast for one we can make and hold, and someone must stand in the gap.",
+   "synthesis": {
+    "convergence": "Impatient Israel builds a god it can see and feasts before it, while Moses stands between the people and destruction (Exodus 32); the Psalm remembers the calf and the one who stood in the breach (Psalm 106); Paul meets anxiety with prayer and thanksgiving (Philippians 4); and the invited guests choose their farms and their trade over the king's feast (Matthew 22). Each reading shows people trading God's feast for something of their own making, and a grace that keeps interceding and inviting anyway.",
+    "claim": "When waiting wears us down we build something we can hold instead of God; the answer is someone standing in the gap, and a feast still open.",
+    "here": "For people whose impatience with God has drifted into trust in what they can control — money, plans, leaders — the move is Moses' prayer: stand in the breach for others, and come back to the table."
    }
   }
  },
  "subtract": "These three are doors, not points — mutually exclusive landings (a changed life / astonished welcome / patient humility). Walk through one and let the other two go; the choosing is the sermon's focus.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

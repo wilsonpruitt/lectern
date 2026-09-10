@@ -2055,6 +2055,13 @@
             "work": "Catena Aurea",
             "mode": "text",
             "reading": "Wonderful are shewn the faith, patience, and humility of this woman; faith, that she believed that her daughter could be healed; patience, that so many times over..."
+          },
+          {
+            "author": "Glossa ordinaria",
+            "tradition": "medieval",
+            "work": "Glossa ordinaria (Migne)",
+            "mode": "text",
+            "reading": "Humility, because she compares herself not to dogs, but to whelps. The little ones eat not loaves, not crusts, that is, not the surface of the letter, but the marrow."
           }
         ],
         "say": "She didn't argue that she wasn't a dog — she argued that even dogs get crumbs, and that was enough.",
@@ -2077,6 +2084,13 @@
             "work": "Catena Aurea",
             "mode": "text",
             "reading": "If the Lord delays the salvation of a soul at the first tears of the supplicating Church, we ought not to despair, or to cease from our prayers, but rather..."
+          },
+          {
+            "author": "John Wesley",
+            "tradition": "wesleyan",
+            "work": "Explanatory Notes",
+            "mode": "text",
+            "reading": "He answered her not a word — he sometimes tries our faith in like manner. I am not sent — not primarily; not yet."
           }
         ],
         "say": "The silence you're getting right now might not be a no — it might be the room your faith needs to be seen.",
@@ -2110,7 +2124,55 @@
         "firstReading": {
           "ref": "Isaiah 56:1, 6-8",
           "refKey": "Isa.56.1",
-          "doors": []
+          "doors": [
+            {
+              "landing": "A house of prayer for all peoples",
+              "claim": "The foreigner is not a guest at the edge of God's house but a worshiper with the same access as anyone born inside it.",
+              "witnesses": [
+                {
+                  "author": "John Wesley",
+                  "tradition": "wesleyan",
+                  "work": "Explanatory Notes",
+                  "mode": "text",
+                  "reading": "They shall have as free access to mine house and altar, as the Jews themselves, and their services shall be as acceptable to me. Yet — I will make a far more comprehensive gathering of the Gentiles."
+                }
+              ],
+              "say": "God doesn't say the foreigner may stand in the back. God says their prayers are just as welcome as yours.",
+              "do": "Ask them who is treated as a visitor in their church long after they should be family, and to change one thing about how that person is welcomed."
+            },
+            {
+              "landing": "Keep justice, for salvation is near",
+              "claim": "Isaiah opens with a demand, not a feeling: because God's salvation is near, do justice now, without favoring persons.",
+              "witnesses": [
+                {
+                  "author": "Glossa ordinaria",
+                  "tradition": "medieval",
+                  "work": "Glossa ordinaria (Migne)",
+                  "mode": "text",
+                  "reading": "He speaks to the hearers of that time, that they may prepare themselves for the coming of the Saviour, who is mercy and justice. Keep ye judgment: not accepting the person in judgment."
+                },
+                {
+                  "author": "John Wesley",
+                  "tradition": "wesleyan",
+                  "work": "Explanatory Notes",
+                  "mode": "text",
+                  "reading": "My salvation — that eminent salvation by the Messiah. Is near — so the scripture often speaks of things which are at a great distance, as if they were present or at hand."
+                }
+              ],
+              "say": "Salvation is close, Isaiah says, so live like it: judge fairly, and stop playing favorites.",
+              "do": "Have them name one place they extend grace to people like them and withhold it from people unlike them, and even the scales this week."
+            }
+          ],
+          "refKeys": [
+            "Isa.56.1",
+            "Isa.56.6-Isa.56.8"
+          ]
+        },
+        "gravity": "Isaiah promises that foreigners who hold fast to the covenant will be brought to God's holy mountain, \"for mine house shall be called an house of prayer for all people\" (Isaiah 56); the Psalm prays that all the peoples will praise God; Paul says God has shut all up in disobedience that he may have mercy upon all (Romans 11); and a Canaanite mother will not be sent away. The nerve: the circle of God's mercy is wider than the people inside it assumed.",
+        "synthesis": {
+          "convergence": "Isaiah opens the temple to the foreigner and the outcast (Isaiah 56); the Psalm asks that every people praise God (Psalm 67); Paul sees mercy headed for all, Jew and Gentile both (Romans 11); and a Canaanite woman, told she is outside, argues her way to the table (Matthew 15). Each reading pushes the walls of God's house outward, and in the Gospel it is the outsider who pushes.",
+          "claim": "God's house was always meant for all peoples, and sometimes it is the outsider at the door who reminds the insiders.",
+          "here": "For a congregation that has quietly settled who belongs, the move is to hear Isaiah's \"all people\" as a present-tense charge, and to ask who is calling out at their door this week."
         }
       },
       "semicontinuous": {
@@ -2128,7 +2190,7 @@
       }
     },
     "subtract": "Three landings — how she used the insult rather than denying it, the delay as testing (not refusing), or the total reversal of insider/outsider. Choose one and let the others go.",
-    "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+    "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
     "status": "draft"
   },
   "lenses": null

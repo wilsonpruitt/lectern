@@ -175,7 +175,7 @@ export type TurnSynthesis = { convergence: string; claim: string; here: string }
 // with only firstReading (no gravity) means it hasn't been authored yet -- render
 // that quietly, don't hide the tab. Key is a track id ("complementary",
 // "semicontinuous") or "single" for occasions with no dual tracks.
-export type TurnFirstReading = { ref: string; refKey: string; doors: TurnDoor[] };
+export type TurnFirstReading = { ref: string; refKey: string; refKeys?: string[]; doors: TurnDoor[] };
 export type TurnTrack = {
   firstReading: TurnFirstReading;
   gravity?: string;

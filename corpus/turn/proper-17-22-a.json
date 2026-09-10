@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained Wesley (16:23, 16:24) and Glossa (Migne 16:26) witnesses; complementary half authored — gravity, synthesis, two Jeremiah 15 doors — from src/turn_pull.py output.]",
  "occasion": "proper-17-22-a",
  "pericope": "Matthew 16:21-28",
  "refKey": "Matt.16.21-Matt.16.28",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Peter had said, 'Be it far from thee, Lord; this shall not be unto thee'; and had been answered, 'Get thee behind me, Satan'; but the Lord was not satisfied with this rebuke alone."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Our Lord is not recorded to have given so sharp a reproof to any other of his apostles on any occasion. He saw it was needful for the pride of Peter's heart, puffed up with the commendation lately given him."
     }
    ],
    "say": "Peter said what he said because he loved Jesus — and love was exactly what needed correcting, not condemning.",
@@ -45,6 +52,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "We are to follow our Lord by taking up the cross of His passion; and if not in deed, yet in will, bear Him company."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Let him in all things deny his own will, however pleasing, and do the will of God, however painful."
     }
    ],
    "say": "Denying yourself isn't giving something up for Lent — it's ceasing to be the person you've been.",
@@ -67,6 +81,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "He gains the world who does not deny himself... and thence suffers the loss of his soul."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Let neither gains, nor fear, nor anything else draw a man back from salvation: because a man will be able to give nothing earthly for a soul that is lost."
     }
    ],
    "say": "There is no amount of the world you could buy back your soul with, once you've spent it protecting the wrong thing.",
@@ -78,7 +99,58 @@
    "firstReading": {
     "ref": "Jeremiah 15:15-21",
     "refKey": "Jer.15.15-Jer.15.21",
-    "doors": []
+    "doors": [
+     {
+      "landing": "The prophet may complain",
+      "claim": "Jeremiah's lament is in the Bible, not edited out: a faithful life can be lonely and painful, and saying so is not unbelief.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "His whole prophetical life had been to him a time of mourning and solitude, a time when he sat alone, mourning and weeping in secret for the wrath of God revealed to him against his people."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Jeremiah, though a great prophet, was (as Elijah) a man subject to like passions with other men."
+       }
+      ],
+      "say": "Jeremiah told God the truth about how much it hurt. God didn't strike him down for it. God answered.",
+      "do": "Give them permission to bring their honest complaint to God this week, out loud, without dressing it up."
+     },
+     {
+      "landing": "Return, and be as my mouth",
+      "claim": "God's reply to the complaint is a call back: turn from distrust, sort the precious from the worthless, and speak for God again.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "These are God's words to the prophet, rebuking his distrust in God, and promising him, that if he did return from his distrust in God's providence, he would restore him to the former favour he had with him."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Let us consider how great a reward the discourse of a teacher has, if it shall have willed to deliver from error any man, and to call him back from the number of those that sin."
+       }
+      ],
+      "say": "God didn't tell Jeremiah to quit. God said: come back, and I will put my words in your mouth again.",
+      "do": "Ask them to name the word of truth they have stopped speaking because it cost too much, and to speak it once this week."
+     }
+    ]
+   },
+   "gravity": "Jeremiah, who once ate God's words with joy, now sits alone in pain and asks whether God has become a failing brook; God answers not with comfort but with a call to return, to separate the precious from the vile, and so be \"as my mouth\" (Jeremiah 15). The Psalm asks God to try the heart; Paul says overcome evil with good (Romans 12); and Jesus rebukes Peter and names the cross as the road. The nerve: faithfulness that hurts, and a God who answers our complaint by calling us back to the work.",
+   "synthesis": {
+    "convergence": "Jeremiah's calling has left him alone and aching, and when he complains God calls him to turn back and speak the precious rather than the vile (Jeremiah 15); the psalmist invites God to test his heart (Psalm 26); Paul asks for a love that blesses persecutors and overcomes evil with good (Romans 12); and Jesus tells Peter the way to life runs through the cross (Matthew 16). Each reading refuses the painless version of faithfulness, and meets suffering with a renewed call rather than an exit.",
+    "claim": "Faithfulness sometimes hurts, and God's answer to our honest complaint is not escape but a call to return and keep speaking.",
+    "here": "For people worn thin by doing right at a cost — caregivers, truth-tellers, those holding unpopular convictions — the move is to let them complain as Jeremiah did, and then to hear God's \"return\" as renewal rather than rebuke."
    }
   },
   "semicontinuous": {
@@ -96,6 +168,6 @@
   }
  },
  "subtract": "Three landings — the miscorrected love, the reshaped self-denial, or the impossible exchange. Choose one and let the others go.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

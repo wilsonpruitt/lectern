@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained Wesley (14:13) and Glossa (Migne 14:16, 14:20) witnesses; complementary half authored — gravity, synthesis, and two Isaiah 55 doors — from src/turn_pull.py output.]",
  "occasion": "proper-13-18-a",
  "pericope": "Matthew 14:13-21",
  "refKey": "Matt.14.13-Matt.14.21",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "He went out and saw a great multitude, and he had compassion upon them, and healed their sick."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Jesus withdrew into a desert place — to avoid Herod; because of the multitude pressing upon him; and to talk with his disciples, newly returned from their progress, apart."
     }
    ],
    "say": "He was grieving when he saw the crowd's hunger — and grief did not close his hand, it opened it.",
@@ -45,6 +52,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Then the loaves are given to the Apostles, because through them the gifts of divine grace were to be rendered."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "He provokes them to give, that, when they testify that they have nothing, the greatness of the sign may be the better known; wherein he also hints that by them the hungry hearts are to be fed."
     }
    ],
    "say": "He didn't multiply the bread and hand it out himself — he put it in their hands and sent them into the crowd.",
@@ -67,6 +81,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Each of the Apostles fills his basket of the fragments left by his Saviour, that these fragments might witness that they were true loaves that were multiplied."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "The fragments are not to be held negligently, but diligently sought out by the twelve apostles, who are signified by the twelve baskets, and by their successors. With baskets servile works are carried on."
     }
    ],
    "say": "Even the leftovers were gathered up — nothing Christ provides is thrown away, not even the excess.",
@@ -78,7 +99,51 @@
    "firstReading": {
     "ref": "Isaiah 55:1-5",
     "refKey": "Isa.55.1-Isa.55.5",
-    "doors": []
+    "doors": [
+     {
+      "landing": "Come with nothing",
+      "claim": "The only qualification Isaiah names is thirst — the ones with no money, and no merit to spend, are the ones called.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "This thirst implies a vehement, and active, and restless desire. No money — those who are most worthless and wicked, if they do but thirst, may be welcome. Buy — procure or receive that which is freely offered."
+       }
+      ],
+      "say": "You are not too poor for this table. Thirst is the whole of the admission price.",
+      "do": "Invite them to name the thing they think disqualifies them from God's table, and to come anyway."
+     },
+     {
+      "landing": "Spending on what does not feed",
+      "claim": "The prophet's charge is against misdirected hunger: people pour everything into what cannot nourish, and the church can do it with holy words.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Money — all your time, and strength, and cost. Not bread — for those things which can never nourish or satisfy you, such as worldly goods, or pleasures."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "You weigh the sacred words, but not the refreshment. You who keep the appearance of the letter alone lose, from the spiritual understanding, the fatness of the inward refreshment."
+       }
+      ],
+      "say": "It is possible to spend a lifetime on things that do not feed you, and to handle Scripture the same way.",
+      "do": "Ask them to name one place their time and strength go that leaves them hungrier, and to give that hour to the word instead."
+     }
+    ]
+   },
+   "gravity": "Isaiah calls everyone who thirsts, even those with no money, to come and buy wine and milk without price (Isaiah 55); the Psalm praises the Lord whose open hand satisfies every living thing; Paul will not stop grieving for kin outside the promise (Romans 9); and Jesus, grieving John's death, feeds a famished crowd from five loaves. The nerve: a table set free for people who arrive with nothing to pay.",
+   "synthesis": {
+    "convergence": "Isaiah opens a market where the poor buy without money (Isaiah 55); the Psalm sings of a hand opened to satisfy every living thing (Psalm 145); Paul refuses to stop grieving for the ones outside (Romans 9); and in the wilderness five loaves feed thousands who brought nothing (Matthew 14). Every reading sets God's table for empty hands, and asks why we keep spending ourselves on what does not feed.",
+    "claim": "This bread cannot be bought and does not have to be: come hungry, and bring the little you have to the one who feeds.",
+    "here": "For people spending themselves on what is not bread — overwork, accumulation, earning their place — the move is invitation, not demand: stop paying, and come and eat."
    }
   },
   "semicontinuous": {
@@ -96,6 +161,6 @@
   }
  },
  "subtract": "Three landings — grief turned to compassion, the disciples' hands, or the leftover witness. Choose the one your people most need; let the other two go.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

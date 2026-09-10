@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained Glossa (Migne 16:14, 16:18) and Wesley (16:17) witnesses; complementary half authored — gravity, synthesis, two Isaiah 51 doors — from src/turn_pull.py output.]",
  "occasion": "proper-16-21-a",
  "pericope": "Matthew 16:13-20",
  "refKey": "Matt.16.13-Matt.16.20",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "He says not, Whom do the Scribes and Pharisees say that I am? but, Whom do men say that I am? searching into the minds of the common people... and by a second question invites them to higher thoughts."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "He wills that their errors be set forth, so that, these being driven off, the disciples may bring forth the truth, not out of the opinion of the common people, but out of the Lord's revelation."
     }
    ],
    "say": "Every crowd has an opinion about Jesus, and none of them are quite the truth — the question isn't settled until it's asked of you.",
@@ -45,6 +52,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "It was on him, as on a rock, that the Church was built. But I know that since that I have often explained... that this rock was Christ."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Flesh and blood — that is, thy own reason, or any natural power whatsoever."
     }
    ],
    "say": "Peter didn't figure this out — it was shown to him. What you know rightly about Jesus was given to you, not earned by you.",
@@ -67,6 +81,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Let him then be without blame who binds or looses another, that he may be found worthy to bind or loose in heaven."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "The gates of hell are sins, threats, blandishments, heresies, by which the weak rush into death. He who receives the faith of Christ in the inmost love of the heart easily overcomes whatever assails."
     }
    ],
    "say": "The keys were never about who's in charge — they're about what actually holds people captive, and what sets them free.",
@@ -78,7 +99,51 @@
    "firstReading": {
     "ref": "Isaiah 51:1-6",
     "refKey": "Isa.51.1-Isa.51.6",
-    "doors": []
+    "doors": [
+     {
+      "landing": "Look to the rock you were hewn from",
+      "claim": "Isaiah answers discouragement with memory: know what you were cut from, and whose you are.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Look — consider the state of Abraham and Sarah, from whom all of you sprang."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Look unto the rock: Christ. Of which, And the rock was Christ, out of which you are hewn, from Christ called Christians."
+       }
+      ],
+      "say": "Before you decide what you are, remember what you were cut from.",
+      "do": "Ask them to tell one story of the faith that formed them to someone younger this week."
+     },
+     {
+      "landing": "Called alone, made many",
+      "claim": "Abraham was one man in a hopeless case when God called him, and that is the pattern God uses to raise a forlorn church.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Him alone — to follow me to an unknown land: him only of all his kindred. Increased — into a vast multitude, when his condition was desperate in the eye of reason. And therefore God can as easily raise his church when they are in the most forlorn condition."
+       }
+      ],
+      "say": "God started the whole people of God with one old man and a barren wife. Small and desperate is where God likes to begin.",
+      "do": "Invite them to stop apologizing for being few, and to name one thing a small church can do this month that a large one cannot."
+     }
+    ]
+   },
+   "gravity": "Isaiah tells discouraged exiles to look to the rock they were hewn from, to Abraham called alone and made many, and promises to make Zion's wilderness like Eden (Isaiah 51); the Psalm trusts the Lord to perfect what concerns us; Paul calls a body of many members to be transformed rather than conformed (Romans 12); and Jesus names Peter the rock on which he will build his church. The nerve: the church stands on what God has quarried and built, not on what it can make of itself.",
+   "synthesis": {
+    "convergence": "Isaiah sends the discouraged back to the rock they were cut from, and to one man God made into a people (Isaiah 51); the Psalm is sure the Lord will perfect what concerns us (Psalm 138); Paul sees many members with different gifts in one body (Romans 12); and Jesus builds his church on a confession Peter did not invent (Matthew 16). Each reading grounds God's people in God's own work of quarrying, calling, and building.",
+    "claim": "You were cut from a rock God chose and are built on a rock God laid; the church's future rests there, not on its own strength.",
+    "here": "For a congregation measuring itself by decline — fewer, older, smaller — the move is Isaiah's: look back at Abraham, called alone and made many, and trust the builder over the count."
    }
   },
   "semicontinuous": {
@@ -96,6 +161,6 @@
   }
  },
  "subtract": "Three landings — from crowd-opinion to confession, the gift of revelation, or the real stakes of the keys. Choose one. A fourth door — Peter as rock of papal authority — is deliberately not opened here: it's ecumenically loaded, and Augustine's own later clarification (above) already complicates a simple reading. Raise it only if directly asked.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

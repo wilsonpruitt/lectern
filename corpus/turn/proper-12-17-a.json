@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 13:31-33, 44-52; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 13:31-33, 44-52; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained Glossa (Migne 13:33) and Wesley (13:45-47) witnesses; semicontinuous half authored — gravity, synthesis, two Genesis 29 doors — from src/turn_pull.py output.]",
  "occasion": "proper-12-17-a",
  "pericope": "Matthew 13:31-33, 44-52",
  "refKey": "Matt.13.31-Matt.13.52",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "The Lord compares himself to leaven, for leaven communicates the power it has received to a whole heap of its own kind."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "So long ought charity, hidden in the mind, to grow, until it change the whole mind into its own perfection, so that it love or think upon nothing beside God, which is begun here, and perfected in the other life."
     }
    ],
    "say": "What God has hidden in you is small and quiet now, but it is meant to work through the whole of your life.",
@@ -67,6 +74,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Lest we trust in preaching only, or think faith enough by itself without a life, he adds the net: good and bad are gathered, and parted only at the end."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "The Gospel, wherever it is preached, gathers at first both good and bad, who are for a season full of approbation and warm with good desires. But Christian discipline, and strong, close exhortation, begin that separation in this world, which shall be accomplished by the angels of God in the world to come."
     }
    ],
    "say": "You are in the net — gathered, named, carried — and the net is not yet the shore; live like it.",
@@ -91,11 +105,55 @@
    "firstReading": {
     "ref": "Genesis 29:15-28",
     "refKey": "Gen.29.15-Gen.29.28",
-    "doors": []
+    "doors": [
+     {
+      "landing": "Seven years like a few days",
+      "claim": "Jacob's love makes the long labor light: what we give ourselves to out of love does not feel like a sentence.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "They seemed to him but a few days for the love he had to her — an age of work will be but as a few days to those that love God, and long for Christ's appearing."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "How was this said, since even a short time seems long to them that love? It was said therefore because of the labour of the servitude, which love made easy."
+       }
+      ],
+      "say": "Seven years of hard work, and Jacob said it felt like a few days. Love does that to time.",
+      "do": "Ask them where their faith has become a sentence to serve, and what it would take to love their way back into it."
+     },
+     {
+      "landing": "The deceiver deceived",
+      "claim": "Jacob, who tricked his father in the dark, is tricked in the dark himself: the story lets his own deceit come home to him.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Jacob had cheated his own father when he pretended to be Esau, and now his father-in-law cheated him. Herein, how unrighteous soever Laban was, the Lord was righteous."
+       }
+      ],
+      "say": "The man who pretended to be his brother woke up married to the wrong sister. What we do to others has a way of finding us.",
+      "do": "Invite them to name one deception they have practiced and have not yet set right, and to take one step toward setting it right."
+     }
+    ]
+   },
+   "gravity": "Jacob serves seven years for Rachel, and they seem to him but a few days for the love he has for her; then the deceiver is deceived and wakes beside Leah (Genesis 29). The Psalm calls Israel to remember the covenant God keeps for a thousand generations; Paul is sure nothing can separate us from God's love (Romans 8); and Jesus tells of a man who sells everything for one treasure. The nerve: what love will pay, and the faithfulness of God that holds even through our tangled bargains.",
+   "synthesis": {
+    "convergence": "Jacob gives seven years for Rachel and counts them a few days, only to have his bargain turned back on him (Genesis 29); the Psalm remembers a covenant God keeps across a thousand generations (Psalm 105); Paul is persuaded nothing can separate us from the love of God (Romans 8); and the kingdom is a treasure worth selling everything for (Matthew 13). The readings set the costly love we give beside the steadier love God keeps, even when our own dealings go crooked.",
+    "claim": "Love makes long service short, and God's faithfulness runs underneath even the bargains that go wrong.",
+    "here": "For people who gave years to something and feel cheated by how it turned out, the move is to hear that those years were not lost on God, who stays faithful when Laban does not, and when we do not."
    }
   }
  },
  "subtract": "Three doors, three landings — transformation (hidden leaven), joyful surrender (sell all), sober self-examination (the net and the shore). Choose one and let the others go.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

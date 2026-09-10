@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 13:24-30, 36-43; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 13:24-30, 36-43; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained a Glossa (Migne 13:30) witness; semicontinuous half authored — gravity, synthesis, three Genesis 28 doors — from src/turn_pull.py output.]",
  "occasion": "proper-11-16-a",
  "pericope": "Matthew 13:24-30, 36-43",
  "refKey": "Matt.13.24-Matt.13.43",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "This the Lord spoke to forbid any putting to death; for we ought not to kill even a heretic, since so a never-ending war would be brought into the world."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "As between the cockle and the wheat, so long as it is in the blade, there is little difference: so the Lord admonishes us not to judge concerning a doubtful thing, which the Lord in the day of judgment will condemn not by suspicion, but manifestly."
     }
    ],
    "say": "Your hands are not steady enough to weed God's field; the patience that galls you is mercy leaving a door open.",
@@ -78,7 +85,11 @@
    "firstReading": {
     "ref": "Wisdom of Solomon 12:13, 16-19",
     "refKey": "Wis.12.13",
-    "doors": []
+    "doors": [],
+    "refKeys": [
+     "Wis.12.13",
+     "Wis.12.16-Wis.12.19"
+    ]
    },
    "gravity": "Wisdom says God judges with mildness and great forbearance, and so teaches his people that the righteous must be kind; Paul hears the whole creation groaning in hope; and Jesus tells of a field where wheat and weeds grow tangled until harvest. The nerve: how to live faithfully in a world — and a church — that will not sort cleanly into good and evil.",
    "synthesis": {
@@ -91,11 +102,70 @@
    "firstReading": {
     "ref": "Genesis 28:10-19a",
     "refKey": "Gen.28.10-Gen.28.19",
-    "doors": []
+    "doors": [
+     {
+      "landing": "Surely the Lord is in this place",
+      "claim": "Jacob meets God where he least expected to, on the run and sleeping rough: the presence was there before he knew it.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "We sometimes meet with God there, where we little thought of meeting with him. He is there where we did not think he had been, is found there where we asked not for him."
+       }
+      ],
+      "say": "Jacob didn't find God at the altar he'd planned to build. He found God on the road he was fleeing down.",
+      "do": "Ask them to name the place in their week they assume God is absent, and to go there this week expecting otherwise."
+     },
+     {
+      "landing": "I will not leave thee",
+      "claim": "To a man leaving home with nothing, God speaks promise before any demand: presence on the road, and a way back.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "He was now going as an exile into a place far distant, but God promiseth him to bring him again to this land. He seemed to be forsaken of all his friends, but God gives him this assurance, I will not leave thee."
+       }
+      ],
+      "say": "Before Jacob has done a single thing right, God promises to go with him and bring him home.",
+      "do": "Invite anyone in a season of leaving — a move, a loss, an exile of any kind — to carry that promise with them by name."
+     },
+     {
+      "landing": "Ascending and descending",
+      "claim": "The angels go both ways: the life of faith climbs toward God in prayer and comes back down in compassion for the weak.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Jacob signifies preachers, who not only, by contemplating, seek after the head of the Church, that is, Christ, but descend by compassion to his members: which the angels ascending and descending show forth."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "The angels are active spirits, continually ascending and descending; they rest not day nor night."
+       }
+      ],
+      "say": "The ladder isn't only for going up. Every climb toward God in prayer is meant to come back down to someone who needs you.",
+      "do": "Pair one practice of prayer this week with one concrete act of care for someone struggling."
+     }
+    ]
+   },
+   "gravity": "Jacob, a fugitive with a stone for a pillow, dreams of a ladder between earth and heaven and wakes to say, \"Surely the Lord is in this place, and I knew it not\" (Genesis 28); the Psalm finds no place, not even darkness, where God is absent; Paul hears the creation groaning as it waits (Romans 8); and Jesus lets the weeds and the wheat grow together until harvest. The nerve: God is already present in the mixed, unfinished, unlikely place, before we notice.",
+   "synthesis": {
+    "convergence": "A fugitive sleeps on a stone and finds the place is the house of God (Genesis 28); the psalmist cannot flee God's presence even into the dark (Psalm 139); Paul hears all creation groaning in labor (Romans 8); and in a field sown with weeds the owner says wait (Matthew 13). Each reading insists that God is at work in the mixed and unfinished place we would rather leave or clean up.",
+    "claim": "The place you are trying to escape or fix may be the place God already is: stop, look, and wait.",
+    "here": "For people who see their church, their family, or their own heart as a weedy field or a wilderness road, the move is Jacob's waking — \"surely the Lord is in this place\" — before any pulling up or walking away."
    }
   }
  },
  "subtract": "Three doors, three landings — patience (let both grow), vigilance (while they slept), hope-and-warning (the harvest sorts it). Choose one for your people and let the others go.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

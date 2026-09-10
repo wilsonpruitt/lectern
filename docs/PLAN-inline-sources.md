@@ -43,11 +43,19 @@
 > "not yet authored for this track" state. Clean `pnpm build`, verified against the full
 > corpus (15 with cards, 213 without, all internally consistent).
 >
-> **⏸ Phase 4b is Opus work (authored prose, per `feedback_opus-for-authored-prose`) and is
-> NOT done.** Start a Fable/Opus session for it: rewrite the SCHEMA.md authoring brief to
-> require Glossa + Wesley witnesses, then backfill each of the 15 cards' un-migrated track
-> (9 need complementary doors/gravity/synthesis authored, 6 need semicontinuous) plus attested
-> first-reading doors going forward.
+> **✅ Phase 4b DONE 2026-09-10 (Opus).** All 15 cards now carry both tracks. Every card's Gospel
+> doors cite at least one Glossa ordinaria (Migne) and one Wesley witness (11 cards had no Wesley at all,
+> none had Migne); each card's backfilled track got gravity, synthesis, and 2–3 attested first-reading
+> doors (33 doors total). Tooling: `src/turn_pull.py` (re-created in-repo, reads every span of a split
+> reading from the RCL spine) and `scripts/validate_turn.py` (checks every Wesley / Migne / intertext
+> witness is textually grounded in that source's own rows on that passage; caught one ungrounded framing
+> sentence on the pilot card). Authoring brief now in `corpus/turn/SCHEMA.md`. Where Migne has no gloss
+> (Ezekiel 18, 33), doors rest on Wesley plus Catena's intertextual notes. Open follow-ups found along
+> the way: (1) Lectern's Wesley and Glossa tabs read only the first span of split readings — 231 spine
+> readings have more; (2) 26 of ~14,400 Glossa verse addresses printed without `--` were folded into the
+> previous verse by the Phase 1 ingest; (3) some Wesley rows (e.g. Exod 16:2-4) carry his chapter outline
+> under the wrong verse numbers, an older ingest offset; (4) the originally-authored track on each card
+> still has no first-reading doors.
 
 **Scoped 2026-09-10 (Fable). Executes in a cheaper session: Sonnet for phases 1–3 and the
 schema half of 4; Opus for the authored Turn prose in 4b.** Everything below was read from the

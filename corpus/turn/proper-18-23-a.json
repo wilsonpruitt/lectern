@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained Wesley (18:15) and Glossa (Migne 18:15) witnesses; complementary half authored — gravity, synthesis, two Ezekiel 33 doors. Ezekiel is not in Migne's Glossa and Wesley has one note on these verses, so the first-reading doors lean on Catena's intertextual notes (how the NT takes up the watchman and the oath of 33:11), which are retrieved text rows, not recall.]",
  "occasion": "proper-18-23-a",
  "pericope": "Matthew 18:15-20",
  "refKey": "Matt.18.15-Matt.18.20",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Our Lord admonishes us not to overlook one another's faults, yet not so as seeking for matter of blame, but watching what you may amend."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Go and reprove him alone — if it may be in person; if that cannot so well be done, by thy messenger; or in writing. Observe, our Lord gives no liberty to omit this; or to exchange it for either of the following steps."
     }
    ],
    "say": "The first move is never public — not because sin should be hidden, but because shame, once a person loses it, stops correcting anything.",
@@ -45,6 +52,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "For in saving another, salvation is gained for ourselves also."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "We ought to rebuke the sinner with a zeal for justice, and open the bowels of mercy to him that repents. He sins thus, who seeing his brother sin keeps silent."
     }
    ],
    "say": "When you go to confront someone, you're not just trying to fix them — you're trying to get both of you back.",
@@ -78,7 +92,58 @@
    "firstReading": {
     "ref": "Ezekiel 33:7-11",
     "refKey": "Ezek.33.7-Ezek.33.11",
-    "doors": []
+    "doors": [
+     {
+      "landing": "The watchman's word",
+      "claim": "The watchman is responsible for sounding the warning, not for whether it is heeded; Scripture takes that charge up again in the apostles.",
+      "witnesses": [
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The watchman who warns the wicked and is not heeded 'has delivered his soul' — exactly Paul's claim 'I am clean' (taken up at Acts 18:5-6)."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The watchman who warns the wicked to turn 'will have saved his life' is the prophetic logic behind saving a soul from death by turning the sinner back (taken up at James 5:13-18)."
+       }
+      ],
+      "say": "You are not responsible for how someone answers the truth. You are responsible for telling it.",
+      "do": "Ask them to name the warning they have been holding back from someone they love, and to speak it this week, gently and alone."
+     },
+     {
+      "landing": "No pleasure in the death of the wicked",
+      "claim": "To people who say it is too late for them, God swears by his own life that he wants them to turn and live.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Our sins — the unpardoned guilt, and the unsupportable punishment of our sins; we shall pine away, 'tis too late to hope. How can it be better with us?"
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The oath 'As I live, I have no pleasure in the death of the wicked, but that the wicked turn from his way and live' restates the divine saving desire (taken up at 1 Timothy 2:1-7)."
+       }
+      ],
+      "say": "They said it was too late. God answered with an oath: I want you to live.",
+      "do": "Invite anyone who has decided they are beyond turning to hear this oath as addressed to them, and to take one step back toward God."
+     }
+    ]
+   },
+   "gravity": "God makes Ezekiel a watchman who must warn the wicked or answer for their blood, and swears, \"As I live, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live\" (Ezekiel 33); the Psalm asks to be taught the way of God's statutes; Paul says love is the fulfilling of the law (Romans 13); and Jesus lays out how to go to a brother who has sinned. The nerve: love that speaks the hard word, because God wants the sinner to live.",
+   "synthesis": {
+    "convergence": "The watchman who stays silent shares the guilt, and God pleads for the wicked to turn and live (Ezekiel 33); the psalmist asks to be turned from vanity toward God's way (Psalm 119); Paul sums every command in the debt of love (Romans 13); and Jesus sends us first, alone, to the one who wronged us (Matthew 18). Each reading makes honest warning a form of love, and aims it at life rather than punishment.",
+    "claim": "Silence is not kindness when someone is heading toward harm: love speaks, because God wants them to live.",
+    "here": "For a congregation that avoids conflict by avoiding truth, the move is to recover the watchman's word as care — spoken privately, first, and for the other person's life rather than our own vindication."
    }
   },
   "semicontinuous": {
@@ -96,6 +161,6 @@
   }
  },
  "subtract": "Three landings — the private first step, the mutual gain, or what the harshest verdict actually permits. Choose one and let the others go.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, the Glossa ordinaria (Migne recension, Wroot Press English), and Catena's intertextual notes, retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

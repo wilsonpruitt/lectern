@@ -2519,6 +2519,13 @@
             "work": "Catena Aurea",
             "mode": "text",
             "reading": "Not that they should answer it, and thereupon hear of Christ the answer to their question, but that being puzzled they should ask Him no farther."
+          },
+          {
+            "author": "Glossa ordinaria",
+            "tradition": "medieval",
+            "work": "Glossa ordinaria (Migne)",
+            "mode": "text",
+            "reading": "He could have refuted them openly: but he asks for this reason, that they may be condemned either by their own silence or by their own sentence."
           }
         ],
         "say": "You can tell a question isn't honest by watching someone calculate the safest answer instead of the true one.",
@@ -2541,6 +2548,13 @@
             "work": "Catena Aurea",
             "mode": "text",
             "reading": "The Gentile people, having done penitence, laboured in God's vineyard, and atoned by their labour for the obstinacy of the first."
+          },
+          {
+            "author": "John Wesley",
+            "tradition": "wesleyan",
+            "work": "Explanatory Notes",
+            "mode": "text",
+            "reading": "He answered, I go, sir: but went not — just so did the scribes and Pharisees: they professed the greatest readiness and zeal in the service of God: but it was bare profession, contradicted by all their actions."
           }
         ],
         "say": "A late yes that actually shows up beats an early yes that never does.",
@@ -2563,6 +2577,13 @@
             "work": "Catena Aurea",
             "mode": "text",
             "reading": "Others think that the parable does not relate to Gentiles and Jews, but simply to the righteous and to sinners. These by their evil deeds had rejected God."
+          },
+          {
+            "author": "John Wesley",
+            "tradition": "wesleyan",
+            "work": "Explanatory Notes",
+            "mode": "text",
+            "reading": "The publicans and harlots — the most notorious sinners were reformed, though at first they said, I will not. And ye, seeing the amazing change which was wrought in them, repented not afterward."
           }
         ],
         "say": "The people with nothing left to protect are often the first ones free enough to actually repent.",
@@ -2574,7 +2595,69 @@
         "firstReading": {
           "ref": "Ezekiel 18:1-4, 25-32",
           "refKey": "Ezek.18.1-Ezek.18.4",
-          "doors": []
+          "doors": [
+            {
+              "landing": "Not your fathers' sour grapes",
+              "claim": "The exiles blame their ancestors for their fate; God says each person stands before him in their own right, neither doomed nor excused by family.",
+              "witnesses": [
+                {
+                  "author": "John Wesley",
+                  "tradition": "wesleyan",
+                  "work": "Explanatory Notes",
+                  "mode": "text",
+                  "reading": "The fathers — our fore-fathers. Have eaten — have sinned. The childrens — we their children, who were unborn, suffer for their sins."
+                },
+                {
+                  "author": "John Wesley",
+                  "tradition": "wesleyan",
+                  "work": "Explanatory Notes",
+                  "mode": "text",
+                  "reading": "There can be no colour of partial judgment in the proceedings of God, who is equally God to all. The soul — the person, whether father or son, shall bear his own punishment."
+                }
+              ],
+              "say": "Your family's story shaped you. It does not get the last word on you. That belongs to God, and to what you do now.",
+              "do": "Ask them to name one inherited pattern they have treated as fate, and one step that would break it."
+            },
+            {
+              "landing": "Why will ye die?",
+              "claim": "God's command to make a new heart turns out to be a plea: let me do it in you, for I take no pleasure in your ruin.",
+              "witnesses": [
+                {
+                  "author": "John Wesley",
+                  "tradition": "wesleyan",
+                  "work": "Explanatory Notes",
+                  "mode": "text",
+                  "reading": "Make you a new heart — suffer me to do it in you."
+                },
+                {
+                  "author": "John Wesley",
+                  "tradition": "wesleyan",
+                  "work": "Explanatory Notes",
+                  "mode": "text",
+                  "reading": "I have no pleasure — sinners displease God when they undo themselves; they please him when they return."
+                },
+                {
+                  "author": "Catena — intertextual",
+                  "tradition": "intertext",
+                  "work": "Catena",
+                  "mode": "text",
+                  "reading": "The contrast between the son who says no but repents and obeys, and the son who professes obedience but does not act, dramatizes Ezekiel's teaching that the wicked who turns shall live (taken up at Matthew 21:28-32)."
+                }
+              ],
+              "say": "God says \"make yourselves a new heart,\" and means \"let me make it in you.\" The command is an open hand.",
+              "do": "Invite them to pray Wesley's line this week — suffer me to do it in you — over the change they cannot make alone."
+            }
+          ],
+          "refKeys": [
+            "Ezek.18.1-Ezek.18.4",
+            "Ezek.18.25-Ezek.18.32"
+          ]
+        },
+        "gravity": "Ezekiel's hearers blame their fathers — the fathers have eaten sour grapes, and the children's teeth are set on edge — and God answers that every soul is his, that whoever turns from wickedness shall live, and pleads, \"Make you a new heart: for why will ye die?\" (Ezekiel 18). The Psalm asks God not to remember the sins of youth; Paul says God works in us to will and to do (Philippians 2); and Jesus praises the son who said no and then went. The nerve: no one is trapped by where they started, and the door of turning is open now.",
+        "synthesis": {
+          "convergence": "Ezekiel refuses the proverb that blames the fathers and calls each person to turn and live (Ezekiel 18); the psalmist asks God to forget the sins of his youth and teach him the way (Psalm 25); Paul tells the Philippians to work out their salvation because God is at work in them (Philippians 2); and the son who first refused later goes into the vineyard (Matthew 21). Each reading removes both excuses — my past decides me, my old promise covers me — and leaves only the turn in front of us.",
+          "claim": "Neither your family's past nor your own first answer is the last word: turn now, and live.",
+          "here": "For people who explain themselves by their upbringing, or rest on a yes they said years ago, the move is Ezekiel's present tense: the invitation to turn is addressed to today."
         }
       },
       "semicontinuous": {
@@ -2592,7 +2675,7 @@
       }
     },
     "subtract": "Three landings — the leaders' self-trap, the late-but-real yes, or who can actually afford to repent. Choose one.",
-    "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+    "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, the Glossa ordinaria (Migne recension, Wroot Press English), and Catena's intertextual notes, retrieved from ~/reception-corpus — attested, not authored.",
     "status": "draft"
   },
   "lenses": null

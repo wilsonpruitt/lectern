@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 20:1-16; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 20:1-16; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained a Glossa (Migne 20:15) witness; semicontinuous half authored — gravity, synthesis, three Exodus 16 doors — from src/turn_pull.py output. Data note: Wesley's rows on Exod 16:2-4 carry his chapter outline under the wrong verse numbers (an older ingest offset); the note text cited is his, on this passage.]",
  "occasion": "proper-20-25-a",
  "pericope": "Matthew 20:1-16",
  "refKey": "Matt.20.1-Matt.20.16",
@@ -74,6 +74,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Their complaint was not that they were defrauded of their wage, but that the others received more than they deserved — for the envious have as much pain at another's good as at their own ill."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "A foolish question against the goodness of God. The thing to be asked would be, not whether he gave what he did not owe: but whether he did not give what he did owe."
     }
    ],
    "say": "Search the resentment in your own chest when grace runs to someone who didn't earn it — that evil eye, not the wage, is the danger here.",
@@ -98,11 +105,77 @@
    "firstReading": {
     "ref": "Exodus 16:2-15",
     "refKey": "Exod.16.2-Exod.16.15",
-    "doors": []
+    "doors": [
+     {
+      "landing": "Grumbling that forgets the rescue",
+      "claim": "A month after the sea, the people talk as if Egypt had been a feast: complaint rewrites the past and forgets who brought them out.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "O ungrateful people! It desires Egypt, it that saw the Egyptians destroyed. It murmurs against Moses, nay rather against God."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "They so undervalue their deliverance, that they wish they had died in Egypt. We cannot suppose they had any great plenty in Egypt, how largely soever they now talk of the flesh-pots."
+       }
+      ],
+      "say": "A month out of slavery, they were already remembering Egypt as the good old days.",
+      "do": "Ask them to name the complaint they have been rehearsing, and the rescue it has made them forget."
+     },
+     {
+      "landing": "Enough for today",
+      "claim": "Manna cannot be stored: each morning's portion teaches trust, and the test is whether we will take only today's bread.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "See what God designed in making this provision for them, that I may prove them whether they will walk in my law or no — whether they will trust me."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "This proving is a testing, not a seducing to sin; he shows them to themselves, that they may become the more humble in asking help and in acknowledging the grace of God."
+       }
+      ],
+      "say": "God gave them enough for one day, every day, so they would learn to trust God every day.",
+      "do": "Invite them to pray each morning this week for only that day's bread, and to notice what it does to their worry."
+     },
+     {
+      "landing": "What is it?",
+      "claim": "The people name the gift with a question: the right response to heaven's food is wonder before understanding.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "What is designated by the manna given from above save the wonder of the heavenly sweetness? It is called man hu, which is interpreted What is this? which we say when we behold what we wonder at not knowing."
+       }
+      ],
+      "say": "They didn't have a word for God's gift. So they called it \"What is it?\" and ate it for forty years.",
+      "do": "Ask them to notice one gift this week they cannot explain, and to give thanks before they try to."
+     }
+    ]
+   },
+   "gravity": "A month out of Egypt, Israel grumbles for the fleshpots and wishes they had died as slaves; God answers with bread from heaven each morning, enough for the day, and the people ask, \"What is it?\" (Exodus 16). The Psalm remembers that bread of heaven; Paul counts that to live is Christ (Philippians 1); and in the vineyard the grumblers receive exactly what was promised and are angry that others received it too. The nerve: grace comes as daily enough, and grumbling starts when we compare.",
+   "synthesis": {
+    "convergence": "The freed people grumble and are fed with manna that cannot be hoarded (Exodus 16); the Psalm sings of bread from heaven given to a complaining people (Psalm 105); Paul, facing life or death, wants only Christ (Philippians 1); and the all-day workers grumble because the latecomers got a full day's wage (Matthew 20). Each reading sets God's generosity beside human complaint, and shows the grumble growing from comparison, not from lack.",
+    "claim": "God gives enough for today to everyone who needs it; the grumbling begins when we count what someone else received.",
+    "here": "For people who feel shortchanged — by God, by their church, by the neighbor who seems to get off easy — the move is to gather today's manna with open hands and stop keeping score of the next person's portion."
    }
   }
  },
  "subtract": "Three doors, three landings — wonder at the equal coin, humility before the latecomer, repentance of the evil eye. They cannot all be preached at once; pick the one your people most need and let the other two go.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

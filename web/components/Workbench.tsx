@@ -12,6 +12,7 @@ import type {
   PlacesMapData,
   SeriesMembership,
   Turn as TurnData,
+  TurnDoor,
 } from "@/lib/data";
 
 // Leaflet touches window/document directly -- load client-only, never in the SSG pass.
@@ -35,6 +36,7 @@ const TRADITION_LABEL: Record<string, string> = {
   "protestant-19c": "19th-c. Protestant",
   eastern: "Eastern / Philokalic",
   modern: "Modern",
+  intertext: "Scripture echo",
 };
 
 function Chips({ tags }: { tags: string[] }) {
@@ -605,72 +607,12 @@ function Turn({
 
       <p className="turn-doors-intro micro">{turn.subtract}</p>
 
-      <div className="doors">
-        {turn.doors.map((d, i) => (
-          <div className="door" key={i}>
-            <div className="door-head">
-              <span className="door-n">{i + 1}</span>
-              <span className="door-landing">{d.landing}</span>
-            </div>
-            <p className="door-claim">{d.claim}</p>
-            <ul className="witnesses">
-              {d.witnesses.map((w, j) => (
-                <li key={j} className="witness">
-                  <span className="father">
-                    {w.author}
-                    <span className="tradition">{TRADITION_LABEL[w.tradition] ?? w.tradition}</span>
-                    {w.mode === "pointer" ? <span className="pointer-tag">cited</span> : null}
-                  </span>
-                  <span className="reading">
-                    {w.reading}
-                    {w.mode === "pointer" && w.cite ? (
-                      <span className="witness-cite"> — {w.cite}</span>
-                    ) : null}
-                  </span>
-                </li>
-              ))}
-            </ul>
-            <div className="say-do">
-              <p><span className="sd-lbl">Say</span>{d.say}</p>
-              <p><span className="sd-lbl">Do</span>{d.do}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+      <TurnDoors doors={turn.doors} />
 
       {tt?.firstReading.doors.length ? (
-        <div className="doors first-reading-doors">
+        <div className="first-reading-doors">
           <span className="eyebrow">Doors on {tt.firstReading.ref}</span>
-          {tt.firstReading.doors.map((d, i) => (
-            <div className="door" key={i}>
-              <div className="door-head">
-                <span className="door-n">{i + 1}</span>
-                <span className="door-landing">{d.landing}</span>
-              </div>
-              <p className="door-claim">{d.claim}</p>
-              <ul className="witnesses">
-                {d.witnesses.map((w, j) => (
-                  <li key={j} className="witness">
-                    <span className="father">
-                      {w.author}
-                      <span className="tradition">{TRADITION_LABEL[w.tradition] ?? w.tradition}</span>
-                      {w.mode === "pointer" ? <span className="pointer-tag">cited</span> : null}
-                    </span>
-                    <span className="reading">
-                      {w.reading}
-                      {w.mode === "pointer" && w.cite ? (
-                        <span className="witness-cite"> — {w.cite}</span>
-                      ) : null}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-              <div className="say-do">
-                <p><span className="sd-lbl">Say</span>{d.say}</p>
-                <p><span className="sd-lbl">Do</span>{d.do}</p>
-              </div>
-            </div>
-          ))}
+          <TurnDoors doors={tt.firstReading.doors} />
         </div>
       ) : null}
 
@@ -692,6 +634,49 @@ function Turn({
       ) : null}
 
       <p className="turn-source micro">{turn.source}</p>
+    </div>
+  );
+}
+
+const MIGNE_WORK = "Glossa ordinaria (Migne)";
+
+// One door list, used for the shared Gospel doors and for a track's first-reading
+// doors. A Migne Glossa witness gets a "Migne" tag so it reads as distinct from the
+// Catena Aurea's second-hand "Gloss." fragments, which share the author name.
+function TurnDoors({ doors }: { doors: TurnDoor[] }) {
+  return (
+    <div className="doors">
+      {doors.map((d, i) => (
+        <div className="door" key={i}>
+          <div className="door-head">
+            <span className="door-n">{i + 1}</span>
+            <span className="door-landing">{d.landing}</span>
+          </div>
+          <p className="door-claim">{d.claim}</p>
+          <ul className="witnesses">
+            {d.witnesses.map((w, j) => (
+              <li key={j} className="witness">
+                <span className="father">
+                  {w.author}
+                  <span className="tradition">{TRADITION_LABEL[w.tradition] ?? w.tradition}</span>
+                  {w.work === MIGNE_WORK ? <span className="pointer-tag">Migne</span> : null}
+                  {w.mode === "pointer" ? <span className="pointer-tag">cited</span> : null}
+                </span>
+                <span className="reading">
+                  {w.reading}
+                  {w.mode === "pointer" && w.cite ? (
+                    <span className="witness-cite"> — {w.cite}</span>
+                  ) : null}
+                </span>
+              </li>
+            ))}
+          </ul>
+          <div className="say-do">
+            <p><span className="sd-lbl">Say</span>{d.say}</p>
+            <p><span className="sd-lbl">Do</span>{d.do}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors distilled from the retrieved Catena Aurea (Newman tr.), verified line-by-line against ~/reception-corpus. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.semicontinuous (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained Wesley (21:33) and Glossa (Migne 21:38, 21:42) witnesses; complementary half authored — gravity, synthesis, two Isaiah 5 doors — from src/turn_pull.py output.]",
  "occasion": "proper-22-27-a",
  "pericope": "Matthew 21:33-46",
  "refKey": "Matt.21.33-Matt.21.46",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Morally; a vineyard has been let out to each of us to dress, when the mystery of baptism was given us, to be cultivated by action."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "God planted the Church in Canaan; and hedged it round about — first with the law, then with his peculiar providence: and went into a far country — that is, left the keepers of his vineyard, in some measure, to behave as they should see good."
     }
    ],
    "say": "Nothing you're standing on was built by you — the hedge and the tower were already there before you showed up to work.",
@@ -45,6 +52,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "Wherefore then did He not send Him immediately? That from what they had done to the others they might accuse themselves."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "It is plain that the chief priests killed Jesus not through ignorance but through envy."
     }
    ],
    "say": "Sin rarely announces itself as sin — it usually shows up as the reasonable next step from a premise nobody questioned.",
@@ -67,6 +81,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "It is one thing to be broken, and another to be ground to powder. Of what is broken there remains something; but what is ground to powder is as it were converted into dust."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "He who believes and yet sins: the stone falls upon him and he is not ground to powder, but he is bound tight, because through patience he is kept for salvation; but he upon whom the stone rushes down, that is, he who denies, is utterly ground to powder."
     }
    ],
    "say": "You cannot stay neutral toward the rejected stone — either it breaks you in a way you can recover from, or you try to break it and there's nothing left of you.",
@@ -78,14 +99,70 @@
    "firstReading": {
     "ref": "Isaiah 5:1-7",
     "refKey": "Isa.5.1-Isa.5.7",
-    "doors": []
+    "doors": [
+     {
+      "landing": "What more could I have done?",
+      "claim": "Isaiah's song is a lament of love: God has done everything for this vineyard, and grieves over what it became.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "A canticle is sometimes in gladness, sometimes in sorrow, as this one is, namely the one which he composed who, seeing the city, wept."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "He gathered — he removed all hindrances, and gave them all the means of fruitfulness."
+       }
+      ],
+      "say": "This is a love song before it is a judgment. God is not angry at a stranger's field. God is grieving over his own.",
+      "do": "Ask them to name what God has planted in their life and to thank God for it before asking what it has yielded."
+     },
+     {
+      "landing": "Justice sought, a cry heard",
+      "claim": "The song traps its hearers the way Nathan trapped David: they judge the vineyard, and discover they have judged themselves.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "In like manner Nathan questions David, that he may pronounce sentence upon himself as though upon another."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "A cry — from the oppressed, crying to men for help, and to God for vengeance."
+       }
+      ],
+      "say": "Isaiah lets you condemn the bad vineyard first. Then he tells you whose vineyard it is.",
+      "do": "Have them find out whose cry is going unheard in their own community, and bring one concrete response to it."
+     }
+    ]
+   },
+   "gravity": "Isaiah sings a love song about a vineyard given every care that yielded only wild grapes: God looked for justice and found bloodshed, for righteousness and heard a cry (Isaiah 5). The Psalm begs God to return and tend the vine he brought out of Egypt; Paul counts every credential as loss for Christ (Philippians 3); and Jesus tells of tenants who kill the heir to keep the vineyard. The nerve: God has given everything, and looks for the fruit of justice.",
+   "synthesis": {
+    "convergence": "Isaiah's vineyard receives every care and yields wild grapes, and God hears a cry where he looked for justice (Isaiah 5); the Psalm pleads for God to tend the vine again (Psalm 80); Paul lets go of every advantage he earned (Philippians 3); and the tenants kill the son to keep what was only lent to them (Matthew 21). Each reading holds a gift up against its fruit and asks what has become of what God entrusted.",
+    "claim": "Everything we have was planted by God; the fruit God looks for is justice and righteousness, not a claim of ownership.",
+    "here": "For a congregation comfortable in an inherited vineyard — buildings, endowments, a good name — the move is Isaiah's question turned on itself: what fruit does God find here, and who is crying out nearby?"
    }
   },
   "semicontinuous": {
    "firstReading": {
     "ref": "Exodus 20:1-4, 7-9, 12-20",
     "refKey": "Exod.20.1-Exod.20.4",
-    "doors": []
+    "doors": [],
+    "refKeys": [
+     "Exod.20.1-Exod.20.4",
+     "Exod.20.7-Exod.20.9",
+     "Exod.20.12-Exod.20.20"
+    ]
    },
    "gravity": "God gives the Ten Words at Sinai — commands meant to order a free people, not shackle them (Exodus 20); Paul, credentials in hand, counts them all as loss for the sake of knowing Christ (Philippians 3); and Jesus tells of tenants who beat, kill, and finally murder the son sent to collect fruit that was never theirs to withhold. The nerve: everything in the vineyard — the hedge, the tower, the winepress — was gift, on loan, and the tenants' whole crime is forgetting that.",
    "synthesis": {
@@ -96,6 +173,6 @@
   }
  },
  "subtract": "Three landings — the forgotten gift, the cold calculation, or the two ways to meet the stone. Choose one.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }

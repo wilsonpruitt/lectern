@@ -1,5 +1,5 @@
 {
- "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 13:1-9, 18-23; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.]",
+ "_note": "The Turn — doors are attested reading-traditions distilled from the retrieved Catena Aurea (Newman tr.) + Wesley's Notes on Matt 13:1-9, 18-23; each witness grounded in the actual retrieved text, verified line-by-line. Editorial framing AI-drafted, status:draft, pending Wilson's curation. [v2 migration 2026-09-10: gravity/synthesis moved under tracks.complementary (verified against that track's first reading, not assumed); the other track has firstReading only, pending Phase 4b authoring.] [Phase 4b 2026-09-10, Opus: Gospel doors gained a Glossa (Migne 13:20) witness; semicontinuous half authored — gravity, synthesis, three Genesis 25 doors — from src/turn_pull.py output.]",
  "occasion": "proper-10-15-a",
  "pericope": "Matthew 13:1-9, 18-23",
  "refKey": "Matt.13.1-Matt.13.23",
@@ -23,6 +23,13 @@
      "work": "Catena Aurea",
      "mode": "text",
      "reading": "The deceitfulness of riches chokes the word, for riches are treacherous — promising one thing and doing another."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "They are sown upon the rock and among thorns who receive well: but either adversity by terrifying, or prosperity by flattering, holds them back from bringing to perfection."
     }
    ],
    "say": "The same seed fell on all four grounds; the difference was the soil — and the soil is you.",
@@ -91,11 +98,84 @@
    "firstReading": {
     "ref": "Genesis 25:19-34",
     "refKey": "Gen.25.19-Gen.25.34",
-    "doors": []
+    "doors": [
+     {
+      "landing": "Selling the birthright",
+      "claim": "Esau despises what was given for what he is hungry for now, and the tragedy is less the bargain than the shrug that follows it.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "He did eat and drink, and rise up and went his way — without any serious reflections upon the ill bargain he had made, or any shew of regret. Thus Esau despised his birth-right."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Lovers of the world cultivate outward things the more, the more they leave their own inward things untilled."
+       }
+      ],
+      "say": "He ate, he drank, he got up and left. The saddest thing in the story is how little it seemed to cost him.",
+      "do": "Ask them to name one small, repeated trade that is spending down something God gave them, and to reverse it once this week."
+     },
+     {
+      "landing": "Twenty years of asking",
+      "claim": "Isaac keeps praying through two decades of barrenness: the promise does not replace prayer, it is the reason to keep praying.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Though God had promised to multiply his family, he prayed for it; for God's promises must not supersede but encourage our prayers. Though he had prayed for this mercy many years, and it was not granted, yet he did not leave off praying for it."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Think not that he obtained forthwith and at once what he desired: for he continued twenty years praying and beseeching God."
+       }
+      ],
+      "say": "The promise was already given, and still Isaac prayed for twenty years. Waiting was not a sign he had been forgotten.",
+      "do": "Invite them to take up again a prayer they set down because the answer was slow."
+     },
+     {
+      "landing": "Two nations within you",
+      "claim": "The twins' struggle is ours as well: flesh and Spirit contend inside a single life, and Rebekah shows where to take it.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Two nations and two peoples are within us, namely of the vices and of the virtues. Yet the people overcomes the people, and the elder shall serve the younger, namely the flesh the spirit, and the vices the virtues."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "It is a mighty ease to spread our case before the Lord, and ask council at his mouth."
+       }
+      ],
+      "say": "There is a struggle going on inside you, and Rebekah did the right thing with hers: she went and asked God about it.",
+      "do": "Have them name the two things wrestling in them this season and bring both, by name, to prayer."
+     }
+    ]
+   },
+   "gravity": "Isaac prays for years before Rebekah conceives; the twins struggle in her womb; and Esau, faint from the field, sells his birthright for a bowl of red stew (Genesis 25). The Psalm calls God's word a lamp to the feet; Paul sets the mind of the flesh against the mind of the Spirit (Romans 8); and Jesus flings seed on every kind of ground. The nerve: what we will trade away for whatever satisfies right now.",
+   "synthesis": {
+    "convergence": "Esau trades a birthright for one meal and walks off without regret (Genesis 25); the psalmist keeps God's word as a lamp for the next step (Psalm 119); Paul sets the mind of the flesh against the mind of the Spirit (Romans 8); and in the Sower the word is choked by cares and the lure of riches (Matthew 13). Each reading weighs the gift God gives against the hunger of the moment, and shows how easily the lasting thing is sold for the immediate one.",
+    "claim": "The word God sows is a birthright, not a snack: guard it from the hunger that would sell it for something quicker.",
+    "here": "For people whose attention goes out daily in small bargains — the scroll, the rush, the urgent thing that isn't — the move is to name which is the birthright and which is the stew, and to refuse one trade this week."
    }
   }
  },
  "subtract": "Three doors, three landings — self-examination (which ground), grace (the reckless Sower), fruitfulness (hearing that yields). Walk through one; the choosing is the focus.",
- "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain) + Wesley's Explanatory Notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, and the Glossa ordinaria (Migne recension, Wroot Press English), retrieved from ~/reception-corpus — attested, not authored.",
  "status": "draft"
 }
