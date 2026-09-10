@@ -798,7 +798,80 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-21"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 21:10",
+                  "occurrences": [
+                    {
+                      "refKey": "John.8.31-John.8.47",
+                      "refDisplay": "John 8:31–47",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "8.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-8.4"
+                    },
+                    {
+                      "refKey": "Gal.4.28-Gal.4.31",
+                      "refDisplay": "Galatians 4:28–31",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "4.6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/galatians#p-4.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 21:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.9.6-Rom.9.13",
+                      "refDisplay": "Romans 9:6–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-9.2"
+                    },
+                    {
+                      "refKey": "Heb.11.8-Heb.11.22",
+                      "refDisplay": "Hebrews 11:8–22",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "11.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-11.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 21:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Gal.4.28-Gal.4.31",
+                      "refDisplay": "Galatians 4:28–31",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "4.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/galatians#p-4.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -811,7 +884,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-86"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 86:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.15.2-Rev.15.4",
+                      "refDisplay": "Revelation 15:2–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "15.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-15.2"
+                    },
+                    {
+                      "refKey": "2Thess.1.11-2Thess.1.12",
+                      "refDisplay": "2 Thessalonians 1:11–12",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-1.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 86:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.15.2-Rev.15.4",
+                      "refDisplay": "Revelation 15:2–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "15.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-15.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -830,7 +951,61 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-14",
+                  "echoes": [
+                    {
+                      "source": "Genesis 4:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If you do well, won’t it be lifted up? If you don’t do well, sin crouches at the door. Its desire is for you, but you are to rule over it.”",
+                      "note": "To Cain: sin 'is crouching at the door; its desire is for you, but you must rule over it.' Paul's 'do not let sin reign (basileueto) in your mortal body' (6:12) personifies Sin as a power seeking to master a person who must instead exercise dominion over it. The shared image of Sin as an external would-be ruler the believer must refuse to obey is striking; many read 6:12 against this primal scene.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "Redemption-from-bondage language: God brings Israel 'out from under the burdens' and 'redeems' them from slavery. Romans 6:6 ('no longer in bondage to sin', douleuein) and 6:7 ('freed from sin') run the exodus slavery/liberation pattern onto sin as the new Pharaoh. The slavery-redemption typology is strong thematically though the verbal contact here is diffuse; the fuller slavery exposition comes in 6:15-23.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 37:1-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The hand of Yahweh was on me, and he brought me out in the Spirit of Yahweh, and set me down in the midst of the valley; and it was full of bones. He caused me to pass by them all around: and behold, there were very many in the open valley; and behold, they were very dry. He said to me, Son of man, can these bones live? I answered, Lord Yahweh, you know. Again he said to me, Prophesy over these bones, and tell them, you dry bones, hear Yahweh’s word. Thus […]",
+                      "note": "The valley of dry bones: God brings the dead up from their graves to new life by his Spirit. Paul's death-and-burial-then-'newness of life' (6:4) and 'alive from the dead' (6:13) share the figural movement of resurrection-as-new-existence, though Paul grounds it christologically rather than nationally.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 36:26-27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will also give you a new heart, and I will put a new spirit within you; and I will take away the stony heart out of your flesh, and I will give you a heart of flesh. I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "New heart and new spirit enabling obedience; 'newness of life' (6:4, kainotes zoes) coheres with the prophetic promise of interior renewal. Faint and disputed verbal contact, but the renewal/new-walk theme is shared.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 6:2",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "After two days he will revive us. On the third day he will raise us up, and we will live before him.",
+                      "note": "'After two days he will revive us; on the third day he will raise us up, that we may live before him.' A type of death-and-resurrection-to-life that early Christian reading connected to Christ's raising; resonates with 6:4-5,8-9 union in death and resurrection. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -849,7 +1024,150 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.4",
+                  "ref": "10:24-25",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 1:2-3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Ahaziah fell down through the lattice in his upper room that was in Samaria, and was sick. So he sent messengers, and said to them, “Go, inquire of Baal Zebub, the god of Ekron, whether I will recover of this sickness.” But Yahweh’s angel said to Elijah the Tishbite, “Arise, go up to meet the messengers of the king of Samaria, and tell them, ‘Is it because there is no God in Israel, that you go to inquire of Baal Zebub, the god of Ekron?",
+                      "note": "'Beelzebul' (10:25) derives from Baal-zebub, the god of Ekron whom Ahaziah consults. The name of the rejected foreign deity becomes the slander hurled at 'the master of the house'; the disciples should expect the same naming, 'how much more those of his household.'"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.5",
+                  "ref": "10:26-31",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 8:12-13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Don’t say, ‘A conspiracy!’ concerning all about which this people say, ‘A conspiracy!’ neither fear their threats, nor be terrorized. Yahweh of Armies is who you must respect as holy. He is the one you must fear. He is the one you must dread.",
+                      "note": "'Neither fear ye their fear... Sanctify the LORD of hosts himself; and let him be your fear.' Isaiah's command to fear God rather than the conspiracy of men is the precise logic of 10:28: do not fear those who kill the body, but fear him who can destroy soul and body. The double 'do not fear / rather fear' structure is Isaianic."
+                    },
+                    {
+                      "source": "Jeremiah 7:31-32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They have built the high places of Topheth, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I didn’t command, nor did it come into my mind. Therefore behold, the days come”, says Yahweh, “that it shall no more be called Topheth, nor The valley of the son of Hinnom, but The valley of Slaughter; for they shall bury in Topheth, until there is no place to bury.",
+                      "note": "'Gehenna' (10:28) is the valley of Hinnom (Topheth), the site of child-sacrifice that Jeremiah declares will become 'the valley of slaughter.' The OT condemnation of this valley as the place of fiery judgment supplies the term for the place where God can destroy both soul and body."
+                    },
+                    {
+                      "source": "2 Kings 23:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He defiled Topheth, which is in the valley of the children of Hinnom, that no man might make his son or his daughter to pass through the fire to Molech.",
+                      "note": "Josiah defiles Topheth in the valley of the children of Hinnom so none could pass a child through fire to Molech. Reinforces the Gehenna background as the defiled valley of fire that becomes the figure of final destruction (10:28).",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 14:45",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The people said to Saul, “Shall Jonathan die, who has worked this great salvation in Israel? Far from it! As Yahweh lives, there shall not one hair of his head fall to the ground; for he has worked with God this day!” So the people rescued Jonathan, that he didn’t die.",
+                      "note": "'There shall not one hair of his head fall to the ground.' The idiom of every hair guarded as a token of total providential protection (cf. 2 Sam 14:11; 1 Kgs 1:52) lies directly behind 10:30, 'the very hairs of your head are all numbered,' assuring the disciples of God's exhaustive care amid persecution."
+                    },
+                    {
+                      "source": "Psalm 56:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You number my wanderings. You put my tears into your bottle. Aren’t they in your book?",
+                      "note": "God keeps count of the sufferer's wanderings and bottles his tears. A thematic analogue to the divine bookkeeping of hairs and the fall of sparrows (10:29-31) — God's minute attention to the afflicted — though without verbal overlap.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 1:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The fear of Yahweh is the beginning of knowledge; but the foolish despise wisdom and instruction.",
+                      "note": "'The fear of the LORD is the beginning of knowledge.' The wisdom maxim that proper fear is owed to God alone undergirds the redirection of fear in 10:28, but the connection is general rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.6",
+                  "ref": "10:32-33",
+                  "echoes": [
+                    {
+                      "source": "Psalm 119:46",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will also speak of your statutes before kings, and will not be disappointed.",
+                      "note": "'I will speak of thy testimonies also before kings, and will not be ashamed.' A faint analogue to confessing Christ before men without shame (10:32), continuous with the 'testimony before governors and kings' of 10:18. Disputed and thematic only.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.7",
+                  "ref": "10:34-39",
+                  "echoes": [
+                    {
+                      "source": "Micah 7:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For the son dishonors the father, the daughter rises up against her mother, the daughter-in-law against her mother-in-law; a man’s enemies are the men of his own house.",
+                      "note": "10:35-36 is a near-verbatim rendering of Micah 7:6: 'the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man's enemies are the men of his own house.' Matthew reproduces the three paired antagonisms (father/son here as father, daughter/mother, daughter-in-law/mother-in-law) and the climactic 'a man's foes will be those of his own household' almost word for word. This is the strongest, formula-grade allusion in the chapter."
+                    },
+                    {
+                      "source": "Deuteronomy 33:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said of his father, and of his mother, ‘I have not seen him.’ He didn’t acknowledge his brothers, nor did he know his own children; for they have observed your word, and keep your covenant.",
+                      "note": "Levi 'said unto his father and to his mother, I have not seen him; neither did he acknowledge his brethren... for they have observed thy word.' The blessing praises placing covenant loyalty above family bonds — the same demand as 10:37, loving God above father, mother, son, daughter. A recognized OT precedent for cult loyalty overriding kinship.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 32:27-29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to them, “Thus says Yahweh, the God of Israel, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’” The sons of Levi did according to the word of Moses: and there fell of the people that day about three thousand men. Moses said, “Consecrate yourselves today to Yahweh, yes, every man against his son, and against […]",
+                      "note": "The Levites slay brother, companion, and neighbor at Moses' command and are thereby 'consecrated.' A harsh background for loyalty to God dividing even kin (10:34-37); thematically apt but lexically distant and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 22:1-12",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "After these things, God tested Abraham, and said to him, “Abraham!” He said, “Here I am.” He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.” Abraham rose early in the morning, and saddled his donkey, and took two of his young men with him, and Isaac his son. He split the wood for the burnt offering, and rose up, and […]",
+                      "note": "The Aqedah — Abraham not withholding his son for the sake of God — is a possible figural backdrop to 'he who loves son or daughter more than me is not worthy of me' (10:37): supreme love of God above the dearest child. Suggestive typology rather than verbal echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Sending out the Twelve",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "10:1–42",
+                        "mark": "6:7–13",
+                        "luke": "9:1–6"
+                      },
+                      "note": "Matthew gathers a whole missionary discourse where Mark and Luke give only the commission."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1763,7 +2081,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-20"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Jeremiah 20:9",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.9.15-1Cor.9.18",
+                      "refDisplay": "1 Corinthians 9:15–18",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "9.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-9.6"
+                    },
+                    {
+                      "refKey": "Acts.20.17-Acts.20.24",
+                      "refDisplay": "Acts 20:17–24",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "20.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-20.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1776,7 +2127,120 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-69"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 69:9",
+                  "occurrences": [
+                    {
+                      "refKey": "John.2.13-John.2.22",
+                      "refDisplay": "John 2:13–22",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "2.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-2.3"
+                    },
+                    {
+                      "refKey": "Rom.15.1-Rom.15.6",
+                      "refDisplay": "Romans 15:1–6",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "15.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-15.1"
+                    },
+                    {
+                      "refKey": "Rom.15.1-Rom.15.6",
+                      "refDisplay": "Romans 15:1–6",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "15.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-15.1"
+                    },
+                    {
+                      "refKey": "Matt.27.39-Matt.27.44",
+                      "refDisplay": "Matthew 27:39–44",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.10"
+                    },
+                    {
+                      "refKey": "Mark.15.29-Mark.15.32",
+                      "refDisplay": "Mark 15:29–32",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-15.8"
+                    },
+                    {
+                      "refKey": "Luke.19.45-Luke.19.48",
+                      "refDisplay": "Luke 19:45–48",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "19.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-19.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 69:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.53-Matt.13.58",
+                      "refDisplay": "Matthew 13:53–58",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.13"
+                    },
+                    {
+                      "refKey": "John.7.1-John.7.9",
+                      "refDisplay": "John 7:1–9",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "7.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-7.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 69:7–9",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.1-John.16.4",
+                      "refDisplay": "John 16:1–4",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-16.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1795,7 +2259,61 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-14",
+                  "echoes": [
+                    {
+                      "source": "Genesis 4:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If you do well, won’t it be lifted up? If you don’t do well, sin crouches at the door. Its desire is for you, but you are to rule over it.”",
+                      "note": "To Cain: sin 'is crouching at the door; its desire is for you, but you must rule over it.' Paul's 'do not let sin reign (basileueto) in your mortal body' (6:12) personifies Sin as a power seeking to master a person who must instead exercise dominion over it. The shared image of Sin as an external would-be ruler the believer must refuse to obey is striking; many read 6:12 against this primal scene.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "Redemption-from-bondage language: God brings Israel 'out from under the burdens' and 'redeems' them from slavery. Romans 6:6 ('no longer in bondage to sin', douleuein) and 6:7 ('freed from sin') run the exodus slavery/liberation pattern onto sin as the new Pharaoh. The slavery-redemption typology is strong thematically though the verbal contact here is diffuse; the fuller slavery exposition comes in 6:15-23.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 37:1-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The hand of Yahweh was on me, and he brought me out in the Spirit of Yahweh, and set me down in the midst of the valley; and it was full of bones. He caused me to pass by them all around: and behold, there were very many in the open valley; and behold, they were very dry. He said to me, Son of man, can these bones live? I answered, Lord Yahweh, you know. Again he said to me, Prophesy over these bones, and tell them, you dry bones, hear Yahweh’s word. Thus […]",
+                      "note": "The valley of dry bones: God brings the dead up from their graves to new life by his Spirit. Paul's death-and-burial-then-'newness of life' (6:4) and 'alive from the dead' (6:13) share the figural movement of resurrection-as-new-existence, though Paul grounds it christologically rather than nationally.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 36:26-27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will also give you a new heart, and I will put a new spirit within you; and I will take away the stony heart out of your flesh, and I will give you a heart of flesh. I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "New heart and new spirit enabling obedience; 'newness of life' (6:4, kainotes zoes) coheres with the prophetic promise of interior renewal. Faint and disputed verbal contact, but the renewal/new-walk theme is shared.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 6:2",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "After two days he will revive us. On the third day he will raise us up, and we will live before him.",
+                      "note": "'After two days he will revive us; on the third day he will raise us up, that we may live before him.' A type of death-and-resurrection-to-life that early Christian reading connected to Christ's raising; resonates with 6:4-5,8-9 union in death and resurrection. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1814,7 +2332,150 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.4",
+                  "ref": "10:24-25",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 1:2-3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Ahaziah fell down through the lattice in his upper room that was in Samaria, and was sick. So he sent messengers, and said to them, “Go, inquire of Baal Zebub, the god of Ekron, whether I will recover of this sickness.” But Yahweh’s angel said to Elijah the Tishbite, “Arise, go up to meet the messengers of the king of Samaria, and tell them, ‘Is it because there is no God in Israel, that you go to inquire of Baal Zebub, the god of Ekron?",
+                      "note": "'Beelzebul' (10:25) derives from Baal-zebub, the god of Ekron whom Ahaziah consults. The name of the rejected foreign deity becomes the slander hurled at 'the master of the house'; the disciples should expect the same naming, 'how much more those of his household.'"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.5",
+                  "ref": "10:26-31",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 8:12-13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Don’t say, ‘A conspiracy!’ concerning all about which this people say, ‘A conspiracy!’ neither fear their threats, nor be terrorized. Yahweh of Armies is who you must respect as holy. He is the one you must fear. He is the one you must dread.",
+                      "note": "'Neither fear ye their fear... Sanctify the LORD of hosts himself; and let him be your fear.' Isaiah's command to fear God rather than the conspiracy of men is the precise logic of 10:28: do not fear those who kill the body, but fear him who can destroy soul and body. The double 'do not fear / rather fear' structure is Isaianic."
+                    },
+                    {
+                      "source": "Jeremiah 7:31-32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They have built the high places of Topheth, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I didn’t command, nor did it come into my mind. Therefore behold, the days come”, says Yahweh, “that it shall no more be called Topheth, nor The valley of the son of Hinnom, but The valley of Slaughter; for they shall bury in Topheth, until there is no place to bury.",
+                      "note": "'Gehenna' (10:28) is the valley of Hinnom (Topheth), the site of child-sacrifice that Jeremiah declares will become 'the valley of slaughter.' The OT condemnation of this valley as the place of fiery judgment supplies the term for the place where God can destroy both soul and body."
+                    },
+                    {
+                      "source": "2 Kings 23:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He defiled Topheth, which is in the valley of the children of Hinnom, that no man might make his son or his daughter to pass through the fire to Molech.",
+                      "note": "Josiah defiles Topheth in the valley of the children of Hinnom so none could pass a child through fire to Molech. Reinforces the Gehenna background as the defiled valley of fire that becomes the figure of final destruction (10:28).",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 14:45",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The people said to Saul, “Shall Jonathan die, who has worked this great salvation in Israel? Far from it! As Yahweh lives, there shall not one hair of his head fall to the ground; for he has worked with God this day!” So the people rescued Jonathan, that he didn’t die.",
+                      "note": "'There shall not one hair of his head fall to the ground.' The idiom of every hair guarded as a token of total providential protection (cf. 2 Sam 14:11; 1 Kgs 1:52) lies directly behind 10:30, 'the very hairs of your head are all numbered,' assuring the disciples of God's exhaustive care amid persecution."
+                    },
+                    {
+                      "source": "Psalm 56:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You number my wanderings. You put my tears into your bottle. Aren’t they in your book?",
+                      "note": "God keeps count of the sufferer's wanderings and bottles his tears. A thematic analogue to the divine bookkeeping of hairs and the fall of sparrows (10:29-31) — God's minute attention to the afflicted — though without verbal overlap.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 1:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The fear of Yahweh is the beginning of knowledge; but the foolish despise wisdom and instruction.",
+                      "note": "'The fear of the LORD is the beginning of knowledge.' The wisdom maxim that proper fear is owed to God alone undergirds the redirection of fear in 10:28, but the connection is general rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.6",
+                  "ref": "10:32-33",
+                  "echoes": [
+                    {
+                      "source": "Psalm 119:46",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will also speak of your statutes before kings, and will not be disappointed.",
+                      "note": "'I will speak of thy testimonies also before kings, and will not be ashamed.' A faint analogue to confessing Christ before men without shame (10:32), continuous with the 'testimony before governors and kings' of 10:18. Disputed and thematic only.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.7",
+                  "ref": "10:34-39",
+                  "echoes": [
+                    {
+                      "source": "Micah 7:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For the son dishonors the father, the daughter rises up against her mother, the daughter-in-law against her mother-in-law; a man’s enemies are the men of his own house.",
+                      "note": "10:35-36 is a near-verbatim rendering of Micah 7:6: 'the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man's enemies are the men of his own house.' Matthew reproduces the three paired antagonisms (father/son here as father, daughter/mother, daughter-in-law/mother-in-law) and the climactic 'a man's foes will be those of his own household' almost word for word. This is the strongest, formula-grade allusion in the chapter."
+                    },
+                    {
+                      "source": "Deuteronomy 33:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said of his father, and of his mother, ‘I have not seen him.’ He didn’t acknowledge his brothers, nor did he know his own children; for they have observed your word, and keep your covenant.",
+                      "note": "Levi 'said unto his father and to his mother, I have not seen him; neither did he acknowledge his brethren... for they have observed thy word.' The blessing praises placing covenant loyalty above family bonds — the same demand as 10:37, loving God above father, mother, son, daughter. A recognized OT precedent for cult loyalty overriding kinship.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 32:27-29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to them, “Thus says Yahweh, the God of Israel, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’” The sons of Levi did according to the word of Moses: and there fell of the people that day about three thousand men. Moses said, “Consecrate yourselves today to Yahweh, yes, every man against his son, and against […]",
+                      "note": "The Levites slay brother, companion, and neighbor at Moses' command and are thereby 'consecrated.' A harsh background for loyalty to God dividing even kin (10:34-37); thematically apt but lexically distant and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 22:1-12",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "After these things, God tested Abraham, and said to him, “Abraham!” He said, “Here I am.” He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.” Abraham rose early in the morning, and saddled his donkey, and took two of his young men with him, and Isaac his son. He split the wood for the burnt offering, and rose up, and […]",
+                      "note": "The Aqedah — Abraham not withholding his son for the sake of God — is a possible figural backdrop to 'he who loves son or daughter more than me is not worthy of me' (10:37): supreme love of God above the dearest child. Suggestive typology rather than verbal echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Sending out the Twelve",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "10:1–42",
+                        "mark": "6:7–13",
+                        "luke": "9:1–6"
+                      },
+                      "note": "Matthew gathers a whole missionary discourse where Mark and Luke give only the commission."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

@@ -611,7 +611,40 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Kings 2:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.2.29-Acts.2.36",
+                      "refDisplay": "Acts 2:29–36",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "2.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-2.5"
+                    },
+                    {
+                      "refKey": "Acts.13.32-Acts.13.37",
+                      "refDisplay": "Acts 13:32–37",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-13.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -624,7 +657,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-111"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 111:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.46-Luke.1.50",
+                      "refDisplay": "Luke 1:46–50",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.10"
+                    },
+                    {
+                      "refKey": "Luke.1.67-Luke.1.75",
+                      "refDisplay": "Luke 1:67–75",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.13"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 111:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.15.2-Rev.15.4",
+                      "refDisplay": "Revelation 15:2–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "15.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-15.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -643,7 +724,96 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.4",
+                  "ref": "5:15-17",
+                  "echoes": [
+                    {
+                      "source": "Daniel 2:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The king answered, I know of a certainty that you would gain time, because you see the thing is gone from me.",
+                      "note": "'You are trying to gain time' (kairon hymeis exagorazete) supplies the rare Septuagintal idiom behind 'redeeming the time' (ton kairon exagorazomenoi). Low volume but a genuine lexical parallel the prompt flags; contested because the sense is repurposed positively.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Amos 5:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore a prudent person keeps silent in such a time, for it is an evil time.",
+                      "note": "'The prudent will keep silent in such a time, for it is an evil time' parallels 'redeeming the time, because the days are evil.' Coherence in the wise-conduct-in-an-evil-time motif; low volume and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 1:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "that the wise man may hear, and increase in learning; that the man of understanding may attain to sound counsel:",
+                      "note": "The wise/unwise contrast and the call to 'understand' echo wisdom's exhortation to gain prudence. Faint; included for the walk-wisely paraenesis drawing on the wisdom tradition.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.5",
+                  "ref": "5:18-21",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 23:31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t look at the wine when it is red, when it sparkles in the cup, when it goes down smoothly.",
+                      "note": "'Do not look at wine when it is red... in the end it bites like a serpent' grounds the prohibition 'Do not be drunk with wine, in which is dissipation (asotia).' Coherence with the wisdom warning against drunkenness is strong; medium volume."
+                    },
+                    {
+                      "source": "Isaiah 28:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "They also reel with wine, and stagger with strong drink. The priest and the prophet reel with strong drink. They are swallowed up by wine. They stagger with strong drink. They err in vision. They stumble in judgment.",
+                      "note": "'They reel with wine and stagger with strong drink... they err in vision' supplies the prophetic picture of drunkenness as spiritual derangement, contrasted here with being filled with the Spirit. Medium coherence; the wine-versus-prophetic-Spirit antithesis is apt."
+                    },
+                    {
+                      "source": "Psalm 33:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Sing to him a new song. Play skillfully with a shout of joy!",
+                      "note": "'Sing to him a new song, play skillfully' stands behind 'psalms and hymns and spiritual songs... making melody in your heart.' The psalmos/odes vocabulary and the heart-singing motif show coherence with the psalter's worship language; medium volume."
+                    },
+                    {
+                      "source": "Proverbs 20:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wine is a mocker, and beer is a brawler. Whoever is led astray by them is not wise.",
+                      "note": "'Wine is a mocker, strong drink a brawler' reinforces the wisdom condemnation of drunkenness behind the prohibition. Low volume; a recurrent sapiential warning rather than a specific quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 96:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Sing to Yahweh a new song! Sing to Yahweh, all the earth.",
+                      "note": "'Sing to the LORD a new song' is the recurrent psalter summons that the trio of psalms/hymns/songs evokes. Low volume given many parallel psalm-headings (psalmos, hymnos, ode) in the Septuagint; flagged for recurrence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 34:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will bless Yahweh at all times. His praise will always be in my mouth.",
+                      "note": "'I will bless the LORD at all times; his praise shall continually be in my mouth' parallels 'giving thanks always concerning all things.' Faint thematic coherence with continual thanksgiving; low confidence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -662,7 +832,136 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.5",
+                  "ref": "6:41-51",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:2-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The whole congregation of the children of Israel murmured against Moses and against Aaron in the wilderness; and the children of Israel said to them, “We wish that we had died by the hand of Yahweh in the land of Egypt, when we sat by the meat pots, when we ate our fill of bread, for you have brought us out into this wilderness, to kill this whole assembly with hunger.” Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the […]",
+                      "note": "'The Jews therefore murmured concerning him' (v.41,43) deliberately casts the audience as the wilderness generation that 'murmured against Moses and Aaron' over bread. High Volume and Coherence: the same verb-of-grumbling against the same gift (bread from heaven)."
+                    },
+                    {
+                      "source": "Isaiah 54:13",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "All your children shall be taught of Yahweh; and great shall be the peace of your children.",
+                      "note": "'It is written in the prophets, They will all be taught by God' (v.45) formally cites Isaiah 54:13 ('all your children shall be taught by the LORD'). A second explicit citation in the chapter; high Volume."
+                    },
+                    {
+                      "source": "Numbers 11:4-9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The mixed multitude that was among them lusted exceedingly: and the children of Israel also wept again, and said, “Who will give us flesh to eat? We remember the fish, which we ate in Egypt for nothing; the cucumbers, and the melons, and the leeks, and the onions, and the garlic; but now we have lost our appetite. There is nothing at all except this manna to look at.” The manna was like coriander seed, and its appearance like the appearance of bdellium. […]",
+                      "note": "'Your fathers ate the manna in the wilderness, and they died' (v.49) recalls the wilderness generation that craved, ate, and perished. The manna's described provision (Num 11:7-9) plus the death of that generation give Volume to Jesus' contrast with bread that lets one 'not die.'"
+                    },
+                    {
+                      "source": "Jeremiah 31:33-34",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people: and they shall teach no more every man his neighbor, and every man his brother, saying, Know Yahweh; for they shall all know me, from their least to their greatest, says Yahweh: for I will forgive their iniquity, and their sin […]",
+                      "note": "'They shall all know me, from the least to the greatest' (new-covenant interiority of divine teaching) reinforces the 'taught by God' citation and the drawing/learning that brings one to Jesus (vv.44-45). Strong Coherence as a secondary new-covenant source."
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "'Not that anyone has seen the Father, except he who is from God' (v.46) reprises the Mosaic axiom 'no one shall see me and live.' Coheres with John's recurring claim that the Son alone has seen God (cf. 1:18); moderate Volume here."
+                    },
+                    {
+                      "source": "Exodus 12:6-13",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "and you shall keep it until the fourteenth day of the same month; and the whole assembly of the congregation of Israel shall kill it at evening. They shall take some of the blood, and put it on the two door posts and on the lintel, on the houses in which they shall eat it. They shall eat the flesh in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs. Don’t eat it raw, nor boiled at all with water, but roasted with […]",
+                      "note": "'The bread which I will give for the life of the world is my flesh' (v.51), under the Passover frame, fuses bread with the slain paschal lamb whose flesh is eaten and whose blood saves. Typological Coherence prepares the eat-flesh scandal of the next pericope."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.6",
+                  "ref": "6:52-59",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 17:10-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘Any man of the house of Israel, or of the strangers who live as foreigners among them, who eats any kind of blood, I will set my face against that soul who eats blood, and will cut him off from among his people. For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life. Therefore I have said to the children of Israel, “No person […]",
+                      "note": "'Drink his blood' (v.53) collides head-on with the absolute Levitical prohibition: 'I will set my face against any who eats blood... the life is in the blood.' The scandal of vv.52-53 is unintelligible without this law; high Volume and Coherence as the offense John exploits."
+                    },
+                    {
+                      "source": "Exodus 12:8",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "They shall eat the flesh in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs.",
+                      "note": "'They shall eat the flesh that night' — the paschal lamb whose flesh is consumed. Jesus' demand to eat his flesh, set 'at Passover,' identifies him as the lamb; high typological Coherence binding the discourse to the chapter's opening note (v.4)."
+                    },
+                    {
+                      "source": "Genesis 9:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But flesh with its life, that is, its blood, you shall not eat.",
+                      "note": "'You shall not eat flesh with its life, that is, its blood' is the primal Noachic blood prohibition predating Sinai, broadening the scandal of v.53 beyond Israel to a universal taboo. Adds Recurrence to the blood-prohibition background."
+                    },
+                    {
+                      "source": "Deuteronomy 12:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Only be sure that you don’t eat the blood; for the blood is the life. You shall not eat the life with the flesh.",
+                      "note": "'Only be sure that you do not eat the blood, for the blood is the life' restates the prohibition with the life-in-the-blood rationale that John ironically affirms (the blood gives life). Reinforces the contested commandment behind the discourse."
+                    },
+                    {
+                      "source": "Sirach 24:21",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom's 'those who eat me... those who drink me' returns here with literal eating and drinking, deepening the Wisdom-banquet identification of Jesus. Coheres with v.35; the eat/drink pairing strengthens the Sirach link."
+                    },
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "'Eat of my bread and drink of the wine I have mixed' — Wisdom's bread-and-wine banquet underlies the flesh-as-food/blood-as-drink doubling of vv.53-56. Lower distinctiveness than the Leviticus collision but adds the sapiential meal frame."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "'Not as our fathers ate the manna, and died' (v.58) closes the discourse by again invoking the heaven-bread of Exodus 16, now surpassed. Recurrence of the governing manna text rather than a fresh allusion."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1363,7 +1662,125 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/proverbs-9"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Proverbs 9:1–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.22.1-Matt.22.14",
+                      "refDisplay": "Matthew 22:1–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "22.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-22.1"
+                    },
+                    {
+                      "refKey": "Mark.2.13-Mark.2.17",
+                      "refDisplay": "Mark 2:13–17",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-2.2"
+                    },
+                    {
+                      "refKey": "Luke.11.45-Luke.11.52",
+                      "refDisplay": "Luke 11:45–52",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-11.10"
+                    }
+                  ]
+                },
+                {
+                  "source": "Proverbs 9:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.35-John.6.40",
+                      "refDisplay": "John 6:35–40",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.4",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.4"
+                    },
+                    {
+                      "refKey": "John.6.52-John.6.59",
+                      "refDisplay": "John 6:52–59",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.6",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-6.6"
+                    },
+                    {
+                      "refKey": "1Cor.3.1-1Cor.3.4",
+                      "refDisplay": "1 Corinthians 3:1–4",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-3.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Proverbs 9:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.11.16-Matt.11.19",
+                      "refDisplay": "Matthew 11:16–19",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "11.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-11.3"
+                    },
+                    {
+                      "refKey": "1Tim.3.14-1Tim.3.16",
+                      "refDisplay": "1 Timothy 3:14–16",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "3.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-3.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Proverbs 9:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.14.15-Luke.14.24",
+                      "refDisplay": "Luke 14:15–24",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "14.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-14.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1376,7 +1793,165 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-34"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 34:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "Rom.12.9-Rom.12.21",
+                      "refDisplay": "Romans 12:9–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "12.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-12.3"
+                    },
+                    {
+                      "refKey": "Rom.14.13-Rom.14.23",
+                      "refDisplay": "Romans 14:13–23",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "14.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-14.2"
+                    },
+                    {
+                      "refKey": "2Tim.2.22-2Tim.2.26",
+                      "refDisplay": "2 Timothy 2:22–26",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "2.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-2.5"
+                    },
+                    {
+                      "refKey": "Heb.12.14-Heb.12.17",
+                      "refDisplay": "Hebrews 12:14–17",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "12.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-12.3"
+                    },
+                    {
+                      "refKey": "1Pet.3.13-1Pet.3.17",
+                      "refDisplay": "1 Peter 3:13–17",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-3.3"
+                    },
+                    {
+                      "refKey": "3John.1.11",
+                      "refDisplay": "3 John 1:11",
+                      "book": "3 John",
+                      "slug": "3-john",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/3-john#p-1.4"
+                    },
+                    {
+                      "refKey": "1Cor.7.12-1Cor.7.16",
+                      "refDisplay": "1 Corinthians 7:12–16",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "7.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-7.4"
+                    },
+                    {
+                      "refKey": "Phil.3.12-Phil.3.16",
+                      "refDisplay": "Philippians 3:12–16",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.5"
+                    },
+                    {
+                      "refKey": "1Thess.5.12-1Thess.5.15",
+                      "refDisplay": "1 Thessalonians 5:12–15",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "5.12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-5.12"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.11.9-Luke.11.13",
+                      "refDisplay": "Luke 11:9–13",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-11.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:9–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.4.14-Phil.4.20",
+                      "refDisplay": "Philippians 4:14–20",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:12–16",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.3.8-1Pet.3.12",
+                      "refDisplay": "1 Peter 3:8–12",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "3.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-3.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1395,7 +1970,96 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.4",
+                  "ref": "5:15-17",
+                  "echoes": [
+                    {
+                      "source": "Daniel 2:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The king answered, I know of a certainty that you would gain time, because you see the thing is gone from me.",
+                      "note": "'You are trying to gain time' (kairon hymeis exagorazete) supplies the rare Septuagintal idiom behind 'redeeming the time' (ton kairon exagorazomenoi). Low volume but a genuine lexical parallel the prompt flags; contested because the sense is repurposed positively.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Amos 5:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore a prudent person keeps silent in such a time, for it is an evil time.",
+                      "note": "'The prudent will keep silent in such a time, for it is an evil time' parallels 'redeeming the time, because the days are evil.' Coherence in the wise-conduct-in-an-evil-time motif; low volume and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 1:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "that the wise man may hear, and increase in learning; that the man of understanding may attain to sound counsel:",
+                      "note": "The wise/unwise contrast and the call to 'understand' echo wisdom's exhortation to gain prudence. Faint; included for the walk-wisely paraenesis drawing on the wisdom tradition.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.5",
+                  "ref": "5:18-21",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 23:31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t look at the wine when it is red, when it sparkles in the cup, when it goes down smoothly.",
+                      "note": "'Do not look at wine when it is red... in the end it bites like a serpent' grounds the prohibition 'Do not be drunk with wine, in which is dissipation (asotia).' Coherence with the wisdom warning against drunkenness is strong; medium volume."
+                    },
+                    {
+                      "source": "Isaiah 28:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "They also reel with wine, and stagger with strong drink. The priest and the prophet reel with strong drink. They are swallowed up by wine. They stagger with strong drink. They err in vision. They stumble in judgment.",
+                      "note": "'They reel with wine and stagger with strong drink... they err in vision' supplies the prophetic picture of drunkenness as spiritual derangement, contrasted here with being filled with the Spirit. Medium coherence; the wine-versus-prophetic-Spirit antithesis is apt."
+                    },
+                    {
+                      "source": "Psalm 33:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Sing to him a new song. Play skillfully with a shout of joy!",
+                      "note": "'Sing to him a new song, play skillfully' stands behind 'psalms and hymns and spiritual songs... making melody in your heart.' The psalmos/odes vocabulary and the heart-singing motif show coherence with the psalter's worship language; medium volume."
+                    },
+                    {
+                      "source": "Proverbs 20:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wine is a mocker, and beer is a brawler. Whoever is led astray by them is not wise.",
+                      "note": "'Wine is a mocker, strong drink a brawler' reinforces the wisdom condemnation of drunkenness behind the prohibition. Low volume; a recurrent sapiential warning rather than a specific quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 96:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Sing to Yahweh a new song! Sing to Yahweh, all the earth.",
+                      "note": "'Sing to the LORD a new song' is the recurrent psalter summons that the trio of psalms/hymns/songs evokes. Low volume given many parallel psalm-headings (psalmos, hymnos, ode) in the Septuagint; flagged for recurrence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 34:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will bless Yahweh at all times. His praise will always be in my mouth.",
+                      "note": "'I will bless the LORD at all times; his praise shall continually be in my mouth' parallels 'giving thanks always concerning all things.' Faint thematic coherence with continual thanksgiving; low confidence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1414,7 +2078,136 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.5",
+                  "ref": "6:41-51",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:2-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The whole congregation of the children of Israel murmured against Moses and against Aaron in the wilderness; and the children of Israel said to them, “We wish that we had died by the hand of Yahweh in the land of Egypt, when we sat by the meat pots, when we ate our fill of bread, for you have brought us out into this wilderness, to kill this whole assembly with hunger.” Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the […]",
+                      "note": "'The Jews therefore murmured concerning him' (v.41,43) deliberately casts the audience as the wilderness generation that 'murmured against Moses and Aaron' over bread. High Volume and Coherence: the same verb-of-grumbling against the same gift (bread from heaven)."
+                    },
+                    {
+                      "source": "Isaiah 54:13",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "All your children shall be taught of Yahweh; and great shall be the peace of your children.",
+                      "note": "'It is written in the prophets, They will all be taught by God' (v.45) formally cites Isaiah 54:13 ('all your children shall be taught by the LORD'). A second explicit citation in the chapter; high Volume."
+                    },
+                    {
+                      "source": "Numbers 11:4-9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The mixed multitude that was among them lusted exceedingly: and the children of Israel also wept again, and said, “Who will give us flesh to eat? We remember the fish, which we ate in Egypt for nothing; the cucumbers, and the melons, and the leeks, and the onions, and the garlic; but now we have lost our appetite. There is nothing at all except this manna to look at.” The manna was like coriander seed, and its appearance like the appearance of bdellium. […]",
+                      "note": "'Your fathers ate the manna in the wilderness, and they died' (v.49) recalls the wilderness generation that craved, ate, and perished. The manna's described provision (Num 11:7-9) plus the death of that generation give Volume to Jesus' contrast with bread that lets one 'not die.'"
+                    },
+                    {
+                      "source": "Jeremiah 31:33-34",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people: and they shall teach no more every man his neighbor, and every man his brother, saying, Know Yahweh; for they shall all know me, from their least to their greatest, says Yahweh: for I will forgive their iniquity, and their sin […]",
+                      "note": "'They shall all know me, from the least to the greatest' (new-covenant interiority of divine teaching) reinforces the 'taught by God' citation and the drawing/learning that brings one to Jesus (vv.44-45). Strong Coherence as a secondary new-covenant source."
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "'Not that anyone has seen the Father, except he who is from God' (v.46) reprises the Mosaic axiom 'no one shall see me and live.' Coheres with John's recurring claim that the Son alone has seen God (cf. 1:18); moderate Volume here."
+                    },
+                    {
+                      "source": "Exodus 12:6-13",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "and you shall keep it until the fourteenth day of the same month; and the whole assembly of the congregation of Israel shall kill it at evening. They shall take some of the blood, and put it on the two door posts and on the lintel, on the houses in which they shall eat it. They shall eat the flesh in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs. Don’t eat it raw, nor boiled at all with water, but roasted with […]",
+                      "note": "'The bread which I will give for the life of the world is my flesh' (v.51), under the Passover frame, fuses bread with the slain paschal lamb whose flesh is eaten and whose blood saves. Typological Coherence prepares the eat-flesh scandal of the next pericope."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.6",
+                  "ref": "6:52-59",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 17:10-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘Any man of the house of Israel, or of the strangers who live as foreigners among them, who eats any kind of blood, I will set my face against that soul who eats blood, and will cut him off from among his people. For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life. Therefore I have said to the children of Israel, “No person […]",
+                      "note": "'Drink his blood' (v.53) collides head-on with the absolute Levitical prohibition: 'I will set my face against any who eats blood... the life is in the blood.' The scandal of vv.52-53 is unintelligible without this law; high Volume and Coherence as the offense John exploits."
+                    },
+                    {
+                      "source": "Exodus 12:8",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "They shall eat the flesh in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs.",
+                      "note": "'They shall eat the flesh that night' — the paschal lamb whose flesh is consumed. Jesus' demand to eat his flesh, set 'at Passover,' identifies him as the lamb; high typological Coherence binding the discourse to the chapter's opening note (v.4)."
+                    },
+                    {
+                      "source": "Genesis 9:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But flesh with its life, that is, its blood, you shall not eat.",
+                      "note": "'You shall not eat flesh with its life, that is, its blood' is the primal Noachic blood prohibition predating Sinai, broadening the scandal of v.53 beyond Israel to a universal taboo. Adds Recurrence to the blood-prohibition background."
+                    },
+                    {
+                      "source": "Deuteronomy 12:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Only be sure that you don’t eat the blood; for the blood is the life. You shall not eat the life with the flesh.",
+                      "note": "'Only be sure that you do not eat the blood, for the blood is the life' restates the prohibition with the life-in-the-blood rationale that John ironically affirms (the blood gives life). Reinforces the contested commandment behind the discourse."
+                    },
+                    {
+                      "source": "Sirach 24:21",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom's 'those who eat me... those who drink me' returns here with literal eating and drinking, deepening the Wisdom-banquet identification of Jesus. Coheres with v.35; the eat/drink pairing strengthens the Sirach link."
+                    },
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "'Eat of my bread and drink of the wine I have mixed' — Wisdom's bread-and-wine banquet underlies the flesh-as-food/blood-as-drink doubling of vv.53-56. Lower distinctiveness than the Leviticus collision but adds the sapiential meal frame."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "'Not as our fathers ate the manna, and died' (v.58) closes the discourse by again invoking the heaven-bread of Exodus 16, now surpassed. Recurrence of the governing manna text rather than a fresh allusion."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

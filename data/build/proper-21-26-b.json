@@ -605,7 +605,10 @@
                 "label": "Index Fontium",
                 "url": "https://catena.wrootpress.com/fontium"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -618,7 +621,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-124"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 124:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.12.13-Rev.12.17",
+                      "refDisplay": "Revelation 12:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "12.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-12.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -631,7 +657,81 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/james#p-5.4"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.4",
+                  "ref": "5:13-18",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 17:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Elijah the Tishbite, who was of the foreigners of Gilead, said to Ahab, “As Yahweh, the God of Israel, lives, before whom I stand, there shall not be dew nor rain these years, but according to my word.”",
+                      "note": "'Elijah… prayed earnestly that it might not rain, and it did not rain' draws directly on Elijah's word that 'there shall be neither dew nor rain these years, except by my word.' James reads the drought as answered prayer."
+                    },
+                    {
+                      "source": "1 Kings 18:41-45",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Elijah said to Ahab, “Get up, eat and drink; for there is the sound of abundance of rain.” So Ahab went up to eat and to drink. Elijah went up to the top of Carmel; and he bowed himself down on the earth, and put his face between his knees. He said to his servant, “Go up now, look toward the sea.” He went up, and looked, and said, “There is nothing.” He said, “Go again” seven times. On the seventh time, he said, “Behold, a small cloud, like a man’s hand, […]",
+                      "note": "'He prayed again, and the sky gave rain' depends on Elijah on Carmel bowing to the ground in prayer until the rain came. The two-part drought-and-rain narrative is the backbone of James's example of the righteous person's prayer."
+                    },
+                    {
+                      "source": "Proverbs 10:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Hatred stirs up strife, but love covers all wrongs.",
+                      "note": "'Love covers all offenses' stands behind 'he who turns a sinner… will cover a multitude of sins,' the proverb of love covering sin applied to restoring the wanderer."
+                    },
+                    {
+                      "source": "Psalm 34:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh’s eyes are toward the righteous. His ears listen to their cry.",
+                      "note": "'The eyes of the LORD are toward the righteous, and his ears toward their cry' grounds 'the insistent prayer of a righteous person is powerfully effective.'"
+                    },
+                    {
+                      "source": "Proverbs 15:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The sacrifice made by the wicked is an abomination to Yahweh, but the prayer of the upright is his delight.",
+                      "note": "'The prayer of the upright is acceptable to him' (cf. 15:29, 'he hears the prayer of the righteous') is the proverbial basis for the efficacy of the righteous person's prayer.",
+                      "altSource": "Proverbs 15:29"
+                    },
+                    {
+                      "source": "Sirach 48:1-3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Also there arose Elijah the prophet as fire, And his word burned like a torch: Who brought a famine upon them, And by his zeal made them few in number. By the word of the Lord he shut up the heaven: Thrice did he thus bring down fire.",
+                      "note": "Ben Sira's praise of Elijah, who 'shut up the heavens' and 'brought down fire,' is the Second-Temple reception of the drought-prayer that James presupposes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 33:8-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When I tell the wicked, O wicked man, you shall surely die, and you don’t speak to warn the wicked from his way; that wicked man shall die in his iniquity, but his blood will I require at your hand. Nevertheless, if you warn the wicked of his way to turn from it, and he doesn’t turn from his way; he shall die in his iniquity, but you have delivered your soul.",
+                      "note": "The watchman who warns the wicked to turn 'will have saved his life' is the prophetic logic behind saving a soul from death by turning the sinner back (cf. Ezekiel 3:18-21).",
+                      "altSource": "Ezekiel 3:18-21"
+                    },
+                    {
+                      "source": "Daniel 12:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever.",
+                      "note": "'Those who turn many to righteousness' shine like the stars — a faint echo behind turning a sinner from the error of his way.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -650,7 +750,134 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.7",
+                  "ref": "9:38-41",
+                  "echoes": [
+                    {
+                      "source": "Numbers 11:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "A young man ran, and told Moses, and said, “Eldad and Medad are prophesying in the camp!”",
+                      "note": "John's complaint about an outsider casting out demons in Jesus' name, and the demand to forbid him, closely parallels Joshua's plea that Moses forbid Eldad and Medad from prophesying outside the tent. Jesus' refusal to forbid mirrors Moses' magnanimous reply. The structural and thematic parallel is striking."
+                    },
+                    {
+                      "source": "Numbers 11:28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Joshua the son of Nun, the servant of Moses, one of his chosen men, answered, “My lord Moses, forbid them!”",
+                      "note": "Joshua's 'My lord Moses, forbid them' is answered by Moses' wish that all the LORD's people were prophets. Mark casts the disciples as Joshua and Jesus as the larger-hearted Moses who will not restrict the Spirit's work. The parallel reinforces the Moses typology running through the chapter."
+                    },
+                    {
+                      "source": "Numbers 11:29",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Moses said to him, “Are you jealous for my sake? I wish that all Yahweh’s people were prophets, that Yahweh would put his Spirit on them!”",
+                      "note": "Moses' 'Would that all the LORD's people were prophets' anticipates Jesus' inclusive 'whoever is not against us is for us.' The generous expansion of authorized agency is shared. The echo completes the Eldad-and-Medad parallel."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "9.8",
+                  "ref": "9:42-50",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 66:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“They shall go out, and look on the dead bodies of the men who have transgressed against me: for their worm shall not die, neither shall their fire be quenched; and they will be loathsome to all mankind.”",
+                      "note": "The thrice-repeated 'where their worm does not die, and the fire is not quenched' is a near-verbatim quotation of Isaiah's closing vision of the corpses of rebels, an undying worm and unquenchable fire. This is the strongest OT contact in the chapter and supplies the imagery of Gehenna. The repetition underscores the volume and centrality."
+                    },
+                    {
+                      "source": "Leviticus 2:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Every offering of your meal offering you shall season with salt; neither shall you allow the salt of the covenant of your God to be lacking from your meal offering. With all your offerings you shall offer salt.",
+                      "note": "'Every sacrifice will be seasoned with salt' draws directly on the law that every grain offering be salted, never omitting the salt of the covenant. Mark's pairing of fire and salt with sacrifice reflects this cultic prescription. The verbal contact on salting the sacrifice is high."
+                    },
+                    {
+                      "source": "Numbers 18:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the wave offerings of the holy things, which the children of Israel offer to Yahweh, have I given you, and your sons and your daughters with you, as a portion forever. It is a covenant of salt forever before Yahweh to you and to your seed with you.”",
+                      "note": "The 'covenant of salt forever' between the LORD and the priests illuminates 'have salt in yourselves, and be at peace,' linking salt to enduring covenant fidelity. The covenant-of-salt motif undergirds the call to mutual peace. It strengthens the cultic-covenantal reading of the salt sayings.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Chronicles 13:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Ought you not to know that Yahweh, the God of Israel, gave the kingdom over Israel to David forever, even to him and to his sons by a covenant of salt?",
+                      "note": "The kingship given to David by 'a covenant of salt' reinforces salt as a symbol of permanent covenant, supporting Jesus' exhortation to keep salt and peace. The contact is general and reinforcing. It corroborates the covenant-of-salt background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 43:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall bring them near to Yahweh, and the priests shall cast salt on them, and they shall offer them up for a burnt offering to Yahweh.",
+                      "note": "The priests casting salt on the offerings before the LORD adds to the salted-sacrifice background of 9:49. The cultic salting of offerings coheres with Mark's 'every sacrifice salted with salt.' A reinforcing low-volume echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 30:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For his burning place has long been ready. Yes, for the king it is prepared. He has made its pyre deep and large with fire and much wood. Yahweh’s breath, like a stream of sulfur, kindles it.",
+                      "note": "Topheth prepared with fire and a great pile of wood, kindled by the breath of the LORD, contributes to the fiery-judgment imagery behind Gehenna and 'everyone salted with fire.' The link reinforces the burning-judgment theme. Volume is modest beside Isaiah 66.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 7:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They have built the high places of Topheth, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I didn’t command, nor did it come into my mind.",
+                      "note": "The valley of the son of Hinnom (Ge-Hinnom), site of child sacrifice condemned by Jeremiah, is the geographical and historical root of 'Gehenna.' Mark's term presupposes this defiled valley as the image of fiery judgment. The connection is etymological and background rather than a verbal citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 19:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "therefore, behold, the days come, says Yahweh, that this place shall no more be called Topheth, nor The valley of the son of Hinnom, but The valley of Slaughter.",
+                      "note": "Jeremiah renames Topheth the 'valley of slaughter,' deepening the Hinnom-valley associations behind Gehenna. The judgment-in-the-valley motif underlies Mark's hell imagery. A reinforcing background echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The resurrection of some to everlasting contempt provides an apocalyptic frame for the unending punishment evoked by the undying worm and unquenchable fire. The shame-and-punishment of the wicked coheres with Mark's warnings. The contact is thematic and reinforces the Isaiah 66 quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Judith 16:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Woe to the nations who rise up against my race! The Lord Almighty will take vengeance on them in the day of judgement, to put fire and worms in their flesh; and they will weep and feel their pain forever.”",
+                      "note": "Judith's hymn warns that the Lord will give fire and worms to the flesh of the nations, weeping in pain forever, a Second-Temple development of Isaiah 66:24. Its availability shows the worm-and-fire judgment circulating in the period Mark writes. It corroborates the deuterocanonical reception of the Isaiah imagery.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 13:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will bring the third part into the fire, and will refine them as silver is refined, and will test them like gold is tested. They will call on my name, and I will hear them. I will say, ‘It is my people;’ and they will say, ‘Yahweh is my God.’”",
+                      "note": "Bringing the remnant through the fire to refine them lies faintly behind 'everyone will be salted with fire,' if the fire is read as purifying rather than only punitive. The refining-fire motif coheres with a disciple-formation reading of the saying. Low volume and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1382,7 +1609,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/numbers-11"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Numbers 11:4",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.10.6-1Cor.10.10",
+                      "refDisplay": "1 Corinthians 10:6–10",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "10.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-10.2"
+                    },
+                    {
+                      "refKey": "Phil.3.17-Phil.3.19",
+                      "refDisplay": "Philippians 3:17–19",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Numbers 11:6–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.16.5-Matt.16.12",
+                      "refDisplay": "Matthew 16:5–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Numbers 11:4–9",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.41-John.6.51",
+                      "refDisplay": "John 6:41–51",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1395,7 +1685,135 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-19"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 19:7",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.3.14-2Tim.3.17",
+                      "refDisplay": "2 Timothy 3:14–17",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "3.14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-3.14"
+                    },
+                    {
+                      "refKey": "1Tim.1.8-1Tim.1.11",
+                      "refDisplay": "1 Timothy 1:8–11",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.3"
+                    },
+                    {
+                      "refKey": "Jas.1.22-Jas.1.25",
+                      "refDisplay": "James 1:22–25",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-1.22"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.16.1-Rev.16.7",
+                      "refDisplay": "Revelation 16:1–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "16.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-16.1"
+                    },
+                    {
+                      "refKey": "Rev.19.1-Rev.19.5",
+                      "refDisplay": "Revelation 19:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.7.7-Rom.7.12",
+                      "refDisplay": "Romans 7:7–12",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-7.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.1.15-Eph.1.19",
+                      "refDisplay": "Ephesians 1:15–19",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:8–11",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.3.14-2Tim.3.17",
+                      "refDisplay": "2 Timothy 3:14–17",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "3.14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-3.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.10.8-Rev.10.11",
+                      "refDisplay": "Revelation 10:8–11",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-10.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1408,7 +1826,81 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/james#p-5.4"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.4",
+                  "ref": "5:13-18",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 17:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Elijah the Tishbite, who was of the foreigners of Gilead, said to Ahab, “As Yahweh, the God of Israel, lives, before whom I stand, there shall not be dew nor rain these years, but according to my word.”",
+                      "note": "'Elijah… prayed earnestly that it might not rain, and it did not rain' draws directly on Elijah's word that 'there shall be neither dew nor rain these years, except by my word.' James reads the drought as answered prayer."
+                    },
+                    {
+                      "source": "1 Kings 18:41-45",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Elijah said to Ahab, “Get up, eat and drink; for there is the sound of abundance of rain.” So Ahab went up to eat and to drink. Elijah went up to the top of Carmel; and he bowed himself down on the earth, and put his face between his knees. He said to his servant, “Go up now, look toward the sea.” He went up, and looked, and said, “There is nothing.” He said, “Go again” seven times. On the seventh time, he said, “Behold, a small cloud, like a man’s hand, […]",
+                      "note": "'He prayed again, and the sky gave rain' depends on Elijah on Carmel bowing to the ground in prayer until the rain came. The two-part drought-and-rain narrative is the backbone of James's example of the righteous person's prayer."
+                    },
+                    {
+                      "source": "Proverbs 10:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Hatred stirs up strife, but love covers all wrongs.",
+                      "note": "'Love covers all offenses' stands behind 'he who turns a sinner… will cover a multitude of sins,' the proverb of love covering sin applied to restoring the wanderer."
+                    },
+                    {
+                      "source": "Psalm 34:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh’s eyes are toward the righteous. His ears listen to their cry.",
+                      "note": "'The eyes of the LORD are toward the righteous, and his ears toward their cry' grounds 'the insistent prayer of a righteous person is powerfully effective.'"
+                    },
+                    {
+                      "source": "Proverbs 15:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The sacrifice made by the wicked is an abomination to Yahweh, but the prayer of the upright is his delight.",
+                      "note": "'The prayer of the upright is acceptable to him' (cf. 15:29, 'he hears the prayer of the righteous') is the proverbial basis for the efficacy of the righteous person's prayer.",
+                      "altSource": "Proverbs 15:29"
+                    },
+                    {
+                      "source": "Sirach 48:1-3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Also there arose Elijah the prophet as fire, And his word burned like a torch: Who brought a famine upon them, And by his zeal made them few in number. By the word of the Lord he shut up the heaven: Thrice did he thus bring down fire.",
+                      "note": "Ben Sira's praise of Elijah, who 'shut up the heavens' and 'brought down fire,' is the Second-Temple reception of the drought-prayer that James presupposes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 33:8-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When I tell the wicked, O wicked man, you shall surely die, and you don’t speak to warn the wicked from his way; that wicked man shall die in his iniquity, but his blood will I require at your hand. Nevertheless, if you warn the wicked of his way to turn from it, and he doesn’t turn from his way; he shall die in his iniquity, but you have delivered your soul.",
+                      "note": "The watchman who warns the wicked to turn 'will have saved his life' is the prophetic logic behind saving a soul from death by turning the sinner back (cf. Ezekiel 3:18-21).",
+                      "altSource": "Ezekiel 3:18-21"
+                    },
+                    {
+                      "source": "Daniel 12:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever.",
+                      "note": "'Those who turn many to righteousness' shine like the stars — a faint echo behind turning a sinner from the error of his way.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1427,7 +1919,134 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.7",
+                  "ref": "9:38-41",
+                  "echoes": [
+                    {
+                      "source": "Numbers 11:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "A young man ran, and told Moses, and said, “Eldad and Medad are prophesying in the camp!”",
+                      "note": "John's complaint about an outsider casting out demons in Jesus' name, and the demand to forbid him, closely parallels Joshua's plea that Moses forbid Eldad and Medad from prophesying outside the tent. Jesus' refusal to forbid mirrors Moses' magnanimous reply. The structural and thematic parallel is striking."
+                    },
+                    {
+                      "source": "Numbers 11:28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Joshua the son of Nun, the servant of Moses, one of his chosen men, answered, “My lord Moses, forbid them!”",
+                      "note": "Joshua's 'My lord Moses, forbid them' is answered by Moses' wish that all the LORD's people were prophets. Mark casts the disciples as Joshua and Jesus as the larger-hearted Moses who will not restrict the Spirit's work. The parallel reinforces the Moses typology running through the chapter."
+                    },
+                    {
+                      "source": "Numbers 11:29",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Moses said to him, “Are you jealous for my sake? I wish that all Yahweh’s people were prophets, that Yahweh would put his Spirit on them!”",
+                      "note": "Moses' 'Would that all the LORD's people were prophets' anticipates Jesus' inclusive 'whoever is not against us is for us.' The generous expansion of authorized agency is shared. The echo completes the Eldad-and-Medad parallel."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "9.8",
+                  "ref": "9:42-50",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 66:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“They shall go out, and look on the dead bodies of the men who have transgressed against me: for their worm shall not die, neither shall their fire be quenched; and they will be loathsome to all mankind.”",
+                      "note": "The thrice-repeated 'where their worm does not die, and the fire is not quenched' is a near-verbatim quotation of Isaiah's closing vision of the corpses of rebels, an undying worm and unquenchable fire. This is the strongest OT contact in the chapter and supplies the imagery of Gehenna. The repetition underscores the volume and centrality."
+                    },
+                    {
+                      "source": "Leviticus 2:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Every offering of your meal offering you shall season with salt; neither shall you allow the salt of the covenant of your God to be lacking from your meal offering. With all your offerings you shall offer salt.",
+                      "note": "'Every sacrifice will be seasoned with salt' draws directly on the law that every grain offering be salted, never omitting the salt of the covenant. Mark's pairing of fire and salt with sacrifice reflects this cultic prescription. The verbal contact on salting the sacrifice is high."
+                    },
+                    {
+                      "source": "Numbers 18:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the wave offerings of the holy things, which the children of Israel offer to Yahweh, have I given you, and your sons and your daughters with you, as a portion forever. It is a covenant of salt forever before Yahweh to you and to your seed with you.”",
+                      "note": "The 'covenant of salt forever' between the LORD and the priests illuminates 'have salt in yourselves, and be at peace,' linking salt to enduring covenant fidelity. The covenant-of-salt motif undergirds the call to mutual peace. It strengthens the cultic-covenantal reading of the salt sayings.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Chronicles 13:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Ought you not to know that Yahweh, the God of Israel, gave the kingdom over Israel to David forever, even to him and to his sons by a covenant of salt?",
+                      "note": "The kingship given to David by 'a covenant of salt' reinforces salt as a symbol of permanent covenant, supporting Jesus' exhortation to keep salt and peace. The contact is general and reinforcing. It corroborates the covenant-of-salt background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 43:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall bring them near to Yahweh, and the priests shall cast salt on them, and they shall offer them up for a burnt offering to Yahweh.",
+                      "note": "The priests casting salt on the offerings before the LORD adds to the salted-sacrifice background of 9:49. The cultic salting of offerings coheres with Mark's 'every sacrifice salted with salt.' A reinforcing low-volume echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 30:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For his burning place has long been ready. Yes, for the king it is prepared. He has made its pyre deep and large with fire and much wood. Yahweh’s breath, like a stream of sulfur, kindles it.",
+                      "note": "Topheth prepared with fire and a great pile of wood, kindled by the breath of the LORD, contributes to the fiery-judgment imagery behind Gehenna and 'everyone salted with fire.' The link reinforces the burning-judgment theme. Volume is modest beside Isaiah 66.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 7:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They have built the high places of Topheth, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I didn’t command, nor did it come into my mind.",
+                      "note": "The valley of the son of Hinnom (Ge-Hinnom), site of child sacrifice condemned by Jeremiah, is the geographical and historical root of 'Gehenna.' Mark's term presupposes this defiled valley as the image of fiery judgment. The connection is etymological and background rather than a verbal citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 19:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "therefore, behold, the days come, says Yahweh, that this place shall no more be called Topheth, nor The valley of the son of Hinnom, but The valley of Slaughter.",
+                      "note": "Jeremiah renames Topheth the 'valley of slaughter,' deepening the Hinnom-valley associations behind Gehenna. The judgment-in-the-valley motif underlies Mark's hell imagery. A reinforcing background echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The resurrection of some to everlasting contempt provides an apocalyptic frame for the unending punishment evoked by the undying worm and unquenchable fire. The shame-and-punishment of the wicked coheres with Mark's warnings. The contact is thematic and reinforces the Isaiah 66 quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Judith 16:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Woe to the nations who rise up against my race! The Lord Almighty will take vengeance on them in the day of judgement, to put fire and worms in their flesh; and they will weep and feel their pain forever.”",
+                      "note": "Judith's hymn warns that the Lord will give fire and worms to the flesh of the nations, weeping in pain forever, a Second-Temple development of Isaiah 66:24. Its availability shows the worm-and-fire judgment circulating in the period Mark writes. It corroborates the deuterocanonical reception of the Isaiah imagery.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 13:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will bring the third part into the fire, and will refine them as silver is refined, and will test them like gold is tested. They will call on my name, and I will hear them. I will say, ‘It is my people;’ and they will say, ‘Yahweh is my God.’”",
+                      "note": "Bringing the remnant through the fire to refine them lies faintly behind 'everyone will be salted with fire,' if the fire is read as purifying rather than only punitive. The refining-fire motif coheres with a disciple-formation reading of the saying. Low volume and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

@@ -731,7 +731,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-29"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -744,7 +747,75 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-105"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 105:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.67-Luke.1.75",
+                      "refDisplay": "Luke 1:67–75",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.13"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 105:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.13.26-Acts.13.31",
+                      "refDisplay": "Acts 13:26–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-13.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 105:8–10",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.15-2Cor.1.22",
+                      "refDisplay": "2 Corinthians 1:15–22",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 105:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Col.3.15-Col.3.17",
+                      "refDisplay": "Colossians 3:15–17",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-3.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -763,7 +834,328 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.2",
+                  "ref": "8:18-30",
+                  "echoes": [
+                    {
+                      "source": "Genesis 3:17-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "To Adam he said, “Because you have listened to your wife’s voice, and ate from the tree, about which I commanded you, saying, ‘You shall not eat of it,’ the ground is cursed for your sake. You will eat from it with much labor all the days of your life. It will yield thorns and thistles to you; and you will eat the herb of the field. By the sweat of your face will you eat bread until you return to the ground, for out of it you were taken. For you are dust, […]",
+                      "note": "'The creation was subjected to vanity... in hope' (vv.20-22) directly invokes the curse on the ground 'because of you,' the toil, thorns, and frustrated labor of the fall; creation's bondage to decay is the Edenic curse awaiting reversal."
+                    },
+                    {
+                      "source": "Isaiah 65:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“For, behold, I create new heavens and a new earth; and the former things shall not be remembered, nor come into mind.",
+                      "note": "'I create new heavens and a new earth' is the hope toward which the groaning creation strains (vv.19-22): the liberation of creation 'into the liberty of the glory of the children of God' is the prophetic new-creation renewal of the cosmos."
+                    },
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "Being 'conformed to the image of his Son' (v.29) reworks humanity's creation in the image of God; the restored image is now christological, the Son as the prototype to which the predestined are refashioned."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'I will make him the firstborn, the highest of the kings of the earth' grounds 'that he might be the firstborn among many brothers' (v.29); the Davidic-messianic firstborn title is extended to the Son who heads a redeemed family."
+                    },
+                    {
+                      "source": "Ecclesiastes 1:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Vanity of vanities,” says the Preacher; “Vanity of vanities, all is vanity.”",
+                      "note": "Creation 'subjected to vanity' (mataiotes, v.20) reuses the Septuagint's rendering of hevel ('vanity of vanities'); Qoheleth's diagnosis of the cosmos's futile, breath-like emptiness is the condition from which creation longs for release."
+                    },
+                    {
+                      "source": "Isaiah 11:6-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The wolf will live with the lamb, and the leopard will lie down with the young goat; The calf, the young lion, and the fattened calf together; and a little child will lead them. The cow and the bear will graze. Their young ones will lie down together. The lion will eat straw like the ox. The nursing child will play near a cobra’s hole, and the weaned child will put his hand on the viper’s den. They will not hurt nor destroy in all my holy mountain; for […]",
+                      "note": "The peaceable, restored creation under the messianic shoot — wolf with lamb, no harm in all God's holy mountain — anticipates creation 'delivered from the bondage of decay,' the redeemed cosmos liberated alongside God's children (vv.19-21)."
+                    },
+                    {
+                      "source": "Isaiah 26:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Like as a woman with child, who draws near the time of her delivery, is in pain and cries out in her pangs; so we have been before you, Yahweh. We have been with child. We have been in pain. We gave birth, it seems, only to wind. We have not worked any deliverance in the earth; neither have the inhabitants of the world fallen.",
+                      "note": "'Like a woman with child... we writhed in pain' supplies the birth-pang imagery of 'the whole creation groans and travails in pain together' (v.22); creation labors toward the deliverance of new life."
+                    },
+                    {
+                      "source": "1 Samuel 16:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But Yahweh said to Samuel, “Don’t look on his face, or on the height of his stature; because I have rejected him: for I see not as man sees; for man looks at the outward appearance, but Yahweh looks at the heart.”",
+                      "note": "'The LORD looks on the heart' undergirds 'he who searches the hearts knows what is on the Spirit's mind' (v.27); God's heart-discerning gaze validates the wordless intercession."
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD search the heart and test the mind' supplies the precise epithet 'he who searches the hearts' (v.27); the heart-searcher reads the Spirit's unutterable groanings."
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Israel is my firstborn son' reinforces the 'firstborn among many brothers' (v.29): the firstborn-son status, once Israel's, belongs to the Son who incorporates many siblings."
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "'Before I formed you in the womb I knew you... I appointed you' supplies the foreknowing-and-appointing pattern of vv.29-30; divine foreknowledge as elective purpose precedes calling."
+                    },
+                    {
+                      "source": "Isaiah 24:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth mourns and fades away. The world languishes and fades away. The lofty people of the earth languish. The earth also is polluted under its inhabitants, because they have transgressed the laws, violated the statutes, and broken the everlasting covenant. Therefore the curse has devoured the earth, and those who dwell therein are found guilty. Therefore the inhabitants of the earth are burned, and few men left. The new wine mourns. The vine […]",
+                      "note": "'The earth mourns and withers... the earth is defiled under its inhabitants' depicts the groaning land suffering under human transgression, parallel to creation subjected to futility and groaning (vv.20-22).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 66:7-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before she travailed, she gave birth; before her pain came, she delivered a son. Who has heard such a thing? who has seen such things? Shall a land be born in one day? shall a nation be born at once? for as soon as Zion travailed, she gave birth to her children. Shall I bring to the birth, and not cause to be delivered?” says Yahweh: “shall I who cause to give birth shut the womb?” says your God.",
+                      "note": "Zion's travail bringing forth her children before her pain comes echoes the link between creation's birth-pangs (v.22) and the 'revealing of the children of God' / 'redemption of the body' (vv.19,23).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 13:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The sorrows of a travailing woman will come on him. He is an unwise son; for when it is time, he doesn’t come to the opening of the womb.",
+                      "note": "'The pangs of childbirth come for him' as an image of judgment and impending deliverance resonates faintly with the cosmic travail of v.22.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions.",
+                      "note": "'I will pour out my Spirit on all flesh' as eschatological down-payment resonates with 'the first fruits of the Spirit' (v.23), the Spirit as the firstfruits/guarantee of the coming redemption.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 23:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The first of the first fruits of your ground you shall bring into the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.",
+                      "note": "'The first fruits of the Spirit' (v.23) draws on the cultic firstfruits offering that consecrates and pledges the full harvest; the Spirit is the consecrating pledge of the redeemed body.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 44:23-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wake up! Why do you sleep, Lord? Arise! Don’t reject us forever. Why do you hide your face, and forget our affliction and our oppression? For our soul is bowed down to the dust. Our body clings to the earth. Rise up to help us. Redeem us for your loving kindness’ sake.",
+                      "note": "The lament's 'why do you sleep?... our soul is bowed down... redeem us' anticipates the groaning, waiting, and hoped-for redemption (vv.23-25); the same psalm is quoted at v.36.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 38:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Lord, all my desire is before you. My groaning is not hidden from you.",
+                      "note": "'All my longing is before you; my groaning is not hidden from you' resonates with the inarticulate groaning the Spirit voices before 'him who searches the hearts' (vv.26-27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 139:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, you have searched me, and you know me. You know my sitting down and my rising up. You perceive my thoughts from afar.",
+                      "note": "'O LORD, you have searched me and known me... you discern my thoughts from afar' resonates with God searching the hearts and knowing the Spirit's mind (v.27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 49:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Listen, islands, to me; and listen, you peoples, from far: Yahweh has called me from the womb; from the bowels of my mother has he made mention of my name:",
+                      "note": "The Servant 'called from the womb,' named before birth, resonates with the chain of foreknowing, predestining, and calling in vv.29-30.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 50:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As for you, you meant evil against me, but God meant it for good, to bring to pass, as it is this day, to save many people alive.",
+                      "note": "'You meant evil... but God meant it for good' faintly underlies 'all things work together for good for those who love God' (v.28); divine providence turning suffering toward good.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 20:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and showing loving kindness to thousands of those who love me and keep my commandments.",
+                      "note": "'Showing steadfast love to thousands of those who love me and keep my commandments' supplies the covenantal designation 'those who love God' (v.28), the loving-God-and-being-blessed pattern.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.3",
+                  "ref": "8:31-39",
+                  "echoes": [
+                    {
+                      "source": "Psalm 44:22",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yes, for your sake we are killed all day long. We are regarded as sheep for the slaughter.",
+                      "note": "v.36 cites verbatim with the formula 'even as it is written': 'For your sake we are killed all day long; we were accounted as sheep for the slaughter.' The lament psalm of the righteous suffering for God's sake interprets the believers' affliction (v.35)."
+                    },
+                    {
+                      "source": "Isaiah 50:8-9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He is near who justifies me; who will bring charges against me? Let us stand up together: who is my adversary? Let him come near to me. Behold, the Lord Yahweh will help me; who is he who shall condemn me? Behold, all they shall wax old as a garment, the moth shall eat them up.",
+                      "note": "The Servant's courtroom taunt 'He who vindicates me is near. Who will contend with me?... It is the Lord GOD who helps me; who will declare me guilty?' is reworked into 'Who could bring a charge against God's chosen ones? It is God who justifies. Who is he who condemns?' (vv.33-34); the forensic question-and-answer pattern is shared."
+                    },
+                    {
+                      "source": "Genesis 22:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He said, “Don’t lay your hand on the boy, neither do anything to him. For now I know that you fear God, since you have not withheld your son, your only son, from me.”",
+                      "note": "'He who didn't spare his own Son, but delivered him up for us all' (v.32) echoes the Aqedah, where God says to Abraham 'you have not withheld (spared) your son, your only son'; God now does for all what Abraham was prepared to do, the Father not sparing his own Son."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "'Sit at my right hand' grounds 'who is at the right hand of God' (v.34); the enthronement of the exalted Lord secures his advocacy and the impossibility of any condemnation."
+                    },
+                    {
+                      "source": "Genesis 22:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and said, “I have sworn by myself, says Yahweh, because you have done this thing, and have not withheld your son, your only son,",
+                      "note": "'Because you have done this and have not withheld your son, your only son' reinforces v.32; the Septuagint's verb for 'spare/withhold' (pheidomai) is the same word Paul uses, strengthening the Aqedah allusion."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'The LORD has laid on him the iniquity of us all' and the Servant 'delivered up' (LXX paradidomi, 53:6,12) stands behind 'delivered him up for us all' (v.32); the handing-over of the Servant for the many."
+                    },
+                    {
+                      "source": "Psalm 118:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh is on my side. I will not be afraid. What can man do to me?",
+                      "note": "'The LORD is on my side; I will not fear. What can man do to me?' supplies the rhetorical shape of 'If God is for us, who can be against us?' (v.31); the same God-for-me-therefore-fearless logic."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 3:1-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But the souls of the righteous are in the hand of God, And no torment will touch them. In the eyes of the foolish they seemed to have died; And their departure was accounted to be their hurt, And their journeying away from us to be their ruin: But they are in peace. For even if in the sight of men they be punished, Their hope is full of immortality; And having borne a little chastening, they will receive great good; Because God made trial of them, and […]",
+                      "note": "'The souls of the righteous are in the hand of God, and no torment will ever touch them... having been disciplined a little they will receive great good' parallels the assurance that no affliction separates from God's love (vv.35-39); the righteous tested 'like gold in the furnace' and found worthy."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The Servant 'poured out his soul to death... bore the sin of many and makes intercession for the transgressors' resonates with Christ who 'makes intercession for us' (v.34); both join self-giving death with ongoing intercession.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 14:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Only don’t rebel against Yahweh, neither fear the people of the land; for they are bread for us. Their defense is removed from over them, and Yahweh is with us. Don’t fear them.”",
+                      "note": "'The LORD is with us; do not fear them' resonates with 'If God is for us, who can be against us?' (v.31); divine presence nullifies opposing power.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 56:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then my enemies shall turn back in the day that I call. I know this, that God is for me.",
+                      "note": "'This I know, that God is for me' is a near-verbal antecedent to 'God is for us' (v.31), the confidence that God's siding with the petitioner routs adversaries.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 27:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid? When evildoers came at me to eat up my flesh, even my adversaries and my foes, they stumbled and fell. Though an army should encamp against me, my heart shall not fear. Though war should rise against me, even then I will be confident.",
+                      "note": "'The LORD is my light and my salvation; whom shall I fear?... though war arise against me, yet I will be confident' resonates with the catalogue of perils that cannot prevail (vv.35,37-39).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 32:39",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“See now that I myself am he. There is no god with me. I kill and I make alive. I wound and I heal. There is no one who can deliver out of my hand.",
+                      "note": "'There is no god besides me... I kill and I make alive' underlies the totalizing pairing 'neither death, nor life' (v.38) as the extremes wholly within God's sovereign love.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 3:17-18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For though the fig tree doesn’t flourish, nor fruit be in the vines; the labor of the olive fails, the fields yield no food; the flocks are cut off from the fold, and there is no herd in the stalls: yet I will rejoice in Yahweh. I will be joyful in the God of my salvation!",
+                      "note": "The catalogue of deprivations (failed crops, no flock) followed by 'yet I will rejoice in the LORD' parallels the list of hardships in v.35 that cannot separate from God's love, culminating in triumphant confidence (v.37).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 3:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king.",
+                      "note": "The three youths' confidence that 'our God whom we serve is able to deliver us' amid fire and sword resonates with believers as 'more than conquerors' through perils including 'sword' (vv.35-37).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:15-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the righteous live forever, And in the Lord is their reward, And the care for them with the Most High. Therefore will they receive the crown of royal dignity And the diadem of beauty from the Lord’s hand; Because with his right hand will he cover them, And with his arm will he shield them.",
+                      "note": "'The righteous live forever, and their reward is with the Lord... they will receive a glorious crown' resonates with being 'more than conquerors' and inseparable from God's love (vv.37-39).",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Maccabees 7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And it came to pass that seven kindred also with their mother were at the king’s command taken and shamefully handled with scourges and cords, to compel them to taste of the abominable swine’s flesh. But one of them made himself the spokesman and said, What would you ask and learn of us? for we are ready to die rather than transgress the laws of our fathers. And the king fell into a rage, and commanded to heat pans and caldrons: and when these forthwith […]",
+                      "note": "The martyr-mother and seven sons, killed 'all day long' for covenant faithfulness yet confident of resurrection, resonate with 'for your sake we are killed all day long' read as triumphant martyrdom (vv.36-37).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 5:19-22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will deliver you in six troubles; yes, in seven no evil shall touch you. In famine he will redeem you from death; in war, from the power of the sword. You shall be hidden from the scourge of the tongue, neither shall you be afraid of destruction when it comes. At destruction and famine you shall laugh, neither shall you be afraid of the animals of the earth.",
+                      "note": "'In famine he will redeem you from death, and in war from the power of the sword' enumerates perils paralleling v.35's famine, sword, and danger, with God's protection through them.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -782,7 +1174,87 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.5",
+                  "ref": "13:31-32",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 17:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "in the mountain of the height of Israel will I plant it; and it shall produce boughs, and bear fruit, and be a goodly cedar: and under it shall dwell all birds of every wing; in the shade of its branches shall they dwell.",
+                      "note": "The planted sprig becomes a noble cedar 'and birds of every kind will nest in it, in the shade of its branches' — the closest verbal source for 'the birds of the air come and lodge in its branches'; a Kingdom-tree sheltering the nations."
+                    },
+                    {
+                      "source": "Daniel 4:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The leaves of it were beautiful, and its fruit much, and in it was food for all: the animals of the field had shadow under it, and the birds of the sky lived in its branches, and all flesh was fed from it.",
+                      "note": "Nebuchadnezzar's great tree under which the beasts find shade and 'the birds of the air dwelt in its branches' (cf. 4:21) — a world-empire tree image transposed to the Kingdom of Heaven."
+                    },
+                    {
+                      "source": "Ezekiel 31:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the birds of the sky made their nests in its boughs; and under its branches all the animals of the field gave birth to their young; and all great nations lived under its shadow.",
+                      "note": "Assyria as a towering cedar in whose boughs 'all the birds of the air made their nests' — reinforces the prophetic tree-of-empire-sheltering-birds motif."
+                    },
+                    {
+                      "source": "Psalm 104:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The birds of the sky nest by them. They sing among the branches.",
+                      "note": "'Beside them the birds of the heavens dwell; they sing among the branches' — birds nesting in branches as an image of creational shelter.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "13.6",
+                  "ref": "13:33",
+                  "echoes": [
+                    {
+                      "source": "Genesis 18:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Abraham hurried into the tent to Sarah, and said, “Quickly prepare three measures of fine meal, knead it, and make cakes.”",
+                      "note": "Abraham tells Sarah to take 'three measures (seahs) of fine flour' and make cakes for the divine visitors — the specific 'three measures of meal' is a distinctive verbal echo, a generous/hospitality-scaled quantity now hiding the Kingdom's leaven."
+                    },
+                    {
+                      "source": "Judges 6:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Gideon went in, and prepared a young goat, and unleavened cakes of an ephah of meal. He put the meat in a basket and he put the broth in a pot, and brought it out to him under the oak, and presented it.",
+                      "note": "Gideon prepares an ephah of flour (roughly three seahs) for the angelic visitor — another theophany-meal of this large measure.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 1:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When she had weaned him, she took him up with her, with three bulls, and one ephah of meal, and a bottle of wine, and brought him to Yahweh’s house in Shiloh. The child was young.",
+                      "note": "Hannah brings an ephah of flour to the house of the LORD — large-measure meal in a sacred context; faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 7:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They are all adulterers. They are burning like an oven that the baker stops stirring, from the kneading of the dough, until it is leavened.",
+                      "note": "The leaven left to rise by the baker; one of the few OT uses of leavening as a process working through dough, here neutral-to-positive rather than the usual negative valence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1455,7 +1927,45 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Kings 3:11–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.6.25-Matt.6.34",
+                      "refDisplay": "Matthew 6:25–34",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 3:9–12",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.1.5-Jas.1.8",
+                      "refDisplay": "James 1:5–8",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/james#p-1.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1468,7 +1978,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-119"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1487,7 +2000,328 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.2",
+                  "ref": "8:18-30",
+                  "echoes": [
+                    {
+                      "source": "Genesis 3:17-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "To Adam he said, “Because you have listened to your wife’s voice, and ate from the tree, about which I commanded you, saying, ‘You shall not eat of it,’ the ground is cursed for your sake. You will eat from it with much labor all the days of your life. It will yield thorns and thistles to you; and you will eat the herb of the field. By the sweat of your face will you eat bread until you return to the ground, for out of it you were taken. For you are dust, […]",
+                      "note": "'The creation was subjected to vanity... in hope' (vv.20-22) directly invokes the curse on the ground 'because of you,' the toil, thorns, and frustrated labor of the fall; creation's bondage to decay is the Edenic curse awaiting reversal."
+                    },
+                    {
+                      "source": "Isaiah 65:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“For, behold, I create new heavens and a new earth; and the former things shall not be remembered, nor come into mind.",
+                      "note": "'I create new heavens and a new earth' is the hope toward which the groaning creation strains (vv.19-22): the liberation of creation 'into the liberty of the glory of the children of God' is the prophetic new-creation renewal of the cosmos."
+                    },
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "Being 'conformed to the image of his Son' (v.29) reworks humanity's creation in the image of God; the restored image is now christological, the Son as the prototype to which the predestined are refashioned."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'I will make him the firstborn, the highest of the kings of the earth' grounds 'that he might be the firstborn among many brothers' (v.29); the Davidic-messianic firstborn title is extended to the Son who heads a redeemed family."
+                    },
+                    {
+                      "source": "Ecclesiastes 1:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Vanity of vanities,” says the Preacher; “Vanity of vanities, all is vanity.”",
+                      "note": "Creation 'subjected to vanity' (mataiotes, v.20) reuses the Septuagint's rendering of hevel ('vanity of vanities'); Qoheleth's diagnosis of the cosmos's futile, breath-like emptiness is the condition from which creation longs for release."
+                    },
+                    {
+                      "source": "Isaiah 11:6-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The wolf will live with the lamb, and the leopard will lie down with the young goat; The calf, the young lion, and the fattened calf together; and a little child will lead them. The cow and the bear will graze. Their young ones will lie down together. The lion will eat straw like the ox. The nursing child will play near a cobra’s hole, and the weaned child will put his hand on the viper’s den. They will not hurt nor destroy in all my holy mountain; for […]",
+                      "note": "The peaceable, restored creation under the messianic shoot — wolf with lamb, no harm in all God's holy mountain — anticipates creation 'delivered from the bondage of decay,' the redeemed cosmos liberated alongside God's children (vv.19-21)."
+                    },
+                    {
+                      "source": "Isaiah 26:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Like as a woman with child, who draws near the time of her delivery, is in pain and cries out in her pangs; so we have been before you, Yahweh. We have been with child. We have been in pain. We gave birth, it seems, only to wind. We have not worked any deliverance in the earth; neither have the inhabitants of the world fallen.",
+                      "note": "'Like a woman with child... we writhed in pain' supplies the birth-pang imagery of 'the whole creation groans and travails in pain together' (v.22); creation labors toward the deliverance of new life."
+                    },
+                    {
+                      "source": "1 Samuel 16:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But Yahweh said to Samuel, “Don’t look on his face, or on the height of his stature; because I have rejected him: for I see not as man sees; for man looks at the outward appearance, but Yahweh looks at the heart.”",
+                      "note": "'The LORD looks on the heart' undergirds 'he who searches the hearts knows what is on the Spirit's mind' (v.27); God's heart-discerning gaze validates the wordless intercession."
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD search the heart and test the mind' supplies the precise epithet 'he who searches the hearts' (v.27); the heart-searcher reads the Spirit's unutterable groanings."
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Israel is my firstborn son' reinforces the 'firstborn among many brothers' (v.29): the firstborn-son status, once Israel's, belongs to the Son who incorporates many siblings."
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "'Before I formed you in the womb I knew you... I appointed you' supplies the foreknowing-and-appointing pattern of vv.29-30; divine foreknowledge as elective purpose precedes calling."
+                    },
+                    {
+                      "source": "Isaiah 24:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth mourns and fades away. The world languishes and fades away. The lofty people of the earth languish. The earth also is polluted under its inhabitants, because they have transgressed the laws, violated the statutes, and broken the everlasting covenant. Therefore the curse has devoured the earth, and those who dwell therein are found guilty. Therefore the inhabitants of the earth are burned, and few men left. The new wine mourns. The vine […]",
+                      "note": "'The earth mourns and withers... the earth is defiled under its inhabitants' depicts the groaning land suffering under human transgression, parallel to creation subjected to futility and groaning (vv.20-22).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 66:7-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before she travailed, she gave birth; before her pain came, she delivered a son. Who has heard such a thing? who has seen such things? Shall a land be born in one day? shall a nation be born at once? for as soon as Zion travailed, she gave birth to her children. Shall I bring to the birth, and not cause to be delivered?” says Yahweh: “shall I who cause to give birth shut the womb?” says your God.",
+                      "note": "Zion's travail bringing forth her children before her pain comes echoes the link between creation's birth-pangs (v.22) and the 'revealing of the children of God' / 'redemption of the body' (vv.19,23).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 13:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The sorrows of a travailing woman will come on him. He is an unwise son; for when it is time, he doesn’t come to the opening of the womb.",
+                      "note": "'The pangs of childbirth come for him' as an image of judgment and impending deliverance resonates faintly with the cosmic travail of v.22.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions.",
+                      "note": "'I will pour out my Spirit on all flesh' as eschatological down-payment resonates with 'the first fruits of the Spirit' (v.23), the Spirit as the firstfruits/guarantee of the coming redemption.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 23:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The first of the first fruits of your ground you shall bring into the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.",
+                      "note": "'The first fruits of the Spirit' (v.23) draws on the cultic firstfruits offering that consecrates and pledges the full harvest; the Spirit is the consecrating pledge of the redeemed body.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 44:23-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wake up! Why do you sleep, Lord? Arise! Don’t reject us forever. Why do you hide your face, and forget our affliction and our oppression? For our soul is bowed down to the dust. Our body clings to the earth. Rise up to help us. Redeem us for your loving kindness’ sake.",
+                      "note": "The lament's 'why do you sleep?... our soul is bowed down... redeem us' anticipates the groaning, waiting, and hoped-for redemption (vv.23-25); the same psalm is quoted at v.36.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 38:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Lord, all my desire is before you. My groaning is not hidden from you.",
+                      "note": "'All my longing is before you; my groaning is not hidden from you' resonates with the inarticulate groaning the Spirit voices before 'him who searches the hearts' (vv.26-27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 139:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, you have searched me, and you know me. You know my sitting down and my rising up. You perceive my thoughts from afar.",
+                      "note": "'O LORD, you have searched me and known me... you discern my thoughts from afar' resonates with God searching the hearts and knowing the Spirit's mind (v.27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 49:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Listen, islands, to me; and listen, you peoples, from far: Yahweh has called me from the womb; from the bowels of my mother has he made mention of my name:",
+                      "note": "The Servant 'called from the womb,' named before birth, resonates with the chain of foreknowing, predestining, and calling in vv.29-30.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 50:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As for you, you meant evil against me, but God meant it for good, to bring to pass, as it is this day, to save many people alive.",
+                      "note": "'You meant evil... but God meant it for good' faintly underlies 'all things work together for good for those who love God' (v.28); divine providence turning suffering toward good.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 20:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and showing loving kindness to thousands of those who love me and keep my commandments.",
+                      "note": "'Showing steadfast love to thousands of those who love me and keep my commandments' supplies the covenantal designation 'those who love God' (v.28), the loving-God-and-being-blessed pattern.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.3",
+                  "ref": "8:31-39",
+                  "echoes": [
+                    {
+                      "source": "Psalm 44:22",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yes, for your sake we are killed all day long. We are regarded as sheep for the slaughter.",
+                      "note": "v.36 cites verbatim with the formula 'even as it is written': 'For your sake we are killed all day long; we were accounted as sheep for the slaughter.' The lament psalm of the righteous suffering for God's sake interprets the believers' affliction (v.35)."
+                    },
+                    {
+                      "source": "Isaiah 50:8-9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He is near who justifies me; who will bring charges against me? Let us stand up together: who is my adversary? Let him come near to me. Behold, the Lord Yahweh will help me; who is he who shall condemn me? Behold, all they shall wax old as a garment, the moth shall eat them up.",
+                      "note": "The Servant's courtroom taunt 'He who vindicates me is near. Who will contend with me?... It is the Lord GOD who helps me; who will declare me guilty?' is reworked into 'Who could bring a charge against God's chosen ones? It is God who justifies. Who is he who condemns?' (vv.33-34); the forensic question-and-answer pattern is shared."
+                    },
+                    {
+                      "source": "Genesis 22:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He said, “Don’t lay your hand on the boy, neither do anything to him. For now I know that you fear God, since you have not withheld your son, your only son, from me.”",
+                      "note": "'He who didn't spare his own Son, but delivered him up for us all' (v.32) echoes the Aqedah, where God says to Abraham 'you have not withheld (spared) your son, your only son'; God now does for all what Abraham was prepared to do, the Father not sparing his own Son."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "'Sit at my right hand' grounds 'who is at the right hand of God' (v.34); the enthronement of the exalted Lord secures his advocacy and the impossibility of any condemnation."
+                    },
+                    {
+                      "source": "Genesis 22:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and said, “I have sworn by myself, says Yahweh, because you have done this thing, and have not withheld your son, your only son,",
+                      "note": "'Because you have done this and have not withheld your son, your only son' reinforces v.32; the Septuagint's verb for 'spare/withhold' (pheidomai) is the same word Paul uses, strengthening the Aqedah allusion."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'The LORD has laid on him the iniquity of us all' and the Servant 'delivered up' (LXX paradidomi, 53:6,12) stands behind 'delivered him up for us all' (v.32); the handing-over of the Servant for the many."
+                    },
+                    {
+                      "source": "Psalm 118:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh is on my side. I will not be afraid. What can man do to me?",
+                      "note": "'The LORD is on my side; I will not fear. What can man do to me?' supplies the rhetorical shape of 'If God is for us, who can be against us?' (v.31); the same God-for-me-therefore-fearless logic."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 3:1-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But the souls of the righteous are in the hand of God, And no torment will touch them. In the eyes of the foolish they seemed to have died; And their departure was accounted to be their hurt, And their journeying away from us to be their ruin: But they are in peace. For even if in the sight of men they be punished, Their hope is full of immortality; And having borne a little chastening, they will receive great good; Because God made trial of them, and […]",
+                      "note": "'The souls of the righteous are in the hand of God, and no torment will ever touch them... having been disciplined a little they will receive great good' parallels the assurance that no affliction separates from God's love (vv.35-39); the righteous tested 'like gold in the furnace' and found worthy."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The Servant 'poured out his soul to death... bore the sin of many and makes intercession for the transgressors' resonates with Christ who 'makes intercession for us' (v.34); both join self-giving death with ongoing intercession.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 14:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Only don’t rebel against Yahweh, neither fear the people of the land; for they are bread for us. Their defense is removed from over them, and Yahweh is with us. Don’t fear them.”",
+                      "note": "'The LORD is with us; do not fear them' resonates with 'If God is for us, who can be against us?' (v.31); divine presence nullifies opposing power.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 56:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then my enemies shall turn back in the day that I call. I know this, that God is for me.",
+                      "note": "'This I know, that God is for me' is a near-verbal antecedent to 'God is for us' (v.31), the confidence that God's siding with the petitioner routs adversaries.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 27:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid? When evildoers came at me to eat up my flesh, even my adversaries and my foes, they stumbled and fell. Though an army should encamp against me, my heart shall not fear. Though war should rise against me, even then I will be confident.",
+                      "note": "'The LORD is my light and my salvation; whom shall I fear?... though war arise against me, yet I will be confident' resonates with the catalogue of perils that cannot prevail (vv.35,37-39).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 32:39",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“See now that I myself am he. There is no god with me. I kill and I make alive. I wound and I heal. There is no one who can deliver out of my hand.",
+                      "note": "'There is no god besides me... I kill and I make alive' underlies the totalizing pairing 'neither death, nor life' (v.38) as the extremes wholly within God's sovereign love.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 3:17-18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For though the fig tree doesn’t flourish, nor fruit be in the vines; the labor of the olive fails, the fields yield no food; the flocks are cut off from the fold, and there is no herd in the stalls: yet I will rejoice in Yahweh. I will be joyful in the God of my salvation!",
+                      "note": "The catalogue of deprivations (failed crops, no flock) followed by 'yet I will rejoice in the LORD' parallels the list of hardships in v.35 that cannot separate from God's love, culminating in triumphant confidence (v.37).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 3:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king.",
+                      "note": "The three youths' confidence that 'our God whom we serve is able to deliver us' amid fire and sword resonates with believers as 'more than conquerors' through perils including 'sword' (vv.35-37).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:15-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the righteous live forever, And in the Lord is their reward, And the care for them with the Most High. Therefore will they receive the crown of royal dignity And the diadem of beauty from the Lord’s hand; Because with his right hand will he cover them, And with his arm will he shield them.",
+                      "note": "'The righteous live forever, and their reward is with the Lord... they will receive a glorious crown' resonates with being 'more than conquerors' and inseparable from God's love (vv.37-39).",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Maccabees 7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And it came to pass that seven kindred also with their mother were at the king’s command taken and shamefully handled with scourges and cords, to compel them to taste of the abominable swine’s flesh. But one of them made himself the spokesman and said, What would you ask and learn of us? for we are ready to die rather than transgress the laws of our fathers. And the king fell into a rage, and commanded to heat pans and caldrons: and when these forthwith […]",
+                      "note": "The martyr-mother and seven sons, killed 'all day long' for covenant faithfulness yet confident of resurrection, resonate with 'for your sake we are killed all day long' read as triumphant martyrdom (vv.36-37).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 5:19-22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will deliver you in six troubles; yes, in seven no evil shall touch you. In famine he will redeem you from death; in war, from the power of the sword. You shall be hidden from the scourge of the tongue, neither shall you be afraid of destruction when it comes. At destruction and famine you shall laugh, neither shall you be afraid of the animals of the earth.",
+                      "note": "'In famine he will redeem you from death, and in war from the power of the sword' enumerates perils paralleling v.35's famine, sword, and danger, with God's protection through them.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1506,7 +2340,87 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.5",
+                  "ref": "13:31-32",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 17:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "in the mountain of the height of Israel will I plant it; and it shall produce boughs, and bear fruit, and be a goodly cedar: and under it shall dwell all birds of every wing; in the shade of its branches shall they dwell.",
+                      "note": "The planted sprig becomes a noble cedar 'and birds of every kind will nest in it, in the shade of its branches' — the closest verbal source for 'the birds of the air come and lodge in its branches'; a Kingdom-tree sheltering the nations."
+                    },
+                    {
+                      "source": "Daniel 4:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The leaves of it were beautiful, and its fruit much, and in it was food for all: the animals of the field had shadow under it, and the birds of the sky lived in its branches, and all flesh was fed from it.",
+                      "note": "Nebuchadnezzar's great tree under which the beasts find shade and 'the birds of the air dwelt in its branches' (cf. 4:21) — a world-empire tree image transposed to the Kingdom of Heaven."
+                    },
+                    {
+                      "source": "Ezekiel 31:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the birds of the sky made their nests in its boughs; and under its branches all the animals of the field gave birth to their young; and all great nations lived under its shadow.",
+                      "note": "Assyria as a towering cedar in whose boughs 'all the birds of the air made their nests' — reinforces the prophetic tree-of-empire-sheltering-birds motif."
+                    },
+                    {
+                      "source": "Psalm 104:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The birds of the sky nest by them. They sing among the branches.",
+                      "note": "'Beside them the birds of the heavens dwell; they sing among the branches' — birds nesting in branches as an image of creational shelter.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "13.6",
+                  "ref": "13:33",
+                  "echoes": [
+                    {
+                      "source": "Genesis 18:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Abraham hurried into the tent to Sarah, and said, “Quickly prepare three measures of fine meal, knead it, and make cakes.”",
+                      "note": "Abraham tells Sarah to take 'three measures (seahs) of fine flour' and make cakes for the divine visitors — the specific 'three measures of meal' is a distinctive verbal echo, a generous/hospitality-scaled quantity now hiding the Kingdom's leaven."
+                    },
+                    {
+                      "source": "Judges 6:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Gideon went in, and prepared a young goat, and unleavened cakes of an ephah of meal. He put the meat in a basket and he put the broth in a pot, and brought it out to him under the oak, and presented it.",
+                      "note": "Gideon prepares an ephah of flour (roughly three seahs) for the angelic visitor — another theophany-meal of this large measure.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 1:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When she had weaned him, she took him up with her, with three bulls, and one ephah of meal, and a bottle of wine, and brought him to Yahweh’s house in Shiloh. The child was young.",
+                      "note": "Hannah brings an ephah of flour to the house of the LORD — large-measure meal in a sacred context; faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 7:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They are all adulterers. They are burning like an oven that the baker stops stirring, from the kneading of the dough, until it is leavened.",
+                      "note": "The leaven left to rise by the baker; one of the few OT uses of leavening as a process working through dough, here neutral-to-positive rather than the usual negative valence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

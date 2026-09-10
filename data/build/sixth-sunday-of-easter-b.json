@@ -648,7 +648,155 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.6",
+                  "ref": "10:44-48",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit.",
+                      "note": "'The gift of the Holy Spirit was also poured out on the Gentiles' fulfills 'I will pour out my Spirit upon all flesh' — the same Joel oracle already cited at Pentecost (recurrence within Acts), now extended to 'all flesh' inclusive of Gentiles. High coherence; the pouring-out language is distinctive."
+                    },
+                    {
+                      "source": "Isaiah 44:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For I will pour water on him who is thirsty, and streams on the dry ground. I will pour my Spirit on your seed, and my blessing on your offspring:",
+                      "note": "'I will pour my Spirit upon your seed' provides a parallel outpouring-of-the-Spirit promise reinforcing the Joel intertext behind v45. Moderate verbal overlap.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 39:29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "neither will I hide my face any more from them; for I have poured out my Spirit on the house of Israel, says the Lord Yahweh.",
+                      "note": "'I have poured out my Spirit upon the house of Israel' is a further prophetic pour-out text in the background of the Spirit falling on the hearers. Faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 32:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Until the Spirit is poured on us from on high, and the wilderness becomes a fruitful field, and the fruitful field is considered a forest.",
+                      "note": "'Until the Spirit be poured upon us from on high' contributes to the prophetic expectation of the Spirit's outpouring realized here on the Gentiles.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 11:1-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The whole earth was of one language and of one speech. As they traveled east, they found a plain in the land of Shinar, and they lived there. They said one to another, “Come, let’s make bricks, and burn them thoroughly.” They had brick for stone, and they used tar for mortar. They said, “Come, let’s build ourselves a city, and a tower whose top reaches to the sky, and let’s make ourselves a name, lest we be scattered abroad on the surface of the whole […]",
+                      "note": "The Gentiles 'speaking in other languages and magnifying God' figurally reverses Babel's scattering of tongues, with diverse speech now uniting in praise. Typological, no verbal borrowing.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Life of Paul",
+                  "editionUrl": "https://annales.wrootpress.com/life-of-paul",
+                  "spans": [
+                    {
+                      "label": "Tarsus & Antioch",
+                      "group": "The hidden years",
+                      "lane": "journeys",
+                      "start": 37,
+                      "end": 46,
+                      "length": null,
+                      "ref": "Acts 9:30–11:30",
+                      "note": "Sent home to Tarsus, then fetched by Barnabas to teach at Antioch, where the disciples were first called Christians. Ends with the famine-relief visit to Jerusalem."
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/10/",
+              "title": "Cornelius at Caesarea",
+              "view": {
+                "center": [
+                  32.2,
+                  34.95
+                ],
+                "zoom": 9
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "caesarea",
+                  "name": "Caesarea",
+                  "coords": [
+                    32.5008,
+                    34.8908
+                  ],
+                  "tier": "identified",
+                  "id": "On the Mediterranean coast c. 60 km northwest of Jerusalem, on the site of an earlier Hellenistic Strato's Tower. Rebuilt by Herod the Great as a deepwater harbor with concrete moles, an aqueduct from Mount Carmel, and a temple to Roma and Augustus. The administrative capital of Roman Judea/Palaestina from c. 6 A.D. Distinct from Caesarea Philippi (Banias) at the foot of Mount Hermon."
+                },
+                {
+                  "key": "joppa",
+                  "name": "Joppa",
+                  "coords": [
+                    32.054,
+                    34.751
+                  ],
+                  "tier": "identified",
+                  "id": "Tel Yafo (Jaffa) on the Mediterranean coast, the natural harbor for Jerusalem. Listed in Thutmose III's Karnak topographical list and in the Amarna letters."
+                },
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "judea",
+                  "name": "Judea",
+                  "coords": [
+                    31.5,
+                    35.1
+                  ],
+                  "tier": "region",
+                  "id": "The Roman administrative province (later procuratorial province) covering the southern hill country of Israel — Jerusalem, the Judean wilderness, and territory south to the Negev. The Greco-Roman successor to the Hasmonean and Herodian Iudaea. Pin sits in the central hill country."
+                },
+                {
+                  "key": "galilee-region",
+                  "name": "Galilee",
+                  "coords": [
+                    32.85,
+                    35.4
+                  ],
+                  "tier": "region",
+                  "id": "The northern region of Roman-period Palestine, bounded by the Jezreel valley (south), the Lebanese mountains (north), the Mediterranean (west), and the Jordan / Sea of Galilee (east). Subdivided into Lower Galilee (the Jesus traditions are mostly here) and Upper Galilee."
+                },
+                {
+                  "key": "nazareth",
+                  "name": "Nazareth",
+                  "coords": [
+                    32.7022,
+                    35.2978
+                  ],
+                  "tier": "identified",
+                  "id": "Modern en-Nasira / Nazareth in Lower Galilee, c. 30 km west of the Sea of Galilee. A village of perhaps 200-400 in the early first century, identified through continuous habitation, tomb evidence, and the third-century Caesarea inscription naming it as a priestly course settlement."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -661,7 +809,160 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-98"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 98:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.5.9-Rev.5.10",
+                      "refDisplay": "Revelation 5:9–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "5.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-5.3"
+                    },
+                    {
+                      "refKey": "1John.5.1-1John.5.5",
+                      "refDisplay": "1 John 5:1–5",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-5.1"
+                    },
+                    {
+                      "refKey": "Rev.14.1-Rev.14.5",
+                      "refDisplay": "Revelation 14:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.1"
+                    },
+                    {
+                      "refKey": "Rom.15.1-Rom.15.6",
+                      "refDisplay": "Romans 15:1–6",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "15.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-15.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 98:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    },
+                    {
+                      "refKey": "Rev.19.11-Rev.19.13",
+                      "refDisplay": "Revelation 19:11–13",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.3"
+                    },
+                    {
+                      "refKey": "Acts.10.34-Acts.10.43",
+                      "refDisplay": "Acts 10:34–43",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "10.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-10.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 98:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.1.16-Rom.1.17",
+                      "refDisplay": "Romans 1:16–17",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "1.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-1.3"
+                    },
+                    {
+                      "refKey": "Rom.3.21-Rom.3.31",
+                      "refDisplay": "Romans 3:21–31",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-3.3"
+                    },
+                    {
+                      "refKey": "Rev.15.2-Rev.15.4",
+                      "refDisplay": "Revelation 15:2–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "15.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-15.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 98:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.51-Luke.1.56",
+                      "refDisplay": "Luke 1:51–56",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.11"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 98:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.28.23-Acts.28.28",
+                      "refDisplay": "Acts 28:23–28",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "28.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-28.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -674,7 +975,174 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-john#p-5.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1-5",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "The Shema's command to love God with the whole self stands behind 'when we love God and keep his commandments.' John makes love of God inseparable from obedience, exactly the link Deuteronomy forges. Loving God and keeping commandments are presented as a single covenantal disposition."
+                    },
+                    {
+                      "source": "Deuteronomy 30:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant.",
+                      "note": "'His commandments are not grievous' closely echoes Moses' insistence that 'this commandment which I command you this day is not too hard for you, neither is it far off.' Both texts answer an anticipated objection that God's law is an unbearable weight. The shared logic is that those rightly related to God find his demands livable, not crushing."
+                    },
+                    {
+                      "source": "Deuteronomy 7:9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Know therefore that Yahweh your God himself is God, the faithful God, who keeps covenant and loving kindness with them who love him and keep his commandments to a thousand generations,",
+                      "note": "The pairing of loving God with keeping his commandments matches the covenant formula describing God's faithfulness to 'them that love him and keep his commandments.' John inverts the perspective to the believer's side but preserves the same Deuteronomic word-pair. The covenantal idiom of love-plus-obedience is distinctively Mosaic."
+                    },
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "The promise that God will 'circumcise your heart... to love the LORD your God' anticipates John's notion that the one born of God both believes and loves. The new birth that produces obedient love develops the Deuteronomic hope of an inwardly transformed, God-loving heart. Both locate the capacity to love God in a divine act upon the person.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 98:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Sing to Yahweh a new song, for he has done marvelous things! His right hand, and his holy arm, have worked salvation for him.",
+                      "note": "'This is the victory that has overcome the world' draws on the psalmic celebration that God's 'right hand and his holy arm hath gotten him the victory.' The vocabulary of decisive divine victory is transferred to faith's triumph over the world. The believer shares in a conquest that is ultimately God's own.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 44:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For they didn’t get the land in possession by their own sword, neither did their own arm save them; but your right hand, and your arm, and the light of your face, because you were favorable to them.",
+                      "note": "The motif that victory comes 'not by their own sword' but by God's arm and favor underlies John's claim that the overcoming power is faith rather than human strength. The world is conquered by a God-given means, not by force. The echo is faint and thematic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:47",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will delight myself in your commandments, because I love them.",
+                      "note": "The psalmist's delight in commandments he loves complements John's claim that God's commandments 'are not grievous.' Both portray the law as an object of love rather than burden. The connection is conceptual, supporting the un-burdensome framing of obedience.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 3:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, don’t forget my teaching; but let your heart keep my commandments:",
+                      "note": "The wisdom appeal to keep the father's commandments in the heart parallels John's keeping-commandments-as-love. Proverbs frames obedience as life-giving rather than oppressive. A faint sapiential backdrop to John's gentle yoke.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.6",
+                  "ref": "5:6-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 19:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sins. At the mouth of two witnesses, or at the mouth of three witnesses, shall a matter be established.",
+                      "note": "'There are three who testify... and the three agree as one' applies the Mosaic rule that a matter is established 'at the mouth of two witnesses, or at the mouth of three witnesses.' John assembles exactly the legally sufficient number of corroborating witnesses to validate the testimony about the Son. The juridical framework of accredited witnesses is drawn straight from the Torah's evidentiary law."
+                    },
+                    {
+                      "source": "Deuteronomy 17:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "At the mouth of two witnesses, or three witnesses, he who is to die shall be put to death. At the mouth of one witness he shall not be put to death.",
+                      "note": "The companion legal principle requiring multiple witnesses to establish a capital matter reinforces John's threefold testimony. The Spirit, water, and blood function as the plurality of witnesses that secures conviction in God's case for his Son. The forensic logic of confirmed testimony is Deuteronomic."
+                    },
+                    {
+                      "source": "Numbers 35:30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“‘Whoever kills any person, the murderer shall be slain at the mouth of witnesses; but one witness shall not testify against any person that he die.",
+                      "note": "The legal insistence that no single witness suffices, but a plurality establishes the verdict, undergirds John's grouping of three concurring witnesses. The motif that life-and-death matters demand corroborated testimony fits John's life-giving testimony about the Son. A further Pentateuchal source for the witness-rule.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 17:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life.",
+                      "note": "The blood among the witnesses evokes the Levitical principle that 'the life of the flesh is in the blood' and that blood makes atonement. John's 'water and blood' draws atoning significance from the sacrificial system where blood is the witnessing, life-bearing agent. The blood testifies because it is the locus of atoning life.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 43:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“You are my witnesses,” says Yahweh, “With my servant whom I have chosen; that you may know and believe me, and understand that I am he. Before me there was no God formed, neither will there be after me.",
+                      "note": "God's declaration 'Ye are my witnesses... that ye may know and believe me' parallels John's structure of divine testimony aimed at belief and knowledge of God. The 'testimony of God' that one must receive develops Isaiah's courtroom scenes where God testifies to himself. Both stage a trial in which God's own witness compels faith.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 16:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He shall take some of the blood of the bull, and sprinkle it with his finger on the mercy seat on the east; and before the mercy seat he shall sprinkle some of the blood with his finger seven times.",
+                      "note": "The Day of Atonement sprinkling of blood stands behind the atoning weight John gives 'the blood.' The cleansing blood ritual informs the salvific testimony of Christ's blood. A faint cultic resonance underlying the witness of blood.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 19:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for a water for impurity. It is a sin offering.",
+                      "note": "The 'water of purification' from the red heifer informs the cleansing connotation of 'the water' among the witnesses. Purifying water and atoning blood together echo the Pentateuchal rites of cleansing. The pairing of water and blood recalls Israel's purification system.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 24:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Moses took half of the blood and put it in basins, and half of the blood he sprinkled on the altar. He took the book of the covenant and read it in the hearing of the people, and they said, “All that Yahweh has spoken will we do, and be obedient.” Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”",
+                      "note": "The covenant ratification in which Moses applies the blood and the people pledge obedience associates blood with sealed testimony. John's blood-witness to the Son parallels the blood that confirmed the covenant. A faint covenantal-blood backdrop to the witnessing blood.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 55:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Turn your ear, and come to me; hear, and your soul shall live: and I will make an everlasting covenant with you, even the sure mercies of David.",
+                      "note": "The offer of 'an everlasting covenant... the sure mercies of David' and the call to 'hear, and your soul shall live' resonate with John's 'God gave to us eternal life.' Hearing God's testimony issues in life. A faint resonance for life granted through receiving God's word.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For whoever finds me, finds life, and will obtain favor from Yahweh.",
+                      "note": "Wisdom's promise 'whoso findeth me findeth life' parallels 'He who has the Son has the life.' Possessing the divine gift is possessing life itself. A sapiential echo for life located in a person to be found.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 1:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For wisdom is a spirit that loves man, And she will not hold a blasphemer guiltless for his lips; Because God bears witness of his reins, And is a true overseer of his heart, And a hearer of his tongue:",
+                      "note": "The portrayal of the Spirit as a witness who searches and testifies of inward truth resonates with 'It is the Spirit who testifies, because the Spirit is the truth.' The deuterocanonical conception of the Spirit as truthful witness anticipates John's Spirit-testimony. The connection is thematic and faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -693,7 +1161,98 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "15.2",
+                  "ref": "15:9-17",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 41:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“But you, Israel, my servant, Jacob whom I have chosen, the seed of Abraham my friend,",
+                      "note": "'Abraham my friend' (lit. the one who loved me) — the title 'friend of God' Jesus confers, 'I have called you friends' (15:14-15). The friendship/election language ('Israel... whom I have chosen, offspring of Abraham my friend') gives high availability and coherence to the friend motif."
+                    },
+                    {
+                      "source": "Deuteronomy 7:6-8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For you are a holy people to Yahweh your God. Yahweh your God has chosen you to be a people for his own possession, above all peoples who are on the face of the earth. Yahweh didn’t set his love on you, nor choose you, because you were more in number than any people; for you were the fewest of all peoples: but because Yahweh loves you, and because he desires to keep the oath which he swore to your fathers, Yahweh has brought you out with a mighty hand, […]",
+                      "note": "'You did not choose me, but I chose you' (15:16) echoes Israel's election: the Lord chose them not for their merit but in love. Strong coherence on divine election and love; covenantal keeping of commandments (15:10) belongs to the same Deuteronomic frame."
+                    },
+                    {
+                      "source": "2 Chronicles 20:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Didn’t you, our God, drive out the inhabitants of this land before your people Israel, and give it to the seed of Abraham your friend forever?",
+                      "note": "'Abraham your friend' — second OT witness to the Abraham-as-friend-of-God title that 'you are my friends' (15:14) actualizes for the disciples. Recurrence with Isa 41:8 strengthens the friend-of-God tradition behind the saying."
+                    },
+                    {
+                      "source": "Exodus 33:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to Moses face to face, as a man speaks to his friend. He turned again into the camp, but his servant Joshua, the son of Nun, a young man, didn’t depart from the Tent.",
+                      "note": "The Lord spoke to Moses 'as a man speaks to his friend' — the paradigm of intimate friendship with God in which the friend is told the divine purposes, matching 15:15: not servants but friends, 'for everything I heard from my Father I have made known to you.'"
+                    },
+                    {
+                      "source": "Genesis 18:17-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh said, “Will I hide from Abraham what I do, since Abraham has surely become a great and mighty nation, and all the nations of the earth will be blessed in him? For I have known him, to the end that he may command his children and his household after him, that they may keep the way of Yahweh, to do righteousness and justice; to the end that Yahweh may bring on Abraham that which he has spoken of him.”",
+                      "note": "'Shall I hide from Abraham what I am about to do?' — the friend of God is not kept ignorant of the master's plans, precisely the logic of 15:15 ('the servant doesn't know what his lord does... I have made known to you'). Coherence with the friend-vs-servant distinction."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "'Love your neighbor as yourself' underlies the new commandment to 'love one another' (15:12,17). Availability and thematic coherence are strong, though Jesus reframes the measure as 'as I have loved you.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 18:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When he had made an end of speaking to Saul, the soul of Jonathan was knit with the soul of David, and Jonathan loved him as his own soul. Saul took him that day, and would let him go no more home to his father’s house. Then Jonathan and David made a covenant, because he loved him as his own soul.",
+                      "note": "Jonathan's covenant love for David, loving him 'as his own soul' and risking his life, is the paradigmatic OT instance of self-giving friendship behind 'greater love has no one than to lay down his life for his friends' (15:13). Faint but coherent.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill. He dug it up, gathered out its stones, planted it with the choicest vine, built a tower in its midst, and also cut out a wine press therein. He looked for it to yield grapes, but it yielded wild grapes. “Now, inhabitants of Jerusalem and men of Judah, please judge between me and my vineyard. What could have been done more to my […]",
+                      "note": "The vineyard the Beloved tends out of love continues from 15:1-8 into the love/fruit language here (15:9-16); election to 'go and bear fruit that should remain' recalls God's purpose for his loved vineyard. Secondary recurrence of the chapter's controlling image.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The footwashing and farewell discourse",
+                      "section": "passion",
+                      "refs": {
+                        "john": "13:1–17:26"
+                      },
+                      "note": "Five chapters where the Synoptics give the meal: the new commandment, the vine, the Paraclete, and the high-priestly prayer. John only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

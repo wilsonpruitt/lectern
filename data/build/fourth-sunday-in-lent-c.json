@@ -600,7 +600,44 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/joshua/5/"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/joshua/5/",
+              "title": "Circumcision at Gilgal",
+              "view": {
+                "center": [
+                  31.86,
+                  35.48
+                ],
+                "zoom": 11
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "gilgal",
+                  "name": "Gilgal",
+                  "coords": [
+                    31.858,
+                    35.505
+                  ],
+                  "tier": "conjectural",
+                  "id": "Israelite encampment east of Jericho near the Jordan. Several candidates have been proposed in the plain between Tell es-Sultan and the river; no site has produced decisive evidence."
+                },
+                {
+                  "key": "jericho",
+                  "name": "Jericho",
+                  "coords": [
+                    31.8714,
+                    35.4442
+                  ],
+                  "tier": "identified",
+                  "id": "Tell es-Sultan, on the western edge of the Jordan Valley c. 10 km NW of the Dead Sea. Excavated by Sellin & Watzinger, Garstang, Kenyon, and most recently by the Italian–Palestinian expedition."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -613,7 +650,150 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-32"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 32:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.4.1-Rom.4.8",
+                      "refDisplay": "Romans 4:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.1"
+                    },
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:2",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.4-1Cor.13.7",
+                      "refDisplay": "1 Corinthians 13:4–7",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.4"
+                    },
+                    {
+                      "refKey": "John.1.43-John.1.51",
+                      "refDisplay": "John 1:43–51",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-1.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.3.1",
+                      "refDisplay": "Philippians 3:1",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.1"
+                    },
+                    {
+                      "refKey": "Phil.4.4-Phil.4.7",
+                      "refDisplay": "Philippians 4:4–7",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.6.9-Matt.6.13",
+                      "refDisplay": "Matthew 6:9–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.2.1-Mark.2.12",
+                      "refDisplay": "Mark 2:1–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.3.3-Jas.3.5",
+                      "refDisplay": "James 3:3–5",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "3.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-3.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:5",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.1.9",
+                      "refDisplay": "1 John 1:9",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -632,7 +812,111 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.4",
+                  "ref": "5:16-19",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 43:18-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Don’t remember the former things, and don’t consider the things of old. Behold, I will do a new thing. It springs out now. Don’t you know it? I will even make a way in the wilderness, and rivers in the desert.",
+                      "note": "'Do not remember the former things... behold, I am doing a new thing' stands directly behind 'the old things have passed away; behold, all things have become new.' The pairing of forgotten old / heralded new with the demonstrative 'behold' gives high verbal volume and coherence; the new-creation announcement is unmistakably Isaianic second-exodus language."
+                    },
+                    {
+                      "source": "Isaiah 65:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“For, behold, I create new heavens and a new earth; and the former things shall not be remembered, nor come into mind.",
+                      "note": "'I create new heavens and a new earth, and the former things shall not be remembered' supplies both the new-creation (kaine ktisis) vocabulary and the 'former things not remembered' formula echoed in 5:17. High coherence: Paul reads being 'in Christ' as participation in Isaiah's promised new creation; strong availability and thematic fit."
+                    },
+                    {
+                      "source": "Isaiah 66:22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“For as the new heavens and the new earth, which I will make, shall remain before me,” says Yahweh, “so your seed and your name shall remain.",
+                      "note": "'The new heavens and the new earth that I make shall remain before me'—the enduring new creation reinforces the new-creation motif of 5:17. Recurrence within Isaiah's new-creation cluster (43; 65; 66) strengthens the case that Paul draws on this stream, though 65:17 is the closer verbal match.",
+                      "contested": true,
+                      "altSource": "Isaiah 65:17"
+                    },
+                    {
+                      "source": "Genesis 1:1",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "In the beginning, God created the heavens and the earth.",
+                      "note": "'New creation' (kaine ktisis) figurally recalls the original creation account: being in Christ inaugurates a fresh creative act of God. The link is conceptual and faint, mediated through Isaiah's new-creation language rather than direct verbal contact, so it is marked low and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 65:17"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.5",
+                  "ref": "5:20-21",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'The LORD has laid on him the iniquity of us all'—the Servant bearing the sin of others is the template for 'he made him to be sin on our behalf.' High coherence with Paul's vicarious exchange and the wider Servant theology of 2 Corinthians; volume of the substitutionary motif is strong."
+                    },
+                    {
+                      "source": "Isaiah 53:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yet it pleased Yahweh to bruise him. He has caused him to suffer. When you make his soul an offering for sin, he shall see his seed. He shall prolong his days, and the pleasure of Yahweh shall prosper in his hand.",
+                      "note": "The Servant's life is made 'an offering for sin' (asham / LXX 'sin'), precisely the sacrificial-exchange logic of 'made him to be sin... so that we might become the righteousness of God.' The sin-offering wording and the resulting vindication of 'the many' give high volume and coherence."
+                    },
+                    {
+                      "source": "Isaiah 53:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities.",
+                      "note": "'The righteous one, my servant, shall make many to be accounted righteous' directly anticipates 'so that we might become the righteousness of God in him.' The righteousness-conferred-on-the-many through the Servant's sin-bearing is a tight thematic and lexical match, the climactic Servant echo behind 5:21."
+                    },
+                    {
+                      "source": "Leviticus 16:21-22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Aaron shall lay both his hands on the head of the live goat, and confess over him all the iniquities of the children of Israel, and all their transgressions, even all their sins; and he shall put them on the head of the goat, and shall send him away into the wilderness by the hand of a man who is in readiness. The goat shall carry all their iniquities on himself to a solitary land, and he shall let the goat go in the wilderness.",
+                      "note": "'He made him to be sin' draws on the Day of Atonement, where Israel's sins are laid on the offering and borne away. The cultic 'made to be sin/sin offering' (LXX often renders the sin offering simply as 'sin,' hamartia) underlies Paul's paradox. Coherence with the atoning-exchange logic of 5:21 supports the sacrificial allusion."
+                    },
+                    {
+                      "source": "Leviticus 4:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He shall lay his hand on the head of the goat, and kill it in the place where they kill the burnt offering before Yahweh. It is a sin offering.",
+                      "note": "The sin offering (hattat / LXX hamartia) is the technical sacrifice 'for sin'; the LXX's use of the same word for both 'sin' and 'sin offering' lets Paul say God made the sinless Christ 'to be sin.' The double sense undergirds the substitutionary exchange, giving medium volume through the shared Greek term.",
+                      "contested": true,
+                      "altSource": "Leviticus 5:6-7"
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The Servant 'bore the sin of many' and was 'numbered with the transgressors,' supporting the one-for-all sin-bearing exchange of 5:21 (and 'one died for all,' 5:14). Recurrence across Isaiah 53 (vv. 6, 10, 11, 12) strengthens the overall Servant-song dependence of the pericope."
+                    },
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "The herald announcing peace stands behind Paul's role as 'ambassador' through whom God makes his appeal of reconciliation. The envoy/herald-of-peace motif coheres with the ministry of reconciliation, but the verbal contact is faint, so the echo is marked low.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -651,7 +935,103 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "15.1",
+                  "ref": "15:1-2",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and in the morning, then you shall see Yahweh’s glory; because he hears your murmurings against Yahweh. Who are we, that you murmur against us?” Moses said, “Now Yahweh shall give you meat to eat in the evening, and in the morning bread to satisfy you; because Yahweh hears your murmurings which you murmur against him. And who are we? Your murmurings are not against us, but against Yahweh.”",
+                      "note": "The Pharisees and scribes 'murmured' (diegongyzon) that Jesus eats with sinners; LXX uses gongyzo precisely for Israel's murmuring against God's provision in the wilderness. Luke evokes the recurrent grumbling motif to cast the objectors as faithless Israel resisting God's gracious feeding. Coherence is strong because the parables that follow defend a divine table.",
+                      "altSource": "Numbers 14:2,27"
+                    },
+                    {
+                      "source": "Isaiah 65:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "who say, Stand by yourself, don’t come near to me, for I am holier than you. These are a smoke in my nose, a fire that burns all the day.",
+                      "note": "The separatist who says 'Keep to yourself, do not come near me, for I am holier than you' supplies the exact posture Luke's Pharisees adopt against table fellowship with sinners. Isaiah condemns this self-segregating holiness as a stench before God, which coheres with Jesus' vindication of welcoming sinners. Availability and thematic coherence are high; verbal overlap is thematic rather than lexical.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 1:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Blessed is the man who doesn’t walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers;",
+                      "note": "The wisdom ideal that the righteous do not sit with sinners frames the Pharisees' assumption that eating with sinners defiles. Luke inverts the maxim: Jesus' table redefines blessedness as seeking rather than separating. Faint and contested, resting on shared sinner/righteous vocabulary.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "15.2",
+                  "ref": "15:3-7",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:11-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For thus says the Lord Yahweh: Behold, I myself, even I, will search for my sheep, and will seek them out. As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so will I seek out my sheep; and I will deliver them out of all places where they have been scattered in the cloudy and dark day. I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land; and I […]",
+                      "note": "God declares 'I myself will search for my sheep... I will seek the lost,' the precise plot of the one shepherd who leaves the flock to find the strayed (vv. 4,6,16). Volume is high (sustained seeking-shepherd oracle), recurrence strong (Ezekiel 34 is a touchstone for Luke's shepherd Christology), and coherence exact: God's own searching contrasts the failed shepherds, just as Jesus seeks sinners the Pharisees abandon."
+                    },
+                    {
+                      "source": "Isaiah 40:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his bosom. He will gently lead those who have their young.",
+                      "note": "The shepherd who gathers lambs and carries them in his bosom illuminates the man carrying the found sheep on his shoulders rejoicing. The tender carrying gesture is distinctive and shared, strengthening the divine-shepherd reading. Coheres with Ezekiel 34 as the comfort-of-God shepherd image."
+                    },
+                    {
+                      "source": "Psalm 119:176",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I have gone astray like a lost sheep. Seek your servant, for I don’t forget your commandments.",
+                      "note": "'I have gone astray like a lost sheep; seek your servant' supplies the penitent's voice answered by the seeking shepherd. The verbal pairing of straying sheep and divine seeking is close, and coherence with the repentance emphasis (v.7) is strong. Slightly lower volume than Ezekiel 34."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'All we like sheep have gone astray, we have turned every one to his own way' is the canonical image of straying that the parable assumes for 'one sinner who repents.' Recurrence in Luke's passion theology supports availability; the echo is thematic rather than cited here. Contested as to whether Luke intends the Servant song specifically.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 23:1-4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Woe to the shepherds who destroy and scatter the sheep of my pasture! says Yahweh. Therefore thus says Yahweh, the God of Israel, against the shepherds who feed my people: You have scattered my flock, and driven them away, and have not visited them; behold, I will visit on you the evil of your doings, says Yahweh. I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they […]",
+                      "note": "The woe on shepherds who scatter and the promise that God will gather the remnant and set true shepherds over them stands behind the lost-sheep rescue. Coheres with Ezekiel 34 as the prophetic indictment of leaders who fail the flock, paralleling the Pharisees. Lower volume, so an echo."
+                    },
+                    {
+                      "source": "Micah 2:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will surely assemble, Jacob, all of you; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as a flock in the midst of their pasture; they will swarm with people.",
+                      "note": "God's promise to gather the remnant of Israel 'like sheep in a fold' supplies the regathering motif. Faint and one of several gathering oracles; included for recurrence within the shepherd-restoration cluster. Contested because no distinctive verbal link to a single lost sheep.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 11:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh my God: “Feed the flock of slaughter. Their buyers slaughter them, and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them. For I will no more pity the inhabitants of the land,” says Yahweh; “but, behold, I will deliver the men everyone into his neighbor’s hand, and into the hand of his king. They will strike the land, and out of their hand I will not deliver them.” So I fed […]",
+                      "note": "The flock doomed to slaughter and the shepherd's care/abandonment drama belongs to the same prophetic shepherd field Luke draws on. Faint here; included as availability for the seeking-shepherd theme. Contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

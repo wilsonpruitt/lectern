@@ -692,7 +692,102 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.2",
+                  "ref": "4:5-12",
+                  "echoes": [
+                    {
+                      "source": "Psalm 118:22",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The stone which the builders rejected has become the head of the corner.",
+                      "note": "Verse 11 directly quotes Ps 118:22 (LXX 117:22), 'the stone which the builders rejected has become the head of the corner,' applied to the crucified-and-raised Jesus and turned polemically on 'you, the builders' (the rulers). High Volume (near-verbatim citation), high Recurrence (the rejected-stone testimonium pervades early Christian usage), and strong Thematic Coherence (rejection-then-vindication mirrors crucifixion-resurrection)."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "The 'stone' Christology in v.11 draws on the broader OT stone complex; Isa 28:16's precious cornerstone laid in Zion frequently fuses with Ps 118:22 in early Christian testimonia. No direct citation here, but the cornerstone vocabulary and foundation-of-salvation logic (leading into v.12) cohere with Isaiah's tested stone.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 45:21-22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Declare and present it. Yes, let them take counsel together. Who has shown this from ancient time? Who has declared it of old? Haven’t I, Yahweh? There is no other God besides me, a just God and a Savior; There is no one besides me. “Look to me, and be saved, all the ends of the earth; for I am God, and there is no other.",
+                      "note": "Verse 12, 'there is salvation in none other... no other name... by which we must be saved,' echoes Isaiah's exclusivist monotheism of salvation: 'there is no other God besides me, a righteous God and a Savior; there is none besides me... be saved, all the ends of the earth.' The 'none other / no other' salvation formula maps onto Isaiah's 'none besides me.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:32",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "It will happen that whoever will call on Yahweh’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as Yahweh has said, and among the remnant, those whom Yahweh calls.",
+                      "note": "Verse 12's stress that salvation comes only through 'the name' echoes Joel 2:32 (LXX 3:5), 'everyone who calls on the name of the LORD shall be saved' — the same name-and-salvation linkage Peter cited at Pentecost (Acts 2:21), now narrowed to the name of Jesus. Thematic coherence is strong; the recurrence in Acts strengthens the link.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 2:34-35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You saw until a stone was cut out without hands, which struck the image on its feet that were of iron and clay, and broke them in pieces. Then was the iron, the clay, the brass, the silver, and the gold, broken in pieces together, and became like the chaff of the summer threshing floors; and the wind carried them away, so that no place was found for them: and the stone that struck the image became a great mountain, and filled the whole earth.",
+                      "note": "Daniel's stone, cut without hands, that shatters the kingdoms and fills the earth, belongs to the same messianic stone-testimonia cluster; the contrast between human builders' rejection and God's exaltation of the stone resonates faintly with Daniel's God-given stone overturning earthly powers. Contested, no verbal link.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 43:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I myself am Yahweh; and besides me there is no savior.",
+                      "note": "'I, even I, am the LORD, and besides me there is no savior' reinforces the exclusive-salvation claim of v.12. A faint reinforcing echo within the same Isaianic monotheism-of-salvation field as Isa 45:21-22; included for maximal coverage.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/4/",
+              "title": "Peter and John before the Sanhedrin",
+              "view": {
+                "center": [
+                  33.5,
+                  34.5
+                ],
+                "zoom": 6
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "nazareth",
+                  "name": "Nazareth",
+                  "coords": [
+                    32.7022,
+                    35.2978
+                  ],
+                  "tier": "identified",
+                  "id": "Modern en-Nasira / Nazareth in Lower Galilee, c. 30 km west of the Sea of Galilee. A village of perhaps 200-400 in the early first century, identified through continuous habitation, tomb evidence, and the third-century Caesarea inscription naming it as a priestly course settlement."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -705,7 +800,190 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-23"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 23:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.7.13-Rev.7.17",
+                      "refDisplay": "Revelation 7:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "7.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-7.4"
+                    },
+                    {
+                      "refKey": "Matt.14.13-Matt.14.21",
+                      "refDisplay": "Matthew 14:13–21",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.2"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    },
+                    {
+                      "refKey": "John.21.15-John.21.17",
+                      "refDisplay": "John 21:15–17",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-21.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.4.14-Phil.4.20",
+                      "refDisplay": "Philippians 4:14–20",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.6"
+                    },
+                    {
+                      "refKey": "1Pet.5.1-1Pet.5.4",
+                      "refDisplay": "1 Peter 5:1–4",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.1"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.11-John.10.18",
+                      "refDisplay": "John 10:11–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-10.3"
+                    },
+                    {
+                      "refKey": "Mark.14.27-Mark.14.31",
+                      "refDisplay": "Mark 14:27–31",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-14.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.9.10-Luke.9.17",
+                      "refDisplay": "Luke 9:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-9.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:6",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.1-John.14.4",
+                      "refDisplay": "John 14:1–4",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:4",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.3-2Cor.1.7",
+                      "refDisplay": "2 Corinthians 1:3–7",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -718,7 +996,169 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-john#p-3.16"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.16",
+                  "ref": "3:16-18",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 15:7-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "If a poor man, one of your brothers, is with you within any of your gates in your land which Yahweh your God gives you, you shall not harden your heart, nor shut your hand from your poor brother; but you shall surely open your hand to him, and shall surely lend him sufficient for his need, which he lacks.",
+                      "note": "'You shall not harden your heart, nor shut your hand from your poor brother,' but open your hand to his need, directly underlies 'sees his brother in need, and closes his heart of compassion against him.' John's image of the closed heart inverts the command to open hand and heart. The 'brother in need' vocabulary is shared."
+                    },
+                    {
+                      "source": "Isaiah 58:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Isn’t it to distribute your bread to the hungry, and that you bring the poor who are cast out to your house? When you see the naked, that you cover him; and that you not hide yourself from your own flesh?",
+                      "note": "True fasting is to share bread with the hungry and not hide oneself from one's own flesh, the prophetic demand to meet a needy brother's wants. John's test of love by sharing 'the world's goods' echoes this concrete charity. The 'do not hide from' your kin matches the closed heart John condemns."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The Servant 'poured out his soul/life unto death' and bore the sin of many, the OT ground for love defined as 'he laid down his life for us.' John reads self-giving death as the measure of love. The Servant's poured-out life is the template."
+                    },
+                    {
+                      "source": "Proverbs 21:13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Whoever stops his ears at the cry of the poor, he will also cry out, but shall not be heard.",
+                      "note": "Whoever shuts his ears to the cry of the poor will himself cry and not be heard, linking refusal of compassion to severed relationship with God. This grounds John's rhetorical 'how does the love of God remain in him?' A close wisdom parallel to closing the heart against the needy.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Tobit 4:7-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give alms from your possessions. When you give alms, don’t let your eye be envious. Don’t turn away your face from any poor man, and the face of God won’t be turned away from you. As your possessions are, give alms of it according to your abundance. If you have little, don’t be afraid to give alms according to that little; for you lay up a good treasure for yourself against the day of necessity; because alms-giving delivers from death, and doesn’t allow […]",
+                      "note": "Tobit's counsel to give alms from one's goods, not turning the face from any poor person, parallels the test of love by sharing the world's goods with a brother in need. This deuterocanonical almsgiving ethic mirrors John's 'in deed and truth.' A strong thematic echo of practical charity."
+                    },
+                    {
+                      "source": "Sirach 4:1-5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "My son, deprive not the poor of his living, And make not the needy eyes to wait long. Make not a hungry soul sorrowful; Neither provoke a man in his distress. To a heart that is provoked add not more trouble; And defer not to give to him that is in need. Reject not a suppliant in his affliction; And turn not away your face from a poor man. Turn not away your eye from one that asks of you, And give none occasion to a man to curse you:",
+                      "note": "Sirach warns against defrauding the poor, turning away the needy, or averting the eye from one in want. This closely matches the one who 'sees his brother in need' yet closes his heart. A deuterocanonical parallel to loving in deed not word.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 3:27-28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t withhold good from those to whom it is due, when it is in the power of your hand to do it. Don’t say to your neighbor, “Go, and come again; tomorrow I will give it to you,” when you have it by you.",
+                      "note": "'Do not withhold good from those to whom it is due when it is in your power to do it' parallels John's rebuke of the one who has goods yet withholds them. The duty to act on present means matches 'has the world's goods.' Faint sapiential resonance.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.19",
+                  "ref": "3:19-22",
+                  "echoes": [
+                    {
+                      "source": "Psalm 139:1-4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh, you have searched me, and you know me. You know my sitting down and my rising up. You perceive my thoughts from afar. You search out my path and my lying down, and are acquainted with all my ways. For there is not a word on my tongue, but, behold, Yahweh, you know it altogether.",
+                      "note": "God searches and knows the heart, discerning thoughts and words before they are spoken, the ground of 'God is greater than our heart, and knows all things.' John reassures the self-condemning conscience by appeal to this divine omniscience. The all-knowing God who weighs the heart is the precise reference."
+                    },
+                    {
+                      "source": "1 Kings 8:39",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "then hear in heaven, your dwelling place, and forgive, and do, and render to every man according to all his ways, whose heart you know; (for you, even you only, know the hearts of all the children of men;)",
+                      "note": "Solomon prays that God, who 'alone knows the hearts of all the children of men,' will render to each accordingly. This explicit claim that God alone knows every heart underlies 'God... knows all things.' The heart-knowing God before whom we are persuaded is drawn from this temple prayer."
+                    },
+                    {
+                      "source": "Proverbs 21:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Every way of a man is right in his own eyes, but Yahweh weighs the hearts.",
+                      "note": "A person's ways seem right to himself, but the LORD weighs the heart, juxtaposing human self-judgment with divine assessment. This parallels the contrast between our condemning heart and the God who is greater and knows all. A wisdom echo of the heart-weighing motif.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD search the heart and test the mind, to give every man according to his ways,' a key heart-searching text. It reinforces John's appeal to the God who knows all things beyond our heart's verdict. Congruent with the omniscience theme.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 6:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It shall be righteousness to us, if we observe to do all this commandment before Yahweh our God, as he has commanded us.”",
+                      "note": "Keeping the commandments before the LORD is reckoned as righteousness, undergirding confidence before God grounded in 'we keep his commandments.' John's boldness toward God rests on obedience as in this Deuteronomic logic. Faint background.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.23",
+                  "ref": "3:23-24",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "'You shall love your neighbor as yourself' is the OT command standing behind John's commandment that 'we should... love one another.' John joins this love-command to belief in the Son as the single commandment. The mutual-love mandate is rooted in the Holiness Code."
+                    },
+                    {
+                      "source": "Ezekiel 36:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "God promises to put his Spirit within his people and cause them to keep his statutes, directly behind 'by the Spirit which he gave us' as the proof of indwelling and obedience. John's pairing of the given Spirit with commandment-keeping mirrors this new-covenant gift. The indwelling Spirit enabling obedience is the source idea."
+                    },
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "The Shema's command to love God and the broader keeping of his commandments frames 'we keep his commandments' and abiding obedience. John's interiorized obedience and indwelling echo the covenant heart-love. A thematic resonance with keeping the commandments.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 37:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it and performed it, says Yahweh.",
+                      "note": "'I will put my Spirit in you, and you shall live,' the promise of the indwelling life-giving Spirit. This reinforces 'we know that he remains in us, by the Spirit which he gave us.' A strong new-covenant Spirit parallel.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The new covenant writes the law on the heart so the people keep it from within, undergirding the union of commandment-keeping and mutual indwelling ('he remains in us'). John's interior obedience and abiding reflect this new-covenant interiority. A strong conceptual parallel to keeping his commandments.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:28-29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit.",
+                      "note": "God's promise to pour out his Spirit on all flesh stands in the background of the Spirit given to the community as the sign of God's abiding. Faint, but part of the prophetic Spirit-gift matrix John draws on. Contested as a specific source.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -737,7 +1177,104 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.3",
+                  "ref": "10:11-18",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:11-16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "For thus says the Lord Yahweh: Behold, I myself, even I, will search for my sheep, and will seek them out. As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so will I seek out my sheep; and I will deliver them out of all places where they have been scattered in the cloudy and dark day. I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land; and I […]",
+                      "note": "The LORD himself seeks, gathers, and feeds the scattered sheep, rescuing them from where they were scattered in the day of clouds. Jesus as the good shepherd who knows his own enacts the LORD's own pastoral self-commitment, making the divine claim of Ezekiel 34 the load-bearing subtext."
+                    },
+                    {
+                      "source": "Ezekiel 34:23-24",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd. I, Yahweh, will be their God, and my servant David prince among them; I, Yahweh, have spoken it.",
+                      "note": "'I will set up one shepherd over them, my servant David... and I the LORD will be their God.' This is the source of the singular good shepherd and converges with v.16's 'one flock, one shepherd.' High volume and exact thematic match to the Davidic-messianic single shepherd."
+                    },
+                    {
+                      "source": "Ezekiel 37:24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "My servant David shall be king over them; and they all shall have one shepherd: they shall also walk in my ordinances, and observe my statutes, and do them.",
+                      "note": "'David my servant shall be king over them; and they all shall have one shepherd' is the closest verbal antecedent to 'one flock, one shepherd' (v.16). Recurs with Ezek 34:23 and reinforces the reunification of a divided flock under one Davidic shepherd."
+                    },
+                    {
+                      "source": "Isaiah 40:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his bosom. He will gently lead those who have their young.",
+                      "note": "'He will feed his flock like a shepherd; he will gather the lambs in his arm' supplies the tender LORD-as-shepherd image behind the good shepherd who lays down his life for the sheep. Coherent with John's identification of Jesus with the LORD's own shepherding care."
+                    },
+                    {
+                      "source": "Psalm 23:1-4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh is my shepherd: I shall lack nothing. He makes me lie down in green pastures. He leads me beside still waters. He restores my soul. He guides me in the paths of righteousness for his name’s sake. Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.",
+                      "note": "'The LORD is my shepherd... though I walk through the valley of the shadow of death.' The good shepherd who lays down his life and faces the wolf evokes the shepherd who protects through death's shadow. Strong cultural availability, though the laying-down-of-life motif goes beyond Psalm 23."
+                    },
+                    {
+                      "source": "Zechariah 11:15-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh said to me, “Take for yourself yet again the equipment of a foolish shepherd. For, behold, I will raise up a shepherd in the land, who will not visit those who are cut off, neither will seek those who are scattered, nor heal that which is broken, nor feed that which is sound; but he will eat the flesh of the fat sheep, and will tear their hoofs in pieces. Woe to the worthless shepherd who leaves the flock! The sword will be on his arm, and on his […]",
+                      "note": "The 'worthless shepherd' who deserts the flock, does not care for the perishing, and abandons them to be devoured is the negative counterpart to John's hired hand who flees the wolf and does not care for the sheep. Verbal and thematic coherence in the abandonment/devouring imagery."
+                    },
+                    {
+                      "source": "Ezekiel 34:5-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They were scattered, because there was no shepherd; and they became food to all the animals of the field, and were scattered. My sheep wandered through all the mountains, and on every high hill: yes, my sheep were scattered on all the surface of the earth; and there was no one who searched or sought.",
+                      "note": "Without a shepherd the flock 'became food for all the beasts of the field, and were scattered.' The wolf that snatches and scatters the sheep (v.12) replays Ezekiel's scattering and devouring of the unshepherded flock."
+                    },
+                    {
+                      "source": "Isaiah 56:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Lord Yahweh, who gathers the outcasts of Israel, says, “Yet will I gather others to him, besides his own who are gathered.”",
+                      "note": "'The Lord GOD, who gathers the outcasts of Israel, says, Yet others will I gather besides his own that are gathered.' This is the strongest antecedent for the 'other sheep... not of this fold' whom the shepherd must also bring (v.16), grounding the Gentile ingathering."
+                    },
+                    {
+                      "source": "Micah 2:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will surely assemble, Jacob, all of you; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as a flock in the midst of their pasture; they will swarm with people.",
+                      "note": "'I will surely gather all of you, Jacob... I will put them together like the sheep of Bozrah... they will swarm with people.' Supplies the regathering-into-one-flock image behind the 'one flock' formed from other sheep. Coherent but competes with Ezekiel/Isaiah gathering texts.",
+                      "contested": true,
+                      "altSource": "Ezekiel 37:21-24"
+                    },
+                    {
+                      "source": "Micah 5:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He shall stand, and shall shepherd in the strength of Yahweh, in the majesty of the name of Yahweh his God: and they will live, for then he will be great to the ends of the earth.",
+                      "note": "'He shall stand and shepherd his flock in the strength of the LORD' offers the messianic ruler-as-shepherd whose flock dwells securely 'to the ends of the earth,' faintly behind the universal one-flock vision. Lower volume than the Ezekiel cluster.",
+                      "contested": true,
+                      "altSource": "Ezekiel 34:23"
+                    },
+                    {
+                      "source": "Isaiah 53:6-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all. He was oppressed, yet when he was afflicted he didn’t open his mouth. As a lamb that is led to the slaughter, and as a sheep that before its shearers is mute, so he didn’t open his mouth. He was taken away by oppression and judgment; and as for his generation, who considered that he was cut off out of the land of the living and […]",
+                      "note": "'All we like sheep have gone astray... the LORD has laid on him the iniquity of us all,' and the servant who 'poured out his soul to death.' The shepherd who lays down his life for the sheep may fuse the suffering servant with the shepherd. Contested and faint in John, which rarely cites Isaiah 53 explicitly.",
+                      "contested": true,
+                      "altSource": "Zechariah 13:7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

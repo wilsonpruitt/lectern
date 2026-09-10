@@ -626,7 +626,445 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 1:1",
+                  "occurrences": [
+                    {
+                      "refKey": "John.1.1-John.1.5",
+                      "refDisplay": "John 1:1–5",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-1.1"
+                    },
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    },
+                    {
+                      "refKey": "Col.1.15-Col.1.20",
+                      "refDisplay": "Colossians 1:15–20",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/colossians#p-1.4"
+                    },
+                    {
+                      "refKey": "1John.1.1-1John.1.4",
+                      "refDisplay": "1 John 1:1–4",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.1"
+                    },
+                    {
+                      "refKey": "Acts.14.14-Acts.14.18",
+                      "refDisplay": "Acts 14:14–18",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-14.3"
+                    },
+                    {
+                      "refKey": "Rom.1.18-Rom.1.23",
+                      "refDisplay": "Romans 1:18–23",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-1.4"
+                    },
+                    {
+                      "refKey": "Eph.2.10",
+                      "refDisplay": "Ephesians 2:10",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.4",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.4"
+                    },
+                    {
+                      "refKey": "Eph.3.7-Eph.3.13",
+                      "refDisplay": "Ephesians 3:7–13",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "3.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-3.2"
+                    },
+                    {
+                      "refKey": "Rev.3.14-Rev.3.22",
+                      "refDisplay": "Revelation 3:14–22",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-3.3"
+                    },
+                    {
+                      "refKey": "Matt.25.31-Matt.25.46",
+                      "refDisplay": "Matthew 25:31–46",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "25.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-25.3"
+                    },
+                    {
+                      "refKey": "Mark.1.1-Mark.1.1",
+                      "refDisplay": "Mark 1:1–1",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-1.1"
+                    },
+                    {
+                      "refKey": "John.2.1-John.2.11",
+                      "refDisplay": "John 2:1–11",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-2.1"
+                    },
+                    {
+                      "refKey": "John.17.1-John.17.5",
+                      "refDisplay": "John 17:1–5",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-17.1"
+                    },
+                    {
+                      "refKey": "1Cor.8.4-1Cor.8.6",
+                      "refDisplay": "1 Corinthians 8:4–6",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "8.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-8.2"
+                    },
+                    {
+                      "refKey": "2Cor.5.16-2Cor.5.19",
+                      "refDisplay": "2 Corinthians 5:16–19",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "5.4",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-5.4"
+                    },
+                    {
+                      "refKey": "Heb.1.10-Heb.1.12",
+                      "refDisplay": "Hebrews 1:10–12",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.6"
+                    },
+                    {
+                      "refKey": "Rev.21.1-Rev.21.4",
+                      "refDisplay": "Revelation 21:1–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "21.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-21.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 1:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.3.13-Matt.3.17",
+                      "refDisplay": "Matthew 3:13–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "3.2",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-3.2"
+                    },
+                    {
+                      "refKey": "Luke.1.34-Luke.1.38",
+                      "refDisplay": "Luke 1:34–38",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.8"
+                    },
+                    {
+                      "refKey": "Luke.3.21-Luke.3.22",
+                      "refDisplay": "Luke 3:21–22",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "3.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-3.7"
+                    },
+                    {
+                      "refKey": "John.1.1-John.1.5",
+                      "refDisplay": "John 1:1–5",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-1.1"
+                    },
+                    {
+                      "refKey": "John.1.29-John.1.34",
+                      "refDisplay": "John 1:29–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.6",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-1.6"
+                    },
+                    {
+                      "refKey": "Matt.14.22-Matt.14.33",
+                      "refDisplay": "Matthew 14:22–33",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.3"
+                    },
+                    {
+                      "refKey": "Mark.1.9-Mark.1.11",
+                      "refDisplay": "Mark 1:9–11",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-1.3"
+                    },
+                    {
+                      "refKey": "Mark.5.1-Mark.5.20",
+                      "refDisplay": "Mark 5:1–20",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-5.1"
+                    },
+                    {
+                      "refKey": "Luke.8.26-Luke.8.39",
+                      "refDisplay": "Luke 8:26–39",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-8.8"
+                    },
+                    {
+                      "refKey": "John.3.1-John.3.8",
+                      "refDisplay": "John 3:1–8",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-3.1"
+                    },
+                    {
+                      "refKey": "Rom.10.5-Rom.10.13",
+                      "refDisplay": "Romans 10:5–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-10.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 1:3",
+                  "occurrences": [
+                    {
+                      "refKey": "John.1.1-John.1.5",
+                      "refDisplay": "John 1:1–5",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-1.1"
+                    },
+                    {
+                      "refKey": "2Cor.4.3-2Cor.4.6",
+                      "refDisplay": "2 Corinthians 4:3–6",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "4.2",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-4.2"
+                    },
+                    {
+                      "refKey": "John.11.38-John.11.44",
+                      "refDisplay": "John 11:38–44",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "11.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-11.4"
+                    },
+                    {
+                      "refKey": "1Tim.4.1-1Tim.4.5",
+                      "refDisplay": "1 Timothy 4:1–5",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-4.1"
+                    },
+                    {
+                      "refKey": "Jas.1.16-Jas.1.18",
+                      "refDisplay": "James 1:16–18",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/james#p-1.16"
+                    },
+                    {
+                      "refKey": "1John.1.1-1John.1.4",
+                      "refDisplay": "1 John 1:1–4",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 1:2–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.8.23-Matt.8.27",
+                      "refDisplay": "Matthew 8:23–27",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.6",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 1:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.24.1-Luke.24.12",
+                      "refDisplay": "Luke 24:1–12",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-24.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 1:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.20.1-John.20.2",
+                      "refDisplay": "John 20:1–2",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "20.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-20.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 1:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.4.17-Rom.4.22",
+                      "refDisplay": "Romans 4:17–22",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-4.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 1:1–31",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.14.26-1Cor.14.33",
+                      "refDisplay": "1 Corinthians 14:26–33",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "14.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-14.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -639,7 +1077,80 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-29"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 29:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.2.8-Luke.2.14",
+                      "refDisplay": "Luke 2:8–14",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-2.2"
+                    },
+                    {
+                      "refKey": "2Cor.1.1-2Cor.1.2",
+                      "refDisplay": "2 Corinthians 1:1–2",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 29:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.1-Acts.7.8",
+                      "refDisplay": "Acts 7:1–8",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-7.1"
+                    },
+                    {
+                      "refKey": "1Cor.2.6-1Cor.2.9",
+                      "refDisplay": "1 Corinthians 2:6–9",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 29:3–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.10.1-Rev.10.3",
+                      "refDisplay": "Revelation 10:1–3",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-10.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -664,7 +1175,113 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "19.1",
+                  "ref": "19:1-7",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit.",
+                      "note": "The Spirit comes upon the twelve disciples and they prophesy and speak in other tongues. Joel's promise of the outpoured Spirit producing prophecy (Volume: shared Spirit-prophecy idiom; Recurrence: this is Luke's programmatic Pentecost text from Acts 2, re-applied here to a 'second Pentecost' at Ephesus; Thematic Coherence: strong, the Spirit poured on believers issuing in prophetic speech). Satisfaction: the Ephesian episode reads as a deliberate echo of the Joel fulfillment Luke announced in Acts 2."
+                    },
+                    {
+                      "source": "Numbers 11:25-29",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh came down in the cloud, and spoke to him, and took of the Spirit that was on him, and put it on the seventy elders. When the Spirit rested on them, they prophesied, but they did so no more. But two men remained in the camp. The name of one was Eldad, and the name of the other Medad: and the Spirit rested on them; and they were of those who were written, but had not gone out to the Tent; and they prophesied in the camp. A young man ran, and told […]",
+                      "note": "When the Spirit rests on the seventy elders they prophesy; here the Spirit comes and the twelve prophesy. The corporate, derivative bestowal of the Spirit producing immediate prophecy is a close conceptual match (Volume: moderate; Recurrence: Luke elsewhere draws on Numbers 11 Moses/spirit motifs; Coherence: high). Moses' wish that all the Lord's people were prophets stands behind Luke's spreading-Spirit theology.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 27:18-23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him. Set him before Eleazar the priest, and before all the congregation; and commission him in their sight. You shall give authority to him, that all the congregation of the children of Israel may obey. He shall stand before Eleazar the priest, who shall inquire for him by the judgment of the Urim before Yahweh. At his word they shall go out, and at his […]",
+                      "note": "Paul lays his hands on the disciples and the Spirit comes; Moses lays hands on Joshua, a man in whom is the Spirit, transferring authority. The laying-on-of-hands-to-convey-Spirit gesture has its primary OT root here (with Deut 34:9). Low volume, contested as it may simply be a fixed cultic gesture.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 34:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands on him. The children of Israel listened to him, and did as Yahweh commanded Moses.",
+                      "note": "Joshua was full of the spirit of wisdom because Moses had laid his hands on him; here laying on of hands conveys the Spirit. Reinforces the Mosaic hand-laying/Spirit-transfer pattern. Low volume, contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 10:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and the Spirit of Yahweh will come mightily on you, and you shall prophesy with them, and shall be turned into another man.",
+                      "note": "The Spirit of the Lord rushes upon Saul and he prophesies, turned into another man; here the Spirit comes and the disciples prophesy. A stock OT pattern of Spirit-onset producing ecstatic prophecy. Contested, faint verbal contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 40:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The voice of one who calls out, “Prepare the way of Yahweh in the wilderness! Make a level highway in the desert for our God.",
+                      "note": "Paul explains John's baptism as preparatory, pointing to the Coming One. John's whole ministry is grounded in the Isaian voice preparing the way; this verse explicitly recalls the forerunner role. Faint here since the verbal weight is minimal in this pericope.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Life of Paul",
+                  "editionUrl": "https://annales.wrootpress.com/life-of-paul",
+                  "spans": [
+                    {
+                      "label": "Third journey",
+                      "group": null,
+                      "lane": "journeys",
+                      "start": 53,
+                      "end": 57,
+                      "length": null,
+                      "ref": "Acts 18:23–21:16",
+                      "note": "Three years at Ephesus — the most fruitful and the most embattled — then back through Macedonia and Greece, gathering the collection for Jerusalem and setting his face toward it despite every warning."
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/19/",
+              "title": "Third Journey: Ephesus; the Riot",
+              "view": {
+                "center": [
+                  37.95,
+                  27.37
+                ],
+                "zoom": 12
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "ephesus",
+                  "name": "Ephesus",
+                  "coords": [
+                    37.9495,
+                    27.3667
+                  ],
+                  "tier": "identified",
+                  "id": "At the mouth of the Cayster river on the Aegean coast of Anatolia, near modern Selçuk. Capital of the Roman province of Asia. Famous for the Temple of Artemis (one of the seven wonders), the great theatre (Acts 19), and the imperial-cult shrines of the late first century."
+                }
+              ]
+            }
           },
           {
             "role": "gospel",
@@ -683,7 +1300,165 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:2-8",
+                  "echoes": [
+                    {
+                      "source": "Malachi 3:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies.",
+                      "note": "Mark's 'Behold, I send my messenger before your face, who will prepare your way' is a near-verbatim citation of Malachi 3:1, though Mark misattributes the fused text to 'Isaiah.' Volume is maximal (sustained verbal repetition), and recurrence is confirmed by Mark 9:11-13, where the Elijah-messenger of Malachi is again applied to John. Coherence is total: the messenger prepares the way of the Lord."
+                    },
+                    {
+                      "source": "Exodus 23:20",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Behold, I send an angel before you, to keep you by the way, and to bring you into the place which I have prepared.",
+                      "note": "The opening clause 'Behold, I send my messenger before your face' matches Exodus 23:20 LXX (the angel guarding Israel on the wilderness road) even more closely than Malachi for the first half. Mark has conflated Exodus 23:20 with Malachi 3:1; the shared 'before your face' wording and new-Exodus 'way' imagery give high volume and coherence to a deliberate fusion."
+                    },
+                    {
+                      "source": "Isaiah 40:3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The voice of one who calls out, “Prepare the way of Yahweh in the wilderness! Make a level highway in the desert for our God.",
+                      "note": "'The voice of one crying in the wilderness, Make ready the way of the Lord' quotes Isaiah 40:3 (LXX), the only part Mark's 'as written in Isaiah' formula actually names. Volume is maximal and the wilderness/way motif structures the whole prologue (John baptizes 'in the wilderness,' 1:4). The new-Exodus comfort-of-Zion context is highly coherent with Mark's gospel announcement."
+                    },
+                    {
+                      "source": "2 Kings 1:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They answered him, “He was a hairy man, and wearing a leather belt around his waist.” He said, “It is Elijah the Tishbite.”",
+                      "note": "John's garb of camel's hair and a leather belt around the waist deliberately mirrors Elijah, 'a hairy man with a leather belt around his waist' (2 Kings 1:8 LXX, zōnēn dermatinēn perthan identical phrase). High volume in a distinctive sartorial detail; recurrence at Mark 9:13 ('Elijah has come') confirms the identification. Coherence is strong: John is the returning Elijah of Malachi."
+                    },
+                    {
+                      "source": "Malachi 4:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes.",
+                      "note": "Malachi 4:5 (3:23 MT) promises Elijah's return 'before the great day of the LORD'; Mark casts John in this role, fusing it with the messenger of Malachi 3:1. Verbal volume in 1:2-8 is indirect, but the Elijah dress (v.6) and Mark 9:11-13 make the figural identification explicit and recurrent. Coherence is the engine of the whole prologue."
+                    },
+                    {
+                      "source": "Zechariah 13:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen in that day, that the prophets will each be ashamed of his vision, when he prophesies; neither will they wear a hairy mantle to deceive:",
+                      "note": "Zechariah 13:4 mentions prophets wearing 'a hairy mantle' as a deceptive sign; some see John's camel-hair garment drawing on the generic prophetic-mantle convention rather than Elijah specifically. Volume is low and the negative valence in Zechariah weakens coherence; included as a contested alternate source for the prophet's dress.",
+                      "contested": true,
+                      "altSource": "2 Kings 1:8"
+                    },
+                    {
+                      "source": "Leviticus 11:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Even of these you may eat: any kind of locust, any kind of katydid, any kind of cricket, and any kind of grasshopper.",
+                      "note": "John's diet of locusts reflects the one insect category Leviticus 11:22 permits as clean food, anchoring his wilderness asceticism in Torah dietary law. The contact is a single permitted-food detail with no verbal borrowing, so the echo is faint and contested; it functions mainly to authenticate his wilderness piety.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:9-11",
+                  "echoes": [
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "The heavenly voice 'You are my beloved Son' echoes the royal enthronement decree 'You are my Son' of Psalm 2:7. Volume is high (the opening clause is near-verbatim) and recurrence is strong (Mark 9:7; the title frames the Gospel). Coherence is maximal: the baptism functions as a messianic enthronement, declaring Jesus the Davidic king-son."
+                    },
+                    {
+                      "source": "Isaiah 42:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Behold, my servant, whom I uphold; my chosen, in whom my soul delights— I have put my Spirit on him. He will bring justice to the nations.",
+                      "note": "'In whom I am well pleased' draws on the Servant of Isaiah 42:1, 'my chosen, in whom my soul delights,' paired with the Spirit resting on him (v.10). Volume is high on the 'well pleased / delight' clause and the Spirit-endowment, and the fusion of royal Son (Ps 2) with suffering Servant (Isa 42) is a load-bearing Markan Christology. Coherence is high."
+                    },
+                    {
+                      "source": "Isaiah 64:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Oh that you would tear the heavens, that you would come down, that the mountains might quake at your presence,",
+                      "note": "Mark's distinctive 'the heavens being torn' (schizomenous) recalls Isaiah 64:1 LXX, 'O that you would rend the heavens and come down.' Volume rests on the violent verb 'tear,' which Mark uniquely chooses (vs. Matthew/Luke's 'opened') and reuses at the temple veil (15:38). Coherence is high: God rends the heavens to descend in the Spirit upon Jesus."
+                    },
+                    {
+                      "source": "Genesis 22:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "'Beloved Son' (agapētos) may invoke Isaac, 'your only/beloved son,' in the Aqedah of Genesis 22:2 LXX, foreshadowing the offered son. Volume is the single distinctive adjective agapētos (which LXX uses for Isaac), giving real verbal contact; recurrence at 9:7 and the passion's sacrificial logic raise coherence. Genuinely contested—agapētos may simply intensify 'Son.'",
+                      "contested": true,
+                      "altSource": "Psalm 2:7"
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "The Spirit descending over the baptismal waters may evoke the Spirit/wind hovering over the primordial waters of Genesis 1:2, framing the baptism as new creation. Volume is conceptual only (no 'dove' in Genesis), so the link is faint; some rabbinic traditions compared the Genesis Spirit to a bird, which marginally supports it. Contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 1:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now in the thirtieth year, in the fourth month, in the fifth of the month, as I was among the captives by the river Chebar, the heavens were opened, and I saw visions of God.",
+                      "note": "Ezekiel's inaugural vision opens with 'the heavens were opened and I saw visions of God,' a prophetic-commission topos that Mark's heaven-rending and Spirit-descent may share. Volume is low and the verb differs (open vs. tear), so this is a generic apocalyptic-opening echo rather than a targeted citation; included for completeness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:11-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then he remembered the days of old, Moses and his people, saying, Where is he who brought them up out of the sea with the shepherds of his flock? where is he who put his holy Spirit in their midst? who caused his glorious arm to go at the right hand of Moses? who divided the waters before them, to make himself an everlasting name? who led them through the depths, as a horse in the wilderness, so that they didn’t stumble? As the livestock that go down into […]",
+                      "note": "Isaiah 63 recalls God putting his Holy Spirit among his people at the Exodus through the sea, a new-Exodus matrix coherent with Jesus' Spirit-anointing at the Jordan. The contact is thematic (Spirit + water + sonship of Israel) rather than verbal, so volume is low; it strengthens the new-Exodus reading of the whole prologue.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "John the Baptist preaches",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "3:1–12",
+                        "mark": "1:1–8",
+                        "luke": "3:1–18",
+                        "john": "1:19–28"
+                      },
+                      "note": "The one figure all four set at the threshold — \"a voice crying in the wilderness.\""
+                    },
+                    {
+                      "title": "The Baptism of Jesus",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "3:13–17",
+                        "mark": "1:9–11",
+                        "luke": "3:21–22",
+                        "john": "1:29–34"
+                      },
+                      "note": "John's Gospel reports it obliquely, through the Baptist's testimony — \"I have seen and have testified that this is the Son of God.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

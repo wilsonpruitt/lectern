@@ -551,7 +551,54 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/ruth/3/"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Ruth 3:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.6.16-Matt.6.18",
+                      "refDisplay": "Matthew 6:16–18",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/ruth/3/",
+              "title": "The Threshing Floor",
+              "view": {
+                "center": [
+                  31.705,
+                  35.203
+                ],
+                "zoom": 13
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "bethlehem-judah",
+                  "name": "Bethlehem",
+                  "coords": [
+                    31.705,
+                    35.203
+                  ],
+                  "tier": "identified",
+                  "id": "Modern Beit Lahm c. 8 km south of Jerusalem in the central hill country. Distinct from the Galilean Bethlehem of Joshua 19:15 (Beit Lahm of Zebulun). Burial place of Rachel (Gen 35:19, given as Ephrath); home of the Boaz-Obed-Jesse-David line; in later tradition the birthplace of Jesus."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -564,7 +611,10 @@
                 "label": "Index Fontium",
                 "url": "https://catena.wrootpress.com/fontium"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -577,7 +627,10 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -596,7 +649,97 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.6",
+                  "ref": "12:38-40",
+                  "echoes": [
+                    {
+                      "source": "Exodus 22:22-24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You shall not take advantage of any widow or fatherless child. If you take advantage of them at all, and they cry at all to me, I will surely hear their cry; and my wrath will grow hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+                      "note": "Jesus condemns scribes who 'devour widows' houses,' invoking the covenant's strict protection of widows: God hears the cry of any widow afflicted and his wrath burns against the oppressor. The exploitation of widows is precisely the sin the Torah threatens with divine vengeance, grounding the prophetic 'greater condemnation.'"
+                    },
+                    {
+                      "source": "Isaiah 10:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Woe to those who decree unrighteous decrees, and to the writers who write oppressive decrees; to deprive the needy from justice, and to rob the poor among my people of their rights, that widows may be their plunder, and that they may make the fatherless their prey!",
+                      "note": "Isaiah pronounces woe on those who make widows their prey and rob the needy of justice, the same predatory devouring of widows Jesus denounces. The prophetic woe-against-widow-plunderers tradition supplies both the indictment and the eschatological judgment Jesus announces."
+                    },
+                    {
+                      "source": "Deuteronomy 24:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall not deprive the foreigner or the fatherless of justice, nor take a widow’s clothing in pledge;",
+                      "note": "The Torah's prohibition against perverting justice due the widow or taking her garment in pledge frames widows as the paradigmatic protected class. Jesus' charge that the scribes devour widows' houses presupposes this legal duty of care that they have inverted.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against the perjurers, and against those who oppress the hireling in his wages, the widow, and the fatherless, and who deprive the foreigner of justice, and don’t fear me,” says Yahweh of Armies.",
+                      "note": "Malachi names those who oppress the widow among the wrongdoers God will swiftly judge. The pairing of widow-oppression with imminent divine reckoning parallels Jesus' 'these will receive greater condemnation,' reinforcing the prophetic-judgment frame.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 35:14-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will in no wise despise the supplication of the fatherless; Nor the widow, when she pours out her tale. Do not the tears of the widow run down her cheek? And is not her cry against him that has caused them to fall?",
+                      "note": "Ben Sira insists God does not ignore the supplication of the widow nor her tears running down her cheek, and will repay her oppressor. This Second-Temple wisdom text, available to Mark's milieu, coheres with the indictment of those who profit from widows.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.7",
+                  "ref": "12:41-44",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 17:8-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh’s word came to him, saying, “Arise, go to Zarephath, which belongs to Sidon, and stay there. Behold, I have commanded a widow there to sustain you.” So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks: and he called to her, and said, “Please get me a little water in a vessel, that I may drink.” As she was going to get it, he called to her, and said, “Please bring me a morsel of […]",
+                      "note": "The poor widow who gives 'all that she had to live on' strongly recalls the widow of Zarephath who, at Elijah's word, spends her last handful of meal trusting God for provision. The shared figure of a destitute widow giving her entire remaining sustenance makes this the closest narrative analogue and likely a deliberate typological echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 27:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘All the tithe of the land, whether of the seed of the land or of the fruit of the trees, is Yahweh’s. It is holy to Yahweh.",
+                      "note": "The treasury-offering setting and the contrast between giving from abundance versus giving all evoke the Torah's regulation of dedicated gifts and tithes. The widow's total gift outdoes proportional giving, implicitly measuring devotion against the cultic baseline of the tithe.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 24:19-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When you reap your harvest in your field, and have forgotten a sheaf in the field, you shall not go again to get it. It shall be for the foreigner, for the fatherless, and for the widow; that Yahweh your God may bless you in all the work of your hands. When you beat your olive tree, you shall not go over the boughs again. It shall be for the foreigner, for the fatherless, and for the widow. When you harvest your vineyard, you shall not glean it after […]",
+                      "note": "Deuteronomy's gleaning laws structurally cast the widow as a recipient of charity, not a donor; Mark inverts the expectation by showing the widow as giver, which heightens the pathos of her poverty against the Torah's assumption that widows need provision rather than provide it.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 12:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But Jehoiada the priest took a chest, and bored a hole in its lid, and set it beside the altar, on the right side as one comes into Yahweh’s house: and the priests who kept the threshold put therein all the money that was brought into Yahweh’s house.",
+                      "note": "The temple treasury chest where money was cast, established in Jehoiada's reform, is the institutional backdrop of the scene. Mark's 'treasury' and the act of casting coins into it presuppose this cultic apparatus, a faint but concrete OT realia echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1358,7 +1501,120 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Kings 17:8–16",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.4.25-Luke.4.27",
+                      "refDisplay": "Luke 4:25–27",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-4.5"
+                    },
+                    {
+                      "refKey": "Mark.12.41-Mark.12.44",
+                      "refDisplay": "Mark 12:41–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "12.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-12.7"
+                    },
+                    {
+                      "refKey": "Luke.21.1-Luke.21.4",
+                      "refDisplay": "Luke 21:1–4",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "21.1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-21.1"
+                    },
+                    {
+                      "refKey": "Mark.6.7-Mark.6.13",
+                      "refDisplay": "Mark 6:7–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-6.2"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    },
+                    {
+                      "refKey": "Luke.8.1-Luke.8.3",
+                      "refDisplay": "Luke 8:1–3",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-8.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 17:8–24",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.15.21-Matt.15.28",
+                      "refDisplay": "Matthew 15:21–28",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.3"
+                    },
+                    {
+                      "refKey": "Mark.7.24-Mark.7.30",
+                      "refDisplay": "Mark 7:24–30",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "7.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-7.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 17:9–24",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.10.40-Matt.10.42",
+                      "refDisplay": "Matthew 10:40–42",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "10.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-10.8"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1371,7 +1627,175 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-146"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 146:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.9.27-Matt.9.31",
+                      "refDisplay": "Matthew 9:27–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "9.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-9.5"
+                    },
+                    {
+                      "refKey": "Mark.10.46-Mark.10.52",
+                      "refDisplay": "Mark 10:46–52",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-10.7"
+                    },
+                    {
+                      "refKey": "Luke.13.10-Luke.13.17",
+                      "refDisplay": "Luke 13:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-13.3"
+                    },
+                    {
+                      "refKey": "Luke.18.35-Luke.18.43",
+                      "refDisplay": "Luke 18:35–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-18.7"
+                    },
+                    {
+                      "refKey": "John.9.24-John.9.34",
+                      "refDisplay": "John 9:24–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "9.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-9.6"
+                    },
+                    {
+                      "refKey": "Matt.15.29-Matt.15.31",
+                      "refDisplay": "Matthew 15:29–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.4.23-Acts.4.31",
+                      "refDisplay": "Acts 4:23–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "4.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-4.4"
+                    },
+                    {
+                      "refKey": "Acts.14.14-Acts.14.18",
+                      "refDisplay": "Acts 14:14–18",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-14.3"
+                    },
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    },
+                    {
+                      "refKey": "Rev.10.4-Rev.10.7",
+                      "refDisplay": "Revelation 10:4–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "10.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-10.2"
+                    },
+                    {
+                      "refKey": "Rev.14.6-Rev.14.7",
+                      "refDisplay": "Revelation 14:6–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.16.25-Acts.16.34",
+                      "refDisplay": "Acts 16:25–34",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "16.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-16.5"
+                    },
+                    {
+                      "refKey": "Acts.5.17-Acts.5.26",
+                      "refDisplay": "Acts 5:17–26",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "5.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-5.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.6-Acts.12.11",
+                      "refDisplay": "Acts 12:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-12.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1384,7 +1808,10 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1403,7 +1830,97 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.6",
+                  "ref": "12:38-40",
+                  "echoes": [
+                    {
+                      "source": "Exodus 22:22-24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You shall not take advantage of any widow or fatherless child. If you take advantage of them at all, and they cry at all to me, I will surely hear their cry; and my wrath will grow hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+                      "note": "Jesus condemns scribes who 'devour widows' houses,' invoking the covenant's strict protection of widows: God hears the cry of any widow afflicted and his wrath burns against the oppressor. The exploitation of widows is precisely the sin the Torah threatens with divine vengeance, grounding the prophetic 'greater condemnation.'"
+                    },
+                    {
+                      "source": "Isaiah 10:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Woe to those who decree unrighteous decrees, and to the writers who write oppressive decrees; to deprive the needy from justice, and to rob the poor among my people of their rights, that widows may be their plunder, and that they may make the fatherless their prey!",
+                      "note": "Isaiah pronounces woe on those who make widows their prey and rob the needy of justice, the same predatory devouring of widows Jesus denounces. The prophetic woe-against-widow-plunderers tradition supplies both the indictment and the eschatological judgment Jesus announces."
+                    },
+                    {
+                      "source": "Deuteronomy 24:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall not deprive the foreigner or the fatherless of justice, nor take a widow’s clothing in pledge;",
+                      "note": "The Torah's prohibition against perverting justice due the widow or taking her garment in pledge frames widows as the paradigmatic protected class. Jesus' charge that the scribes devour widows' houses presupposes this legal duty of care that they have inverted.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against the perjurers, and against those who oppress the hireling in his wages, the widow, and the fatherless, and who deprive the foreigner of justice, and don’t fear me,” says Yahweh of Armies.",
+                      "note": "Malachi names those who oppress the widow among the wrongdoers God will swiftly judge. The pairing of widow-oppression with imminent divine reckoning parallels Jesus' 'these will receive greater condemnation,' reinforcing the prophetic-judgment frame.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 35:14-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will in no wise despise the supplication of the fatherless; Nor the widow, when she pours out her tale. Do not the tears of the widow run down her cheek? And is not her cry against him that has caused them to fall?",
+                      "note": "Ben Sira insists God does not ignore the supplication of the widow nor her tears running down her cheek, and will repay her oppressor. This Second-Temple wisdom text, available to Mark's milieu, coheres with the indictment of those who profit from widows.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.7",
+                  "ref": "12:41-44",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 17:8-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh’s word came to him, saying, “Arise, go to Zarephath, which belongs to Sidon, and stay there. Behold, I have commanded a widow there to sustain you.” So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks: and he called to her, and said, “Please get me a little water in a vessel, that I may drink.” As she was going to get it, he called to her, and said, “Please bring me a morsel of […]",
+                      "note": "The poor widow who gives 'all that she had to live on' strongly recalls the widow of Zarephath who, at Elijah's word, spends her last handful of meal trusting God for provision. The shared figure of a destitute widow giving her entire remaining sustenance makes this the closest narrative analogue and likely a deliberate typological echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 27:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘All the tithe of the land, whether of the seed of the land or of the fruit of the trees, is Yahweh’s. It is holy to Yahweh.",
+                      "note": "The treasury-offering setting and the contrast between giving from abundance versus giving all evoke the Torah's regulation of dedicated gifts and tithes. The widow's total gift outdoes proportional giving, implicitly measuring devotion against the cultic baseline of the tithe.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 24:19-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When you reap your harvest in your field, and have forgotten a sheaf in the field, you shall not go again to get it. It shall be for the foreigner, for the fatherless, and for the widow; that Yahweh your God may bless you in all the work of your hands. When you beat your olive tree, you shall not go over the boughs again. It shall be for the foreigner, for the fatherless, and for the widow. When you harvest your vineyard, you shall not glean it after […]",
+                      "note": "Deuteronomy's gleaning laws structurally cast the widow as a recipient of charity, not a donor; Mark inverts the expectation by showing the widow as giver, which heightens the pathos of her poverty against the Torah's assumption that widows need provision rather than provide it.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 12:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But Jehoiada the priest took a chest, and bored a hole in its lid, and set it beside the altar, on the right side as one comes into Yahweh’s house: and the priests who kept the threshold put therein all the money that was brought into Yahweh’s house.",
+                      "note": "The temple treasury chest where money was cast, established in Jehoiada's reform, is the institutional backdrop of the scene. Mark's 'treasury' and the act of casting coins into it presuppose this cultic apparatus, a faint but concrete OT realia echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

@@ -722,7 +722,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-31"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Jeremiah 31:12",
+                  "occurrences": [
+                    {
+                      "refKey": "John.2.1-John.2.11",
+                      "refDisplay": "John 2:1–11",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 31:13",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.16-John.16.22",
+                      "refDisplay": "John 16:16–22",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-16.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 31:9",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.6.18",
+                      "refDisplay": "2 Corinthians 6:18",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "6.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-6.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -735,7 +788,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-147"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 147:19–20",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.9.1-Rom.9.5",
+                      "refDisplay": "Romans 9:1–5",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-9.1"
+                    },
+                    {
+                      "refKey": "Eph.2.11-Eph.2.12",
+                      "refDisplay": "Ephesians 2:11–12",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 147:15",
+                  "occurrences": [
+                    {
+                      "refKey": "2Thess.3.1-2Thess.3.2",
+                      "refDisplay": "2 Thessalonians 3:1–2",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "3.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-3.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -754,7 +855,244 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:3-6",
+                  "echoes": [
+                    {
+                      "source": "Psalm 41:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.",
+                      "note": "'Blessed be the God and Father of our Lord Jesus Christ' reproduces the Jewish berakah formula 'Blessed be the LORD, the God of Israel,' which closes Book I of the Psalter. Volume is high (verbatim opening 'Blessed be the God'); recurrence across the Psalter (41:13; 72:18; 106:48) and Israel's liturgy makes the form availably and thematically coherent as the native idiom of doxological praise."
+                    },
+                    {
+                      "source": "Psalm 72:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Praise be to Yahweh God, the God of Israel, who alone does marvelous deeds.",
+                      "note": "The eulogetos opening directly imitates the doxological berakah 'Blessed be the LORD God, the God of Israel,' another Psalter book-closing blessing. Recurrence with 41:13 and 106:48 establishes the form as a standing liturgical pattern Paul Christologically reworks ('the God and Father of our Lord Jesus Christ'). Thematic coherence with the eulogetos genre is exact."
+                    },
+                    {
+                      "source": "Deuteronomy 7:6-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For you are a holy people to Yahweh your God. Yahweh your God has chosen you to be a people for his own possession, above all peoples who are on the face of the earth. Yahweh didn’t set his love on you, nor choose you, because you were more in number than any people; for you were the fewest of all peoples: but because Yahweh loves you, and because he desires to keep the oath which he swore to your fathers, Yahweh has brought you out with a mighty hand, […]",
+                      "note": "'He chose us in him before the foundation of the world, that we would be holy' transposes Israel's election: 'the LORD has chosen you to be a people for his own possession... holy.' Volume is strong (the verb 'chose' + the purpose 'holy'); recurrence in Deuteronomy's election theology and thematic coherence (gratuitous love, not merit) make this the controlling OT subtext for predestination language."
+                    },
+                    {
+                      "source": "Deuteronomy 14:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For you are a holy people to Yahweh your God, and Yahweh has chosen you to be a people for his own possession, above all peoples who are on the face of the earth.",
+                      "note": "'The LORD has chosen you to be a people for his own possession... a holy people' supplies both the election verb and the 'holy/possession' pairing that Ephesians 1:4 and 1:14 develop. Recurrence with Deut 7:6 reinforces a settled Deuteronomic formula; thematic coherence with adoption and inheritance is high."
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Adoption as children' (huiothesia) presupposes Israel's sonship: 'Israel is my son, my firstborn.' Volume is conceptual rather than verbal, but recurrence (Hos 11:1; Jer 31:9) and thematic coherence with election and inheritance make Israel's adoptive sonship the OT matrix Paul universalizes in Christ."
+                    },
+                    {
+                      "source": "Genesis 14:20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and blessed be God Most High, who has delivered your enemies into your hand.” Abram gave him a tenth of all.",
+                      "note": "Melchizedek's 'Blessed be God Most High' is the patriarchal prototype of the berakah Paul deploys. Availability and thematic coherence (blessing the God who delivers and gives) support the link, though the volume is lower than the Psalter parallels, since the verbal overlap is only the opening 'Blessed be God.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 19:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Speak to all the congregation of the children of Israel, and tell them, ‘You shall be holy; for I, Yahweh your God, am holy.",
+                      "note": "'Holy and without defect before him' draws on the Holiness Code's 'You shall be holy, for I... am holy,' and the sacrificial demand that an offering be 'without blemish' (Lev 1:3; 22:21). Thematic coherence (Israel/offering presented blameless to God) is strong; the volume is diffuse because two strands of Levitical holiness merge.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 11:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“When Israel was a child, then I loved him, and called my son out of Egypt.",
+                      "note": "'When Israel was a child, I loved him, and out of Egypt I called my son' ties adoption to redemptive love and election, the same cluster Ephesians 1:4-6 fuses ('in love... adoption'). Recurrence with Exod 4:22 strengthens the sonship motif; the volume is thematic, marked medium because Ephesians does not cite the wording.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 22:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "'The Beloved' (en to egapemeno) evokes Isaac, 'your son, your only son, whom you love,' the beloved offered son — apt for a passage moving toward 'redemption through his blood.' Thematic coherence (beloved son, sacrifice) is good; the volume is moderate because 'Beloved' also draws on Psalm 2 and Isaiah 5 traditions.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "The royal decree 'You are my son; today I have begotten you,' read messianically in Second-Temple Judaism, undergirds the 'Beloved' Son in whom believers are adopted as sons. Recurrence of Psalm 2 in NT sonship texts and thematic coherence (divine sonship grounding adoption) support a medium-confidence echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill.",
+                      "note": "Isaiah's Song 'for my beloved' (to egapemeno LXX) is one of the LXX loci where ho egapemenos functions almost titularly, a possible reservoir for Ephesians' 'in the Beloved.' Availability is genuine, but volume and thematic coherence are weak here, so the echo is marked low and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:7-8",
+                  "echoes": [
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "'Redemption' (apolytrosis) maps onto the exodus paradigm: 'I will redeem you with an outstretched arm.' Volume is conceptual but strong; recurrence of redemption-from-Egypt language across the OT and thematic coherence with deliverance and possession (cf. 1:14) make the exodus the governing pattern for 'redemption through his blood.'"
+                    },
+                    {
+                      "source": "Exodus 24:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”",
+                      "note": "'Redemption through his blood' coupled with covenant draws on the blood of the covenant Moses dashed on the people, 'the blood of the covenant the LORD has made.' Thematic coherence (blood ratifying covenant deliverance) is solid; volume is moderate because Ephesians names redemption and forgiveness rather than covenant explicitly.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 43:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+                      "note": "'I have redeemed you; I have called you by name; you are mine' fuses redemption, calling, and possession exactly as Ephesians 1:7,14 do. Isaiah's new-exodus redemption is availably and thematically coherent with Paul's apolytrosis; medium because the link is motivic, not verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 130:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Israel, hope in Yahweh, for with Yahweh there is loving kindness. With him is abundant redemption. He will redeem Israel from all their sins.",
+                      "note": "'With the LORD... is plentiful redemption. He will redeem Israel from all his iniquities' joins redemption to forgiveness of sins, the precise pairing of Ephesians 1:7 ('redemption... the forgiveness of our trespasses'). Thematic coherence is high; volume moderate, so medium confidence.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:9-12",
+                  "echoes": [
+                    {
+                      "source": "Daniel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "but there is a God in heaven who reveals secrets, and he has made known to the king Nebuchadnezzar what shall be in the latter days. Your dream, and the visions of your head on your bed, are these: as for you, O king, your thoughts came on your bed, what should happen hereafter; and he who reveals secrets has made known to you what shall happen.",
+                      "note": "'Making known to us the mystery of his will' draws on Daniel's God 'who reveals mysteries' and 'made known... what will be.' Volume is strong (mysterion + the verb 'make known' is distinctively Danielic in the LXX); recurrence (Dan 2:19,30,47) and thematic coherence (eschatological disclosure of God's hidden purpose) make this the primary subtext for Ephesians' mystery language."
+                    },
+                    {
+                      "source": "Daniel 2:47",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The king answered to Daniel, and said, Of a truth your God is the God of gods, and the Lord of kings, and a revealer of secrets, since you have been able to reveal this secret.",
+                      "note": "'Your God is... a revealer of mysteries, since you could reveal this mystery' reinforces the Danielic provenance of 'the mystery of his will' made known. Recurrence within Daniel 2 strengthens the allusion; medium because it overlaps with 2:28-29 rather than adding distinct wording.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 46:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "declaring the end from the beginning, and from ancient times things that are not yet done; saying, My counsel shall stand, and I will do all my pleasure;",
+                      "note": "'Him who works all things after the counsel of his will' echoes Isaiah's God 'declaring the end from the beginning... my counsel shall stand, and I will accomplish all my purpose.' Thematic coherence (sovereign counsel/purpose executed in history) is strong; volume is moderate, hence a medium echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 4:35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All the inhabitants of the earth are reputed as nothing; and he does according to his will in the army of heaven, and among the inhabitants of the earth; and no one can stay his hand, or ask him, What are you doing?",
+                      "note": "'Works all things after the counsel of his will' resonates with Daniel's confession that God 'does according to his will... none can stay his hand.' Availability and thematic coherence (universal divine sovereignty) support a faint echo; volume is low, so it is marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 11:6-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The wolf will live with the lamb, and the leopard will lie down with the young goat; The calf, the young lion, and the fattened calf together; and a little child will lead them. The cow and the bear will graze. Their young ones will lie down together. The lion will eat straw like the ox. The nursing child will play near a cobra’s hole, and the weaned child will put his hand on the viper’s den. They will not hurt nor destroy in all my holy mountain; for […]",
+                      "note": "'To sum up all things in Christ, the things in the heavens and the things on the earth' may resonate with Isaiah's eschatological reconciliation of all creation under the Messianic shoot. Thematic coherence (cosmic harmony restored under the Anointed) is plausible but the volume is low; marked contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.5",
+                  "ref": "1:13-14",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit.",
+                      "note": "'Sealed with the Holy Spirit of promise' draws on the eschatological promise 'I will pour out my Spirit on all flesh.' The Spirit as 'of promise' coheres with Joel's prophetic gift inaugurating the last days; recurrence in Second-Temple expectation and thematic coherence (Spirit marking the eschatological people) support a high-confidence allusion."
+                    },
+                    {
+                      "source": "Ezekiel 36:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "'I will put my Spirit within you' is the new-covenant promise behind the indwelling 'Spirit of promise.' Thematic coherence (Spirit given to a redeemed possession, cleansed and made holy) matches Ephesians' election/holiness frame; recurrence with Ezek 37:14 and 39:29 strengthens the link."
+                    },
+                    {
+                      "source": "Deuteronomy 14:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For you are a holy people to Yahweh your God, and Yahweh has chosen you to be a people for his own possession, above all peoples who are on the face of the earth.",
+                      "note": "'The redemption of God's own possession' reproduces Deuteronomy's 'a people for his own possession (peripoiesis/segullah).' Volume is strong on the possession motif; recurrence (Deut 7:6; 26:18; Exod 19:5) and thematic coherence (redeemed people belonging to God) make this a controlling subtext for 1:14."
+                    },
+                    {
+                      "source": "Exodus 19:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Now therefore, if you will indeed obey my voice, and keep my covenant, then you shall be my own possession from among all peoples; for all the earth is mine;",
+                      "note": "'You shall be my own possession among all peoples' (segullah / LXX laos periousios) underlies 'the redemption of God's own possession.' Recurrence with Deut 7:6 and 14:2 and thematic coherence (covenant possession claimed and redeemed) reinforce the allusion; the volume on the possession concept is high."
+                    },
+                    {
+                      "source": "Haggai 2:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "In that day, says Yahweh of Armies, will I take you, Zerubbabel, my servant, the son of Shealtiel,’ says Yahweh, ‘and will make you as a signet, for I have chosen you,’ says Yahweh of Armies.”",
+                      "note": "'You were sealed' (esphragisthete) evokes Haggai's 'I will make you like a signet ring (sphragis), for I have chosen you,' which joins the seal image to divine election — the very pairing of Ephesians 1:4,13. Thematic coherence is strong; medium because the seal in Ephesians is the Spirit, not the person.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:8-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For he said, “Surely, they are my people, children who will not deal falsely:” so he was their Savior. In all their affliction he was afflicted, and the angel of his presence saved them: in his love and in his pity he redeemed them; and he bore them, and carried them all the days of old.",
+                      "note": "'They are my people... so he became their Savior... he redeemed them' joins God's people, Spirit, and redemption — the cluster of Ephesians 1:13-14. Thematic coherence is decent but the volume is faint, so this is a low, contested echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They shall be mine,” says Yahweh of Armies, “my own possession in the day that I make, and I will spare them, as a man spares his own son who serves him.",
+                      "note": "'They shall be mine, says the LORD of hosts, my own possession (segullah)' on the day God acts could reinforce 'the redemption of God's own possession' with an eschatological cast. Recurrence of the segullah term supports availability; volume is low, hence contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -773,7 +1111,184 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:10-13",
+                  "echoes": [
+                    {
+                      "source": "Sirach 24:7-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "With all these I sought rest; And in whose inheritance shall I lodge? Then the Creator of all things gave me a commandment; And he that created me made my tabernacle to rest, And said, Let your tabernacle be in Jacob, And your inheritance in Israel. He created me from the beginning before the world; And to the end I will not fail. In the holy tabernacle I ministered before him; And so was I established in Sion. In the beloved city likewise he gave me […]",
+                      "note": "Wisdom seeks a resting place among the nations and is given Israel as her inheritance; the motif of the agent of creation coming to her own people who variously receive or reject her underlies vv.10-11. Thematic coherence with the Wisdom-rejection pattern is strong; medium for lack of verbal contact."
+                    },
+                    {
+                      "source": "Proverbs 1:24-28",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Because I have called, and you have refused; I have stretched out my hand, and no one has paid attention; but you have ignored all my counsel, and wanted none of my reproof; I also will laugh at your disaster. I will mock when calamity overtakes you; when calamity overtakes you like a storm, when your disaster comes on like a whirlwind; when distress and anguish come on you. Then will they call on me, but I will not answer. They will seek me diligently, […]",
+                      "note": "Wisdom calls but is not received ('I called and you refused'), the rejection-of-Wisdom topos behind 'his own didn't receive him' (v.11). The motif of the personified divine agent spurned by her people coheres tightly with John's tragic note."
+                    },
+                    {
+                      "source": "1 Enoch 42:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "Wisdom finds no dwelling place among humans and returns to heaven, the most pointed Second-Temple parallel to the Word coming to his own and being rejected (vv.10-11). Pseudepigraphal but genuinely warranted here: the Wisdom-withdrawal pattern matches John's reversal closely. Contested as to direct dependence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 14:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You are the children of Yahweh your God. You shall not cut yourselves, nor make any baldness between your eyes for the dead.",
+                      "note": "'You are the children of the LORD your God' supplies the divine-sonship category recast as the 'right to become God's children' (v.12). Low confidence; the sonship-of-God-people motif is broad across the OT.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 32:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Of the Rock who became your father, you are unmindful, and have forgotten God who gave you birth.",
+                      "note": "'The God who gave you birth' offers a God-as-begetter image behind 'born... of God' (v.13). Faint and contested, but coheres with the divine-generation language that replaces ordinary descent.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'You are children of the living God,' the promise of new divine sonship to those who were not a people, resonates with becoming God's children by birth from God (vv.12-13). Low confidence; thematic rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:14-18",
+                  "echoes": [
+                    {
+                      "source": "Exodus 25:8-9",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Let them make me a sanctuary, that I may dwell among them. According to all that I show you, the pattern of the tabernacle, and the pattern of all of its furniture, even so you shall make it.",
+                      "note": "'The Word became flesh and lived (eskēnōsen, 'tabernacled') among us' deliberately evokes the sanctuary that God commanded so he might 'dwell among them.' The tabernacle-pitching verb is the load-bearing figural cue: the incarnate Word is the new tent of meeting. High volume and thematic coherence."
+                    },
+                    {
+                      "source": "Exodus 40:34-35",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Then the cloud covered the Tent of Meeting, and Yahweh’s glory filled the tabernacle. Moses wasn’t able to enter into the Tent of Meeting, because the cloud stayed on it, and Yahweh’s glory filled the tabernacle.",
+                      "note": "The glory of the LORD filling the tabernacle is the template for 'we saw his glory' (v.14): the indwelling Word manifests the kabod that once filled the tent. The tabernacle-plus-glory pairing makes the figural reading near-certain. High coherence and recurrence with the Sinai cycle."
+                    },
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "'Full of grace and truth' renders the LXX/Hebrew formula 'abounding in steadfast love (hesed) and faithfulness ('emet)' from God's self-revelation to Moses. This is the densest verbal-conceptual borrowing of the Prologue's climax (vv.14,17). Very high thematic coherence: the glory Israel saw at Sinai is now seen in the Word."
+                    },
+                    {
+                      "source": "Exodus 33:18-23",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "He said, “Please show me your glory.” He said, “I will make all my goodness pass before you, and will proclaim Yahweh’s name before you. I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy.” He said, “You cannot see my face, for man may not see me and live.” Yahweh also said, “Behold, there is a place by me, and you shall stand on the rock. It will happen, while my glory passes by, that I will put you in a cleft of […]",
+                      "note": "Moses' request to see God's glory, granted only as a passing of God's goodness while his face remains unseen, undergirds both 'we saw his glory' and 'no one has seen God at any time' (vv.14,18). The contrast (Moses denied the face; the Son makes God known) is structured directly on this scene."
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "'No one has seen God at any time' (v.18) closely restates 'you cannot see my face, for no one may see me and live.' High volume and a near-citation level of verbal coherence; the Son's making-God-known answers the Sinai limitation."
+                    },
+                    {
+                      "source": "Sirach 24:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then the Creator of all things gave me a commandment; And he that created me made my tabernacle to rest, And said, Let your tabernacle be in Jacob, And your inheritance in Israel.",
+                      "note": "Wisdom is commanded to 'pitch her tent (kataskēnōson) in Jacob,' the closest Second-Temple antecedent to the Word tabernacling among us (v.14). The tent-pitching verb plus the creation-agent identity makes Sirach 24 a primary source for the whole Prologue. High coherence and recurrence."
+                    },
+                    {
+                      "source": "Exodus 31:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He gave to Moses, when he finished speaking with him on Mount Sinai, the two tablets of the testimony, stone tablets, written with God’s finger.",
+                      "note": "'The law was given through Moses' (v.17) refers to the Sinai giving of the tablets 'written with the finger of God.' The Moses-law / Christ-grace antithesis is built on the Sinai law-giving as its foil. Secure availability and strong thematic coherence."
+                    },
+                    {
+                      "source": "Exodus 34:29-35",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "When Moses came down from Mount Sinai with the two tablets of the testimony in Moses’ hand, when he came down from the mountain, Moses didn’t know that the skin of his face shone by reason of his speaking with him. When Aaron and all the children of Israel saw Moses, behold, the skin of his face shone; and they were afraid to come near him. Moses called to them, and Aaron and all the rulers of the congregation returned to him; and Moses spoke to them. […]",
+                      "note": "Moses' face shining with reflected glory after seeing God contrasts with the Son who is himself the glory and declares the Father (vv.14,18). The Sinai-radiance scene reinforces the Moses-versus-Word comparison; medium for absence of direct verbal borrowing here."
+                    },
+                    {
+                      "source": "Deuteronomy 4:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to you out of the midst of the fire: you heard the voice of words, but you saw no form; you only heard a voice.",
+                      "note": "At Horeb Israel heard a voice but 'saw no form,' the unseen-God theme behind v.18. The motif of God unseen yet now declared by the Son coheres with John's Sinai contrast; medium confidence."
+                    },
+                    {
+                      "source": "Proverbs 8:30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "then I was the craftsman by his side. I was a delight day by day, always rejoicing before him,",
+                      "note": "Wisdom beside God as the delighting child/craftsman supports 'the one and only Son, who is in the bosom of the Father' (v.18), the intimate, eternal closeness of the agent to God. Coheres with the Wisdom substrate established in the opening; medium."
+                    },
+                    {
+                      "source": "Wisdom 7:25-26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For she is a breath of the power of God, And a clear effluence of the glory of the Almighty; Therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "Wisdom as the radiance of God's glory and image of his goodness underlies 'we saw his glory' and the Son as the one who makes the unseen God known (vv.14,18). Reinforces the glory/visibility theme; medium for conceptual rather than verbal link."
+                    },
+                    {
+                      "source": "Numbers 14:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "‘Yahweh is slow to anger, and abundant in loving kindness, forgiving iniquity and disobedience; and that will by no means clear the guilty, visiting the iniquity of the fathers on the children, on the third and on the fourth generation.’",
+                      "note": "The 'grace and truth' (hesed-we-emet) divine-attribute formula recurs in Moses' intercession, strengthening recurrence of the Exodus 34:6 source behind v.14/17. Listed low because Exodus 34:6 is the primary locus; this is a secondary witness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 85:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Mercy and truth meet together. Righteousness and peace have kissed each other.",
+                      "note": "'Steadfast love and faithfulness meet together' pairs hesed and 'emet, the same word-pair behind 'grace and truth.' Faint and contested as a direct source, but evidences the recurrence of the formula in Israel's vocabulary.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Word made flesh",
+                      "section": "beginnings",
+                      "refs": {
+                        "john": "1:1–18"
+                      },
+                      "note": "John alone begins before time itself — \"In the beginning was the Word\" — where the others begin with a birth or a baptism."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

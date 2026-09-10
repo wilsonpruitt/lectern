@@ -615,7 +615,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/job-42"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Job 42:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.18.24-Luke.18.30",
+                      "refDisplay": "Luke 18:24–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-18.5"
+                    },
+                    {
+                      "refKey": "Matt.19.23-Matt.19.26",
+                      "refDisplay": "Matthew 19:23–26",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.6"
+                    },
+                    {
+                      "refKey": "Mark.10.23-Mark.10.31",
+                      "refDisplay": "Mark 10:23–31",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-10.4"
+                    },
+                    {
+                      "refKey": "Luke.1.34-Luke.1.38",
+                      "refDisplay": "Luke 1:34–38",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.8"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -628,7 +681,105 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-34"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 34:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.19-Phil.1.26",
+                      "refDisplay": "Philippians 1:19–26",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.5"
+                    },
+                    {
+                      "refKey": "Acts.19.13-Acts.19.17",
+                      "refDisplay": "Acts 19:13–17",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "19.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-19.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.5.18-Eph.5.21",
+                      "refDisplay": "Ephesians 5:18–21",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "5.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-5.5"
+                    },
+                    {
+                      "refKey": "1Thess.5.16-1Thess.5.22",
+                      "refDisplay": "1 Thessalonians 5:16–22",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "5.16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-5.16"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.2.1-1Pet.2.3",
+                      "refDisplay": "1 Peter 2:1–3",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.1"
+                    },
+                    {
+                      "refKey": "1Thess.5.16-1Thess.5.22",
+                      "refDisplay": "1 Thessalonians 5:16–22",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "5.16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-5.16"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.6-Acts.12.11",
+                      "refDisplay": "Acts 12:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-12.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -641,7 +792,10 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -660,7 +814,93 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.7",
+                  "ref": "10:46-52",
+                  "echoes": [
+                    {
+                      "source": "2 Samuel 7:12-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men; but my loving kindness shall not […]",
+                      "note": "Bartimaeus hails Jesus as 'Son of David,' invoking the Davidic covenant promise of an everlasting throne to David's offspring. The acclamation is messianic, identifying Jesus as the promised royal heir as he approaches Jerusalem. The title's covenantal weight and its placement before the entry give the allusion high Volume."
+                    },
+                    {
+                      "source": "Isaiah 35:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then the eyes of the blind will be opened, and the ears of the deaf will be unstopped.",
+                      "note": "'Then the eyes of the blind shall be opened' is the prophetic sign of the coming salvation, fulfilled as Bartimaeus 'received his sight.' The opening of blind eyes marks the in-breaking of God's redemptive reign, coherent with Mark's framing of Jesus' mighty works. Strong Volume and a recurrent Isaianic restoration motif."
+                    },
+                    {
+                      "source": "Psalm 146:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh opens the eyes of the blind. Yahweh raises up those who are bowed down. Yahweh loves the righteous.",
+                      "note": "'The LORD opens the eyes of the blind,' a direct attribution to God of the act Jesus performs, framing the healing as divine work. The psalm's catalogue of the LORD's saving deeds for the afflicted coheres with the beggar's restoration. The verbal match on opening blind eyes raises the allusion above generic."
+                    },
+                    {
+                      "source": "Isaiah 42:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "to open the blind eyes, to bring the prisoners out of the dungeon, and those who sit in darkness out of the prison.",
+                      "note": "The Servant is given 'to open the eyes that are blind,' tying the sight-giving to the Servant's commission Mark develops in this chapter. The healing thus enacts the Servant program alongside the ransom saying. Coherence with the chapter's Servant theology supports the link."
+                    },
+                    {
+                      "source": "Psalm 6:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Have mercy on me, Yahweh, for I am faint. Yahweh, heal me, for my bones are troubled.",
+                      "note": "'Have mercy on me, O LORD' is the recurrent psalmic cry for mercy that Bartimaeus repeats ('have mercy on me'). The petition voices the lament-form plea for divine compassion now directed to the Son of David. The Recurrence of 'have mercy on me' across the Psalter (Pss 6, 9, 41, 51) supports the echo; marked contested as a liturgical commonplace.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 29:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In that day, the deaf will hear the words of the book, and the eyes of the blind will see out of obscurity and out of darkness.",
+                      "note": "'The eyes of the blind shall see out of obscurity and out of darkness' adds to the Isaianic chorus of restored sight behind the healing. It reinforces Recurrence of the opened-eyes promise. Contested and low: secondary to Isaiah 35:5.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions.",
+                      "note": "'Have mercy on me, O God, according to your steadfast love' is the best-known of the mercy-pleas and shapes the form of Bartimaeus' cry. It supplies the penitential-petition register. Contested and low: the cry is a stock liturgical phrase rather than a citation of this psalm specifically.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Blind Bartimaeus at Jericho",
+                      "section": "journey",
+                      "refs": {
+                        "matthew": "20:29–34",
+                        "mark": "10:46–52",
+                        "luke": "18:35–43"
+                      },
+                      "note": "Mark alone gives the beggar his name; Matthew gives two blind men."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1333,7 +1573,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-31"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Jeremiah 31:9",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.6.18",
+                      "refDisplay": "2 Corinthians 6:18",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "6.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-6.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1346,7 +1609,85 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-126"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 126:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.6.20-Luke.6.23",
+                      "refDisplay": "Luke 6:20–23",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-6.5"
+                    },
+                    {
+                      "refKey": "John.4.31-John.4.38",
+                      "refDisplay": "John 4:31–38",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "4.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-4.6"
+                    },
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "John.12.20-John.12.26",
+                      "refDisplay": "John 12:20–26",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "12.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-12.4"
+                    },
+                    {
+                      "refKey": "Gal.6.6-Gal.6.10",
+                      "refDisplay": "Galatians 6:6–10",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-6.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 126:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.46-Luke.1.50",
+                      "refDisplay": "Luke 1:46–50",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.10"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1359,7 +1700,10 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1378,7 +1722,93 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.7",
+                  "ref": "10:46-52",
+                  "echoes": [
+                    {
+                      "source": "2 Samuel 7:12-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men; but my loving kindness shall not […]",
+                      "note": "Bartimaeus hails Jesus as 'Son of David,' invoking the Davidic covenant promise of an everlasting throne to David's offspring. The acclamation is messianic, identifying Jesus as the promised royal heir as he approaches Jerusalem. The title's covenantal weight and its placement before the entry give the allusion high Volume."
+                    },
+                    {
+                      "source": "Isaiah 35:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then the eyes of the blind will be opened, and the ears of the deaf will be unstopped.",
+                      "note": "'Then the eyes of the blind shall be opened' is the prophetic sign of the coming salvation, fulfilled as Bartimaeus 'received his sight.' The opening of blind eyes marks the in-breaking of God's redemptive reign, coherent with Mark's framing of Jesus' mighty works. Strong Volume and a recurrent Isaianic restoration motif."
+                    },
+                    {
+                      "source": "Psalm 146:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh opens the eyes of the blind. Yahweh raises up those who are bowed down. Yahweh loves the righteous.",
+                      "note": "'The LORD opens the eyes of the blind,' a direct attribution to God of the act Jesus performs, framing the healing as divine work. The psalm's catalogue of the LORD's saving deeds for the afflicted coheres with the beggar's restoration. The verbal match on opening blind eyes raises the allusion above generic."
+                    },
+                    {
+                      "source": "Isaiah 42:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "to open the blind eyes, to bring the prisoners out of the dungeon, and those who sit in darkness out of the prison.",
+                      "note": "The Servant is given 'to open the eyes that are blind,' tying the sight-giving to the Servant's commission Mark develops in this chapter. The healing thus enacts the Servant program alongside the ransom saying. Coherence with the chapter's Servant theology supports the link."
+                    },
+                    {
+                      "source": "Psalm 6:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Have mercy on me, Yahweh, for I am faint. Yahweh, heal me, for my bones are troubled.",
+                      "note": "'Have mercy on me, O LORD' is the recurrent psalmic cry for mercy that Bartimaeus repeats ('have mercy on me'). The petition voices the lament-form plea for divine compassion now directed to the Son of David. The Recurrence of 'have mercy on me' across the Psalter (Pss 6, 9, 41, 51) supports the echo; marked contested as a liturgical commonplace.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 29:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In that day, the deaf will hear the words of the book, and the eyes of the blind will see out of obscurity and out of darkness.",
+                      "note": "'The eyes of the blind shall see out of obscurity and out of darkness' adds to the Isaianic chorus of restored sight behind the healing. It reinforces Recurrence of the opened-eyes promise. Contested and low: secondary to Isaiah 35:5.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions.",
+                      "note": "'Have mercy on me, O God, according to your steadfast love' is the best-known of the mercy-pleas and shapes the form of Bartimaeus' cry. It supplies the penitential-petition register. Contested and low: the cry is a stock liturgical phrase rather than a citation of this psalm specifically.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Blind Bartimaeus at Jericho",
+                      "section": "journey",
+                      "refs": {
+                        "matthew": "20:29–34",
+                        "mark": "10:46–52",
+                        "luke": "18:35–43"
+                      },
+                      "note": "Mark alone gives the beggar his name; Matthew gives two blind men."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

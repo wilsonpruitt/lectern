@@ -202,7 +202,10 @@ def build(occ: dict, rcl_tags: dict, sermons: dict, hymns: list[dict],
             "lenses": {
                 "readings": [
                     {"role": r["role"], "ref": r["ref"], "refKey": r["refKey"],
-                     "links": conn.reading_links(r["refKey"])}
+                     "links": conn.reading_links(r["refKey"]),
+                     "echoes": conn.catena_echoes(r["refKey"]),
+                     "chronology": conn.annales_chronology(r["refKey"]),
+                     "map": conn.topographia_map(r["refKey"])}
                     for r in readings
                 ],
                 "doctrine": conn.doctrine_links(day_themes),

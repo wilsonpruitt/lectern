@@ -603,7 +603,69 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-7"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 7:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.1.18-Matt.1.25",
+                      "refDisplay": "Matthew 1:18–25",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "1.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-1.2"
+                    },
+                    {
+                      "refKey": "Matt.28.16-Matt.28.20",
+                      "refDisplay": "Matthew 28:16–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "28.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-28.3"
+                    },
+                    {
+                      "refKey": "Luke.1.26-Luke.1.33",
+                      "refDisplay": "Luke 1:26–33",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "The Divided Monarchy",
+                  "editionUrl": "https://annales.wrootpress.com/divided-monarchy",
+                  "spans": [],
+                  "events": [
+                    {
+                      "year": -734,
+                      "label": "The Syro-Ephraimite war",
+                      "ref": "2 Kings 16 · Isaiah 7",
+                      "kind": "battle",
+                      "approx": null,
+                      "note": "Pekah of Israel and Rezin of Aram march on Jerusalem to force Judah into their coalition against Assyria. Ahaz buys Tiglath-Pileser III instead, who strips Galilee. To Ahaz, Isaiah gives the sign of Immanuel."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           },
           {
             "role": "psalm",
@@ -616,7 +678,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-80"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -635,7 +700,78 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-7",
+                  "echoes": [
+                    {
+                      "source": "2 Samuel 7:12-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men;",
+                      "note": "'Born of the seed of David' and 'declared Son of God' (vv.3-4) invoke the Nathan oracle: Davidic seed whom God will establish and call son. High thematic coherence (royal-messianic sonship) and strong conceptual recurrence in early Christian use.",
+                      "altSource": "Psalm 89:3-4"
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "'Declared to be the Son of God with power... by the resurrection' echoes the enthronement decree 'You are my Son'; standard messianic proof-text read of Christ's vindication. Strong thematic coherence with Davidic sonship; satisfaction high."
+                    },
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "'Good News of God' (euangelion) draws on the Isaianic herald who announces good tidings; Paul's gospel vocabulary recurrently leans on Isaiah's heralding of salvation. Thematic coherence high with Romans' Isaiah-saturated argument; volume moderate.",
+                      "altSource": "Isaiah 40:9"
+                    },
+                    {
+                      "source": "Habakkuk 2:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "The gospel 'promised before' (v.2) and the apostolic 'set apart' echo the prophetic-promise schema; faint thematic link to the awaited word that surely comes. Low volume, no verbal borrowing here, but coheres with the Hab 2:4 citation in 1:17.",
+                      "contested": true,
+                      "lxxText": "For the vision is yet for a time, and it shall shoot forth at the end, and not in vain: though he should tarry, wait for him; for he will surely come, and will not tarry."
+                    },
+                    {
+                      "source": "Isaiah 61:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound;",
+                      "note": "Set-apart, Spirit-anointed proclamation of good news. Faint; supports the euangelizo background but little distinctive verbal contact.",
+                      "contested": true,
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind;"
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "Resurrection-enthronement of 'our Lord' faintly invokes the royal session psalm pervasive in NT Christology. Low verbal volume here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 11:1-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "A shoot will come out of the stock of Jesse, and a branch out of his roots will bear fruit. The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh. His delight will be in the fear of Yahweh. He will not judge by the sight of his eyes, neither decide by the hearing of his ears; but with righteousness he will judge the poor, and decide with equity for […]",
+                      "note": "Davidic shoot bringing the nations to obedience; 'obedience of faith among all the nations' coheres with the root-of-Jesse hope (cf. Rom 15:12 quoting Isa 11:10). Anticipatory, faint here.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -654,7 +790,127 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:18-25",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 7:14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore the Lord himself will give you a sign. Behold, the virgin will conceive, and bear a son, and shall call his name Immanuel.",
+                      "note": "Matthew's first formula citation: 'that it might be fulfilled which was spoken by the Lord through the prophet' (v.22) introduces a near-verbatim quotation of LXX Isa 7:14 — 'the virgin (parthenos) shall be with child and shall bear a son, and they shall call his name Immanuel' (v.23). The paradigm fulfillment quotation: maximal volume, explicit citation formula, heavy rhetorical stress; Matthew uses such formulae throughout (recurrence very high); thematic coherence is the structural core of the pericope."
+                    },
+                    {
+                      "source": "Psalm 130:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He will redeem Israel from all their sins.",
+                      "note": "'He shall save his people from their sins' (v.21) closely echoes Ps 130:8 ('he will redeem Israel from all his iniquities'). Volume high (the distinctive collocation of saving the people from sins, not merely from enemies); thematic coherence strong — it interprets the name 'Jesus/Yeshua' (= 'YHWH saves') and sets the soteriological program of the Gospel.",
+                      "altSource": "Psalm 25:22"
+                    },
+                    {
+                      "source": "Isaiah 8:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "It will sweep onward into Judah. It will overflow and pass through; it will reach even to the neck; and the stretching out of its wings will fill the breadth of your land, Immanuel.",
+                      "note": "The interpretive gloss 'Immanuel … God with us' (v.23) draws on the recurrence of 'Immanu-el' in Isaiah 8:8, 10 ('for God is with us'), where the name is unpacked. Volume moderate (shared name and its meaning); thematic coherence strong — Matthew makes 'God with us' an inclusio with 28:20 ('I am with you always')."
+                    },
+                    {
+                      "source": "Isaiah 8:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Take counsel together, and it will be brought to nothing; speak the word, and it will not stand: for God is with us.”",
+                      "note": "'God is with us' (LXX 'meth' hemon ho theos') in Isa 8:10 supplies the very wording of Matthew's translation of Immanuel (v.23). Parallel precursor to 8:8; together they ground Matthew's editorial gloss.",
+                      "altSource": "Isaiah 7:14"
+                    },
+                    {
+                      "source": "Genesis 17:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God said, “No, but Sarah, your wife, will bear you a son. You shall call his name Isaac. I will establish my covenant with him for an everlasting covenant for his seed after him.",
+                      "note": "The angelic announcement pattern — a son foretold, with a divinely mandated name and a stated destiny ('you shall call his name … for …', vv.20-21) — follows the OT birth-annunciation type-scene, as with Isaac ('you shall call his name Isaac'). Volume moderate (form-critical/syntactic borrowing of the naming formula); thematic coherence with the announcement genre.",
+                      "altSource": "Genesis 16:11"
+                    },
+                    {
+                      "source": "Genesis 16:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh’s angel said to her, “Behold, you are with child, and will bear a son. You shall call his name Ishmael, because Yahweh has heard your affliction.",
+                      "note": "The Hagar annunciation — 'you shall bear a son, and you shall call his name Ishmael, because the LORD has heard your affliction' — is the closest formal template for v.21's structure ('she shall bear a son, and you shall call his name Jesus, for he shall save…'): pregnancy + naming + 'for/because' rationale tying name to meaning. Verbal/syntactic parallel gives this allusion-level volume.",
+                      "altSource": "Judges 13:5"
+                    },
+                    {
+                      "source": "Judges 13:3-5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh’s angel appeared to the woman, and said to her, “See now, you are barren, and don’t bear; but you shall conceive, and bear a son. Now therefore please beware and drink no wine nor strong drink, and don’t eat any unclean thing: for, behold, you shall conceive, and bear a son; and no razor shall come on his head; for the child shall be a Nazirite to God from the womb: and he shall begin to save Israel out of the hand of the Philistines.”",
+                      "note": "The Samson annunciation (angel appears, announces a son who 'shall begin to save Israel') parallels both the angelic appearance and the savior-of-his-people destiny of vv.20-21. Thematic coherence high (deliverer-of-the-people motif); verbal volume moderate.",
+                      "altSource": "Genesis 16:11"
+                    },
+                    {
+                      "source": "Joshua 1:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Now after the death of Moses the servant of Yahweh, Yahweh spoke to Joshua the son of Nun, Moses’ servant, saying,",
+                      "note": "The name 'Jesus' (Iesous) is the Greek form of Joshua/Yeshua, 'YHWH saves'; v.21's etymological wordplay ('Jesus, for he shall save') trades on that name. Recurrence of Joshua-as-deliverer typology gives modest volume; thematic coherence with the savior motif.",
+                      "contested": true,
+                      "altSource": "Numbers 13:16"
+                    },
+                    {
+                      "source": "Genesis 6:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "This is the history of the generations of Noah: Noah was a righteous man, blameless among the people of his time. Noah walked with God.",
+                      "note": "Joseph being called 'a righteous man' (dikaios, v.19) places him in the OT line of the righteous (Noah 'a righteous man'; Job). Faint characterizing echo of the biblical 'tsaddiq' ideal; low volume, no specific borrowing.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 37:5-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Joseph dreamed a dream, and he told it to his brothers, and they hated him all the more. He said to them, “Please hear this dream which I have dreamed: for behold, we were binding sheaves in the field, and behold, my sheaf arose and also stood upright; and behold, your sheaves came around, and bowed down to my sheaf.” His brothers said to him, “Will you indeed reign over us? Or will you indeed have dominion over us?” They hated him all the more for his […]",
+                      "note": "Joseph 'son of David' (v.20) receiving divine guidance through dreams faintly recalls the patriarch Joseph, the dreamer of Genesis — a 'Joseph who heeds dreams' typology Matthew sustains across the infancy narrative (2:13, 19, 22). Recurrence within Matthew lends some weight, but verbal volume is low, so contested.",
+                      "contested": true,
+                      "altSource": "Genesis 40:8"
+                    },
+                    {
+                      "source": "Deuteronomy 22:23-24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If there is a young lady who is a virgin pledged to be married to a husband, and a man finds her in the city, and lies with her; then you shall bring them both out to the gate of that city, and you shall stone them to death with stones; the lady, because she didn’t cry, being in the city; and the man, because he has humbled his neighbor’s wife. So you shall remove the evil from your midst.",
+                      "note": "Joseph's dilemma over a betrothed woman 'found pregnant' and his option to act privately rather than 'make her a public example' (vv.18-19) presupposes the Mosaic law on a betrothed woman's infidelity. Legal background rather than verbal citation; low volume, included for thematic completeness.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Joseph's dream and the birth",
+                      "section": "beginnings",
+                      "refs": {
+                        "matthew": "1:18–25"
+                      },
+                      "note": "Matthew tells the Nativity from Joseph's side — the dream, the name, Emmanuel, \"God with us.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

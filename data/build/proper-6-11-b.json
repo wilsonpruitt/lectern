@@ -604,7 +604,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/1-samuel-15"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -617,7 +620,10 @@
                 "label": "Index Fontium",
                 "url": "https://catena.wrootpress.com/fontium"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -636,7 +642,65 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.2",
+                  "ref": "5:6-10",
+                  "echoes": [
+                    {
+                      "source": "Ecclesiastes 12:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For God will bring every work into judgment, with every hidden thing, whether it is good, or whether it is evil.",
+                      "note": "Qoheleth's conclusion that 'God will bring every deed into judgment, with every secret thing, whether good or evil' is closely paralleled by 'each one may receive the things in the body... whether good or bad.' The good/evil pairing and universal accounting are strongly coherent; high volume of shared content makes the judgment-of-deeds echo secure."
+                    },
+                    {
+                      "source": "Habakkuk 2:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith.",
+                      "note": "'We walk by faith, not by sight' restates the Habakkuk principle that the righteous live by faith/faithfulness, a text Paul cites programmatically elsewhere (Rom 1:17; Gal 3:11). The verbal echo is loose but the theological content—life ordered by trust rather than visible evidence—coheres tightly with Habakkuk's contrast between the proud who rely on sight and the faithful who wait.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 62:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Also to you, Lord, belongs loving kindness, for you reward every man according to his work.",
+                      "note": "'You repay everyone according to what they have done' supplies the recompense logic of the judgment seat where each receives according to deeds. Recurrence is notable: this 'render according to works' formula recurs across the OT (Prov 24:12; Jer 17:10) and Paul invokes it at Rom 2:6, supporting its presence here."
+                    },
+                    {
+                      "source": "Proverbs 24:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If you say, “Behold, we didn’t know this”; doesn’t he who weighs the hearts consider it? He who keeps your soul, doesn’t he know it? Shall he not render to every man according to his work?",
+                      "note": "'Will he not repay everyone according to their deeds?'—God who weighs the heart renders to each by works, matching the judgment-seat recompense. The proverb's emphasis that God sees and requites secret action coheres with Paul's 'revealed before the judgment seat.' Part of a recurrent OT recompense cluster behind 5:10."
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD search the heart... to give every man according to his ways, according to the fruit of his deeds.' The heart-searching judge who recompenses deeds undergirds Paul's appearance before Christ's judgment seat. Coherent with the recompense motif and reinforced by recurrence across the OT requital tradition."
+                    },
+                    {
+                      "source": "Numbers 12:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "With him, I will speak mouth to mouth, even plainly, and not in riddles; and he shall see Yahweh’s form. Why then were you not afraid to speak against my servant, against Moses?”",
+                      "note": "God speaks with Moses 'mouth to mouth, clearly, and not in dark speech,' and Moses 'beholds the form of the LORD'—the privileged sight Paul defers until the believer is 'at home with the Lord.' The faith-now / sight-later structure faintly recalls the Moses-vs-ordinary-prophet distinction. Low volume; contested as a general topos of seeing God rather than a targeted allusion.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -655,7 +719,101 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.7",
+                  "ref": "4:26-29",
+                  "echoes": [
+                    {
+                      "source": "Joel 3:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Put in the sickle; for the harvest is ripe. Come, tread, for the wine press is full, the vats overflow, for their wickedness is great.”",
+                      "note": "The harvest climax 'he puts in the sickle, because the harvest has come' (4:29) closely echoes Joel's 'Put in the sickle; for the harvest is ripe.' The verbal overlap of sickle-and-ripe-harvest is distinctive (high volume) and coheres with Mark's eschatological framing of the kingdom's arrival as a reaping, making this the pericope's strongest link."
+                    },
+                    {
+                      "source": "Genesis 1:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said, “Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth”; and it was so. The earth yielded grass, herbs yielding seed after their kind, and trees bearing fruit, with their seeds in it, after their kind; and God saw that it was good.",
+                      "note": "The earth bearing fruit 'of itself' (automate)—blade, ear, full grain (4:28)—recalls the creation account of the earth bringing forth vegetation yielding seed after its kind. The motif of the earth's God-given autonomous fertility is thematically coherent, though Mark gives no verbal citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 19:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, neither shall you gather the gleanings of your harvest.",
+                      "note": "The image of grain ripening to harvest draws on the broader Torah harvest framework, but the link is generic. Included for maximality; volume and distinctiveness are low and the coherence is only with the agricultural setting.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.8",
+                  "ref": "4:30-32",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 17:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "in the mountain of the height of Israel will I plant it; and it shall produce boughs, and bear fruit, and be a goodly cedar: and under it shall dwell all birds of every wing; in the shade of its branches shall they dwell.",
+                      "note": "The mustard plant that puts out 'great branches, so that the birds of the sky can lodge under its shadow' (4:32) reworks Ezekiel's noble cedar planted on the mountain under which 'all birds of every wing' dwell in the shadow of its branches. The branches-shadow-birds-nesting cluster is verbally and thematically tight (high volume), and the imperial-tree-as-kingdom motif coheres with Mark's kingdom parable."
+                    },
+                    {
+                      "source": "Daniel 4:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The leaves of it were beautiful, and its fruit much, and in it was food for all: the animals of the field had shadow under it, and the birds of the sky lived in its branches, and all flesh was fed from it.",
+                      "note": "Nebuchadnezzar's tree whose branches shelter the beasts and in which 'the birds of the sky lived' supplies the proverbial great-tree-with-nesting-birds image behind 4:32. The recurrence of this kingdom-tree topos (Daniel 4:21 repeats it) gives strong availability and coherence with the contrast between the tiny seed and the sheltering kingdom."
+                    },
+                    {
+                      "source": "Ezekiel 31:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the birds of the sky made their nests in its boughs; and under its branches all the animals of the field gave birth to their young; and all great nations lived under its shadow.",
+                      "note": "Ezekiel's Assyrian cedar in whose boughs 'all the birds of the sky made their nests' and under whose shadow great nations lived belongs to the same world-tree tradition Mark evokes. The shared birds-nest-in-the-shadow image reinforces recurrence across the prophetic kingdom-tree corpus."
+                    },
+                    {
+                      "source": "Daniel 4:21",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "whose leaves were beautiful, and its fruit much, and in it was food for all; under which the animals of the field lived, and on whose branches the birds of the sky had their habitation:",
+                      "note": "The reprise of the tree 'in whose branches the birds of the sky lived' restates the Danielic kingdom-tree, strengthening the topos behind 4:32 by recurrence within a single source. Its function is to confirm the availability of the great-tree-as-dominion symbol rather than to add new wording.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 104:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The birds of the sky nest by them. They sing among the branches.",
+                      "note": "The psalm's 'birds of the sky' that nest by the branches and sing reflects the same creation-poetic image of birds lodging in foliage. It is a faint, generic parallel that adds coherence to the nesting-birds detail but lacks the kingdom-tree distinctiveness of Ezekiel and Daniel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.9",
+                  "ref": "4:33-34",
+                  "echoes": [
+                    {
+                      "source": "Psalm 78:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will open my mouth in a parable. I will utter dark sayings of old,",
+                      "note": "The summary that Jesus spoke 'without a parable he didn't speak to them' resonates with the psalmist's 'I will open my mouth in a parable; I will utter dark sayings of old.' The link between exclusive parabolic teaching and revealed/concealed wisdom is thematically coherent, though for Mark it is faint and uncited.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1264,7 +1422,50 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/ezekiel-17"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Ezekiel 17:23",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.31-Matt.13.32",
+                      "refDisplay": "Matthew 13:31–32",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.5"
+                    },
+                    {
+                      "refKey": "Mark.4.30-Mark.4.32",
+                      "refDisplay": "Mark 4:30–32",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-4.8"
+                    },
+                    {
+                      "refKey": "Luke.13.18-Luke.13.19",
+                      "refDisplay": "Luke 13:18–19",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1277,7 +1478,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-92"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1296,7 +1500,65 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.2",
+                  "ref": "5:6-10",
+                  "echoes": [
+                    {
+                      "source": "Ecclesiastes 12:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For God will bring every work into judgment, with every hidden thing, whether it is good, or whether it is evil.",
+                      "note": "Qoheleth's conclusion that 'God will bring every deed into judgment, with every secret thing, whether good or evil' is closely paralleled by 'each one may receive the things in the body... whether good or bad.' The good/evil pairing and universal accounting are strongly coherent; high volume of shared content makes the judgment-of-deeds echo secure."
+                    },
+                    {
+                      "source": "Habakkuk 2:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith.",
+                      "note": "'We walk by faith, not by sight' restates the Habakkuk principle that the righteous live by faith/faithfulness, a text Paul cites programmatically elsewhere (Rom 1:17; Gal 3:11). The verbal echo is loose but the theological content—life ordered by trust rather than visible evidence—coheres tightly with Habakkuk's contrast between the proud who rely on sight and the faithful who wait.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 62:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Also to you, Lord, belongs loving kindness, for you reward every man according to his work.",
+                      "note": "'You repay everyone according to what they have done' supplies the recompense logic of the judgment seat where each receives according to deeds. Recurrence is notable: this 'render according to works' formula recurs across the OT (Prov 24:12; Jer 17:10) and Paul invokes it at Rom 2:6, supporting its presence here."
+                    },
+                    {
+                      "source": "Proverbs 24:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If you say, “Behold, we didn’t know this”; doesn’t he who weighs the hearts consider it? He who keeps your soul, doesn’t he know it? Shall he not render to every man according to his work?",
+                      "note": "'Will he not repay everyone according to their deeds?'—God who weighs the heart renders to each by works, matching the judgment-seat recompense. The proverb's emphasis that God sees and requites secret action coheres with Paul's 'revealed before the judgment seat.' Part of a recurrent OT recompense cluster behind 5:10."
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD search the heart... to give every man according to his ways, according to the fruit of his deeds.' The heart-searching judge who recompenses deeds undergirds Paul's appearance before Christ's judgment seat. Coherent with the recompense motif and reinforced by recurrence across the OT requital tradition."
+                    },
+                    {
+                      "source": "Numbers 12:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "With him, I will speak mouth to mouth, even plainly, and not in riddles; and he shall see Yahweh’s form. Why then were you not afraid to speak against my servant, against Moses?”",
+                      "note": "God speaks with Moses 'mouth to mouth, clearly, and not in dark speech,' and Moses 'beholds the form of the LORD'—the privileged sight Paul defers until the believer is 'at home with the Lord.' The faith-now / sight-later structure faintly recalls the Moses-vs-ordinary-prophet distinction. Low volume; contested as a general topos of seeing God rather than a targeted allusion.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1315,7 +1577,101 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.7",
+                  "ref": "4:26-29",
+                  "echoes": [
+                    {
+                      "source": "Joel 3:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Put in the sickle; for the harvest is ripe. Come, tread, for the wine press is full, the vats overflow, for their wickedness is great.”",
+                      "note": "The harvest climax 'he puts in the sickle, because the harvest has come' (4:29) closely echoes Joel's 'Put in the sickle; for the harvest is ripe.' The verbal overlap of sickle-and-ripe-harvest is distinctive (high volume) and coheres with Mark's eschatological framing of the kingdom's arrival as a reaping, making this the pericope's strongest link."
+                    },
+                    {
+                      "source": "Genesis 1:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said, “Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth”; and it was so. The earth yielded grass, herbs yielding seed after their kind, and trees bearing fruit, with their seeds in it, after their kind; and God saw that it was good.",
+                      "note": "The earth bearing fruit 'of itself' (automate)—blade, ear, full grain (4:28)—recalls the creation account of the earth bringing forth vegetation yielding seed after its kind. The motif of the earth's God-given autonomous fertility is thematically coherent, though Mark gives no verbal citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 19:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, neither shall you gather the gleanings of your harvest.",
+                      "note": "The image of grain ripening to harvest draws on the broader Torah harvest framework, but the link is generic. Included for maximality; volume and distinctiveness are low and the coherence is only with the agricultural setting.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.8",
+                  "ref": "4:30-32",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 17:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "in the mountain of the height of Israel will I plant it; and it shall produce boughs, and bear fruit, and be a goodly cedar: and under it shall dwell all birds of every wing; in the shade of its branches shall they dwell.",
+                      "note": "The mustard plant that puts out 'great branches, so that the birds of the sky can lodge under its shadow' (4:32) reworks Ezekiel's noble cedar planted on the mountain under which 'all birds of every wing' dwell in the shadow of its branches. The branches-shadow-birds-nesting cluster is verbally and thematically tight (high volume), and the imperial-tree-as-kingdom motif coheres with Mark's kingdom parable."
+                    },
+                    {
+                      "source": "Daniel 4:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The leaves of it were beautiful, and its fruit much, and in it was food for all: the animals of the field had shadow under it, and the birds of the sky lived in its branches, and all flesh was fed from it.",
+                      "note": "Nebuchadnezzar's tree whose branches shelter the beasts and in which 'the birds of the sky lived' supplies the proverbial great-tree-with-nesting-birds image behind 4:32. The recurrence of this kingdom-tree topos (Daniel 4:21 repeats it) gives strong availability and coherence with the contrast between the tiny seed and the sheltering kingdom."
+                    },
+                    {
+                      "source": "Ezekiel 31:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the birds of the sky made their nests in its boughs; and under its branches all the animals of the field gave birth to their young; and all great nations lived under its shadow.",
+                      "note": "Ezekiel's Assyrian cedar in whose boughs 'all the birds of the sky made their nests' and under whose shadow great nations lived belongs to the same world-tree tradition Mark evokes. The shared birds-nest-in-the-shadow image reinforces recurrence across the prophetic kingdom-tree corpus."
+                    },
+                    {
+                      "source": "Daniel 4:21",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "whose leaves were beautiful, and its fruit much, and in it was food for all; under which the animals of the field lived, and on whose branches the birds of the sky had their habitation:",
+                      "note": "The reprise of the tree 'in whose branches the birds of the sky lived' restates the Danielic kingdom-tree, strengthening the topos behind 4:32 by recurrence within a single source. Its function is to confirm the availability of the great-tree-as-dominion symbol rather than to add new wording.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 104:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The birds of the sky nest by them. They sing among the branches.",
+                      "note": "The psalm's 'birds of the sky' that nest by the branches and sing reflects the same creation-poetic image of birds lodging in foliage. It is a faint, generic parallel that adds coherence to the nesting-birds detail but lacks the kingdom-tree distinctiveness of Ezekiel and Daniel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.9",
+                  "ref": "4:33-34",
+                  "echoes": [
+                    {
+                      "source": "Psalm 78:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will open my mouth in a parable. I will utter dark sayings of old,",
+                      "note": "The summary that Jesus spoke 'without a parable he didn't speak to them' resonates with the psalmist's 'I will open my mouth in a parable; I will utter dark sayings of old.' The link between exclusive parabolic teaching and revealed/concealed wisdom is thematically coherent, though for Mark it is faint and uncited.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

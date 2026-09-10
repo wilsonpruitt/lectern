@@ -575,7 +575,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-33"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -588,7 +591,115 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-25"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 25:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.12-John.16.15",
+                      "refDisplay": "John 16:12–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-16.3"
+                    },
+                    {
+                      "refKey": "1Tim.1.1-1Tim.1.2",
+                      "refDisplay": "1 Timothy 1:1–2",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:4–5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.5-John.14.7",
+                      "refDisplay": "John 14:5–7",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.19-Phil.1.26",
+                      "refDisplay": "Philippians 1:19–26",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:10",
+                  "occurrences": [
+                    {
+                      "refKey": "2John.1.1-2John.1.3",
+                      "refDisplay": "2 John 1:1–3",
+                      "book": "2 John",
+                      "slug": "2-john",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-john#p-1.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -607,7 +718,102 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.6",
+                  "ref": "3:6-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 116:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "What will I give to Yahweh for all his benefits toward me?",
+                      "note": "Paul's overflowing \"what thanksgiving can we render again to God for you\" echoes the psalmist's \"What shall I render to the LORD for all his benefits toward me?\" Both pose the rhetorical question of an adequate return of gratitude to God for received good, framed as thanksgiving rendered before God."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.11",
+                  "ref": "3:11-13",
+                  "echoes": [
+                    {
+                      "source": "Zechariah 14:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall flee by the valley of my mountains; for the valley of the mountains shall reach to Azel; yes, you shall flee, just like you fled from before the earthquake in the days of Uzziah king of Judah. Yahweh my God will come, and all the holy ones with you./f + Septuagint reads “him” instead of “you”./f*",
+                      "note": "\"At the coming of our Lord Jesus with all his saints\" closely reproduces Zechariah's \"the LORD my God will come, and all the holy ones with him,\" a key text for the eschatological advent accompanied by the heavenly host. Paul applies the prophecy of the Lord's theophanic arrival with his holy ones directly to the parousia of Jesus."
+                    },
+                    {
+                      "source": "Deuteronomy 33:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said, “Yahweh came from Sinai, and rose from Seir to them. He shone from Mount Paran. He came from the ten thousands of holy ones. At his right hand was a fiery law for them.",
+                      "note": "The advent of the Lord \"with all his saints/holy ones\" draws on the Sinai theophany where the LORD \"came with myriads of holy ones,\" the foundational image of God arriving attended by his angelic host. The same verse stands behind the developed expectation of the divine coming surrounded by the holy ones."
+                    },
+                    {
+                      "source": "Daniel 7:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "A fiery stream issued and came out from before him: thousands of thousands ministered to him, and ten thousand times ten thousand stood before him: the judgment was set, and the books were opened.",
+                      "note": "The myriads of \"holy ones\" attending the Lord's coming evoke Daniel's throne vision, where thousands of thousands serve and ten thousand times ten thousand stand before the Ancient of Days. This apocalyptic court of attendants feeds the picture of Jesus arriving with all his holy ones."
+                    },
+                    {
+                      "source": "Psalm 89:5-7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The heavens will praise your wonders, Yahweh; your faithfulness also in the assembly of the holy ones. For who in the skies can be compared to Yahweh? Who among the sons of the heavenly beings is like Yahweh, a very awesome God in the council of the holy ones, to be feared above all those who are around him?",
+                      "note": "\"All his saints\" recalls the heavenly \"assembly of the holy ones\" who praise and surround the LORD, the council of holy ones before whom God is feared. Paul's holy retinue at the parousia shares this picture of the angelic congregation accompanying the divine presence."
+                    },
+                    {
+                      "source": "Proverbs 3:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "In all your ways acknowledge him, and he will make your paths straight.",
+                      "note": "The prayer that God \"direct our way to you\" (kateuthynai) uses the Septuagintal vocabulary of God making straight one's paths, as in \"he will direct your paths.\" The petition entrusts the missionaries' route to divine guidance in the manner of the wisdom tradition.",
+                      "altSource": "Psalm 37:23"
+                    },
+                    {
+                      "source": "Psalm 68:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The chariots of God are tens of thousands and thousands of thousands. The Lord is among them, from Sinai, into the sanctuary.",
+                      "note": "The Lord coming \"with all his saints\" faintly recalls the chariots of God, \"twice ten thousand, thousands upon thousands,\" the LORD among them as at Sinai. The motif of God advancing amid innumerable heavenly hosts overlaps with the parousia escort.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Enoch 1:9",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "The coming of the Lord \"with all his holy ones\" parallels the Enochic oracle that \"the Lord will come with his holy myriads to execute judgment,\" itself an expansion of Deuteronomy 33:2. This pseudepigraphal text (cited in Jude 14-15) attests the same first-century expectation of the Lord's advent attended by his holy ones that Paul invokes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 17:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When Abram was ninety-nine years old, Yahweh appeared to Abram, and said to him, “I am God Almighty. Walk before me, and be blameless.",
+                      "note": "The goal that God \"establish your hearts blameless in holiness before our God\" echoes the covenantal charge to \"walk before me and be blameless.\" The pairing of blamelessness with standing before God recalls the patriarchal call to integrity in the divine presence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 112:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "His heart is established. He will not be afraid in the end when he sees his adversaries.",
+                      "note": "\"Establish your hearts\" (sterixai tas kardias) echoes the Septuagint's description of the righteous whose \"heart is established/steadfast,\" unafraid. The image of an inwardly fixed, unshakable heart underlies Paul's prayer for hearts confirmed in holiness.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -626,7 +832,223 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "21.6",
+                  "ref": "21:25-28",
+                  "echoes": [
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "Daniel sees 'one like a son of man' coming with the clouds of heaven, given dominion, glory, and a kingdom. Jesus' 'they will see the Son of Man coming in a cloud with power and great glory' is the climactic appropriation of this throne-vision, the most important OT reference in the discourse. Highest volume, recurrence, and coherence."
+                    },
+                    {
+                      "source": "Isaiah 13:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For the stars of the sky and its constellations will not give their light. The sun will be darkened in its going out, and the moon will not cause its light to shine.",
+                      "note": "In the Day-of-the-Lord oracle the stars, constellations, sun, and moon withhold their light. Jesus' 'signs in the sun, moon, and stars' draws directly on this prophetic darkening of the heavenly bodies. High coherence with the standard cosmic-collapse catalog."
+                    },
+                    {
+                      "source": "Isaiah 34:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "All of the army of the sky will be dissolved. The sky will be rolled up like a scroll, and all its armies will fade away, as a leaf fades from off a vine or a fig tree.",
+                      "note": "The host of heaven rots away, the heavens roll up like a scroll, and all their host falls. Jesus' 'powers of the heavens will be shaken' echoes this dissolution of the celestial host on the day of judgment. Strong recurrence within the Day-of-the-Lord tradition."
+                    },
+                    {
+                      "source": "Joel 2:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The earth quakes before them. The heavens tremble. The sun and the moon are darkened, and the stars withdraw their shining.",
+                      "note": "Joel's day of the Lord: the earth quakes, the heavens tremble, sun and moon darken, the stars withdraw their shining. Jesus' combination of cosmic signs and shaken heavenly powers maps closely onto Joel's portrait. High coherence and recurrence."
+                    },
+                    {
+                      "source": "Joel 2:30-31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will show wonders in the heavens and in the earth: blood, fire, and pillars of smoke. The sun will be turned into darkness, and the moon into blood, before the great and terrible day of Yahweh comes.",
+                      "note": "Wonders in the heavens and on earth, the sun turned to darkness and moon to blood before the great and terrible Day. Jesus' celestial signs as harbingers of the coming day belong to this Joel sign-tradition, cited at Acts 2:19-20. Coherence reinforced by Lukan usage."
+                    },
+                    {
+                      "source": "Isaiah 17:12-13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Ah, the uproar of many peoples, who roar like the roaring of the seas; and the rushing of nations, that rush like the rushing of mighty waters! The nations will rush like the rushing of many waters: but he will rebuke them, and they will flee far off, and will be chased like the chaff of the mountains before the wind, and like the whirling dust before the storm.",
+                      "note": "Isaiah likens the raging nations to the roaring of many waters, the tumult of the seas, before God rebukes them. Jesus' 'anxiety of nations, in perplexity for the roaring of the sea and the waves' fuses the nations' distress with the sea's roar exactly as Isaiah does. Strong conceptual coherence."
+                    },
+                    {
+                      "source": "Psalm 65:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "who stills the roaring of the seas, the roaring of their waves, and the turmoil of the nations.",
+                      "note": "God 'stills the roaring of the seas, the roaring of their waves, and the tumult of the peoples,' linking sea-roar and nations' tumult. Jesus' pairing of the roaring sea with the perplexity of nations echoes this psalmic juxtaposition. Coherence on the distinctive sea-and-nations parallel."
+                    },
+                    {
+                      "source": "Psalm 46:2-3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Therefore we won’t be afraid, though the earth changes, though the mountains are shaken into the heart of the seas; though its waters roar and are troubled, though the mountains tremble with their swelling. Selah.",
+                      "note": "Though the earth gives way, the mountains fall into the sea, and its waters roar and foam, the faithful need not fear. Jesus' roaring sea and shaken heavens amid which disciples lift up their heads in confidence mirror this psalm of cosmic upheaval and trust. Coherence with the tehom-chaos imagery.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Haggai 2:6, 21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For this is what Yahweh of Armies says: ‘Yet once, it is a little while, and I will shake the heavens, the earth, the sea, and the dry land;",
+                      "note": "God promises 'yet once more I will shake the heavens and the earth, the sea and the dry land,' and the kingdoms. Jesus' shaken 'powers of the heavens' draws on Haggai's eschatological cosmic shaking. Coherence with the shaking-of-creation motif."
+                    },
+                    {
+                      "source": "Isaiah 24:19-20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The earth is utterly broken. The earth is torn apart. The earth is shaken violently. The earth will stagger like a drunken man, and will sway back and forth like a hammock. Its disobedience will be heavy on it, and it will fall and not rise again.",
+                      "note": "In the apocalypse of Isaiah the earth is utterly broken, staggering like a drunkard, its transgression heavy upon it. The men 'fainting for fear' before a reeling cosmos belongs to this Isaian universal-judgment scene. Coherence with the proto-apocalyptic dissolution.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 9:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh will be seen over them; and his arrow will go flash like lightning; and the Lord Yahweh will blow the trumpet, and will go with whirlwinds of the south.",
+                      "note": "The Lord appears over his people, his arrow goes forth like lightning, marching in the whirlwinds. The theophanic coming with power amid cosmic disturbance faintly colors Jesus' glorious Son-of-Man advent. Faint and atmospheric.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "21.7",
+                  "ref": "21:29-33",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 40:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The grass withers, the flower fades; but the word of our God stands forever.”",
+                      "note": "Isaiah declares, 'the grass withers, the flower fades, but the word of our God will stand forever.' Jesus' 'heaven and earth will pass away, but my words will by no means pass away' applies this contrast of transient creation and abiding divine word to his own speech. High coherence on the enduring-word theme."
+                    },
+                    {
+                      "source": "Isaiah 51:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Lift up your eyes to the heavens, and look on the earth beneath; for the heavens shall vanish away like smoke, and the earth shall wax old like a garment; and those who dwell therein shall die in the same way: but my salvation shall be forever, and my righteousness shall not be abolished.",
+                      "note": "Isaiah: 'the heavens will vanish like smoke, the earth will wear out like a garment... but my salvation will be forever.' The passing of heaven and earth set against an everlasting divine word/salvation is exactly Jesus' antithesis. Strong recurrence within Isaiah of the perishing-cosmos vs. abiding-word motif."
+                    },
+                    {
+                      "source": "Psalm 102:25-27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Of old, you laid the foundation of the earth. The heavens are the work of your hands. They will perish, but you will endure. Yes, all of them will wear out like a garment. You will change them like a cloak, and they will be changed. But you are the same. Your years will have no end.",
+                      "note": "The heavens and earth perish and wear out like a garment, but God remains the same and his years have no end. Jesus' 'heaven and earth will pass away' draws on this psalmic contrast between the perishable creation and the unchanging God/word. Coherence with the creation-perishes tradition."
+                    },
+                    {
+                      "source": "Joel 2:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t be afraid, you animals of the field; for the pastures of the wilderness spring up, for the tree bears its fruit. The fig tree and the vine yield their strength.",
+                      "note": "Joel's restoration: the fig tree and vine yield their fruit as a sign the land is renewed after the day of the Lord. Jesus' fig tree budding as a sign that the Kingdom is near may echo this prophetic use of the fig tree as harbinger. Faint thematic link to seasonal-sign imagery.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 34:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All of the army of the sky will be dissolved. The sky will be rolled up like a scroll, and all its armies will fade away, as a leaf fades from off a vine or a fig tree.",
+                      "note": "The heavens roll up like a scroll and the host falls like a leaf from the fig tree (LXX). The fig-tree image and the passing heavens cluster in Isaiah's judgment, faintly underlying Jesus' fig-tree parable juxtaposed with heaven and earth passing. Faint compositional echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "21.8",
+                  "ref": "21:34-36",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 24:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Fear, the pit, and the snare, are on you who inhabitant the earth.",
+                      "note": "Isaiah's apocalypse: 'terror and the pit and the snare are upon you, O inhabitant of the earth.' Jesus' warning that the day will come 'like a snare on all those who dwell on the surface of all the earth' reproduces both the snare and the inhabitants-of-the-earth phrasing. High volume on the distinctive double image."
+                    },
+                    {
+                      "source": "Malachi 3:1-2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies. “But who can endure the day of his coming? And who will stand when he appears? For he is like a refiner’s fire, and like launderer’s soap;",
+                      "note": "The Lord will suddenly come to his temple, and who can stand (endure) the day of his coming? Jesus' call to be watchful so as to be able to 'stand before the Son of Man' on the suddenly-arriving day echoes Malachi's question of who can stand at the Lord's advent. Coherence with the standing-at-judgment motif."
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "Standing 'before the Son of Man' recalls the Danielic court scene where the saints are vindicated before the one like a son of man given dominion. The closing exhortation ties the paraenesis back to Daniel 7, the discourse's controlling vision. Coherence by inclusio with 21:27."
+                    },
+                    {
+                      "source": "Isaiah 8:14-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will be a sanctuary, but for both houses of Israel, he will be a trap and a snare for the inhabitants of Jerusalem. Many will stumble over it, fall, be broken, be snared, and be captured.”",
+                      "note": "The Lord becomes a snare and a trap to the inhabitants of Jerusalem, and many stumble and are taken. The snare that suddenly catches the unprepared resonates with Jesus' sudden snare on the earth-dwellers. Faint recurrence of the snare-of-judgment image.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says Yahweh of Armies, “that it shall leave them neither root nor branch.",
+                      "note": "The day comes burning like an oven against the arrogant and evildoers. The sudden, inescapable arrival of 'that day' against the unwary colors Jesus' warning, though the imagery differs. Faint thematic link to the Day-of-the-Lord suddenness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 24:3-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Who may ascend to Yahweh’s hill? Who may stand in his holy place? He who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully. He shall receive a blessing from Yahweh, righteousness from the God of his salvation. This is the generation of those who seek Him, who seek your face—even Jacob. Selah.",
+                      "note": "The psalm asks who may stand in God's holy place, answering with the clean of hands and pure of heart. Jesus' exhortation to watchful, sober readiness so as to stand before the Son of Man evokes the worthiness-to-stand theme. Faint and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 23:20-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t be among ones drinking too much wine, or those who gorge themselves on meat: for the drunkard and the glutton shall become poor; and drowsiness clothes them in rags.",
+                      "note": "Wisdom warns against being among drunkards and gluttons, for drunkenness and carousing bring poverty and ruin. Jesus' caution that hearts not be weighed down by carousing and drunkenness draws on this sapiential warning against dissipation. Faint wisdom-tradition coloring.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Olivet discourse",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "24:1–25:46",
+                        "mark": "13:1–37",
+                        "luke": "21:5–38"
+                      },
+                      "note": "The discourse on the end; Matthew adds the parables of the virgins, the talents, and the sheep and goats."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

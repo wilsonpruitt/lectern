@@ -640,7 +640,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/1-samuel-3"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Samuel 3:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.22.6-Acts.22.11",
+                      "refDisplay": "Acts 22:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "22.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-22.2"
+                    },
+                    {
+                      "refKey": "Acts.26.12-Acts.26.15",
+                      "refDisplay": "Acts 26:12–15",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "26.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-26.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Samuel 3:4–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.9.10-Acts.9.19",
+                      "refDisplay": "Acts 9:10–19",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "9.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-9.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -653,7 +701,100 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-139"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 139:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.2.23-John.2.25",
+                      "refDisplay": "John 2:23–25",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "2.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-2.4"
+                    },
+                    {
+                      "refKey": "1John.3.19-1John.3.22",
+                      "refDisplay": "1 John 3:19–22",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.19"
+                    },
+                    {
+                      "refKey": "Matt.6.5-Matt.6.8",
+                      "refDisplay": "Matthew 6:5–8",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.2"
+                    },
+                    {
+                      "refKey": "Heb.4.12-Heb.4.16",
+                      "refDisplay": "Hebrews 4:12–16",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-4.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 139:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.8.18-Rom.8.30",
+                      "refDisplay": "Romans 8:18–30",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-8.2"
+                    },
+                    {
+                      "refKey": "1Cor.4.1-1Cor.4.5",
+                      "refDisplay": "1 Corinthians 4:1–5",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 139:1–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.8-1Cor.13.12",
+                      "refDisplay": "1 Corinthians 13:8–12",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -672,7 +813,193 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.2",
+                  "ref": "4:3-6",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 6:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Make the heart of this people fat. Make their ears heavy, and shut their eyes; lest they see with their eyes, and hear with their ears, and understand with their heart, and turn again, and be healed.”",
+                      "note": "The 'god of this world has blinded the minds' so they cannot see the light recasts Isaiah's hardening commission, where eyes are made blind 'lest they see.' High recurrence in Paul (Rom 11:8) and strong coherence with the veiling theme of ch. 3 support a deliberate allusion."
+                    },
+                    {
+                      "source": "Genesis 1:26",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+                      "note": "Calling Christ 'the image of God' reads the creation of humanity in God's image figurally, with Christ as the true eikon. The pairing of image (4:4) and the creation of light (4:6) keys the whole pericope to Genesis 1, making this a deliberate new-creation typology."
+                    },
+                    {
+                      "source": "Genesis 1:3",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "God said, “Let there be light,” and there was light.",
+                      "note": "'God who said, Light will shine out of darkness' rewords the creation fiat, presenting conversion as a new act of creation in the heart. The volume is high (clear verbal evocation of the fiat lux) and coherent with the Genesis 1 image motif of 4:4."
+                    },
+                    {
+                      "source": "Deuteronomy 29:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But Yahweh has not given you a heart to know, eyes to see, and ears to hear, to this day.",
+                      "note": "Deuteronomy's lament that the LORD had 'not given a heart to know, eyes to see' supplies the unbelief-as-imposed-blindness motif Paul fuses with Isaiah. Paul cites this very verse in Rom 11:8, raising its availability and coherence here."
+                    },
+                    {
+                      "source": "Isaiah 42:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "to open the blind eyes, to bring the prisoners out of the dungeon, and those who sit in darkness out of the prison.",
+                      "note": "The Servant's task to 'open blind eyes' frames Paul's gospel as the light that should dawn; 42:19's 'blind servant' sharpens the irony of unbelieving blindness. Volume is moderate but coherence with the Isaianic light/blindness cluster Paul is mining is strong.",
+                      "contested": true,
+                      "altSource": "Isaiah 42:19"
+                    },
+                    {
+                      "source": "Wisdom 7:26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "Wisdom as 'image of his goodness' and radiance of glory is the Second-Temple lexicon for Christ as 'image of God' and 'glory of Christ.' Availability and coherence are high; volume rests on shared eikon/glory vocabulary rather than a quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 2:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the earth will be filled with the knowledge of Yahweh’s glory, as the waters cover the sea.",
+                      "note": "'The light of the knowledge of the glory of God' closely tracks Habakkuk's promise that the earth will be filled with 'the knowledge of the glory of the LORD.' The triple chain knowledge-glory-LORD is distinctive enough to register as more than coincidence.",
+                      "contested": true,
+                      "altSource": "Isaiah 11:9"
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "Light shining on those in darkness echoes Isaiah's people who 'walked in darkness' seeing a great light, reinforcing the gospel-as-dawn imagery. Coherent with the Isaianic light theme already in play, though the verbal contact is general.",
+                      "contested": true,
+                      "altSource": "Isaiah 60:1"
+                    },
+                    {
+                      "source": "Exodus 34:29",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "When Moses came down from Mount Sinai with the two tablets of the testimony in Moses’ hand, when he came down from the mountain, Moses didn’t know that the skin of his face shone by reason of his speaking with him.",
+                      "note": "'The glory of God in the face of Jesus Christ' continues ch. 3's contrast with the glory on Moses' face, transferring the shining-face motif to Christ. Recurrence from the immediately prior argument makes the Exodus glory narrative the controlling subtext."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.3",
+                  "ref": "4:7",
+                  "echoes": [
+                    {
+                      "source": "Lamentations 4:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The precious sons of Zion, comparable to fine gold, How are they esteemed as earthen pitchers, the work of the hands of the potter!",
+                      "note": "'Precious sons of Zion' reckoned as 'earthen pots, the work of the potter' supplies the exact pairing of priceless worth held in cheap clay vessels that Paul exploits. The treasure/earthen-vessel antithesis gives this strong coherence and notable volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "The 'clay vessel' housing divine power evokes the human creature formed from dust and animated by God's breath, so the frailty is constitutive of creaturehood. Figural rather than verbal, but it grounds Paul's 'not from ourselves' in the dust-origin of humanity.",
+                      "contested": true,
+                      "altSource": "Job 10:9"
+                    },
+                    {
+                      "source": "Isaiah 64:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But now, Yahweh, you are our Father; we are the clay, and you our potter; and we all are the work of your hand.",
+                      "note": "'We are the clay, you our potter' establishes the creature-as-vessel theme that Paul presses to magnify God's power over human weakness. Availability and coherence are strong within Paul's potter/clay usage (Rom 9:21).",
+                      "contested": true,
+                      "altSource": "Jeremiah 18:6"
+                    },
+                    {
+                      "source": "Judges 7:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He divided the three hundred men into three companies, and he put into the hands of all of them trumpets, and empty pitchers, with torches within the pitchers.",
+                      "note": "Gideon's torches hidden in clay jars, broken to flash God's deliverance, joins the light of 4:6 to the clay vessels of 4:7: divine power shines precisely when the fragile jar is shattered. The shared jar+light+power configuration gives this a striking coherence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 4:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How much more, those who dwell in houses of clay, whose foundation is in the dust, who are crushed before the moth!",
+                      "note": "Those who 'dwell in houses of clay' and are easily crushed parallel the fragility of the clay vessel motif. Volume is faint and the contact is conceptual, so it functions only as a supporting echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.4",
+                  "ref": "4:8-9",
+                  "echoes": [
+                    {
+                      "source": "Psalm 118:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yah has punished me severely, but he has not given me over to death.",
+                      "note": "'Struck down, yet not destroyed' closely matches the psalmist's 'the LORD has chastened me severely, but has not given me over to death.' The structure of severe affliction stopped just short of destruction is the same, supplying good volume for the climactic clause.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 37:24",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Though he stumble, he shall not fall, for Yahweh holds him up with his hand.",
+                      "note": "'Though he fall, he shall not be utterly cast down, for the LORD upholds his hand' mirrors the not-forsaken/not-destroyed paradox of the righteous sufferer. Coherent with Paul's hardship-catalog theology of divine sustenance.",
+                      "contested": true,
+                      "altSource": "Psalm 34:19"
+                    },
+                    {
+                      "source": "Deuteronomy 31:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Be strong and courageous. Don’t be afraid or scared of them; for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.”",
+                      "note": "'Pursued, yet not forsaken' echoes the covenant assurance that God 'will not leave you nor forsake you.' The phrase is widespread, so volume is low and the link is a general scriptural commonplace.",
+                      "contested": true,
+                      "altSource": "Psalm 9:10"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.5",
+                  "ref": "4:10-12",
+                  "echoes": [
+                    {
+                      "source": "Psalm 44:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yes, for your sake we are killed all day long. We are regarded as sheep for the slaughter.",
+                      "note": "'Always delivered to death for Jesus' sake' anticipates the very verse ('we are killed all day long') Paul quotes at Rom 8:36, casting apostolic suffering as the lot of the faithful slain for God. Recurrence in Paul lends the echo weight.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:10",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Yet it pleased Yahweh to bruise him. He has caused him to suffer. When you make his soul an offering for sin, he shall see his seed. He shall prolong his days, and the pleasure of Yahweh shall prosper in his hand.",
+                      "note": "Carrying 'the putting to death of Jesus' so that 'life may be revealed' loosely figures the Servant whose death yields life and offspring. The contact is thematic and contested, with no verbal tether, hence figural and low.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -691,7 +1018,10 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1497,7 +1827,85 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/deuteronomy-5"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Deuteronomy 5:12–15",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.10-Luke.13.17",
+                      "refDisplay": "Luke 13:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.3"
+                    },
+                    {
+                      "refKey": "Matt.12.1-Matt.12.8",
+                      "refDisplay": "Matthew 12:1–8",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "12.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-12.1"
+                    },
+                    {
+                      "refKey": "Mark.2.23-Mark.2.28",
+                      "refDisplay": "Mark 2:23–28",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-2.4"
+                    },
+                    {
+                      "refKey": "Mark.3.1-Mark.3.6",
+                      "refDisplay": "Mark 3:1–6",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "3.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-3.1"
+                    },
+                    {
+                      "refKey": "Luke.6.1-Luke.6.5",
+                      "refDisplay": "Luke 6:1–5",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-6.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 5:12–14",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.23.50-Luke.23.56",
+                      "refDisplay": "Luke 23:50–56",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.12"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1510,7 +1918,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-81"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1529,7 +1940,193 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.2",
+                  "ref": "4:3-6",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 6:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Make the heart of this people fat. Make their ears heavy, and shut their eyes; lest they see with their eyes, and hear with their ears, and understand with their heart, and turn again, and be healed.”",
+                      "note": "The 'god of this world has blinded the minds' so they cannot see the light recasts Isaiah's hardening commission, where eyes are made blind 'lest they see.' High recurrence in Paul (Rom 11:8) and strong coherence with the veiling theme of ch. 3 support a deliberate allusion."
+                    },
+                    {
+                      "source": "Genesis 1:26",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+                      "note": "Calling Christ 'the image of God' reads the creation of humanity in God's image figurally, with Christ as the true eikon. The pairing of image (4:4) and the creation of light (4:6) keys the whole pericope to Genesis 1, making this a deliberate new-creation typology."
+                    },
+                    {
+                      "source": "Genesis 1:3",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "God said, “Let there be light,” and there was light.",
+                      "note": "'God who said, Light will shine out of darkness' rewords the creation fiat, presenting conversion as a new act of creation in the heart. The volume is high (clear verbal evocation of the fiat lux) and coherent with the Genesis 1 image motif of 4:4."
+                    },
+                    {
+                      "source": "Deuteronomy 29:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But Yahweh has not given you a heart to know, eyes to see, and ears to hear, to this day.",
+                      "note": "Deuteronomy's lament that the LORD had 'not given a heart to know, eyes to see' supplies the unbelief-as-imposed-blindness motif Paul fuses with Isaiah. Paul cites this very verse in Rom 11:8, raising its availability and coherence here."
+                    },
+                    {
+                      "source": "Isaiah 42:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "to open the blind eyes, to bring the prisoners out of the dungeon, and those who sit in darkness out of the prison.",
+                      "note": "The Servant's task to 'open blind eyes' frames Paul's gospel as the light that should dawn; 42:19's 'blind servant' sharpens the irony of unbelieving blindness. Volume is moderate but coherence with the Isaianic light/blindness cluster Paul is mining is strong.",
+                      "contested": true,
+                      "altSource": "Isaiah 42:19"
+                    },
+                    {
+                      "source": "Wisdom 7:26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "Wisdom as 'image of his goodness' and radiance of glory is the Second-Temple lexicon for Christ as 'image of God' and 'glory of Christ.' Availability and coherence are high; volume rests on shared eikon/glory vocabulary rather than a quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 2:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the earth will be filled with the knowledge of Yahweh’s glory, as the waters cover the sea.",
+                      "note": "'The light of the knowledge of the glory of God' closely tracks Habakkuk's promise that the earth will be filled with 'the knowledge of the glory of the LORD.' The triple chain knowledge-glory-LORD is distinctive enough to register as more than coincidence.",
+                      "contested": true,
+                      "altSource": "Isaiah 11:9"
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "Light shining on those in darkness echoes Isaiah's people who 'walked in darkness' seeing a great light, reinforcing the gospel-as-dawn imagery. Coherent with the Isaianic light theme already in play, though the verbal contact is general.",
+                      "contested": true,
+                      "altSource": "Isaiah 60:1"
+                    },
+                    {
+                      "source": "Exodus 34:29",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "When Moses came down from Mount Sinai with the two tablets of the testimony in Moses’ hand, when he came down from the mountain, Moses didn’t know that the skin of his face shone by reason of his speaking with him.",
+                      "note": "'The glory of God in the face of Jesus Christ' continues ch. 3's contrast with the glory on Moses' face, transferring the shining-face motif to Christ. Recurrence from the immediately prior argument makes the Exodus glory narrative the controlling subtext."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.3",
+                  "ref": "4:7",
+                  "echoes": [
+                    {
+                      "source": "Lamentations 4:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The precious sons of Zion, comparable to fine gold, How are they esteemed as earthen pitchers, the work of the hands of the potter!",
+                      "note": "'Precious sons of Zion' reckoned as 'earthen pots, the work of the potter' supplies the exact pairing of priceless worth held in cheap clay vessels that Paul exploits. The treasure/earthen-vessel antithesis gives this strong coherence and notable volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "The 'clay vessel' housing divine power evokes the human creature formed from dust and animated by God's breath, so the frailty is constitutive of creaturehood. Figural rather than verbal, but it grounds Paul's 'not from ourselves' in the dust-origin of humanity.",
+                      "contested": true,
+                      "altSource": "Job 10:9"
+                    },
+                    {
+                      "source": "Isaiah 64:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But now, Yahweh, you are our Father; we are the clay, and you our potter; and we all are the work of your hand.",
+                      "note": "'We are the clay, you our potter' establishes the creature-as-vessel theme that Paul presses to magnify God's power over human weakness. Availability and coherence are strong within Paul's potter/clay usage (Rom 9:21).",
+                      "contested": true,
+                      "altSource": "Jeremiah 18:6"
+                    },
+                    {
+                      "source": "Judges 7:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He divided the three hundred men into three companies, and he put into the hands of all of them trumpets, and empty pitchers, with torches within the pitchers.",
+                      "note": "Gideon's torches hidden in clay jars, broken to flash God's deliverance, joins the light of 4:6 to the clay vessels of 4:7: divine power shines precisely when the fragile jar is shattered. The shared jar+light+power configuration gives this a striking coherence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 4:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How much more, those who dwell in houses of clay, whose foundation is in the dust, who are crushed before the moth!",
+                      "note": "Those who 'dwell in houses of clay' and are easily crushed parallel the fragility of the clay vessel motif. Volume is faint and the contact is conceptual, so it functions only as a supporting echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.4",
+                  "ref": "4:8-9",
+                  "echoes": [
+                    {
+                      "source": "Psalm 118:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yah has punished me severely, but he has not given me over to death.",
+                      "note": "'Struck down, yet not destroyed' closely matches the psalmist's 'the LORD has chastened me severely, but has not given me over to death.' The structure of severe affliction stopped just short of destruction is the same, supplying good volume for the climactic clause.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 37:24",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Though he stumble, he shall not fall, for Yahweh holds him up with his hand.",
+                      "note": "'Though he fall, he shall not be utterly cast down, for the LORD upholds his hand' mirrors the not-forsaken/not-destroyed paradox of the righteous sufferer. Coherent with Paul's hardship-catalog theology of divine sustenance.",
+                      "contested": true,
+                      "altSource": "Psalm 34:19"
+                    },
+                    {
+                      "source": "Deuteronomy 31:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Be strong and courageous. Don’t be afraid or scared of them; for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.”",
+                      "note": "'Pursued, yet not forsaken' echoes the covenant assurance that God 'will not leave you nor forsake you.' The phrase is widespread, so volume is low and the link is a general scriptural commonplace.",
+                      "contested": true,
+                      "altSource": "Psalm 9:10"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.5",
+                  "ref": "4:10-12",
+                  "echoes": [
+                    {
+                      "source": "Psalm 44:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yes, for your sake we are killed all day long. We are regarded as sheep for the slaughter.",
+                      "note": "'Always delivered to death for Jesus' sake' anticipates the very verse ('we are killed all day long') Paul quotes at Rom 8:36, casting apostolic suffering as the lot of the faithful slain for God. Recurrence in Paul lends the echo weight.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:10",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Yet it pleased Yahweh to bruise him. He has caused him to suffer. When you make his soul an offering for sin, he shall see his seed. He shall prolong his days, and the pleasure of Yahweh shall prosper in his hand.",
+                      "note": "Carrying 'the putting to death of Jesus' so that 'life may be revealed' loosely figures the Servant whose death yields life and offspring. The contact is thematic and contested, with no verbal tether, hence figural and low.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1548,7 +2145,10 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

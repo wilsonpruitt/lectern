@@ -49,8 +49,84 @@ export type ResourceLink = {
 };
 export type DoctrineLink = { title: string; article: string; url: string; themes: string[] };
 export type SocialLink = { community: string; topic: string; url: string; themes: string[] };
+
+// --- Phase 3: Catena echoes / Annales chronology / Topographia map, inline in Lenses ---
+export type Echo = { source: string; type: string; confidence: string; text: string; note: string };
+export type CatenaPericope = { pericopeId: string; ref: string; echoes: Echo[] };
+export type CatenaOccurrence = {
+  refKey: string;
+  refDisplay: string;
+  book: string;
+  slug: string;
+  pericopeId: string;
+  type: string;
+  confidence: string;
+  url: string;
+};
+export type CatenaSource = { source: string; occurrences: CatenaOccurrence[] };
+export type CatenaEchoes =
+  | { kind: "nt"; pericopes: CatenaPericope[]; attribution: string }
+  | { kind: "ot"; sources: CatenaSource[]; attribution: string };
+
+export type AnnalesSpan = {
+  label: string;
+  group: string | null;
+  lane: string | null;
+  start: number;
+  end: number | null;
+  length: string | null;
+  ref: string;
+  note: string | null;
+};
+export type AnnalesEvent = {
+  year: number;
+  label: string;
+  ref: string;
+  kind: string | null;
+  approx: boolean | null;
+  note: string | null;
+};
+export type HarmonyEpisode = {
+  title: string | null;
+  section: string | null;
+  refs: Record<string, string>;
+  note: string | null;
+};
+export type AnnalesEdition = {
+  edition: string;
+  editionUrl: string;
+  spans?: AnnalesSpan[];
+  events?: AnnalesEvent[];
+  harmony?: HarmonyEpisode[];
+};
+export type Chronology = { editions: AnnalesEdition[]; note: string };
+
+export type MapPlace = {
+  key: string;
+  name: string;
+  coords: [number, number];
+  tier: string;
+  id: string | null;
+};
+export type PlacesMapData = {
+  chapterUrl: string;
+  title: string | null;
+  view: { center: [number, number]; zoom: number } | null;
+  route: string[] | null;
+  approxChapter: number | null;
+  places: MapPlace[];
+};
+
 export type Lenses = {
-  readings: { role: string; ref: string; refKey: string; links: ResourceLink[] }[];
+  readings: {
+    role: string;
+    ref: string;
+    refKey: string;
+    links: ResourceLink[];
+    echoes: CatenaEchoes | null;
+    chronology: Chronology | null;
+    map: PlacesMapData | null;
+  }[];
   doctrine: DoctrineLink[];
   social: SocialLink[];
 };

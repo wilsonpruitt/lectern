@@ -652,7 +652,78 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:14-21",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:28-32",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit. I will show wonders in the heavens and in the earth: blood, fire, and pillars of smoke. The sun will be turned into darkness, and the moon into blood, before the great and terrible day […]",
+                      "note": "Formal, formula-marked citation ('this is what was spoken through the prophet Joel,' v.16) reproducing Joel 2:28-32 (LXX 3:1-5) at high verbal volume: pouring out the Spirit on all flesh, sons/daughters prophesying, young men visions, old men dreams, servants and handmaids, wonders in heaven and signs on earth, blood/fire/smoke, sun to darkness and moon to blood before the great day of the Lord, and whoever calls on the name of the Lord shall be saved. Luke's 'in the last days' adapts Joel's 'afterward.' The anchor quotation of the chapter; maximal on all three auditable tests."
+                    },
+                    {
+                      "source": "Exodus 19:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Mount Sinai, all it, smoked, because Yahweh descended on it in fire; and its smoke ascended like the smoke of a furnace, and the whole mountain quaked greatly.",
+                      "note": "The 'smoke' (kapnos) among the apocalyptic signs (v.19) may resonate with the smoke of Sinai where 'the mountain was wholly in smoke' at the theophany, reinforcing the Sinai-Pentecost frame. Low volume and the wording is governed by Joel; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 4:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes.",
+                      "note": "'Before the great and notable day of the Lord' overlaps the Malachi expectation of the great and dreadful day of the LORD; the phrase is shared eschatological idiom that Joel and Malachi both carry. Faint and mediated through Joel; contested as an independent source.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/2/",
+              "title": "Pentecost",
+              "view": {
+                "center": [
+                  33.0,
+                  30.0
+                ],
+                "zoom": 4
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "judea",
+                  "name": "Judea",
+                  "coords": [
+                    31.5,
+                    35.1
+                  ],
+                  "tier": "region",
+                  "id": "The Roman administrative province (later procuratorial province) covering the southern hill country of Israel — Jerusalem, the Judean wilderness, and territory south to the Negev. The Greco-Roman successor to the Hasmonean and Herodian Iudaea. Pin sits in the central hill country."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -665,7 +736,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-116"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 113–118",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.14.26",
+                      "refDisplay": "Mark 14:26",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 116:3–4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.7.13-Rom.7.25",
+                      "refDisplay": "Romans 7:13–25",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-7.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 116:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.5.5-Heb.5.10",
+                      "refDisplay": "Hebrews 5:5–10",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "5.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-5.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -678,7 +802,200 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-peter#p-1.2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:13-21",
+                  "echoes": [
+                    {
+                      "source": "Exodus 12:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "This is how you shall eat it: with your belt on your waist, your shoes on your feet, and your staff in your hand; and you shall eat it in haste: it is Yahweh’s Passover.",
+                      "note": "'Gird up the loins of your mind' literalizes the Passover posture—'your loins girded, your sandals on, in haste'—readiness for imminent deliverance, fitting the redemption-by-the-lamb imagery of 1:18-19. High volume on the distinctive idiom plus contextual Passover coherence.",
+                      "altSource": "Job 38:3"
+                    },
+                    {
+                      "source": "Leviticus 11:44-45",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For I am Yahweh your God. Sanctify yourselves therefore, and be holy; for I am holy: neither shall you defile yourselves with any kind of creeping thing that moves on the earth. For I am Yahweh who brought you up out of the land of Egypt, to be your God. You shall therefore be holy, for I am holy.",
+                      "note": "Formula-marked citation ('because it is written, You shall be holy, for I am holy'). Leviticus 11:44-45 supplies the holiness ground anchored in the exodus ('I am the LORD who brought you up out of Egypt to be your God'), matching Peter's redemption framing. Highest volume—explicit quotation.",
+                      "altSource": "Leviticus 19:2"
+                    },
+                    {
+                      "source": "Leviticus 19:2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Speak to all the congregation of the children of Israel, and tell them, ‘You shall be holy; for I, Yahweh your God, am holy.",
+                      "note": "'You shall be holy, for I the LORD your God am holy' is the most verbally exact source of 1:16 and heads the Holiness Code chapter Peter draws on repeatedly (love of neighbor, impartiality). Co-primary with Leviticus 11:44-45.",
+                      "altSource": "Leviticus 20:7"
+                    },
+                    {
+                      "source": "Deuteronomy 10:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For Yahweh your God, he is God of gods, and Lord of lords, the great God, the mighty, and the awesome, who doesn’t respect persons, nor takes reward.",
+                      "note": "'The God of gods... who is not partial and takes no bribe' is the locus classicus for 'judges impartially, without respect of persons' (1:17). Distinctive 'shows no partiality' formula; high thematic coherence.",
+                      "altSource": "2 Chronicles 19:7"
+                    },
+                    {
+                      "source": "Exodus 12:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Your lamb shall be without defect, a male a year old. You shall take it from the sheep, or from the goats:",
+                      "note": "'Your lamb shall be without blemish, a male a year old' is the Passover-lamb specification behind 'a lamb without blemish or spot' (1:19), reinforcing the redemption/exodus matrix of the pericope. High volume on the without-blemish lamb.",
+                      "altSource": "Leviticus 22:19-20"
+                    },
+                    {
+                      "source": "Isaiah 53:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He was oppressed, yet when he was afflicted he didn’t open his mouth. As a lamb that is led to the slaughter, and as a sheep that before its shearers is mute, so he didn’t open his mouth.",
+                      "note": "'Like a lamb that is led to the slaughter... he opened not his mouth' supplies the suffering-Servant lamb whose blood ransoms; Peter fuses Passover lamb with Isaian Servant (cf. the dense Isaiah 53 citation in 2:22-25). High thematic coherence and recurrence in the letter."
+                    },
+                    {
+                      "source": "Job 38:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Brace yourself like a man, for I will question you, then you answer me!",
+                      "note": "'Gird up your loins like a man' (also 40:7) is the summons to brace for an encounter with God; supplies the metaphorical (mental readiness) sense Peter intends. Moderate verbal volume; the idiom recurs as a call to resolve.",
+                      "altSource": "Jeremiah 1:17"
+                    },
+                    {
+                      "source": "Psalm 62:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Also to you, Lord, belongs loving kindness, for you reward every man according to his work.",
+                      "note": "'You repay each according to his work' supplies the second half of 1:17 (judges 'according to each one's work'); a fixed retributive formula. Moderate volume, recurs widely.",
+                      "altSource": "Proverbs 24:12"
+                    },
+                    {
+                      "source": "Isaiah 52:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For thus says Yahweh, “You were sold for nothing; and you shall be redeemed without money.”",
+                      "note": "'You were sold for nothing, and you shall be redeemed without money' stands behind 'redeemed, not with silver or gold' (1:18)—redemption explicitly not monetary. Distinctive silver/gold-vs-true-redemption contrast.",
+                      "altSource": "Isaiah 52:9"
+                    },
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "'I will redeem you with an outstretched arm' is the exodus redemption verb Peter applies to ransom 'from the futile ways inherited from your fathers'—a new exodus from ancestral bondage. Thematic coherence high.",
+                      "altSource": "Deuteronomy 7:8"
+                    },
+                    {
+                      "source": "Jeremiah 16:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh, my strength, and my stronghold, and my refuge in the day of affliction, to you shall the nations come from the ends of the earth, and shall say, Our fathers have inherited nothing but lies, vanity and things in which there is no profit.",
+                      "note": "'Our fathers have inherited nothing but lies, worthless things (vanity) in which there is no profit' closely matches 'the futile ways inherited from your fathers' (1:18)—ancestral idolatry as vanity. Notable verbal contact (inherited+vain+fathers).",
+                      "altSource": "Jeremiah 10:3"
+                    },
+                    {
+                      "source": "Leviticus 22:19-20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "that you may be accepted, you shall offer a male without defect, of the bulls, of the sheep, or of the goats. But whatever has a defect, that you shall not offer; for it shall not be acceptable for you.",
+                      "note": "The sacrificial requirement that an offering be 'without blemish... no defect' generalizes the spotless-lamb language of 1:19 across the cult. Supports volume of the blemish-free motif."
+                    },
+                    {
+                      "source": "Jeremiah 1:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“You therefore put your belt on your waist, arise, and speak to them all that I command you. Don’t be dismayed at them, lest I dismay you before them.",
+                      "note": "'Gird up your loins; stand and speak' commissions the prophet to fearless action; reinforces the gird-loins call but is a secondary witness to the idiom. Low distinctiveness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD... give to each according to his ways, according to the fruit of his deeds' parallels the judge-by-works formula; secondary witness, low distinctiveness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 35:12-13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Think not to corrupt with gifts; for he will not receive them: And set not your mind on an unrighteous sacrifice; For the Lord is judge, And with him is no respect of persons. He will not accept any person against a poor man; And he will listen to the prayer of him that is wronged.",
+                      "note": "'The Lord is judge, and with him there is no partiality' shows the impartial-judge formula in Second Temple piety, supporting the recurrence of 1:17's idea; minimal verbal borrowing.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 52:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.",
+                      "note": "'My servant shall be exalted and lifted up' grounds 'raised him from the dead and gave him glory' (1:21)—the Servant's vindication. Faint, figural, but coherent with Peter's suffering-then-glory pattern.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:22-25",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 40:6-8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The voice of one saying, “Cry!” One said, “What shall I cry?” “All flesh is like grass, and all its glory is like the flower of the field. The grass withers, the flower fades, because Yahweh’s breath blows on it. Surely the people are like grass. The grass withers, the flower fades; but the word of our God stands forever.”",
+                      "note": "Verbatim, formula-introduced citation ('For, All flesh is like grass... the grass withers, the flower falls, but the word of the Lord endures forever'). Peter quotes the LXX of Isaiah 40:6-8 to ground the imperishable seed/word; highest volume. Isaiah's word-of-comfort frames the whole exile-and-restoration ecclesiology of the letter."
+                    },
+                    {
+                      "source": "Psalm 103:15-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "As for man, his days are like grass. As a flower of the field, so he flourishes. For the wind passes over it, and it is gone. Its place remembers it no more.",
+                      "note": "'As for man, his days are like grass; he flourishes like a flower of the field; the wind passes over it and it is gone' is a parallel grass/flower-frailty topos reinforcing the Isaiah 40 quotation. Moderate volume; same withering-flower imagery.",
+                      "altSource": "Job 14:2"
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "'Love one another earnestly from the heart' (1:22) draws on the Holiness Code command 'you shall love your neighbor as yourself'—the same Leviticus 19 chapter Peter quotes for holiness in 1:16. Recurrence within the source chapter supports the link though Peter rephrases.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I heard the man clothed in linen, who was above the waters of the river, when he held up his right hand and his left hand to heaven, and swore by him who lives forever that it shall be for a time, times, and a half; and when they have made an end of breaking in pieces the power of the holy people, all these things shall be finished.",
+                      "note": "'Living and abiding word of God' resonates with oaths by 'him who lives forever'; faint, the enduring/living quality is better anchored in the Isaiah 40 citation that follows.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 51:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“I, even I, am he who comforts you: who are you, that you are afraid of man who shall die, and of the son of man who shall be made as grass;",
+                      "note": "'Why are you afraid of mortal man... who fades like grass?' is a nearby Isaian grass-frailty saying within the same comfort-of-Zion section, supporting the Isaiah 40 recurrence. Low distinctiveness on its own.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 90:5-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You sweep them away as they sleep. In the morning they sprout like new grass. In the morning it sprouts and springs up. By evening, it is withered and dry.",
+                      "note": "Humanity 'like grass that is renewed in the morning... in the evening it fades and withers' is another grass-mortality witness underlining the perishable-vs-enduring contrast of 1:23-25. Faint, thematic.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -697,7 +1014,150 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "24.2",
+                  "ref": "24:13-27",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He was despised, and rejected by men; a man of suffering, and acquainted with disease. He was despised as one from whom men hide their face; and we didn’t respect him.",
+                      "note": "Jesus' rebuke that the Christ 'had to suffer these things and enter into his glory' presupposes the Suffering Servant who is 'despised and rejected' yet afterward exalted (Isa 52:13; 53:11-12). Luke roots the necessity (dei) of messianic suffering in the Servant Songs, which he cites explicitly elsewhere (Lk 22:37). Coherence with the chapter's exegetical climax is strong."
+                    },
+                    {
+                      "source": "Psalm 22:1-21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "My God, my God, why have you forsaken me? Why are you so far from helping me, and from the words of my groaning? My God, I cry in the daytime, but you don’t answer; in the night season, and am not silent. But you are holy, you who inhabit the praises of Israel. Our fathers trusted in you. They trusted, and you delivered them. They cried to you, and were delivered. They trusted in you, and were not disappointed. But I am a worm, and no man; a reproach of […]",
+                      "note": "The motif of the righteous one who suffers grievously and is then vindicated, which Jesus expounds 'beginning from Moses and all the prophets,' draws on the Passion psalm Luke uses in the crucifixion scene. The suffering-and-glory pattern of Psalm 22 (lament turning to praise/vindication) is a primary text in the Scriptural 'things concerning himself.' Coherence high."
+                    },
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "'Enter into his glory' echoes the enthronement of the one like a son of man who is given glory and dominion before the Ancient of Days. Luke pairs suffering with glorification, and Daniel 7 supplies the vindicated-and-glorified figure central to his messianic reading. Recurrence across the chapter supports it."
+                    },
+                    {
+                      "source": "Deuteronomy 18:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh your God will raise up to you a prophet from your midst, of your brothers, like me. You shall listen to him.",
+                      "note": "The travelers describe Jesus as 'a prophet mighty in deed and word,' and the exposition 'beginning from Moses' invokes the prophet-like-Moses whom God would raise up and to whom Israel must listen. Luke elsewhere applies this text to Jesus (Acts 3:22; 7:37), making it a likely component of the Mosaic witness here. Coherence and recurrence support medium confidence."
+                    },
+                    {
+                      "source": "Genesis 18:1-5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh appeared to him by the oaks of Mamre, as he sat in the tent door in the heat of the day. He lifted up his eyes and looked, and saw that three men stood opposite him. When he saw them, he ran to meet them from the tent door, and bowed himself to the earth, and said, “My lord, if now I have found favor in your sight, please don’t go away from your servant. Now let a little water be fetched, wash your feet, and rest yourselves under the tree. I will […]",
+                      "note": "The risen Jesus joins the travelers unrecognized and is pressed to stay and share a meal, recalling the LORD/angels appearing to Abraham as a wayfarer who is welcomed with hospitality and food. The pattern of unrecognized divine visitor received with hospitality is a Scriptural type Luke evokes, though there is no verbal quotation. Contested, low volume.",
+                      "contested": true,
+                      "altSource": "Judges 13"
+                    },
+                    {
+                      "source": "Tobit 5:4-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He went to seek a man, and found Raphael who was an angel; and he didn’t know it. He said to him, “Can I go with you to Rages of Media? Do you know those places well?” The angel said to him, “I will go with you. I know the way well. I have lodged with our brother Gabael.” Tobias said to him, “Wait for me, and I will tell my father.” He said to him, “Go, and don’t wait. And he went in and said to his father, “Behold, I have found someone who will go with […]",
+                      "note": "The angel Raphael travels incognito with Tobias as an unrecognized companion whose true identity is disclosed only at the end (Tob 12). The Emmaus narrative's structure of a hidden divine guide on a journey parallels Tobit's traveling-angel motif, a recognizable Second-Temple type. Faint and structural rather than verbal, hence low and contested.",
+                      "contested": true,
+                      "altSource": "Genesis 18:1-5"
+                    },
+                    {
+                      "source": "Isaiah 53:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He was oppressed, yet when he was afflicted he didn’t open his mouth. As a lamb that is led to the slaughter, and as a sheep that before its shearers is mute, so he didn’t open his mouth.",
+                      "note": "The report that the chief priests 'delivered him up to be condemned to death' resonates with the Servant who was 'led like a lamb to the slaughter' and handed over. As part of the Servant subtext Jesus is about to expound, it colors the travelers' summary, though without quotation. Low and somewhat contested.",
+                      "contested": true,
+                      "altSource": "Psalm 22:1-21"
+                    },
+                    {
+                      "source": "Isaiah 49:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh, the Redeemer of Israel, and his Holy One, to him whom man despises, to him whom the nation abhors, to a servant of rulers: “Kings shall see and arise; princes, and they shall worship; because of Yahweh who is faithful, even the Holy One of Israel, who has chosen you.”",
+                      "note": "The hope that Jesus 'would redeem Israel' sits within the Servant's mission to restore and redeem Israel before he is given as a light to the nations. Luke's redemption-of-Israel language (cf. Lk 1:68; 2:38) draws on Deutero-Isaiah's restoration vocabulary. Faint here, hence low.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "24.3",
+                  "ref": "24:28-35",
+                  "echoes": [
+                    {
+                      "source": "Genesis 3:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves.",
+                      "note": "'Their eyes were opened, and they recognized him' deliberately inverts 'the eyes of both were opened' in Eden, where opened eyes brought shame and exile; here opened eyes at the breaking of bread bring recognition of the risen Lord. The verbal correspondence (eyes opened) plus reversal is a coherent Lukan new-creation motif. Volume is moderate; the allusion is widely recognized."
+                    },
+                    {
+                      "source": "Genesis 18:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He took butter, milk, and the calf which he had dressed, and set it before them. He stood by them under the tree, and they ate.",
+                      "note": "The shared meal at which the divine guest is recognized recalls the LORD/angels eating with Abraham at Mamre, where hospitality discloses the visitor's identity. The Emmaus meal as the locus of revelation parallels the Mamre table-fellowship type. Structural and faint, so low and contested.",
+                      "contested": true,
+                      "altSource": "Tobit 12:19"
+                    },
+                    {
+                      "source": "Exodus 12:8",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "They shall eat the flesh in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs.",
+                      "note": "The breaking of bread that opens their eyes carries Passover/Eucharistic overtones, the meal at which deliverance is remembered and made present. Given Luke's Passover framing of the Last Supper, the Emmaus bread figurally recalls the Passover bread of redemption. Typological rather than verbal, hence low and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 6:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Elisha prayed, and said, “Yahweh, please open his eyes, that he may see.” Yahweh opened the eyes of the young man; and he saw: and behold, the mountain was full of horses and chariots of fire around Elisha.",
+                      "note": "Elisha's prayer that the servant's eyes be opened to see the unseen heavenly reality offers a parallel for the divinely granted opening of eyes to perceive the risen Christ. The motif of God opening human eyes to spiritual sight is a recurring OT pattern Luke taps. Faint and contested.",
+                      "contested": true,
+                      "altSource": "Genesis 3:7"
+                    },
+                    {
+                      "source": "Genesis 5:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Enoch walked with God, and he was not found, for God took him.",
+                      "note": "Jesus 'vanished out of their sight' faintly echoes the sudden removal of righteous figures who are 'taken' by God (Enoch 'was not, for God took him'). As a marker of a translated/heavenly figure no longer subject to ordinary presence, it anticipates the ascension. Very faint, contested.",
+                      "contested": true,
+                      "altSource": "2 Kings 2:11"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The road to Emmaus",
+                      "section": "risen",
+                      "refs": {
+                        "luke": "24:13–35"
+                      },
+                      "note": "Unique to Luke — known at last in the breaking of the bread."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

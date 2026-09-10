@@ -560,7 +560,90 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Jeremiah 2:13",
+                  "occurrences": [
+                    {
+                      "refKey": "John.4.7-John.4.15",
+                      "refDisplay": "John 4:7–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "4.2",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-4.2"
+                    },
+                    {
+                      "refKey": "2Pet.2.17-2Pet.2.22",
+                      "refDisplay": "2 Peter 2:17–22",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "2.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-peter#p-2.4"
+                    },
+                    {
+                      "refKey": "Rev.7.13-Rev.7.17",
+                      "refDisplay": "Revelation 7:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "7.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-7.4"
+                    },
+                    {
+                      "refKey": "Rev.21.5-Rev.21.8",
+                      "refDisplay": "Revelation 21:5–8",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "21.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-21.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 2:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.1.18-Rom.1.23",
+                      "refDisplay": "Romans 1:18–23",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 2:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.1.18-Rom.1.23",
+                      "refDisplay": "Romans 1:18–23",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-1.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -573,7 +656,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-81"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -586,7 +672,86 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-13.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.1",
+                  "ref": "13:1–6",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 31:6",
+                      "altSource": "Joshua 1:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Be strong and courageous. Don't be afraid or scared of them; for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.",
+                      "note": "God's promise to Israel at the Jordan — ‘he will not fail you nor forsake you’ — lifted to underwrite contentment: you need not grasp for money, for you already have him. The same promise was spoken to Joshua (Josh 1:5)."
+                    },
+                    {
+                      "source": "Psalm 118:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yahweh is on my side. I will not be afraid. What can man do to me?",
+                      "note": "The worshiper's confidence from the Hallel psalm, made the believer's answer to fear — paired at once with the Deuteronomy promise, two texts braided into one assurance."
+                    },
+                    {
+                      "source": "Genesis 18:1–8",
+                      "altSource": "Genesis 19:1–3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh appeared to him by the oaks of Mamre, as he sat in the tent door in the heat of the day. He lifted up his eyes and looked, and saw that three men stood opposite him. When he saw them, he ran to meet them from the tent door, and bowed himself to the earth, and said, ‘My lord, if now I have found favor in your sight, please don't go away from your servant. Now let a little water be fetched, wash your feet, and rest yourselves under the tree. I will get a morsel of bread so you can refresh your heart. After that you may go your way, now that you have come to your servant.’ They said, ‘Very well, do as you have said.’ Abraham hurried into the tent to Sarah, and said, ‘Quickly prepare three seahs of fine meal, knead it, and make cakes.’ Abraham ran to the herd, and fetched a tender and good calf, and gave it to the servant. He hurried to dress it. He took butter, milk, and the calf which he had dressed, and set it before them. He stood by them under the tree, and they ate.",
+                      "note": "‘Some have entertained angels without knowing it’ (v. 2) reaches back to Abraham at Mamre, who welcomed three strangers who proved to be the Lord and his messengers, and to Lot, who took in the two angels at Sodom's gate (Gen 19:1–3). High volume on the thematic level (Hays' criterion of thematic coherence) and recurrence within Genesis itself; the verbal trigger is faint, but the narrative is so iconic that no quotation is needed for the echo to be heard."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "13.2",
+                  "ref": "13:7–19",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "For on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh. (Leviticus 16:30)",
+                      "note": "The Day-of-Atonement figure makes its last turn. The bodies of the sin-offering ‘are burned outside the camp’ (Lev 16:27) — so Jesus ‘suffered outside the gate.’ The figure that began at 1:3 ends as a summons: ‘go out to him outside the camp, bearing his reproach.’"
+                    },
+                    {
+                      "source": "Leviticus 16:27",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The bull for the sin offering, and the goat for the sin offering, whose blood was brought in to make atonement in the Holy Place, shall be carried outside the camp; and they shall burn their skins, their flesh, and their dung with fire.",
+                      "note": "The precise verse behind v. 11: ‘the bodies of those animals, whose blood is brought into the holy place… are burned outside of the camp.’ Hebrews tracks Lev 16:27 almost clause by clause (high verbal volume), then reads the carcass-disposal detail figurally — the place of shame outside the camp becomes the place of Christ's saving death ‘outside the gate.’ LXX and Hebrew agree closely here, so no textual fork; the move is interpretive, not text-critical."
+                    },
+                    {
+                      "source": "Hosea 14:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "contested": true,
+                      "text": "Take words with you, and return to Yahweh. Tell him, ‘Forgive all our sins, and accept that which is good: so we offer our lips like bulls.’",
+                      "note": "‘The fruit of lips’ (v. 15) renders the Septuagint of Hos 14:3 (Eng. 14:2), which reads ‘fruit of our lips’ (karpon cheileōn) where the Hebrew has ‘bulls (parim) of our lips.’ A classic LXX-vs-Hebrew divergence: the Greek's parō → ‘fruit’ for the Hebrew's ‘bulls’ supplies Hebrews its exact phrase, turning verbal praise into the new-covenant ‘sacrifice.’ Availability and verbal volume make this the strongest precursor for the phrase, though the citation is unmarked and so contested."
+                    },
+                    {
+                      "source": "Psalm 50:14,23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Offer to God the sacrifice of thanksgiving. Pay your vows to the Most High. … Whoever offers the sacrifice of thanksgiving glorifies me, and prepares his way so that I will show God's salvation to him.",
+                      "note": "The very phrase ‘sacrifice of praise’ (thysian aineseōs) is the Septuagint's standing rendering of the todah/thank-offering of Ps 50:14, 23, where God prefers thanksgiving to slaughtered bulls — the same spiritualizing of cult Hebrews performs. Conceptual coherence is high; the verbal trigger is the shared LXX cult-term, so this is heard as a supporting echo beneath the Hosea allusion."
+                    },
+                    {
+                      "source": "Isaiah 57:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I create the fruit of the lips: Peace, peace, to him who is far off and to him who is near,” says Yahweh; “and I will heal them.",
+                      "note": "A second, fainter source for ‘fruit of lips’ — Isa 57:19 LXX literally speaks of ‘the fruit of the lips’ (karpon cheileōn). Low volume and contested as the primary referent (Hosea is the better fit for the praise-as-sacrifice sense), but the exact lexical match means it cannot be excluded from a maximal inventory (Hays' criterion of availability)."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -605,7 +770,55 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.1",
+                  "ref": "14:1-6",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 22:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall not see your brother’s donkey or his ox fallen down by the way, and hide yourself from them. You shall surely help him to lift them up again.",
+                      "note": "Jesus' rescue argument — 'which of you, if your son or an ox fell into a well, wouldn't immediately pull him out on a Sabbath?' — draws on the Torah's humane-rescue command not to leave a brother's ox or donkey fallen by the way without lifting it up. The qal-wahomer (how much more a person) presupposes this animal-rescue obligation as available scriptural premise; high coherence with Jesus' wider Sabbath-mercy disputes (Luke 13:15)."
+                    },
+                    {
+                      "source": "Exodus 23:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "If you see the donkey of him who hates you fallen down under his burden, don’t leave him, you shall surely help him with it.",
+                      "note": "The parallel Torah duty to help even an enemy's donkey lying under its burden reinforces the same fallen-animal-rescue logic Jesus invokes for the well-fallen ox. Recurrence of the rescue motif across Deut 22:4 and Exod 23:5 strengthens availability, though Deut 22:4 is the closer verbal match.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 22:4"
+                    },
+                    {
+                      "source": "Leviticus 23:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, a holy convocation; you shall do no kind of work. It is a Sabbath to Yahweh in all your dwellings.",
+                      "note": "The Sabbath-rest command framing the whole conflict ('Is it lawful to heal on the Sabbath?') stands behind the scene; the dropsy healing is staged precisely against the holy-convocation rest prescription. Faint and diffuse — the Sabbath law is assumed background rather than cited.",
+                      "contested": true,
+                      "altSource": "Exodus 20:8-11"
+                    },
+                    {
+                      "source": "Exodus 20:8-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Remember the Sabbath day, to keep it holy. You shall labor six days, and do all your work, but the seventh day is a Sabbath to Yahweh your God. You shall not do any work in it, you, nor your son, nor your daughter, your male servant, nor your female servant, nor your livestock, nor your stranger who is within your gates; for in six days Yahweh made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore Yahweh blessed […]",
+                      "note": "The Decalogue Sabbath command is the legal ground the lawyers and Pharisees presuppose in watching whether Jesus will heal. Coherent with Luke's recurring Sabbath-controversy pattern but only ambiently present here.",
+                      "contested": true,
+                      "altSource": "Leviticus 23:3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1322,7 +1535,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/sirach-10"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Sirach 10:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.51-Luke.1.56",
+                      "refDisplay": "Luke 1:51–56",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.11"
+                    }
+                  ]
+                },
+                {
+                  "source": "Sirach 10:9–18",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.20-Acts.12.23",
+                      "refDisplay": "Acts 12:20–23",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-12.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1335,7 +1586,90 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-112"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 112:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.22-Luke.13.30",
+                      "refDisplay": "Luke 13:22–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-13.6"
+                    },
+                    {
+                      "refKey": "Matt.24.45-Matt.24.51",
+                      "refDisplay": "Matthew 24:45–51",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "24.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-24.10"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 112:9",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.9.8-2Cor.9.11",
+                      "refDisplay": "2 Corinthians 9:8–11",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "9.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-9.3"
+                    },
+                    {
+                      "refKey": "Acts.10.1-Acts.10.8",
+                      "refDisplay": "Acts 10:1–8",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-10.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 112:8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Thess.3.11-1Thess.3.13",
+                      "refDisplay": "1 Thessalonians 3:11–13",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "3.11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-3.11"
+                    },
+                    {
+                      "refKey": "2Thess.2.16-2Thess.2.17",
+                      "refDisplay": "2 Thessalonians 2:16–17",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "2.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-2.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1348,7 +1682,86 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-13.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.1",
+                  "ref": "13:1–6",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 31:6",
+                      "altSource": "Joshua 1:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Be strong and courageous. Don't be afraid or scared of them; for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.",
+                      "note": "God's promise to Israel at the Jordan — ‘he will not fail you nor forsake you’ — lifted to underwrite contentment: you need not grasp for money, for you already have him. The same promise was spoken to Joshua (Josh 1:5)."
+                    },
+                    {
+                      "source": "Psalm 118:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yahweh is on my side. I will not be afraid. What can man do to me?",
+                      "note": "The worshiper's confidence from the Hallel psalm, made the believer's answer to fear — paired at once with the Deuteronomy promise, two texts braided into one assurance."
+                    },
+                    {
+                      "source": "Genesis 18:1–8",
+                      "altSource": "Genesis 19:1–3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh appeared to him by the oaks of Mamre, as he sat in the tent door in the heat of the day. He lifted up his eyes and looked, and saw that three men stood opposite him. When he saw them, he ran to meet them from the tent door, and bowed himself to the earth, and said, ‘My lord, if now I have found favor in your sight, please don't go away from your servant. Now let a little water be fetched, wash your feet, and rest yourselves under the tree. I will get a morsel of bread so you can refresh your heart. After that you may go your way, now that you have come to your servant.’ They said, ‘Very well, do as you have said.’ Abraham hurried into the tent to Sarah, and said, ‘Quickly prepare three seahs of fine meal, knead it, and make cakes.’ Abraham ran to the herd, and fetched a tender and good calf, and gave it to the servant. He hurried to dress it. He took butter, milk, and the calf which he had dressed, and set it before them. He stood by them under the tree, and they ate.",
+                      "note": "‘Some have entertained angels without knowing it’ (v. 2) reaches back to Abraham at Mamre, who welcomed three strangers who proved to be the Lord and his messengers, and to Lot, who took in the two angels at Sodom's gate (Gen 19:1–3). High volume on the thematic level (Hays' criterion of thematic coherence) and recurrence within Genesis itself; the verbal trigger is faint, but the narrative is so iconic that no quotation is needed for the echo to be heard."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "13.2",
+                  "ref": "13:7–19",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "For on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh. (Leviticus 16:30)",
+                      "note": "The Day-of-Atonement figure makes its last turn. The bodies of the sin-offering ‘are burned outside the camp’ (Lev 16:27) — so Jesus ‘suffered outside the gate.’ The figure that began at 1:3 ends as a summons: ‘go out to him outside the camp, bearing his reproach.’"
+                    },
+                    {
+                      "source": "Leviticus 16:27",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The bull for the sin offering, and the goat for the sin offering, whose blood was brought in to make atonement in the Holy Place, shall be carried outside the camp; and they shall burn their skins, their flesh, and their dung with fire.",
+                      "note": "The precise verse behind v. 11: ‘the bodies of those animals, whose blood is brought into the holy place… are burned outside of the camp.’ Hebrews tracks Lev 16:27 almost clause by clause (high verbal volume), then reads the carcass-disposal detail figurally — the place of shame outside the camp becomes the place of Christ's saving death ‘outside the gate.’ LXX and Hebrew agree closely here, so no textual fork; the move is interpretive, not text-critical."
+                    },
+                    {
+                      "source": "Hosea 14:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "contested": true,
+                      "text": "Take words with you, and return to Yahweh. Tell him, ‘Forgive all our sins, and accept that which is good: so we offer our lips like bulls.’",
+                      "note": "‘The fruit of lips’ (v. 15) renders the Septuagint of Hos 14:3 (Eng. 14:2), which reads ‘fruit of our lips’ (karpon cheileōn) where the Hebrew has ‘bulls (parim) of our lips.’ A classic LXX-vs-Hebrew divergence: the Greek's parō → ‘fruit’ for the Hebrew's ‘bulls’ supplies Hebrews its exact phrase, turning verbal praise into the new-covenant ‘sacrifice.’ Availability and verbal volume make this the strongest precursor for the phrase, though the citation is unmarked and so contested."
+                    },
+                    {
+                      "source": "Psalm 50:14,23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Offer to God the sacrifice of thanksgiving. Pay your vows to the Most High. … Whoever offers the sacrifice of thanksgiving glorifies me, and prepares his way so that I will show God's salvation to him.",
+                      "note": "The very phrase ‘sacrifice of praise’ (thysian aineseōs) is the Septuagint's standing rendering of the todah/thank-offering of Ps 50:14, 23, where God prefers thanksgiving to slaughtered bulls — the same spiritualizing of cult Hebrews performs. Conceptual coherence is high; the verbal trigger is the shared LXX cult-term, so this is heard as a supporting echo beneath the Hosea allusion."
+                    },
+                    {
+                      "source": "Isaiah 57:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I create the fruit of the lips: Peace, peace, to him who is far off and to him who is near,” says Yahweh; “and I will heal them.",
+                      "note": "A second, fainter source for ‘fruit of lips’ — Isa 57:19 LXX literally speaks of ‘the fruit of the lips’ (karpon cheileōn). Low volume and contested as the primary referent (Hosea is the better fit for the praise-as-sacrifice sense), but the exact lexical match means it cannot be excluded from a maximal inventory (Hays' criterion of availability)."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1367,7 +1780,55 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.1",
+                  "ref": "14:1-6",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 22:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall not see your brother’s donkey or his ox fallen down by the way, and hide yourself from them. You shall surely help him to lift them up again.",
+                      "note": "Jesus' rescue argument — 'which of you, if your son or an ox fell into a well, wouldn't immediately pull him out on a Sabbath?' — draws on the Torah's humane-rescue command not to leave a brother's ox or donkey fallen by the way without lifting it up. The qal-wahomer (how much more a person) presupposes this animal-rescue obligation as available scriptural premise; high coherence with Jesus' wider Sabbath-mercy disputes (Luke 13:15)."
+                    },
+                    {
+                      "source": "Exodus 23:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "If you see the donkey of him who hates you fallen down under his burden, don’t leave him, you shall surely help him with it.",
+                      "note": "The parallel Torah duty to help even an enemy's donkey lying under its burden reinforces the same fallen-animal-rescue logic Jesus invokes for the well-fallen ox. Recurrence of the rescue motif across Deut 22:4 and Exod 23:5 strengthens availability, though Deut 22:4 is the closer verbal match.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 22:4"
+                    },
+                    {
+                      "source": "Leviticus 23:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, a holy convocation; you shall do no kind of work. It is a Sabbath to Yahweh in all your dwellings.",
+                      "note": "The Sabbath-rest command framing the whole conflict ('Is it lawful to heal on the Sabbath?') stands behind the scene; the dropsy healing is staged precisely against the holy-convocation rest prescription. Faint and diffuse — the Sabbath law is assumed background rather than cited.",
+                      "contested": true,
+                      "altSource": "Exodus 20:8-11"
+                    },
+                    {
+                      "source": "Exodus 20:8-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Remember the Sabbath day, to keep it holy. You shall labor six days, and do all your work, but the seventh day is a Sabbath to Yahweh your God. You shall not do any work in it, you, nor your son, nor your daughter, your male servant, nor your female servant, nor your livestock, nor your stranger who is within your gates; for in six days Yahweh made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore Yahweh blessed […]",
+                      "note": "The Decalogue Sabbath command is the legal ground the lawyers and Pharisees presuppose in watching whether Jesus will heal. Coherent with Luke's recurring Sabbath-controversy pattern but only ambiently present here.",
+                      "contested": true,
+                      "altSource": "Leviticus 23:3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

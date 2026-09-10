@@ -711,7 +711,189 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "7.9",
+                  "ref": "7:54-60",
+                  "echoes": [
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "Seeing 'Jesus standing on the right hand of God' draws on the enthronement oracle 'Sit thou at my right hand,' the supreme OT proof-text of exaltation — strikingly with Jesus standing rather than seated."
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "'The Son of Man standing at the right hand of God' fuses Daniel's vision of 'one like the Son of man' coming with the clouds with the right-hand enthronement."
+                    },
+                    {
+                      "source": "Psalm 31:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Into your hand I commend my spirit. You redeem me, Yahweh, God of truth.",
+                      "note": "'Lord Jesus, receive my spirit!' reworks the Psalmist's 'into thine hand I commit my spirit,' the prayer of the dying righteous now addressed to Jesus."
+                    },
+                    {
+                      "source": "Deuteronomy 17:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The hand of the witnesses shall be first on him to put him to death, and afterward the hand of all the people. So you shall remove the evil from your midst.",
+                      "note": "'The witnesses placed their garments' and the stoning reflect the Deuteronomic execution law that 'the hands of the witnesses shall be first upon him to put him to death.'",
+                      "altSource": "Leviticus 24:14"
+                    },
+                    {
+                      "source": "Leviticus 24:16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He who blasphemes Yahweh’s name, he shall surely be put to death. All the congregation shall certainly stone him. The foreigner as well as the native-born, when he blasphemes the Name, shall be put to death.",
+                      "note": "Stoning Stephen after the charge of blasphemy against the temple and God reflects the law that 'he that blasphemeth the name of the LORD... all the congregation shall certainly stone him.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 1:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As the appearance of the rainbow that is in the cloud in the day of rain, so was the appearance of the brightness all around. This was the appearance of the likeness of Yahweh’s glory. When I saw it, I fell on my face, and I heard a voice of one that spoke.",
+                      "note": "Stephen 'saw the glory of God' in opened heaven echoes Ezekiel's vision of 'the appearance of the likeness of the glory of the LORD,' the prophetic theophany pattern.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Life of Paul",
+                  "editionUrl": "https://annales.wrootpress.com/life-of-paul",
+                  "spans": [],
+                  "events": [
+                    {
+                      "year": 33,
+                      "label": "The stoning of Stephen",
+                      "ref": "Acts 7:54–8:1",
+                      "kind": "death",
+                      "approx": null,
+                      "note": "Saul stands holding the coats and consenting to the death — the church's first martyr, and the first time we meet the man who will carry the gospel to the empire."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/7/",
+              "title": "Stephen's Speech and Martyrdom",
+              "view": {
+                "center": [
+                  32.0,
+                  38.0
+                ],
+                "zoom": 4
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "mesopotamia",
+                  "name": "Mesopotamia",
+                  "coords": [
+                    34.0,
+                    42.0
+                  ],
+                  "tier": "region",
+                  "id": "The land between the Tigris and Euphrates. In the apostolic period split between Roman client kingdoms in the upper basin (Edessa) and Parthian control of Babylonia. Pin sits in the middle Euphrates region."
+                },
+                {
+                  "key": "haran",
+                  "name": "Haran",
+                  "coords": [
+                    36.8628,
+                    39.0314
+                  ],
+                  "tier": "identified",
+                  "id": "Modern Harran in southeastern Turkey on the Balikh river, a major caravan and cult centre of the moon-god Sin from the third millennium B.C. Terah's family settled here from Ur (Gen 11:31); Abraham left from Haran for Canaan (Gen 12:4). Site of the Roman defeat at Carrhae in 53 B.C."
+                },
+                {
+                  "key": "egypt",
+                  "name": "Egypt",
+                  "coords": [
+                    26.0,
+                    31.0
+                  ],
+                  "tier": "region",
+                  "id": "The Nile valley civilization, the land of Israel's bondage. Pin sits on the Nile near ancient Memphis."
+                },
+                {
+                  "key": "canaan-region",
+                  "name": "Canaan",
+                  "coords": [
+                    32.0,
+                    35.0
+                  ],
+                  "tier": "region",
+                  "id": "The pre-Israelite name for the southern Levant, broadly the Mediterranean coastal strip and the highlands east to the Jordan. The term, attested in Egyptian and Akkadian sources from the second millennium, gives way to 'Israel' / 'Judah' through the biblical period."
+                },
+                {
+                  "key": "shechem",
+                  "name": "Shechem",
+                  "coords": [
+                    32.213,
+                    35.282
+                  ],
+                  "tier": "identified",
+                  "id": "Tell Balata at the eastern edge of modern Nablus, in the saddle between Mount Ebal and Mount Gerizim. The patriarchal sanctuary of Gen 12:6, 33:18-20 and the covenant-renewal site of Joshua 24. Excavations by Sellin and Wright revealed Middle and Late Bronze fortifications and a fortress-temple."
+                },
+                {
+                  "key": "midian",
+                  "name": "Midian",
+                  "coords": [
+                    27.5,
+                    36.5
+                  ],
+                  "tier": "region",
+                  "id": "The Arabian region southeast of the Gulf of Aqaba, traditionally located on the eastern side of the Red Sea (modern northwestern Saudi Arabia). Refuge of Moses after his flight from Egypt (Exod 2:15); home of Jethro and the burning bush (Exod 3)."
+                },
+                {
+                  "key": "mount-sinai",
+                  "name": "Mount Sinai",
+                  "coords": [
+                    28.5392,
+                    33.975
+                  ],
+                  "tier": "conjectural",
+                  "id": "Traditionally identified with Jebel Musa in the southern Sinai peninsula, where the Monastery of Saint Catherine has been continuously occupied since the sixth century. Other proposals locate Sinai at Jebel al-Lawz in northwestern Saudi Arabia (matching a Midianite location for the burning bush), at Har Karkom in the Negev, or at Jebel Sin Bishar. The traditional Jebel Musa identification is preserved here as the long-standing default; the alternatives are footnoted."
+                },
+                {
+                  "key": "red-sea",
+                  "name": "Red Sea",
+                  "coords": [
+                    29.5,
+                    32.7
+                  ],
+                  "tier": "region",
+                  "id": "The Hebrew Yam Suph ('Sea of Reeds') traditionally rendered Red Sea. The crossing-point of the exodus is variously located in the marshes north of the Gulf of Suez, in one of the Bitter Lakes, or in the Gulf of Aqaba; the chapter does not specify."
+                },
+                {
+                  "key": "babylon",
+                  "name": "Babylon",
+                  "coords": [
+                    32.5424,
+                    44.4208
+                  ],
+                  "tier": "identified",
+                  "id": "On the Euphrates c. 85 km south of Baghdad. Capital of the Neo-Babylonian empire (Nebuchadnezzar II). Stephen's quotation in v. 43 modifies Amos 5:27 ('beyond Damascus') to 'beyond Babylon', reading the exile of 587 B.C. as the prophet's longer-range fulfilment."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -724,7 +906,85 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-31"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 31:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.23.46",
+                      "refDisplay": "Luke 23:46",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.10",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-23.10"
+                    },
+                    {
+                      "refKey": "Acts.7.54-Acts.7.60",
+                      "refDisplay": "Acts 7:54–60",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.9"
+                    },
+                    {
+                      "refKey": "Matt.27.50",
+                      "refDisplay": "Matthew 27:50",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.13"
+                    },
+                    {
+                      "refKey": "1Pet.4.12-1Pet.4.19",
+                      "refDisplay": "1 Peter 4:12–19",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "4.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-4.3"
+                    },
+                    {
+                      "refKey": "2Tim.1.11-2Tim.1.12",
+                      "refDisplay": "2 Timothy 1:11–12",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.11"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 31:1–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.23.46",
+                      "refDisplay": "Luke 23:46",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.10"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -737,7 +997,137 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-peter#p-2.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-3",
+                  "echoes": [
+                    {
+                      "source": "Psalm 34:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Oh taste and see that Yahweh is good. Blessed is the man who takes refuge in him.",
+                      "note": "\"if indeed you have tasted that the Lord is gracious\" (2:3) closely reworks Psalm 34:8 LXX (33:9), \"taste and see that the Lord is good (chrēstos).\" The verb 'tasted' plus the divine predicate is a strong verbal borrowing; the wordplay chrēstos/Christos prepares the turn to the living stone. Psalm 34 recurs across 1 Peter (cf. 3:10-12 quoting Ps 34:12-16), raising recurrence and volume."
+                    },
+                    {
+                      "source": "Isaiah 40:6-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The voice of one saying, “Cry!” One said, “What shall I cry?” “All flesh is like grass, and all its glory is like the flower of the field. The grass withers, the flower fades, because Yahweh’s breath blows on it. Surely the people are like grass. The grass withers, the flower fades; but the word of our God stands forever.”",
+                      "note": "\"long for the pure milk of the Word\" (2:2) picks up the 'word' (logos/rhēma) by which the readers were reborn (1:23-25, where Isa 40:6-8 is just quoted); the abiding word of God is the nourishment metaphor here, an echo carried over from the immediately preceding citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:4-10",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "\"Behold, I lay in Zion a chief cornerstone, chosen, and precious: He who believes in him will not be disappointed\" (2:6) is a formula-introduced citation (\"it is contained in Scripture\") of Isaiah 28:16 LXX. Verbatim: tithēmi en Siōn lithon... eklekton entimon, and the believer not being put to shame. The keywords 'chosen/precious' also reach back to v.4-5 ('chosen by God, precious')."
+                    },
+                    {
+                      "source": "Psalm 118:22",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The stone which the builders rejected has become the head of the corner.",
+                      "note": "\"The stone which the builders rejected, has become the chief cornerstone\" (2:7) is a verbatim quotation of Psalm 118:22 LXX (117:22). Part of the stacked stone-testimonia catena; the same text is a primary early-Christian Christological proof (cf. Mark 12:10; Acts 4:11). 'Rejected'/'builders' ties to the rejection theme of v.4."
+                    },
+                    {
+                      "source": "Isaiah 8:14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He will be a sanctuary, but for both houses of Israel, he will be a trap and a snare for the inhabitants of Jerusalem.",
+                      "note": "\"a stone of stumbling, and a rock of offense\" (2:8) quotes Isaiah 8:14, lithos proskommatos kai petra skandalou. Third member of the stone catena, applied to the disobedient who stumble at the word; combined here (as in Rom 9:33) with Isa 28:16."
+                    },
+                    {
+                      "source": "Exodus 19:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "and you shall be to me a kingdom of priests, and a holy nation.’ These are the words which you shall speak to the children of Israel.”",
+                      "note": "\"a royal priesthood... a holy nation\" (2:9) draws directly on Exodus 19:6 LXX, basileion hierateuma kai ethnos hagion, the Sinai vocation of Israel now applied to the church. High volume; the priesthood theme also undergirds v.5 ('holy priesthood... spiritual sacrifices')."
+                    },
+                    {
+                      "source": "Isaiah 43:20-21",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The animals of the field shall honor me, the jackals and the ostriches; because I give water in the wilderness and rivers in the desert, to give drink to my people, my chosen, the people which I formed for myself, that they might declare my praise.",
+                      "note": "\"a chosen race... a people for God's own possession, that you may proclaim the excellence of him\" (2:9) is woven from Isaiah 43:20-21 LXX, 'my chosen race (genos eklekton)... my people whom I preserved to declare my excellencies (aretas).' The distinctive phrase 'proclaim the excellencies/aretas' is verbatim from Isa 43:21 and not from Exod 19, marking this as a separate source fused into the title-collage."
+                    },
+                    {
+                      "source": "Exodus 19:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Now therefore, if you will indeed obey my voice, and keep my covenant, then you shall be my own possession from among all peoples; for all the earth is mine;",
+                      "note": "\"a people for God's own possession\" (2:9) renders laos eis peripoiēsin, echoing the 'peculiar treasure/possession' (laos periousios / segullah) of Exodus 19:5; reinforces the Sinai covenant frame alongside Exod 19:6, and resonant with Mal 3:17 / Isa 43:21.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 2:23",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I will sow her to me in the earth; and I will have mercy on her who had not obtained mercy; and I will tell those who were not my people, ‘You are my people;’ and they will say, ‘My God!’”",
+                      "note": "\"who in time past were no people, but now are God's people, who had not obtained mercy, but now have obtained mercy\" (2:10) reworks Hosea 2:23 (LXX 2:25), 'I will say to Not-my-people, You are my people' and 'I will have mercy on Not-pitied.' The double not-people/people and not-mercy/mercy antithesis is the signature of Hosea, also taken up in Rom 9:25."
+                    },
+                    {
+                      "source": "Hosea 1:9-10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He said, “Call his name Lo-Ammi; for you are not my people, and I will not be yours. Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "\"were no people, but now are God's people\" (2:10) also draws on Hosea 1:9-10, the naming of Lo-ammi ('not my people') and the reversal 'you are sons of the living God.' Companion source to Hos 2:23 supplying the 'not a people' title; high recurrence within the Hosea reversal oracle."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "\"chosen by God, precious\" (2:4) pre-echoes Isaiah 28:16's eklekton entimon ('chosen and precious'), the very words cited in v.6; Peter introduces the catena's keywords narratively before quoting, a deliberate framing device."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "\"as living stones, are built up as a spiritual house, to be a holy priesthood, to offer up spiritual sacrifices\" (2:5) is a typological reading of the Zion-stone oracle: believers become the new temple founded on Christ the cornerstone, a priesthood offering spiritual (not Levitical) sacrifices. The figural new-temple/new-Israel construal organizes the whole pericope."
+                    },
+                    {
+                      "source": "Isaiah 8:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He will be a sanctuary, but for both houses of Israel, he will be a trap and a snare for the inhabitants of Jerusalem.",
+                      "note": "\"coming to him, a living stone, rejected indeed by men, but chosen by God\" (2:4) anticipates and conditions the catena: the 'rejected by men / chosen by God' contrast frames the stone testimonia of vv.6-8 and the figural identification of Christ as the temple cornerstone before any is formally cited.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 118:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The stone which the builders rejected has become the head of the corner.",
+                      "note": "\"rejected indeed by men\" (2:4) anticipates 'the stone which the builders rejected' of Ps 118:22 (v.7); apodedokimasmenon shares the rejection motif, weaving the psalm into the opening description of Christ as living stone.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 118:22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The stone which the builders rejected has become the head of the corner.",
+                      "note": "\"For you who believe therefore is the honor\" (2:7) plays on Isa 28:16's 'precious/honor' (entimon/timē) as the antithesis to the builders' rejection of Ps 118:22, binding the two quotations into a single believe/disbelieve contrast.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -756,7 +1146,224 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.1",
+                  "ref": "14:1-4",
+                  "echoes": [
+                    {
+                      "source": "Psalm 23:6",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Surely goodness and loving kindness shall follow me all the days of my life, and I will dwell in Yahweh’s house forever.",
+                      "note": "Jesus' promise to receive disciples into the 'Father's house' where they will dwell forever figurally fulfills the psalmist's hope to 'dwell in the house of the LORD forever.' Coherence is strong: John repeatedly reads the temple/house of God Christologically (2:16-21), and the eternal abode (monai) recasts the psalm's permanent residence in God's house. Volume rests on the shared house-dwelling motif rather than a verbal quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 27:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "One thing I have asked of Yahweh, that I will seek after, that I may dwell in Yahweh’s house all the days of my life, to see Yahweh’s beauty, and to inquire in his temple.",
+                      "note": "'One thing I have asked... to dwell in the house of the LORD all the days of my life' supplies the prototypical longing for permanent residence in God's house that 14:2-3 grants the disciples. Recurrence of the 'house of the LORD as abode' topos in the Psalter strengthens the case; the contestation is that John gives no verbal cue, only the dwelling theme.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 84:1-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How lovely are your dwellings, Yahweh of Armies! My soul longs, and even faints for the courts of Yahweh. My heart and my flesh cry out for the living God. Yes, the sparrow has found a home, and the swallow a nest for herself, where she may have her young, near your altars, Yahweh of Armies, my King, and my God. Blessed are those who dwell in your house. They are always praising you. Selah.",
+                      "note": "'How lovely is your dwelling place... blessed are those who dwell in your house' frames the temple as the place of beatitude, the same register behind the 'many rooms' in the Father's house. Low confidence: thematically apt but adds no distinctive lexeme beyond the shared house/dwelling idea, and competes with the other Psalter echoes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 25:8-9",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Let them make me a sanctuary, that I may dwell among them. According to all that I show you, the pattern of the tabernacle, and the pattern of all of its furniture, even so you shall make it.",
+                      "note": "'Let them make me a sanctuary, that I may dwell among them' establishes the tabernacle as God's dwelling, the OT substrate John reworks when Jesus prepares an eternal dwelling-place and elsewhere reads his own body as the temple. Figural rather than verbal; the connection runs through John's larger temple Christology more than through 14:2 itself.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 10:33-34",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They set forward from the Mount of Yahweh three days’ journey. The ark of the covenant of Yahweh went before them three days’ journey, to seek out a resting place for them. The cloud of Yahweh was over them by day, when they set forward from the camp.",
+                      "note": "The ark going ahead 'to seek out a resting place' for Israel offers a faint Exodus-journey backdrop to Jesus going ahead to 'prepare a place' for his followers. Volume is weak and the lexical overlap thin; flagged low and contested as a possible wilderness-itinerary resonance rather than a deliberate citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "14.2",
+                  "ref": "14:5-7",
+                  "echoes": [
+                    {
+                      "source": "Psalm 25:4-5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Show me your ways, Yahweh. Teach me your paths. Guide me in your truth, and teach me, For you are the God of my salvation, I wait for you all day long.",
+                      "note": "'Make me to know your ways, O LORD... lead me in your truth' fuses 'way' and 'truth' in a prayer for divine guidance, the very pairing Jesus claims to embody as 'the way and the truth.' Coherence is high with the Psalter's 'way of the LORD' theology; John transfers the divine path/truth that leads to God onto Jesus himself, who is now the access to the Father.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 86:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Teach me your way, Yahweh. I will walk in your truth. Make my heart undivided to fear your name.",
+                      "note": "'Teach me your way, O LORD, that I may walk in your truth' again binds 'way' and 'truth' as the route to communion with God, paralleling 14:6's claim that the way and truth lead to the Father. Recurrence of this way/truth collocation across the Psalter raises Volume; the contestation is that John offers no formula-citation, only the absorbed idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 35:8",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "A highway will be there, a road, and it will be called The Holy Way. The unclean shall not pass over it, but it will be for those who walk in the Way. Wicked fools will not go there.",
+                      "note": "The 'Holy Way' on which the redeemed travel to Zion provides a prophetic 'way' that leads God's people home, figurally fulfilled when Jesus is the exclusive 'way' to the Father's house. Coherence with John's homecoming theme (14:2-3) is strong; the singular eschatological highway resonates with Jesus as the one road of return.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 30:15-20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, I have set before you this day life and prosperity, and death and evil. For I command you this day to love Yahweh your God, to walk in his ways, and to keep his commandments, his statutes, and his ordinances, that you may live and multiply, and that Yahweh your God may bless you in the land where you go in to possess it. But if your heart turns away, and you will not hear, but are drawn away, and worship other gods, and serve them; I denounce to […]",
+                      "note": "Moses sets before Israel 'life' and 'the way' of obeying the LORD, the choice that is itself 'your life' and the means to dwell in the land. Jesus' self-identification as 'the way... and the life' recasts this Deuteronomic life-through-the-way into a person; Coherence is reinforced by 14:15's love-and-keep-commandments idiom drawn from the same book.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "The LORD proclaims himself 'abounding in steadfast love and faithfulness (emet/aletheia),' the covenant 'truth' that John's prologue already applied to the incarnate Word (1:14, 'full of grace and truth'). Jesus' claim to be 'the truth' thus draws on the Sinai self-revelation of God's faithfulness; medium confidence given the strong Johannine recurrence of 'truth' language.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:32-35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Now therefore, my sons, listen to me, for blessed are those who keep my ways. Hear instruction, and be wise. Don’t refuse it. Blessed is the man who hears me, watching daily at my gates, waiting at my door posts. For whoever finds me, finds life, and will obtain favor from Yahweh.",
+                      "note": "Wisdom declares 'whoever finds me finds life' and blesses those who keep her 'ways,' supplying a way/life nexus mediated by a personified divine figure. Jesus as 'the way... and the life' through whom one reaches the Father parallels the Wisdom-mediator pattern; low confidence because the verbal links are diffuse and the Wisdom backdrop is more securely felt in John 1.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I have chosen the way of truth. I have set your ordinances before me.",
+                      "note": "'I have chosen the way of faithfulness (truth)' once more couples 'way' and 'truth' as the path of covenant fidelity. It adds Recurrence to the way/truth motif behind 14:6 but is too generic on its own; flagged low and contested as cumulative support rather than a discrete source.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "14.3",
+                  "ref": "14:8-11",
+                  "echoes": [
+                    {
+                      "source": "Exodus 33:18-23",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "He said, “Please show me your glory.” He said, “I will make all my goodness pass before you, and will proclaim Yahweh’s name before you. I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy.” He said, “You cannot see my face, for man may not see me and live.” Yahweh also said, “Behold, there is a place by me, and you shall stand on the rock. It will happen, while my glory passes by, that I will put you in a cleft of […]",
+                      "note": "Philip's 'show us the Father' directly replays Moses' 'show me your glory,' to which God replies that no one can see his face and live. John inverts the denial: the one who has seen Jesus has seen the Father, fulfilling the Sinai longing to behold God. High Volume and Coherence given the explicit 'show us'/'show me' request and John's programmatic 'no one has ever seen God; the only Son has made him known' (1:18)."
+                    },
+                    {
+                      "source": "Exodus 33:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to Moses face to face, as a man speaks to his friend. He turned again into the camp, but his servant Joshua, the son of Nun, a young man, didn’t depart from the Tent.",
+                      "note": "The LORD spoke to Moses 'face to face, as a man speaks to his friend,' yet 33:20 forbids seeing God's face directly; this tension is exactly what 14:9 resolves by locating the Father's visible presence in Jesus. Coherence with the surrounding Exodus 33 theophany strengthens the medium rating beyond the headline 33:18-23 allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 4:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh spoke to you out of the midst of the fire: you heard the voice of words, but you saw no form; you only heard a voice.",
+                      "note": "At Horeb Israel 'heard the sound of words but saw no form,' codifying that God is heard, not seen. Jesus' claim that his words are the Father's and that seeing him is seeing the Father answers this aniconic tradition. Low confidence: thematic counterpoint rather than verbal echo, supporting the 'unseen God' frame behind the pericope.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 18:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will raise them up a prophet from among their brothers, like you. I will put my words in his mouth, and he shall speak to them all that I shall command him.",
+                      "note": "God promises a prophet 'in whose mouth I will put my words... he shall speak all that I command him,' the pattern Jesus claims in 14:10: 'the words I speak are not from myself; the Father does his works.' The prophet-like-Moses speech-formula gives modest Coherence with John's sent-one Christology; low because John does not cite the prophet text here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 12:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "With him, I will speak mouth to mouth, even plainly, and not in riddles; and he shall see Yahweh’s form. Why then were you not afraid to speak against my servant, against Moses?”",
+                      "note": "Moses uniquely beholds 'the form of the LORD' and speaks with him 'mouth to mouth,' a near-vision that 14:9 surpasses by granting the disciples the Father in the Son. Faint, contested support for the seeing-God motif; the lexical overlap is limited to the shared theophanic register.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "14.4",
+                  "ref": "14:12-14",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 11:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "but your eyes have seen all of Yahweh’s great work which he did.",
+                      "note": "Israel had 'seen all the great work of the LORD that he did,' framing God's redemptive deeds as 'works' the people witness; Jesus speaks of 'the works that I do' continuing in his followers. Low confidence: 'works of the LORD' is a broad Deuteronomic idiom rather than a targeted source, offering only thematic coloring to 14:12.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joshua 24:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Israel served Yahweh all the days of Joshua, and all the days of the elders who outlived Joshua, and had known all the work of Yahweh, that he had worked for Israel.",
+                      "note": "Israel served the LORD all the days that the elders 'had known all the work of the LORD that he did for Israel,' another instance of redemptive deeds as 'works.' It reinforces the OT 'works of God' register behind Jesus' 'greater works,' but is too generic to credit as a specific allusion; flagged low and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, you will ordain peace for us, for you have also worked all our works for us.",
+                      "note": "'You have indeed done all our works for us,' confessing that human works are wrought by God, resonates faintly with 14:12's promise that believers will do the works Jesus does because he goes to the Father. Low and contested: a thematic affinity about divinely-empowered works rather than a deliberate citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 145:18-19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is near to all those who call on him, to all who call on him in truth. He will fulfill the desire of those who fear him. He also will hear their cry, and will save them.",
+                      "note": "'The LORD is near to all who call on him... he fulfills the desire of those who fear him' undergirds the answered-petition promise of 14:13-14 ('whatever you ask in my name'). The granting-of-requests motif is widespread in the Psalter; low confidence because no single verse is verbally anchored, though it situates Jesus in the role of the request-granting LORD.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The footwashing and farewell discourse",
+                      "section": "passion",
+                      "refs": {
+                        "john": "13:1–17:26"
+                      },
+                      "note": "Five chapters where the Synoptics give the meal: the new commandment, the vine, the Paraclete, and the high-priestly prayer. John only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

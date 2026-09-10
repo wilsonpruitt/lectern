@@ -405,7 +405,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-118"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 118:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.19.16-Matt.19.22",
+                      "refDisplay": "Matthew 19:16–22",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.5"
+                    },
+                    {
+                      "refKey": "Mark.10.17-Mark.10.22",
+                      "refDisplay": "Mark 10:17–22",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-10.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 113–118",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.14.26",
+                      "refDisplay": "Mark 14:26",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -424,7 +472,94 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.1",
+                  "ref": "11:1-11",
+                  "echoes": [
+                    {
+                      "source": "Zechariah 9:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Rejoice greatly, daughter of Zion! Shout, daughter of Jerusalem! Behold, your King comes to you! He is righteous, and having salvation; lowly, and riding on a donkey, even on a colt, the foal of a donkey.",
+                      "note": "The deliberate procurement and riding of a young donkey into Jerusalem evokes Zechariah's humble king who comes 'lowly and riding on a donkey, on a colt the foal of a donkey.' Mark does not quote it (unlike Matthew/John), but the staged colt-riding has high coherence with the messianic peace-king imagery, and the theme recurs across the entry tradition. Volume is strong despite the missing citation."
+                    },
+                    {
+                      "source": "Psalm 118:25-26",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Save us now, we beg you, Yahweh! Yahweh, we beg you, send prosperity now. Blessed is he who comes in Yahweh’s name! We have blessed you out of Yahweh’s house.",
+                      "note": "The crowd's cry 'Hosanna! Blessed is he who comes in the name of the Lord!' formally cites the Hallel pilgrimage acclamation, where 'Hosanna' (hoshia-na, 'save now') is Ps 118:25 and the blessing is 118:26. This is a verbatim liturgical quotation with maximal volume; the same psalm recurs as the rejected-stone text in Mark 12:10-11, strengthening recurrence."
+                    },
+                    {
+                      "source": "Genesis 49:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Binding his foal to the vine, his donkey’s colt to the choice vine; he has washed his garments in wine, his robes in the blood of grapes.",
+                      "note": "Jacob's blessing of Judah, 'binding his foal to the vine and his donkey's colt to the choice vine,' supplies an old messianic-royal association of the bound colt that Second-Temple readers connected to the coming ruler of Judah (Gen 49:10). Mark's emphatically tied, never-ridden colt that is untied coheres with this figural Judahic kingship, though the link is mediated and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 9:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Then they hurried, and took every man his garment, and put it under him on the top of the stairs, and blew the trumpet, saying, “Jehu is king.”",
+                      "note": "Spreading garments on the road as Jesus rides echoes the acclamation of Jehu, where the people 'took every man his garment, and put it under him... and blew the trumpet, saying, Jehu is king.' The shared royal-enthronement gesture of garments under the new king gives coherence to reading the entry as a kingmaking, though Mark adds the cut branches."
+                    },
+                    {
+                      "source": "2 Samuel 7:12-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men; but my loving kindness shall not […]",
+                      "note": "The crowd hails 'the coming kingdom of our father David,' invoking the Davidic covenant promise of an enduring throne and kingdom for David's offspring. The Davidic-dynastic frame of the entry coheres with Nathan's oracle, the foundational text for messianic kingship, though Mark cites no words from it."
+                    },
+                    {
+                      "source": "Psalm 24:7-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Lift up your heads, you gates! Be lifted up, you everlasting doors, and the King of glory will come in. Who is the King of glory? Yahweh strong and mighty, Yahweh mighty in battle. Lift up your heads, you gates; yes, lift them up, you everlasting doors, and the King of glory will come in. Who is this King of glory? Yahweh of Armies is the King of glory! Selah.",
+                      "note": "The king's approach to Jerusalem and entry into the temple faintly recalls the processional liturgy of the King of glory entering the gates. The coherence is thematic (royal advent into the sanctuary), but there is no verbal contact, so the echo is faint and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 14:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "His feet will stand in that day on the Mount of Olives, which is before Jerusalem on the east; and the Mount of Olives will be split in two, from east to west, making a very great valley. Half of the mountain will move toward the north, and half of it toward the south.",
+                      "note": "Mark situates the entry at the Mount of Olives, the very site where Zechariah says the LORD's feet will stand on the day of his eschatological coming. The geographic note may be loaded with this Day-of-the-LORD coherence, but the topographic detail is also simply realistic, so the allusion is contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Triumphal Entry",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "21:1–11",
+                        "mark": "11:1–11",
+                        "luke": "19:28–44",
+                        "john": "12:12–19"
+                      },
+                      "note": "All four bring him into the city on the colt; Luke alone has him weep over Jerusalem."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

@@ -608,7 +608,104 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/joshua/3/"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Joshua 3:14–17",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.44-Acts.7.50",
+                      "refDisplay": "Acts 7:44–50",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-7.7"
+                    },
+                    {
+                      "refKey": "Matt.3.13-Matt.3.17",
+                      "refDisplay": "Matthew 3:13–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "3.2",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-3.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/joshua/3/",
+              "title": "Crossing the Jordan",
+              "view": {
+                "center": [
+                  31.85,
+                  35.5
+                ],
+                "zoom": 9
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jordan",
+                  "name": "The Jordan",
+                  "coords": [
+                    31.8378,
+                    35.545
+                  ],
+                  "tier": "identified",
+                  "id": "The Jordan River; the crossing point in the Joshua narrative is traditionally placed opposite Jericho near the el-Maghtas ford, modern Qasr el-Yahud."
+                },
+                {
+                  "key": "adam",
+                  "name": "Adam",
+                  "coords": [
+                    32.0985,
+                    35.552
+                  ],
+                  "tier": "identified",
+                  "id": "Tell ed-Damiyeh, on the east bank of the Jordan near the mouth of the Jabbok, c. 25 km north of Jericho. The identification is secure on linguistic and topographic grounds; the site sits at a constriction in the Jordan corridor where landslide damming of the river has been historically attested."
+                },
+                {
+                  "key": "zarethan",
+                  "name": "Zarethan",
+                  "coords": [
+                    32.235,
+                    35.581
+                  ],
+                  "tier": "conjectural",
+                  "id": "An unconfirmed site in the Jordan Valley, named here as the city beside Adam. The leading candidate is Tell es-Saʿidiyeh, c. 28 km north of Jericho on the east bank; Tell Umm Hamad has also been proposed."
+                },
+                {
+                  "key": "dead-sea",
+                  "name": "The Dead Sea",
+                  "coords": [
+                    31.5,
+                    35.5
+                  ],
+                  "tier": "identified",
+                  "id": "The salt lake at the southern end of the Jordan Rift Valley, c. 80 km long, the lowest point on the earth's surface (−430 m). Called the “Salt Sea” and the “sea of the Arabah” in the Hebrew Bible. Forms the eastern boundary of Judah and the western boundary of Moab."
+                },
+                {
+                  "key": "jericho",
+                  "name": "Jericho",
+                  "coords": [
+                    31.8714,
+                    35.4442
+                  ],
+                  "tier": "identified",
+                  "id": "Tell es-Sultan, on the western edge of the Jordan Valley c. 10 km NW of the Dead Sea. Excavated by Sellin & Watzinger, Garstang, Kenyon, and most recently by the Italian–Palestinian expedition."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -621,7 +718,80 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-107"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 107:5–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 107:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.22-Luke.13.30",
+                      "refDisplay": "Luke 13:22–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.6"
+                    },
+                    {
+                      "refKey": "Matt.8.5-Matt.8.13",
+                      "refDisplay": "Matthew 8:5–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 107:4–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.8.1-Mark.8.10",
+                      "refDisplay": "Mark 8:1–10",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-8.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -640,7 +810,132 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:9-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 1:31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and in the wilderness, where you have seen how that Yahweh your God bore you, as a man does bear his son, in all the way that you went, until you came to this place.”",
+                      "note": "Paul exhorts 'as a father his own children' (v. 11), echoing 'the Lord your God carried you, as a man carries his son (hos ei tis trophophoresei... huion).' Deuteronomy's paternal image of God forming Israel through the wilderness coheres with Paul's claim to have fathered a people and called them to walk worthily (v. 12). Pairs with the maternal-nurse figure of v. 7."
+                    },
+                    {
+                      "source": "Psalm 103:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Like a father has compassion on his children, so Yahweh has compassion on those who fear him.",
+                      "note": "'As a father has compassion on his children, so the Lord has compassion on those who fear him.' Reinforces the fatherly-tenderness simile of v. 11. Faint verbal tie but strongly coherent with the divine-father topos Paul applies to his own pastoral role.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 3:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "for whom Yahweh loves, he reproves; even as a father reproves the son in whom he delights.",
+                      "note": "'For whom the Lord loves he reproves, even as a father the son in whom he delights.' Supplies the father-exhorting-son pattern behind Paul's 'exhorting and encouraging' each one as a father (v. 11). Contested, but it belongs to the available paternal-discipline idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the saints of the Most High shall receive the kingdom, and possess the kingdom forever, even forever and ever.",
+                      "note": "God 'calls you into his own kingdom and glory' (v. 12) draws on the OT hope that the saints receive the kingdom; Daniel 7:18 ('the saints of the Most High shall receive the kingdom') is the seedbed of that eschatological kingdom-and-glory language. Faint and contested as a specific source.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:13-16",
+                  "echoes": [
+                    {
+                      "source": "Nehemiah 9:26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Nevertheless they were disobedient, and rebelled against you, and cast your law behind their back, and killed your prophets that testified against them to turn them again to you, and they committed awful blasphemies.",
+                      "note": "Paul charges that they 'killed... their own prophets' (v. 15), the classic Deuteronomistic prophet-killing tradition stated programmatically in Nehemiah's confession: 'they were disobedient... and slew your prophets who testified against them.' High coherence: Paul's polemic is a compressed restatement of this historiographical theme of Israel's persecution of God's messengers."
+                    },
+                    {
+                      "source": "2 Chronicles 36:16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "but they mocked the messengers of God, and despised his words, and scoffed at his prophets, until the wrath of Yahweh arose against his people, until there was no remedy.",
+                      "note": "'They mocked the messengers of God... till the wrath of the Lord arose against his people, till there was no remedy.' This verse uniquely binds prophet-rejection to the inescapable wrath that 'came upon them to the uttermost' (v. 16), matching both halves of Paul's statement (killing prophets + final wrath). Very strong coherence and volume."
+                    },
+                    {
+                      "source": "Jeremiah 2:30",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“I have struck your children in vain. They received no correction. Your own sword has devoured your prophets, like a destroying lion.",
+                      "note": "'Your own sword has devoured your prophets like a destroying lion.' A concrete instance of the prophet-killing charge that Paul generalizes in v. 15. Recurrence of the motif across the prophets strengthens its presence here."
+                    },
+                    {
+                      "source": "Jeremiah 26:20-23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There was also a man who prophesied in Yahweh’s name, Uriah the son of Shemaiah of Kiriath Jearim; and he prophesied against this city and against this land according to all the words of Jeremiah: and when Jehoiakim the king, with all his mighty men, and all the princes, heard his words, the king sought to put him to death; but when Uriah heard it, he was afraid, and fled, and went into Egypt: and Jehoiakim the king sent men into Egypt, Elnathan the son […]",
+                      "note": "The narrative of the prophet Uriah, pursued and 'slain with the sword' by the king, is a paradigmatic OT account of killing a prophet who spoke God's word. It supplies historical substance to Paul's 'killed... their own prophets' and the driving-out theme ('drove us out', v. 15)."
+                    },
+                    {
+                      "source": "Genesis 15:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "In the fourth generation they will come here again, for the iniquity of the Amorite is not yet full.”",
+                      "note": "'To fill up their sins always' (v. 16) echoes the measure-of-iniquity motif: 'the iniquity of the Amorites is not yet complete (anapeplerontai).' The notion that sin must reach a fixed full measure before judgment falls coheres precisely with Paul's logic that wrath comes when sins are 'filled up.'"
+                    },
+                    {
+                      "source": "Daniel 8:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "In the latter time of their kingdom, when the transgressors have come to the full, a king of fierce face, and understanding dark sentences, shall stand up.",
+                      "note": "'When the transgressors have reached their full measure (pleroumenon ton hamartion), a king... shall arise.' Daniel applies the filling-up-of-sins idea to an eschatological crisis preceding wrath, matching Paul's 'fill up their sins always... wrath has come.' Reinforces Genesis 15:16 within a second-temple judgment framework."
+                    },
+                    {
+                      "source": "2 Maccabees 6:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For in the case of the other nations the Sovereign Lord does with longsuffering forbear, until that he punish them when they have attained to the full measure of their sins; but not so judged he as touching us,",
+                      "note": "Explains that God waits 'until they have reached the full measure of their sins' before punishing — a deuterocanonical articulation of the same measure-of-iniquity theology behind v. 16. Faint as a direct source but confirms the idea's currency in second-temple Judaism (Availability criterion).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 9:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The days of visitation have come. The days of reckoning have come. Israel will consider the prophet to be a fool, and the man who is inspired to be insane, because of the abundance of your sins, and because your hostility is great.",
+                      "note": "'The days of visitation have come, the days of recompense have come' supplies the prophetic 'the wrath/days have come' formula behind v. 16 ('wrath has come upon them to the uttermost'). Coherent with the prophetic wrath topos; contested as a specific source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 7:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now will I shortly pour out my wrath on you, and accomplish my anger against you, and will judge you according to your ways; and I will bring on you all your abominations.",
+                      "note": "'Now I will shortly pour out my wrath upon you, and accomplish my anger against you.' Ezekiel 7's repeated 'the end has come... wrath' announcement is a candidate background for Paul's compressed 'wrath has come upon them at last.' Faint, contested, but it belongs to the available prophetic-wrath idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Testament of Levi 6:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "The pseudepigraphal phrase 'the wrath of God came upon them to the uttermost (eis telos)' is strikingly close to Paul's wording in v. 16 and is often cited as the nearest verbal parallel. Warranted as a faint, contested second-temple echo illuminating the fixed formula Paul deploys.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -659,7 +954,131 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "23.1",
+                  "ref": "23:1-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall bind them for a sign on your hand, and they shall be for frontlets between your eyes.",
+                      "note": "\"They make their phylacteries broad\" (v5) directly references tefillin, the binding of the words 'as a sign on your hand and frontlets between your eyes'; Jesus targets the ostentatious enlargement of this commanded practice.",
+                      "altSource": "Exodus 13:9"
+                    },
+                    {
+                      "source": "Numbers 15:38-39",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes in the borders of their garments throughout their generations, and that they put on the fringe of each border a cord of blue: and it shall be to you for a fringe, that you may look on it, and remember all the commandments of Yahweh, and do them; and that you not follow after your own heart and your own eyes, after which you use to play the prostitute;",
+                      "note": "\"Enlarge the fringes of their garments\" (v5) references the commanded tassels (tzitzit) on the corners of garments, given as a reminder of the commandments; the abuse is enlarging them for show.",
+                      "altSource": "Deuteronomy 22:12"
+                    },
+                    {
+                      "source": "Proverbs 29:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "A man’s pride brings him low, but one of lowly spirit gains honor.",
+                      "note": "\"A man's pride will bring him low, but the humble in spirit will obtain honor\" is the proverbial substrate of v12's exaltation/humiliation reversal.",
+                      "altSource": "Proverbs 3:34"
+                    },
+                    {
+                      "source": "Exodus 13:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It shall be for a sign on your hand, and for symbols between your eyes: for by strength of hand Yahweh brought us out of Egypt.”",
+                      "note": "Parallel phylactery command ('a sign on your hand and frontlets between your eyes') stands behind the broadened phylacteries of v5."
+                    },
+                    {
+                      "source": "Proverbs 25:6-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t exalt yourself in the presence of the king, or claim a place among great men; for it is better that it be said to you, “Come up here,” than that you should be put lower in the presence of the prince, whom your eyes have seen.",
+                      "note": "\"They love the place of honor at feasts, the best seats\" (v6) inverts the wisdom counsel not to claim the place of the great but to be invited up; same banqueting-status imagery Jesus uses elsewhere (Luke 14)."
+                    },
+                    {
+                      "source": "Malachi 2:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t we all have one father? Hasn’t one God created us? Why do we deal treacherously every man against his brother, profaning the covenant of our fathers?",
+                      "note": "\"Call no man your father... one is your Father\" (v9) echoes 'Have we not all one Father? Has not one God created us?' — the prophetic insistence on a single divine paternity over the covenant community."
+                    },
+                    {
+                      "source": "1 Samuel 2:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh makes poor, and makes rich. He brings low, he also lifts up.",
+                      "note": "Hannah's song ('The LORD makes poor and makes rich; he brings low and exalts') anticipates the reversal of v12, that the self-exalting are humbled and the humble exalted."
+                    },
+                    {
+                      "source": "Ezekiel 21:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "thus says the Lord Yahweh: Remove the turban, and take off the crown; this will not be as it was; exalt that which is low, and abase that which is high.",
+                      "note": "\"Exalt that which is low, and abase that which is high\" supplies the prophetic reversal formula behind v12."
+                    },
+                    {
+                      "source": "Exodus 18:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "On the next day, Moses sat to judge the people, and the people stood around Moses from the morning to the evening.",
+                      "note": "\"Moses' seat\" (v2) as the locus of teaching/judging authority evokes Moses sitting to adjudicate for the people; the chair becomes a metaphor for inherited Mosaic teaching office.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 17:8-11"
+                    },
+                    {
+                      "source": "Deuteronomy 17:10-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall do according to the decisions of the verdict which they shall give you from that place which Yahweh chooses. You shall observe to do according to all that they shall teach you: according to the decisions of the law which they shall teach you, and according to the judgment which they shall tell you, you shall do. You shall not turn aside from the sentence which they shall show you, to the right hand, nor to the left.",
+                      "note": "The duty to do all that the Levitical judges 'at that place' tell you, not turning aside, underlies Jesus' 'observe and do whatever they tell you' (v3) even while condemning their conduct.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "\"You, O LORD, are our Father\" supports the one-Father claim of v9 against human honorifics.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 32:6"
+                    },
+                    {
+                      "source": "Isaiah 54:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All your children shall be taught of Yahweh; and great shall be the peace of your children.",
+                      "note": "\"All your children shall be taught by the LORD\" undergirds 'one is your teacher' (v8); divine, not rabbinic, instruction is the eschatological norm.",
+                      "contested": true,
+                      "altSource": "Jeremiah 31:34"
+                    },
+                    {
+                      "source": "Job 22:29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When they cast down, you shall say, ‘be lifted up.’ He will save the humble person.",
+                      "note": "\"He saves the humble... God saves the lowly\" parallels the exalt/humble logic of v12.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 2:11-17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The lofty looks of man will be brought low, the haughtiness of men will be bowed down, and Yahweh alone will be exalted in that day. For there will be a day of Yahweh of Armies for all that is proud and haughty, and for all that is lifted up; and it shall be brought low: For all the cedars of Lebanon, that are high and lifted up, for all the oaks of Bashan, For all the high mountains, for all the hills that are lifted up, For every lofty tower, for every […]",
+                      "note": "The Day of the LORD theme that 'the haughtiness of men shall be humbled, and the LORD alone exalted' resonates with v12.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1277,7 +1696,105 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/micah-3"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Micah 3:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.13.1-Mark.13.2",
+                      "refDisplay": "Mark 13:1–2",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "13.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-13.1"
+                    },
+                    {
+                      "refKey": "Luke.21.5-Luke.21.6",
+                      "refDisplay": "Luke 21:5–6",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "21.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-21.2"
+                    },
+                    {
+                      "refKey": "Matt.24.1-Matt.24.3",
+                      "refDisplay": "Matthew 24:1–3",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "24.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-24.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Micah 3:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.20.45-Luke.20.47",
+                      "refDisplay": "Luke 20:45–47",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "20.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-20.7"
+                    },
+                    {
+                      "refKey": "Titus.1.10-Titus.1.16",
+                      "refDisplay": "Titus 1:10–16",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "1.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/titus#p-1.10"
+                    }
+                  ]
+                },
+                {
+                  "source": "Micah 3:8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Thess.1.4-1Thess.1.5",
+                      "refDisplay": "1 Thessalonians 1:4–5",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Micah 3:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Titus.1.10-Titus.1.16",
+                      "refDisplay": "Titus 1:10–16",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "1.10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/titus#p-1.10"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1290,7 +1807,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-43"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 43:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.26.36-Matt.26.46",
+                      "refDisplay": "Matthew 26:36–46",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.8"
+                    },
+                    {
+                      "refKey": "Mark.14.32-Mark.14.42",
+                      "refDisplay": "Mark 14:32–42",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1309,7 +1859,132 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:9-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 1:31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and in the wilderness, where you have seen how that Yahweh your God bore you, as a man does bear his son, in all the way that you went, until you came to this place.”",
+                      "note": "Paul exhorts 'as a father his own children' (v. 11), echoing 'the Lord your God carried you, as a man carries his son (hos ei tis trophophoresei... huion).' Deuteronomy's paternal image of God forming Israel through the wilderness coheres with Paul's claim to have fathered a people and called them to walk worthily (v. 12). Pairs with the maternal-nurse figure of v. 7."
+                    },
+                    {
+                      "source": "Psalm 103:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Like a father has compassion on his children, so Yahweh has compassion on those who fear him.",
+                      "note": "'As a father has compassion on his children, so the Lord has compassion on those who fear him.' Reinforces the fatherly-tenderness simile of v. 11. Faint verbal tie but strongly coherent with the divine-father topos Paul applies to his own pastoral role.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 3:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "for whom Yahweh loves, he reproves; even as a father reproves the son in whom he delights.",
+                      "note": "'For whom the Lord loves he reproves, even as a father the son in whom he delights.' Supplies the father-exhorting-son pattern behind Paul's 'exhorting and encouraging' each one as a father (v. 11). Contested, but it belongs to the available paternal-discipline idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the saints of the Most High shall receive the kingdom, and possess the kingdom forever, even forever and ever.",
+                      "note": "God 'calls you into his own kingdom and glory' (v. 12) draws on the OT hope that the saints receive the kingdom; Daniel 7:18 ('the saints of the Most High shall receive the kingdom') is the seedbed of that eschatological kingdom-and-glory language. Faint and contested as a specific source.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:13-16",
+                  "echoes": [
+                    {
+                      "source": "Nehemiah 9:26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Nevertheless they were disobedient, and rebelled against you, and cast your law behind their back, and killed your prophets that testified against them to turn them again to you, and they committed awful blasphemies.",
+                      "note": "Paul charges that they 'killed... their own prophets' (v. 15), the classic Deuteronomistic prophet-killing tradition stated programmatically in Nehemiah's confession: 'they were disobedient... and slew your prophets who testified against them.' High coherence: Paul's polemic is a compressed restatement of this historiographical theme of Israel's persecution of God's messengers."
+                    },
+                    {
+                      "source": "2 Chronicles 36:16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "but they mocked the messengers of God, and despised his words, and scoffed at his prophets, until the wrath of Yahweh arose against his people, until there was no remedy.",
+                      "note": "'They mocked the messengers of God... till the wrath of the Lord arose against his people, till there was no remedy.' This verse uniquely binds prophet-rejection to the inescapable wrath that 'came upon them to the uttermost' (v. 16), matching both halves of Paul's statement (killing prophets + final wrath). Very strong coherence and volume."
+                    },
+                    {
+                      "source": "Jeremiah 2:30",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“I have struck your children in vain. They received no correction. Your own sword has devoured your prophets, like a destroying lion.",
+                      "note": "'Your own sword has devoured your prophets like a destroying lion.' A concrete instance of the prophet-killing charge that Paul generalizes in v. 15. Recurrence of the motif across the prophets strengthens its presence here."
+                    },
+                    {
+                      "source": "Jeremiah 26:20-23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There was also a man who prophesied in Yahweh’s name, Uriah the son of Shemaiah of Kiriath Jearim; and he prophesied against this city and against this land according to all the words of Jeremiah: and when Jehoiakim the king, with all his mighty men, and all the princes, heard his words, the king sought to put him to death; but when Uriah heard it, he was afraid, and fled, and went into Egypt: and Jehoiakim the king sent men into Egypt, Elnathan the son […]",
+                      "note": "The narrative of the prophet Uriah, pursued and 'slain with the sword' by the king, is a paradigmatic OT account of killing a prophet who spoke God's word. It supplies historical substance to Paul's 'killed... their own prophets' and the driving-out theme ('drove us out', v. 15)."
+                    },
+                    {
+                      "source": "Genesis 15:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "In the fourth generation they will come here again, for the iniquity of the Amorite is not yet full.”",
+                      "note": "'To fill up their sins always' (v. 16) echoes the measure-of-iniquity motif: 'the iniquity of the Amorites is not yet complete (anapeplerontai).' The notion that sin must reach a fixed full measure before judgment falls coheres precisely with Paul's logic that wrath comes when sins are 'filled up.'"
+                    },
+                    {
+                      "source": "Daniel 8:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "In the latter time of their kingdom, when the transgressors have come to the full, a king of fierce face, and understanding dark sentences, shall stand up.",
+                      "note": "'When the transgressors have reached their full measure (pleroumenon ton hamartion), a king... shall arise.' Daniel applies the filling-up-of-sins idea to an eschatological crisis preceding wrath, matching Paul's 'fill up their sins always... wrath has come.' Reinforces Genesis 15:16 within a second-temple judgment framework."
+                    },
+                    {
+                      "source": "2 Maccabees 6:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For in the case of the other nations the Sovereign Lord does with longsuffering forbear, until that he punish them when they have attained to the full measure of their sins; but not so judged he as touching us,",
+                      "note": "Explains that God waits 'until they have reached the full measure of their sins' before punishing — a deuterocanonical articulation of the same measure-of-iniquity theology behind v. 16. Faint as a direct source but confirms the idea's currency in second-temple Judaism (Availability criterion).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 9:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The days of visitation have come. The days of reckoning have come. Israel will consider the prophet to be a fool, and the man who is inspired to be insane, because of the abundance of your sins, and because your hostility is great.",
+                      "note": "'The days of visitation have come, the days of recompense have come' supplies the prophetic 'the wrath/days have come' formula behind v. 16 ('wrath has come upon them to the uttermost'). Coherent with the prophetic wrath topos; contested as a specific source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 7:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now will I shortly pour out my wrath on you, and accomplish my anger against you, and will judge you according to your ways; and I will bring on you all your abominations.",
+                      "note": "'Now I will shortly pour out my wrath upon you, and accomplish my anger against you.' Ezekiel 7's repeated 'the end has come... wrath' announcement is a candidate background for Paul's compressed 'wrath has come upon them at last.' Faint, contested, but it belongs to the available prophetic-wrath idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Testament of Levi 6:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "The pseudepigraphal phrase 'the wrath of God came upon them to the uttermost (eis telos)' is strikingly close to Paul's wording in v. 16 and is often cited as the nearest verbal parallel. Warranted as a faint, contested second-temple echo illuminating the fixed formula Paul deploys.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1328,7 +2003,131 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "23.1",
+                  "ref": "23:1-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall bind them for a sign on your hand, and they shall be for frontlets between your eyes.",
+                      "note": "\"They make their phylacteries broad\" (v5) directly references tefillin, the binding of the words 'as a sign on your hand and frontlets between your eyes'; Jesus targets the ostentatious enlargement of this commanded practice.",
+                      "altSource": "Exodus 13:9"
+                    },
+                    {
+                      "source": "Numbers 15:38-39",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes in the borders of their garments throughout their generations, and that they put on the fringe of each border a cord of blue: and it shall be to you for a fringe, that you may look on it, and remember all the commandments of Yahweh, and do them; and that you not follow after your own heart and your own eyes, after which you use to play the prostitute;",
+                      "note": "\"Enlarge the fringes of their garments\" (v5) references the commanded tassels (tzitzit) on the corners of garments, given as a reminder of the commandments; the abuse is enlarging them for show.",
+                      "altSource": "Deuteronomy 22:12"
+                    },
+                    {
+                      "source": "Proverbs 29:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "A man’s pride brings him low, but one of lowly spirit gains honor.",
+                      "note": "\"A man's pride will bring him low, but the humble in spirit will obtain honor\" is the proverbial substrate of v12's exaltation/humiliation reversal.",
+                      "altSource": "Proverbs 3:34"
+                    },
+                    {
+                      "source": "Exodus 13:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It shall be for a sign on your hand, and for symbols between your eyes: for by strength of hand Yahweh brought us out of Egypt.”",
+                      "note": "Parallel phylactery command ('a sign on your hand and frontlets between your eyes') stands behind the broadened phylacteries of v5."
+                    },
+                    {
+                      "source": "Proverbs 25:6-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t exalt yourself in the presence of the king, or claim a place among great men; for it is better that it be said to you, “Come up here,” than that you should be put lower in the presence of the prince, whom your eyes have seen.",
+                      "note": "\"They love the place of honor at feasts, the best seats\" (v6) inverts the wisdom counsel not to claim the place of the great but to be invited up; same banqueting-status imagery Jesus uses elsewhere (Luke 14)."
+                    },
+                    {
+                      "source": "Malachi 2:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t we all have one father? Hasn’t one God created us? Why do we deal treacherously every man against his brother, profaning the covenant of our fathers?",
+                      "note": "\"Call no man your father... one is your Father\" (v9) echoes 'Have we not all one Father? Has not one God created us?' — the prophetic insistence on a single divine paternity over the covenant community."
+                    },
+                    {
+                      "source": "1 Samuel 2:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh makes poor, and makes rich. He brings low, he also lifts up.",
+                      "note": "Hannah's song ('The LORD makes poor and makes rich; he brings low and exalts') anticipates the reversal of v12, that the self-exalting are humbled and the humble exalted."
+                    },
+                    {
+                      "source": "Ezekiel 21:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "thus says the Lord Yahweh: Remove the turban, and take off the crown; this will not be as it was; exalt that which is low, and abase that which is high.",
+                      "note": "\"Exalt that which is low, and abase that which is high\" supplies the prophetic reversal formula behind v12."
+                    },
+                    {
+                      "source": "Exodus 18:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "On the next day, Moses sat to judge the people, and the people stood around Moses from the morning to the evening.",
+                      "note": "\"Moses' seat\" (v2) as the locus of teaching/judging authority evokes Moses sitting to adjudicate for the people; the chair becomes a metaphor for inherited Mosaic teaching office.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 17:8-11"
+                    },
+                    {
+                      "source": "Deuteronomy 17:10-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall do according to the decisions of the verdict which they shall give you from that place which Yahweh chooses. You shall observe to do according to all that they shall teach you: according to the decisions of the law which they shall teach you, and according to the judgment which they shall tell you, you shall do. You shall not turn aside from the sentence which they shall show you, to the right hand, nor to the left.",
+                      "note": "The duty to do all that the Levitical judges 'at that place' tell you, not turning aside, underlies Jesus' 'observe and do whatever they tell you' (v3) even while condemning their conduct.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "\"You, O LORD, are our Father\" supports the one-Father claim of v9 against human honorifics.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 32:6"
+                    },
+                    {
+                      "source": "Isaiah 54:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All your children shall be taught of Yahweh; and great shall be the peace of your children.",
+                      "note": "\"All your children shall be taught by the LORD\" undergirds 'one is your teacher' (v8); divine, not rabbinic, instruction is the eschatological norm.",
+                      "contested": true,
+                      "altSource": "Jeremiah 31:34"
+                    },
+                    {
+                      "source": "Job 22:29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When they cast down, you shall say, ‘be lifted up.’ He will save the humble person.",
+                      "note": "\"He saves the humble... God saves the lowly\" parallels the exalt/humble logic of v12.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 2:11-17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The lofty looks of man will be brought low, the haughtiness of men will be bowed down, and Yahweh alone will be exalted in that day. For there will be a day of Yahweh of Armies for all that is proud and haughty, and for all that is lifted up; and it shall be brought low: For all the cedars of Lebanon, that are high and lifted up, for all the oaks of Bashan, For all the high mountains, for all the hills that are lifted up, For every lofty tower, for every […]",
+                      "note": "The Day of the LORD theme that 'the haughtiness of men shall be humbled, and the LORD alone exalted' resonates with v12.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

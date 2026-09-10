@@ -656,7 +656,239 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.7",
+                  "ref": "2:42-47",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 15:4-5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "However there shall be no poor with you (for Yahweh will surely bless you in the land which Yahweh your God gives you for an inheritance to possess it) if only you diligently listen to Yahweh your God’s voice, to observe to do all this commandment which I command you this day.",
+                      "note": "The community 'had all things in common... and distributed to all, as any had need' (vv.44-45) realizes the Deuteronomic ideal that 'there shall be no poor among you' if Israel obeys, with goods shared so none lacks. Moderate volume via the 'need/no poor' motif; thematic coherence high, and Luke develops it again in Acts 4:34 ('there was not a needy person'), echoing Deut 15 directly, which supplies recurrence."
+                    },
+                    {
+                      "source": "Leviticus 23:15-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘You shall count from the next day after the Sabbath, from the day that you brought the sheaf of the wave offering; seven Sabbaths shall be completed: even to the next day after the seventh Sabbath you shall number fifty days; and you shall offer a new meal offering to Yahweh. You shall bring out of your habitations two loaves of bread for a wave offering made of two tenth parts of an ephah of fine flour. They shall be baked with yeast, for first fruits […]",
+                      "note": "The whole chapter unfolds on the Feast of Weeks/Pentecost (Lev 23:15-21, fifty days from Passover, with firstfruits offered), and the harvest of 'about three thousand souls' added (v.41) reads as the firstfruits of the eschatological harvest gathered on that very feast. Low verbal volume; calendrical and firstfruits-harvest coherence is the basis; contested as deliberate allusion.",
+                      "contested": true,
+                      "altSource": "Exodus 23:16"
+                    },
+                    {
+                      "source": "Malachi 3:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then those who feared Yahweh spoke one with another; and Yahweh listened, and heard, and a book of memory was written before him, for those who feared Yahweh, and who honored his name.",
+                      "note": "The devout, fearing community joined in fellowship and praise, growing daily, faintly recalls the remnant who 'feared the LORD and spoke with one another,' written in the book of remembrance. Very faint, thematic-coherence-only; contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/2/",
+              "title": "Pentecost",
+              "view": {
+                "center": [
+                  33.0,
+                  30.0
+                ],
+                "zoom": 4
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "nazareth",
+                  "name": "Nazareth",
+                  "coords": [
+                    32.7022,
+                    35.2978
+                  ],
+                  "tier": "identified",
+                  "id": "Modern en-Nasira / Nazareth in Lower Galilee, c. 30 km west of the Sea of Galilee. A village of perhaps 200-400 in the early first century, identified through continuous habitation, tomb evidence, and the third-century Caesarea inscription naming it as a priestly course settlement."
+                },
+                {
+                  "key": "judea",
+                  "name": "Judea",
+                  "coords": [
+                    31.5,
+                    35.1
+                  ],
+                  "tier": "region",
+                  "id": "The Roman administrative province (later procuratorial province) covering the southern hill country of Israel — Jerusalem, the Judean wilderness, and territory south to the Negev. The Greco-Roman successor to the Hasmonean and Herodian Iudaea. Pin sits in the central hill country."
+                },
+                {
+                  "key": "parthia",
+                  "name": "Parthia",
+                  "coords": [
+                    36.5,
+                    57.0
+                  ],
+                  "tier": "region",
+                  "id": "The empire stretching from the Euphrates eastward across the Iranian plateau under the Arsacid dynasty (247 B.C. – A.D. 224). Rome's principal eastern rival in the apostolic period. Pin sits in the Parthian heartland near Hecatompylos / Damghan."
+                },
+                {
+                  "key": "media",
+                  "name": "Media",
+                  "coords": [
+                    35.7,
+                    49.4
+                  ],
+                  "tier": "region",
+                  "id": "The northwestern Iranian plateau, capital at Ecbatana (modern Hamadan). By the apostolic period a satrapy of the Parthian empire. The Medes appear as a distinct people in Acts 2 even though their kingdom had been absorbed centuries earlier."
+                },
+                {
+                  "key": "elam",
+                  "name": "Elam",
+                  "coords": [
+                    32.2,
+                    48.3
+                  ],
+                  "tier": "region",
+                  "id": "The lowland region of southwestern Iran (Khuzestan), traditionally centered on Susa. By the first century the Hellenistic Susiana, governed under Parthian overlordship."
+                },
+                {
+                  "key": "mesopotamia",
+                  "name": "Mesopotamia",
+                  "coords": [
+                    34.0,
+                    42.0
+                  ],
+                  "tier": "region",
+                  "id": "The land between the Tigris and Euphrates. In the apostolic period split between Roman client kingdoms in the upper basin (Edessa) and Parthian control of Babylonia. Pin sits in the middle Euphrates region."
+                },
+                {
+                  "key": "cappadocia",
+                  "name": "Cappadocia",
+                  "coords": [
+                    38.65,
+                    34.85
+                  ],
+                  "tier": "region",
+                  "id": "The interior Anatolian plateau, made a Roman province under Tiberius in A.D. 17. Famous in late antiquity for its volcanic-tuff landscape and rock-hewn churches; in the first century a primarily rural province with a mixed Hellenistic and Iranian-influenced elite."
+                },
+                {
+                  "key": "pontus",
+                  "name": "Pontus",
+                  "coords": [
+                    40.9,
+                    36.0
+                  ],
+                  "tier": "region",
+                  "id": "The Black Sea coast of northern Anatolia, the kingdom of Mithridates VI in the late Hellenistic period, partitioned into a Roman province and client states after 63 B.C. The home region of Aquila (Acts 18:2)."
+                },
+                {
+                  "key": "asia-province",
+                  "name": "Asia",
+                  "coords": [
+                    38.5,
+                    28.0
+                  ],
+                  "tier": "region",
+                  "id": "The Roman province (formed 129 B.C.) covering the western third of Anatolia, with Ephesus as its capital and the seven cities of Revelation 1-3 within its bounds. Distinct from 'Asia' as a continent and from the Seleucid use of the term for the wider Anatolian-Syrian sphere."
+                },
+                {
+                  "key": "phrygia",
+                  "name": "Phrygia",
+                  "coords": [
+                    39.1,
+                    30.5
+                  ],
+                  "tier": "region",
+                  "id": "The west-central Anatolian plateau, a cultural region split administratively between Roman Asia (west) and Galatia (east) in the apostolic period. Pisidian Antioch and Iconium lay within the wider Phrygian zone."
+                },
+                {
+                  "key": "pamphylia",
+                  "name": "Pamphylia",
+                  "coords": [
+                    36.95,
+                    30.85
+                  ],
+                  "tier": "region",
+                  "id": "The narrow coastal plain of southern Anatolia between Lycia (west) and Cilicia (east), with Perga and Attalia as its principal cities. A Roman province (combined with Lycia under Vespasian)."
+                },
+                {
+                  "key": "egypt",
+                  "name": "Egypt",
+                  "coords": [
+                    26.0,
+                    31.0
+                  ],
+                  "tier": "region",
+                  "id": "The Nile valley civilization, the land of Israel's bondage. Pin sits on the Nile near ancient Memphis."
+                },
+                {
+                  "key": "libya",
+                  "name": "Libya",
+                  "coords": [
+                    31.5,
+                    21.0
+                  ],
+                  "tier": "region",
+                  "id": "The Roman province of Cyrenaica (later Libya superior), the coastal strip of north Africa west of Egypt. The phrase 'parts of Libya around Cyrene' in Acts 2:10 picks out the Pentapolis region around the city."
+                },
+                {
+                  "key": "cyrene",
+                  "name": "Cyrene",
+                  "coords": [
+                    32.823,
+                    21.858
+                  ],
+                  "tier": "identified",
+                  "id": "The chief Greek city of the Cyrenaican coast (modern Shahhat, Libya). A major Jewish community is attested in the apostolic period; Simon of Cyrene was conscripted to bear Jesus' cross (Mk 15:21)."
+                },
+                {
+                  "key": "rome",
+                  "name": "Rome",
+                  "coords": [
+                    41.9028,
+                    12.4964
+                  ],
+                  "tier": "identified",
+                  "id": "The imperial capital. In Acts the city is the goal of Paul's career (1:8 'to the uttermost parts of the earth'; 19:21; 28:14-16) and the destination of his appeal to Caesar."
+                },
+                {
+                  "key": "crete",
+                  "name": "Crete",
+                  "coords": [
+                    35.25,
+                    24.8
+                  ],
+                  "tier": "region",
+                  "id": "The largest of the Greek islands, a Roman province (combined with Cyrene) since 67 B.C. Paul's voyage to Rome touches the south coast at Fair Havens and Phoenix (Acts 27)."
+                },
+                {
+                  "key": "arabia",
+                  "name": "Arabia",
+                  "coords": [
+                    30.3,
+                    35.45
+                  ],
+                  "tier": "region",
+                  "id": "In the New Testament principally the Nabataean kingdom east of the Jordan and the Dead Sea, with Petra as its capital — annexed as Roman Arabia in A.D. 106. Pin sits at Petra. Paul's 'three years in Arabia' of Gal 1:17 places him in this kingdom rather than the wider peninsula."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -669,7 +901,190 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-23"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 23:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.7.13-Rev.7.17",
+                      "refDisplay": "Revelation 7:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "7.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-7.4"
+                    },
+                    {
+                      "refKey": "Matt.14.13-Matt.14.21",
+                      "refDisplay": "Matthew 14:13–21",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.2"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    },
+                    {
+                      "refKey": "John.21.15-John.21.17",
+                      "refDisplay": "John 21:15–17",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-21.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.4.14-Phil.4.20",
+                      "refDisplay": "Philippians 4:14–20",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.6"
+                    },
+                    {
+                      "refKey": "1Pet.5.1-1Pet.5.4",
+                      "refDisplay": "1 Peter 5:1–4",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.1"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.11-John.10.18",
+                      "refDisplay": "John 10:11–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-10.3"
+                    },
+                    {
+                      "refKey": "Mark.14.27-Mark.14.31",
+                      "refDisplay": "Mark 14:27–31",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-14.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.9.10-Luke.9.17",
+                      "refDisplay": "Luke 9:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-9.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:6",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.1-John.14.4",
+                      "refDisplay": "John 14:1–4",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:4",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.3-2Cor.1.7",
+                      "refDisplay": "2 Corinthians 1:3–7",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -682,7 +1097,94 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-peter#p-2.5"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.5",
+                  "ref": "2:18-25",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:9",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "They made his grave with the wicked, and with a rich man in his death; although he had done no violence, neither was any deceit in his mouth.",
+                      "note": "\"who did not sin, 'neither was deceit found in his mouth'\" (2:22) quotes Isaiah 53:9 LXX, 'he did no lawlessness, nor was deceit (dolos) found in his mouth.' Verbatim citation of the Servant; anchors the Christ-as-suffering-Servant exemplum."
+                    },
+                    {
+                      "source": "Isaiah 53:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He was oppressed, yet when he was afflicted he didn’t open his mouth. As a lamb that is led to the slaughter, and as a sheep that before its shearers is mute, so he didn’t open his mouth.",
+                      "note": "\"when he was cursed, didn't curse back. When he suffered, didn't threaten\" (2:23) interprets Isaiah 53:7, 'he was afflicted yet opened not his mouth; like a lamb led to slaughter... he opens not his mouth.' The Servant's silent non-retaliation is the model for unjustly suffering servants."
+                    },
+                    {
+                      "source": "Isaiah 53:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Surely he has borne our sickness, and carried our suffering; yet we considered him plagued, struck by God, and afflicted.",
+                      "note": "\"who his own self bore our sins in his body on the tree\" (2:24) draws on Isaiah 53:4 LXX, 'he bears our sins (houtos tas hamartias hēmōn pherei),' fused with 53:12. The vicarious sin-bearing is the theological core of the Servant application."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "\"bore our sins in his body\" (2:24) also reflects Isaiah 53:12, 'he bore the sins of many (autos hamartias pollōn anēnegken)' — the verb anapherō ('bore/bore up') matches 53:12 LXX, making this a distinct source-clause alongside 53:4."
+                    },
+                    {
+                      "source": "Isaiah 53:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
+                      "note": "\"by whose stripes you were healed\" (2:24) is a near-verbatim citation of Isaiah 53:5 LXX, 'by his bruise (tō mōlōpi autou) we were healed.' Distinctive rare word mōlōps marks high volume."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "\"For you were going astray like sheep; but now have returned\" (2:25) reworks Isaiah 53:6 LXX, 'all we like sheep have gone astray (planēthēmen).' The verb 'gone astray' + 'sheep' is verbatim from the Servant song; the 'returned' supplies the gospel reversal."
+                    },
+                    {
+                      "source": "Ezekiel 34:11-16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For thus says the Lord Yahweh: Behold, I myself, even I, will search for my sheep, and will seek them out. As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so will I seek out my sheep; and I will deliver them out of all places where they have been scattered in the cloudy and dark day. I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land; and I […]",
+                      "note": "\"returned to the Shepherd and Overseer of your souls\" (2:25) draws on the divine-shepherd oracle of Ezekiel 34, where God himself seeks and gathers the scattered sheep; the straying-sheep/returning-to-shepherd movement of Isa 53:6 is completed with Ezekiel's restoring shepherd imagery."
+                    },
+                    {
+                      "source": "Isaiah 53:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities.",
+                      "note": "\"that we, having died to sins, might live to righteousness\" (2:24) resonates with Isaiah 53:11, the Servant who 'makes many righteous (dikaiōsai dikaion)'; the righteousness outcome of sin-bearing parallels the Servant's justifying work.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 23:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is my shepherd: I shall lack nothing.",
+                      "note": "\"the Shepherd... of your souls\" (2:25) faintly recalls the Lord-as-shepherd of Psalm 23:1; a thematic resonance of God's pastoral care behind the title applied to Christ.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He was despised, and rejected by men; a man of suffering, and acquainted with disease. He was despised as one from whom men hide their face; and we didn’t respect him.",
+                      "note": "The pattern of patient unjust suffering held up as example (2:19-21) reflects the despised-and-rejected Servant of Isaiah 53:3, conditioning the whole exemplum before the formal citations begin.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -701,7 +1203,96 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.1",
+                  "ref": "10:1-6",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:1-16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Yahweh’s word came to me, saying, Son of man, prophesy against the shepherds of Israel, prophesy, and tell them, even to the shepherds, Thus says the Lord Yahweh: Woe to the shepherds of Israel who feed themselves! Shouldn’t the shepherds feed the sheep? You eat the fat, and you clothe yourself with the wool, you kill the fatlings; but you don’t feed the sheep. You haven’t strengthened the diseased, neither have you healed that which was sick, neither […]",
+                      "note": "Ezekiel 34 is the controlling subtext for the whole discourse: false shepherds who do not enter rightly and exploit the flock vs. the true shepherd. The thief/robber who climbs in 'some other way' answers Ezekiel's self-feeding shepherds, and the rightful shepherd entering by the door answers the LORD's own shepherding. High volume, recurrence across the chapter, and coherence with John's polemic against Israel's leaders."
+                    },
+                    {
+                      "source": "Numbers 27:16-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Let Yahweh, the God of the spirits of all flesh, appoint a man over the congregation, who may go out before them, and who may come in before them, and who may lead them out, and who may bring them in; that the congregation of Yahweh not be as sheep which have no shepherd.”",
+                      "note": "Moses asks the LORD to appoint a shepherd who leads Israel 'out' and brings them 'in,' so the congregation not be sheep without a shepherd. John's shepherd who 'leads them out' (v.3) and goes before them (v.4) echoes the leading-out/going-before language of the appointment of a shepherd over Israel."
+                    },
+                    {
+                      "source": "Psalm 95:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "for he is our God. We are the people of his pasture, and the sheep in his care. Today, oh that you would hear his voice!",
+                      "note": "'The sheep listen to his voice' and refusal to follow strangers resonates with 'the sheep of his hand. Today, if you would hear his voice.' The motif of the flock recognizing and hearing the shepherd's voice is verbally and thematically coherent.",
+                      "contested": true,
+                      "altSource": "Psalm 100:3"
+                    },
+                    {
+                      "source": "Zechariah 11:4-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Thus says Yahweh my God: “Feed the flock of slaughter. Their buyers slaughter them, and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them. For I will no more pity the inhabitants of the land,” says Yahweh; “but, behold, I will deliver the men everyone into his neighbor’s hand, and into the hand of his king. They will strike the land, and out of their hand I will not deliver them.” So I fed […]",
+                      "note": "Zechariah's flock 'doomed to slaughter' under worthless shepherds who do not care for the sheep, and the breaking of the bond with the flock, anticipates John's thieves/robbers contrasted with the true shepherd. Recurs more strongly at vv.11-13, but the false-shepherd indictment colors the parable here."
+                    },
+                    {
+                      "source": "Psalm 100:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Know that Yahweh, he is God. It is he who has made us, and we are his. We are his people, and the sheep of his pasture.",
+                      "note": "'We are his people, and the sheep of his pasture' supplies the flock-belonging frame behind the shepherd who knows his own and calls them by name. Faint; competes with Psalm 95 and the broader shepherd-of-Israel topos.",
+                      "contested": true,
+                      "altSource": "Psalm 95:7"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.2",
+                  "ref": "10:7-10",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:1-16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Yahweh’s word came to me, saying, Son of man, prophesy against the shepherds of Israel, prophesy, and tell them, even to the shepherds, Thus says the Lord Yahweh: Woe to the shepherds of Israel who feed themselves! Shouldn’t the shepherds feed the sheep? You eat the fat, and you clothe yourself with the wool, you kill the fatlings; but you don’t feed the sheep. You haven’t strengthened the diseased, neither have you healed that which was sick, neither […]",
+                      "note": "'All who came before me are thieves and robbers' continues the indictment of Israel's bad shepherds in Ezekiel 34, while 'find pasture' (v.9) directly echoes the LORD's promise to feed his flock in good pasture (Ezek 34:14). Strong recurrence and coherence with the governing subtext."
+                    },
+                    {
+                      "source": "Psalm 118:20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "This is the gate of Yahweh; the righteous will enter into it.",
+                      "note": "'This is the gate of the LORD; the righteous will enter into it' undergirds Jesus' self-identification as the door through which one 'enters in' and 'will be saved.' Psalm 118 is a major Johannine/Synoptic source and the entering-and-being-saved language coheres with the entrance-gate motif."
+                    },
+                    {
+                      "source": "Jeremiah 23:1-4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Woe to the shepherds who destroy and scatter the sheep of my pasture! says Yahweh. Therefore thus says Yahweh, the God of Israel, against the shepherds who feed my people: You have scattered my flock, and driven them away, and have not visited them; behold, I will visit on you the evil of your doings, says Yahweh. I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they […]",
+                      "note": "'Woe to the shepherds who destroy and scatter the sheep' parallels the thief who 'comes to steal, kill, and destroy.' Jeremiah promises to set up shepherds who will feed the flock so none is lacking, coherent with John's life-giving shepherd over against destroyers."
+                    },
+                    {
+                      "source": "Numbers 27:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "who may go out before them, and who may come in before them, and who may lead them out, and who may bring them in; that the congregation of Yahweh not be as sheep which have no shepherd.”",
+                      "note": "'Will go in and go out, and will find pasture' echoes the shepherd who leads Israel 'out' and brings them 'in' so they may be led to pasture. The go-in/go-out idiom for secure shepherded life is shared, though common in the OT.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 31:2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

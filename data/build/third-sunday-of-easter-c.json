@@ -710,7 +710,138 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.1",
+                  "ref": "9:1-9",
+                  "echoes": [
+                    {
+                      "source": "Daniel 10:7-9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I, Daniel, alone saw the vision; for the men who were with me didn’t see the vision; but a great quaking fell on them, and they fled to hide themselves. So I was left alone, and saw this great vision, and there remained no strength in me; for my comeliness was turned in me into corruption, and I retained no strength. Yet heard I the voice of his words; and when I heard the voice of his words, then was I fallen into a deep sleep on my face, with my face […]",
+                      "note": "Daniel alone perceives the vision while the men with him do not see it but flee in terror; he then falls to the ground. Acts 9:7's companions 'stood speechless, hearing the sound but seeing no one' is the same selective-perception convention attached to an overwhelming theophany, with the seer prostrate. Volume and thematic coherence are strong; the divergence (companions hear vs. do not see) is exactly the kind of variation Luke replays in his retellings (cf. ch. 22, 26)."
+                    },
+                    {
+                      "source": "Ezekiel 1:28",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "As the appearance of the rainbow that is in the cloud in the day of rain, so was the appearance of the brightness all around. This was the appearance of the likeness of Yahweh’s glory. When I saw it, I fell on my face, and I heard a voice of one that spoke.",
+                      "note": "The appearance of the glory of the LORD as radiant brightness causes Ezekiel to fall on his face and hear a voice speaking. Saul's 'light from the sky,' falling to the earth, and a speaking voice replays the Kavod-theophany sequence. High thematic coherence with the prophetic call pattern; verbal volume is moderate (light/glory, fell, voice)."
+                    },
+                    {
+                      "source": "Ezekiel 2:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said to me, Son of man, stand on your feet, and I will speak with you. The Spirit entered into me when he spoke to me, and set me on my feet; and I heard him who spoke to me. He said to me, Son of man, I send you to the children of Israel, to a nation of rebels who have rebelled against me. They and their fathers have transgressed against me even to this very day.",
+                      "note": "After Ezekiel falls, the voice commands 'Son of man, stand on your feet... I send you to the people.' Saul is told to 'rise up, and enter into the city,' the same fall-then-rise-and-go commissioning rhythm. Coherence with the immediately following sending to the nations is strong; verbal borrowing modest."
+                    },
+                    {
+                      "source": "Exodus 3:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When Yahweh saw that he turned aside to see, God called to him out of the midst of the bush, and said, “Moses! Moses!” He said, “Here I am.”",
+                      "note": "'Moses, Moses' — the doubled-vocative call from a blazing divine manifestation, answered before commission. 'Saul, Saul' matches the convention. Recurrence is strong across the OT call type-scenes (Gen 22:11; 46:2; 1 Sam 3:10), which strengthens rather than dilutes the echo.",
+                      "altSource": "1 Samuel 3:10"
+                    },
+                    {
+                      "source": "Isaiah 6:1-8",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "In the year that king Uzziah died, I saw the Lord sitting on a throne, high and lifted up; and his train filled the temple. Above him stood the seraphim. Each one had six wings. With two he covered his face. With two he covered his feet. With two he flew. One called to another, and said, “Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!” The foundations of the thresholds shook at the voice of him who called, and the house was […]",
+                      "note": "The throne-vision call of Isaiah — overwhelmed prophet confronted by divine glory, then sent — is the archetype Luke draws Saul's commissioning into. Little verbal overlap, but the type-scene logic (theophany → unworthiness → sending) is the figural frame; coherence high, volume low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "Jeremiah is appointed 'a prophet to the nations' before birth; the Damascus call culminates (v.15) in Saul as the chosen vessel 'before the nations.' The conversion proper carries this only faintly; the nations-prophet resonance lands more in vv.10-19. Low volume here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 15:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When the sun was going down, a deep sleep fell on Abram. Now terror and great darkness fell on him.",
+                      "note": "A dread/darkness falls upon Abram at a covenant theophany; Saul is plunged into three days of darkness. Faint, contested — the motif of incapacitating darkness accompanying divine encounter, but no verbal contact.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Life of Paul",
+                  "editionUrl": "https://annales.wrootpress.com/life-of-paul",
+                  "spans": [
+                    {
+                      "label": "Damascus & Arabia",
+                      "group": "The hidden years",
+                      "lane": "journeys",
+                      "start": 34,
+                      "end": 37,
+                      "length": null,
+                      "ref": "Acts 9:1–25",
+                      "note": "After the Damascus road, three years out of sight — Arabia, then Damascus again, escaping the city in a basket lowered through the wall."
+                    }
+                  ],
+                  "events": [
+                    {
+                      "year": 34,
+                      "label": "The Damascus road",
+                      "ref": "Acts 9:1–19",
+                      "kind": "mission",
+                      "approx": null,
+                      "note": "\"Saul, Saul, why do you persecute me?\" The persecutor is struck blind and called — the apostle to the Gentiles, made by the risen Christ himself."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/9/",
+              "title": "Saul's Conversion; Damascus, Jerusalem, Tarsus",
+              "view": {
+                "center": [
+                  33.0,
+                  35.5
+                ],
+                "zoom": 7
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "damascus",
+                  "name": "Damascus",
+                  "coords": [
+                    33.5138,
+                    36.2765
+                  ],
+                  "tier": "identified",
+                  "id": "On the Barada river east of the Anti-Lebanon mountains, one of the longest continuously inhabited cities in the world. The Aramean capital of the Iron Age (1 Kgs 11:24), Hellenistic Damascus, in the apostolic period under Nabataean influence (cf. 2 Cor 11:32-33) but within the Roman provincial framework. The 'street called Straight' (Decumanus Maximus) of 9:11 still runs east-west through the Old City."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -723,7 +854,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-30"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 30:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.16-John.16.22",
+                      "refDisplay": "John 16:16–22",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-16.4"
+                    },
+                    {
+                      "refKey": "Mark.5.35-Mark.5.43",
+                      "refDisplay": "Mark 5:35–43",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "5.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-5.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 30:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.16.25-Acts.16.34",
+                      "refDisplay": "Acts 16:25–34",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "16.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-16.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 30:3",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.8-2Cor.1.11",
+                      "refDisplay": "2 Corinthians 1:8–11",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -736,7 +930,58 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/revelation#p-5.4"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.4",
+                  "ref": "5:11–14",
+                  "echoes": [
+                    {
+                      "source": "Daniel 7:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "A fiery stream issued and came out from before him: thousands of thousands ministered to him, and ten thousand times ten thousand stood before him: the judgment was set, and the books were opened.",
+                      "note": "Hays: high — 'ten thousands of ten thousands, and thousands of thousands' is a near-verbatim adoption of Daniel's heavenly-court formula 'thousands of thousands... ten thousand times ten thousand' attending the Ancient of Days. John relocates this innumerable angelic host around the throne and the Lamb. The shared context (heavenly throne-room, opened books/sealed scroll) makes this the controlling intertext for 5:11. LXX/Theodotion 'chiliai chiliades... myriai myriades' matches Revelation's wording."
+                    },
+                    {
+                      "source": "Psalm 148:7–13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Praise Yahweh from the earth, you great sea creatures, and all depths! Lightning and hail, snow and clouds; stormy wind, fulfilling his word; mountains and all hills; fruit trees and all cedars; wild animals and all livestock; small creatures and flying birds; kings of the earth and all peoples; princes and all judges of the earth; both young men and maidens; old men and children: let them praise Yahweh’s name, for his name alone is exalted. His glory is […]",
+                      "note": "Hays: high — 'every created thing which is in heaven, on the earth, under the earth, on the sea' enacts the cosmic, totalizing praise of Psalm 148, which summons every creature of heaven, earth, and sea to praise. John structures the doxology by the same heaven/earth/sea/under-earth merism. The universal sweep of creation's worship is the Psalm's signature."
+                    },
+                    {
+                      "source": "1 Chronicles 29:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yours, Yahweh, is the greatness, the power, the glory, the victory, and the majesty! For all that is in the heavens and in the earth is yours. Yours is the kingdom, Yahweh, and you are exalted as head above all.",
+                      "note": "Hays: high — the sevenfold acclamation 'power, wealth, wisdom, strength, honor, glory, and blessing' and the doxology 'blessing, honor, glory, and dominion' draw on David's catalogue of divine attributes ('the greatness, the power, the glory, the victory, the majesty... the kingdom'). The piling of abstract honors ascribed to God — now jointly to God and the Lamb — patterns on this temple-dedication doxology. Reinforces the worthiness language of 4:11; 7:12."
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "Hays: medium — the ascription of 'the dominion, forever and ever' to the one on the throne and the Lamb echoes Daniel's grant of everlasting 'dominion' and 'glory' to the son of man. Pairs with Dan 7:10 in 5:11; the same chapter supplies both the angelic myriads and the eternal dominion that frame the doxology's climax."
+                    },
+                    {
+                      "source": "1 Enoch 39–40",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "Hays: low / contested — Second Temple apocalyptic (1 Enoch 39:12–40:1; 60:1; 71:8) shares Revelation's scene of innumerable angelic myriads ceaselessly blessing the enthroned Lord, suggesting a common throne-vision milieu rather than direct dependence. Daniel 7:10 remains the canonical source. Included to register the Enochic background of the angelic-host doxology; not available in WEB, hence marked deuterocanonical/low.",
+                      "contested": true,
+                      "altSource": "Daniel 7:10"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -755,7 +1000,191 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "21.1",
+                  "ref": "21:1-14",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 47:9-10",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "It shall happen, that every living creature which swarms, in every place where the rivers come, shall live; and there shall be a very great multitude of fish; for these waters have come there, and the waters of the sea shall be healed, and everything shall live wherever the river comes. It shall happen, that fishermen shall stand by it: from En Gedi even to En Eglaim shall be a place for the spreading of nets; their fish shall be after their kinds, as the […]",
+                      "note": "Ezekiel's temple river makes the sea teem with fish 'of every kind,' with fishermen spreading nets from Engedi to Eneglaim. John's miraculous catch of fish 'of every kind' (the 153 traditionally read as the count of fish species) and the unbroken net coheres with Ezekiel's eschatological ingathering. Volume is moderate but the thematic coherence (river/sea, abundance, fishing, no-loss) is strong; contested but widely proposed.",
+                      "contested": true,
+                      "altSource": "Habakkuk 1:14-15"
+                    },
+                    {
+                      "source": "Genesis 1:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.”",
+                      "note": "The mandate to subdue and have dominion over 'the fish of the sea' lurks behind a restored humanity gathering the fish at the creative word of the risen Lord. Faint: shared lexeme 'fish of the sea' and a new-creation framing (resurrection 'after these things'), but no verbal citation and the link is thematic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 11:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Shall flocks and herds be slaughtered for them, to be sufficient for them? Shall all the fish of the sea be gathered together for them, to be sufficient for them?”",
+                      "note": "Moses asks whether all the fish of the sea could be gathered to feed the people; John presents an answering abundance gathered by Jesus' word. Faint association on the motif of impossible provision of fish answered by divine sufficiency; offered only as a contested resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jonah 1:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh prepared a great fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights.",
+                      "note": "Peter is addressed as 'Simon, son of Jonah' (vv.15-17) amid a sea/fish narrative; the Jonah-the-prophet sea imagery may color the scene of disciples on the deep at night. Faint and largely onomastic; included honestly as contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 3:7-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves. They heard the voice of Yahweh God walking in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh God among the trees of the garden. Yahweh God called to the man, and said to him, “Where are you?” The man said, “I heard your voice in the garden, and I was afraid, because I […]",
+                      "note": "Peter, 'naked,' covers himself before encountering the Lord (v.7), recalling the shame/covering of Eden when the man hid from the LORD's presence. Faint verbal touch ('naked') with a coherent theme of standing exposed before the divine; contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "21.2",
+                  "ref": "21:9-14",
+                  "echoes": [
+                    {
+                      "source": "Genesis 18:1-8",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Yahweh appeared to him by the oaks of Mamre, as he sat in the tent door in the heat of the day. He lifted up his eyes and looked, and saw that three men stood opposite him. When he saw them, he ran to meet them from the tent door, and bowed himself to the earth, and said, “My lord, if now I have found favor in your sight, please don’t go away from your servant. Now let a little water be fetched, wash your feet, and rest yourselves under the tree. I will […]",
+                      "note": "The LORD appears and a meal is set before him/by him; here the risen Lord hosts a theophanic breakfast none dare question. Faint typological resonance of divine appearance plus prepared food; coherence with John's revelation motif ('revealed himself') but no verbal anchor.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 19:5-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He lay down and slept under a juniper tree; and behold, an angel touched him, and said to him, “Arise and eat!” He looked, and behold, there was at his head a cake baked on the coals, and a jar of water. He ate and drank, and lay down again. Yahweh’s angel came again the second time, and touched him, and said, “Arise and eat, because the journey is too great for you.” He arose, and ate and drank, and went in the strength of that food forty days and forty […]",
+                      "note": "Elijah, exhausted, is given bread baked on coals by the LORD's messenger and strengthened for the journey; Jesus provides bread and fish from a charcoal fire to strengthen the disciples for mission. Faint but coherent provision-meal-after-failure motif; contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "21.3",
+                  "ref": "21:15-17",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:23",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd.",
+                      "note": "God promises to set up 'one shepherd' to feed and tend the flock. Jesus' triple charge to Peter—'feed my lambs / tend my sheep / feed my sheep'—delegates this messianic shepherd office. High volume of shepherd language, strong coherence with Johannine 'good shepherd' (ch.10), and clear availability in Ezekiel 34's feed/tend vocabulary."
+                    },
+                    {
+                      "source": "Psalm 23:1-2",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh is my shepherd: I shall lack nothing. He makes me lie down in green pastures. He leads me beside still waters.",
+                      "note": "The LORD as shepherd who feeds and leads the flock supplies the foundational pastoral imagery taken up in the commission to feed and tend sheep. Coherent and available, though general; the verbal link is thematic (shepherd/feed) rather than a citation."
+                    },
+                    {
+                      "source": "Jeremiah 23:1-4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Woe to the shepherds who destroy and scatter the sheep of my pasture! says Yahweh. Therefore thus says Yahweh, the God of Israel, against the shepherds who feed my people: You have scattered my flock, and driven them away, and have not visited them; behold, I will visit on you the evil of your doings, says Yahweh. I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they […]",
+                      "note": "Against false shepherds who scatter, God will raise shepherds who 'feed' the flock so none is missing. Peter's reinstatement as a true shepherd who feeds coheres tightly with Jeremiah's contrast; moderate volume in shared feed/shepherd vocabulary."
+                    },
+                    {
+                      "source": "Isaiah 40:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his bosom. He will gently lead those who have their young.",
+                      "note": "The LORD 'will feed his flock like a shepherd' and gently carry the lambs—matching the specific pairing of lambs and sheep in Peter's threefold charge. Strong coherence and the distinctive lamb/sheep doublet raise volume above the generic shepherd topos."
+                    },
+                    {
+                      "source": "Numbers 27:16-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Let Yahweh, the God of the spirits of all flesh, appoint a man over the congregation, who may go out before them, and who may come in before them, and who may lead them out, and who may bring them in; that the congregation of Yahweh not be as sheep which have no shepherd.”",
+                      "note": "Moses asks God to appoint a successor so the congregation is not 'as sheep without a shepherd'; Joshua is commissioned over the flock. Jesus' commissioning of Peter to shepherd reprises this succession-of-shepherd pattern; coherent with the leadership-transfer theme of John 21.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 11:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh my God: “Feed the flock of slaughter. Their buyers slaughter them, and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them. For I will no more pity the inhabitants of the land,” says Yahweh; “but, behold, I will deliver the men everyone into his neighbor’s hand, and into the hand of his king. They will strike the land, and out of their hand I will not deliver them.” So I fed […]",
+                      "note": "The prophet is told to 'feed the flock' destined for slaughter, foreshadowing a shepherd's costly office immediately before Peter's death-prophecy (vv.18-19). Faint but coherent given the adjoining martyrdom prediction; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 22:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "The thrice-repeated 'Simon, son of Jonah, do you love me?' echoes the testing/love idiom of the Aqedah where God names the beloved son in a graduated demand. Faint structural resonance (threefold address, love, testing); offered as contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "21.4",
+                  "ref": "21:18-19",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 65:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I have spread out my hands all the day to a rebellious people, who walk in a way that is not good, after their own thoughts;",
+                      "note": "'I have stretched out my hands all day long' supplies a possible scriptural backdrop for 'you will stretch out your hands,' read by early Christians as crucifixion imagery. Faint verbal touch ('stretch out hands'); coherent with the death-prophecy but contested as the source.",
+                      "contested": true,
+                      "altSource": "Psalm 88:9"
+                    },
+                    {
+                      "source": "Psalm 88:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My eyes are dim from grief. I have called on you daily, Yahweh. I have spread out my hands to you.",
+                      "note": "The afflicted 'spread out my hands' to God in a context of approaching death; resonates with Peter's foretold death by stretched-out hands and being led where he does not wish. Faint, generic gesture-language; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ecclesiastes 12:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Remember also your Creator in the days of your youth, before the evil days come, and the years draw near, when you will say, “I have no pleasure in them”;",
+                      "note": "Qoheleth's contrast of youth and the days of trouble in old age frames the 'when you were young... when you are old' antithesis of Peter's prophecy. Faint thematic parallel of life-stage contrast; offered as contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "By the Sea of Galilee",
+                      "section": "risen",
+                      "refs": {
+                        "john": "21:1–25"
+                      },
+                      "note": "John's epilogue — the catch of 153 fish, the charcoal fire, \"Feed my sheep.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

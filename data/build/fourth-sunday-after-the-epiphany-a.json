@@ -724,7 +724,115 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/micah-6"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Micah 6:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.23.23-Matt.23.28",
+                      "refDisplay": "Matthew 23:23–28",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "23.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-23.3"
+                    },
+                    {
+                      "refKey": "Luke.11.37-Luke.11.44",
+                      "refDisplay": "Luke 11:37–44",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-11.9"
+                    },
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "Luke.3.10-Luke.3.14",
+                      "refDisplay": "Luke 3:10–14",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-3.4"
+                    },
+                    {
+                      "refKey": "Eph.4.1-Eph.4.3",
+                      "refDisplay": "Ephesians 4:1–3",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-4.1"
+                    },
+                    {
+                      "refKey": "Jas.2.8-Jas.2.13",
+                      "refDisplay": "James 2:8–13",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "2.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-2.8"
+                    },
+                    {
+                      "refKey": "1Cor.13.13",
+                      "refDisplay": "1 Corinthians 13:13",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Micah 6:6–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.12.28-Mark.12.34",
+                      "refDisplay": "Mark 12:28–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "12.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-12.4"
+                    },
+                    {
+                      "refKey": "Rom.12.1-Rom.12.2",
+                      "refDisplay": "Romans 12:1–2",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "12.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-12.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -737,7 +845,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-15"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 15:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.14.1-Rev.14.5",
+                      "refDisplay": "Revelation 14:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -756,7 +887,176 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:18-25",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 29:14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "therefore, behold, I will proceed to do a marvelous work among this people, even a marvelous work and a wonder; and the wisdom of their wise men will perish, and the understanding of their prudent men will be hidden.”",
+                      "note": "Verse 19 quotes with formula ('it is written') Isaiah 29:14 LXX: 'I will destroy the wisdom of the wise, and the discernment of the discerning I will thwart/bring to nothing.' Volume is maximal (verbatim citation), and the thematic coherence is exact: God's overturning of human sagacity is the engine of Paul's whole cross-versus-wisdom argument."
+                    },
+                    {
+                      "source": "Isaiah 19:11-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The princes of Zoan are utterly foolish. The counsel of the wisest counselors of Pharaoh has become stupid. How do you say to Pharaoh, “I am the son of the wise, the son of ancient kings?” Where then are your wise men? Let them tell you now; and let them know what Yahweh of Armies has purposed concerning Egypt.",
+                      "note": "'Where is the wise?' (v.20) recalls the taunt against Egypt's counselors: 'Where then are your wise men?... let them tell.' The interrogative form mocking discredited sages is distinctive, and recurrence within Isaiah's wisdom-polemic strengthens coherence with Paul's rhetorical questions about the wise of this age."
+                    },
+                    {
+                      "source": "Isaiah 33:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Your heart will meditate on the terror. Where is he who counted? Where is he who weighed? Where is he who counted the towers?",
+                      "note": "'Where is the scribe? Where is the one who weighed?' supplies the closest LXX template for Paul's triad 'Where is the wise? Where is the scribe? Where is the debater?' The naming of the 'scribe (grammateus)' is the load-bearing verbal link, and the context of a vanished officialdom after divine deliverance coheres with Paul's point."
+                    },
+                    {
+                      "source": "Job 12:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He leads counselors away stripped. He makes judges fools.",
+                      "note": "Job's hymn declares that God 'leads counselors away stripped and makes fools of judges,' overturning the wisdom of the prudent (cf. Job 12:20, 'he takes away the discernment of the elders'). The thematic coherence with God 'making foolish the wisdom of this world' is strong, and the recurrence of the divine reversal-of-sages motif supports a real echo."
+                    },
+                    {
+                      "source": "Isaiah 44:25",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "who frustrates the signs of the liars, and makes diviners mad; who turns wise men backward, and makes their knowledge foolish;",
+                      "note": "'Frustrating the signs of liars and making fools of diviners, turning wise men back and making their knowledge foolish'—this Deutero-Isaiah oracle nearly paraphrases v.20's 'Hasn't God made foolish the wisdom of this world?' The verbal cluster (wise/foolish/knowledge) is dense and the polemic against pretended wisdom coheres tightly."
+                    },
+                    {
+                      "source": "Isaiah 8:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will be a sanctuary, but for both houses of Israel, he will be a trap and a snare for the inhabitants of Jerusalem.",
+                      "note": "'A stumbling block to Jews' (v.23) draws on Isaiah's image of the LORD as 'a stone of stumbling and a rock of offense' to the houses of Israel. Volume is good on the distinctive 'stumbling/offense' lexeme, recurrence is strong in Paul (Rom 9:33), and the irony of God's saving act becoming an obstacle to Israel coheres precisely."
+                    },
+                    {
+                      "source": "Jeremiah 8:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The wise men are disappointed. They are dismayed and trapped. Behold, they have rejected Yahweh’s word. What kind of wisdom is in them?",
+                      "note": "'The wise men shall be put to shame... they have rejected the word of the LORD, and what wisdom is in them?' parallels Paul's claim that the world's wisdom failed to know God. The shaming of the wise and the linkage of wisdom to receiving God's word cohere, though the verbal contact is moderate.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "The 'tested stone' laid in Zion, paired in Pauline usage with Isaiah 8:14, underlies the 'stumbling block' of v.23 and the foundation-stone motif of the proclaimed Christ. The connection is figural and mediated through Paul's wider stone testimonia rather than directly verbal here.",
+                      "contested": true,
+                      "altSource": "Psalm 118:22"
+                    },
+                    {
+                      "source": "Habakkuk 1:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Look among the nations, watch, and wonder marvelously; for I am working a work in your days, which you will not believe though it is told you.",
+                      "note": "'I am doing a work in your days that you would not believe if told' offers a scriptural template for God accomplishing salvation through means the wise reject as incredible. The thematic coherence with the cross as God's unbelievable 'good pleasure' is suggestive, but the verbal link is faint.",
+                      "contested": true,
+                      "lxxText": "Behold, ye despisers, and look, and wonder marvelously, and vanish: for I work a work in your days, which ye will in no wise believe, though a man declare it to you."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.5",
+                  "ref": "1:26-31",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 9:23-24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Thus says Yahweh, Don’t let the wise man glory in his wisdom, neither let the mighty man glory in his might, don’t let the rich man glory in his riches; but let him who glories glory in this, that he has understanding, and knows me, that I am Yahweh who exercises loving kindness, justice, and righteousness, in the earth: for in these things I delight, says Yahweh.",
+                      "note": "Verse 31 quotes with formula ('as it is written') Jeremiah 9:24 LXX: 'Let the one who boasts boast in the Lord.' Volume is maximal, and the surrounding verses (Jer 9:23, 'let not the wise boast in his wisdom, nor the mighty in his might') govern Paul's entire argument that the wise, mighty, and noble have no ground for boasting before God."
+                    },
+                    {
+                      "source": "Jeremiah 9:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Thus says Yahweh, Don’t let the wise man glory in his wisdom, neither let the mighty man glory in his might, don’t let the rich man glory in his riches;",
+                      "note": "The triad of v.26—'not many wise, not many mighty, not many noble'—directly mirrors Jeremiah 9:23's catalogue 'let not the wise boast in his wisdom, the mighty in his might, the rich in his riches.' The recurrence is structural: Paul builds the catalogue (vv.26-29) precisely to set up the Jeremiah citation in v.31, so the allusion and quotation are a single sustained engagement."
+                    },
+                    {
+                      "source": "Judges 7:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh said to Gideon, “The people who are with you are too many for me to give the Midianites into their hand, lest Israel vaunt themselves against me, saying, ‘My own hand has saved me.’",
+                      "note": "God reduces Gideon's army 'lest Israel boast... saying, My own hand has saved me'—the paradigm of God choosing weakness so that 'no flesh should boast' (v.29). The thematic coherence is precise (election of the weak to negate human self-glory), and the Gideon narrative supplies a recurrent OT pattern of God shaming the strong through the few."
+                    },
+                    {
+                      "source": "Zephaniah 3:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But I will leave in your midst an afflicted and poor people, and they will take refuge in Yahweh’s name.",
+                      "note": "God's promise to leave 'a people humble and lowly' who take refuge in the LORD's name coheres with God choosing 'the lowly things of the world and the things that are despised.' The remnant of the low and despised as the locus of salvation matches Paul's reversal, and 'name of the LORD' links back to the chapter's calling-language."
+                    },
+                    {
+                      "source": "1 Samuel 2:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh makes poor, and makes rich. He brings low, he also lifts up. He raises up the poor out of the dust. He lifts up the needy from the dunghill, To make them sit with princes, and inherit the throne of glory. For the pillars of the earth are Yahweh’s. He has set the world on them.",
+                      "note": "Hannah's song—'the LORD makes poor and rich, brings low and exalts; he raises the poor from the dust... to make them sit with princes'—is the canonical hymn of divine status-reversal underlying vv.27-28. Thematic coherence is high and the motif recurs (cf. Ps 113:7), giving strong availability for Paul's exaltation of the low and lowering of the high."
+                    },
+                    {
+                      "source": "Isaiah 29:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "therefore, behold, I will proceed to do a marvelous work among this people, even a marvelous work and a wonder; and the wisdom of their wise men will perish, and the understanding of their prudent men will be hidden.”",
+                      "note": "Having quoted Isaiah 29:14 at v.19, Paul continues its logic here: God destroys the wisdom of the wise by choosing the foolish 'to shame the wise.' The recurrence of the same Isaianic oracle across the unit (criterion of recurrence) confirms that the wisdom-reversal of vv.27-28 is still being read through Isaiah 29.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 23:5-6",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Behold, the days come, says Yahweh, that I will raise to David a righteous Branch, and he shall reign as king and deal wisely, and shall execute justice and righteousness in the land. In his days Judah shall be saved, and Israel shall dwell safely; and this is his name by which he shall be called: Yahweh our righteousness.",
+                      "note": "Christ 'made to us... righteousness' (v.30) figurally realizes Jeremiah's messianic Branch named 'The LORD is our righteousness.' The distinctive predication of righteousness to the Davidic deliverer coheres with Paul's compressed christological list, and the title's availability in messianic exegesis supports a deliberate figural reading.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:22-31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old. I was set up from everlasting, from the beginning, before the earth existed. When there were no depths, I was born, when there were no springs abounding with water. Before the mountains were settled in place, before the hills, I was born; while as yet he had not made the earth, nor the fields, nor the beginning of the dust of the world. When he established the heavens, I was […]",
+                      "note": "Christ 'made to us wisdom from God' (v.30) draws on the personified Wisdom present with God at creation. The wisdom-Christology of vv.24, 30 coheres with the Wisdom tradition, and recurrence in Second-Temple Wisdom literature (Sir 24; Wis 7) makes the identification of Christ with God's Wisdom a well-attested move."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 7:25-26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For she is a breath of the power of God, And a clear effluence of the glory of the Almighty; Therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "Wisdom as 'a breath of the power of God... a pure emanation of his glory' offers the nearest Second-Temple background for Christ as 'the power of God and the wisdom of God' (v.24) 'made to us wisdom from God.' Availability is strong (deuterocanonical Wisdom was current), and the fusion of power and wisdom in a single divine agency coheres precisely."
+                    },
+                    {
+                      "source": "Sirach 24:1-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wisdom will praise herself, And will glory in the midst of her people. In the congregation of the Most High will she open her mouth, And glory in the presence of his power. I came forth from the mouth of the Most High, And covered the earth as a mist. I lived in high places, And my throne is in the pillar of the cloud. Alone I compassed the circuit of heaven, And walked in the depth of the abyss. In the waves of the sea, and in all the earth, And in every […]",
+                      "note": "Sirach's hymn of Wisdom seeking a dwelling among God's people supports the wisdom-Christology of vv.24, 30, where Christ becomes the locus of God's wisdom for believers. The thematic link to personified Wisdom is real, but the verbal volume is faint relative to Proverbs 8 and Wisdom 7.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 45:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In Yahweh shall all the seed of Israel be justified, and shall glory.",
+                      "note": "'In the LORD all the offspring of Israel shall be justified and shall glory'—pairing justification with glorying/boasting in the LORD—anticipates the v.30-31 link between Christ as righteousness and boasting 'in the Lord.' The conjunction of being made righteous and boasting only in God coheres, though Jeremiah 9 remains the explicit source.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -775,7 +1075,285 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1-12",
+                  "echoes": [
+                    {
+                      "source": "Exodus 19:3",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Moses went up to God, and Yahweh called to him out of the mountain, saying, “This is what you shall tell the house of Jacob, and tell the children of Israel:",
+                      "note": "Jesus 'went up onto the mountain' to teach Torah, evoking Moses ascending Sinai to receive the law; Matthew presents a new-Moses giving authoritative instruction from a mountain."
+                    },
+                    {
+                      "source": "Psalm 37:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But the humble shall inherit the land, and shall delight themselves in the abundance of peace.",
+                      "note": "'The gentle/meek shall inherit the earth/land' is a near-verbatim echo of LXX Ps 36:11 (Ps 37:11), the clearest single source behind the third beatitude."
+                    },
+                    {
+                      "source": "Isaiah 61:1-3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound; to proclaim the year of Yahweh’s favor, and the day of vengeance of our God; to comfort all who mourn; to appoint to those who mourn in Zion, to give to them a garland for ashes, the oil of joy for mourning, the garment of praise for the spirit of […]",
+                      "note": "Isaiah's anointed proclaims good news to the poor and comfort to all who mourn; multiple beatitudes (poor, mourning-comforted, righteousness) cluster on this Servant text, which Jesus elsewhere claims.",
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind; to declare the acceptable year of the Lord, and the day of recompence; to comfort all that mourn; that there should be given to them that mourn in Sion glory instead of ashes, the oil of joy to the mourners, the garment of glory for the spirit of heaviness: and […]"
+                    },
+                    {
+                      "source": "Psalm 24:3-4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Who may ascend to Yahweh’s hill? Who may stand in his holy place? He who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.",
+                      "note": "'Who shall ascend the hill of the LORD? ... He who has clean hands and a pure heart' — direct source for 'blessed are the pure in heart, for they shall see God.'"
+                    },
+                    {
+                      "source": "Exodus 24:12",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh said to Moses, “Come up to me on the mountain, and stay here, and I will give you the stone tablets with the law and the commands that I have written, that you may teach them.”",
+                      "note": "Moses summoned up the mountain to receive the tablets of law and commandment; the Sermon's mountain setting figurally recasts the giving of Torah."
+                    },
+                    {
+                      "source": "Deuteronomy 5:1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Moses called to all Israel, and said to them, “Hear, Israel, the statutes and the ordinances which I speak in your ears this day, that you may learn them, and observe to do them.”",
+                      "note": "Moses assembles and teaches Israel the statutes; the seated Teacher addressing disciples mirrors the Mosaic instruction frame.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 57:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For thus says the high and lofty One who inhabits eternity, whose name is Holy: “I dwell in the high and holy place, with him also who is of a contrite and humble spirit, to revive the spirit of the humble, and to revive the heart of the contrite.",
+                      "note": "God dwells with the contrite and lowly in spirit; 'poor in spirit' draws on this prophetic ideal of humble dependence on God."
+                    },
+                    {
+                      "source": "Isaiah 66:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For all these things has my hand made, and so all these things came to be,” says Yahweh: “but to this man will I look, even to him who is poor and of a contrite spirit, and who trembles at my word.",
+                      "note": "God regards the poor, contrite in spirit, who tremble at his word — background for 'blessed are the poor in spirit.'"
+                    },
+                    {
+                      "source": "Psalm 34:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+                      "note": "The LORD is near the brokenhearted and saves the crushed in spirit; coheres with poor-in-spirit and those who mourn."
+                    },
+                    {
+                      "source": "Isaiah 61:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Instead of your shame you shall have double; and instead of dishonor they shall rejoice in their portion: therefore in their land they shall possess double; everlasting joy shall be to them.",
+                      "note": "The mourners shall possess a double portion and everlasting joy; reinforces the inheritance/reward logic of the beatitudes."
+                    },
+                    {
+                      "source": "Psalm 73:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Surely God is good to Israel, to those who are pure in heart.",
+                      "note": "'God is good to the pure in heart' — recurrent Psalter theme behind the sixth beatitude."
+                    },
+                    {
+                      "source": "Psalm 1:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Blessed is the man who doesn’t walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers;",
+                      "note": "'Blessed is the man...' — the makarism/beatitude form itself is rooted in the Psalter's wisdom blessing formula."
+                    },
+                    {
+                      "source": "Hosea 6:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+                      "note": "'I desire mercy'; the mercy-receives-mercy logic of the fifth beatitude resonates with Hosea, a text Matthew cites twice elsewhere."
+                    },
+                    {
+                      "source": "Micah 6:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+                      "note": "To do justice, love mercy (hesed), walk humbly — clusters mercy, righteousness, and humility that pervade the beatitudes."
+                    },
+                    {
+                      "source": "Psalm 17:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "As for me, I shall see your face in righteousness. I shall be satisfied, when I awake, with seeing your form.",
+                      "note": "'I shall behold your face in righteousness' — beatific seeing of God promised to the pure in heart."
+                    },
+                    {
+                      "source": "Daniel 7:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But the saints of the Most High shall receive the kingdom, and possess the kingdom forever, even forever and ever.",
+                      "note": "The saints of the Most High receive and possess the kingdom; underwrites 'theirs is the Kingdom of Heaven' (bracketing beatitudes 1 and 8)."
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'You are children of the living God' — divine-sonship language behind 'they shall be called children of God.'"
+                    },
+                    {
+                      "source": "Psalm 34:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Depart from evil, and do good. seek peace, and pursue it.",
+                      "note": "'Seek peace and pursue it'; the active peacemaking blessed in the seventh beatitude."
+                    },
+                    {
+                      "source": "2 Chronicles 36:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "but they mocked the messengers of God, and despised his words, and scoffed at his prophets, until the wrath of Yahweh arose against his people, until there was no remedy.",
+                      "note": "Israel mocked and persecuted the prophets; basis for 'so they persecuted the prophets who were before you.'"
+                    },
+                    {
+                      "source": "Isaiah 51:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Listen to me, you who know righteousness, the people in whose heart is my law; don’t fear the reproach of men, neither be dismayed at their insults.",
+                      "note": "'Fear not the reproach of men' addressed to those with God's law in their heart — close parallel to being reproached/reviled for righteousness' sake."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 2:12-20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But let us lie in wait for the righteous man, Because he is of disservice to us, And is contrary to our works, And upbraids us with sins against the law, And lays to our charge sins against our discipline. He professes to have knowledge of God, And names himself servant of the Lord. He became to us a reproof of our thoughts. He is grievous to us even to behold, Because his life is unlike other men’s, And his paths are of strange fashion. We were accounted […]",
+                      "note": "The wicked plot against the righteous one, reproaching and persecuting him to test his patience; Second Temple background for the persecuted-righteous beatitudes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 32:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Blessed is he whose disobedience is forgiven, whose sin is covered. Blessed is the man to whom Yahweh doesn’t impute iniquity, in whose spirit there is no deceit.",
+                      "note": "Beatitude-form blessing ('Blessed is the one whose transgression is forgiven'); shapes the genre of Jesus' blessings.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 49:10",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them, even by springs of water he will guide them.",
+                      "note": "The redeemed 'shall not hunger nor thirst'; background for 'hunger and thirst after righteousness ... shall be filled.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 107:5-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Hungry and thirsty, their soul fainted in them. Then they cried to Yahweh in their trouble, and he delivered them out of their distresses, he led them also by a straight way, that they might go to a city to live in. Let them praise Yahweh for his loving kindness, for his wonderful works to the children of men! For he satisfies the longing soul. He fills the hungry soul with good.",
+                      "note": "God satisfies the hungry and thirsty soul; coheres with the fourth beatitude's promise of being filled.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 14:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He who despises his neighbor sins, but blessed is he who has pity on the poor.",
+                      "note": "'Blessed is he who is generous/merciful to the poor'; wisdom background for 'blessed are the merciful.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 32:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Jacob called the name of the place Peniel: for, he said, “I have seen God face to face, and my life is preserved.”",
+                      "note": "Jacob saw God face to face and lived; background to the extraordinary promise 'they shall see God.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, shall be given to the people of the saints of the Most High: his kingdom is an everlasting kingdom, and all dominions shall serve and obey him.",
+                      "note": "Kingdom and dominion given to the people of the holy ones; reinforces the kingdom-inheritance frame.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Chronicles 20:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Didn’t you, our God, drive out the inhabitants of this land before your people Israel, and give it to the seed of Abraham your friend forever?",
+                      "note": "Israel as God's 'children'/friends; background for peacemakers 'called children of God.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 19:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and slain your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+                      "note": "Elijah laments the slaying of the prophets; the persecuted-prophets motif of v.12."
+                    },
+                    {
+                      "source": "Jeremiah 26:20-23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "There was also a man who prophesied in Yahweh’s name, Uriah the son of Shemaiah of Kiriath Jearim; and he prophesied against this city and against this land according to all the words of Jeremiah: and when Jehoiakim the king, with all his mighty men, and all the princes, heard his words, the king sought to put him to death; but when Uriah heard it, he was afraid, and fled, and went into Egypt: and Jehoiakim the king sent men into Egypt, Elnathan the son […]",
+                      "note": "The prophet Uriah killed for prophesying; concrete instance of persecuted prophets behind v.12.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 48:1-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Also there arose Elijah the prophet as fire, And his word burned like a torch: Who brought a famine upon them, And by his zeal made them few in number. By the word of the Lord he shut up the heaven: Thrice did he thus bring down fire. How was you glorified, O Elijah, in your wondrous deeds! And who shall glory like to you? Who did raise up a dead man from death, And from the place of the dead, by the word of the Most High: Who brought down kings to […]",
+                      "note": "Elijah among the persecuted prophets; deuterocanonical recollection of the prophets' suffering invoked in v.12.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 126:5-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Those who sow in tears will reap in joy. He who goes out weeping, carrying seed for sowing, will certainly come again with joy, carrying his sheaves.",
+                      "note": "Those who sow in tears reap with joy; coheres with mourners being comforted and rejoicing.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Tobit 4:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Give alms from your possessions. When you give alms, don’t let your eye be envious. Don’t turn away your face from any poor man, and the face of God won’t be turned away from you.",
+                      "note": "Deuterocanonical exhortation to mercy/almsgiving that obtains divine favor; background to 'blessed are the merciful.'",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Sermon on the Mount",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "5:1–7:29",
+                        "luke": "6:20–49"
+                      },
+                      "note": "Matthew's great mountain sermon; Luke gives a shorter \"sermon on the plain\" with its own blessings and woes."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

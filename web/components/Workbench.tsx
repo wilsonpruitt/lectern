@@ -2,13 +2,20 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import type {
   Occasion,
   Track,
   Lenses as LensesData,
-  Turn as TurnData,
+  CatenaEchoes,
+  Chronology,
+  PlacesMapData,
   SeriesMembership,
+  Turn as TurnData,
 } from "@/lib/data";
+
+// Leaflet touches window/document directly -- load client-only, never in the SSG pass.
+const PlacesMap = dynamic(() => import("./PlacesMap"), { ssr: false });
 
 type TabKey = "notes" | "glossa" | "hymns" | "praise" | "calls" | "turn" | "lenses";
 
@@ -338,6 +345,9 @@ function Lenses({ lenses }: { lenses: LensesData }) {
             ) : (
               <div className="lens-none">no resource covers this reading yet</div>
             )}
+            {r.map && <PlacesMapPanel map={r.map} />}
+            {r.chronology && <ChronologyPanel chronology={r.chronology} />}
+            {r.echoes && <EchoesPanel echoes={r.echoes} />}
           </li>
         ))}
       </ul>
@@ -393,6 +403,127 @@ function Lenses({ lenses }: { lenses: LensesData }) {
         Greek reading helps are live &mdash; tap &ldquo;Study the Greek&rdquo; on any New Testament
         reading to open the parsing and classical lexicon. Hebrew to follow.
       </p>
+    </div>
+  );
+}
+
+function EchoesPanel({ echoes }: { echoes: CatenaEchoes }) {
+  return (
+    <div className="inline-panel echoes-panel">
+      <span className="eyebrow">Fathers &amp; echoes &mdash; Catena</span>
+      {echoes.kind === "nt" ? (
+        echoes.pericopes.map((per) => (
+          <div className="echo-group" key={per.pericopeId}>
+            {echoes.pericopes.length > 1 && <div className="echo-group-ref">{per.ref}</div>}
+            {per.echoes.map((e, i) => (
+              <div className="echo" key={i}>
+                <div className="echo-head">
+                  <span className={`echo-type type-${e.type}`}>{e.type}</span>
+                  <span className="echo-source">{e.source}</span>
+                  <span className={`echo-confidence conf-${e.confidence}`}>{e.confidence}</span>
+                </div>
+                <p className="echo-text">&ldquo;{e.text}&rdquo;</p>
+                <p className="echo-note">{e.note}</p>
+              </div>
+            ))}
+          </div>
+        ))
+      ) : (
+        echoes.sources.map((src) => (
+          <div className="echo-group" key={src.source}>
+            <div className="echo-group-ref">{src.source} &mdash; later echoed in:</div>
+            <div className="echo-occurrences">
+              {src.occurrences.map((o) => (
+                <a
+                  key={o.refKey}
+                  className={`occ-link conf-${o.confidence}`}
+                  href={o.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {o.refDisplay} <span className="occ-type">{o.type}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))
+      )}
+      <p className="micro panel-attribution">{echoes.attribution}</p>
+    </div>
+  );
+}
+
+function ChronologyPanel({ chronology }: { chronology: Chronology }) {
+  return (
+    <div className="inline-panel chronology-panel">
+      <span className="eyebrow">Where this sits &mdash; Annales</span>
+      {chronology.editions.map((ed) => (
+        <div className="chron-edition" key={ed.edition}>
+          <a className="chron-edition-name" href={ed.editionUrl} target="_blank" rel="noopener noreferrer">
+            {ed.edition} ↗
+          </a>
+          {ed.spans?.map((s, i) => (
+            <div className="chron-span" key={`s${i}`}>
+              <span className="chron-label">{s.label}</span>
+              <span className="chron-years">
+                {s.start}
+                {s.end && s.end !== s.start ? `–${s.end}` : ""}
+                {s.length ? ` (${s.length})` : ""}
+              </span>
+              {s.note && <p className="chron-note">{s.note}</p>}
+            </div>
+          ))}
+          {ed.events?.map((e, i) => (
+            <div className="chron-span" key={`e${i}`}>
+              <span className="chron-label">{e.label}</span>
+              <span className="chron-years">
+                {e.approx ? "c. " : ""}
+                {e.year < 0 ? `${-e.year} B.C.` : `A.D. ${e.year}`}
+              </span>
+              {e.note && <p className="chron-note">{e.note}</p>}
+            </div>
+          ))}
+          {ed.harmony?.map((h, i) => (
+            <div className="chron-span" key={`h${i}`}>
+              <span className="chron-label">{h.title}</span>
+              <span className="chron-years">
+                {Object.entries(h.refs)
+                  .map(([g, ref]) => `${g[0].toUpperCase()}${g.slice(1)} ${ref}`)
+                  .join(" · ")}
+              </span>
+              {h.note && <p className="chron-note">{h.note}</p>}
+            </div>
+          ))}
+        </div>
+      ))}
+      <p className="micro panel-attribution">{chronology.note}</p>
+    </div>
+  );
+}
+
+function PlacesMapPanel({ map }: { map: PlacesMapData }) {
+  return (
+    <div className="inline-panel map-panel">
+      <span className="eyebrow">Map &amp; places &mdash; Topographia</span>
+      {map.approxChapter && (
+        <p className="micro map-approx">
+          This reading spans a chapter Topographia hasn&rsquo;t mapped yet &mdash; showing
+          chapter {map.approxChapter} instead.
+        </p>
+      )}
+      <PlacesMap data={map} />
+      <ul className="map-place-list">
+        {map.places.map((p) => (
+          <li key={p.key} className={`map-place tier-${p.tier}`}>
+            <span className="place-name">{p.name}</span>
+            <span className="place-tier micro">{p.tier}</span>
+            {p.id && <span className="place-id micro">{p.id}</span>}
+          </li>
+        ))}
+      </ul>
+      <a className="chron-edition-name" href={map.chapterUrl} target="_blank" rel="noopener noreferrer">
+        Open this chapter in Topographia ↗
+      </a>
     </div>
   );
 }

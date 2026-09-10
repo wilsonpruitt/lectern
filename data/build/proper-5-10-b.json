@@ -633,7 +633,85 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/1-samuel-8"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Samuel 8:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.19.11-Luke.19.27",
+                      "refDisplay": "Luke 19:11–27",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "19.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-19.2"
+                    },
+                    {
+                      "refKey": "John.19.13-John.19.16",
+                      "refDisplay": "John 19:13–16",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-19.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Samuel 8:11–18",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.22.24-Luke.22.30",
+                      "refDisplay": "Luke 22:24–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-22.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Samuel 8:5–7",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.1-John.6.15",
+                      "refDisplay": "John 6:1–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-6.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Samuel 8:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.13.17-Acts.13.22",
+                      "refDisplay": "Acts 13:17–22",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-13.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -646,7 +724,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-138"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 138:1",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.11.2-1Cor.11.16",
+                      "refDisplay": "1 Corinthians 11:2–16",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "11.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-11.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 138:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.3-Phil.1.8",
+                      "refDisplay": "Philippians 1:3–8",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -665,7 +781,10 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -684,7 +803,129 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:20-30",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:24-25",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Shall the plunder be taken from the mighty, or the lawful captives be delivered? But thus says Yahweh, “Even the captives of the mighty shall be taken away, and the plunder of the terrible shall be delivered; for I will contend with him who contends with you, and I will save your children.",
+                      "note": "The strong-man parable, binding the strong man to plunder his house, closely tracks Isaiah's 'shall the prey be taken from the mighty?... I will contend... and save your children.' The vocabulary of the strong/mighty one and plunder/spoil maps onto the saying, and the theme of God liberating captives from a powerful captor gives high coherence. Strong volume for an OT background to the exorcism logic."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "'He shall divide the spoil with the strong' supplies the plunder-of-the-strong imagery underlying v.27. The Servant's victory and dividing of spoil coheres with Jesus despoiling Satan's house; an alternative or supplement to Isaiah 49.",
+                      "contested": true,
+                      "altSource": "Isaiah 49:24-25"
+                    },
+                    {
+                      "source": "Numbers 15:30-31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, the same blasphemes Yahweh. That soul shall be cut off from among his people. Because he has despised Yahweh’s word, and has broken his commandment, that soul shall utterly be cut off. His iniquity shall be on him.’”",
+                      "note": "The unforgivable, eternally-condemning blasphemy against the Spirit echoes the Torah's 'high-handed' sin that cuts a person off with no atonement, the one defiant offense excluded from forgiveness. Coherence with the deliberate-sin-without-pardon category is strong."
+                    },
+                    {
+                      "source": "Isaiah 63:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But they rebelled, and grieved his holy Spirit: therefore he was turned to be their enemy, and he himself fought against them.",
+                      "note": "'They rebelled and grieved his holy Spirit, so he turned to be their enemy' is one of the rare OT texts naming the Holy Spirit and a rebellion against it. Attributing the Spirit's work to an unclean spirit (v.30) is precisely grieving/blaspheming the holy Spirit; availability of the exact phrase is notable."
+                    },
+                    {
+                      "source": "Psalm 18:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He delivered me from my strong enemy, from those who hated me; for they were too mighty for me.",
+                      "note": "Deliverance 'from my strong enemy' parallels the binding of the strong man; the psalmist is rescued from a mightier foe by God's power. Thematic coherence with the rescue-from-the-strong motif; low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 16:14-23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now the Spirit of Yahweh departed from Saul, and an evil spirit from Yahweh troubled him. Saul’s servants said to him, “See now, an evil spirit from God troubles you. Let our lord now command your servants who are before you, to seek out a man who is a skillful player on the harp. It shall happen, when the evil spirit from God is on you, that he shall play with his hand, and you shall be well.” Saul said to his servants, “Provide me now a man who can play […]",
+                      "note": "The Beelzebul charge and the question 'how can Satan cast out Satan?' play against OT traditions where an evil spirit from the Lord can be soothed, distinguishing genuine deliverance from collusion. Faint background to the exorcism dispute.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 18:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Elijah came near to all the people, and said, “How long will you waver between the two sides? If Yahweh is God, follow him; but if Baal, then follow him.” The people answered him not a word.",
+                      "note": "Baal/Beelzebul nomenclature derives from the lord-of-the-house/lord-of-flies deity polemicized in Kings; the scribes' charge weaponizes a pagan-deity name with deep OT polemical history (Ahaziah's inquiry of Baal-zebub in 2 Kings 1). Provides the name's availability and connotation.",
+                      "contested": true,
+                      "altSource": "2 Kings 1:2-3"
+                    },
+                    {
+                      "source": "1 Samuel 3:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore I have sworn to the house of Eli, that the iniquity of Eli’s house shall not be removed with sacrifice nor offering forever.”",
+                      "note": "'The iniquity of Eli's house shall not be atoned for by sacrifice forever' offers an OT precedent for a sin barred from forgiveness, paralleling the never-forgiven blasphemy. Thematic, low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”",
+                      "note": "The Spirit's striving with humanity that does not abide forever offers a faint backdrop to a limit on forgiveness when the Spirit is rejected. Low volume and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.5",
+                  "ref": "3:31-35",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 33:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said of his father, and of his mother, ‘I have not seen him.’ He didn’t acknowledge his brothers, nor did he know his own children; for they have observed your word, and keep your covenant.",
+                      "note": "Levi's blessing praises those who say of father, mother and brothers 'I do not know them,' keeping covenant over kin, exactly the relativizing of natural family for the sake of God's word that Jesus enacts. Strong thematic coherence with redefining kinship around obedience to God."
+                    },
+                    {
+                      "source": "Psalm 40:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I delight to do your will, my God. Yes, your law is within my heart.”",
+                      "note": "'I delight to do your will, O my God' anchors the climactic criterion of kinship: doing the will of God. The will-of-God obedience theme has strong recurrence in the Psalter and high coherence with Jesus' redefinition of family.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 32:27-29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to them, “Thus says Yahweh, the God of Israel, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’” The sons of Levi did according to the word of Moses: and there fell of the people that day about three thousand men. Moses said, “Consecrate yourselves today to Yahweh, yes, every man against his son, and against […]",
+                      "note": "The Levites' willingness to act against brother and son to do the Lord's will is invoked as covenant fidelity over blood ties, paralleling 'whoever does the will of God is my brother.' Thematic, low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 22:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will declare your name to my brothers. In the midst of the assembly, I will praise you.",
+                      "note": "'I will declare your name to my brothers' supplies a Davidic-righteous-sufferer model of a community of brothers gathered around the one who does God's will. Faint, but Psalm 22 is heavily mined by Mark's passion, raising recurrence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1504,7 +1745,350 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-3"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 3:15",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.16.17-Rom.16.20",
+                      "refDisplay": "Romans 16:17–20",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "16.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-16.2"
+                    },
+                    {
+                      "refKey": "1John.3.7-1John.3.10",
+                      "refDisplay": "1 John 3:7–10",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.7"
+                    },
+                    {
+                      "refKey": "Rev.12.13-Rev.12.17",
+                      "refDisplay": "Revelation 12:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "12.4",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-12.4"
+                    },
+                    {
+                      "refKey": "Luke.10.17-Luke.10.20",
+                      "refDisplay": "Luke 10:17–20",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "10.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-10.3"
+                    },
+                    {
+                      "refKey": "Acts.28.1-Acts.28.6",
+                      "refDisplay": "Acts 28:1–6",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "28.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-28.1"
+                    },
+                    {
+                      "refKey": "1Tim.2.11-1Tim.2.15",
+                      "refDisplay": "1 Timothy 2:11–15",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "2.4",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-2.4"
+                    },
+                    {
+                      "refKey": "1John.5.18-1John.5.21",
+                      "refDisplay": "1 John 5:18–21",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "5.18",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-5.18"
+                    },
+                    {
+                      "refKey": "Rev.12.1-Rev.12.4",
+                      "refDisplay": "Revelation 12:1–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "12.1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-12.1"
+                    },
+                    {
+                      "refKey": "Matt.11.7-Matt.11.15",
+                      "refDisplay": "Matthew 11:7–15",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "11.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-11.2"
+                    },
+                    {
+                      "refKey": "Matt.23.29-Matt.23.36",
+                      "refDisplay": "Matthew 23:29–36",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "23.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-23.4"
+                    },
+                    {
+                      "refKey": "Luke.3.7-Luke.3.9",
+                      "refDisplay": "Luke 3:7–9",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-3.3"
+                    },
+                    {
+                      "refKey": "John.5.39-John.5.47",
+                      "refDisplay": "John 5:39–47",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "5.6",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-5.6"
+                    },
+                    {
+                      "refKey": "John.12.27-John.12.33",
+                      "refDisplay": "John 12:27–33",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "12.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-12.5"
+                    },
+                    {
+                      "refKey": "John.13.18-John.13.20",
+                      "refDisplay": "John 13:18–20",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-13.5"
+                    },
+                    {
+                      "refKey": "John.14.28-John.14.31",
+                      "refDisplay": "John 14:28–31",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.9",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-14.9"
+                    },
+                    {
+                      "refKey": "John.16.5-John.16.11",
+                      "refDisplay": "John 16:5–11",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.2",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-16.2"
+                    },
+                    {
+                      "refKey": "John.17.13-John.17.16",
+                      "refDisplay": "John 17:13–16",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-17.4"
+                    },
+                    {
+                      "refKey": "Gal.4.1-Gal.4.7",
+                      "refDisplay": "Galatians 4:1–7",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-4.1"
+                    },
+                    {
+                      "refKey": "Heb.2.14-Heb.2.18",
+                      "refDisplay": "Hebrews 2:14–18",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "2.3",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-2.3"
+                    },
+                    {
+                      "refKey": "1John.2.12-1John.2.14",
+                      "refDisplay": "1 John 2:12–14",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "2.12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-2.12"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 3:13",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.7.7-Rom.7.12",
+                      "refDisplay": "Romans 7:7–12",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-7.2"
+                    },
+                    {
+                      "refKey": "1Tim.2.11-1Tim.2.15",
+                      "refDisplay": "1 Timothy 2:11–15",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "2.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-2.4"
+                    },
+                    {
+                      "refKey": "Titus.3.3",
+                      "refDisplay": "Titus 3:3",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/titus#p-3.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 3:7–10",
+                  "occurrences": [
+                    {
+                      "refKey": "John.21.1-John.21.14",
+                      "refDisplay": "John 21:1–14",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-21.1"
+                    },
+                    {
+                      "refKey": "Rev.16.12-Rev.16.16",
+                      "refDisplay": "Revelation 16:12–16",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-16.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 3:1–13",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.11.1-2Cor.11.6",
+                      "refDisplay": "2 Corinthians 11:1–6",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "11.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-11.1"
+                    },
+                    {
+                      "refKey": "Rom.16.17-Rom.16.20",
+                      "refDisplay": "Romans 16:17–20",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "16.2",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-16.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 3:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.12-Rom.5.21",
+                      "refDisplay": "Romans 5:12–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 3:7–21",
+                  "occurrences": [
+                    {
+                      "refKey": "Col.3.8-Col.3.11",
+                      "refDisplay": "Colossians 3:8–11",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-3.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 3:1–15",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.3.7-1John.3.10",
+                      "refDisplay": "1 John 3:7–10",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1517,7 +2101,95 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-130"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 130:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.1.18-Matt.1.25",
+                      "refDisplay": "Matthew 1:18–25",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-1.2"
+                    },
+                    {
+                      "refKey": "Titus.2.11-Titus.2.14",
+                      "refDisplay": "Titus 2:11–14",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/titus#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    },
+                    {
+                      "refKey": "Eph.1.7-Eph.1.8",
+                      "refDisplay": "Ephesians 1:7–8",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.2.1-Mark.2.12",
+                      "refDisplay": "Mark 2:1–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1536,7 +2208,10 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1555,7 +2230,129 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:20-30",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:24-25",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Shall the plunder be taken from the mighty, or the lawful captives be delivered? But thus says Yahweh, “Even the captives of the mighty shall be taken away, and the plunder of the terrible shall be delivered; for I will contend with him who contends with you, and I will save your children.",
+                      "note": "The strong-man parable, binding the strong man to plunder his house, closely tracks Isaiah's 'shall the prey be taken from the mighty?... I will contend... and save your children.' The vocabulary of the strong/mighty one and plunder/spoil maps onto the saying, and the theme of God liberating captives from a powerful captor gives high coherence. Strong volume for an OT background to the exorcism logic."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "'He shall divide the spoil with the strong' supplies the plunder-of-the-strong imagery underlying v.27. The Servant's victory and dividing of spoil coheres with Jesus despoiling Satan's house; an alternative or supplement to Isaiah 49.",
+                      "contested": true,
+                      "altSource": "Isaiah 49:24-25"
+                    },
+                    {
+                      "source": "Numbers 15:30-31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, the same blasphemes Yahweh. That soul shall be cut off from among his people. Because he has despised Yahweh’s word, and has broken his commandment, that soul shall utterly be cut off. His iniquity shall be on him.’”",
+                      "note": "The unforgivable, eternally-condemning blasphemy against the Spirit echoes the Torah's 'high-handed' sin that cuts a person off with no atonement, the one defiant offense excluded from forgiveness. Coherence with the deliberate-sin-without-pardon category is strong."
+                    },
+                    {
+                      "source": "Isaiah 63:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But they rebelled, and grieved his holy Spirit: therefore he was turned to be their enemy, and he himself fought against them.",
+                      "note": "'They rebelled and grieved his holy Spirit, so he turned to be their enemy' is one of the rare OT texts naming the Holy Spirit and a rebellion against it. Attributing the Spirit's work to an unclean spirit (v.30) is precisely grieving/blaspheming the holy Spirit; availability of the exact phrase is notable."
+                    },
+                    {
+                      "source": "Psalm 18:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He delivered me from my strong enemy, from those who hated me; for they were too mighty for me.",
+                      "note": "Deliverance 'from my strong enemy' parallels the binding of the strong man; the psalmist is rescued from a mightier foe by God's power. Thematic coherence with the rescue-from-the-strong motif; low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 16:14-23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now the Spirit of Yahweh departed from Saul, and an evil spirit from Yahweh troubled him. Saul’s servants said to him, “See now, an evil spirit from God troubles you. Let our lord now command your servants who are before you, to seek out a man who is a skillful player on the harp. It shall happen, when the evil spirit from God is on you, that he shall play with his hand, and you shall be well.” Saul said to his servants, “Provide me now a man who can play […]",
+                      "note": "The Beelzebul charge and the question 'how can Satan cast out Satan?' play against OT traditions where an evil spirit from the Lord can be soothed, distinguishing genuine deliverance from collusion. Faint background to the exorcism dispute.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 18:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Elijah came near to all the people, and said, “How long will you waver between the two sides? If Yahweh is God, follow him; but if Baal, then follow him.” The people answered him not a word.",
+                      "note": "Baal/Beelzebul nomenclature derives from the lord-of-the-house/lord-of-flies deity polemicized in Kings; the scribes' charge weaponizes a pagan-deity name with deep OT polemical history (Ahaziah's inquiry of Baal-zebub in 2 Kings 1). Provides the name's availability and connotation.",
+                      "contested": true,
+                      "altSource": "2 Kings 1:2-3"
+                    },
+                    {
+                      "source": "1 Samuel 3:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore I have sworn to the house of Eli, that the iniquity of Eli’s house shall not be removed with sacrifice nor offering forever.”",
+                      "note": "'The iniquity of Eli's house shall not be atoned for by sacrifice forever' offers an OT precedent for a sin barred from forgiveness, paralleling the never-forgiven blasphemy. Thematic, low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”",
+                      "note": "The Spirit's striving with humanity that does not abide forever offers a faint backdrop to a limit on forgiveness when the Spirit is rejected. Low volume and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.5",
+                  "ref": "3:31-35",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 33:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said of his father, and of his mother, ‘I have not seen him.’ He didn’t acknowledge his brothers, nor did he know his own children; for they have observed your word, and keep your covenant.",
+                      "note": "Levi's blessing praises those who say of father, mother and brothers 'I do not know them,' keeping covenant over kin, exactly the relativizing of natural family for the sake of God's word that Jesus enacts. Strong thematic coherence with redefining kinship around obedience to God."
+                    },
+                    {
+                      "source": "Psalm 40:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I delight to do your will, my God. Yes, your law is within my heart.”",
+                      "note": "'I delight to do your will, O my God' anchors the climactic criterion of kinship: doing the will of God. The will-of-God obedience theme has strong recurrence in the Psalter and high coherence with Jesus' redefinition of family.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 32:27-29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to them, “Thus says Yahweh, the God of Israel, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’” The sons of Levi did according to the word of Moses: and there fell of the people that day about three thousand men. Moses said, “Consecrate yourselves today to Yahweh, yes, every man against his son, and against […]",
+                      "note": "The Levites' willingness to act against brother and son to do the Lord's will is invoked as covenant fidelity over blood ties, paralleling 'whoever does the will of God is my brother.' Thematic, low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 22:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will declare your name to my brothers. In the midst of the assembly, I will praise you.",
+                      "note": "'I will declare your name to my brothers' supplies a Davidic-righteous-sufferer model of a community of brothers gathered around the one who does God's will. Faint, but Psalm 22 is heavily mined by Mark's passion, raising recurrence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

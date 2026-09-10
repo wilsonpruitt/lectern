@@ -593,7 +593,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-1"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -606,7 +609,65 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-50"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 50:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.24.29-Matt.24.31",
+                      "refDisplay": "Matthew 24:29–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "24.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-24.6"
+                    },
+                    {
+                      "refKey": "2Thess.2.1-2Thess.2.2",
+                      "refDisplay": "2 Thessalonians 2:1–2",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 50:8–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    },
+                    {
+                      "refKey": "1Cor.8.7-1Cor.8.8",
+                      "refDisplay": "1 Corinthians 8:7–8",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "8.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-8.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -619,7 +680,49 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-11.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.1",
+                  "ref": "11:1–7",
+                  "echoes": [
+                    {
+                      "source": "Genesis 5:24",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Enoch walked with God, and he was not found, for God took him.",
+                      "note": "‘Enoch… was not found, because God translated him’ retells Gen 5:24, following the Greek (‘transferred’) for the Hebrew ‘God took him.’ The chapter's whole method shows here in miniature — faith demonstrated by retelling the old stories. (Abel and Noah, vv. 4 and 7, are likewise drawn from Genesis 4 and 6–9.)"
+                    },
+                    {
+                      "source": "Genesis 4:4",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Abel also brought some of the firstborn of his flock and of its fat. Yahweh respected Abel and his offering,",
+                      "note": "‘Abel offered… a more excellent sacrifice than Cain’ (v. 4) retells Gen 4:3–10 — the LORD's ‘respect’ for Abel's offering is read as the testimony ‘that he was righteous.’ High thematic coherence; the narrative is reused whole rather than cited (Hays, figural reading)."
+                    },
+                    {
+                      "source": "Genesis 4:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh said, “What have you done? The voice of your brother's blood cries to me from the ground.”",
+                      "note": "‘Being dead, he still speaks’ (v. 4) hears Gen 4:10, where Abel's blood ‘cries from the ground.’ Recurrence clinches it: the same image returns at 12:24 (‘the blood of sprinkling that speaks better than that of Abel’), so even this faint allusion earns its place."
+                    },
+                    {
+                      "source": "Genesis 6:14",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Make a ship of gopher wood. You shall make rooms in the ship, and shall seal it inside and outside with pitch.",
+                      "note": "‘Noah… prepared a ship for the saving of his house’ (v. 7) retells the flood narrative of Gen 6–9. The ‘things not yet seen’ are the warned-of flood; Noah's obedience ‘condemned the world.’ The whole story is reused figurally, not quoted."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -638,7 +741,87 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.7",
+                  "ref": "12:32-34",
+                  "echoes": [
+                    {
+                      "source": "Sirach 29:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold.",
+                      "note": "'Lay up your treasure according to the commandments of the Most High, and it will profit you more than gold' is the closest source for 'make for yourselves... a treasure in the heavens that doesn't fail.' The almsgiving-as-imperishable-treasure logic gives high Volume and Coherence."
+                    },
+                    {
+                      "source": "Tobit 4:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "for you lay up a good treasure for yourself against the day of necessity;",
+                      "note": "'You will be laying up a good treasure for yourself against the day of necessity' directly follows Tobit's exhortation to give alms. The treasure-stored-by-almsgiving theme is a precise Second-Temple parallel to selling possessions and giving to the needy."
+                    },
+                    {
+                      "source": "Sirach 29:10-12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Lose your money for a brother and a friend; And let it not rust under the stone to be lost. Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold. Shut up alms in your store-chambers; And it shall deliver you out of all affliction:",
+                      "note": "Ben Sira's fuller counsel to spend silver on a brother and store up almsgiving in the chambers of the Most High undergirds the whole purse-that-does-not-grow-old image. Recurrence within Sirach's treasure theology strengthens the allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, shall be given to the people of the saints of the Most High: his kingdom is an everlasting kingdom, and all dominions shall serve and obey him.",
+                      "note": "The kingdom given to the people of the saints of the Most High coheres faintly with 'it is your Father's good pleasure to give you the Kingdom' for the 'little flock.' The granting of the kingdom to a faithful remnant is a coherent but light echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.8",
+                  "ref": "12:35-40",
+                  "echoes": [
+                    {
+                      "source": "Exodus 12:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "This is how you shall eat it: with your belt on your waist, your shoes on your feet, and your staff in your hand; and you shall eat it in haste: it is Yahweh’s Passover.",
+                      "note": "The Passover command to eat 'with your waist girded, your sandals on your feet... in haste' supplies 'let your waist be dressed,' the posture of readiness for the Lord's deliverance/coming. The girded-loins idiom for eschatological vigilance is a strong, apt allusion."
+                    },
+                    {
+                      "source": "Malachi 3:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies.",
+                      "note": "'The Lord whom you seek will suddenly come to his temple' grounds the sudden, unexpected return of the master for whom the servants watch. The Lord-coming-suddenly motif coheres with both the watchful-servants and the thief-in-the-night sayings."
+                    },
+                    {
+                      "source": "1 Kings 18:46",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The hand of Yahweh was on Elijah; and he tucked his cloak into his belt and ran before Ahab to the entrance of Jezreel.",
+                      "note": "Elijah 'girded up his loins and ran' is a representative instance of the girded-loins idiom for urgent service. It supports the readiness imagery though Exodus 12 is the primary cultic source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 62:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For as a young man marries a virgin, so your sons shall marry you; and as the bridegroom rejoices over the bride, so your God will rejoice over you.",
+                      "note": "The bridegroom-rejoicing imagery of God's eschatological marriage faintly underlies the lord 'returning from the marriage feast.' The wedding-banquet eschatology is a coherent but light echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1382,7 +1565,210 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-15"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 15:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.4.1-Rom.4.8",
+                      "refDisplay": "Romans 4:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.1"
+                    },
+                    {
+                      "refKey": "Rom.4.9-Rom.4.12",
+                      "refDisplay": "Romans 4:9–12",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.2"
+                    },
+                    {
+                      "refKey": "Rom.4.17-Rom.4.22",
+                      "refDisplay": "Romans 4:17–22",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.4"
+                    },
+                    {
+                      "refKey": "Rom.4.23-Rom.4.25",
+                      "refDisplay": "Romans 4:23–25",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.5"
+                    },
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    },
+                    {
+                      "refKey": "Gal.3.6-Gal.3.9",
+                      "refDisplay": "Galatians 3:6–9",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "3.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/galatians#p-3.2"
+                    },
+                    {
+                      "refKey": "Phil.3.7-Phil.3.11",
+                      "refDisplay": "Philippians 3:7–11",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.4"
+                    },
+                    {
+                      "refKey": "Jas.2.14-Jas.2.26",
+                      "refDisplay": "James 2:14–26",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "2.14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/james#p-2.14"
+                    },
+                    {
+                      "refKey": "Rom.3.21-Rom.3.31",
+                      "refDisplay": "Romans 3:21–31",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-3.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 15:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.4.17-Rom.4.22",
+                      "refDisplay": "Romans 4:17–22",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.4"
+                    },
+                    {
+                      "refKey": "Heb.11.8-Heb.11.22",
+                      "refDisplay": "Hebrews 11:8–22",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "11.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-11.2"
+                    },
+                    {
+                      "refKey": "Rev.7.9-Rev.7.12",
+                      "refDisplay": "Revelation 7:9–12",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "7.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-7.3"
+                    },
+                    {
+                      "refKey": "2Cor.11.22",
+                      "refDisplay": "2 Corinthians 11:22",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "11.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-11.5"
+                    },
+                    {
+                      "refKey": "Matt.8.5-Matt.8.13",
+                      "refDisplay": "Matthew 8:5–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 15:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.4.1-Rom.4.8",
+                      "refDisplay": "Romans 4:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-4.1"
+                    },
+                    {
+                      "refKey": "Acts.16.6-Acts.16.10",
+                      "refDisplay": "Acts 16:6–10",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "16.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-16.2"
+                    },
+                    {
+                      "refKey": "Acts.27.21-Acts.27.26",
+                      "refDisplay": "Acts 27:21–26",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "27.4",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-27.4"
+                    },
+                    {
+                      "refKey": "Eph.6.14-Eph.6.17",
+                      "refDisplay": "Ephesians 6:14–17",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "6.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-6.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1395,7 +1781,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-33"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 33:19",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.8-2Cor.1.11",
+                      "refDisplay": "2 Corinthians 1:8–11",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 33:12",
+                  "occurrences": [
+                    {
+                      "refKey": "1Thess.1.4-1Thess.1.5",
+                      "refDisplay": "1 Thessalonians 1:4–5",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 33:13–15",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.4.12-Heb.4.16",
+                      "refDisplay": "Hebrews 4:12–16",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-4.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1408,7 +1847,49 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-11.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.1",
+                  "ref": "11:1–7",
+                  "echoes": [
+                    {
+                      "source": "Genesis 5:24",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Enoch walked with God, and he was not found, for God took him.",
+                      "note": "‘Enoch… was not found, because God translated him’ retells Gen 5:24, following the Greek (‘transferred’) for the Hebrew ‘God took him.’ The chapter's whole method shows here in miniature — faith demonstrated by retelling the old stories. (Abel and Noah, vv. 4 and 7, are likewise drawn from Genesis 4 and 6–9.)"
+                    },
+                    {
+                      "source": "Genesis 4:4",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Abel also brought some of the firstborn of his flock and of its fat. Yahweh respected Abel and his offering,",
+                      "note": "‘Abel offered… a more excellent sacrifice than Cain’ (v. 4) retells Gen 4:3–10 — the LORD's ‘respect’ for Abel's offering is read as the testimony ‘that he was righteous.’ High thematic coherence; the narrative is reused whole rather than cited (Hays, figural reading)."
+                    },
+                    {
+                      "source": "Genesis 4:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh said, “What have you done? The voice of your brother's blood cries to me from the ground.”",
+                      "note": "‘Being dead, he still speaks’ (v. 4) hears Gen 4:10, where Abel's blood ‘cries from the ground.’ Recurrence clinches it: the same image returns at 12:24 (‘the blood of sprinkling that speaks better than that of Abel’), so even this faint allusion earns its place."
+                    },
+                    {
+                      "source": "Genesis 6:14",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Make a ship of gopher wood. You shall make rooms in the ship, and shall seal it inside and outside with pitch.",
+                      "note": "‘Noah… prepared a ship for the saving of his house’ (v. 7) retells the flood narrative of Gen 6–9. The ‘things not yet seen’ are the warned-of flood; Noah's obedience ‘condemned the world.’ The whole story is reused figurally, not quoted."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1427,7 +1908,87 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.7",
+                  "ref": "12:32-34",
+                  "echoes": [
+                    {
+                      "source": "Sirach 29:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold.",
+                      "note": "'Lay up your treasure according to the commandments of the Most High, and it will profit you more than gold' is the closest source for 'make for yourselves... a treasure in the heavens that doesn't fail.' The almsgiving-as-imperishable-treasure logic gives high Volume and Coherence."
+                    },
+                    {
+                      "source": "Tobit 4:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "for you lay up a good treasure for yourself against the day of necessity;",
+                      "note": "'You will be laying up a good treasure for yourself against the day of necessity' directly follows Tobit's exhortation to give alms. The treasure-stored-by-almsgiving theme is a precise Second-Temple parallel to selling possessions and giving to the needy."
+                    },
+                    {
+                      "source": "Sirach 29:10-12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Lose your money for a brother and a friend; And let it not rust under the stone to be lost. Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold. Shut up alms in your store-chambers; And it shall deliver you out of all affliction:",
+                      "note": "Ben Sira's fuller counsel to spend silver on a brother and store up almsgiving in the chambers of the Most High undergirds the whole purse-that-does-not-grow-old image. Recurrence within Sirach's treasure theology strengthens the allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, shall be given to the people of the saints of the Most High: his kingdom is an everlasting kingdom, and all dominions shall serve and obey him.",
+                      "note": "The kingdom given to the people of the saints of the Most High coheres faintly with 'it is your Father's good pleasure to give you the Kingdom' for the 'little flock.' The granting of the kingdom to a faithful remnant is a coherent but light echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.8",
+                  "ref": "12:35-40",
+                  "echoes": [
+                    {
+                      "source": "Exodus 12:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "This is how you shall eat it: with your belt on your waist, your shoes on your feet, and your staff in your hand; and you shall eat it in haste: it is Yahweh’s Passover.",
+                      "note": "The Passover command to eat 'with your waist girded, your sandals on your feet... in haste' supplies 'let your waist be dressed,' the posture of readiness for the Lord's deliverance/coming. The girded-loins idiom for eschatological vigilance is a strong, apt allusion."
+                    },
+                    {
+                      "source": "Malachi 3:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies.",
+                      "note": "'The Lord whom you seek will suddenly come to his temple' grounds the sudden, unexpected return of the master for whom the servants watch. The Lord-coming-suddenly motif coheres with both the watchful-servants and the thief-in-the-night sayings."
+                    },
+                    {
+                      "source": "1 Kings 18:46",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The hand of Yahweh was on Elijah; and he tucked his cloak into his belt and ran before Ahab to the entrance of Jezreel.",
+                      "note": "Elijah 'girded up his loins and ran' is a representative instance of the girded-loins idiom for urgent service. It supports the readiness imagery though Exodus 12 is the primary cultic source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 62:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For as a young man marries a virgin, so your sons shall marry you; and as the bridegroom rejoices over the bride, so your God will rejoice over you.",
+                      "note": "The bridegroom-rejoicing imagery of God's eschatological marriage faintly underlies the lord 'returning from the marriage feast.' The wedding-banquet eschatology is a coherent but light echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

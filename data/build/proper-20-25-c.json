@@ -619,7 +619,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-8"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -632,7 +635,135 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-79"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 79:6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Thess.4.1-1Thess.4.8",
+                      "refDisplay": "1 Thessalonians 4:1–8",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "4.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-4.1"
+                    },
+                    {
+                      "refKey": "2Thess.1.8-2Thess.1.10",
+                      "refDisplay": "2 Thessalonians 1:8–10",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-1.5"
+                    },
+                    {
+                      "refKey": "John.17.24-John.17.26",
+                      "refDisplay": "John 17:24–26",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-17.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 79:9",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.2.12-1John.2.14",
+                      "refDisplay": "1 John 2:12–14",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "2.12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-2.12"
+                    },
+                    {
+                      "refKey": "Luke.11.1-Luke.11.4",
+                      "refDisplay": "Luke 11:1–4",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-11.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 79:5–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.6.9-Rev.6.11",
+                      "refDisplay": "Revelation 6:9–11",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "6.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-6.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 79:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.11.1-Rev.11.2",
+                      "refDisplay": "Revelation 11:1–2",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "11.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-11.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 79:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.11.7-Rev.11.10",
+                      "refDisplay": "Revelation 11:7–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "11.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-11.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 79:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.16.1-Rev.16.7",
+                      "refDisplay": "Revelation 16:1–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "16.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-16.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -651,7 +782,131 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-7",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 29:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Seek the peace of the city where I have caused you to be carried away captive, and pray to Yahweh for it; for in its peace you shall have peace.",
+                      "note": "Paul's directive to pray for kings and all in high places that believers may lead a tranquil life echoes Jeremiah's letter urging the exiles to seek the welfare of Babylon and pray to the LORD for it, because in its peace they will find peace. Both texts ground intercession for pagan rulers in the community's own well-being under foreign power. The logic of praying for the governing authority's order so that God's people may flourish is structurally identical."
+                    },
+                    {
+                      "source": "Ezekiel 18:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Have I any pleasure in the death of the wicked? says the Lord Yahweh; and not rather that he should return from his way, and live?",
+                      "note": "God's declared desire that all be saved and come to knowledge of the truth echoes the LORD's protest that he takes no pleasure in the death of the wicked but desires that they turn and live. Both passages assert a universal divine will for life and salvation rather than condemnation. Verse 32 of the same chapter reinforces this with the appeal to turn and live."
+                    },
+                    {
+                      "source": "Isaiah 45:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Look to me, and be saved, all the ends of the earth; for I am God, and there is no other.",
+                      "note": "The call 'Turn to me and be saved, all the ends of the earth, for I am God and there is no other' fuses the universal saving will with strict monotheism, precisely the pairing Paul makes in 'who desires all to be saved' and 'there is one God.' Isaiah's universal salvation offer grounded in the oneness of God stands directly behind this passage. The verbal and theological overlap is strong."
+                    },
+                    {
+                      "source": "Deuteronomy 6:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one.",
+                      "note": "'There is one God' restates the Shema's confession that the LORD is one, the foundational monotheistic creed of Israel. Paul reframes the Shema christologically by adding the one mediator, but the bedrock affirmation of divine oneness is directly drawn from Deuteronomy. This is the clearest scriptural anchor of verse 5."
+                    },
+                    {
+                      "source": "Isaiah 53:10-12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yet it pleased Yahweh to bruise him. He has caused him to suffer. When you make his soul an offering for sin, he shall see his seed. He shall prolong his days, and the pleasure of Yahweh shall prosper in his hand. After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities. Therefore will I divide him a portion with the great, and he shall […]",
+                      "note": "The Servant who makes his life an offering for sin and bears the sin of many provides the scriptural template for Christ giving himself as a ransom for all. The substitutionary self-offering 'for many' is universalized by Paul to 'for all.' The Servant Song is a primary source for the ransom theology of verse 6."
+                    },
+                    {
+                      "source": "Ezra 6:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "that they may offer sacrifices of pleasant aroma to the God of heaven, and pray for the life of the king, and of his sons.",
+                      "note": "The Persian decree provides for sacrifices and prayers 'for the life of the king and his sons,' a precedent for the synagogue practice of intercession for the ruling power that Paul commends to the church. This institutionalized prayer for the Gentile monarch stands behind the apostolic instruction. The continuity of Jewish intercession for kings informs the exhortation."
+                    },
+                    {
+                      "source": "Baruch 1:11-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and pray for the life of Nabuchodonosor king of Babylon, and for the life of Baltasar his son, that their days may be as the days of heaven above the earth: and the Lord will give us strength, and lighten our eyes, and we shall live under the shadow of Nabuchodonosor king of Babylon, and under the shadow of Baltasar his son, and we shall serve them many days, and find favor in their sight.",
+                      "note": "Baruch directs prayer for the life of Nebuchadnezzar and his son Belshazzar, that the exiles may live under their shadow and find favor, mirroring the petition for kings so believers can live quietly. The deuterocanonical text models the very practice of interceding for a foreign sovereign's reign for the sake of the people's peace. It is a close conceptual parallel to verses 1-2."
+                    },
+                    {
+                      "source": "Ezekiel 33:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Tell them, As I live, says the Lord Yahweh, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn, turn from your evil ways; for why will you die, house of Israel?",
+                      "note": "The oath 'As I live, I have no pleasure in the death of the wicked, but that the wicked turn from his way and live' restates the divine saving desire that Paul invokes in saying God wills all people to be saved. The emphatic divine self-witness to a will for repentance and life parallels Paul's theology of God our Savior. It complements the Ezekiel 18 echo."
+                    },
+                    {
+                      "source": "Job 9:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There is no umpire between us, that might lay his hand on us both.",
+                      "note": "Job's lament that 'there is no umpire between us, who might lay his hand on us both' articulates the need for a mediator between God and man that Paul declares fulfilled in the one mediator Christ Jesus. The longing for an arbitrator standing between God and humanity is answered in verse 5. The conceptual correspondence to 'one mediator' is notable though not verbal quotation."
+                    },
+                    {
+                      "source": "Exodus 32:30-32",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "On the next day, Moses said to the people, “You have sinned a great sin. Now I will go up to Yahweh. Perhaps I shall make atonement for your sin.” Moses returned to Yahweh, and said, “Oh, this people have sinned a great sin, and have made themselves gods of gold. Yet now, if you will, forgive their sin—and if not, please blot me out of your book which you have written.”",
+                      "note": "Moses standing between the LORD and the people, offering himself to make atonement for their sin, typifies the role of the one mediator that Paul ascribes to Christ. The Mosaic mediation at Sinai is the paradigmatic Old Testament instance of a man interceding between God and men. Christ as mediator is read against this figural background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 30:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“When you take a census of the children of Israel, according to those who are numbered among them, then each man shall give a ransom for his soul to Yahweh, when you number them; that there be no plague among them when you number them.",
+                      "note": "The atonement money, a ransom for each life given at the census so that no plague befall them, supplies the cultic background for Christ giving himself as 'a ransom for all.' The Hebrew kopher / lytron concept of a redemptive price for life stands behind Paul's ransom language. The universalizing 'for all' extends the Exodus ransom to all humanity."
+                    },
+                    {
+                      "source": "Proverbs 21:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The king’s heart is in Yahweh’s hand like the watercourses. He turns it wherever he desires.",
+                      "note": "The conviction that the king's heart is a watercourse in the LORD's hand, turned wherever he wills, undergirds the rationale for praying for rulers: God can move them toward conditions of peace. Paul's confidence that prayer for kings yields a tranquil life presupposes divine sovereignty over rulers. The link is thematic rather than verbal and is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 2:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t we all have one father? Hasn’t one God created us? Why do we deal treacherously every man against his brother, profaning the covenant of our fathers?",
+                      "note": "'Have we not all one Father? Has not one God created us?' offers a parallel monotheistic confession linked to the unity of humanity, resonant with Paul's 'one God' grounding the universality of salvation. The pairing of divine oneness with the common bond of all people overlaps with the passage. The connection is thematic and secondary to the Shema.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 5:5",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "(I stood between Yahweh and you at that time, to show you Yahweh’s word: for you were afraid because of the fire, and didn’t go up onto the mountain;) saying,",
+                      "note": "Moses' statement that he stood between the LORD and the people to declare the word, because they feared the fire, presents him as mediator of the covenant, prefiguring the one mediator language. The Mosaic mediatorial office informs Paul's category. The link is figural and faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 49:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "none of them can by any means redeem his brother, nor give God a ransom for him. For the redemption of their life is costly, no payment is ever enough,",
+                      "note": "The psalm's note that no one can by any means ransom another or give to God a price for his life sets up, by contrast, the ransom that Christ alone provides 'for all.' Paul's ransom claim answers the human impossibility the psalm laments. The link is conceptual and contrastive.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -670,7 +925,101 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.1",
+                  "ref": "16:1-8",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 6:6-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Go to the ant, you sluggard. Consider her ways, and be wise; which having no chief, overseer, or ruler, provides her bread in the summer, and gathers her food in the harvest. How long will you sleep, sluggard? When will you arise out of your sleep? A little sleep, a little slumber, a little folding of the hands to sleep: so your poverty will come as a robber, and your scarcity as an armed man.",
+                      "note": "The manager's frantic foresight against future destitution ('I have no strength to dig, I am ashamed to beg') inverts the sluggard wisdom of Proverbs, where prudent provision against want is praised. The shared topos of provident foresight versus ruinous idleness gives modest coherence, though no verbal contact; faint and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 47:13-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "There was no bread in all the land; for the famine was very severe, so that the land of Egypt and the land of Canaan fainted by reason of the famine. Joseph gathered up all the money that was found in the land of Egypt, and in the land of Canaan, for the grain which they bought: and Joseph brought the money into Pharaoh’s house. When the money was all spent in the land of Egypt, and in the land of Canaan, all the Egyptians came to Joseph, and said, “Give […]",
+                      "note": "Joseph as the shrewd steward managing his lord's grain and debtors during scarcity offers a figural backdrop to a manager renegotiating debts of wheat and oil. Coherence is thematic (estate-steward over produce), but the moral valence is opposite and there is no diction overlap, so it is faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.2",
+                  "ref": "16:9",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 19:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who has pity on the poor lends to Yahweh; he will reward him.",
+                      "note": "'Make friends by means of unrighteous mammon, so that they may receive you into the eternal tents' coheres tightly with the proverb that lending to the poor lends to the LORD, who repays. The shared logic that present generosity with money secures future, divine reception gives strong coherence with a widely available sapiential maxim."
+                    },
+                    {
+                      "source": "Tobit 4:7-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give alms from your possessions. When you give alms, don’t let your eye be envious. Don’t turn away your face from any poor man, and the face of God won’t be turned away from you. As your possessions are, give alms of it according to your abundance. If you have little, don’t be afraid to give alms according to that little; for you lay up a good treasure for yourself against the day of necessity; because alms-giving delivers from death, and doesn’t allow […]",
+                      "note": "Tobit's counsel that almsgiving 'lays up a good treasure against the day of necessity' and 'delivers from death' supplies the precise economy Jesus assumes: wealth converted into mercy yields eschatological security. High coherence and Second-Temple availability make this a strong deuterocanonical echo behind 'receive you into the eternal tents.'"
+                    },
+                    {
+                      "source": "Sirach 29:8-13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Howbeit with a man in poor estate be longsuffering; And let him not wait for your alms. Help a poor man for the commandment’s sake; And according to his need send him not empty away. Lose your money for a brother and a friend; And let it not rust under the stone to be lost. Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold. Shut up alms in your store-chambers; And it shall deliver you out of all […]",
+                      "note": "Ben Sira urges laying up alms in one's treasury as a deposit that will rescue one from misfortune, framing charity to the poor as deferred self-interest. The volume and coherence with 'make friends... so they may receive you' is high, and Sirach was demonstrably available to Luke's milieu."
+                    },
+                    {
+                      "source": "Daniel 4:27",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Therefore, O king, let my counsel be acceptable to you, and break off your sins by righteousness, and your iniquities by showing mercy to the poor; if there may be a lengthening of your tranquility.",
+                      "note": "Daniel's appeal to Nebuchadnezzar to 'redeem your sins by almsgiving and your iniquities by mercy to the poor' supplies the redemptive-almsgiving theology underlying using mammon to gain eternal welcome. Strong coherence with the verse's logic; the connection is conceptual rather than verbal."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.3",
+                  "ref": "16:10-13",
+                  "echoes": [
+                    {
+                      "source": "Sirach 4:8-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Incline your ear to a poor man, And answer him with peaceful words in meekness. Deliver him that is wronged from the hand of him that wrongeth him; And be not faint-hearted in giving judgement. Be as a father to the fatherless, And instead of a husband to their mother: So will you be as a son of the Most High, And he will love you more than your mother does.",
+                      "note": "The maxim 'faithful in a very little is faithful in much' coheres with Ben Sira's wisdom that integrity in small dealings with the lowly proves character, but the gnomic form is broadly diffused and no single passage controls it. Faint and contested as a specific source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joshua 24:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If it seems evil to you to serve Yahweh, choose this day whom you will serve; whether the gods which your fathers served that were beyond the River, or the gods of the Amorites, in whose land you dwell: but as for me and my house, we will serve Yahweh.”",
+                      "note": "'No servant can serve two masters... you cannot serve God and Mammon' echoes the covenantal either/or of choosing whom to serve, the LORD versus rival gods. Coherence with the exclusive-service motif is real but the diction is independent, so it is a faint figural echo at best.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "The demand for undivided love of God set against love of money draws on the Shema's totalizing claim ('with all your heart'), which forbids a divided heart. The opposition of single-hearted devotion versus a rival master gives modest coherence; verbal contact is absent, so it is contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1387,7 +1736,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/amos-8"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Amos 8:4–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.2.1-Jas.2.7",
+                      "refDisplay": "James 2:1–7",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/james#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1400,7 +1772,105 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-113"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 113:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.19.1-Rev.19.5",
+                      "refDisplay": "Revelation 19:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.1",
+                      "type": "echo",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.1"
+                    },
+                    {
+                      "refKey": "Matt.26.26-Matt.26.30",
+                      "refDisplay": "Matthew 26:26–30",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 113:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.51-Luke.1.56",
+                      "refDisplay": "Luke 1:51–56",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.11"
+                    },
+                    {
+                      "refKey": "2Cor.7.5-2Cor.7.7",
+                      "refDisplay": "2 Corinthians 7:5–7",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "7.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-7.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 113:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.2.1-Jas.2.7",
+                      "refDisplay": "James 2:1–7",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-2.1"
+                    },
+                    {
+                      "refKey": "Acts.3.1-Acts.3.10",
+                      "refDisplay": "Acts 3:1–10",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-3.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 113–118",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.14.26",
+                      "refDisplay": "Mark 14:26",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1419,7 +1889,131 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-7",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 29:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Seek the peace of the city where I have caused you to be carried away captive, and pray to Yahweh for it; for in its peace you shall have peace.",
+                      "note": "Paul's directive to pray for kings and all in high places that believers may lead a tranquil life echoes Jeremiah's letter urging the exiles to seek the welfare of Babylon and pray to the LORD for it, because in its peace they will find peace. Both texts ground intercession for pagan rulers in the community's own well-being under foreign power. The logic of praying for the governing authority's order so that God's people may flourish is structurally identical."
+                    },
+                    {
+                      "source": "Ezekiel 18:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Have I any pleasure in the death of the wicked? says the Lord Yahweh; and not rather that he should return from his way, and live?",
+                      "note": "God's declared desire that all be saved and come to knowledge of the truth echoes the LORD's protest that he takes no pleasure in the death of the wicked but desires that they turn and live. Both passages assert a universal divine will for life and salvation rather than condemnation. Verse 32 of the same chapter reinforces this with the appeal to turn and live."
+                    },
+                    {
+                      "source": "Isaiah 45:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Look to me, and be saved, all the ends of the earth; for I am God, and there is no other.",
+                      "note": "The call 'Turn to me and be saved, all the ends of the earth, for I am God and there is no other' fuses the universal saving will with strict monotheism, precisely the pairing Paul makes in 'who desires all to be saved' and 'there is one God.' Isaiah's universal salvation offer grounded in the oneness of God stands directly behind this passage. The verbal and theological overlap is strong."
+                    },
+                    {
+                      "source": "Deuteronomy 6:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one.",
+                      "note": "'There is one God' restates the Shema's confession that the LORD is one, the foundational monotheistic creed of Israel. Paul reframes the Shema christologically by adding the one mediator, but the bedrock affirmation of divine oneness is directly drawn from Deuteronomy. This is the clearest scriptural anchor of verse 5."
+                    },
+                    {
+                      "source": "Isaiah 53:10-12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yet it pleased Yahweh to bruise him. He has caused him to suffer. When you make his soul an offering for sin, he shall see his seed. He shall prolong his days, and the pleasure of Yahweh shall prosper in his hand. After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities. Therefore will I divide him a portion with the great, and he shall […]",
+                      "note": "The Servant who makes his life an offering for sin and bears the sin of many provides the scriptural template for Christ giving himself as a ransom for all. The substitutionary self-offering 'for many' is universalized by Paul to 'for all.' The Servant Song is a primary source for the ransom theology of verse 6."
+                    },
+                    {
+                      "source": "Ezra 6:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "that they may offer sacrifices of pleasant aroma to the God of heaven, and pray for the life of the king, and of his sons.",
+                      "note": "The Persian decree provides for sacrifices and prayers 'for the life of the king and his sons,' a precedent for the synagogue practice of intercession for the ruling power that Paul commends to the church. This institutionalized prayer for the Gentile monarch stands behind the apostolic instruction. The continuity of Jewish intercession for kings informs the exhortation."
+                    },
+                    {
+                      "source": "Baruch 1:11-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and pray for the life of Nabuchodonosor king of Babylon, and for the life of Baltasar his son, that their days may be as the days of heaven above the earth: and the Lord will give us strength, and lighten our eyes, and we shall live under the shadow of Nabuchodonosor king of Babylon, and under the shadow of Baltasar his son, and we shall serve them many days, and find favor in their sight.",
+                      "note": "Baruch directs prayer for the life of Nebuchadnezzar and his son Belshazzar, that the exiles may live under their shadow and find favor, mirroring the petition for kings so believers can live quietly. The deuterocanonical text models the very practice of interceding for a foreign sovereign's reign for the sake of the people's peace. It is a close conceptual parallel to verses 1-2."
+                    },
+                    {
+                      "source": "Ezekiel 33:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Tell them, As I live, says the Lord Yahweh, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn, turn from your evil ways; for why will you die, house of Israel?",
+                      "note": "The oath 'As I live, I have no pleasure in the death of the wicked, but that the wicked turn from his way and live' restates the divine saving desire that Paul invokes in saying God wills all people to be saved. The emphatic divine self-witness to a will for repentance and life parallels Paul's theology of God our Savior. It complements the Ezekiel 18 echo."
+                    },
+                    {
+                      "source": "Job 9:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There is no umpire between us, that might lay his hand on us both.",
+                      "note": "Job's lament that 'there is no umpire between us, who might lay his hand on us both' articulates the need for a mediator between God and man that Paul declares fulfilled in the one mediator Christ Jesus. The longing for an arbitrator standing between God and humanity is answered in verse 5. The conceptual correspondence to 'one mediator' is notable though not verbal quotation."
+                    },
+                    {
+                      "source": "Exodus 32:30-32",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "On the next day, Moses said to the people, “You have sinned a great sin. Now I will go up to Yahweh. Perhaps I shall make atonement for your sin.” Moses returned to Yahweh, and said, “Oh, this people have sinned a great sin, and have made themselves gods of gold. Yet now, if you will, forgive their sin—and if not, please blot me out of your book which you have written.”",
+                      "note": "Moses standing between the LORD and the people, offering himself to make atonement for their sin, typifies the role of the one mediator that Paul ascribes to Christ. The Mosaic mediation at Sinai is the paradigmatic Old Testament instance of a man interceding between God and men. Christ as mediator is read against this figural background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 30:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“When you take a census of the children of Israel, according to those who are numbered among them, then each man shall give a ransom for his soul to Yahweh, when you number them; that there be no plague among them when you number them.",
+                      "note": "The atonement money, a ransom for each life given at the census so that no plague befall them, supplies the cultic background for Christ giving himself as 'a ransom for all.' The Hebrew kopher / lytron concept of a redemptive price for life stands behind Paul's ransom language. The universalizing 'for all' extends the Exodus ransom to all humanity."
+                    },
+                    {
+                      "source": "Proverbs 21:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The king’s heart is in Yahweh’s hand like the watercourses. He turns it wherever he desires.",
+                      "note": "The conviction that the king's heart is a watercourse in the LORD's hand, turned wherever he wills, undergirds the rationale for praying for rulers: God can move them toward conditions of peace. Paul's confidence that prayer for kings yields a tranquil life presupposes divine sovereignty over rulers. The link is thematic rather than verbal and is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 2:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t we all have one father? Hasn’t one God created us? Why do we deal treacherously every man against his brother, profaning the covenant of our fathers?",
+                      "note": "'Have we not all one Father? Has not one God created us?' offers a parallel monotheistic confession linked to the unity of humanity, resonant with Paul's 'one God' grounding the universality of salvation. The pairing of divine oneness with the common bond of all people overlaps with the passage. The connection is thematic and secondary to the Shema.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 5:5",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "(I stood between Yahweh and you at that time, to show you Yahweh’s word: for you were afraid because of the fire, and didn’t go up onto the mountain;) saying,",
+                      "note": "Moses' statement that he stood between the LORD and the people to declare the word, because they feared the fire, presents him as mediator of the covenant, prefiguring the one mediator language. The Mosaic mediatorial office informs Paul's category. The link is figural and faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 49:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "none of them can by any means redeem his brother, nor give God a ransom for him. For the redemption of their life is costly, no payment is ever enough,",
+                      "note": "The psalm's note that no one can by any means ransom another or give to God a price for his life sets up, by contrast, the ransom that Christ alone provides 'for all.' Paul's ransom claim answers the human impossibility the psalm laments. The link is conceptual and contrastive.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1438,7 +2032,101 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.1",
+                  "ref": "16:1-8",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 6:6-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Go to the ant, you sluggard. Consider her ways, and be wise; which having no chief, overseer, or ruler, provides her bread in the summer, and gathers her food in the harvest. How long will you sleep, sluggard? When will you arise out of your sleep? A little sleep, a little slumber, a little folding of the hands to sleep: so your poverty will come as a robber, and your scarcity as an armed man.",
+                      "note": "The manager's frantic foresight against future destitution ('I have no strength to dig, I am ashamed to beg') inverts the sluggard wisdom of Proverbs, where prudent provision against want is praised. The shared topos of provident foresight versus ruinous idleness gives modest coherence, though no verbal contact; faint and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 47:13-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "There was no bread in all the land; for the famine was very severe, so that the land of Egypt and the land of Canaan fainted by reason of the famine. Joseph gathered up all the money that was found in the land of Egypt, and in the land of Canaan, for the grain which they bought: and Joseph brought the money into Pharaoh’s house. When the money was all spent in the land of Egypt, and in the land of Canaan, all the Egyptians came to Joseph, and said, “Give […]",
+                      "note": "Joseph as the shrewd steward managing his lord's grain and debtors during scarcity offers a figural backdrop to a manager renegotiating debts of wheat and oil. Coherence is thematic (estate-steward over produce), but the moral valence is opposite and there is no diction overlap, so it is faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.2",
+                  "ref": "16:9",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 19:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who has pity on the poor lends to Yahweh; he will reward him.",
+                      "note": "'Make friends by means of unrighteous mammon, so that they may receive you into the eternal tents' coheres tightly with the proverb that lending to the poor lends to the LORD, who repays. The shared logic that present generosity with money secures future, divine reception gives strong coherence with a widely available sapiential maxim."
+                    },
+                    {
+                      "source": "Tobit 4:7-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give alms from your possessions. When you give alms, don’t let your eye be envious. Don’t turn away your face from any poor man, and the face of God won’t be turned away from you. As your possessions are, give alms of it according to your abundance. If you have little, don’t be afraid to give alms according to that little; for you lay up a good treasure for yourself against the day of necessity; because alms-giving delivers from death, and doesn’t allow […]",
+                      "note": "Tobit's counsel that almsgiving 'lays up a good treasure against the day of necessity' and 'delivers from death' supplies the precise economy Jesus assumes: wealth converted into mercy yields eschatological security. High coherence and Second-Temple availability make this a strong deuterocanonical echo behind 'receive you into the eternal tents.'"
+                    },
+                    {
+                      "source": "Sirach 29:8-13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Howbeit with a man in poor estate be longsuffering; And let him not wait for your alms. Help a poor man for the commandment’s sake; And according to his need send him not empty away. Lose your money for a brother and a friend; And let it not rust under the stone to be lost. Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold. Shut up alms in your store-chambers; And it shall deliver you out of all […]",
+                      "note": "Ben Sira urges laying up alms in one's treasury as a deposit that will rescue one from misfortune, framing charity to the poor as deferred self-interest. The volume and coherence with 'make friends... so they may receive you' is high, and Sirach was demonstrably available to Luke's milieu."
+                    },
+                    {
+                      "source": "Daniel 4:27",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Therefore, O king, let my counsel be acceptable to you, and break off your sins by righteousness, and your iniquities by showing mercy to the poor; if there may be a lengthening of your tranquility.",
+                      "note": "Daniel's appeal to Nebuchadnezzar to 'redeem your sins by almsgiving and your iniquities by mercy to the poor' supplies the redemptive-almsgiving theology underlying using mammon to gain eternal welcome. Strong coherence with the verse's logic; the connection is conceptual rather than verbal."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.3",
+                  "ref": "16:10-13",
+                  "echoes": [
+                    {
+                      "source": "Sirach 4:8-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Incline your ear to a poor man, And answer him with peaceful words in meekness. Deliver him that is wronged from the hand of him that wrongeth him; And be not faint-hearted in giving judgement. Be as a father to the fatherless, And instead of a husband to their mother: So will you be as a son of the Most High, And he will love you more than your mother does.",
+                      "note": "The maxim 'faithful in a very little is faithful in much' coheres with Ben Sira's wisdom that integrity in small dealings with the lowly proves character, but the gnomic form is broadly diffused and no single passage controls it. Faint and contested as a specific source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joshua 24:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If it seems evil to you to serve Yahweh, choose this day whom you will serve; whether the gods which your fathers served that were beyond the River, or the gods of the Amorites, in whose land you dwell: but as for me and my house, we will serve Yahweh.”",
+                      "note": "'No servant can serve two masters... you cannot serve God and Mammon' echoes the covenantal either/or of choosing whom to serve, the LORD versus rival gods. Coherence with the exclusive-service motif is real but the diction is independent, so it is a faint figural echo at best.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "The demand for undivided love of God set against love of money draws on the Shema's totalizing claim ('with all your heart'), which forbids a divided heart. The opposition of single-hearted devotion versus a rival master gives modest coherence; verbal contact is absent, so it is contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

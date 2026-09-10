@@ -404,7 +404,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-118"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 118:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.19.16-Matt.19.22",
+                      "refDisplay": "Matthew 19:16–22",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.5"
+                    },
+                    {
+                      "refKey": "Mark.10.17-Mark.10.22",
+                      "refDisplay": "Mark 10:17–22",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-10.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 113–118",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.14.26",
+                      "refDisplay": "Mark 14:26",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -423,7 +471,123 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "21.1",
+                  "ref": "21:1-11",
+                  "echoes": [
+                    {
+                      "source": "Zechariah 9:9",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Rejoice greatly, daughter of Zion! Shout, daughter of Jerusalem! Behold, your King comes to you! He is righteous, and having salvation; lowly, and riding on a donkey, even on a colt, the foal of a donkey.",
+                      "note": "Matthew's formula citation (21:4-5) of the prophesied king who comes 'humble, and riding on a donkey, on a colt, the foal of a donkey.' Matthew uniquely reads the Hebrew parallelism woodenly, producing two animals (donkey and colt), which shapes his narrative of two beasts (21:7)."
+                    },
+                    {
+                      "source": "Isaiah 62:11",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Behold, Yahweh has proclaimed to the end of the earth, “Say to the daughter of Zion, ‘Behold, your salvation comes. Behold, his reward is with him, and his recompense before him.’”",
+                      "note": "The opening of the citation, 'Tell the daughter of Zion, behold...,' is drawn from Isaiah 62:11 ('Say to the daughter of Zion, Behold, your salvation comes') rather than from Zechariah, whose own opening is 'Rejoice greatly.' Matthew blends Isaiah 62:11 with Zechariah 9:9 into a single quotation."
+                    },
+                    {
+                      "source": "Psalm 118:25-26",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Save us now, we beg you, Yahweh! Yahweh, we beg you, send prosperity now. Blessed is he who comes in Yahweh’s name! We have blessed you out of Yahweh’s house.",
+                      "note": "The crowd's cry (21:9) quotes Psalm 118:25-26: 'Hosanna' transliterates the Hebrew 'hoshia-na' ('save now,' Ps 118:25), and 'Blessed is he who comes in the name of the LORD' is verbatim from Ps 118:26 (LXX), a Hallel pilgrimage acclamation."
+                    },
+                    {
+                      "source": "2 Kings 9:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Then they hurried, and took every man his garment, and put it under him on the top of the stairs, and blew the trumpet, saying, “Jehu is king.”",
+                      "note": "Spreading garments on the road as an act of royal acclamation: at Jehu's anointing the men 'took every man his garment, and put it under him... and blew the trumpet, saying, Jehu is king.' The crowd's gesture (21:8) enacts an enthronement."
+                    },
+                    {
+                      "source": "1 Kings 1:33-40",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The king said to them, “Take with you the servants of your lord, and cause Solomon my son to ride on my own mule, and bring him down to Gihon. Let Zadok the priest and Nathan the prophet anoint him there king over Israel. Blow the trumpet, and say, ‘Long live king Solomon!’ Then you shall come up after him, and he shall come and sit on my throne; for he shall be king in my place. I have appointed him to be prince over Israel and over Judah.” Benaiah the […]",
+                      "note": "Solomon is mounted on the king's mule and led to be made king amid rejoicing; the royal son of David enters his city riding a humble mount to acclamation, the pattern Jesus' entry evokes."
+                    },
+                    {
+                      "source": "2 Samuel 7:12-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men; but my loving kindness shall not […]",
+                      "note": "The repeated acclamation 'son of David' (21:9) invokes the Davidic covenant promise of an everlasting throne to David's offspring, framing Jesus' entry as the coming of the promised Davidic king."
+                    },
+                    {
+                      "source": "1 Maccabees 13:51",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "And he entered into it on the three and twentieth day of the second month, in the hundred and seventy and first year, with praise and palm branches, and with harps, and with cymbals, and with viols, and with hymns, and with songs: because a great enemy was destroyed out of Israel.",
+                      "note": "Simon's entry into the Jerusalem citadel 'with praise and palm branches' provides a Second Temple template for entering the holy city with branches and acclamation, paralleling the multitude cutting and spreading branches (21:8)."
+                    },
+                    {
+                      "source": "Genesis 49:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Binding his foal to the vine, his donkey’s colt to the choice vine; he has washed his garments in wine, his robes in the blood of grapes.",
+                      "note": "Jacob's blessing on Judah, 'binding his foal to the vine and his donkey's colt to the choice vine,' was read messianically (donkey + colt motif) in Jewish tradition and may stand behind the donkey imagery alongside Zechariah 9:9.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zephaniah 3:14-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Sing, daughter of Zion! Shout, Israel! Be glad and rejoice with all your heart, daughter of Jerusalem. Yahweh has taken away your judgments. He has thrown out your enemy. The King of Israel, Yahweh, is in your midst. You will not be afraid of evil any more.",
+                      "note": "'Rejoice, daughter of Zion... the King of Israel, even the LORD, is in your midst': a 'daughter of Zion' oracle announcing the arrival of the divine king, thematically resonant with the entry.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 18:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh your God will raise up to you a prophet from your midst, of your brothers, like me. You shall listen to him.",
+                      "note": "The crowd's identification of Jesus as 'the prophet' (21:11) may echo the promise of a prophet like Moses whom the people must heed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Maccabees 10:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wherefore bearing wands wreathed with leaves, and fair boughs, and palms also, they offered up hymns of thanksgiving to him that had prosperously brought to pass the cleansing of his own place.",
+                      "note": "At the temple's rededication the people carried 'branches and beautiful boughs and palms' with hymns, a Hanukkah-style festal procession resembling the branch-waving acclamation of Jesus.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Triumphal Entry",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "21:1–11",
+                        "mark": "11:1–11",
+                        "luke": "19:28–44",
+                        "john": "12:12–19"
+                      },
+                      "note": "All four bring him into the city on the colt; Luke alone has him weep over Jerusalem."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

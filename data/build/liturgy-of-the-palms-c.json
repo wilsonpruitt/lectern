@@ -422,7 +422,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-118"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 118:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.19.16-Matt.19.22",
+                      "refDisplay": "Matthew 19:16–22",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.5"
+                    },
+                    {
+                      "refKey": "Mark.10.17-Mark.10.22",
+                      "refDisplay": "Mark 10:17–22",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-10.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 113–118",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.14.26",
+                      "refDisplay": "Mark 14:26",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -441,7 +489,103 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "19.3",
+                  "ref": "19:28-40",
+                  "echoes": [
+                    {
+                      "source": "Zechariah 9:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Rejoice greatly, daughter of Zion! Shout, daughter of Jerusalem! Behold, your King comes to you! He is righteous, and having salvation; lowly, and riding on a donkey, even on a colt, the foal of a donkey.",
+                      "note": "The entry on a colt amid royal acclamation enacts Zechariah's oracle of the king coming to Zion humble and riding on a colt, the foal of a donkey. Though Luke does not cite the verse explicitly as Matthew does, the colt and the proclaimed king make this the controlling prophetic background. High volume and coherence with Luke's kingship theme."
+                    },
+                    {
+                      "source": "Psalm 118:26",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Blessed is he who comes in Yahweh’s name! We have blessed you out of Yahweh’s house.",
+                      "note": "The crowd cries 'Blessed is the King who comes in the name of the Lord,' quoting the pilgrim blessing of Psalm 118:26 with the added royal title 'the King.' This is a direct verbal citation embedded in the Hallel context of festal approach to the temple. High volume; the quotation is explicit and load-bearing."
+                    },
+                    {
+                      "source": "Habakkuk 2:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For the stone will cry out of the wall, and the beam out of the woodwork will answer it.",
+                      "note": "Jesus's claim that 'the stones would cry out' if the disciples were silent draws on Habakkuk's woe, where the stone cries out from the wall and the beam answers against injustice. The personified crying stone witnessing truth coheres with the inevitability of acclaiming the coming king. High volume; the crying-stone image is rare and distinctive."
+                    },
+                    {
+                      "source": "Genesis 49:10-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The scepter will not depart from Judah, nor the ruler’s staff from between his feet, until he comes to whom it belongs. To him will the obedience of the peoples be. Binding his foal to the vine, his donkey’s colt to the choice vine; he has washed his garments in wine, his robes in the blood of grapes.",
+                      "note": "Jacob's blessing on Judah foretells the ruler whose scepter does not depart, binding his colt to the vine, an early messianic colt image. The royal colt of the coming ruler coheres with Luke's enthronement entry and the kingly acclamation. Medium because the contact runs through the colt image rather than direct citation."
+                    },
+                    {
+                      "source": "1 Kings 1:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The king said to them, “Take with you the servants of your lord, and cause Solomon my son to ride on my own mule, and bring him down to Gihon.",
+                      "note": "Setting the king-to-be on a mount for a processional enthronement recalls Solomon riding David's mule to Gihon to be proclaimed king. The royal mounting and acclamation parallel the Davidic succession ritual, supporting Luke's kingship framing. Medium confidence; the mount differs (colt vs. mule) but the enthronement pattern is strong.",
+                      "contested": true,
+                      "altSource": "Zechariah 9:9"
+                    },
+                    {
+                      "source": "2 Kings 9:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Then they hurried, and took every man his garment, and put it under him on the top of the stairs, and blew the trumpet, saying, “Jehu is king.”",
+                      "note": "Spreading garments before the rider evokes the acclamation of Jehu, where the people put their cloaks under him on the steps and proclaimed 'Jehu is king.' The garment-strewing as royal enthronement gesture closely parallels the crowd's act here. Medium volume; the cloak ritual is a recognizable kingship sign."
+                    },
+                    {
+                      "source": "Psalm 148:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Praise Yah! Praise Yahweh from the heavens! Praise him in the heights!",
+                      "note": "The acclamation 'Peace in heaven, and glory in the highest' echoes the heavenly-praise summons of the Psalms to praise the Lord 'in the heights.' The vertical glory-in-the-highest language coheres with the angelic Gloria pattern Luke reprises. Low because it is diffuse liturgical idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zephaniah 3:14-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Sing, daughter of Zion! Shout, Israel! Be glad and rejoice with all your heart, daughter of Jerusalem. Yahweh has taken away your judgments. He has thrown out your enemy. The King of Israel, Yahweh, is in your midst. You will not be afraid of evil any more.",
+                      "note": "The summons to Zion to rejoice because 'the King of Israel, the Lord, is in your midst' resonates with the rejoicing multitude hailing the coming king at the descent to Jerusalem. The Daughter-of-Zion joy at the king's arrival coheres with Luke's scene. Low confidence; Zechariah 9 is the dominant source.",
+                      "contested": true,
+                      "altSource": "Zechariah 9:9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Triumphal Entry",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "21:1–11",
+                        "mark": "11:1–11",
+                        "luke": "19:28–44",
+                        "john": "12:12–19"
+                      },
+                      "note": "All four bring him into the city on the colt; Luke alone has him weep over Jerusalem."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

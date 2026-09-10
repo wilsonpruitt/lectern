@@ -794,7 +794,69 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-7"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 7:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.1.18-Matt.1.25",
+                      "refDisplay": "Matthew 1:18–25",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "1.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-1.2"
+                    },
+                    {
+                      "refKey": "Matt.28.16-Matt.28.20",
+                      "refDisplay": "Matthew 28:16–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "28.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-28.3"
+                    },
+                    {
+                      "refKey": "Luke.1.26-Luke.1.33",
+                      "refDisplay": "Luke 1:26–33",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "The Divided Monarchy",
+                  "editionUrl": "https://annales.wrootpress.com/divided-monarchy",
+                  "spans": [],
+                  "events": [
+                    {
+                      "year": -734,
+                      "label": "The Syro-Ephraimite war",
+                      "ref": "2 Kings 16 · Isaiah 7",
+                      "kind": "battle",
+                      "approx": null,
+                      "note": "Pekah of Israel and Rezin of Aram march on Jerusalem to force Judah into their coalition against Assyria. Ahaz buys Tiglath-Pileser III instead, who strips Galilee. To Ahaz, Isaiah gives the sign of Immanuel."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           },
           {
             "role": "psalm",
@@ -807,7 +869,115 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-45"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 45:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.1.8-Heb.1.9",
+                      "refDisplay": "Hebrews 1:8–9",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.5"
+                    },
+                    {
+                      "refKey": "Luke.4.22-Luke.4.24",
+                      "refDisplay": "Luke 4:22–24",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-4.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 45:13–15",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.25.1-Matt.25.13",
+                      "refDisplay": "Matthew 25:1–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "25.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-25.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 45:8",
+                  "occurrences": [
+                    {
+                      "refKey": "John.19.38-John.19.42",
+                      "refDisplay": "John 19:38–42",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-19.11"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 45:6–7",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.1.8-Heb.1.9",
+                      "refDisplay": "Hebrews 1:8–9",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 45:3–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.6.1-Rev.6.8",
+                      "refDisplay": "Revelation 6:1–8",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "6.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-6.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 45:13–14",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.19.6-Rev.19.10",
+                      "refDisplay": "Revelation 19:6–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -820,7 +990,10 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -839,7 +1012,203 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.7",
+                  "ref": "1:26-33",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 7:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore the Lord himself will give you a sign. Behold, the virgin will conceive, and bear a son, and shall call his name Immanuel.",
+                      "note": "A 'virgin' (parthenos) of the house of David who will 'conceive... and give birth to a son' and name him directly evokes Isaiah 7:13-14 (LXX), 'the virgin shall conceive and bear a son.' The house-of-David setting plus virgin + conceive + bear + name a son yields high volume and is the controlling messianic citation."
+                    },
+                    {
+                      "source": "Judges 5:24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Jael shall be blessed above women, the wife of Heber the Kenite; blessed shall she be above women in the tent.",
+                      "note": "'Blessed are you among women' quotes the blessing of Jael, 'Most blessed of women be Jael' (Judges 5:24). The exact superlative-blessing-of-a-woman formula gives high volume; it recurs on Elizabeth's lips at 1:42."
+                    },
+                    {
+                      "source": "Judith 13:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Ozias said to her, “Blessed are you, daughter, in the sight of the Most High God, above all the women upon the earth; and blessed is the Lord God, who created the heavens and the earth, who directed you to cut off the head of the prince of our enemies.",
+                      "note": "Uzziah blesses Judith, 'Blessed are you... above all women on earth' (Judith 13:18), the closest verbal and contextual parallel to the angel/Elizabeth's beatitude over Mary. A deuterocanonical text celebrating a woman through whom God delivers Israel; high distinctiveness."
+                    },
+                    {
+                      "source": "2 Samuel 7:12-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men; but my loving kindness shall not […]",
+                      "note": "'The Lord God will give him the throne of his father David, and he will reign... forever. There will be no end to his Kingdom' is built on the Davidic covenant of 2 Samuel 7:12-16, where God establishes David's offspring and 'his throne forever.' High volume (throne, forever, kingdom, father David) and the foundational role of Nathan's oracle make this the primary source."
+                    },
+                    {
+                      "source": "Isaiah 9:6-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For to us a child is born. To us a son is given; and the government will be on his shoulders. His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace. Of the increase of his government and of peace there shall be no end, on the throne of David, and on his kingdom, to establish it, and to uphold it with justice and with righteousness from that time on, even forever. The zeal of Yahweh of Armies will perform this.",
+                      "note": "'The throne of his father David... no end to his Kingdom' closely echoes Isaiah 9:7, 'of the increase of his government and of peace there will be no end, on the throne of David.' The 'no end' phrase is distinctive and reinforces the messianic-throne reading alongside 2 Samuel 7."
+                    },
+                    {
+                      "source": "Psalm 89:3-4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“I have made a covenant with my chosen one, I have sworn to David, my servant, ‘I will establish your seed forever, and build up your throne to all generations.’” Selah.",
+                      "note": "The everlasting Davidic throne is celebrated in Psalm 89:3-4,29,36, 'I will establish your offspring forever, and build your throne for all generations.' Recurrence of the throne-forever covenant language across this Psalm supports the high-volume Davidic cluster here."
+                    },
+                    {
+                      "source": "Daniel 9:21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "yes, while I was speaking in prayer, the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening offering.",
+                      "note": "'The angel Gabriel was sent from God' continues the Danielic Gabriel motif (Daniel 8:16; 9:21), where the same angel is 'sent' to deliver revelation. Recurrence within the chapter, more than fresh volume here, secures the allusion."
+                    },
+                    {
+                      "source": "Zephaniah 3:14-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Sing, daughter of Zion! Shout, Israel! Be glad and rejoice with all your heart, daughter of Jerusalem. Yahweh has taken away your judgments. He has thrown out your enemy. The King of Israel, Yahweh, is in your midst. You will not be afraid of evil any more. In that day, it will be said to Jerusalem, “Don’t be afraid, Zion. Don’t let your hands be weak.” Yahweh, your God, is in your midst, a mighty one who will save. He will rejoice over you with joy. He […]",
+                      "note": "'Rejoice (chaire)... the Lord is with you' echoes the address to Daughter Zion: 'Rejoice, O Daughter of Zion... the Lord your God is in your midst' (Zephaniah 3:14-17 LXX). The greeting-rejoice + indwelling-Lord pairing casts Mary figurally as Zion; volume is moderate but coherence strong."
+                    },
+                    {
+                      "source": "Zechariah 9:9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Rejoice greatly, daughter of Zion! Shout, daughter of Jerusalem! Behold, your King comes to you! He is righteous, and having salvation; lowly, and riding on a donkey, even on a colt, the foal of a donkey.",
+                      "note": "'Rejoice greatly, O Daughter of Zion' announcing the coming king (Zechariah 9:9) is a second Daughter-Zion 'rejoice' source standing behind Gabriel's chaire. The royal-advent context coheres with the Davidic throne promise that follows; the link competes with Zephaniah 3 and is thus contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Judges 6:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh’s angel appeared to him, and said to him, “Yahweh is with you, you mighty man of valor!”",
+                      "note": "'The Lord is with you' reproduces the angel's salutation to Gideon, 'The Lord is with you, mighty man of valor' (Judges 6:12), within a near-identical commissioning-of-a-deliverer scene including a 'how can this be' objection. The shared formula and scene-type give a coherent allusion."
+                    },
+                    {
+                      "source": "Genesis 6:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But Noah found favor in Yahweh’s eyes.",
+                      "note": "'You have found favor with God' uses the Septuagintal idiom of Noah, who 'found favor in the eyes of the Lord' (Genesis 6:8; cf. Exodus 33:17 of Moses). The found-favor formula marks Mary as a chosen recipient of divine grace in the line of Israel's elect."
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "'There will be no end to his Kingdom' resonates with the Son of Man's 'everlasting dominion which shall not pass away, and his kingdom one that shall not be destroyed' (Daniel 7:14). The everlasting, indestructible kingdom motif coheres with the Danielic frame already established by Gabriel."
+                    },
+                    {
+                      "source": "Micah 4:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and I will make that which was lame a remnant, and that which was cast far off a strong nation: and Yahweh will reign over them on Mount Zion from then on, even forever.”",
+                      "note": "'He will reign over the house of Jacob forever' faintly echoes 'the Lord will reign over them in Mount Zion... forever' (Micah 4:7). The everlasting-reign-over-restored-Israel idea coheres, but the diction is generic and the Davidic sources above are nearer, so this is a low, contested echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.8",
+                  "ref": "1:34-38",
+                  "echoes": [
+                    {
+                      "source": "Exodus 40:35",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Moses wasn’t able to enter into the Tent of Meeting, because the cloud stayed on it, and Yahweh’s glory filled the tabernacle.",
+                      "note": "'The power of the Most High will overshadow (episkiasei) you' uses the verb for the glory-cloud that 'overshadowed' the tent of meeting when the glory of the Lord filled the tabernacle (Exodus 40:35 LXX). The distinctive Shekinah-overshadowing diction frames Mary as the dwelling place of God's presence; high volume."
+                    },
+                    {
+                      "source": "Genesis 18:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Is anything too hard for Yahweh? At the set time I will return to you, when the season comes round, and Sarah will have a son.”",
+                      "note": "'For everything spoken by God is possible' answers the rhetorical question to Abraham and Sarah, 'Is anything too hard (impossible, LXX) for the Lord?' (Genesis 18:14), in the very context of a miraculous conception by an old, barren woman. The verbal and situational match is high-volume and pointed."
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "'The Holy Spirit will come on you' may echo the Spirit of God hovering over the waters at creation (Genesis 1:2), framing the conception as a new creative act. Thematic coherence is suggestive but verbal overlap is thin, so the link is a contested creation-echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Samuel 7:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men;",
+                      "note": "'The holy one who is born from you will be called the Son of God' draws on the Davidic adoption formula, 'I will be his father, and he shall be my son' (2 Samuel 7:14). Coheres tightly with the throne-of-David promise of 1:32-33, extending the Nathan-oracle source."
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "'Son of God' applied to the messianic king recalls 'You are my Son; today I have begotten you' (Psalm 2:7). The royal son-of-God theme coheres, but the title is mediated through 2 Samuel 7 and is conventional, so Psalm 2 is a contested secondary echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 18:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Now Abraham and Sarah were old, well advanced in age. Sarah had passed the age of childbearing.",
+                      "note": "'Elizabeth your relative also has conceived a son in her old age... who was called barren' replays the Sarah situation of Genesis 18:11 and the impossible-birth promise. Recurrence of the aged-barren-woman motif (cf. 1:7) sets up the 'nothing impossible' declaration that follows."
+                    },
+                    {
+                      "source": "Jeremiah 32:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Ah Lord Yahweh! Behold, you have made the heavens and the earth by your great power and by your outstretched arm; there is nothing too hard for you,",
+                      "note": "'Nothing will be impossible with God' also echoes Jeremiah 32:17,27, 'Ah, Lord God!... nothing is too hard for you... is anything too hard for me?' The omnipotence formula reinforces the Genesis 18 source with a prophetic doublet."
+                    },
+                    {
+                      "source": "Job 42:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“I know that you can do all things, and that no purpose of yours can be restrained.",
+                      "note": "Job's confession, 'I know that you can do all things, and that no purpose of yours can be thwarted' (Job 42:2 LXX), is a further scriptural articulation of the impossibility-with-God theme Gabriel invokes. A coherent supporting echo of divine omnipotence."
+                    },
+                    {
+                      "source": "1 Samuel 1:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "She vowed a vow, and said, “Yahweh of Armies, if you will indeed look on the affliction of your handmaid, and remember me, and not forget your handmaid, but will give to your handmaid a boy, then I will give him to Yahweh all the days of his life, and no razor shall come on his head.”",
+                      "note": "'Behold, the handmaid (doule) of the Lord' takes up Hannah's self-designation as 'your handmaid' before the Lord (1 Samuel 1:11). The humble servant-woman posture coheres with the Hannah/Magnificat substratum that crystallizes a few verses later."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Annunciation",
+                      "section": "beginnings",
+                      "refs": {
+                        "luke": "1:26–38"
+                      },
+                      "note": "Gabriel to Mary, and her yes: \"Let it be to me according to your word.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

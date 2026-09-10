@@ -748,7 +748,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/exodus-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Exodus 1:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.17-Acts.7.22",
+                      "refDisplay": "Acts 7:17–22",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 1:10–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.17-Acts.7.22",
+                      "refDisplay": "Acts 7:17–22",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 1:8–22",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.1-Acts.12.5",
+                      "refDisplay": "Acts 12:1–5",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-12.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -761,7 +814,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-124"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 124:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.12.13-Rev.12.17",
+                      "refDisplay": "Revelation 12:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "12.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-12.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -780,7 +856,113 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.1",
+                  "ref": "12:1-2",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 1:3-4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘If his offering is a burnt offering from the herd, he shall offer a male without defect. He shall offer it at the door of the Tent of Meeting, that he may be accepted before Yahweh. He shall lay his hand on the head of the burnt offering, and it shall be accepted for him to make atonement for him.",
+                      "note": "\"Present your bodies a living sacrifice, holy, acceptable to God\" reuses the technical cultic vocabulary of the burnt offering, which must be presented/brought 'acceptable before the LORD' (LXX dekton). Paul figurally transposes the Levitical offering from animal victim to the embodied self."
+                    },
+                    {
+                      "source": "Psalm 51:16-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For you don’t delight in sacrifice, or else I would give it. You have no pleasure in burnt offering. The sacrifices of God are a broken spirit. A broken and contrite heart, O God, you will not despise.",
+                      "note": "The Psalm's claim that God does not delight in animal sacrifice but in 'a broken spirit' anticipates Paul's redefinition of true worship (logike latreia) as the offering of the whole self rather than the slain victim."
+                    },
+                    {
+                      "source": "1 Samuel 15:22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Samuel said, “Has Yahweh as great delight in burnt offerings and sacrifices, as in obeying the voice of Yahweh? Behold, to obey is better than sacrifice, and to listen than the fat of rams.",
+                      "note": "'To obey is better than sacrifice' belongs to the prophetic stream that internalizes and ethicizes cult; Paul's 'reasonable/spiritual service' redirects sacrifice toward obedient self-presentation in the same key.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 36:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will also give you a new heart, and I will put a new spirit within you; and I will take away the stony heart out of your flesh, and I will give you a heart of flesh.",
+                      "note": "The promise of a 'new heart and a new spirit' stands behind 'be transformed by the renewing of your mind'; the eschatological interior renewal of the prophets is here applied to the believing community.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 6:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+                      "note": "'I desire mercy and not sacrifice' is part of the prophetic critique that grounds Paul's reframing of worship as embodied, merciful obedience rather than ritual offering.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Micah 6:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How shall I come before Yahweh, and bow myself before the exalted God? Shall I come before him with burnt offerings, with calves a year old? Will Yahweh be pleased with thousands of rams? With tens of thousands of rivers of oil? Shall I give my firstborn for my disobedience? The fruit of my body for the sin of my soul? He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+                      "note": "Micah's rhetorical rejection of burnt offerings in favor of doing justice and walking humbly parallels Paul's contrast between cultic sacrifice and 'living sacrifice' as the true service God requires.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The new-covenant law written on the heart/mind (LXX dianoia) coheres with the 'renewing of the mind' that enables one to discern God's will; faint verbal contact via mind/heart-renewal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 30:11-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant. It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do […]",
+                      "note": "Discerning and doing 'the good and acceptable and perfect will of God' echoes Deuteronomy's insistence that God's commandment is knowable and doable, internalized in heart and mouth — a theme Paul invokes nearby in Romans 10.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.2",
+                  "ref": "12:3-8",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 3:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t be wise in your own eyes. Fear Yahweh, and depart from evil.",
+                      "note": "'Not to think of himself more highly than he ought' draws on the wisdom warning 'Be not wise in your own eyes'; the same maxim returns explicitly at 12:16, framing the pericope's call to sober self-estimation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Do you see a man wise in his own eyes? There is more hope for a fool than for him.",
+                      "note": "'Do you see a man wise in his own conceit? There is more hope for a fool' supplies the proverbial backdrop for Paul's exhortation against inflated self-regard ('think reasonably').",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 10:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Pride is hateful before the Lord and before men; And in the judgement of both will unrighteousness err.",
+                      "note": "Sirach's wisdom that 'pride is hateful before the Lord and before men' is a Second Temple parallel to Paul's call not to over-rate oneself but to measure by the faith God apportions.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -799,7 +981,107 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.3",
+                  "ref": "16:13-20",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 22:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will lay the key of the house of David on his shoulder. He will open, and no one will shut. He will shut, and no one will open.",
+                      "note": "'I will give you the keys of the Kingdom of Heaven... bind... loose' draws on the Eliakim oracle: 'I will place on his shoulder the key of the house of David; he shall open and none shut, shut and none open.' The key-of-stewardship granting authority to admit and exclude is the controlling image. Strong verbal and conceptual borrowing."
+                    },
+                    {
+                      "source": "Job 38:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Have the gates of death been revealed to you? Or have you seen the gates of the shadow of death?",
+                      "note": "'The gates of Hades will not prevail' echoes 'Have the gates of death been revealed to you?' — the underworld as a fortified city whose gates symbolize the realm and power of death. Verbal touchpoint ('gates' of death/Hades)."
+                    },
+                    {
+                      "source": "Psalm 9:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Have mercy on me, Yahweh. See my affliction by those who hate me, and lift me up from the gates of death;",
+                      "note": "'You who lift me up from the gates of death' supplies the same 'gates of death/Hades' idiom; deliverance from death's gates is precisely what Jesus' resurrection-grounded assembly will enjoy. Reinforces Job 38:17."
+                    },
+                    {
+                      "source": "Isaiah 38:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I said, “In the middle of my life I go into the gates of Sheol. I am deprived of the residue of my years.”",
+                      "note": "Hezekiah's 'I shall go through the gates of Sheol' offers another close instance of the 'gates of the underworld' figure standing behind 'gates of Hades.'"
+                    },
+                    {
+                      "source": "Deuteronomy 5:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For who is there of all flesh, that has heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+                      "note": "Peter's confession of Jesus as 'the Son of the living God' employs the covenant title 'the living God,' contrasting Israel's God with lifeless idols. The epithet recurs across the OT and grounds the confession in covenant monotheism."
+                    },
+                    {
+                      "source": "Malachi 4:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes.",
+                      "note": "The popular identification of Jesus with Elijah ('some say... Elijah') depends on Malachi's promise that Elijah would return before the day of the LORD, an expectation Matthew engages elsewhere (11:14; 17:10-13)."
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'Sons of the living God' supplies the specific collocation 'living God' with sonship language that Peter's title brings together. Faint verbal overlap.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 51:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Listen to me, you who follow after righteousness, you who seek Yahweh: look to the rock you were cut from, and to the hold of the pit you were dug from. Look to Abraham your father, and to Sarah who bore you; for when he was but one I called him, and I blessed him, and made him many.",
+                      "note": "'On this rock I will build' may play on the 'rock from which you were hewn' (Abraham) imagery for the founding of the people of God on a chosen progenitor. Disputed; rock-foundation imagery is diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "Jeremiah being named among the guesses for Jesus' identity reflects his stature as the suffering, rejected prophet of judgment on Jerusalem; the allusion is to Jeremiah as a prophetic type rather than a specific text. Faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Peter's confession at Caesarea Philippi",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "16:13–20",
+                        "mark": "8:27–30",
+                        "luke": "9:18–21"
+                      },
+                      "note": "Matthew alone adds \"on this rock I will build my church\" and the keys."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1603,7 +1885,250 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-51"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 51:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.13.28-Mark.13.31",
+                      "refDisplay": "Mark 13:28–31",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "13.8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-13.8"
+                    },
+                    {
+                      "refKey": "Luke.21.29-Luke.21.33",
+                      "refDisplay": "Luke 21:29–33",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "21.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-21.7"
+                    },
+                    {
+                      "refKey": "Matt.5.17-Matt.5.20",
+                      "refDisplay": "Matthew 5:17–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.3"
+                    },
+                    {
+                      "refKey": "Matt.24.32-Matt.24.35",
+                      "refDisplay": "Matthew 24:32–35",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "24.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-24.7"
+                    },
+                    {
+                      "refKey": "2Cor.4.16-2Cor.4.18",
+                      "refDisplay": "2 Corinthians 4:16–18",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "4.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-4.7"
+                    },
+                    {
+                      "refKey": "Heb.1.10-Heb.1.12",
+                      "refDisplay": "Hebrews 1:10–12",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.6"
+                    },
+                    {
+                      "refKey": "2Pet.3.11-2Pet.3.18",
+                      "refDisplay": "2 Peter 3:11–18",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-peter#p-3.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 51:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.9.30-Rom.9.33",
+                      "refDisplay": "Romans 9:30–33",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-9.5"
+                    },
+                    {
+                      "refKey": "Rom.10.1-Rom.10.4",
+                      "refDisplay": "Romans 10:1–4",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.0",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-10.0"
+                    },
+                    {
+                      "refKey": "Phil.3.12-Phil.3.16",
+                      "refDisplay": "Philippians 3:12–16",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.5"
+                    },
+                    {
+                      "refKey": "2Tim.2.22-2Tim.2.26",
+                      "refDisplay": "2 Timothy 2:22–26",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "2.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-2.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 51:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.3.1-Matt.3.12",
+                      "refDisplay": "Matthew 3:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "3.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-3.1"
+                    },
+                    {
+                      "refKey": "Luke.3.7-Luke.3.9",
+                      "refDisplay": "Luke 3:7–9",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "3.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-3.3"
+                    },
+                    {
+                      "refKey": "Matt.16.13-Matt.16.20",
+                      "refDisplay": "Matthew 16:13–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 51:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.10-Luke.13.17",
+                      "refDisplay": "Luke 13:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-13.3"
+                    },
+                    {
+                      "refKey": "Rom.4.1-Rom.4.8",
+                      "refDisplay": "Romans 4:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 51:3",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.3-2Cor.1.7",
+                      "refDisplay": "2 Corinthians 1:3–7",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.2"
+                    },
+                    {
+                      "refKey": "Luke.23.39-Luke.23.43",
+                      "refDisplay": "Luke 23:39–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 51:4–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.1.16-Rom.1.17",
+                      "refDisplay": "Romans 1:16–17",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "1.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 51:5–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.3.21-Rom.3.31",
+                      "refDisplay": "Romans 3:21–31",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-3.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1616,7 +2141,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-138"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 138:1",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.11.2-1Cor.11.16",
+                      "refDisplay": "1 Corinthians 11:2–16",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "11.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-11.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 138:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.3-Phil.1.8",
+                      "refDisplay": "Philippians 1:3–8",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1635,7 +2198,113 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.1",
+                  "ref": "12:1-2",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 1:3-4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘If his offering is a burnt offering from the herd, he shall offer a male without defect. He shall offer it at the door of the Tent of Meeting, that he may be accepted before Yahweh. He shall lay his hand on the head of the burnt offering, and it shall be accepted for him to make atonement for him.",
+                      "note": "\"Present your bodies a living sacrifice, holy, acceptable to God\" reuses the technical cultic vocabulary of the burnt offering, which must be presented/brought 'acceptable before the LORD' (LXX dekton). Paul figurally transposes the Levitical offering from animal victim to the embodied self."
+                    },
+                    {
+                      "source": "Psalm 51:16-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For you don’t delight in sacrifice, or else I would give it. You have no pleasure in burnt offering. The sacrifices of God are a broken spirit. A broken and contrite heart, O God, you will not despise.",
+                      "note": "The Psalm's claim that God does not delight in animal sacrifice but in 'a broken spirit' anticipates Paul's redefinition of true worship (logike latreia) as the offering of the whole self rather than the slain victim."
+                    },
+                    {
+                      "source": "1 Samuel 15:22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Samuel said, “Has Yahweh as great delight in burnt offerings and sacrifices, as in obeying the voice of Yahweh? Behold, to obey is better than sacrifice, and to listen than the fat of rams.",
+                      "note": "'To obey is better than sacrifice' belongs to the prophetic stream that internalizes and ethicizes cult; Paul's 'reasonable/spiritual service' redirects sacrifice toward obedient self-presentation in the same key.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 36:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will also give you a new heart, and I will put a new spirit within you; and I will take away the stony heart out of your flesh, and I will give you a heart of flesh.",
+                      "note": "The promise of a 'new heart and a new spirit' stands behind 'be transformed by the renewing of your mind'; the eschatological interior renewal of the prophets is here applied to the believing community.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 6:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+                      "note": "'I desire mercy and not sacrifice' is part of the prophetic critique that grounds Paul's reframing of worship as embodied, merciful obedience rather than ritual offering.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Micah 6:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How shall I come before Yahweh, and bow myself before the exalted God? Shall I come before him with burnt offerings, with calves a year old? Will Yahweh be pleased with thousands of rams? With tens of thousands of rivers of oil? Shall I give my firstborn for my disobedience? The fruit of my body for the sin of my soul? He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+                      "note": "Micah's rhetorical rejection of burnt offerings in favor of doing justice and walking humbly parallels Paul's contrast between cultic sacrifice and 'living sacrifice' as the true service God requires.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The new-covenant law written on the heart/mind (LXX dianoia) coheres with the 'renewing of the mind' that enables one to discern God's will; faint verbal contact via mind/heart-renewal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 30:11-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant. It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do […]",
+                      "note": "Discerning and doing 'the good and acceptable and perfect will of God' echoes Deuteronomy's insistence that God's commandment is knowable and doable, internalized in heart and mouth — a theme Paul invokes nearby in Romans 10.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.2",
+                  "ref": "12:3-8",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 3:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t be wise in your own eyes. Fear Yahweh, and depart from evil.",
+                      "note": "'Not to think of himself more highly than he ought' draws on the wisdom warning 'Be not wise in your own eyes'; the same maxim returns explicitly at 12:16, framing the pericope's call to sober self-estimation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Do you see a man wise in his own eyes? There is more hope for a fool than for him.",
+                      "note": "'Do you see a man wise in his own conceit? There is more hope for a fool' supplies the proverbial backdrop for Paul's exhortation against inflated self-regard ('think reasonably').",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 10:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Pride is hateful before the Lord and before men; And in the judgement of both will unrighteousness err.",
+                      "note": "Sirach's wisdom that 'pride is hateful before the Lord and before men' is a Second Temple parallel to Paul's call not to over-rate oneself but to measure by the faith God apportions.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1654,7 +2323,107 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.3",
+                  "ref": "16:13-20",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 22:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will lay the key of the house of David on his shoulder. He will open, and no one will shut. He will shut, and no one will open.",
+                      "note": "'I will give you the keys of the Kingdom of Heaven... bind... loose' draws on the Eliakim oracle: 'I will place on his shoulder the key of the house of David; he shall open and none shut, shut and none open.' The key-of-stewardship granting authority to admit and exclude is the controlling image. Strong verbal and conceptual borrowing."
+                    },
+                    {
+                      "source": "Job 38:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Have the gates of death been revealed to you? Or have you seen the gates of the shadow of death?",
+                      "note": "'The gates of Hades will not prevail' echoes 'Have the gates of death been revealed to you?' — the underworld as a fortified city whose gates symbolize the realm and power of death. Verbal touchpoint ('gates' of death/Hades)."
+                    },
+                    {
+                      "source": "Psalm 9:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Have mercy on me, Yahweh. See my affliction by those who hate me, and lift me up from the gates of death;",
+                      "note": "'You who lift me up from the gates of death' supplies the same 'gates of death/Hades' idiom; deliverance from death's gates is precisely what Jesus' resurrection-grounded assembly will enjoy. Reinforces Job 38:17."
+                    },
+                    {
+                      "source": "Isaiah 38:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I said, “In the middle of my life I go into the gates of Sheol. I am deprived of the residue of my years.”",
+                      "note": "Hezekiah's 'I shall go through the gates of Sheol' offers another close instance of the 'gates of the underworld' figure standing behind 'gates of Hades.'"
+                    },
+                    {
+                      "source": "Deuteronomy 5:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For who is there of all flesh, that has heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+                      "note": "Peter's confession of Jesus as 'the Son of the living God' employs the covenant title 'the living God,' contrasting Israel's God with lifeless idols. The epithet recurs across the OT and grounds the confession in covenant monotheism."
+                    },
+                    {
+                      "source": "Malachi 4:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes.",
+                      "note": "The popular identification of Jesus with Elijah ('some say... Elijah') depends on Malachi's promise that Elijah would return before the day of the LORD, an expectation Matthew engages elsewhere (11:14; 17:10-13)."
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'Sons of the living God' supplies the specific collocation 'living God' with sonship language that Peter's title brings together. Faint verbal overlap.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 51:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Listen to me, you who follow after righteousness, you who seek Yahweh: look to the rock you were cut from, and to the hold of the pit you were dug from. Look to Abraham your father, and to Sarah who bore you; for when he was but one I called him, and I blessed him, and made him many.",
+                      "note": "'On this rock I will build' may play on the 'rock from which you were hewn' (Abraham) imagery for the founding of the people of God on a chosen progenitor. Disputed; rock-foundation imagery is diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "Jeremiah being named among the guesses for Jesus' identity reflects his stature as the suffering, rejected prophet of judgment on Jerusalem; the allusion is to Jeremiah as a prophetic type rather than a specific text. Faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Peter's confession at Caesarea Philippi",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "16:13–20",
+                        "mark": "8:27–30",
+                        "luke": "9:18–21"
+                      },
+                      "note": "Matthew alone adds \"on this rock I will build my church\" and the keys."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

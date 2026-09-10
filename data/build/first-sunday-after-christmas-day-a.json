@@ -676,7 +676,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-63"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 63:8–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.1.13-Eph.1.14",
+                      "refDisplay": "Ephesians 1:13–14",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 63:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -689,7 +727,75 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-148"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 148:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.2.8-Luke.2.14",
+                      "refDisplay": "Luke 2:8–14",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 148:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.19.28-Luke.19.40",
+                      "refDisplay": "Luke 19:28–40",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "19.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-19.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 148:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.1.7",
+                      "refDisplay": "Hebrews 1:7",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 148:7–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.5.11-Rev.5.14",
+                      "refDisplay": "Revelation 5:11–14",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "5.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-5.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -702,7 +808,115 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-2.2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:10–13",
+                  "echoes": [
+                    {
+                      "source": "Psalm 22:22",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I will declare your name to my brothers. Among the assembly, I will praise you.",
+                      "note": "From the great psalm of the righteous sufferer (Ps 22, ‘My God, my God, why have you forsaken me’). The vindicated one calls the redeemed ‘brothers’ — the citation grounds the solidarity Hebrews needs between the Son and the ‘many children.’"
+                    },
+                    {
+                      "source": "Isaiah 8:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Behold, I and the children whom Yahweh has given me are for signs and for wonders in Israel from Yahweh of Armies, who dwells in Mount Zion.",
+                      "note": "Quoted immediately after 8:17 from the same breath of Isaiah. The prophet's ‘children’ become the Son's ‘children’ — Isaiah's household read as a figure of the redeemed gathered around Christ."
+                    },
+                    {
+                      "source": "Isaiah 8:17",
+                      "altSource": "2 Samuel 22:3 / Isaiah 12:2 (LXX)",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "text": "I will wait for Yahweh, who hides his face from the house of Jacob, and I will look for him.",
+                      "note": "‘I will put my trust in him’ follows the Greek of Isa 8:17; the same clause appears at 2 Sam 22:3 and Isa 12:2 LXX, so the exact source is debated. Volume is low (one clause), but its pairing with the next line from the same Isaiah passage tips the identification toward Isa 8."
+                    },
+                    {
+                      "source": "Isaiah 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, God is my salvation. I will trust, and will not be afraid; for Yah, Yahweh, is my strength and song; and he has become my salvation.”",
+                      "note": "Listed as the competing source for ‘I will put my trust in him’: Isa 12:2 LXX reads pepoithōs esomai ep' autō, verbally even closer than Isa 8:17. Beale & Carson treat it as the likeliest single donor, so it is heard here as a low-volume alternate behind the same clause. Contested precisely because Hebrews seems to have conflated the Isaianic ‘trust’ texts.",
+                      "contested": true,
+                      "altSource": "Isaiah 8:17 (printed above as the primary identification)"
+                    },
+                    {
+                      "source": "Psalm 22:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Of you comes my praise in the great assembly.\nI will pay my vows before those who fear him.",
+                      "note": "A faint recurrence echo: having quoted Ps 22:22, the author's ‘in the congregation I will sing your praise’ keeps sounding the same psalm's assembly-of-praise language (Ps 22:25, ‘praise in the great assembly’). Low verbal volume beyond the shared ‘assembly/praise,’ but Hays' recurrence test favors hearing the wider psalm once it has been opened."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 2:12–3:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But let us lie in wait for the righteous man, because he is of disservice to us, and is contrary to our works, and upbraids us with sins against the law... But the souls of the righteous are in the hand of God, and no torment will touch them. (Wisdom of Solomon 2:12; 3:1)",
+                      "note": "Several scholars (noted in Beale & Carson) hear the Wisdom-of-Solomon portrait of the righteous sufferer, perfected and numbered among God's ‘sons,’ behind Heb 2:10's ‘author of their salvation perfect through sufferings’ bringing ‘many sons to glory.’ Thematic coherence is strong; verbal volume is low and the source is deuterocanonical, hence low confidence."
+                    },
+                    {
+                      "source": "Leviticus 16:19",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "He shall sprinkle of the blood on it with his finger seven times, and cleanse it, and make it holy from the uncleanness of the children of Israel.",
+                      "note": "‘He who sanctifies and those who are sanctified’ (v. 11) anticipates the sanctifying, sin-cleansing high-priestly work that chs. 9–10 ground in the Day of Atonement (Lev 16). No verbal volume — a faint forward-pointing figure of the cult the letter will expound, consistent with the seeding pattern Hays calls satisfaction."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:14–18",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 16",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "For on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh. (Leviticus 16:30)",
+                      "note": "‘To make atonement for the sins of the people’ (v. 17) reintroduces the Day of Atonement figure first sounded at 1:3 and expounded in chs 9–10. No quotation — the high-priestly, sacrificial pattern itself is the borrowing (figural). The recurrence is the point: the motif is being seeded before the argument arrives."
+                    },
+                    {
+                      "source": "Isaiah 41:8–9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But you, Israel, my servant, Jacob whom I have chosen, the offspring of Abraham my friend, You whom I have taken hold of from the ends of the earth, and called from its corners, and said to you, ‘You are my servant, I have chosen you and have not cast you away.’",
+                      "note": "‘He gives help to the offspring of Abraham’ (v. 16) echoes Isa 41:8–9, where God ‘takes hold of’ (epilambanomai, the very verb Hebrews uses) the chosen ‘offspring of Abraham’ his servant. The shared rare verb plus the ‘seed of Abraham’ phrase gives real verbal volume; thematic coherence (election, help, servant) is strong, so the allusion is widely heard (Beale & Carson)."
+                    },
+                    {
+                      "source": "Genesis 3:15",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "I will put hostility between you and the woman, and between your offspring and her offspring. He will bruise your head, and you will bruise his heel.",
+                      "note": "‘Through death he might bring to nothing him who had the power of death, that is, the devil’ (v. 14) is read by many as the protoevangelium fulfilled: the woman's offspring crushing the serpent's head, the serpent being identified with the devil in Second Temple and NT tradition. No verbal volume — a figural/typological link resting on thematic coherence (the seed defeats the death-dealing adversary)."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 2:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But by the envy of the devil death entered into the world, and those who are of his portion make trial thereof. (Wisdom of Solomon 2:24)",
+                      "note": "Wisdom 2:24 is the standard Second Temple text identifying the devil with the bringer of death, exactly the equation Heb 2:14 makes (‘him who had the power of death, that is, the devil’). Beale & Carson cite it for the conceptual background; verbal volume is nil and the source deuterocanonical, hence low confidence and an echo at the level of shared idea."
+                    },
+                    {
+                      "source": "Hosea 13:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will ransom them from the power of Sheol. I will redeem them from death! Death, where are your plagues? Sheol, where is your destruction? ‘Compassion will be hidden from my eyes.’",
+                      "note": "‘Deliver all of them who through fear of death were… subject to bondage’ (vv. 14–15) faintly sounds Hosea's promise to ransom from ‘the power of death/Sheol.’ The taunt over death's power coheres with Hebrews' deliverance theme (and with 1 Cor 15:55, which quotes it), but verbal volume here is low and the link is contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -721,7 +935,158 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:13-15",
+                  "echoes": [
+                    {
+                      "source": "Hosea 11:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“When Israel was a child, then I loved him, and called my son out of Egypt.",
+                      "note": "Explicit fulfillment formula ('that it might be fulfilled which was spoken by the Lord through the prophet'): 'Out of Egypt I called my son.' Verbatim Volume against the Hebrew (not LXX, which reads 'his children'), maximal rhetorical stress, and dense Thematic Coherence — Jesus as God's Son recapitulates Israel's exodus. Paradigm Matthean formula quotation."
+                    },
+                    {
+                      "source": "Exodus 4:19-23",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Yahweh said to Moses in Midian, “Go, return into Egypt; for all the men who sought your life are dead.” Moses took his wife and his sons, and set them on a donkey, and he returned to the land of Egypt. Moses took God’s rod in his hand. Yahweh said to Moses, “When you go back into Egypt, see that you do before Pharaoh all the wonders which I have put in your hand, but I will harden his heart and he will not let the people go. You shall tell Pharaoh, ‘Thus […]",
+                      "note": "Moses-typology: God tells Moses 'all who sought your life are dead' (cf. 2:20), Israel is God's 'firstborn son,' and the infant-deliverer is threatened by a murderous king. The flight-into-Egypt / called-out-of-Egypt frame recapitulates the Moses-and-Israel pattern with little verbal borrowing but overwhelming structural coherence; Matthew clearly builds Jesus as a new Moses."
+                    },
+                    {
+                      "source": "Exodus 2:15",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Now when Pharaoh heard this thing, he sought to kill Moses. But Moses fled from the face of Pharaoh, and lived in the land of Midian, and he sat down by a well.",
+                      "note": "Moses flees from Pharaoh who seeks to kill him, paralleling the holy family's flight from Herod who seeks to destroy the child. Herod-as-Pharaoh / Jesus-as-Moses typology; structural rather than verbal, hence figural."
+                    },
+                    {
+                      "source": "Genesis 46:2-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God spoke to Israel in the visions of the night, and said, “Jacob, Jacob!” He said, “Here I am.” He said, “I am God, the God of your father. Don’t be afraid to go down into Egypt, for there I will make of you a great nation. I will go down with you into Egypt. I will also surely bring you up again. Joseph will close your eyes.”",
+                      "note": "Israel's family also descends into Egypt for refuge by night under divine reassurance given in a night vision to Jacob ('do not fear to go down to Egypt'). Faint patriarchal recurrence of the protective sojourn-in-Egypt motif undergirding Hosea 11:1; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 37:5-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Joseph dreamed a dream, and he told it to his brothers, and they hated him all the more. He said to them, “Please hear this dream which I have dreamed: for behold, we were binding sheaves in the field, and behold, my sheaf arose and also stood upright; and behold, your sheaves came around, and bowed down to my sheaf.” His brothers said to him, “Will you indeed reign over us? Or will you indeed have dominion over us?” They hated him all the more for his […]",
+                      "note": "Joseph the dreamer leads the family to safety in Egypt; Matthew's Joseph is likewise guided by dreams to and from Egypt. Distinctive shared name + dream-revelation + Egypt motif, but no verbal citation, so low-confidence and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:16-18",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 31:15",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Thus says Yahweh: A voice is heard in Ramah, lamentation, and bitter weeping, Rachel weeping for her children; she refuses to be comforted for her children, because they are no more.",
+                      "note": "Named formula quotation ('that which was spoken by Jeremiah the prophet was fulfilled'): 'A voice was heard in Ramah... Rachel weeping for her children... because they are no more.' Verbatim Volume, explicit prophetic attribution, and Thematic Coherence — exile-and-lament now answered by hope (the very chapter promises return), framing the slaughtered innocents within Israel's exile pattern."
+                    },
+                    {
+                      "source": "Exodus 1:22",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Pharaoh commanded all his people, saying, “You shall cast every son who is born into the river, and every daughter you shall save alive.”",
+                      "note": "Pharaoh's decree to kill the male Hebrew infants is recapitulated in Herod's massacre of Bethlehem's boys two years and under. Herod-as-Pharaoh typology with strong structural coherence (tyrant slays infants, deliverer escapes); little verbal overlap, hence figural but high confidence given the sustained Moses pattern."
+                    },
+                    {
+                      "source": "Genesis 35:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Rachel died, and was buried on the way to Ephrath (the same is Bethlehem).",
+                      "note": "Rachel dies and is buried 'on the way to Ephrath (that is, Bethlehem)' — anchoring the weeping mother to the Bethlehem locale of the massacre and explaining why Matthew reaches for the Rachel lament here. Moderate coherence via the geographic tie that activates Jeremiah 31:15."
+                    },
+                    {
+                      "source": "Exodus 2:1-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "A man of the house of Levi went and took a daughter of Levi as his wife. The woman conceived, and bore a son. When she saw that he was a fine child, she hid him three months. When she could no longer hide him, she took a papyrus basket for him, and coated it with tar and with pitch. She put the child in it, and laid it in the reeds by the river’s bank. His sister stood far off, to see what would be done to him. Pharaoh’s daughter came down to bathe at the […]",
+                      "note": "The infant Moses survives the slaughter of the Hebrew children, prefiguring the threatened-but-preserved child Jesus. Faint, mediated by the broader Pharaoh/Herod pattern; contested as a discrete echo within this pericope.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:19-23",
+                  "echoes": [
+                    {
+                      "source": "Exodus 4:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh said to Moses in Midian, “Go, return into Egypt; for all the men who sought your life are dead.”",
+                      "note": "The angel's words 'those who sought the young child's life are dead' (2:20) closely echo the Lord's words to Moses in Midian: 'all the men who sought your life are dead.' Distinctive, near-verbal parallel completing the Moses-return typology; high Volume and high Thematic Coherence even without a formula."
+                    },
+                    {
+                      "source": "Judges 13:5",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "text": "for, behold, you shall conceive, and bear a son; and no razor shall come on his head; for the child shall be a Nazirite to God from the womb: and he shall begin to save Israel out of the hand of the Philistines.”",
+                      "note": "For 'He will be called a Nazarene,' a leading candidate is the Nazirite consecration of Samson — 'the child shall be a Nazirite (nazir) to God from the womb' — a divinely set-apart deliverer-from-birth. Matthew's plural 'prophets' and the absence of an exact verse suggest a wordplay-cluster; Volume is via sound-alike (Nazoraios/nazir), coherence high. Editorially contested among Nazirite, Branch (netzer), and Nazareth-place readings.",
+                      "contested": true,
+                      "altSource": "Isaiah 11:1"
+                    },
+                    {
+                      "source": "Isaiah 11:1",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "text": "A shoot will come out of the stock of Jesse, and a branch out of his roots will bear fruit.",
+                      "note": "The other principal candidate for 'He will be called a Nazarene': the Davidic 'branch' (netzer) springing from Jesse's root. The Hebrew netzer gives a strong consonantal pun on Nazoraios/Nazareth and fits the messianic-shoot theme; explains Matthew's vague 'prophets.' Contested against the Nazirite (Judges 13:5) reading; listed as alt of that entry and here in its own right.",
+                      "contested": true,
+                      "altSource": "Judges 13:5"
+                    },
+                    {
+                      "source": "Jeremiah 23:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, the days come, says Yahweh, that I will raise to David a righteous Branch, and he shall reign as king and deal wisely, and shall execute justice and righteousness in the land.",
+                      "note": "Parallel 'righteous Branch' (tsemach) messianic-shoot prophecy reinforcing the netzer/Nazarene wordplay field behind 2:23. Faint, mediated, and overlapping Isaiah 11:1; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 6:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and speak to him, saying, ‘Thus says Yahweh of Armies, “Behold, the man whose name is the Branch: and he shall grow up out of his place; and he shall build Yahweh’s temple;",
+                      "note": "'Behold, the man whose name is the Branch' — another shoot/Branch text feeding the messianic 'Nazarene' pun cluster Matthew gestures toward with the plural 'prophets.' Low Volume, thematic only; contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Magi and the flight to Egypt",
+                      "section": "beginnings",
+                      "refs": {
+                        "matthew": "2:1–23"
+                      },
+                      "note": "Only Matthew gives the wise men, the star, Herod's fury, and the slaughter of the innocents."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

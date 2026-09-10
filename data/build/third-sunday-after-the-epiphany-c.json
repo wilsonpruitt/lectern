@@ -766,7 +766,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/nehemiah-8"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Nehemiah 8:1–8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.4.11-1Tim.4.16",
+                      "refDisplay": "1 Timothy 4:11–16",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "4.11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-4.11"
+                    },
+                    {
+                      "refKey": "Acts.13.13-Acts.13.16",
+                      "refDisplay": "Acts 13:13–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-13.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -779,7 +812,190 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-19"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 19:7",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.3.14-2Tim.3.17",
+                      "refDisplay": "2 Timothy 3:14–17",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "3.14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-3.14"
+                    },
+                    {
+                      "refKey": "1Tim.1.8-1Tim.1.11",
+                      "refDisplay": "1 Timothy 1:8–11",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.3"
+                    },
+                    {
+                      "refKey": "Jas.1.22-Jas.1.25",
+                      "refDisplay": "James 1:22–25",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-1.22"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.10.14-Rom.10.21",
+                      "refDisplay": "Romans 10:14–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-10.2"
+                    },
+                    {
+                      "refKey": "1Thess.1.8",
+                      "refDisplay": "1 Thessalonians 1:8",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-1.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.16.1-Rev.16.7",
+                      "refDisplay": "Revelation 16:1–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "16.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-16.1"
+                    },
+                    {
+                      "refKey": "Rev.19.1-Rev.19.5",
+                      "refDisplay": "Revelation 19:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.1.18-Rom.1.23",
+                      "refDisplay": "Romans 1:18–23",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.7.7-Rom.7.12",
+                      "refDisplay": "Romans 7:7–12",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-7.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.10.14-Rom.10.21",
+                      "refDisplay": "Romans 10:14–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-10.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.1.15-Eph.1.19",
+                      "refDisplay": "Ephesians 1:15–19",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:8–11",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.3.14-2Tim.3.17",
+                      "refDisplay": "2 Timothy 3:14–17",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "3.14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-3.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 19:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.10.8-Rev.10.11",
+                      "refDisplay": "Revelation 10:8–11",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-10.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -798,7 +1014,134 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.4",
+                  "ref": "12:12-13",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions.",
+                      "note": "Being 'all given to drink into one Spirit' and 'baptized in one Spirit' draws on the imagery of the Spirit poured out on all flesh regardless of status (sons, daughters, slaves). Joel's leveling of social distinctions in the Spirit's outpouring coheres with Paul's 'whether Jews or Greeks, whether bond or free.'"
+                    },
+                    {
+                      "source": "Isaiah 44:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For I will pour water on him who is thirsty, and streams on the dry ground. I will pour my Spirit on your seed, and my blessing on your offspring:",
+                      "note": "God promises to pour water on the thirsty and his Spirit upon the offspring, joining the images of drinking/water and Spirit-outpouring. Paul's distinctive phrase 'all given to drink into one Spirit' coheres strongly with this water-Spirit fusion in the prophetic promise of renewal."
+                    },
+                    {
+                      "source": "Ezekiel 37:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it and performed it, says Yahweh.",
+                      "note": "God puts his one Spirit within the reconstituted people so that a scattered, divided house becomes one living body. The creation of a unified people animated by God's Spirit faintly underlies Paul's 'in one Spirit we were all baptized into one body.'",
+                      "contested": true,
+                      "altSource": "Isaiah 44:3"
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "The one body formed and animated by the breath/Spirit of God offers a creational template for Paul's one Spirit constituting one living body. The link is figural rather than verbal, but Paul's body-and-Spirit pairing resonates with the animating-breath motif.",
+                      "contested": true,
+                      "altSource": "Ezekiel 37:14"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.5",
+                  "ref": "12:14-20",
+                  "echoes": [
+                    {
+                      "source": "Psalm 139:13-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you formed my inmost being. You knit me together in my mother’s womb. I will give thanks to you, for I am fearfully and wonderfully made. Your works are wonderful. My soul knows that very well. My frame wasn’t hidden from you, when I was made in secret, woven together in the depths of the earth. Your eyes saw my body. In your book they were all written, the days that were ordained for me, when as yet there were none of them.",
+                      "note": "The psalmist marvels that God formed and knit together his members in the womb, framing the body as God's deliberate composition. Paul's repeated 'God has set the members, each one of them, in the body, just as he desired' coheres with this picture of divinely intended bodily arrangement, though the genre and vocabulary differ.",
+                      "contested": true,
+                      "altSource": "Genesis 2:7"
+                    },
+                    {
+                      "source": "Genesis 1:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day.",
+                      "note": "God's purposeful arrangement of each member 'just as he desired,' with each part necessary, faintly echoes the creation account in which God orders distinct parts and pronounces the whole very good. The connection is thematic (divine sovereign design) rather than lexical.",
+                      "contested": true,
+                      "altSource": "Psalm 139:13-16"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.6",
+                  "ref": "12:21-26",
+                  "echoes": [
+                    {
+                      "source": "Psalm 139:14-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will give thanks to you, for I am fearfully and wonderfully made. Your works are wonderful. My soul knows that very well. My frame wasn’t hidden from you, when I was made in secret, woven together in the depths of the earth. Your eyes saw my body. In your book they were all written, the days that were ordained for me, when as yet there were none of them.",
+                      "note": "The wisdom of how the body's members are formed and held in mutual dependence echoes the psalm's wonder at the body's intricate making. Paul's claim that God 'composed the body together' so members care for one another coheres with the psalm's sense of a divinely integrated body.",
+                      "contested": true,
+                      "altSource": "Genesis 2:7"
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "The command to love one's neighbor as oneself, grounding Israel's mutual solidarity, faintly underlies Paul's vision that members 'have the same care for one another' and suffer and rejoice together. The body imagery dramatizes the covenant ethic of corporate mutual care.",
+                      "contested": true,
+                      "altSource": "Psalm 139:14-16"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.7",
+                  "ref": "12:27-31",
+                  "echoes": [
+                    {
+                      "source": "Numbers 11:25-29",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "Yahweh came down in the cloud, and spoke to him, and took of the Spirit that was on him, and put it on the seventy elders. When the Spirit rested on them, they prophesied, but they did so no more. But two men remained in the camp. The name of one was Eldad, and the name of the other Medad: and the Spirit rested on them; and they were of those who were written, but had not gone out to the Tent; and they prophesied in the camp. A young man ran, and told […]",
+                      "note": "God's appointment of designated, Spirit-endowed offices in the assembly ('first apostles, second prophets, third teachers') recalls Moses' divinely appointed seventy who share the Spirit for leadership. Both depict God ordering a structured ministry among his people through the one Spirit.",
+                      "contested": true,
+                      "altSource": "Joel 2:28"
+                    },
+                    {
+                      "source": "Joel 2:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions.",
+                      "note": "Prophets ranked among God's appointed in the assembly continues the chapter's reliance on Joel's outpoured-Spirit prophecy. The placement of prophecy as a settled, God-given office among the people coheres with the eschatological community of prophets Joel envisions.",
+                      "contested": true,
+                      "altSource": "Numbers 11:25-29"
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "God's sovereign appointing and ordering of those he commissions ('I appointed you a prophet to the nations') faintly resonates with Paul's 'God has set some in the assembly.' The divine setting/appointing of ministers links the two, though no verbal citation is present.",
+                      "contested": true,
+                      "altSource": "Numbers 11:25-29"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -817,7 +1160,75 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.2",
+                  "ref": "4:14-15",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 61:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound;",
+                      "note": "'Jesus returned in the power of the Spirit' anticipates the Spirit-anointing announced in the Nazareth quotation that follows (vv.18-19, Isa 61:1). Faint as a standalone allusion here but coherent with Luke's Spirit-Christology drawn from Isaiah.",
+                      "contested": true,
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind;"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.3",
+                  "ref": "4:16-21",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 61:1-2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound; to proclaim the year of Yahweh’s favor, and the day of vengeance of our God; to comfort all who mourn;",
+                      "note": "The Nazareth scroll reading 'The Spirit of the Lord is on me, because he has anointed me to preach good news to the poor... release to the captives... recovering of sight to the blind... to proclaim the acceptable year of the Lord' is a formal citation of Isaiah 61:1-2 (LXX). Highest Volume in the chapter; explicitly introduced as 'the book of the prophet Isaiah.'",
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind; to declare the acceptable year of the Lord, and the day of recompence; to comfort all that mourn;"
+                    },
+                    {
+                      "source": "Isaiah 58:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Isn’t this the fast that I have chosen: to release the bonds of wickedness, to undo the bands of the yoke, and to let the oppressed go free, and that you break every yoke?",
+                      "note": "The clause 'to deliver/set at liberty those who are crushed (oppressed)' is spliced in from Isaiah 58:6 (LXX 'aphesei tethrausmenous'), not part of Isa 61. The deliberate conflation of two 'release/aphesis' texts is a recognized Lukan composite citation; high Volume and verbatim LXX wording."
+                    },
+                    {
+                      "source": "Leviticus 25:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall make the fiftieth year holy, and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee to you; and each of you shall return to his own property, and each of you shall return to his family.",
+                      "note": "'To proclaim the acceptable year of the Lord' and 'release/aphesis' evoke the Jubilee of Leviticus 25, when liberty is proclaimed and debts/captives released. Isaiah 61 itself draws on Jubilee language; Luke makes the year-of-release motif programmatic, giving strong Coherence and Availability."
+                    },
+                    {
+                      "source": "Isaiah 42:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "to open the blind eyes, to bring the prisoners out of the dungeon, and those who sit in darkness out of the prison.",
+                      "note": "'Recovering of sight to the blind' and 'release to the captives' resonate with the Servant's task in Isaiah 42:7 ('to open blind eyes, to bring out prisoners'). Recurrence of the Isaianic Servant/blindness motif strengthens this, though the wording is closest to Isa 61/LXX.",
+                      "contested": true,
+                      "altSource": "Isaiah 35:5"
+                    },
+                    {
+                      "source": "Isaiah 29:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In that day, the deaf will hear the words of the book, and the eyes of the blind will see out of obscurity and out of darkness.",
+                      "note": "The opening of blind eyes and hearing of the deaf in Isaiah 29:18 belongs to the cluster of Isaianic restoration texts Luke draws on for sight-to-the-blind. Faint and secondary to Isa 61, but coherent with Luke's Isaianic program.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

@@ -609,7 +609,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-29"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -622,7 +625,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-66"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 66:10",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.4.12-1Pet.4.19",
+                      "refDisplay": "1 Peter 4:12–19",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-4.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -641,7 +667,135 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:8-13",
+                  "echoes": [
+                    {
+                      "source": "2 Samuel 7:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom.",
+                      "note": "'Jesus Christ... of the seed of David' invokes the Davidic covenant promise that God will raise up David's offspring and establish his kingdom forever. Paul reads the resurrection as the fulfillment of the dynastic promise of an everlasting seed."
+                    },
+                    {
+                      "source": "Isaiah 11:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "A shoot will come out of the stock of Jesse, and a branch out of his roots will bear fruit.",
+                      "note": "The Davidic-seed Christology resonates with the shoot from the stump of Jesse, the messianic branch of David's line. Combined with v.10's root of Jesse, it grounds the title in prophetic messianism."
+                    },
+                    {
+                      "source": "Isaiah 11:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen in that day that the nations will seek the root of Jesse, who stands as a banner of the peoples; and his resting place will be glorious.",
+                      "note": "The 'root of Jesse' standing as a banner to which the nations rally undergirds the risen seed of David proclaimed in Paul's gospel for the chosen ones. Reinforces the Davidic-messiah background."
+                    },
+                    {
+                      "source": "Psalm 132:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh has sworn to David in truth. He will not turn from it: “I will set the fruit of your body on your throne.",
+                      "note": "'The fruit of your body I will set on your throne' restates the sworn promise of a Davidic heir behind 'of the seed of David.' A liturgical witness to the covenant Paul presupposes."
+                    },
+                    {
+                      "source": "Deuteronomy 32:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Rock, his work is perfect, for all his ways are just. A God of faithfulness who does no wrong, just and right is he.",
+                      "note": "'If we are faithless, he remains faithful; he cannot deny himself' echoes the Song of Moses' confession of God as the faithful Rock, without iniquity, just and upright. Divine constancy despite human failure is the shared theology."
+                    },
+                    {
+                      "source": "Numbers 23:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God is not a man, that he should lie, nor the son of man, that he should repent. Has he said, and will he not do it? Or has he spoken, and will he not make it good?",
+                      "note": "'He cannot deny himself' restates Balaam's oracle that God is not a man that he should lie, nor change his mind; what he has said he will do. The immutability of God's own word grounds the faithful saying."
+                    },
+                    {
+                      "source": "Isaiah 65:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will bring a seed out of Jacob, and out of Judah an inheritor of my mountains; and my chosen shall inherit it, and my servants shall dwell there.",
+                      "note": "Paul's endurance 'for the chosen ones' sake' picks up Isaiah's promise that God's chosen/elect will inherit and possess. The remnant-election vocabulary colors the eschatological 'salvation with eternal glory.'",
+                      "contested": true,
+                      "altSource": "Isaiah 45:4"
+                    },
+                    {
+                      "source": "Isaiah 55:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "so shall my word be that goes out of my mouth: it shall not return to me void, but it shall accomplish that which I please, and it shall prosper in the thing I sent it to do.",
+                      "note": "'But God's word isn't chained' faintly echoes the promise that the word going out from God's mouth will not return empty but accomplishes its purpose. The irrepressible, effective word is the common motif against Paul's chains.",
+                      "contested": true,
+                      "altSource": "Psalm 107:20"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:14-19",
+                  "echoes": [
+                    {
+                      "source": "Numbers 16:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said to Korah and to all his company, “In the morning, Yahweh will show who are his, and who is holy, and will cause him to come near to him. Even him whom he shall choose, he will cause to come near to him.",
+                      "note": "'The Lord knows those who are his' quotes Moses' answer to Korah's rebellion, when the Lord makes known who is his and who is holy. Paul stamps this as the first half of the seal on God's firm foundation amid the disruption of false teachers (Hymenaeus, Philetus) — a deliberate Korah typology of schism within the covenant community."
+                    },
+                    {
+                      "source": "Numbers 16:26",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He spoke to the congregation, saying, “Depart, please, from the tents of these wicked men, and touch nothing of theirs, lest you be consumed in all their sins!”",
+                      "note": "'Let everyone who names the name of the Lord depart from unrighteousness' draws directly on Moses' command to depart from the tents of the wicked men (Korah, Dathan, Abiram) lest one be swept away in their sins. The Korah scene supplies both halves of the v.19 double seal: God knows his own, and the faithful must separate from the rebels."
+                    },
+                    {
+                      "source": "Isaiah 26:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh our God, other lords besides you have had dominion over us, but by you only will we make mention of your name.",
+                      "note": "'Everyone who names the name of the Lord' echoes Isaiah's confession that only your name we acknowledge/invoke, contrasting the true God with other lords who ruled. Supplies the naming-the-Name half of the citation alongside the Korah command.",
+                      "contested": true,
+                      "altSource": "Leviticus 24:16"
+                    },
+                    {
+                      "source": "Isaiah 52:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Depart, depart, go out from there, touch no unclean thing! Go out of the midst of her! Cleanse yourselves, you who bear the vessels of Yahweh.",
+                      "note": "'Depart from unrighteousness' resonates with the exodus-from-Babylon summons, 'Depart, depart, touch no unclean thing... be clean, you who bear the vessels of the Lord.' The separation-and-purity demand (and the vessel imagery picked up in vv.20-21) makes this a strong secondary source for the seal."
+                    },
+                    {
+                      "source": "Job 36:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He also opens their ears to instruction, and commands that they return from iniquity.",
+                      "note": "'Depart from unrighteousness/iniquity' parallels Elihu's word that God commands them to return from iniquity. A sapiential analogue to the moral-separation clause.",
+                      "contested": true,
+                      "altSource": "Psalm 34:14"
+                    },
+                    {
+                      "source": "Psalm 6:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Depart from me, all you workers of iniquity, for Yahweh has heard the voice of my weeping.",
+                      "note": "'Depart from me, all you workers of iniquity' supplies a Psalter idiom of separation from the wicked that the v.19 seal recasts as an imperative on those who name the Name. Faint and one of several possible backgrounds.",
+                      "contested": true,
+                      "altSource": "Proverbs 3:7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -660,7 +814,66 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "17.5",
+                  "ref": "17:11-19",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 5:1-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Now Naaman, captain of the army of the king of Syria, was a great man with his master, and honorable, because by him Yahweh had given victory to Syria: he was also a mighty man of valor, but he was a leper. The Syrians had gone out in bands, and had brought away captive out of the land of Israel a little maiden; and she waited on Naaman’s wife. She said to her mistress, “I wish that my lord were with the prophet who is in Samaria! Then he would heal him […]",
+                      "note": "The Naaman narrative — a leprous Syrian foreigner cleansed who returns to the prophet to confess the God of Israel — is the structural template for the lone Samaritan leper who turns back to give thanks. The distinctive convergence of foreigner + leprosy + cleansing + grateful return gives strong Volume and Coherence, and Luke elsewhere cites Naaman explicitly (4:27), confirming Recurrence."
+                    },
+                    {
+                      "source": "Leviticus 13:45-46",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“The leper in whom the plague is shall wear torn clothes, and the hair of his head shall hang loose. He shall cover his upper lip, and shall cry, ‘Unclean! Unclean!’ All the days in which the plague is in him he shall be unclean. He is unclean. He shall dwell alone. Outside of the camp shall be his dwelling.",
+                      "note": "The leprosy law requires the unclean to dwell apart and cry out, explaining why the ten 'stood at a distance' and lifted their voices. The pericope presupposes this purity legislation as its narrative grammar, giving high Coherence and Availability."
+                    },
+                    {
+                      "source": "Leviticus 14:2-4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“This shall be the law of the leper in the day of his cleansing. He shall be brought to the priest, and the priest shall go out of the camp. The priest shall examine him, and behold, if the plague of leprosy is healed in the leper, then the priest shall command them to take for him who is to be cleansed two living clean birds, and cedar wood, and scarlet, and hyssop.",
+                      "note": "The cleansed leper must be presented to the priest for inspection and rites of restoration, exactly what Jesus commands: 'Go, show yourselves to the priests.' The direct dependence on the priestly examination law gives high Volume and Coherence."
+                    },
+                    {
+                      "source": "Numbers 12:10-15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The cloud departed from over the Tent; and behold, Miriam was leprous, as white as snow. Aaron looked at Miriam, and behold, she was leprous. Aaron said to Moses, “Oh, my lord, please don’t count this sin against us, in which we have done foolishly, and in which we have sinned. Let her not, I pray, be as one dead, of whom the flesh is half consumed when he comes out of his mother’s womb.” Moses cried to Yahweh, saying, “Heal her, God, I beg you!” Yahweh […]",
+                      "note": "Miriam's leprosy, exclusion 'outside the camp' for seven days, and restoration by intercession reinforce the segregation-and-cleansing pattern shaping the leper episode. Moderate Coherence; the motif overlaps with the Leviticus laws, so it adds recurrence rather than independent Volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 7:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now there were four leprous men at the entrance of the gate. They said one to another, “Why do we sit here until we die?",
+                      "note": "The four lepers at the gate of Samaria who 'stood at the entrance' likewise embody the marginalized-leper-at-a-distance topos and the Samaria setting. Geographic and situational resonance, but no verbal dependence, so low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 103:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Praise Yahweh, my soul! All that is within me, praise his holy name! Praise Yahweh, my soul, and don’t forget all his benefits; who forgives all your sins; who heals all your diseases;",
+                      "note": "The psalm's call to 'bless the Lord, O my soul... who heals all your diseases' coheres with the Samaritan's loud-voiced glorifying of God for his healing. Thematic only; faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1400,7 +1613,80 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "2 Kings 5:1–14",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.4.25-Luke.4.27",
+                      "refDisplay": "Luke 4:25–27",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-4.5"
+                    },
+                    {
+                      "refKey": "Luke.17.11-Luke.17.19",
+                      "refDisplay": "Luke 17:11–19",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "17.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-17.5"
+                    },
+                    {
+                      "refKey": "Matt.8.1-Matt.8.4",
+                      "refDisplay": "Matthew 8:1–4",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.1"
+                    },
+                    {
+                      "refKey": "Mark.1.40-Mark.1.45",
+                      "refDisplay": "Mark 1:40–45",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "1.11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-1.11"
+                    },
+                    {
+                      "refKey": "Luke.7.1-Luke.7.10",
+                      "refDisplay": "Luke 7:1–10",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "7.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-7.1"
+                    },
+                    {
+                      "refKey": "John.4.46-John.4.54",
+                      "refDisplay": "John 4:46–54",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "4.9",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-4.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1413,7 +1699,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-111"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 111:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.46-Luke.1.50",
+                      "refDisplay": "Luke 1:46–50",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.10"
+                    },
+                    {
+                      "refKey": "Luke.1.67-Luke.1.75",
+                      "refDisplay": "Luke 1:67–75",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.13"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 111:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.15.2-Rev.15.4",
+                      "refDisplay": "Revelation 15:2–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "15.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-15.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1432,7 +1766,135 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:8-13",
+                  "echoes": [
+                    {
+                      "source": "2 Samuel 7:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom.",
+                      "note": "'Jesus Christ... of the seed of David' invokes the Davidic covenant promise that God will raise up David's offspring and establish his kingdom forever. Paul reads the resurrection as the fulfillment of the dynastic promise of an everlasting seed."
+                    },
+                    {
+                      "source": "Isaiah 11:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "A shoot will come out of the stock of Jesse, and a branch out of his roots will bear fruit.",
+                      "note": "The Davidic-seed Christology resonates with the shoot from the stump of Jesse, the messianic branch of David's line. Combined with v.10's root of Jesse, it grounds the title in prophetic messianism."
+                    },
+                    {
+                      "source": "Isaiah 11:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen in that day that the nations will seek the root of Jesse, who stands as a banner of the peoples; and his resting place will be glorious.",
+                      "note": "The 'root of Jesse' standing as a banner to which the nations rally undergirds the risen seed of David proclaimed in Paul's gospel for the chosen ones. Reinforces the Davidic-messiah background."
+                    },
+                    {
+                      "source": "Psalm 132:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh has sworn to David in truth. He will not turn from it: “I will set the fruit of your body on your throne.",
+                      "note": "'The fruit of your body I will set on your throne' restates the sworn promise of a Davidic heir behind 'of the seed of David.' A liturgical witness to the covenant Paul presupposes."
+                    },
+                    {
+                      "source": "Deuteronomy 32:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Rock, his work is perfect, for all his ways are just. A God of faithfulness who does no wrong, just and right is he.",
+                      "note": "'If we are faithless, he remains faithful; he cannot deny himself' echoes the Song of Moses' confession of God as the faithful Rock, without iniquity, just and upright. Divine constancy despite human failure is the shared theology."
+                    },
+                    {
+                      "source": "Numbers 23:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God is not a man, that he should lie, nor the son of man, that he should repent. Has he said, and will he not do it? Or has he spoken, and will he not make it good?",
+                      "note": "'He cannot deny himself' restates Balaam's oracle that God is not a man that he should lie, nor change his mind; what he has said he will do. The immutability of God's own word grounds the faithful saying."
+                    },
+                    {
+                      "source": "Isaiah 65:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will bring a seed out of Jacob, and out of Judah an inheritor of my mountains; and my chosen shall inherit it, and my servants shall dwell there.",
+                      "note": "Paul's endurance 'for the chosen ones' sake' picks up Isaiah's promise that God's chosen/elect will inherit and possess. The remnant-election vocabulary colors the eschatological 'salvation with eternal glory.'",
+                      "contested": true,
+                      "altSource": "Isaiah 45:4"
+                    },
+                    {
+                      "source": "Isaiah 55:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "so shall my word be that goes out of my mouth: it shall not return to me void, but it shall accomplish that which I please, and it shall prosper in the thing I sent it to do.",
+                      "note": "'But God's word isn't chained' faintly echoes the promise that the word going out from God's mouth will not return empty but accomplishes its purpose. The irrepressible, effective word is the common motif against Paul's chains.",
+                      "contested": true,
+                      "altSource": "Psalm 107:20"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:14-19",
+                  "echoes": [
+                    {
+                      "source": "Numbers 16:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said to Korah and to all his company, “In the morning, Yahweh will show who are his, and who is holy, and will cause him to come near to him. Even him whom he shall choose, he will cause to come near to him.",
+                      "note": "'The Lord knows those who are his' quotes Moses' answer to Korah's rebellion, when the Lord makes known who is his and who is holy. Paul stamps this as the first half of the seal on God's firm foundation amid the disruption of false teachers (Hymenaeus, Philetus) — a deliberate Korah typology of schism within the covenant community."
+                    },
+                    {
+                      "source": "Numbers 16:26",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He spoke to the congregation, saying, “Depart, please, from the tents of these wicked men, and touch nothing of theirs, lest you be consumed in all their sins!”",
+                      "note": "'Let everyone who names the name of the Lord depart from unrighteousness' draws directly on Moses' command to depart from the tents of the wicked men (Korah, Dathan, Abiram) lest one be swept away in their sins. The Korah scene supplies both halves of the v.19 double seal: God knows his own, and the faithful must separate from the rebels."
+                    },
+                    {
+                      "source": "Isaiah 26:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh our God, other lords besides you have had dominion over us, but by you only will we make mention of your name.",
+                      "note": "'Everyone who names the name of the Lord' echoes Isaiah's confession that only your name we acknowledge/invoke, contrasting the true God with other lords who ruled. Supplies the naming-the-Name half of the citation alongside the Korah command.",
+                      "contested": true,
+                      "altSource": "Leviticus 24:16"
+                    },
+                    {
+                      "source": "Isaiah 52:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Depart, depart, go out from there, touch no unclean thing! Go out of the midst of her! Cleanse yourselves, you who bear the vessels of Yahweh.",
+                      "note": "'Depart from unrighteousness' resonates with the exodus-from-Babylon summons, 'Depart, depart, touch no unclean thing... be clean, you who bear the vessels of the Lord.' The separation-and-purity demand (and the vessel imagery picked up in vv.20-21) makes this a strong secondary source for the seal."
+                    },
+                    {
+                      "source": "Job 36:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He also opens their ears to instruction, and commands that they return from iniquity.",
+                      "note": "'Depart from unrighteousness/iniquity' parallels Elihu's word that God commands them to return from iniquity. A sapiential analogue to the moral-separation clause.",
+                      "contested": true,
+                      "altSource": "Psalm 34:14"
+                    },
+                    {
+                      "source": "Psalm 6:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Depart from me, all you workers of iniquity, for Yahweh has heard the voice of my weeping.",
+                      "note": "'Depart from me, all you workers of iniquity' supplies a Psalter idiom of separation from the wicked that the v.19 seal recasts as an imperative on those who name the Name. Faint and one of several possible backgrounds.",
+                      "contested": true,
+                      "altSource": "Proverbs 3:7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1451,7 +1913,66 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "17.5",
+                  "ref": "17:11-19",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 5:1-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Now Naaman, captain of the army of the king of Syria, was a great man with his master, and honorable, because by him Yahweh had given victory to Syria: he was also a mighty man of valor, but he was a leper. The Syrians had gone out in bands, and had brought away captive out of the land of Israel a little maiden; and she waited on Naaman’s wife. She said to her mistress, “I wish that my lord were with the prophet who is in Samaria! Then he would heal him […]",
+                      "note": "The Naaman narrative — a leprous Syrian foreigner cleansed who returns to the prophet to confess the God of Israel — is the structural template for the lone Samaritan leper who turns back to give thanks. The distinctive convergence of foreigner + leprosy + cleansing + grateful return gives strong Volume and Coherence, and Luke elsewhere cites Naaman explicitly (4:27), confirming Recurrence."
+                    },
+                    {
+                      "source": "Leviticus 13:45-46",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“The leper in whom the plague is shall wear torn clothes, and the hair of his head shall hang loose. He shall cover his upper lip, and shall cry, ‘Unclean! Unclean!’ All the days in which the plague is in him he shall be unclean. He is unclean. He shall dwell alone. Outside of the camp shall be his dwelling.",
+                      "note": "The leprosy law requires the unclean to dwell apart and cry out, explaining why the ten 'stood at a distance' and lifted their voices. The pericope presupposes this purity legislation as its narrative grammar, giving high Coherence and Availability."
+                    },
+                    {
+                      "source": "Leviticus 14:2-4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“This shall be the law of the leper in the day of his cleansing. He shall be brought to the priest, and the priest shall go out of the camp. The priest shall examine him, and behold, if the plague of leprosy is healed in the leper, then the priest shall command them to take for him who is to be cleansed two living clean birds, and cedar wood, and scarlet, and hyssop.",
+                      "note": "The cleansed leper must be presented to the priest for inspection and rites of restoration, exactly what Jesus commands: 'Go, show yourselves to the priests.' The direct dependence on the priestly examination law gives high Volume and Coherence."
+                    },
+                    {
+                      "source": "Numbers 12:10-15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The cloud departed from over the Tent; and behold, Miriam was leprous, as white as snow. Aaron looked at Miriam, and behold, she was leprous. Aaron said to Moses, “Oh, my lord, please don’t count this sin against us, in which we have done foolishly, and in which we have sinned. Let her not, I pray, be as one dead, of whom the flesh is half consumed when he comes out of his mother’s womb.” Moses cried to Yahweh, saying, “Heal her, God, I beg you!” Yahweh […]",
+                      "note": "Miriam's leprosy, exclusion 'outside the camp' for seven days, and restoration by intercession reinforce the segregation-and-cleansing pattern shaping the leper episode. Moderate Coherence; the motif overlaps with the Leviticus laws, so it adds recurrence rather than independent Volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 7:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now there were four leprous men at the entrance of the gate. They said one to another, “Why do we sit here until we die?",
+                      "note": "The four lepers at the gate of Samaria who 'stood at the entrance' likewise embody the marginalized-leper-at-a-distance topos and the Samaria setting. Geographic and situational resonance, but no verbal dependence, so low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 103:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Praise Yahweh, my soul! All that is within me, praise his holy name! Praise Yahweh, my soul, and don’t forget all his benefits; who forgives all your sins; who heals all your diseases;",
+                      "note": "The psalm's call to 'bless the Lord, O my soul... who heals all your diseases' coheres with the Samaritan's loud-voiced glorifying of God for his healing. Thematic only; faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

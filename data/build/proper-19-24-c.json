@@ -623,7 +623,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-4"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -636,7 +639,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-14"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 14:3",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.1.10",
+                      "refDisplay": "1 John 1:10",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.10"
+                    },
+                    {
+                      "refKey": "Gal.3.19-Gal.3.22",
+                      "refDisplay": "Galatians 3:19–22",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-3.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 14:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.3.9-Rom.3.20",
+                      "refDisplay": "Romans 3:9–20",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-3.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -655,7 +706,110 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:12-17",
+                  "echoes": [
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "Paul's repeated 'I obtained mercy' draws on the LORD's self-revelation as merciful and gracious, slow to anger, the foundational OT confession of divine compassion. The mercy shown to the chief of sinners enacts this character of God. Exodus 34:6 is the wellspring of biblical mercy language."
+                    },
+                    {
+                      "source": "Psalm 145:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Your kingdom is an everlasting kingdom. Your dominion endures throughout all generations. Yahweh is faithful in all his words, and loving in all his deeds.",
+                      "note": "The doxology to 'the King eternal' draws on the Psalter's praise that 'your kingdom is an everlasting kingdom' and the LORD's dominion endures through all generations. Paul ascribes timeless kingship to the only God. Psalm 145 supplies the eternal-king acclamation."
+                    },
+                    {
+                      "source": "Exodus 15:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh shall reign forever and ever.”",
+                      "note": "'The King eternal' echoes the climactic acclamation of the Song of the Sea, 'The LORD shall reign forever and ever.' Paul's doxology takes up Israel's primal confession of God's everlasting reign. The Exodus hymn underlies the 'forever and ever' of the praise."
+                    },
+                    {
+                      "source": "Deuteronomy 6:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one.",
+                      "note": "'The only God' (God who alone is wise / only God) is the Shema's confession that the LORD is one. Paul's monotheistic doxology rests on Israel's foundational creed. The Shema secures the 'only God' acclamation."
+                    },
+                    {
+                      "source": "Hosea 2:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will sow her to me in the earth; and I will have mercy on her who had not obtained mercy; and I will tell those who were not my people, ‘You are my people;’ and they will say, ‘My God!’”",
+                      "note": "Receiving mercy as one formerly outside it echoes Hosea's reversal where 'not pitied' becomes 'pitied' and the unloved become God's people. Paul the persecutor is the paradigm of unexpected mercy. The Hosea motif of mercy granted to the undeserving stands behind the testimony."
+                    },
+                    {
+                      "source": "Psalm 86:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But you, Lord, are a merciful and gracious God, slow to anger, and abundant in loving kindness and truth.",
+                      "note": "Paul's mercy receives its texture from the Psalter's restatement of the Exodus 34 formula, 'a God merciful and gracious, abounding in steadfast love.' The grace that 'abounded exceedingly' resonates with this superabundant covenant mercy. A liturgical echo of the divine attributes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 4:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to you out of the midst of the fire: you heard the voice of words, but you saw no form; you only heard a voice.",
+                      "note": "Calling God 'invisible' recalls Sinai, where Israel heard the voice but 'saw no form,' the basis of OT aniconism. Paul affirms the unseeable nature of the only God. Deuteronomy's no-form theology grounds the predicate 'invisible.'"
+                    },
+                    {
+                      "source": "Daniel 6:26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I make a decree, that in all the dominion of my kingdom men tremble and fear before the God of Daniel; for he is the living God, and steadfast forever, His kingdom that which shall not be destroyed; and his dominion shall be even to the end.",
+                      "note": "Darius's decree that God 'is the living God, enduring forever; his kingdom shall never be destroyed' parallels Paul's praise of the King eternal and immortal. The Aramaic court tale supplies a Gentile confession of the everlasting, deathless God. A close conceptual model for the doxology."
+                    },
+                    {
+                      "source": "Tobit 13:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And Tobit wrote a prayer for rejoicing, and said, “Blessed is God who lives forever! Blessed is his kingdom!",
+                      "note": "Tobit's hymn, 'Blessed be God who lives forever, for his kingdom lasts throughout all ages,' parallels the doxology's eternal, immortal King. The deuterocanonical doxology shares Paul's vocabulary of everlasting divine reign. Cited as a Second Temple liturgical analogue.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 18:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He that lives forever created all things in common.",
+                      "note": "'He who lives forever created all things together' offers a deuterocanonical parallel to ascribing eternity and sole deity to God. The wisdom tradition's praise of the everliving Creator stands near Paul's doxology. A faint thematic echo from Second Temple piety.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 1:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Come now, and let us reason together,” says Yahweh: “Though your sins be as scarlet, they shall be as white as snow. Though they be red like crimson, they shall be as wool.",
+                      "note": "'Christ came to save sinners' resonates with the prophetic invitation in which scarlet sins are made white as snow, the OT promise of cleansing for the guilty. Paul as foremost sinner receives this promised pardon. A contested thematic echo of prophetic forgiveness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 1:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Unless Yahweh of Armies had left to us a very small remnant, we would have been as Sodom; we would have been like Gomorrah.",
+                      "note": "Paul's self-identification as 'foremost' of sinners yet shown mercy recalls the prophetic remnant spared by the LORD's grace despite Sodom-like guilt. The pattern of mercy preserving the unworthy underlies the testimony. Marked low as a diffuse echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -674,7 +828,133 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "15.1",
+                  "ref": "15:1-2",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and in the morning, then you shall see Yahweh’s glory; because he hears your murmurings against Yahweh. Who are we, that you murmur against us?” Moses said, “Now Yahweh shall give you meat to eat in the evening, and in the morning bread to satisfy you; because Yahweh hears your murmurings which you murmur against him. And who are we? Your murmurings are not against us, but against Yahweh.”",
+                      "note": "The Pharisees and scribes 'murmured' (diegongyzon) that Jesus eats with sinners; LXX uses gongyzo precisely for Israel's murmuring against God's provision in the wilderness. Luke evokes the recurrent grumbling motif to cast the objectors as faithless Israel resisting God's gracious feeding. Coherence is strong because the parables that follow defend a divine table.",
+                      "altSource": "Numbers 14:2,27"
+                    },
+                    {
+                      "source": "Isaiah 65:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "who say, Stand by yourself, don’t come near to me, for I am holier than you. These are a smoke in my nose, a fire that burns all the day.",
+                      "note": "The separatist who says 'Keep to yourself, do not come near me, for I am holier than you' supplies the exact posture Luke's Pharisees adopt against table fellowship with sinners. Isaiah condemns this self-segregating holiness as a stench before God, which coheres with Jesus' vindication of welcoming sinners. Availability and thematic coherence are high; verbal overlap is thematic rather than lexical.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 1:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Blessed is the man who doesn’t walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers;",
+                      "note": "The wisdom ideal that the righteous do not sit with sinners frames the Pharisees' assumption that eating with sinners defiles. Luke inverts the maxim: Jesus' table redefines blessedness as seeking rather than separating. Faint and contested, resting on shared sinner/righteous vocabulary.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "15.2",
+                  "ref": "15:3-7",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:11-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For thus says the Lord Yahweh: Behold, I myself, even I, will search for my sheep, and will seek them out. As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so will I seek out my sheep; and I will deliver them out of all places where they have been scattered in the cloudy and dark day. I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land; and I […]",
+                      "note": "God declares 'I myself will search for my sheep... I will seek the lost,' the precise plot of the one shepherd who leaves the flock to find the strayed (vv. 4,6,16). Volume is high (sustained seeking-shepherd oracle), recurrence strong (Ezekiel 34 is a touchstone for Luke's shepherd Christology), and coherence exact: God's own searching contrasts the failed shepherds, just as Jesus seeks sinners the Pharisees abandon."
+                    },
+                    {
+                      "source": "Isaiah 40:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his bosom. He will gently lead those who have their young.",
+                      "note": "The shepherd who gathers lambs and carries them in his bosom illuminates the man carrying the found sheep on his shoulders rejoicing. The tender carrying gesture is distinctive and shared, strengthening the divine-shepherd reading. Coheres with Ezekiel 34 as the comfort-of-God shepherd image."
+                    },
+                    {
+                      "source": "Psalm 119:176",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I have gone astray like a lost sheep. Seek your servant, for I don’t forget your commandments.",
+                      "note": "'I have gone astray like a lost sheep; seek your servant' supplies the penitent's voice answered by the seeking shepherd. The verbal pairing of straying sheep and divine seeking is close, and coherence with the repentance emphasis (v.7) is strong. Slightly lower volume than Ezekiel 34."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'All we like sheep have gone astray, we have turned every one to his own way' is the canonical image of straying that the parable assumes for 'one sinner who repents.' Recurrence in Luke's passion theology supports availability; the echo is thematic rather than cited here. Contested as to whether Luke intends the Servant song specifically.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 23:1-4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Woe to the shepherds who destroy and scatter the sheep of my pasture! says Yahweh. Therefore thus says Yahweh, the God of Israel, against the shepherds who feed my people: You have scattered my flock, and driven them away, and have not visited them; behold, I will visit on you the evil of your doings, says Yahweh. I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they […]",
+                      "note": "The woe on shepherds who scatter and the promise that God will gather the remnant and set true shepherds over them stands behind the lost-sheep rescue. Coheres with Ezekiel 34 as the prophetic indictment of leaders who fail the flock, paralleling the Pharisees. Lower volume, so an echo."
+                    },
+                    {
+                      "source": "Micah 2:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will surely assemble, Jacob, all of you; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as a flock in the midst of their pasture; they will swarm with people.",
+                      "note": "God's promise to gather the remnant of Israel 'like sheep in a fold' supplies the regathering motif. Faint and one of several gathering oracles; included for recurrence within the shepherd-restoration cluster. Contested because no distinctive verbal link to a single lost sheep.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 11:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh my God: “Feed the flock of slaughter. Their buyers slaughter them, and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them. For I will no more pity the inhabitants of the land,” says Yahweh; “but, behold, I will deliver the men everyone into his neighbor’s hand, and into the hand of his king. They will strike the land, and out of their hand I will not deliver them.” So I fed […]",
+                      "note": "The flock doomed to slaughter and the shepherd's care/abandonment drama belongs to the same prophetic shepherd field Luke draws on. Faint here; included as availability for the seeking-shepherd theme. Contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "15.3",
+                  "ref": "15:8-10",
+                  "echoes": [
+                    {
+                      "source": "Zephaniah 1:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen at that time, that I will search Jerusalem with lamps, and I will punish the men who are settled on their dregs, who say in their heart, “Yahweh will not do good, neither will he do evil.”",
+                      "note": "God 'searches Jerusalem with lamps' to find the complacent, a near image to the woman lighting a lamp and sweeping to find the coin. The lamp-search vocabulary is suggestive, though Zephaniah's search is judicial, here gracious. Contested and faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 2:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If you seek her as silver, and search for her as for hidden treasures:",
+                      "note": "Seeking wisdom 'as silver, and searching for it as for hidden treasure' parallels the diligent search for the lost silver drachma until found. The seek-until-found wisdom pattern coheres with the parable's diligence, but the link is thematic. Contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Song of Songs 3:1-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "By night on my bed, I sought him whom my soul loves. I sought him, but I didn’t find him. I will get up now, and go about the city; in the streets and in the squares I will seek him whom my soul loves. I sought him, but I didn’t find him. The watchmen who go about the city found me; “Have you seen him whom my soul loves?” I had scarcely passed from them, when I found him whom my soul loves. I held him, and would not let him go, until I had brought him […]",
+                      "note": "The beloved who seeks through the night 'until I found him' and then summons others to rejoice mirrors the woman's seek-find-celebrate structure. Faint, figural, contested; included as a seek-and-find availability rather than a deliberate citation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1514,7 +1794,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/exodus-32"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Exodus 32:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.9.14-Mark.9.29",
+                      "refDisplay": "Mark 9:14–29",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-9.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 32:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Gal.1.6-Gal.1.9",
+                      "refDisplay": "Galatians 1:6–9",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/galatians#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1527,7 +1845,275 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-51"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 51:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.10.46-Mark.10.52",
+                      "refDisplay": "Mark 10:46–52",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-10.7"
+                    },
+                    {
+                      "refKey": "Acts.3.17-Acts.3.21",
+                      "refDisplay": "Acts 3:17–21",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-3.3"
+                    },
+                    {
+                      "refKey": "Col.2.14-Col.2.15",
+                      "refDisplay": "Colossians 2:14–15",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "2.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-2.6"
+                    },
+                    {
+                      "refKey": "1Pet.1.3-1Pet.1.12",
+                      "refDisplay": "1 Peter 1:3–12",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:10",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.1.3-1Tim.1.7",
+                      "refDisplay": "1 Timothy 1:3–7",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.2"
+                    },
+                    {
+                      "refKey": "Eph.4.20-Eph.4.24",
+                      "refDisplay": "Ephesians 4:20–24",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "4.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-4.7"
+                    },
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    },
+                    {
+                      "refKey": "2Tim.1.3-2Tim.1.5",
+                      "refDisplay": "2 Timothy 1:3–5",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:7",
+                  "occurrences": [
+                    {
+                      "refKey": "John.13.4-John.13.11",
+                      "refDisplay": "John 13:4–11",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-13.3"
+                    },
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    },
+                    {
+                      "refKey": "1John.1.6-1John.1.7",
+                      "refDisplay": "1 John 1:6–7",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.3.1-Rom.3.8",
+                      "refDisplay": "Romans 3:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-3.1"
+                    },
+                    {
+                      "refKey": "Luke.15.17-Luke.15.19",
+                      "refDisplay": "Luke 15:17–19",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-15.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.18.9-Luke.18.14",
+                      "refDisplay": "Luke 18:9–14",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-18.2"
+                    },
+                    {
+                      "refKey": "2Cor.7.8-2Cor.7.13",
+                      "refDisplay": "2 Corinthians 7:8–13",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "7.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-7.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.7.13-Rom.7.25",
+                      "refDisplay": "Romans 7:13–25",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-7.3"
+                    },
+                    {
+                      "refKey": "Eph.2.1-Eph.2.3",
+                      "refDisplay": "Ephesians 2:1–3",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:1–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.7.36-Luke.7.50",
+                      "refDisplay": "Luke 7:36–50",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "7.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-7.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.6",
+                      "refDisplay": "1 Corinthians 13:6",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.1.9",
+                      "refDisplay": "1 John 1:9",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.3.4-1John.3.6",
+                      "refDisplay": "1 John 3:4–6",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1546,7 +2132,110 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:12-17",
+                  "echoes": [
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "Paul's repeated 'I obtained mercy' draws on the LORD's self-revelation as merciful and gracious, slow to anger, the foundational OT confession of divine compassion. The mercy shown to the chief of sinners enacts this character of God. Exodus 34:6 is the wellspring of biblical mercy language."
+                    },
+                    {
+                      "source": "Psalm 145:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Your kingdom is an everlasting kingdom. Your dominion endures throughout all generations. Yahweh is faithful in all his words, and loving in all his deeds.",
+                      "note": "The doxology to 'the King eternal' draws on the Psalter's praise that 'your kingdom is an everlasting kingdom' and the LORD's dominion endures through all generations. Paul ascribes timeless kingship to the only God. Psalm 145 supplies the eternal-king acclamation."
+                    },
+                    {
+                      "source": "Exodus 15:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh shall reign forever and ever.”",
+                      "note": "'The King eternal' echoes the climactic acclamation of the Song of the Sea, 'The LORD shall reign forever and ever.' Paul's doxology takes up Israel's primal confession of God's everlasting reign. The Exodus hymn underlies the 'forever and ever' of the praise."
+                    },
+                    {
+                      "source": "Deuteronomy 6:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one.",
+                      "note": "'The only God' (God who alone is wise / only God) is the Shema's confession that the LORD is one. Paul's monotheistic doxology rests on Israel's foundational creed. The Shema secures the 'only God' acclamation."
+                    },
+                    {
+                      "source": "Hosea 2:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will sow her to me in the earth; and I will have mercy on her who had not obtained mercy; and I will tell those who were not my people, ‘You are my people;’ and they will say, ‘My God!’”",
+                      "note": "Receiving mercy as one formerly outside it echoes Hosea's reversal where 'not pitied' becomes 'pitied' and the unloved become God's people. Paul the persecutor is the paradigm of unexpected mercy. The Hosea motif of mercy granted to the undeserving stands behind the testimony."
+                    },
+                    {
+                      "source": "Psalm 86:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But you, Lord, are a merciful and gracious God, slow to anger, and abundant in loving kindness and truth.",
+                      "note": "Paul's mercy receives its texture from the Psalter's restatement of the Exodus 34 formula, 'a God merciful and gracious, abounding in steadfast love.' The grace that 'abounded exceedingly' resonates with this superabundant covenant mercy. A liturgical echo of the divine attributes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 4:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to you out of the midst of the fire: you heard the voice of words, but you saw no form; you only heard a voice.",
+                      "note": "Calling God 'invisible' recalls Sinai, where Israel heard the voice but 'saw no form,' the basis of OT aniconism. Paul affirms the unseeable nature of the only God. Deuteronomy's no-form theology grounds the predicate 'invisible.'"
+                    },
+                    {
+                      "source": "Daniel 6:26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I make a decree, that in all the dominion of my kingdom men tremble and fear before the God of Daniel; for he is the living God, and steadfast forever, His kingdom that which shall not be destroyed; and his dominion shall be even to the end.",
+                      "note": "Darius's decree that God 'is the living God, enduring forever; his kingdom shall never be destroyed' parallels Paul's praise of the King eternal and immortal. The Aramaic court tale supplies a Gentile confession of the everlasting, deathless God. A close conceptual model for the doxology."
+                    },
+                    {
+                      "source": "Tobit 13:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And Tobit wrote a prayer for rejoicing, and said, “Blessed is God who lives forever! Blessed is his kingdom!",
+                      "note": "Tobit's hymn, 'Blessed be God who lives forever, for his kingdom lasts throughout all ages,' parallels the doxology's eternal, immortal King. The deuterocanonical doxology shares Paul's vocabulary of everlasting divine reign. Cited as a Second Temple liturgical analogue.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 18:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He that lives forever created all things in common.",
+                      "note": "'He who lives forever created all things together' offers a deuterocanonical parallel to ascribing eternity and sole deity to God. The wisdom tradition's praise of the everliving Creator stands near Paul's doxology. A faint thematic echo from Second Temple piety.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 1:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Come now, and let us reason together,” says Yahweh: “Though your sins be as scarlet, they shall be as white as snow. Though they be red like crimson, they shall be as wool.",
+                      "note": "'Christ came to save sinners' resonates with the prophetic invitation in which scarlet sins are made white as snow, the OT promise of cleansing for the guilty. Paul as foremost sinner receives this promised pardon. A contested thematic echo of prophetic forgiveness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 1:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Unless Yahweh of Armies had left to us a very small remnant, we would have been as Sodom; we would have been like Gomorrah.",
+                      "note": "Paul's self-identification as 'foremost' of sinners yet shown mercy recalls the prophetic remnant spared by the LORD's grace despite Sodom-like guilt. The pattern of mercy preserving the unworthy underlies the testimony. Marked low as a diffuse echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1565,7 +2254,133 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "15.1",
+                  "ref": "15:1-2",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and in the morning, then you shall see Yahweh’s glory; because he hears your murmurings against Yahweh. Who are we, that you murmur against us?” Moses said, “Now Yahweh shall give you meat to eat in the evening, and in the morning bread to satisfy you; because Yahweh hears your murmurings which you murmur against him. And who are we? Your murmurings are not against us, but against Yahweh.”",
+                      "note": "The Pharisees and scribes 'murmured' (diegongyzon) that Jesus eats with sinners; LXX uses gongyzo precisely for Israel's murmuring against God's provision in the wilderness. Luke evokes the recurrent grumbling motif to cast the objectors as faithless Israel resisting God's gracious feeding. Coherence is strong because the parables that follow defend a divine table.",
+                      "altSource": "Numbers 14:2,27"
+                    },
+                    {
+                      "source": "Isaiah 65:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "who say, Stand by yourself, don’t come near to me, for I am holier than you. These are a smoke in my nose, a fire that burns all the day.",
+                      "note": "The separatist who says 'Keep to yourself, do not come near me, for I am holier than you' supplies the exact posture Luke's Pharisees adopt against table fellowship with sinners. Isaiah condemns this self-segregating holiness as a stench before God, which coheres with Jesus' vindication of welcoming sinners. Availability and thematic coherence are high; verbal overlap is thematic rather than lexical.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 1:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Blessed is the man who doesn’t walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers;",
+                      "note": "The wisdom ideal that the righteous do not sit with sinners frames the Pharisees' assumption that eating with sinners defiles. Luke inverts the maxim: Jesus' table redefines blessedness as seeking rather than separating. Faint and contested, resting on shared sinner/righteous vocabulary.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "15.2",
+                  "ref": "15:3-7",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:11-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For thus says the Lord Yahweh: Behold, I myself, even I, will search for my sheep, and will seek them out. As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so will I seek out my sheep; and I will deliver them out of all places where they have been scattered in the cloudy and dark day. I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land; and I […]",
+                      "note": "God declares 'I myself will search for my sheep... I will seek the lost,' the precise plot of the one shepherd who leaves the flock to find the strayed (vv. 4,6,16). Volume is high (sustained seeking-shepherd oracle), recurrence strong (Ezekiel 34 is a touchstone for Luke's shepherd Christology), and coherence exact: God's own searching contrasts the failed shepherds, just as Jesus seeks sinners the Pharisees abandon."
+                    },
+                    {
+                      "source": "Isaiah 40:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his bosom. He will gently lead those who have their young.",
+                      "note": "The shepherd who gathers lambs and carries them in his bosom illuminates the man carrying the found sheep on his shoulders rejoicing. The tender carrying gesture is distinctive and shared, strengthening the divine-shepherd reading. Coheres with Ezekiel 34 as the comfort-of-God shepherd image."
+                    },
+                    {
+                      "source": "Psalm 119:176",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I have gone astray like a lost sheep. Seek your servant, for I don’t forget your commandments.",
+                      "note": "'I have gone astray like a lost sheep; seek your servant' supplies the penitent's voice answered by the seeking shepherd. The verbal pairing of straying sheep and divine seeking is close, and coherence with the repentance emphasis (v.7) is strong. Slightly lower volume than Ezekiel 34."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'All we like sheep have gone astray, we have turned every one to his own way' is the canonical image of straying that the parable assumes for 'one sinner who repents.' Recurrence in Luke's passion theology supports availability; the echo is thematic rather than cited here. Contested as to whether Luke intends the Servant song specifically.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 23:1-4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Woe to the shepherds who destroy and scatter the sheep of my pasture! says Yahweh. Therefore thus says Yahweh, the God of Israel, against the shepherds who feed my people: You have scattered my flock, and driven them away, and have not visited them; behold, I will visit on you the evil of your doings, says Yahweh. I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they […]",
+                      "note": "The woe on shepherds who scatter and the promise that God will gather the remnant and set true shepherds over them stands behind the lost-sheep rescue. Coheres with Ezekiel 34 as the prophetic indictment of leaders who fail the flock, paralleling the Pharisees. Lower volume, so an echo."
+                    },
+                    {
+                      "source": "Micah 2:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will surely assemble, Jacob, all of you; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as a flock in the midst of their pasture; they will swarm with people.",
+                      "note": "God's promise to gather the remnant of Israel 'like sheep in a fold' supplies the regathering motif. Faint and one of several gathering oracles; included for recurrence within the shepherd-restoration cluster. Contested because no distinctive verbal link to a single lost sheep.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 11:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh my God: “Feed the flock of slaughter. Their buyers slaughter them, and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them. For I will no more pity the inhabitants of the land,” says Yahweh; “but, behold, I will deliver the men everyone into his neighbor’s hand, and into the hand of his king. They will strike the land, and out of their hand I will not deliver them.” So I fed […]",
+                      "note": "The flock doomed to slaughter and the shepherd's care/abandonment drama belongs to the same prophetic shepherd field Luke draws on. Faint here; included as availability for the seeking-shepherd theme. Contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "15.3",
+                  "ref": "15:8-10",
+                  "echoes": [
+                    {
+                      "source": "Zephaniah 1:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen at that time, that I will search Jerusalem with lamps, and I will punish the men who are settled on their dregs, who say in their heart, “Yahweh will not do good, neither will he do evil.”",
+                      "note": "God 'searches Jerusalem with lamps' to find the complacent, a near image to the woman lighting a lamp and sweeping to find the coin. The lamp-search vocabulary is suggestive, though Zephaniah's search is judicial, here gracious. Contested and faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 2:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If you seek her as silver, and search for her as for hidden treasures:",
+                      "note": "Seeking wisdom 'as silver, and searching for it as for hidden treasure' parallels the diligent search for the lost silver drachma until found. The seek-until-found wisdom pattern coheres with the parable's diligence, but the link is thematic. Contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Song of Songs 3:1-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "By night on my bed, I sought him whom my soul loves. I sought him, but I didn’t find him. I will get up now, and go about the city; in the streets and in the squares I will seek him whom my soul loves. I sought him, but I didn’t find him. The watchmen who go about the city found me; “Have you seen him whom my soul loves?” I had scarcely passed from them, when I found him whom my soul loves. I held him, and would not let him go, until I had brought him […]",
+                      "note": "The beloved who seeks through the night 'until I found him' and then summons others to rejoice mirrors the woman's seek-find-celebrate structure. Faint, figural, contested; included as a seek-and-find availability rather than a deliberate citation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

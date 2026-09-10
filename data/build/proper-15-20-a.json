@@ -535,7 +535,100 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-45"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 45:14–15",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.15.20-Luke.15.24",
+                      "refDisplay": "Luke 15:20–24",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-15.6"
+                    },
+                    {
+                      "refKey": "Acts.20.32-Acts.20.38",
+                      "refDisplay": "Acts 20:32–38",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "20.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-20.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 45:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.9-Acts.7.16",
+                      "refDisplay": "Acts 7:9–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 45:9–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.9-Acts.7.16",
+                      "refDisplay": "Acts 7:9–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 45:5–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.11.27-Acts.11.30",
+                      "refDisplay": "Acts 11:27–30",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "11.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-11.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 45:5–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Phlm.1.15-Phlm.1.16",
+                      "refDisplay": "Philemon 1:15–16",
+                      "book": "Philemon",
+                      "slug": "philemon",
+                      "pericopeId": "1.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philemon#p-1.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -548,7 +641,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-133"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 133:1",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.1.10-1Cor.1.17",
+                      "refDisplay": "1 Corinthians 1:10–17",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-1.3"
+                    },
+                    {
+                      "refKey": "Eph.4.1-Eph.4.3",
+                      "refDisplay": "Ephesians 4:1–3",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-4.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -567,7 +693,108 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.1",
+                  "ref": "11:1-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 94:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For Yahweh won’t reject his people, neither will he forsake his inheritance.",
+                      "note": "Paul's opening 'God did not reject his people' (v.1-2) verbally tracks the psalm's promise 'the LORD will not reject his people, neither will he forsake his inheritance.' Same verb of rejection, same object 'his people'; it functions almost as an embedded near-quotation grounding the whole argument."
+                    },
+                    {
+                      "source": "1 Samuel 12:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For Yahweh will not forsake his people for his great name’s sake, because it has pleased Yahweh to make you a people to himself.",
+                      "note": "Samuel: 'the LORD will not forsake his people for his great name's sake, because it has pleased the LORD to make you a people for himself.' Paul's denial of rejection draws on this covenant-fidelity formula; pairs with Ps 94:14 as the scriptural backbone of v.1-2 'God did not reject his people.'"
+                    },
+                    {
+                      "source": "1 Kings 19:10",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and slain your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+                      "note": "Verbatim of Elijah's complaint at Horeb: 'they have killed your prophets and torn down your altars; I alone am left, and they seek my life.' Paul cites it formulaically ('don't you know what the Scripture says about Elijah... how he pleads with God against Israel') to introduce the remnant theme (v.3)."
+                    },
+                    {
+                      "source": "1 Kings 19:14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and slain your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+                      "note": "Elijah's complaint is repeated verbatim in 1 Kgs 19:14 (the second utterance to the LORD); Paul's v.3 reproduces this doubled lament. Listed separately because the source occurs at both v.10 and v.14 (recurrence within the source narrative)."
+                    },
+                    {
+                      "source": "1 Kings 19:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yet will I leave seven thousand in Israel, all the knees which have not bowed to Baal, and every mouth which has not kissed him.”",
+                      "note": "Formula-cited divine answer (v.4): 'I have reserved for myself seven thousand men, who have not bowed the knee to Baal.' Verbatim of the LORD's reply to Elijah; the foundational proof-text for Paul's doctrine of a preserved remnant 'according to the election of grace' (v.5)."
+                    },
+                    {
+                      "source": "Isaiah 29:10",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For Yahweh has poured out on you a spirit of deep sleep, and has closed your eyes, the prophets; and he has covered your heads, the seers.",
+                      "note": "Formula-cited ('as it is written') in v.8: 'God gave them a spirit of stupor (pneuma katanyxeos)' is verbatim from Isa 29:10 LXX, 'the LORD has poured out on you a spirit of deep sleep.' Supplies the head phrase of the conflated citation about Israel's hardening."
+                    },
+                    {
+                      "source": "Deuteronomy 29:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "But Yahweh has not given you a heart to know, eyes to see, and ears to hear, to this day.",
+                      "note": "The continuation of v.8 — 'eyes that they should not see and ears that they should not hear, to this very day' — is verbatim from Deut 29:4 ('the LORD has not given you a heart to know, eyes to see, and ears to hear, to this day'). Paul fuses it with Isa 29:10 into a single formula-introduced quotation; 'to this very day' is the Deuteronomy tag."
+                    },
+                    {
+                      "source": "Psalm 69:22-23",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Let their table before them become a snare. May it become a retribution and a trap. Let their eyes be darkened, so that they can’t see. Let their backs be continually bent.",
+                      "note": "Attributed quotation (v.9-10, 'David says'): 'Let their table be made a snare and a trap... Let their eyes be darkened that they may not see, and bow down their back always.' Verbatim of Ps 69:22-23 LXX. A psalm of the righteous sufferer Paul reads imprecatorily against the hardened; pairs the 'darkened eyes' with the Isaiah/Deut citation of v.8."
+                    },
+                    {
+                      "source": "Isaiah 10:22-23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For though your people, Israel, are like the sand of the sea, only a remnant of them will return. A destruction is determined, overflowing with righteousness. For the Lord, Yahweh of Armies, will make a full end, and that determined, in the midst of all the earth.",
+                      "note": "The remnant motif of v.5 ('a remnant according to the election of grace') draws on Isaiah's remnant theology ('though your people be as the sand of the sea, only a remnant of them will return'), a text Paul has already quoted in Rom 9:27-28. Strong conceptual borrowing of the 'remnant' (leimma/hypoleimma) word-field."
+                    },
+                    {
+                      "source": "Isaiah 6:9-10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “Go, and tell this people, ‘You hear indeed, but don’t understand; and you see indeed, but don’t perceive.’ Make the heart of this people fat. Make their ears heavy, and shut their eyes; lest they see with their eyes, and hear with their ears, and understand with their heart, and turn again, and be healed.”",
+                      "note": "The 'eyes that do not see, ears that do not hear' hardening language of v.8 also resonates with Isaiah's commissioning oracle ('hearing you will hear and not understand; seeing you will see and not perceive'), the classic hardening text. Reinforces the conflated citation's theme even if Deut 29:4 supplies the closer wording.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 17:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you. I will give to you, and to your seed after you, the land where you are traveling, all the land of Canaan, for an everlasting possession. I will be their God.”",
+                      "note": "Paul's self-identification as 'a descendant of Abraham' (v.1) leans on the Abrahamic covenant promise to the seed; faint, but it grounds his claim that membership in the people persists by descent and election.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 35:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let destruction come on him unawares. Let his net that he has hidden catch himself. Let him fall into that destruction.",
+                      "note": "The 'snare/trap' imprecation of v.9 also echoes the wider psalmic curse tradition ('let destruction come upon him unawares, and let his net that he hid catch himself'). Faint reinforcement of the Ps 69 citation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -586,7 +813,105 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "15.3",
+                  "ref": "15:21-28",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:5-6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They were scattered, because there was no shepherd; and they became food to all the animals of the field, and were scattered. My sheep wandered through all the mountains, and on every high hill: yes, my sheep were scattered on all the surface of the earth; and there was no one who searched or sought.",
+                      "note": "'My sheep were scattered... they wandered, lost.' Jesus' mission 'to the lost sheep of the house of Israel' (Mt 15:24) draws directly on Ezekiel's scattered/lost flock that God himself will seek and shepherd."
+                    },
+                    {
+                      "source": "Jeremiah 50:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "My people have been lost sheep: their shepherds have caused them to go astray; they have turned them away on the mountains; they have gone from mountain to hill; they have forgotten their resting place.",
+                      "note": "'My people have been lost sheep; their shepherds have led them astray' — close verbal source for 'the lost sheep of the house of Israel' (Mt 15:24)."
+                    },
+                    {
+                      "source": "2 Samuel 7:12-16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men; but my loving kindness shall not […]",
+                      "note": "The Davidic covenant promising an eternal son/throne — basis for the Gentile woman's address 'Lord, you son of David' (Mt 15:22), a messianic title."
+                    },
+                    {
+                      "source": "1 Kings 17:8-24",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh’s word came to him, saying, “Arise, go to Zarephath, which belongs to Sidon, and stay there. Behold, I have commanded a widow there to sustain you.” So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks: and he called to her, and said, “Please get me a little water in a vessel, that I may drink.” As she was going to get it, he called to her, and said, “Please bring me a morsel of […]",
+                      "note": "Elijah sent to the Gentile widow of Zarephath, in the region of Sidon, whose son he heals — a typological precedent for Jesus in 'the region of Tyre and Sidon' (15:21) granting mercy and healing to a Gentile woman's child."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'All we like sheep have gone astray' — the lost/straying sheep image behind 15:24.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:176",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I have gone astray like a lost sheep. Seek your servant, for I don’t forget your commandments.",
+                      "note": "'I have gone astray like a lost sheep; seek your servant' — individual lost-sheep language resonant with Mt 15:24.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 11:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "A shoot will come out of the stock of Jesse, and a branch out of his roots will bear fruit.",
+                      "note": "'A shoot from the stump of Jesse' — Davidic-messianic hope behind the 'son of David' acclamation in 15:22.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Israel is my son, my firstborn' — Israel's status as God's children illumines 'the children's bread' (Mt 15:26) reserved first for Israel before Gentiles.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 14:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You are the children of Yahweh your God. You shall not cut yourselves, nor make any baldness between your eyes for the dead.",
+                      "note": "'You are the children of the LORD your God' — Israel as God's children, background to the children-vs-dogs (Israel-vs-Gentiles) contrast of 15:26.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joshua 2:1-21",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Joshua the son of Nun secretly sent two men out of Shittim as spies, saying, “Go, view the land, including Jericho.” They went and came into the house of a prostitute whose name was Rahab, and slept there. The king of Jericho was told, “Behold, men of the children of Israel came in here tonight to spy out the land.” The king of Jericho sent to Rahab, saying, “Bring out the men who have come to you, who have entered into your house; for they have come to […]",
+                      "note": "Rahab the Canaanite who confesses Israel's God and is saved — a figural precedent for a Canaanite woman whose faith Jesus praises (Mt 15:28); Matthew has already named Rahab in the genealogy.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 9:25-27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Canaan is cursed. He will be a servant of servants to his brothers.” He said, “Blessed be Yahweh, the God of Shem. Let Canaan be his servant. May God enlarge Japheth. Let him dwell in the tents of Shem. Let Canaan be his servant.”",
+                      "note": "The curse on Canaan to be servant — the Canaanite woman's reversal (faith commended) stands against the Canaanite-as-cursed-outsider background flagged by Matthew's pointed label 'a Canaanite woman'.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1218,7 +1543,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-56"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1231,7 +1559,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-67"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 67:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.28.23-Acts.28.28",
+                      "refDisplay": "Acts 28:23–28",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "28.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-28.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1250,7 +1601,108 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.1",
+                  "ref": "11:1-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 94:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For Yahweh won’t reject his people, neither will he forsake his inheritance.",
+                      "note": "Paul's opening 'God did not reject his people' (v.1-2) verbally tracks the psalm's promise 'the LORD will not reject his people, neither will he forsake his inheritance.' Same verb of rejection, same object 'his people'; it functions almost as an embedded near-quotation grounding the whole argument."
+                    },
+                    {
+                      "source": "1 Samuel 12:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For Yahweh will not forsake his people for his great name’s sake, because it has pleased Yahweh to make you a people to himself.",
+                      "note": "Samuel: 'the LORD will not forsake his people for his great name's sake, because it has pleased the LORD to make you a people for himself.' Paul's denial of rejection draws on this covenant-fidelity formula; pairs with Ps 94:14 as the scriptural backbone of v.1-2 'God did not reject his people.'"
+                    },
+                    {
+                      "source": "1 Kings 19:10",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and slain your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+                      "note": "Verbatim of Elijah's complaint at Horeb: 'they have killed your prophets and torn down your altars; I alone am left, and they seek my life.' Paul cites it formulaically ('don't you know what the Scripture says about Elijah... how he pleads with God against Israel') to introduce the remnant theme (v.3)."
+                    },
+                    {
+                      "source": "1 Kings 19:14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and slain your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+                      "note": "Elijah's complaint is repeated verbatim in 1 Kgs 19:14 (the second utterance to the LORD); Paul's v.3 reproduces this doubled lament. Listed separately because the source occurs at both v.10 and v.14 (recurrence within the source narrative)."
+                    },
+                    {
+                      "source": "1 Kings 19:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yet will I leave seven thousand in Israel, all the knees which have not bowed to Baal, and every mouth which has not kissed him.”",
+                      "note": "Formula-cited divine answer (v.4): 'I have reserved for myself seven thousand men, who have not bowed the knee to Baal.' Verbatim of the LORD's reply to Elijah; the foundational proof-text for Paul's doctrine of a preserved remnant 'according to the election of grace' (v.5)."
+                    },
+                    {
+                      "source": "Isaiah 29:10",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For Yahweh has poured out on you a spirit of deep sleep, and has closed your eyes, the prophets; and he has covered your heads, the seers.",
+                      "note": "Formula-cited ('as it is written') in v.8: 'God gave them a spirit of stupor (pneuma katanyxeos)' is verbatim from Isa 29:10 LXX, 'the LORD has poured out on you a spirit of deep sleep.' Supplies the head phrase of the conflated citation about Israel's hardening."
+                    },
+                    {
+                      "source": "Deuteronomy 29:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "But Yahweh has not given you a heart to know, eyes to see, and ears to hear, to this day.",
+                      "note": "The continuation of v.8 — 'eyes that they should not see and ears that they should not hear, to this very day' — is verbatim from Deut 29:4 ('the LORD has not given you a heart to know, eyes to see, and ears to hear, to this day'). Paul fuses it with Isa 29:10 into a single formula-introduced quotation; 'to this very day' is the Deuteronomy tag."
+                    },
+                    {
+                      "source": "Psalm 69:22-23",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Let their table before them become a snare. May it become a retribution and a trap. Let their eyes be darkened, so that they can’t see. Let their backs be continually bent.",
+                      "note": "Attributed quotation (v.9-10, 'David says'): 'Let their table be made a snare and a trap... Let their eyes be darkened that they may not see, and bow down their back always.' Verbatim of Ps 69:22-23 LXX. A psalm of the righteous sufferer Paul reads imprecatorily against the hardened; pairs the 'darkened eyes' with the Isaiah/Deut citation of v.8."
+                    },
+                    {
+                      "source": "Isaiah 10:22-23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For though your people, Israel, are like the sand of the sea, only a remnant of them will return. A destruction is determined, overflowing with righteousness. For the Lord, Yahweh of Armies, will make a full end, and that determined, in the midst of all the earth.",
+                      "note": "The remnant motif of v.5 ('a remnant according to the election of grace') draws on Isaiah's remnant theology ('though your people be as the sand of the sea, only a remnant of them will return'), a text Paul has already quoted in Rom 9:27-28. Strong conceptual borrowing of the 'remnant' (leimma/hypoleimma) word-field."
+                    },
+                    {
+                      "source": "Isaiah 6:9-10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “Go, and tell this people, ‘You hear indeed, but don’t understand; and you see indeed, but don’t perceive.’ Make the heart of this people fat. Make their ears heavy, and shut their eyes; lest they see with their eyes, and hear with their ears, and understand with their heart, and turn again, and be healed.”",
+                      "note": "The 'eyes that do not see, ears that do not hear' hardening language of v.8 also resonates with Isaiah's commissioning oracle ('hearing you will hear and not understand; seeing you will see and not perceive'), the classic hardening text. Reinforces the conflated citation's theme even if Deut 29:4 supplies the closer wording.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 17:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you. I will give to you, and to your seed after you, the land where you are traveling, all the land of Canaan, for an everlasting possession. I will be their God.”",
+                      "note": "Paul's self-identification as 'a descendant of Abraham' (v.1) leans on the Abrahamic covenant promise to the seed; faint, but it grounds his claim that membership in the people persists by descent and election.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 35:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let destruction come on him unawares. Let his net that he has hidden catch himself. Let him fall into that destruction.",
+                      "note": "The 'snare/trap' imprecation of v.9 also echoes the wider psalmic curse tradition ('let destruction come upon him unawares, and let his net that he hid catch himself'). Faint reinforcement of the Ps 69 citation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1269,7 +1721,105 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "15.3",
+                  "ref": "15:21-28",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 34:5-6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They were scattered, because there was no shepherd; and they became food to all the animals of the field, and were scattered. My sheep wandered through all the mountains, and on every high hill: yes, my sheep were scattered on all the surface of the earth; and there was no one who searched or sought.",
+                      "note": "'My sheep were scattered... they wandered, lost.' Jesus' mission 'to the lost sheep of the house of Israel' (Mt 15:24) draws directly on Ezekiel's scattered/lost flock that God himself will seek and shepherd."
+                    },
+                    {
+                      "source": "Jeremiah 50:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "My people have been lost sheep: their shepherds have caused them to go astray; they have turned them away on the mountains; they have gone from mountain to hill; they have forgotten their resting place.",
+                      "note": "'My people have been lost sheep; their shepherds have led them astray' — close verbal source for 'the lost sheep of the house of Israel' (Mt 15:24)."
+                    },
+                    {
+                      "source": "2 Samuel 7:12-16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When your days are fulfilled, and you shall sleep with your fathers, I will set up your seed after you, who shall proceed out of your bowels, and I will establish his kingdom. He shall build a house for my name, and I will establish the throne of his kingdom forever. I will be his father, and he shall be my son. If he commits iniquity, I will chasten him with the rod of men, and with the stripes of the children of men; but my loving kindness shall not […]",
+                      "note": "The Davidic covenant promising an eternal son/throne — basis for the Gentile woman's address 'Lord, you son of David' (Mt 15:22), a messianic title."
+                    },
+                    {
+                      "source": "1 Kings 17:8-24",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh’s word came to him, saying, “Arise, go to Zarephath, which belongs to Sidon, and stay there. Behold, I have commanded a widow there to sustain you.” So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks: and he called to her, and said, “Please get me a little water in a vessel, that I may drink.” As she was going to get it, he called to her, and said, “Please bring me a morsel of […]",
+                      "note": "Elijah sent to the Gentile widow of Zarephath, in the region of Sidon, whose son he heals — a typological precedent for Jesus in 'the region of Tyre and Sidon' (15:21) granting mercy and healing to a Gentile woman's child."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "'All we like sheep have gone astray' — the lost/straying sheep image behind 15:24.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:176",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I have gone astray like a lost sheep. Seek your servant, for I don’t forget your commandments.",
+                      "note": "'I have gone astray like a lost sheep; seek your servant' — individual lost-sheep language resonant with Mt 15:24.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 11:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "A shoot will come out of the stock of Jesse, and a branch out of his roots will bear fruit.",
+                      "note": "'A shoot from the stump of Jesse' — Davidic-messianic hope behind the 'son of David' acclamation in 15:22.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Israel is my son, my firstborn' — Israel's status as God's children illumines 'the children's bread' (Mt 15:26) reserved first for Israel before Gentiles.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 14:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You are the children of Yahweh your God. You shall not cut yourselves, nor make any baldness between your eyes for the dead.",
+                      "note": "'You are the children of the LORD your God' — Israel as God's children, background to the children-vs-dogs (Israel-vs-Gentiles) contrast of 15:26.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joshua 2:1-21",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Joshua the son of Nun secretly sent two men out of Shittim as spies, saying, “Go, view the land, including Jericho.” They went and came into the house of a prostitute whose name was Rahab, and slept there. The king of Jericho was told, “Behold, men of the children of Israel came in here tonight to spy out the land.” The king of Jericho sent to Rahab, saying, “Bring out the men who have come to you, who have entered into your house; for they have come to […]",
+                      "note": "Rahab the Canaanite who confesses Israel's God and is saved — a figural precedent for a Canaanite woman whose faith Jesus praises (Mt 15:28); Matthew has already named Rahab in the genealogy.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 9:25-27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Canaan is cursed. He will be a servant of servants to his brothers.” He said, “Blessed be Yahweh, the God of Shem. Let Canaan be his servant. May God enlarge Japheth. Let him dwell in the tents of Shem. Let Canaan be his servant.”",
+                      "note": "The curse on Canaan to be servant — the Canaanite woman's reversal (faith commended) stands against the Canaanite-as-cursed-outsider background flagged by Matthew's pointed label 'a Canaanite woman'.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

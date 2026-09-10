@@ -689,7 +689,100 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-64"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 64:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.1.9-Mark.1.11",
+                      "refDisplay": "Mark 1:9–11",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "1.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-1.3"
+                    },
+                    {
+                      "refKey": "Matt.3.13-Matt.3.17",
+                      "refDisplay": "Matthew 3:13–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "3.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-3.2"
+                    },
+                    {
+                      "refKey": "Mark.15.37-Mark.15.38",
+                      "refDisplay": "Mark 15:37–38",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-15.12"
+                    },
+                    {
+                      "refKey": "Luke.3.21-Luke.3.22",
+                      "refDisplay": "Luke 3:21–22",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "3.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-3.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 64:8",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.4.7",
+                      "refDisplay": "2 Corinthians 4:7",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-4.3"
+                    },
+                    {
+                      "refKey": "Luke.11.1-Luke.11.4",
+                      "refDisplay": "Luke 11:1–4",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-11.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 64:4",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.2.6-1Cor.2.9",
+                      "refDisplay": "1 Corinthians 2:6–9",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "2.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-2.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -702,7 +795,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-80"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -721,7 +817,129 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-3",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:32",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "It will happen that whoever will call on Yahweh’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as Yahweh has said, and among the remnant, those whom Yahweh calls.",
+                      "note": "'All who call on the name of our Lord Jesus Christ in every place' reworks Joel's 'everyone who calls on the name of the LORD shall be saved,' transferring the divine Name to Jesus. Volume is high (distinctive idiom 'call on the name'), recurrence strong in Paul (Rom 10:13), and the eschatological-salvation theme coheres tightly with the surrounding 'day of the Lord' language."
+                    },
+                    {
+                      "source": "Exodus 19:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and you shall be to me a kingdom of priests, and a holy nation.’ These are the words which you shall speak to the children of Israel.”",
+                      "note": "The address to those 'sanctified... called to be saints' transfers Israel's vocation as a 'holy nation' set apart for God to the Corinthian assembly. The lexical pairing of calling and holiness coheres thematically with the Sinai constitution of a consecrated people; the volume is modest because Paul cites no formula, but the figural availability of Exodus 19 to a Jewish reader is high.",
+                      "contested": true,
+                      "altSource": "Leviticus 11:44-45"
+                    },
+                    {
+                      "source": "Leviticus 11:44-45",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For I am Yahweh your God. Sanctify yourselves therefore, and be holy; for I am holy: neither shall you defile yourselves with any kind of creeping thing that moves on the earth. For I am Yahweh who brought you up out of the land of Egypt, to be your God. You shall therefore be holy, for I am holy.",
+                      "note": "'Sanctified in Christ Jesus, called to be saints' echoes the Holiness Code refrain 'be holy, for I am holy,' in which Israel's status as God's set-apart people is grounded in God's own holiness. Recurrence is strong across Leviticus 19-20, and the thematic coherence of consecration as gift-and-summons fits Paul's idiom of being made holy in Christ."
+                    },
+                    {
+                      "source": "Isaiah 4:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen, that he who is left in Zion, and he who remains in Jerusalem, shall be called holy, even everyone who is written among the living in Jerusalem;",
+                      "note": "The phrase 'called holy' (kalein hagion) for the eschatological remnant in Zion resonates with 'called to be saints.' The verbal link is suggestive in the LXX, but the volume is faint and the motif is widely diffused, so it is offered only as a contested resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 4:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "A son was also born to Seth, and he named him Enosh. At that time men began to call on Yahweh’s name.",
+                      "note": "The idiom 'call on the name of the LORD' first appears at the dawn of worship in Genesis 4:26 and runs through the patriarchal narratives (Gen 12:8; 13:4). It supplies the deep semantic background for Paul's phrase, though Joel is the proximate and more specific source.",
+                      "contested": true,
+                      "altSource": "Genesis 12:8"
+                    },
+                    {
+                      "source": "Psalm 116:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will take the cup of salvation, and call on Yahweh’s name.",
+                      "note": "The cultic act of 'calling on the name of the LORD' in the thanksgiving psalter underlies the worship-language of 'all who call on the name.' Recurrence within the Psalms is notable, but the volume here is faint relative to the Joel allusion that controls the phrase.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zephaniah 3:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For then I will purify the lips of the peoples, that they may all call on Yahweh’s name, to serve him shoulder to shoulder.",
+                      "note": "Zephaniah's promise that the nations will 'call on the name of the LORD' with one accord matches Paul's universalizing 'in every place, both theirs and ours.' The thematic coherence of an ingathered people invoking the Name is good, but the verbal contact is light and the motif overlaps with Joel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:4-9",
+                  "echoes": [
+                    {
+                      "source": "Amos 5:18",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Woe to you who desire the day of Yahweh! Why do you long for the day of Yahweh? It is darkness, and not light.",
+                      "note": "The repeated 'day of our Lord Jesus Christ' (v.8) draws on the prophetic 'day of the LORD' tradition, of which Amos is the classic warning text. Thematic coherence is strong: Paul reframes the eschatological day as the point of vindication 'blameless,' and the recurrence of yom YHWH across the prophets gives the motif high availability."
+                    },
+                    {
+                      "source": "Joel 2:31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The sun will be turned into darkness, and the moon into blood, before the great and terrible day of Yahweh comes.",
+                      "note": "'The day of our Lord' as the eschatological revelation aligns with Joel's 'great and terrible day of the LORD,' the same chapter Paul has just drawn on in v.2. The internal recurrence (Joel within the immediate context) strengthens the case for a Joel-shaped horizon, though the phrase is generic enough to be merely traditional.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 7:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Know therefore that Yahweh your God himself is God, the faithful God, who keeps covenant and loving kindness with them who love him and keep his commandments to a thousand generations,",
+                      "note": "'God is faithful, through whom you were called' (v.9) echoes the covenant formula that 'the LORD your God is the faithful God who keeps covenant.' Volume is good on the distinctive predicate 'faithful' applied to God as the guarantor of a calling, and the covenant-keeping theme coheres with Paul's assurance of preservation to the end."
+                    },
+                    {
+                      "source": "Zephaniah 1:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The great day of Yahweh is near. It is near, and hurries greatly, the voice of the day of Yahweh. The mighty man cries there bitterly.",
+                      "note": "Zephaniah's 'great day of the LORD is near' is among the most concentrated 'day of the LORD' oracles and feeds the same prophetic reservoir behind v.8. The volume is low because Paul names no specific feature of Zephaniah's day, but the motif's availability is high.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“But who can endure the day of his coming? And who will stand when he appears? For he is like a refiner’s fire, and like launderer’s soap;",
+                      "note": "'Who can stand when he appears?'—the day that tests and refines—coheres with Paul's hope that the Corinthians be 'confirmed... blameless in the day.' The forensic-purgative coloring of being found unblamable resonates, but the connection is thematic rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 32:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Rock, his work is perfect, for all his ways are just. A God of faithfulness who does no wrong, just and right is he.",
+                      "note": "The Song of Moses names God 'faithful (pistos) and without iniquity,' a likely LXX source for Paul's 'God is faithful.' Recurrence of the divine epithet pistos in Deuteronomy supports availability, though the phrase had become a settled liturgical commonplace.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -740,7 +958,256 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.7",
+                  "ref": "13:24-27",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 13:10",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For the stars of the sky and its constellations will not give their light. The sun will be darkened in its going out, and the moon will not cause its light to shine.",
+                      "note": "'The sun will be darkened, the moon will not give its light' is near-verbatim from Isaiah 13:10, 'the sun will be dark at its rising and the moon will not shed its light,' the day-of-the-LORD oracle against Babylon. The catastrophic dimming of the luminaries is the lead element of Mark's cosmic-collapse cluster; highest volume in the constellation."
+                    },
+                    {
+                      "source": "Isaiah 34:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "All of the army of the sky will be dissolved. The sky will be rolled up like a scroll, and all its armies will fade away, as a leaf fades from off a vine or a fig tree.",
+                      "note": "'The stars will be falling from heaven and the powers of the heavens will be shaken' draws on Isaiah 34:4, 'all the host of heaven shall rot away, the skies roll up like a scroll, all their host fall.' Mark's falling stars and shaken heavenly powers reproduce Isaiah's cosmic-judgment imagery (LXX 'the powers of the heavens shall melt')."
+                    },
+                    {
+                      "source": "Joel 2:10",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The earth quakes before them. The heavens tremble. The sun and the moon are darkened, and the stars withdraw their shining.",
+                      "note": "'The sun and moon are darkened, and the stars withdraw their shining' (also 2:31, 3:15) is a primary source for Mark's three-element luminary collapse. Joel's day-of-the-LORD theophany combines earth-quaking, heaven-trembling, and darkened sun/moon/stars, matching Mark's whole cluster and reinforcing the multiply-attested character of the imagery."
+                    },
+                    {
+                      "source": "Ezekiel 32:7-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When I shall extinguish you, I will cover the heavens, and make its stars dark; I will cover the sun with a cloud, and the moon shall not give its light. All the bright lights of the sky will I make dark over you, and set darkness on your land, says the Lord Yahweh.",
+                      "note": "Ezekiel's lament over Pharaoh: 'I will cover the heavens and darken their stars; I will cover the sun with a cloud, and the moon shall not give its light. All the bright lights of heaven I will darken,' supplies the exact 'moon shall not give its light' phrase Mark shares with Isaiah 13. A fourth witness in the darkening cluster, demonstrating Hays' recurrence."
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "'They will see the Son of Man coming in clouds with great power and glory' directly cites Daniel 7:13, 'one like a son of man came with the clouds of heaven.' This is the christological centerpiece of the discourse; Mark adds 'power and glory' from the dominion granted in 7:14, and the title 'Son of Man' is the load-bearing self-designation throughout Mark."
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "'With great power and glory' renders the gift to the son of man of 'dominion and glory and a kingdom, that all peoples should serve him.' Mark fuses 7:13's coming-on-clouds with 7:14's enthronement glory, so the Son of Man's parousia carries the universal dominion of Daniel's vision."
+                    },
+                    {
+                      "source": "Zechariah 2:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Come! Come! Flee from the land of the north,’ says Yahweh; ‘for I have spread you abroad as the four winds of the sky,’ says Yahweh.",
+                      "note": "'Gather the elect from the four winds' echoes Zechariah 2:6, 'I have spread you abroad as the four winds of heaven, declares the LORD,' a regathering-of-the-dispersed oracle. The eschatological ingathering of the scattered people from the four winds is the conceptual core of Mark's angelic harvest of the elect."
+                    },
+                    {
+                      "source": "Deuteronomy 30:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "If your outcasts are in the uttermost parts of the heavens, from there Yahweh your God will gather you, and from there he will bring you back.",
+                      "note": "'If your outcasts are in the uttermost parts of heaven, from there the LORD will gather you' undergirds gathering the elect 'from the ends of the earth to the ends of the sky.' Deuteronomy's covenant promise of regathering the exiled from the extremities of earth and heaven matches Mark's double horizon precisely."
+                    },
+                    {
+                      "source": "Isaiah 11:11-12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "It will happen in that day that the Lord will set his hand again the second time to recover the remnant that is left of his people from Assyria, from Egypt, from Pathros, from Cush, from Elam, from Shinar, from Hamath, and from the islands of the sea. He will set up a banner for the nations, and will assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+                      "note": "Isaiah's promise that the LORD will 'assemble the banished of Israel and gather the dispersed of Judah from the four corners of the earth' supplies the messianic-age ingathering behind Mark's gathering of the elect. The 'four corners/four winds' regathering is a recurrent restoration motif, here applied to the Son of Man's harvest."
+                    },
+                    {
+                      "source": "Isaiah 27:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen in that day that a great trumpet will be blown; and those who were ready to perish in the land of Assyria, and those who were outcasts in the land of Egypt, shall come; and they will worship Yahweh in the holy mountain at Jerusalem.",
+                      "note": "'A great trumpet will be blown, and those who were lost... will come and worship the LORD' from the Isaiah Apocalypse provides the trumpet-summoned ingathering of the scattered; Matthew's parallel makes the trumpet explicit. Mark's angelic gathering coheres with this Isaianic regathering even without naming the trumpet.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 12:10-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will pour on the house of David, and on the inhabitants of Jerusalem, the spirit of grace and of supplication; and they will look to me whom they have pierced; and they shall mourn for him, as one mourns for his only son, and will grieve bitterly for him, as one grieves for his firstborn. In that day there will be a great mourning in Jerusalem, like the mourning of Hadadrimmon in the valley of Megiddon. The land will mourn, every family apart; the family of the house of […]",
+                      "note": "'They will look on him whom they have pierced' and the mourning of the tribes lies behind 'they will see the Son of Man'; the seeing-and-mourning at the coming one is more explicit in Matthew 24:30 and Revelation 1:7 but may color Mark's 'they will see.' Faint in Mark, marked contested.",
+                      "contested": true,
+                      "lxxText": "And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and compassion: and they shall look upon me, because they have mocked me, and they shall make lamentation for him, as for a beloved friend, and they shall grieve intensely, as for a firstborn son. In that day the lamentation in Jerusalem shall be very great, as the mourning for the pomegranate grove cut down in the plain. And the land shall lament in separate families, the […]"
+                    },
+                    {
+                      "source": "Zechariah 14:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall flee by the valley of my mountains; for the valley of the mountains shall reach to Azel; yes, you shall flee, just like you fled from before the earthquake in the days of Uzziah king of Judah. Yahweh my God will come, and all the holy ones with you./f + Septuagint reads “him” instead of “you”./f*",
+                      "note": "'The LORD my God will come, and all the holy ones with him' parallels the Son of Man sending out his angels at the parousia. The accompanying-holy-ones motif of the day of the LORD coheres with Mark's angelic retinue; included for recurrence of the Zecharianic day-of-the-LORD material in this pericope.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 104:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He lays the beams of his rooms in the waters. He makes the clouds his chariot. He walks on the wings of the wind.",
+                      "note": "'He makes the clouds his chariot, riding on the wings of the wind' is part of the OT cloud-rider theophany tradition (cf. Isaiah 19:1; Psalm 18:9-12) that informs the Son of Man's coming 'in clouds.' The divine-prerogative of cloud-borne arrival lends figural weight to Daniel 7's cloud-coming as Mark applies it.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "13.8",
+                  "ref": "13:28-31",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 51:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Lift up your eyes to the heavens, and look on the earth beneath; for the heavens shall vanish away like smoke, and the earth shall wax old like a garment; and those who dwell therein shall die in the same way: but my salvation shall be forever, and my righteousness shall not be abolished.",
+                      "note": "'Heaven and earth will pass away, but my words will not pass away' draws on Isaiah 51:6, 'the heavens will vanish like smoke, the earth wear out like a garment... but my salvation will be forever.' The contrast between the perishing cosmos and the enduring divine word is distinctively Isaianic and high in volume."
+                    },
+                    {
+                      "source": "Isaiah 40:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The grass withers, the flower fades; but the word of our God stands forever.”",
+                      "note": "'The grass withers, the flower fades, but the word of our God will stand forever' is the closest source for the permanence of God's word over against transient creation. Mark transfers the abiding-word of Isaiah 40 to 'my words,' an implicit christological claim; the verbal contrast (pass away / not pass away vs. wither / stand forever) is strong."
+                    },
+                    {
+                      "source": "Psalm 102:25-27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Of old, you laid the foundation of the earth. The heavens are the work of your hands. They will perish, but you will endure. Yes, all of them will wear out like a garment. You will change them like a cloak, and they will be changed. But you are the same. Your years will have no end.",
+                      "note": "'They will perish, but you remain; they will all wear out like a garment... but you are the same' grounds 'heaven and earth will pass away.' The Psalm's contrast of the perishable heavens-and-earth with the unchanging LORD supplies the theological warrant Mark applies to the abiding word."
+                    },
+                    {
+                      "source": "Joel 2:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t be afraid, you animals of the field; for the pastures of the wilderness spring up, for the tree bears its fruit. The fig tree and the vine yield their strength.",
+                      "note": "The fig-tree parable ('the fig tree puts forth... you know summer is near') faintly recalls Joel's restoration imagery, 'the fig tree and vine give their full yield,' as a sign-bearing tree marking the season's turn. The fig tree elsewhere in Mark (11:13-21) carries judgment symbolism; here its budding signals nearness, a season-discernment topos. Contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 34:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All of the army of the sky will be dissolved. The sky will be rolled up like a scroll, and all its armies will fade away, as a leaf fades from off a vine or a fig tree.",
+                      "note": "'All the host of heaven shall rot away and the skies roll up like a scroll' reinforces 'heaven and earth will pass away,' connecting this declaration to the cosmic-dissolution imagery already cited at 13:25. Recurrence of Isaiah 34 across the discourse supports its faint presence here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the saints of the Most High shall receive the kingdom, and possess the kingdom forever, even forever and ever.",
+                      "note": "'All these things' coming to pass before 'this generation' passes resonates with Daniel's assurance that 'the saints shall receive the kingdom... forever, forever and ever'; the certainty that the decreed events will be accomplished is Danielic. Faint, included for the apocalyptic guarantee that frames 'most certainly I say.'",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "13.9",
+                  "ref": "13:32-37",
+                  "echoes": [
+                    {
+                      "source": "Daniel 12:7-9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I heard the man clothed in linen, who was above the waters of the river, when he held up his right hand and his left hand to heaven, and swore by him who lives forever that it shall be for a time, times, and a half; and when they have made an end of breaking in pieces the power of the holy people, all these things shall be finished. I heard, but I didn’t understand: then I said, my lord, what shall be the issue of these things? He said, Go your way, […]",
+                      "note": "Daniel is told 'the words are shut up and sealed until the time of the end' — the timing of the consummation is withheld even from the seer. Mark's 'no one knows the day or hour' continues this Danielic concealment of the appointed time, the necessary counterpart to the timetable expounded throughout the chapter.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 2:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will stand at my watch, and set myself on the ramparts, and will look out to see what he will say to me, and what I will answer concerning my complaint. Yahweh answered me, “Write the vision, and make it plain on tablets, that he who runs may read it. For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "The watchman who stations himself to keep watch (2:1) and the vision that 'awaits its appointed time... if it seems slow, wait for it' (2:3) supplies the watching-for-a-delayed-coming posture behind the doorkeeper commanded to keep watch and the repeated 'watch.' The waiting-watchman for an appointed-yet-delayed arrival is the Habakkuk pattern."
+                    },
+                    {
+                      "source": "Isaiah 21:6-8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the Lord said to me, “Go, set a watchman. Let him declare what he sees. When he sees a troop, horsemen in pairs, a troop of donkeys, a troop of camels, he shall listen diligently with great attentiveness.” He cried like a lion: “Lord, I stand continually on the watchtower in the daytime, and every night I stay at my post.",
+                      "note": "'Go, set a watchman... he calls, Upon a watchtower I stand continually by day, and at my post whole nights' provides the prophetic figure of the sentinel keeping watch through the night-watches. Mark's doorkeeper told to 'keep watch' and the listing of evening/midnight/cockcrow/morning watches draw on this watchman tradition."
+                    },
+                    {
+                      "source": "Zechariah 14:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will be a unique day which is known to Yahweh; not day, and not night; but it will come to pass, that at evening time there will be light.",
+                      "note": "'A unique day... known to the LORD' on which the timing is hidden faintly parallels 'of that day or hour no one knows... but only the Father.' Zechariah's day-of-the-LORD whose timing belongs to God alone coheres with Mark's reservation of the hour to the Father; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies.",
+                      "note": "'The Lord whom you seek will suddenly come to his temple' parallels the master who returns 'suddenly,' lest he find the servants sleeping. The sudden, unannounced arrival of the lord coheres with Malachi's suddenly-coming Lord; faint and contested, but Malachi is a recurrent source in Mark.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 33:2-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Son of man, speak to the children of your people, and tell them, When I bring the sword on a land, and the people of the land take a man from among them, and set him for their watchman; if, when he sees the sword come on the land, he blow the trumpet, and warn the people; then whoever hears the sound of the trumpet, and doesn’t take warning, if the sword come, and take him away, his blood shall be on his own head. He heard the sound of the trumpet, and […]",
+                      "note": "Ezekiel's watchman charged with sounding the alarm and held accountable if he fails to keep watch supplies the responsibility-of-the-sentinel theme behind 'commanded the doorkeeper to keep watch.' Faint relative to Isaiah 21 and Habakkuk 2; included for the recurrent watchman motif.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 39:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Joseph found favor in his sight. He ministered to him, and he made him overseer over his house, and all that he had he put into his hand.",
+                      "note": "The parable of the man who goes abroad, leaves his house, and assigns each servant authority over his work faintly recalls the trusted-steward-over-an-absent-master's-household pattern (e.g., Joseph over Potiphar's house). A diffuse OT household-management topos rather than a specific text; low confidence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 7:9-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "in the twilight, in the evening of the day, in the middle of the night and in the darkness. Behold, there a woman met him with the attire of a prostitute, and with crafty intent.",
+                      "note": "The four night-watches (evening, midnight, cockcrow, morning) draw on the OT/Second-Temple reckoning of the night's divisions; Proverbs' 'in the twilight, in the evening, at the time of night and darkness' attests the watch-segmented night. Marked contested as a cultural-temporal echo rather than a quoted text.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Olivet discourse",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "24:1–25:46",
+                        "mark": "13:1–37",
+                        "luke": "21:5–38"
+                      },
+                      "note": "The discourse on the end; Matthew adds the parables of the virgins, the talents, and the sheep and goats."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

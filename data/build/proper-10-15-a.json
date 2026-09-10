@@ -732,7 +732,105 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-25"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 25:22",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.39-Luke.1.45",
+                      "refDisplay": "Luke 1:39–45",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 25:24",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.57-Luke.1.66",
+                      "refDisplay": "Luke 1:57–66",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.12"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 25:26",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.1-Acts.7.8",
+                      "refDisplay": "Acts 7:1–8",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 25:23",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.9.6-Rom.9.13",
+                      "refDisplay": "Romans 9:6–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-9.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 25:21",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.9.6-Rom.9.13",
+                      "refDisplay": "Romans 9:6–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-9.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 25:29–34",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.12.14-Heb.12.17",
+                      "refDisplay": "Hebrews 12:14–17",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "12.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-12.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -745,7 +843,50 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-119"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 119:105",
+                  "occurrences": [
+                    {
+                      "refKey": "2Pet.1.19-2Pet.1.21",
+                      "refDisplay": "2 Peter 1:19–21",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-peter#p-1.5"
+                    },
+                    {
+                      "refKey": "Matt.6.22-Matt.6.23",
+                      "refDisplay": "Matthew 6:22–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.7"
+                    },
+                    {
+                      "refKey": "John.8.12-John.8.20",
+                      "refDisplay": "John 8:12–20",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "8.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-8.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -764,7 +905,118 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.1",
+                  "ref": "8:1-17",
+                  "echoes": [
+                    {
+                      "source": "Exodus 4:22-23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn, and I have said to you, “Let my son go, that he may serve me”; and you have refused to let him go. Behold, I will kill your son, your firstborn.’”",
+                      "note": "'Israel is my son, my firstborn' grounds the sonship/adoption language of vv.14-17; the Spirit constitutes believers as 'children of God,' transferring Israel's sonship status to those led by the Spirit."
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The Spirit enabling 'the ordinance of the law' to be 'fulfilled in us' (v.4) draws on the new-covenant promise to write the Torah on the heart, internalizing the law by divine agency rather than external command."
+                    },
+                    {
+                      "source": "Ezekiel 36:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "'I will put my Spirit within you and cause you to walk in my statutes' undergirds vv.4-9: the indwelling Spirit (vv.9,11) produces obedience and 'walking according to the Spirit'; the verbal cluster Spirit-indwelling-walking-statutes is distinctive to Ezekiel."
+                    },
+                    {
+                      "source": "Ezekiel 37:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it and performed it, says Yahweh.",
+                      "note": "'I will put my Spirit in you and you shall live' (the dry-bones vision) lies behind v.11, where the Spirit who raised Jesus 'will also give life to your mortal bodies'; Spirit-giving-life-to-dead-bodies is the precise Ezekielian figure."
+                    },
+                    {
+                      "source": "Deuteronomy 30:15-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Behold, I have set before you this day life and prosperity, and death and evil. For I command you this day to love Yahweh your God, to walk in his ways, and to keep his commandments, his statutes, and his ordinances, that you may live and multiply, and that Yahweh your God may bless you in the land where you go in to possess it. But if your heart turns away, and you will not hear, but are drawn away, and worship other gods, and serve them; I denounce to […]",
+                      "note": "'The mind of the flesh is death, but the mind of the Spirit is life and peace' and 'if you live after the flesh you must die... by the Spirit... you will live' (vv.6,13) reframe the covenantal life-and-death choice of Moses' exhortation set before Israel."
+                    },
+                    {
+                      "source": "Hosea 11:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“When Israel was a child, then I loved him, and called my son out of Egypt.",
+                      "note": "'When Israel was a child I loved him, and out of Egypt I called my son' supplies the adopted-son-led-by-God motif (vv.14-15); the tender father-son relation undergirds the cry 'Abba! Father!'"
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'In the place where it was said to them, You are not my people, it shall be said, You are children of the living God' anticipates 'these are children of God' / 'we are children of God' (vv.14,16); Paul cites this very text in Romans 9:26."
+                    },
+                    {
+                      "source": "Leviticus 4:3",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "if the anointed priest sins so as to bring guilt on the people, then let him offer for his sin, which he has sinned, a young bull without defect to Yahweh for a sin offering.",
+                      "note": "'for sin' (peri hamartias) in v.3 reproduces the Septuagint's standing phrase for the sin offering; God's sending his Son 'for sin' figurally casts Christ in the role of the Levitical purification sacrifice that 'condemns sin in the flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”",
+                      "note": "The flesh/Spirit antithesis (vv.5-9), where 'flesh' marks mortal humanity opposed to God's enduring Spirit, faintly recalls 'My Spirit will not abide in man forever, for he is flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The spirit is alive' / God giving 'life to your mortal bodies' (vv.10-11) faintly evokes the breath of life animating dust-formed Adam, now reapplied as resurrection-life by the Spirit.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "'You, O LORD, are our Father' — Israel's corporate address of God as Father — stands behind the Spirit-prompted filial cry 'Abba! Father!' (v.15).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 3:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“But I said, ‘How I would put you among the children, and give you a pleasant land, a goodly heritage of the armies of the nations!’ and I said, ‘You shall call me “My Father”, and shall not turn away from following me.’",
+                      "note": "'I thought you would call me My Father and would not turn from following me' — God's hope that adopted Israel address him as Father — resonates with the adoptive cry of v.15.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will walk among you, and will be your God, and you will be my people.",
+                      "note": "The covenant formula 'I will... be your God, and you shall be my people,' realized through the indwelling Spirit (vv.9-16), faintly underlies the divine-belonging and sonship affirmed by the Spirit's testimony.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -783,7 +1035,67 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.1",
+                  "ref": "13:1-9",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 55:10-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For as the rain comes down and the snow from the sky, and doesn’t return there, but waters the earth, and makes it grow and bud, and gives seed to the sower and bread to the eater; so shall my word be that goes out of my mouth: it shall not return to me void, but it shall accomplish that which I please, and it shall prosper in the thing I sent it to do.",
+                      "note": "The word/seed that goes out from God's mouth and does not return empty but accomplishes its purpose, yielding seed and bread; the sower-and-word matrix governs the parable, made explicit in the later interpretation (v.19, 'the word of the Kingdom')."
+                    },
+                    {
+                      "source": "Jeremiah 4:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For thus says Yahweh to the men of Judah and to Jerusalem, “Break up your fallow ground, and don’t sow among thorns.",
+                      "note": "'Break up your fallow ground, and do not sow among thorns' — the contrast of receptive ground vs. thorn-choked soil maps directly onto Jesus' soils; thorns that choke recur in v.7, 22."
+                    },
+                    {
+                      "source": "Hosea 10:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Sow to yourselves in righteousness, reap according to kindness. Break up your fallow ground; for it is time to seek Yahweh, until he comes and rains righteousness on you.",
+                      "note": "'Sow righteousness... break up your fallow ground' — agricultural sowing-and-reaping imagery for response to God's word; thematic rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Isaac sowed in that land, and reaped in the same year one hundred times what he planted. Yahweh blessed him.",
+                      "note": "Isaac sows and reaps a hundredfold (LXX 'hekatosteuousan') in the same year — the only clear OT 'hundredfold' agricultural blessing, possible backdrop for the good soil's hundredfold yield (v.8).",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Esdras 8:41",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For as the husbandman sows much seed upon the ground, and plants many trees, and yet not all that is sown shall come up in due season, neither shall all that is planted take root: even so those who are sown in the world shall not all be saved.",
+                      "note": "Second Temple (4 Ezra): the farmer sows much seed but not all that is sown takes root or is saved — a near-contemporary Jewish sower parable of differential reception; cf. also 2 Esdras 9:31.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill. He dug it up, gathered out its stones, planted it with the choicest vine, built a tower in its midst, and also cut out a wine press therein. He looked for it to yield grapes, but it yielded wild grapes. “Now, inhabitants of Jerusalem and men of Judah, please judge between me and my vineyard. What could have been done more to my […]",
+                      "note": "The Song of the Vineyard: God plants/sows expecting fruit and is disappointed by a barren yield; thematic kinship with fruit-bearing soils but no verbal overlap.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1585,7 +1897,185 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-55"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 55:10–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.1-Matt.13.9",
+                      "refDisplay": "Matthew 13:1–9",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.1"
+                    },
+                    {
+                      "refKey": "Matt.13.18-Matt.13.23",
+                      "refDisplay": "Matthew 13:18–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.3"
+                    },
+                    {
+                      "refKey": "Mark.4.1-Mark.4.9",
+                      "refDisplay": "Mark 4:1–9",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-4.1"
+                    },
+                    {
+                      "refKey": "Mark.4.13-Mark.4.20",
+                      "refDisplay": "Mark 4:13–20",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-4.4"
+                    },
+                    {
+                      "refKey": "Luke.8.4-Luke.8.8",
+                      "refDisplay": "Luke 8:4–8",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-8.2"
+                    },
+                    {
+                      "refKey": "Luke.8.11-Luke.8.15",
+                      "refDisplay": "Luke 8:11–15",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-8.4"
+                    },
+                    {
+                      "refKey": "Col.1.3-Col.1.8",
+                      "refDisplay": "Colossians 1:3–8",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/colossians#p-1.2"
+                    },
+                    {
+                      "refKey": "Acts.12.24-Acts.12.25",
+                      "refDisplay": "Acts 12:24–25",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-12.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 55:11",
+                  "occurrences": [
+                    {
+                      "refKey": "2Thess.3.1-2Thess.3.2",
+                      "refDisplay": "2 Thessalonians 3:1–2",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "3.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-3.1"
+                    },
+                    {
+                      "refKey": "Acts.19.8-Acts.19.10",
+                      "refDisplay": "Acts 19:8–10",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "19.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-19.2"
+                    },
+                    {
+                      "refKey": "Acts.19.18-Acts.19.20",
+                      "refDisplay": "Acts 19:18–20",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "19.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-19.5"
+                    },
+                    {
+                      "refKey": "1Thess.1.8",
+                      "refDisplay": "1 Thessalonians 1:8",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-1.8"
+                    },
+                    {
+                      "refKey": "2Tim.2.8-2Tim.2.13",
+                      "refDisplay": "2 Timothy 2:8–13",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 55:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.14.13-Rom.14.23",
+                      "refDisplay": "Romans 14:13–23",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-14.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 55:10",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.9.8-2Cor.9.11",
+                      "refDisplay": "2 Corinthians 9:8–11",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "9.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-9.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1598,7 +2088,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-65"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 65:9–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.14.14-Acts.14.18",
+                      "refDisplay": "Acts 14:14–18",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-14.3"
+                    },
+                    {
+                      "refKey": "Matt.5.43-Matt.5.48",
+                      "refDisplay": "Matthew 5:43–48",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1617,7 +2140,118 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.1",
+                  "ref": "8:1-17",
+                  "echoes": [
+                    {
+                      "source": "Exodus 4:22-23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn, and I have said to you, “Let my son go, that he may serve me”; and you have refused to let him go. Behold, I will kill your son, your firstborn.’”",
+                      "note": "'Israel is my son, my firstborn' grounds the sonship/adoption language of vv.14-17; the Spirit constitutes believers as 'children of God,' transferring Israel's sonship status to those led by the Spirit."
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The Spirit enabling 'the ordinance of the law' to be 'fulfilled in us' (v.4) draws on the new-covenant promise to write the Torah on the heart, internalizing the law by divine agency rather than external command."
+                    },
+                    {
+                      "source": "Ezekiel 36:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "'I will put my Spirit within you and cause you to walk in my statutes' undergirds vv.4-9: the indwelling Spirit (vv.9,11) produces obedience and 'walking according to the Spirit'; the verbal cluster Spirit-indwelling-walking-statutes is distinctive to Ezekiel."
+                    },
+                    {
+                      "source": "Ezekiel 37:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it and performed it, says Yahweh.",
+                      "note": "'I will put my Spirit in you and you shall live' (the dry-bones vision) lies behind v.11, where the Spirit who raised Jesus 'will also give life to your mortal bodies'; Spirit-giving-life-to-dead-bodies is the precise Ezekielian figure."
+                    },
+                    {
+                      "source": "Deuteronomy 30:15-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Behold, I have set before you this day life and prosperity, and death and evil. For I command you this day to love Yahweh your God, to walk in his ways, and to keep his commandments, his statutes, and his ordinances, that you may live and multiply, and that Yahweh your God may bless you in the land where you go in to possess it. But if your heart turns away, and you will not hear, but are drawn away, and worship other gods, and serve them; I denounce to […]",
+                      "note": "'The mind of the flesh is death, but the mind of the Spirit is life and peace' and 'if you live after the flesh you must die... by the Spirit... you will live' (vv.6,13) reframe the covenantal life-and-death choice of Moses' exhortation set before Israel."
+                    },
+                    {
+                      "source": "Hosea 11:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“When Israel was a child, then I loved him, and called my son out of Egypt.",
+                      "note": "'When Israel was a child I loved him, and out of Egypt I called my son' supplies the adopted-son-led-by-God motif (vv.14-15); the tender father-son relation undergirds the cry 'Abba! Father!'"
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'In the place where it was said to them, You are not my people, it shall be said, You are children of the living God' anticipates 'these are children of God' / 'we are children of God' (vv.14,16); Paul cites this very text in Romans 9:26."
+                    },
+                    {
+                      "source": "Leviticus 4:3",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "if the anointed priest sins so as to bring guilt on the people, then let him offer for his sin, which he has sinned, a young bull without defect to Yahweh for a sin offering.",
+                      "note": "'for sin' (peri hamartias) in v.3 reproduces the Septuagint's standing phrase for the sin offering; God's sending his Son 'for sin' figurally casts Christ in the role of the Levitical purification sacrifice that 'condemns sin in the flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”",
+                      "note": "The flesh/Spirit antithesis (vv.5-9), where 'flesh' marks mortal humanity opposed to God's enduring Spirit, faintly recalls 'My Spirit will not abide in man forever, for he is flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The spirit is alive' / God giving 'life to your mortal bodies' (vv.10-11) faintly evokes the breath of life animating dust-formed Adam, now reapplied as resurrection-life by the Spirit.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "'You, O LORD, are our Father' — Israel's corporate address of God as Father — stands behind the Spirit-prompted filial cry 'Abba! Father!' (v.15).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 3:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“But I said, ‘How I would put you among the children, and give you a pleasant land, a goodly heritage of the armies of the nations!’ and I said, ‘You shall call me “My Father”, and shall not turn away from following me.’",
+                      "note": "'I thought you would call me My Father and would not turn from following me' — God's hope that adopted Israel address him as Father — resonates with the adoptive cry of v.15.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will walk among you, and will be your God, and you will be my people.",
+                      "note": "The covenant formula 'I will... be your God, and you shall be my people,' realized through the indwelling Spirit (vv.9-16), faintly underlies the divine-belonging and sonship affirmed by the Spirit's testimony.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1636,7 +2270,67 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.1",
+                  "ref": "13:1-9",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 55:10-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For as the rain comes down and the snow from the sky, and doesn’t return there, but waters the earth, and makes it grow and bud, and gives seed to the sower and bread to the eater; so shall my word be that goes out of my mouth: it shall not return to me void, but it shall accomplish that which I please, and it shall prosper in the thing I sent it to do.",
+                      "note": "The word/seed that goes out from God's mouth and does not return empty but accomplishes its purpose, yielding seed and bread; the sower-and-word matrix governs the parable, made explicit in the later interpretation (v.19, 'the word of the Kingdom')."
+                    },
+                    {
+                      "source": "Jeremiah 4:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For thus says Yahweh to the men of Judah and to Jerusalem, “Break up your fallow ground, and don’t sow among thorns.",
+                      "note": "'Break up your fallow ground, and do not sow among thorns' — the contrast of receptive ground vs. thorn-choked soil maps directly onto Jesus' soils; thorns that choke recur in v.7, 22."
+                    },
+                    {
+                      "source": "Hosea 10:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Sow to yourselves in righteousness, reap according to kindness. Break up your fallow ground; for it is time to seek Yahweh, until he comes and rains righteousness on you.",
+                      "note": "'Sow righteousness... break up your fallow ground' — agricultural sowing-and-reaping imagery for response to God's word; thematic rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Isaac sowed in that land, and reaped in the same year one hundred times what he planted. Yahweh blessed him.",
+                      "note": "Isaac sows and reaps a hundredfold (LXX 'hekatosteuousan') in the same year — the only clear OT 'hundredfold' agricultural blessing, possible backdrop for the good soil's hundredfold yield (v.8).",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Esdras 8:41",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For as the husbandman sows much seed upon the ground, and plants many trees, and yet not all that is sown shall come up in due season, neither shall all that is planted take root: even so those who are sown in the world shall not all be saved.",
+                      "note": "Second Temple (4 Ezra): the farmer sows much seed but not all that is sown takes root or is saved — a near-contemporary Jewish sower parable of differential reception; cf. also 2 Esdras 9:31.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill. He dug it up, gathered out its stones, planted it with the choicest vine, built a tower in its midst, and also cut out a wine press therein. He looked for it to yield grapes, but it yielded wild grapes. “Now, inhabitants of Jerusalem and men of Judah, please judge between me and my vineyard. What could have been done more to my […]",
+                      "note": "The Song of the Vineyard: God plants/sows expecting fruit and is disappointed by a barren yield; thematic kinship with fruit-bearing soils but no verbal overlap.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

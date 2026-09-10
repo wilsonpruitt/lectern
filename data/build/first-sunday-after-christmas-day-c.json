@@ -603,7 +603,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/1-samuel-2"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -616,7 +619,75 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-148"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 148:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.2.8-Luke.2.14",
+                      "refDisplay": "Luke 2:8–14",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 148:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.19.28-Luke.19.40",
+                      "refDisplay": "Luke 19:28–40",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "19.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-19.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 148:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.1.7",
+                      "refDisplay": "Hebrews 1:7",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 148:7–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.5.11-Rev.5.14",
+                      "refDisplay": "Revelation 5:11–14",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "5.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-5.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -635,7 +706,117 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:12-14",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 7:6-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For you are a holy people to Yahweh your God. Yahweh your God has chosen you to be a people for his own possession, above all peoples who are on the face of the earth. Yahweh didn’t set his love on you, nor choose you, because you were more in number than any people; for you were the fewest of all peoples:",
+                      "note": "\"As God's chosen ones, holy and beloved\" transfers to the church Israel's defining triad: chosen, a holy people, beloved by the LORD's set love. High coherence and recurrence; the election language (eklektoi, hagioi, egapemenoi) maps directly onto Deuteronomy's covenant self-description of Israel."
+                    },
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "\"Compassion, kindness, lowliness, humility, and perseverance\" reproduces the cluster of the divine attributes proclaimed at Sinai (compassionate, gracious, slow to anger, abounding in steadfast love). High recurrence: this is the OT's signature self-revelation of God's character, and believers are to put it on in imitation. Coherence with the forgiving-as-the-Lord-forgave clause is exact."
+                    },
+                    {
+                      "source": "Psalm 103:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh is merciful and gracious, slow to anger, and abundant in loving kindness.",
+                      "note": "\"The LORD is compassionate and gracious, slow to anger and abounding in mercy\" is the psalmist's reuse of Exod 34:6 and supplies the same attribute-list the believer dons. Strong recurrence of the formula; the surrounding theme of God's forgiveness (Ps 103:12) coheres with \"even as Christ forgave you\" in v.13."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "\"Above all these things, walk in love, which is the bond of perfection\" rests on the love command of the Holiness Code, the OT verse Paul treats as summing up neighbor-ethics. High coherence: love crowning and binding the virtue list functions as the fulfillment of Lev 19:18; strong recurrence in Pauline paraenesis."
+                    },
+                    {
+                      "source": "Isaiah 43:20-21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The animals of the field shall honor me, the jackals and the ostriches; because I give water in the wilderness and rivers in the desert, to give drink to my people, my chosen, the people which I formed for myself, that they might declare my praise.",
+                      "note": "\"My chosen people... which I formed for myself\" stands behind \"God's chosen ones,\" the elect people gathered to declare God's praise. Supports the high-confidence election cluster; medium because Deut 7 is the more controlling source, with Isaiah reinforcing the chosen-and-beloved motif."
+                    },
+                    {
+                      "source": "Joel 2:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Tear your heart, and not your garments, and turn to Yahweh, your God; for he is gracious and merciful, slow to anger, and abundant in loving kindness, and relents from sending calamity.",
+                      "note": "The gracious-and-compassionate, slow-to-anger formula also appears in Joel and could feed the attribute cluster of v.12. Low/secondary; Exod 34:6 and Ps 103:8 are the primary witnesses, with Joel one of several prophetic reuses of the same liturgical formula.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.5",
+                  "ref": "3:15-17",
+                  "echoes": [
+                    {
+                      "source": "Psalm 33:2-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give thanks to Yahweh with the lyre. Sing praises to him with the harp of ten strings. Sing to him a new song. Play skillfully with a shout of joy!",
+                      "note": "\"Psalms, hymns, and spiritual songs, singing with grace\" echoes the psalter's call to sing a new song with skill and praise. Medium volume; \"psalms\" is itself the genre word, and the threefold list of sung praise coheres with Israel's temple-song tradition the term presupposes."
+                    },
+                    {
+                      "source": "1 Chronicles 16:7-36",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then on that day David first ordained to give thanks to Yahweh, by the hand of Asaph and his brothers. Oh give thanks to Yahweh. Call on his name. Make his doings known among the peoples. Sing to him. Sing praises to him. Tell of all his marvelous works. Glory in his holy name. Let the heart of those who seek Yahweh rejoice. Seek Yahweh and his strength. Seek his face forever more. Remember his marvelous works that he has done, his wonders, and the […]",
+                      "note": "The injunction to teach and admonish with psalms and thanksgiving recalls David's appointment of song and thanks before the ark. Faint; contact is the institution of communal praise/thanksgiving (\"be thankful,\" v.15) rather than any quoted line, so volume is low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Chronicles 25:1-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Moreover, David and the captains of the army set apart for the service certain of the sons of Asaph, and of Heman, and of Jeduthun, who should prophesy with harps, with stringed instruments, and with cymbals: and the number of those who did the work according to their service was: of the sons of Asaph: Zaccur, and Joseph, and Nethaniah, and Asharelah, the sons of Asaph, under the hand of Asaph, who prophesied after the order of the king. Of Jeduthun; the […]",
+                      "note": "\"Spiritual songs\" and the temple-singer guilds set apart to prophesy with music stand behind the Christian assembly's sung instruction. Low/contested; the link is the institutional background of inspired temple song, not verbal citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 6:6-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "These words, which I command you this day, shall be on your heart; and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+                      "note": "\"Let the word of Christ dwell in you richly... teaching and admonishing\" coheres with the Shema's command to let God's words remain in the heart and to teach them diligently. Faint; the indwelling-and-teaching-the-word motif is suggestive but generic to Deuteronomic catechesis.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "but his delight is in Yahweh’s law. On his law he meditates day and night.",
+                      "note": "The word dwelling in believers richly resonates with the blessed one whose delight is in the law, meditating on it day and night. Low volume and contested; thematic overlap (the indwelling, treasured word) without lexical contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 105:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Give thanks to Yahweh! Call on his name! Make his doings known among the peoples.",
+                      "note": "\"Do all in the name of the Lord... giving thanks\" echoes the psalmist's \"give thanks to the LORD, call upon his name.\" Faint; the thanks-and-the-name pairing is a stock liturgical formula recurring across the psalter, so no single verse controls.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -654,7 +835,116 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.9",
+                  "ref": "2:41-52",
+                  "echoes": [
+                    {
+                      "source": "1 Samuel 2:26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The child Samuel grew on, and increased in favor both with Yahweh, and also with men.",
+                      "note": "The closing 'Jesus increased in wisdom and stature, and in favor with God and men' restates Samuel's growth 'in favor with the LORD and with men,' an inclusio with v. 40. Strong verbal parallel and double recurrence make this the chapter's clearest growth-formula allusion."
+                    },
+                    {
+                      "source": "Exodus 23:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall observe the feast of unleavened bread. Seven days you shall eat unleavened bread, as I commanded you, at the time appointed in the month Abib (for in it you came out of Egypt), and no one shall appear before me empty.",
+                      "note": "The family's annual Passover pilgrimage to Jerusalem enacts the Torah requirement that all appear before the LORD at the appointed feasts, the first being Unleavened Bread/Passover. The pilgrimage-feast obligation gives the scene its legal frame and coherence with Luke's law-observant family."
+                    },
+                    {
+                      "source": "Deuteronomy 16:1-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Observe the month of Abib, and keep the Passover to Yahweh your God; for in the month of Abib Yahweh your God brought you out of Egypt by night. You shall sacrifice the Passover to Yahweh your God, of the flock and the herd, in the place which Yahweh shall choose, to cause his name to dwell there. You shall eat no leavened bread with it. You shall eat unleavened bread with it seven days, even the bread of affliction; for you came out of the land of Egypt […]",
+                      "note": "Going up 'every year to Jerusalem at the feast of the Passover' follows the Deuteronomic centralization of Passover at the place the LORD chooses, i.e., Jerusalem. Availability is direct and coherence exact for the pilgrimage detail in vv. 41-42."
+                    },
+                    {
+                      "source": "Malachi 3:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies.",
+                      "note": "Jesus is found in the temple declaring he 'must be in my Father's house,' the Lord present in his own temple as Malachi foretold and as Simeon's temple-encounter anticipated. The temple-claim coheres with the Father-Son relation Luke develops and recurs across the chapter's temple scenes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 12:1-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh spoke to Moses and Aaron in the land of Egypt, saying, “This month shall be to you the beginning of months. It shall be the first month of the year to you. Speak to all the congregation of Israel, saying, ‘On the tenth day of this month, they shall take to them every man a lamb, according to their fathers’ houses, a lamb for a household; and if the household is too little for a lamb, then he and his neighbor next to his house shall take one […]",
+                      "note": "The explicit Passover setting frames Jesus' first recorded words against the founding redemption feast, a figural touch given Luke's later Passion-Passover. The connection is contextual rather than verbal here, so a faint echo at this point in the narrative.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:32-35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Now therefore, my sons, listen to me, for blessed are those who keep my ways. Hear instruction, and be wise. Don’t refuse it. Blessed is the man who hears me, watching daily at my gates, waiting at my door posts. For whoever finds me, finds life, and will obtain favor from Yahweh.",
+                      "note": "The boy 'filled with wisdom,' astonishing the teachers and increasing 'in wisdom,' is colored by Wisdom's call to the children who keep her ways and find favor from the LORD. The wisdom-and-favor coherence is real but the sapiential coloring is diffuse, so a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 8:19-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now I was a child of parts, and a good soul fell to my lot; Nay rather, being good, I came into a body undefiled. But perceiving that I could not otherwise possess wisdom except God gave her me (Yes and to know by whom the grace is given, this too came of understanding), I pleaded with the Lord and implored him, and with my whole heart I said,",
+                      "note": "The precociously wise child amazing his elders resembles the ideal in Wisdom where the speaker, 'a child of good parts,' receives wisdom as a gift sought in the sanctuary. The early-wisdom motif is coherent within Second-Temple thought, though not a verbal source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 6:34-37",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Stand you in the multitude of the elders; And whoso is wise, cleave you to him. Be willing to listen to every godly discourse; And don’t let the proverbs of understanding escape you. If you see a man of understanding, get you betimes to him, And let your foot wear out the steps of his doors. Let your mind dwell upon the ordinances of the Lord, And meditate continually in his commandments: He will establish your heart, And your desire of wisdom will be […]",
+                      "note": "Jesus 'sitting in the midst of the teachers, both listening and asking questions' embodies Ben Sira's counsel to stand in the assembly of elders, attach oneself to the wise, and meditate on the law. The disciple-among-the-sages image coheres, but the link is thematic and faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 27:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "One thing I have asked of Yahweh, that I will seek after, that I may dwell in Yahweh’s house all the days of my life, to see Yahweh’s beauty, and to inquire in his temple.",
+                      "note": "Jesus' devotion to being 'in my Father's house' resonates with the psalmist's one desire 'to dwell in the house of the LORD all the days of my life.' The longing-for-God's-house theme is coherent but generic, hence a faint supporting echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 6:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "After two days he will revive us. On the third day he will raise us up, and we will live before him.",
+                      "note": "'After three days they found him' has occasionally been read against Hosea's 'on the third day he will raise us up,' a figural foreshadowing of the resurrection found-on-the-third-day. The three-days detail offers verbal contact, but the application is debated, so a contested faint echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The boy Jesus in the temple",
+                      "section": "beginnings",
+                      "refs": {
+                        "luke": "2:41–52"
+                      },
+                      "note": "The one window between infancy and ministry: \"Didn't you know that I must be in my Father's house?\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

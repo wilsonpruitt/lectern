@@ -643,7 +643,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/2-samuel-1"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -656,7 +659,95 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-130"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 130:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.1.18-Matt.1.25",
+                      "refDisplay": "Matthew 1:18–25",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-1.2"
+                    },
+                    {
+                      "refKey": "Titus.2.11-Titus.2.14",
+                      "refDisplay": "Titus 2:11–14",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/titus#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    },
+                    {
+                      "refKey": "Eph.1.7-Eph.1.8",
+                      "refDisplay": "Ephesians 1:7–8",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.2.1-Mark.2.12",
+                      "refDisplay": "Mark 2:1–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -675,7 +766,89 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.1",
+                  "ref": "8:1-7",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 15:7-11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If a poor man, one of your brothers, is with you within any of your gates in your land which Yahweh your God gives you, you shall not harden your heart, nor shut your hand from your poor brother; but you shall surely open your hand to him, and shall surely lend him sufficient for his need, which he lacks. Beware that there not be a base thought in your heart, saying, “The seventh year, the year of release, is at hand”; and your eye be evil against your […]",
+                      "note": "Paul's appeal that the Macedonians gave generously out of deep poverty rests on the Deuteronomic open-hand command: do not harden your heart against the poor brother but give freely. The 'fellowship in service to the saints' (v.4) reflects the same covenantal obligation to relieve a needy member of God's people. Coherence with the whole collection theme is high, though the verbal link is thematic rather than lexical."
+                    },
+                    {
+                      "source": "Proverbs 11:24-25",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "There is one who scatters, and increases yet more. There is one who withholds more than is appropriate, but gains poverty. The liberal soul shall be made fat. He who waters shall be watered also himself.",
+                      "note": "The paradox that the Macedonians' deep poverty 'abounded to the riches of their liberality' (v.2) echoes the wisdom maxim that one who scatters yet increases and the liberal soul is made rich. The generosity-brings-abundance reversal is a recurring sapiential theme Paul draws on through the chapter; volume is modest, coherence strong."
+                    },
+                    {
+                      "source": "Exodus 35:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "‘Take from among you an offering to Yahweh. Whoever is of a willing heart, let him bring it, Yahweh’s offering: gold, silver, brass,",
+                      "note": "The Macedonians giving 'of their own accord' and begging to share in the collection (vv.3-4) recalls the willing-hearted offering for the tabernacle, where everyone whose heart stirred him brought a freewill gift. The collection-for-the-sanctuary typology underlies Paul's framing of the Jerusalem fund as a sacred offering. Faint and contested as a deliberate echo.",
+                      "contested": true,
+                      "altSource": "Exodus 25:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.2",
+                  "ref": "8:8-12",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 22:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He who has a generous eye will be blessed; for he shares his food with the poor.",
+                      "note": "The summons to a willing readiness in giving 'according to what you have' (vv.11-12) resonates with the blessing on the bountiful eye that gives bread to the poor. The wisdom tradition that values the disposition of the giver over the amount stands behind Paul's stress on willingness; the link is thematic and faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:2-9",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "For he grew up before him as a tender plant, and as a root out of dry ground. He has no good looks or majesty. When we see him, there is no beauty that we should desire him. He was despised, and rejected by men; a man of suffering, and acquainted with disease. He was despised as one from whom men hide their face; and we didn’t respect him. Surely he has borne our sickness, and carried our suffering; yet we considered him plagued, struck by God, and […]",
+                      "note": "The Christological reversal in v.9, 'though he was rich, yet for your sakes he became poor,' may evoke the Servant who, despised and stripped of form, is poured out and yet by his abasement enriches the many. The pattern of voluntary self-impoverishment for others' gain coheres with Isaiah's Servant, but the conceptual frame of pre-existent riches is Pauline rather than verbal Isaianic; contested.",
+                      "contested": true,
+                      "altSource": "Philippians 2:6-8"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.3",
+                  "ref": "8:13-15",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "When they measured it with an omer, he who gathered much had nothing over, and he who gathered little had no lack. They gathered every man according to his eating.",
+                      "note": "Verse 15 explicitly quotes ('as it is written') the manna narrative: 'He who gathered much had nothing left over, and he who gathered little had no lack.' Paul lifts the LXX wording of the equalizing of the manna to ground his principle of economic equality among the assemblies. Volume, explicit citation formula, and coherence with the equality theme are all maximal."
+                    },
+                    {
+                      "source": "Leviticus 25:35-37",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘If your brother has become poor, and his hand can’t support himself among you; then you shall uphold him. He shall live with you like an alien and a temporary resident. Take no interest from him or profit, but fear your God; that your brother may live among you. You shall not lend him your money at interest, nor give him your food for profit.",
+                      "note": "The principle of 'equality' so that one's abundance supplies another's lack (vv.13-14) resonates with the Jubilee/sabbatical ethic of sustaining the impoverished brother without profit. The leveling vision behind Paul's mutual-supply argument is at home in the Holiness Code's economy of need; faint and thematic.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 15:4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -694,7 +867,147 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.2",
+                  "ref": "5:21-34",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 15:25-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘If a woman has a discharge of her blood many days not in the time of her period, or if she has a discharge beyond the time of her period; all the days of the discharge of her uncleanness shall be as in the days of her period: she is unclean. Every bed whereon she lies all the days of her discharge shall be to her as the bed of her period: and everything whereon she sits shall be unclean, as the uncleanness of her period. Whoever touches these things […]",
+                      "note": "The woman 'with an issue of blood' (v.25) embodies the Levitical zavah: a woman with a discharge beyond her period is unclean all the days of the flow, and whatever and whoever she touches becomes unclean. Her touching Jesus' garment (v.27) inverts the expected contagion — purity flows outward rather than impurity inward. Very high Volume and Thematic Coherence; the legal background is essential to the scene's meaning."
+                    },
+                    {
+                      "source": "Leviticus 15:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘If a woman has a discharge, and her discharge in her flesh is blood, she shall be in her impurity seven days: and whoever touches her shall be unclean until the evening.",
+                      "note": "The baseline menstrual-impurity law ('seven days she shall be in her impurity, and whoever touches her shall be unclean') frames the chronic twelve-year condition (v.25). Establishes that the woman is perpetually outside normal social and cultic contact, deepening the audacity of her approach in the crowd."
+                    },
+                    {
+                      "source": "Leviticus 15:30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The priest shall offer the one for a sin offering, and the other for a burnt offering; and the priest shall make atonement for her before Yahweh for the uncleanness of her discharge.",
+                      "note": "The law's resolution requires the priest to make atonement 'for her unclean discharge,' after which she is clean. Jesus' word 'be cured of your disease' (v.34) functions as the priestly declaration of restored cleanness, the discharge being 'dried up' (v.29). Thematic coherence: Jesus enacts the role the Levitical system assigns to atonement and priestly verdict.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But to you who fear my name shall the sun of righteousness arise with healing in its wings. You will go out, and leap like calves of the stall.",
+                      "note": "'The sun of righteousness shall rise with healing in its wings (kanaph)' — the same term denotes the hem/corner of a garment. The woman seeks healing by touching the edge of Jesus' clothes (vv.27-28), and Matthew/Luke specify the kraspedon (tassel). Faint but evocative: healing located in the garment's edge resonates with Malachi's healing 'in the wings.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 15:38-39",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes in the borders of their garments throughout their generations, and that they put on the fringe of each border a cord of blue: and it shall be to you for a fringe, that you may look on it, and remember all the commandments of Yahweh, and do them; and that you not follow after your own heart and your own eyes, after which you use to play the prostitute;",
+                      "note": "The command to wear tassels on the corners of garments as reminders of the commandments stands behind the Synoptic detail of touching the hem (here generalized as 'his clothes,' v.27). The healing power located in the garment's fringe gains resonance from the sanctity Torah attaches to the tassel; faint in Mark, who omits the tassel itself.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 13:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As they were burying a man, behold, they saw a band of raiders; and they threw the man into Elisha’s tomb. As soon as the man touched the bones of Elisha, he revived, and stood up on his feet.",
+                      "note": "Contact with Elisha's bones revives a corpse — power transmitted by touch from a holy person even involuntarily. The woman's cure by touching Jesus' garment, with power 'gone out from him' (v.30), echoes the prophetic motif of healing virtue conveyed through physical contact. Thematic, supporting the Elijah-Elisha typology that pervades the chapter.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.3",
+                  "ref": "5:35-43",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 17:17-23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "After these things, the son of the woman, the mistress of the house, fell sick; and his sickness was so severe, that there was no breath left in him. She said to Elijah, “What have I to do with you, you man of God? You have come to me to bring my sin to memory, and to kill my son!” He said to her, “Give me your son.” He took him out of her bosom, and carried him up into the room where he stayed, and laid him on his own bed. He cried to Yahweh, and said, […]",
+                      "note": "Elijah raises the widow of Zarephath's son: he goes in to where the child lies, acts privately, and 'the soul of the child came into him again, and he revived,' then Elijah presents the living child. Mark's raising of Jairus' daughter — entering where the child lay (v.40), the restoring word, the return to life (v.42) — is patterned on this paradigmatic prophetic resurrection. Strong Volume and recurrence within the chapter's Elijah-Elisha typology."
+                    },
+                    {
+                      "source": "2 Kings 4:32-37",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When Elisha had come into the house, behold, the child was dead, and laid on his bed. He went in therefore, and shut the door on them both, and prayed to Yahweh. He went up, and lay on the child, and put his mouth on his mouth, and his eyes on his eyes, and his hands on his hands. He stretched himself on him; and the flesh of the child grew warm. Then he returned, and walked in the house once back and forth; and went up, and stretched himself on him. Then […]",
+                      "note": "Elisha raises the Shunammite's son: he enters alone with the dead child, shuts the door (cf. Jesus putting out the mourners, v.40), and the child revives; the mother falls at his feet (cf. Jairus, v.22). The closest single template for Jairus' daughter — privacy, exclusion of others, parental supplication, and bodily resurrection of a child — making the Elisha narrative a primary subtext."
+                    },
+                    {
+                      "source": "2 Kings 4:34-35",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He went up, and lay on the child, and put his mouth on his mouth, and his eyes on his eyes, and his hands on his hands. He stretched himself on him; and the flesh of the child grew warm. Then he returned, and walked in the house once back and forth; and went up, and stretched himself on him. Then the child sneezed seven times, and the child opened his eyes.",
+                      "note": "Elisha's bodily, hands-on revival ('he put his mouth on his mouth... the flesh of the child grew warm') resonates with Jesus 'taking the child by the hand' (v.41). The motif of resurrection effected by the prophet's physical contact strengthens the Elisha typology beyond the structural parallels already noted in 4:32-37.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 17:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Elijah took the child, and brought him down out of the room into the house, and delivered him to his mother; and Elijah said, “Behold, your son lives.”",
+                      "note": "Elijah 'gave him to his mother' after the raising; Jesus likewise restores the child to her parents and orders that she be given food (v.43), confirming bodily life. The return-to-the-parent motif and the demonstration of real restored life cohere closely with the Elijah pattern.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "Jesus' euphemism 'the child is not dead, but is asleep' (v.39) trades on the OT/Second-Temple metaphor of death as sleep from which the dead awake, classically formulated in Daniel's 'many who sleep in the dust of the earth shall awake.' The raising functions as a proleptic sign of resurrection hope; thematic and verbal contact through the sleep-of-death idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 47:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Swear to me,” and he swore to him. Israel bowed himself on the bed’s head.",
+                      "note": "Death-as-sleep language (e.g., the patriarchs 'sleeping with their fathers,' a recurrent OT idiom) underlies Jesus' 'she is asleep' (v.39), prompting the mourners' ridicule because they hear only literal sleep. Faint, depending on the broader idiom rather than a single text; cited to register the OT availability of the metaphor.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 30:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For his anger is but for a moment. His favor is for a lifetime. Weeping may stay for the night, but joy comes in the morning.",
+                      "note": "'Weeping may endure for a night, but joy comes in the morning' — the turning of mourning into rejoicing at a child's restoration loosely echoes the psalm's reversal from lament to deliverance, set against the 'weeping and great wailing' (v.38) Jesus overturns. Thematic only; included as a faint coherence with the chapter's reversal of death into life.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Jairus's daughter and the bleeding woman",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "9:18–26",
+                        "mark": "5:21–43",
+                        "luke": "8:40–56"
+                      },
+                      "note": "A story folded inside a story — \"Talitha cumi,\" the touched hem, \"your faith has made you well.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1507,7 +1820,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/wisdom-of-solomon-1"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1520,7 +1836,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-30"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 30:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.16-John.16.22",
+                      "refDisplay": "John 16:16–22",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-16.4"
+                    },
+                    {
+                      "refKey": "Mark.5.35-Mark.5.43",
+                      "refDisplay": "Mark 5:35–43",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "5.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-5.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 30:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.16.25-Acts.16.34",
+                      "refDisplay": "Acts 16:25–34",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "16.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-16.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 30:3",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.8-2Cor.1.11",
+                      "refDisplay": "2 Corinthians 1:8–11",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1539,7 +1918,89 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.1",
+                  "ref": "8:1-7",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 15:7-11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If a poor man, one of your brothers, is with you within any of your gates in your land which Yahweh your God gives you, you shall not harden your heart, nor shut your hand from your poor brother; but you shall surely open your hand to him, and shall surely lend him sufficient for his need, which he lacks. Beware that there not be a base thought in your heart, saying, “The seventh year, the year of release, is at hand”; and your eye be evil against your […]",
+                      "note": "Paul's appeal that the Macedonians gave generously out of deep poverty rests on the Deuteronomic open-hand command: do not harden your heart against the poor brother but give freely. The 'fellowship in service to the saints' (v.4) reflects the same covenantal obligation to relieve a needy member of God's people. Coherence with the whole collection theme is high, though the verbal link is thematic rather than lexical."
+                    },
+                    {
+                      "source": "Proverbs 11:24-25",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "There is one who scatters, and increases yet more. There is one who withholds more than is appropriate, but gains poverty. The liberal soul shall be made fat. He who waters shall be watered also himself.",
+                      "note": "The paradox that the Macedonians' deep poverty 'abounded to the riches of their liberality' (v.2) echoes the wisdom maxim that one who scatters yet increases and the liberal soul is made rich. The generosity-brings-abundance reversal is a recurring sapiential theme Paul draws on through the chapter; volume is modest, coherence strong."
+                    },
+                    {
+                      "source": "Exodus 35:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "‘Take from among you an offering to Yahweh. Whoever is of a willing heart, let him bring it, Yahweh’s offering: gold, silver, brass,",
+                      "note": "The Macedonians giving 'of their own accord' and begging to share in the collection (vv.3-4) recalls the willing-hearted offering for the tabernacle, where everyone whose heart stirred him brought a freewill gift. The collection-for-the-sanctuary typology underlies Paul's framing of the Jerusalem fund as a sacred offering. Faint and contested as a deliberate echo.",
+                      "contested": true,
+                      "altSource": "Exodus 25:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.2",
+                  "ref": "8:8-12",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 22:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He who has a generous eye will be blessed; for he shares his food with the poor.",
+                      "note": "The summons to a willing readiness in giving 'according to what you have' (vv.11-12) resonates with the blessing on the bountiful eye that gives bread to the poor. The wisdom tradition that values the disposition of the giver over the amount stands behind Paul's stress on willingness; the link is thematic and faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:2-9",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "For he grew up before him as a tender plant, and as a root out of dry ground. He has no good looks or majesty. When we see him, there is no beauty that we should desire him. He was despised, and rejected by men; a man of suffering, and acquainted with disease. He was despised as one from whom men hide their face; and we didn’t respect him. Surely he has borne our sickness, and carried our suffering; yet we considered him plagued, struck by God, and […]",
+                      "note": "The Christological reversal in v.9, 'though he was rich, yet for your sakes he became poor,' may evoke the Servant who, despised and stripped of form, is poured out and yet by his abasement enriches the many. The pattern of voluntary self-impoverishment for others' gain coheres with Isaiah's Servant, but the conceptual frame of pre-existent riches is Pauline rather than verbal Isaianic; contested.",
+                      "contested": true,
+                      "altSource": "Philippians 2:6-8"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.3",
+                  "ref": "8:13-15",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "When they measured it with an omer, he who gathered much had nothing over, and he who gathered little had no lack. They gathered every man according to his eating.",
+                      "note": "Verse 15 explicitly quotes ('as it is written') the manna narrative: 'He who gathered much had nothing left over, and he who gathered little had no lack.' Paul lifts the LXX wording of the equalizing of the manna to ground his principle of economic equality among the assemblies. Volume, explicit citation formula, and coherence with the equality theme are all maximal."
+                    },
+                    {
+                      "source": "Leviticus 25:35-37",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘If your brother has become poor, and his hand can’t support himself among you; then you shall uphold him. He shall live with you like an alien and a temporary resident. Take no interest from him or profit, but fear your God; that your brother may live among you. You shall not lend him your money at interest, nor give him your food for profit.",
+                      "note": "The principle of 'equality' so that one's abundance supplies another's lack (vv.13-14) resonates with the Jubilee/sabbatical ethic of sustaining the impoverished brother without profit. The leveling vision behind Paul's mutual-supply argument is at home in the Holiness Code's economy of need; faint and thematic.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 15:4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1558,7 +2019,147 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.2",
+                  "ref": "5:21-34",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 15:25-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘If a woman has a discharge of her blood many days not in the time of her period, or if she has a discharge beyond the time of her period; all the days of the discharge of her uncleanness shall be as in the days of her period: she is unclean. Every bed whereon she lies all the days of her discharge shall be to her as the bed of her period: and everything whereon she sits shall be unclean, as the uncleanness of her period. Whoever touches these things […]",
+                      "note": "The woman 'with an issue of blood' (v.25) embodies the Levitical zavah: a woman with a discharge beyond her period is unclean all the days of the flow, and whatever and whoever she touches becomes unclean. Her touching Jesus' garment (v.27) inverts the expected contagion — purity flows outward rather than impurity inward. Very high Volume and Thematic Coherence; the legal background is essential to the scene's meaning."
+                    },
+                    {
+                      "source": "Leviticus 15:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘If a woman has a discharge, and her discharge in her flesh is blood, she shall be in her impurity seven days: and whoever touches her shall be unclean until the evening.",
+                      "note": "The baseline menstrual-impurity law ('seven days she shall be in her impurity, and whoever touches her shall be unclean') frames the chronic twelve-year condition (v.25). Establishes that the woman is perpetually outside normal social and cultic contact, deepening the audacity of her approach in the crowd."
+                    },
+                    {
+                      "source": "Leviticus 15:30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The priest shall offer the one for a sin offering, and the other for a burnt offering; and the priest shall make atonement for her before Yahweh for the uncleanness of her discharge.",
+                      "note": "The law's resolution requires the priest to make atonement 'for her unclean discharge,' after which she is clean. Jesus' word 'be cured of your disease' (v.34) functions as the priestly declaration of restored cleanness, the discharge being 'dried up' (v.29). Thematic coherence: Jesus enacts the role the Levitical system assigns to atonement and priestly verdict.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But to you who fear my name shall the sun of righteousness arise with healing in its wings. You will go out, and leap like calves of the stall.",
+                      "note": "'The sun of righteousness shall rise with healing in its wings (kanaph)' — the same term denotes the hem/corner of a garment. The woman seeks healing by touching the edge of Jesus' clothes (vv.27-28), and Matthew/Luke specify the kraspedon (tassel). Faint but evocative: healing located in the garment's edge resonates with Malachi's healing 'in the wings.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 15:38-39",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes in the borders of their garments throughout their generations, and that they put on the fringe of each border a cord of blue: and it shall be to you for a fringe, that you may look on it, and remember all the commandments of Yahweh, and do them; and that you not follow after your own heart and your own eyes, after which you use to play the prostitute;",
+                      "note": "The command to wear tassels on the corners of garments as reminders of the commandments stands behind the Synoptic detail of touching the hem (here generalized as 'his clothes,' v.27). The healing power located in the garment's fringe gains resonance from the sanctity Torah attaches to the tassel; faint in Mark, who omits the tassel itself.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 13:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As they were burying a man, behold, they saw a band of raiders; and they threw the man into Elisha’s tomb. As soon as the man touched the bones of Elisha, he revived, and stood up on his feet.",
+                      "note": "Contact with Elisha's bones revives a corpse — power transmitted by touch from a holy person even involuntarily. The woman's cure by touching Jesus' garment, with power 'gone out from him' (v.30), echoes the prophetic motif of healing virtue conveyed through physical contact. Thematic, supporting the Elijah-Elisha typology that pervades the chapter.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.3",
+                  "ref": "5:35-43",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 17:17-23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "After these things, the son of the woman, the mistress of the house, fell sick; and his sickness was so severe, that there was no breath left in him. She said to Elijah, “What have I to do with you, you man of God? You have come to me to bring my sin to memory, and to kill my son!” He said to her, “Give me your son.” He took him out of her bosom, and carried him up into the room where he stayed, and laid him on his own bed. He cried to Yahweh, and said, […]",
+                      "note": "Elijah raises the widow of Zarephath's son: he goes in to where the child lies, acts privately, and 'the soul of the child came into him again, and he revived,' then Elijah presents the living child. Mark's raising of Jairus' daughter — entering where the child lay (v.40), the restoring word, the return to life (v.42) — is patterned on this paradigmatic prophetic resurrection. Strong Volume and recurrence within the chapter's Elijah-Elisha typology."
+                    },
+                    {
+                      "source": "2 Kings 4:32-37",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When Elisha had come into the house, behold, the child was dead, and laid on his bed. He went in therefore, and shut the door on them both, and prayed to Yahweh. He went up, and lay on the child, and put his mouth on his mouth, and his eyes on his eyes, and his hands on his hands. He stretched himself on him; and the flesh of the child grew warm. Then he returned, and walked in the house once back and forth; and went up, and stretched himself on him. Then […]",
+                      "note": "Elisha raises the Shunammite's son: he enters alone with the dead child, shuts the door (cf. Jesus putting out the mourners, v.40), and the child revives; the mother falls at his feet (cf. Jairus, v.22). The closest single template for Jairus' daughter — privacy, exclusion of others, parental supplication, and bodily resurrection of a child — making the Elisha narrative a primary subtext."
+                    },
+                    {
+                      "source": "2 Kings 4:34-35",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He went up, and lay on the child, and put his mouth on his mouth, and his eyes on his eyes, and his hands on his hands. He stretched himself on him; and the flesh of the child grew warm. Then he returned, and walked in the house once back and forth; and went up, and stretched himself on him. Then the child sneezed seven times, and the child opened his eyes.",
+                      "note": "Elisha's bodily, hands-on revival ('he put his mouth on his mouth... the flesh of the child grew warm') resonates with Jesus 'taking the child by the hand' (v.41). The motif of resurrection effected by the prophet's physical contact strengthens the Elisha typology beyond the structural parallels already noted in 4:32-37.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 17:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Elijah took the child, and brought him down out of the room into the house, and delivered him to his mother; and Elijah said, “Behold, your son lives.”",
+                      "note": "Elijah 'gave him to his mother' after the raising; Jesus likewise restores the child to her parents and orders that she be given food (v.43), confirming bodily life. The return-to-the-parent motif and the demonstration of real restored life cohere closely with the Elijah pattern.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "Jesus' euphemism 'the child is not dead, but is asleep' (v.39) trades on the OT/Second-Temple metaphor of death as sleep from which the dead awake, classically formulated in Daniel's 'many who sleep in the dust of the earth shall awake.' The raising functions as a proleptic sign of resurrection hope; thematic and verbal contact through the sleep-of-death idiom.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 47:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Swear to me,” and he swore to him. Israel bowed himself on the bed’s head.",
+                      "note": "Death-as-sleep language (e.g., the patriarchs 'sleeping with their fathers,' a recurrent OT idiom) underlies Jesus' 'she is asleep' (v.39), prompting the mourners' ridicule because they hear only literal sleep. Faint, depending on the broader idiom rather than a single text; cited to register the OT availability of the metaphor.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 30:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For his anger is but for a moment. His favor is for a lifetime. Weeping may stay for the night, but joy comes in the morning.",
+                      "note": "'Weeping may endure for a night, but joy comes in the morning' — the turning of mourning into rejoicing at a child's restoration loosely echoes the psalm's reversal from lament to deliverance, set against the 'weeping and great wailing' (v.38) Jesus overturns. Thematic only; included as a faint coherence with the chapter's reversal of death into life.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Jairus's daughter and the bleeding woman",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "9:18–26",
+                        "mark": "5:21–43",
+                        "luke": "8:40–56"
+                      },
+                      "note": "A story folded inside a story — \"Talitha cumi,\" the touched hem, \"your faith has made you well.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

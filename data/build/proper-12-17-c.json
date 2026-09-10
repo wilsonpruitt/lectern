@@ -739,7 +739,164 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/hosea-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Hosea 1:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.9.19-Rom.9.29",
+                      "refDisplay": "Romans 9:19–29",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-9.4"
+                    },
+                    {
+                      "refKey": "1John.3.1-1John.3.3",
+                      "refDisplay": "1 John 3:1–3",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.1"
+                    },
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "Rom.8.1-Rom.8.17",
+                      "refDisplay": "Romans 8:1–17",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-8.1"
+                    },
+                    {
+                      "refKey": "2Cor.6.18",
+                      "refDisplay": "2 Corinthians 6:18",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "6.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-6.7"
+                    },
+                    {
+                      "refKey": "Matt.16.13-Matt.16.20",
+                      "refDisplay": "Matthew 16:13–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.3"
+                    },
+                    {
+                      "refKey": "John.1.10-John.1.13",
+                      "refDisplay": "John 1:10–13",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-1.3"
+                    },
+                    {
+                      "refKey": "Rom.3.1-Rom.3.8",
+                      "refDisplay": "Romans 3:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-3.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Hosea 1:2",
+                  "occurrences": [
+                    {
+                      "refKey": "John.8.31-John.8.47",
+                      "refDisplay": "John 8:31–47",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "8.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-8.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Hosea 1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.4.4-Jas.4.6",
+                      "refDisplay": "James 4:4–6",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "4.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/james#p-4.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Hosea 1:9–10",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.2.4-1Pet.2.10",
+                      "refDisplay": "1 Peter 2:4–10",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "The Divided Monarchy",
+                  "editionUrl": "https://annales.wrootpress.com/divided-monarchy",
+                  "spans": [],
+                  "events": [
+                    {
+                      "year": -760,
+                      "label": "Amos and Hosea indict the North",
+                      "ref": "Amos 1 · Hosea 1",
+                      "kind": "prophet",
+                      "approx": true,
+                      "note": "At the height of Jeroboam II's prosperity, the two prophets name the rot beneath it — Israel's injustice, its unfaithfulness — a generation before Assyria comes to collect."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           },
           {
             "role": "psalm",
@@ -752,7 +909,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-85"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 85:10",
+                  "occurrences": [
+                    {
+                      "refKey": "John.1.14-John.1.18",
+                      "refDisplay": "John 1:14–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 85:8–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -771,7 +966,193 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:6-8",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 29:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The Lord said, “Because this people draws near with their mouth and with their lips to honor me, but they have removed their heart far from me, and their fear of me is a commandment of men which has been taught;",
+                      "note": "'After the tradition of men' (and the precepts of men in v.22) echoes Isaiah's indictment that the people's fear of God is a commandment of men taught by rote, the locus classicus for human tradition supplanting God's word. Recurrence within the chapter (v.22) and coherence with the polemic against the 'philosophy' strengthen the allusion.",
+                      "lxxText": "And the Lord has said, This people draw nigh to me with their mouth, and they honour me with their lips, but their heart is far from me: but in vain do they worship me, teaching the commandments and doctrines of men."
+                    },
+                    {
+                      "source": "Jeremiah 10:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the customs of the peoples are vanity; for one cuts a tree out of the forest, the work of the hands of the workman with the ax.",
+                      "note": "The customs of the peoples are vain/futile in Jeremiah 10 supplies the language of 'vain deceit' rooted in worthless human practice and false worship of created things, coherent with 'elements of the world' as enslaving cosmic powers. Volume is moderate via the LXX 'vain' vocabulary.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither. Whatever he does shall prosper.",
+                      "note": "Being 'rooted and built up' and 'established' draws on the planted-tree imagery of the righteous in Psalm 1 (and Jeremiah 17:8), a stock figure for stability through walking rightly. Coherence with 'walk in him' supports a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 17:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For he shall be as a tree planted by the waters, who spreads out its roots by the river, and shall not fear when heat comes, but its leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.",
+                      "note": "The man planted by water whose roots reach the stream parallels Paul's horticultural metaphor 'rooted... abounding,' reinforcing the OT trope of the rooted and fruitful righteous. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:9-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 68:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why do you look in envy, you rugged mountains, at the mountain where God chooses to reign? Yes, Yahweh will dwell there forever.",
+                      "note": "That 'the fullness of the Godhead dwells bodily' in Christ recasts the OT theme of God choosing to dwell on the mountain/sanctuary where the LORD will abide forever; Christ becomes the true locus of divine indwelling. The figural transfer of dwelling-glory is coherent though verbally faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 6:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In the year that king Uzziah died, I saw the Lord sitting on a throne, high and lifted up; and his train filled the temple. Above him stood the seraphim. Each one had six wings. With two he covered his face. With two he covered his feet. With two he flew. One called to another, and said, “Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!”",
+                      "note": "The temple vision where the whole earth is full of the LORD's glory underlies the language of divine 'fullness' now resident bodily in Christ; the fullness/glory motif coheres with Colossians 1:19 and the indwelling theme. Contested and diffuse.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.5",
+                  "ref": "2:11-13",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "Circumcision 'not made with hands' in 'the putting off of the body of the sins of the flesh' draws directly on Deuteronomy's promise that the LORD will circumcise the heart so you will love him and live, the foundational text for an internal, divinely-wrought circumcision. Volume, coherence, and recurrence in the heart-circumcision tradition are all strong."
+                    },
+                    {
+                      "source": "Jeremiah 4:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Circumcise yourselves to Yahweh, and take away the foreskins of your heart, you men of Judah and inhabitants of Jerusalem; lest my wrath go out like fire, and burn so that no one can quench it, because of the evil of your doings.",
+                      "note": "The command to circumcise yourselves to the LORD and remove the foreskin of the heart provides the prophetic call to true (inward) circumcision over against fleshly circumcision, exactly the antithesis Paul presses. Strong coherence with v.11's contrast between hand-made and Christ's circumcision."
+                    },
+                    {
+                      "source": "Deuteronomy 10:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Circumcise therefore the foreskin of your heart, and be no more stiff-necked.",
+                      "note": "Circumcise the foreskin of your heart and be no longer stiff-necked supplies the same heart-circumcision idiom; its recurrence alongside Deut 30:6 and Jer 4:4 confirms a stable tradition standing behind Paul's spiritualized circumcision."
+                    },
+                    {
+                      "source": "Ezekiel 44:7-9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "in that you have brought in foreigners, uncircumcised in heart and uncircumcised in flesh, to be in my sanctuary, to profane it, even my house, when you offer my bread, the fat and the blood, and they have broken my covenant, to add to all your abominations. You have not performed the duty of my holy things; but you have set performers of my duty in my sanctuary for yourselves. Thus says the Lord Yahweh, No foreigner, uncircumcised in heart and […]",
+                      "note": "Ezekiel's denunciation of the uncircumcised in heart and flesh entering the sanctuary supplies the paired heart/flesh circumcision categories Paul deploys ('uncircumcision of your flesh', v.13). The shared dual idiom supports the echo, though it is less verbally direct.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 17:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall be circumcised in the flesh of your foreskin. It will be a token of the covenant between me and you.",
+                      "note": "The institution of circumcision in the flesh as the covenant sign is the background Paul transcends with 'circumcision not made with hands'; the polemical contrast presupposes the Abrahamic rite. Coherence is high but it is presupposed background rather than a quoted echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 37:12-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore prophesy, and tell them, Thus says the Lord Yahweh: Behold, I will open your graves, and cause you to come up out of your graves, my people; and I will bring you into the land of Israel. You shall know that I am Yahweh, when I have opened your graves, and caused you to come up out of your graves, my people. I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it […]",
+                      "note": "Being 'made alive together with him' while dead in trespasses resonates with Ezekiel's vision of God opening graves and putting his Spirit in the dead so they live; the death-to-life raising motif coheres with vv.12-13's burial-and-resurrection. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.6",
+                  "ref": "2:14-15",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 43:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+                      "note": "God 'wiping out the handwriting' and forgiving all trespasses echoes Isaiah's 'I, even I, am he who blots out your transgressions for my own sake,' the divine erasure of the record of sin. The blotting-out vocabulary and forgiveness theme give moderate volume and strong coherence."
+                    },
+                    {
+                      "source": "Psalm 51:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions.",
+                      "note": "The plea to blot out my transgressions according to your mercy supplies the same image of erasing the written debt of sin that stands against the sinner. Coherent but diffuse, hence a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The disarming and public shaming of the powers while bearing sin to the cross may draw on the Servant who was numbered with transgressors yet divided the spoil with the strong, a victory-through-suffering pattern. The triumph-out-of-humiliation coherence is real but the verbal link is thin and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 22:22-25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will lay the key of the house of David on his shoulder. He will open, and no one will shut. He will shut, and no one will open. I will fasten him like a nail in a sure place. He will be for a throne of glory to his father’s house. They will hang on him all the glory of his father’s house, the offspring and the issue, every small vessel, from the cups even to all the pitchers. “In that day,” says Yahweh of Armies, “the nail that was fastened in a sure […]",
+                      "note": "The peg/nail fastened in a sure place that is then cut down and the burden hung on it falls, in Isaiah 22, offers a faint backdrop to 'nailing it to the cross'; the imagery of fastening a burden to a peg coheres loosely. Highly contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.7",
+                  "ref": "2:15",
+                  "echoes": [
+                    {
+                      "source": "Psalm 68:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You have ascended on high. You have led away captives. You have received gifts among men, yes, among the rebellious also, that Yah God might dwell there.",
+                      "note": "The ascending victor who 'led captivity captive' and received gifts among rebellious men supplies the OT triumphal-procession image behind Christ leading the disarmed powers in open shame. Moderate coherence with the Pauline conquest theme and recurrence of this Psalm in Pauline triumph language.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 45:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh to his anointed, to Cyrus, whose right hand I have held, to subdue nations before him, and strip kings of their armor; to open the doors before him, and the gates shall not be shut: “I will go before you, and make the rough places smooth. I will break the doors of brass in pieces, and cut apart the bars of iron.",
+                      "note": "The divine-warrior subduing kings and going before to break gates and bars underlies Christ disarming the principalities and triumphing over them; the YHWH-as-victor motif coheres with the cosmic-conquest reading. Faint, contested verbal volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 15:1-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Moses and the children of Israel sang this song to Yahweh, and said, “I will sing to Yahweh, for he has triumphed gloriously. The horse and his rider he has thrown into the sea. Yah is my strength and song. He has become my salvation. This is my God, and I will praise him; my father’s God, and I will exalt him. Yahweh is a man of war. Yahweh is his name. He has cast Pharaoh’s chariots and his army into the sea. His chosen captains are sunk in the Red […]",
+                      "note": "The Song of the Sea celebrating the LORD as warrior who shatters the enemy in triumph supplies the archetype of God's public victory parade over hostile powers that Paul reapplies to the cross ('made a show of them openly, triumphing'). Coherent but figural and faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -790,7 +1171,188 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.1",
+                  "ref": "11:1-4",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 36:23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will sanctify my great name, which has been profaned among the nations, which you have profaned in their midst; and the nations shall know that I am Yahweh, says the Lord Yahweh, when I shall be sanctified in you before their eyes.",
+                      "note": "\"May your name be kept holy\" (hallowed be your name) echoes God's promise to sanctify his great name profaned among the nations. The eschatological hallowing of the Name is exactly the petition's force, supplying coherence with the kingdom-come request that follows."
+                    },
+                    {
+                      "source": "Isaiah 29:23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But when he sees his children, the work of my hands, in the midst of him, they will sanctify my name. Yes, they will sanctify the Holy One of Jacob, and will stand in awe of the God of Israel.",
+                      "note": "\"They will sanctify my name... and stand in awe of the God of Israel\" supplies the human-side counterpart of the hallowing petition. Combined with Ezekiel 36:23 this gives recurrence of the sanctify-the-Name motif in the prophets, the petition's most available source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "\"You, LORD, are our Father\" grounds the direct address \"Our Father.\" Isaiah's fatherhood-of-God language is a primary Second-Temple availability for the prayer's opening invocation."
+                    },
+                    {
+                      "source": "Daniel 2:44",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "In the days of those kings shall the God of heaven set up a kingdom which shall never be destroyed, nor shall its sovereignty be left to another people; but it shall break in pieces and consume all these kingdoms, and it shall stand forever.",
+                      "note": "\"Your kingdom come\" draws on the apocalyptic expectation that the God of heaven will set up an everlasting kingdom that shall never be destroyed. Daniel is the chief Second-Temple source for the coming-kingdom hope the petition voices."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "\"Give us day by day our daily bread\" evokes the manna gathered \"a day's portion every day,\" testing daily dependence on God. The day-by-day rationing of Exodus 16 supplies the petition's coherence; Luke's distinctive \"day by day\" strengthens the link."
+                    },
+                    {
+                      "source": "Proverbs 30:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me;",
+                      "note": "Agur's plea \"feed me with the food that is needful for me\" matches the bread petition's modest sufficiency and may inform the rare word epiousios. A strong thematic and lexical candidate for the source of \"daily bread.\""
+                    },
+                    {
+                      "source": "Sirach 28:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Forgive your neighbor the hurt that he has done you; And then your sins will be pardoned when you pray.",
+                      "note": "\"Forgive your neighbor the wrong he has done, and then your sins will be pardoned when you pray\" is the closest Second-Temple parallel to the reciprocal forgiveness clause. The conditional structure (forgive others / be forgiven) coheres tightly with Luke 11:4."
+                    },
+                    {
+                      "source": "Leviticus 22:32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall not profane my holy name, but I will be made holy among the children of Israel. I am Yahweh who makes you holy,",
+                      "note": "\"You shall not profane my holy name, but I will be hallowed among the children of Israel\" is the legal seed of the later prophetic hope and may stand behind the liturgical formula. Faint and diffuse; flagged as low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 64:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But now, Yahweh, you are our Father; we are the clay, and you our potter; and we all are the work of your hand.",
+                      "note": "\"You are our Father; we are the clay\" reinforces the address to God as Father. Coherent with 63:16 but adds little independent volume, so marked low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Obadiah 1:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Saviors will go up on Mount Zion to judge the mountains of Esau, and the kingdom will be Yahweh’s.",
+                      "note": "\"The kingdom shall be the LORD's\" anticipates the kingdom petition. A diffuse prophetic background rather than a verbal source; low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 79:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Help us, God of our salvation, for the glory of your name. Deliver us, and forgive our sins, for your name’s sake.",
+                      "note": "\"Deliver us, and forgive our sins, for your name's sake\" combines forgiveness, deliverance, and the Name in one verse, paralleling the prayer's later petitions. Diffuse and contested, but coherent with the whole prayer.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "11.2",
+                  "ref": "11:5-8",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 3:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t say to your neighbor, “Go, and come again; tomorrow I will give it to you,” when you have it by you.",
+                      "note": "\"Don't say to your neighbor, 'Go, and come again... when you have it by you'\" rebukes the very deferral the sleeping friend voices. A wisdom backdrop to the parable's neighbor-obligation rather than a quotation; low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 18:23-32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Abraham drew near, and said, “Will you consume the righteous with the wicked? What if there are fifty righteous within the city? Will you consume and not spare the place for the fifty righteous who are in it? Be it far from you to do things like that, to kill the righteous with the wicked, so that the righteous should be like the wicked. May that be far from you. Shouldn’t the Judge of all the earth do right?” Yahweh said, “If I find in Sodom fifty […]",
+                      "note": "Abraham's persistent intercession with God, importunately pressing request upon request, prefigures the friend's shameless persistence rewarded. Figural rather than verbal; flagged contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "11.3",
+                  "ref": "11:9-13",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 8:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I love those who love me. Those who seek me diligently will find me.",
+                      "note": "\"Those who seek me diligently will find me\" supplies the seek-and-find logic of \"keep seeking and you will find.\" Wisdom's promise of reward to the seeker is the most available source for the ask-seek-knock triad."
+                    },
+                    {
+                      "source": "Jeremiah 29:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall seek me, and find me, when you shall search for me with all your heart.",
+                      "note": "\"You shall seek me and find me, when you search for me with all your heart\" is the classic seek-and-find promise undergirding 11:9-10. Its recurrence with Proverbs 8:17 strengthens the case."
+                    },
+                    {
+                      "source": "Deuteronomy 4:29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But from there you shall seek Yahweh your God, and you shall find him, when you search after him with all your heart and with all your soul.",
+                      "note": "\"You shall seek the LORD your God, and you shall find him, if you search after him\" is another seek-find promise feeding the same matrix. Adds recurrence but little independent volume; low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 55:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Seek Yahweh while he may be found; call you on him while he is near:",
+                      "note": "\"Seek the LORD while he may be found; call on him while he is near\" parallels the imperative to seek and the promise of access. Diffuse prophetic backdrop, contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 34:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The young lions do lack, and suffer hunger, but those who seek Yahweh shall not lack any good thing.",
+                      "note": "\"Those who seek the LORD shall not lack any good thing\" coheres with the assurance that the Father gives good gifts to those who ask. A faint sapiential-psalmic echo behind 11:13.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Lord's Prayer",
+                      "section": "journey",
+                      "refs": {
+                        "matthew": "6:9–13",
+                        "luke": "11:1–4"
+                      },
+                      "note": "Matthew sets it in the Sermon on the Mount; Luke, taught on the road at a disciple's asking — and shorter."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1693,7 +2255,145 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-18"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 18:25",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.3.1-Rom.3.8",
+                      "refDisplay": "Romans 3:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-3.1"
+                    },
+                    {
+                      "refKey": "Heb.12.18-Heb.12.24",
+                      "refDisplay": "Hebrews 12:18–24",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "12.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-12.4"
+                    },
+                    {
+                      "refKey": "Matt.19.23-Matt.19.26",
+                      "refDisplay": "Matthew 19:23–26",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.6"
+                    },
+                    {
+                      "refKey": "Luke.18.1-Luke.18.8",
+                      "refDisplay": "Luke 18:1–8",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-18.1"
+                    },
+                    {
+                      "refKey": "Acts.10.34-Acts.10.43",
+                      "refDisplay": "Acts 10:34–43",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "10.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-10.5"
+                    },
+                    {
+                      "refKey": "1Cor.5.9-1Cor.5.13",
+                      "refDisplay": "1 Corinthians 5:9–13",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "5.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-5.4"
+                    },
+                    {
+                      "refKey": "2Tim.1.15-2Tim.1.18",
+                      "refDisplay": "2 Timothy 1:15–18",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.15"
+                    },
+                    {
+                      "refKey": "1Pet.4.1-1Pet.4.6",
+                      "refDisplay": "1 Peter 4:1–6",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:27",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.5.1-Luke.5.11",
+                      "refDisplay": "Luke 5:1–11",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:23–32",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.11.5-Luke.11.8",
+                      "refDisplay": "Luke 11:5–8",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-11.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:20–21",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.17.28-Luke.17.30",
+                      "refDisplay": "Luke 17:28–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "17.9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-17.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1706,7 +2406,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-138"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 138:1",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.11.2-1Cor.11.16",
+                      "refDisplay": "1 Corinthians 11:2–16",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "11.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-11.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 138:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.3-Phil.1.8",
+                      "refDisplay": "Philippians 1:3–8",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1725,7 +2463,193 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:6-8",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 29:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The Lord said, “Because this people draws near with their mouth and with their lips to honor me, but they have removed their heart far from me, and their fear of me is a commandment of men which has been taught;",
+                      "note": "'After the tradition of men' (and the precepts of men in v.22) echoes Isaiah's indictment that the people's fear of God is a commandment of men taught by rote, the locus classicus for human tradition supplanting God's word. Recurrence within the chapter (v.22) and coherence with the polemic against the 'philosophy' strengthen the allusion.",
+                      "lxxText": "And the Lord has said, This people draw nigh to me with their mouth, and they honour me with their lips, but their heart is far from me: but in vain do they worship me, teaching the commandments and doctrines of men."
+                    },
+                    {
+                      "source": "Jeremiah 10:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the customs of the peoples are vanity; for one cuts a tree out of the forest, the work of the hands of the workman with the ax.",
+                      "note": "The customs of the peoples are vain/futile in Jeremiah 10 supplies the language of 'vain deceit' rooted in worthless human practice and false worship of created things, coherent with 'elements of the world' as enslaving cosmic powers. Volume is moderate via the LXX 'vain' vocabulary.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither. Whatever he does shall prosper.",
+                      "note": "Being 'rooted and built up' and 'established' draws on the planted-tree imagery of the righteous in Psalm 1 (and Jeremiah 17:8), a stock figure for stability through walking rightly. Coherence with 'walk in him' supports a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 17:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For he shall be as a tree planted by the waters, who spreads out its roots by the river, and shall not fear when heat comes, but its leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.",
+                      "note": "The man planted by water whose roots reach the stream parallels Paul's horticultural metaphor 'rooted... abounding,' reinforcing the OT trope of the rooted and fruitful righteous. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:9-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 68:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why do you look in envy, you rugged mountains, at the mountain where God chooses to reign? Yes, Yahweh will dwell there forever.",
+                      "note": "That 'the fullness of the Godhead dwells bodily' in Christ recasts the OT theme of God choosing to dwell on the mountain/sanctuary where the LORD will abide forever; Christ becomes the true locus of divine indwelling. The figural transfer of dwelling-glory is coherent though verbally faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 6:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In the year that king Uzziah died, I saw the Lord sitting on a throne, high and lifted up; and his train filled the temple. Above him stood the seraphim. Each one had six wings. With two he covered his face. With two he covered his feet. With two he flew. One called to another, and said, “Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!”",
+                      "note": "The temple vision where the whole earth is full of the LORD's glory underlies the language of divine 'fullness' now resident bodily in Christ; the fullness/glory motif coheres with Colossians 1:19 and the indwelling theme. Contested and diffuse.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.5",
+                  "ref": "2:11-13",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "Circumcision 'not made with hands' in 'the putting off of the body of the sins of the flesh' draws directly on Deuteronomy's promise that the LORD will circumcise the heart so you will love him and live, the foundational text for an internal, divinely-wrought circumcision. Volume, coherence, and recurrence in the heart-circumcision tradition are all strong."
+                    },
+                    {
+                      "source": "Jeremiah 4:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Circumcise yourselves to Yahweh, and take away the foreskins of your heart, you men of Judah and inhabitants of Jerusalem; lest my wrath go out like fire, and burn so that no one can quench it, because of the evil of your doings.",
+                      "note": "The command to circumcise yourselves to the LORD and remove the foreskin of the heart provides the prophetic call to true (inward) circumcision over against fleshly circumcision, exactly the antithesis Paul presses. Strong coherence with v.11's contrast between hand-made and Christ's circumcision."
+                    },
+                    {
+                      "source": "Deuteronomy 10:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Circumcise therefore the foreskin of your heart, and be no more stiff-necked.",
+                      "note": "Circumcise the foreskin of your heart and be no longer stiff-necked supplies the same heart-circumcision idiom; its recurrence alongside Deut 30:6 and Jer 4:4 confirms a stable tradition standing behind Paul's spiritualized circumcision."
+                    },
+                    {
+                      "source": "Ezekiel 44:7-9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "in that you have brought in foreigners, uncircumcised in heart and uncircumcised in flesh, to be in my sanctuary, to profane it, even my house, when you offer my bread, the fat and the blood, and they have broken my covenant, to add to all your abominations. You have not performed the duty of my holy things; but you have set performers of my duty in my sanctuary for yourselves. Thus says the Lord Yahweh, No foreigner, uncircumcised in heart and […]",
+                      "note": "Ezekiel's denunciation of the uncircumcised in heart and flesh entering the sanctuary supplies the paired heart/flesh circumcision categories Paul deploys ('uncircumcision of your flesh', v.13). The shared dual idiom supports the echo, though it is less verbally direct.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 17:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall be circumcised in the flesh of your foreskin. It will be a token of the covenant between me and you.",
+                      "note": "The institution of circumcision in the flesh as the covenant sign is the background Paul transcends with 'circumcision not made with hands'; the polemical contrast presupposes the Abrahamic rite. Coherence is high but it is presupposed background rather than a quoted echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 37:12-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore prophesy, and tell them, Thus says the Lord Yahweh: Behold, I will open your graves, and cause you to come up out of your graves, my people; and I will bring you into the land of Israel. You shall know that I am Yahweh, when I have opened your graves, and caused you to come up out of your graves, my people. I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it […]",
+                      "note": "Being 'made alive together with him' while dead in trespasses resonates with Ezekiel's vision of God opening graves and putting his Spirit in the dead so they live; the death-to-life raising motif coheres with vv.12-13's burial-and-resurrection. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.6",
+                  "ref": "2:14-15",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 43:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+                      "note": "God 'wiping out the handwriting' and forgiving all trespasses echoes Isaiah's 'I, even I, am he who blots out your transgressions for my own sake,' the divine erasure of the record of sin. The blotting-out vocabulary and forgiveness theme give moderate volume and strong coherence."
+                    },
+                    {
+                      "source": "Psalm 51:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions.",
+                      "note": "The plea to blot out my transgressions according to your mercy supplies the same image of erasing the written debt of sin that stands against the sinner. Coherent but diffuse, hence a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The disarming and public shaming of the powers while bearing sin to the cross may draw on the Servant who was numbered with transgressors yet divided the spoil with the strong, a victory-through-suffering pattern. The triumph-out-of-humiliation coherence is real but the verbal link is thin and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 22:22-25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will lay the key of the house of David on his shoulder. He will open, and no one will shut. He will shut, and no one will open. I will fasten him like a nail in a sure place. He will be for a throne of glory to his father’s house. They will hang on him all the glory of his father’s house, the offspring and the issue, every small vessel, from the cups even to all the pitchers. “In that day,” says Yahweh of Armies, “the nail that was fastened in a sure […]",
+                      "note": "The peg/nail fastened in a sure place that is then cut down and the burden hung on it falls, in Isaiah 22, offers a faint backdrop to 'nailing it to the cross'; the imagery of fastening a burden to a peg coheres loosely. Highly contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.7",
+                  "ref": "2:15",
+                  "echoes": [
+                    {
+                      "source": "Psalm 68:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You have ascended on high. You have led away captives. You have received gifts among men, yes, among the rebellious also, that Yah God might dwell there.",
+                      "note": "The ascending victor who 'led captivity captive' and received gifts among rebellious men supplies the OT triumphal-procession image behind Christ leading the disarmed powers in open shame. Moderate coherence with the Pauline conquest theme and recurrence of this Psalm in Pauline triumph language.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 45:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh to his anointed, to Cyrus, whose right hand I have held, to subdue nations before him, and strip kings of their armor; to open the doors before him, and the gates shall not be shut: “I will go before you, and make the rough places smooth. I will break the doors of brass in pieces, and cut apart the bars of iron.",
+                      "note": "The divine-warrior subduing kings and going before to break gates and bars underlies Christ disarming the principalities and triumphing over them; the YHWH-as-victor motif coheres with the cosmic-conquest reading. Faint, contested verbal volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 15:1-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Moses and the children of Israel sang this song to Yahweh, and said, “I will sing to Yahweh, for he has triumphed gloriously. The horse and his rider he has thrown into the sea. Yah is my strength and song. He has become my salvation. This is my God, and I will praise him; my father’s God, and I will exalt him. Yahweh is a man of war. Yahweh is his name. He has cast Pharaoh’s chariots and his army into the sea. His chosen captains are sunk in the Red […]",
+                      "note": "The Song of the Sea celebrating the LORD as warrior who shatters the enemy in triumph supplies the archetype of God's public victory parade over hostile powers that Paul reapplies to the cross ('made a show of them openly, triumphing'). Coherent but figural and faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1744,7 +2668,188 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.1",
+                  "ref": "11:1-4",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 36:23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will sanctify my great name, which has been profaned among the nations, which you have profaned in their midst; and the nations shall know that I am Yahweh, says the Lord Yahweh, when I shall be sanctified in you before their eyes.",
+                      "note": "\"May your name be kept holy\" (hallowed be your name) echoes God's promise to sanctify his great name profaned among the nations. The eschatological hallowing of the Name is exactly the petition's force, supplying coherence with the kingdom-come request that follows."
+                    },
+                    {
+                      "source": "Isaiah 29:23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But when he sees his children, the work of my hands, in the midst of him, they will sanctify my name. Yes, they will sanctify the Holy One of Jacob, and will stand in awe of the God of Israel.",
+                      "note": "\"They will sanctify my name... and stand in awe of the God of Israel\" supplies the human-side counterpart of the hallowing petition. Combined with Ezekiel 36:23 this gives recurrence of the sanctify-the-Name motif in the prophets, the petition's most available source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "\"You, LORD, are our Father\" grounds the direct address \"Our Father.\" Isaiah's fatherhood-of-God language is a primary Second-Temple availability for the prayer's opening invocation."
+                    },
+                    {
+                      "source": "Daniel 2:44",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "In the days of those kings shall the God of heaven set up a kingdom which shall never be destroyed, nor shall its sovereignty be left to another people; but it shall break in pieces and consume all these kingdoms, and it shall stand forever.",
+                      "note": "\"Your kingdom come\" draws on the apocalyptic expectation that the God of heaven will set up an everlasting kingdom that shall never be destroyed. Daniel is the chief Second-Temple source for the coming-kingdom hope the petition voices."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "\"Give us day by day our daily bread\" evokes the manna gathered \"a day's portion every day,\" testing daily dependence on God. The day-by-day rationing of Exodus 16 supplies the petition's coherence; Luke's distinctive \"day by day\" strengthens the link."
+                    },
+                    {
+                      "source": "Proverbs 30:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me;",
+                      "note": "Agur's plea \"feed me with the food that is needful for me\" matches the bread petition's modest sufficiency and may inform the rare word epiousios. A strong thematic and lexical candidate for the source of \"daily bread.\""
+                    },
+                    {
+                      "source": "Sirach 28:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Forgive your neighbor the hurt that he has done you; And then your sins will be pardoned when you pray.",
+                      "note": "\"Forgive your neighbor the wrong he has done, and then your sins will be pardoned when you pray\" is the closest Second-Temple parallel to the reciprocal forgiveness clause. The conditional structure (forgive others / be forgiven) coheres tightly with Luke 11:4."
+                    },
+                    {
+                      "source": "Leviticus 22:32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall not profane my holy name, but I will be made holy among the children of Israel. I am Yahweh who makes you holy,",
+                      "note": "\"You shall not profane my holy name, but I will be hallowed among the children of Israel\" is the legal seed of the later prophetic hope and may stand behind the liturgical formula. Faint and diffuse; flagged as low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 64:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But now, Yahweh, you are our Father; we are the clay, and you our potter; and we all are the work of your hand.",
+                      "note": "\"You are our Father; we are the clay\" reinforces the address to God as Father. Coherent with 63:16 but adds little independent volume, so marked low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Obadiah 1:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Saviors will go up on Mount Zion to judge the mountains of Esau, and the kingdom will be Yahweh’s.",
+                      "note": "\"The kingdom shall be the LORD's\" anticipates the kingdom petition. A diffuse prophetic background rather than a verbal source; low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 79:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Help us, God of our salvation, for the glory of your name. Deliver us, and forgive our sins, for your name’s sake.",
+                      "note": "\"Deliver us, and forgive our sins, for your name's sake\" combines forgiveness, deliverance, and the Name in one verse, paralleling the prayer's later petitions. Diffuse and contested, but coherent with the whole prayer.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "11.2",
+                  "ref": "11:5-8",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 3:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t say to your neighbor, “Go, and come again; tomorrow I will give it to you,” when you have it by you.",
+                      "note": "\"Don't say to your neighbor, 'Go, and come again... when you have it by you'\" rebukes the very deferral the sleeping friend voices. A wisdom backdrop to the parable's neighbor-obligation rather than a quotation; low volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 18:23-32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Abraham drew near, and said, “Will you consume the righteous with the wicked? What if there are fifty righteous within the city? Will you consume and not spare the place for the fifty righteous who are in it? Be it far from you to do things like that, to kill the righteous with the wicked, so that the righteous should be like the wicked. May that be far from you. Shouldn’t the Judge of all the earth do right?” Yahweh said, “If I find in Sodom fifty […]",
+                      "note": "Abraham's persistent intercession with God, importunately pressing request upon request, prefigures the friend's shameless persistence rewarded. Figural rather than verbal; flagged contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "11.3",
+                  "ref": "11:9-13",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 8:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I love those who love me. Those who seek me diligently will find me.",
+                      "note": "\"Those who seek me diligently will find me\" supplies the seek-and-find logic of \"keep seeking and you will find.\" Wisdom's promise of reward to the seeker is the most available source for the ask-seek-knock triad."
+                    },
+                    {
+                      "source": "Jeremiah 29:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall seek me, and find me, when you shall search for me with all your heart.",
+                      "note": "\"You shall seek me and find me, when you search for me with all your heart\" is the classic seek-and-find promise undergirding 11:9-10. Its recurrence with Proverbs 8:17 strengthens the case."
+                    },
+                    {
+                      "source": "Deuteronomy 4:29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But from there you shall seek Yahweh your God, and you shall find him, when you search after him with all your heart and with all your soul.",
+                      "note": "\"You shall seek the LORD your God, and you shall find him, if you search after him\" is another seek-find promise feeding the same matrix. Adds recurrence but little independent volume; low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 55:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Seek Yahweh while he may be found; call you on him while he is near:",
+                      "note": "\"Seek the LORD while he may be found; call on him while he is near\" parallels the imperative to seek and the promise of access. Diffuse prophetic backdrop, contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 34:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The young lions do lack, and suffer hunger, but those who seek Yahweh shall not lack any good thing.",
+                      "note": "\"Those who seek the LORD shall not lack any good thing\" coheres with the assurance that the Father gives good gifts to those who ask. A faint sapiential-psalmic echo behind 11:13.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Lord's Prayer",
+                      "section": "journey",
+                      "refs": {
+                        "matthew": "6:9–13",
+                        "luke": "11:1–4"
+                      },
+                      "note": "Matthew sets it in the Sermon on the Mount; Luke, taught on the road at a disciple's asking — and shorter."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

@@ -765,7 +765,40 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Kings 8:27",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.44-Acts.7.50",
+                      "refDisplay": "Acts 7:44–50",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.7"
+                    },
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -778,7 +811,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-84"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 84:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.8.18-Matt.8.22",
+                      "refDisplay": "Matthew 8:18–22",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 84:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.1-John.14.4",
+                      "refDisplay": "John 14:1–4",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-14.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 84:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.4.14-Phil.4.20",
+                      "refDisplay": "Philippians 4:14–20",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -797,7 +883,186 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:10-13",
+                  "echoes": [
+                    {
+                      "source": "Joshua 1:6-9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Be strong and courageous; for you shall cause this people to inherit the land which I swore to their fathers to give them. Only be strong and very courageous, to observe to do according to all the law, which Moses my servant commanded you. Don’t turn from it to the right hand or to the left, that you may have good success wherever you go. This book of the law shall not depart out of your mouth, but you shall meditate on it day and night, that you may […]",
+                      "note": "The opening exhortation 'be strong in the Lord and in the strength of his might' (6:10) echoes the repeated divine charge to Joshua 'be strong and courageous' (ischye kai andrizou) as he takes the land. The martial 'stand firm' framing of the whole passage coheres with the conquest setting, though the wording is a stock LXX encouragement formula.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "The command to 'put on the whole armor of God' (endysasthe... panoplian tou theou, 6:11,13) draws its core image from Isaiah's Divine Warrior who 'put on righteousness as a breastplate and a helmet of salvation,' and from Wisdom's elaboration of God arming creation. The arming verb endysasthai and the panoply frame derive from this Divine-Warrior tradition before the individual pieces are named."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:17-20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will take his jealousy as complete armor, And will make the whole creation his weapons for vengeance on his enemies: He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet; He will take holiness as an invincible shield, And he will sharpen stern wrath for a sword: And the world will go forth with him to fight against his insensate foes.",
+                      "note": "Wisdom expands Isaiah 59:17 into a full panoply: the Lord 'will take his zeal as a panoply (panoplian) and arm creation,' donning righteousness as breastplate and impartial judgment as helmet. Paul's distinctive word panoplia and the assembled set of pieces show direct dependence on this Second-Temple development, not Isaiah alone."
+                    },
+                    {
+                      "source": "Isaiah 40:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+                      "note": "'In the strength of his might' (en to kratei tes ischyos autou, 6:10) resonates with Isaiah's promise that those who wait on the Lord 'shall renew their strength.' The verbal contact is thematic (divine strengthening of the weak) rather than lexical, so a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 10:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the prince of the kingdom of Persia withstood me twenty-one days; but, behold, Michael, one of the chief princes, came to help me: and I remained there with the kings of Persia.",
+                      "note": "The cosmic conflict 'not against flesh and blood but against the principalities... rulers of the darkness' (6:12) coheres with Daniel's angelic 'princes' (archontes) of Persia and Greece who war in the heavens. Second-Temple angelology of national powers supplies availability; the connection is conceptual, hence a contested echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:14-17",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Righteousness will be the belt of his waist, and faithfulness the belt of his waist.",
+                      "note": "'The belt of truth buckled around your waist' (6:14) draws on the messianic shoot of Jesse who wears 'righteousness as the belt of his waist and faithfulness/truth the belt of his loins.' Volume is high: the girdle imagery and the pairing with truth/righteousness are distinctive to Isaiah 11, and Paul redistributes its terms across belt and breastplate."
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "'The breastplate of righteousness' (6:14) is a direct lift of the Divine Warrior who 'put on righteousness as a breastplate' (enedysato dikaiosynen hos thoraka). The lexical match (thorax dikaiosynes) is exact, making this a high-volume allusion; the believer is clothed in God's own armor."
+                    },
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "'Feet fitted with the readiness of the gospel of peace' (6:15) alludes to Isaiah's herald, 'how beautiful upon the mountains are the feet of him who brings good news... who proclaims peace.' The triad feet + euangelizomenos + peace is distinctive to this verse; the 'shoes' piece evangelizes the warrior's stance."
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "'Take the helmet of salvation' (perikephalaian tou soteriou, 6:17) is a verbatim borrowing from the Divine Warrior who set 'a helmet of salvation on his head' (perikephalaian soteriou). The exact lexical match makes this among the clearest pieces of Isaianic armor; God's saving victory becomes the believer's headgear."
+                    },
+                    {
+                      "source": "Isaiah 49:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "and he has made my mouth like a sharp sword; in the shadow of his hand, he has hidden me: and he has made me a polished shaft; in his quiver has he kept me close:",
+                      "note": "'The sword of the Spirit, which is the word of God' (6:17) draws on the Servant who says God 'made my mouth like a sharp sword.' The fusion of sword + the spoken word of God is distinctive to this Servant Song; the believer wields the prophetic word as weapon."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:18",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet;",
+                      "note": "Wisdom's reworking of Isaiah ('he will put on righteousness as a breastplate') is the proximate Second-Temple form Paul knows, reinforcing the breastplate piece. Recurrence of the Isaiah image through Wisdom strengthens coherence even where Isaiah is the ultimate source.",
+                      "altSource": "Isaiah 59:17"
+                    },
+                    {
+                      "source": "Nahum 1:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, on the mountains the feet of him who brings good news, who publishes peace! Keep your feasts, Judah! Perform your vows, for the wicked one will no more pass through you. He is utterly cut off.",
+                      "note": "Nahum 2:1 LXX (1:15 EVV) repeats Isaiah's herald motif: 'behold upon the mountains the feet of one bringing good news and announcing peace.' Its near-identical wording strengthens the 'gospel of peace' shoe imagery, though Isaiah 52:7 is the primary source.",
+                      "altSource": "Isaiah 52:7"
+                    },
+                    {
+                      "source": "Isaiah 11:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "but with righteousness he will judge the poor, and decide with equity for the humble of the earth. He will strike the earth with the rod of his mouth; and with the breath of his lips he will kill the wicked.",
+                      "note": "The messianic shoot strikes the earth 'with the rod of his mouth' and slays the wicked 'with the breath (pneumati) of his lips,' joining sword/word with Spirit (pneuma) precisely as Eph 6:17 ('sword of the Spirit... word of God'). The Spirit-word-judgment cluster strengthens the allusion alongside Isaiah 49:2."
+                    },
+                    {
+                      "source": "Psalm 7:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He has also prepared for himself the instruments of death. He makes ready his flaming arrows.",
+                      "note": "The 'shield of faith' that quenches 'all the flaming darts of the evil one' (6:16) coheres with the Psalmist's image of God making his arrows into 'flaming/fiery shafts.' The unusual 'flaming darts' (belos pepyromena) motif has its nearest OT background here, though the attacker is reversed; a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 15:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "After these things Yahweh’s word came to Abram in a vision, saying, “Don’t be afraid, Abram. I am your shield, your exceedingly great reward.”",
+                      "note": "The 'shield of faith' (thyreos tes pisteos, 6:16) may evoke the LORD's word to Abram, 'I am your shield,' the foundational pairing of shield and faith (Abram 'believed'). Coherence with the faith motif is suggestive but the lexical contact is generic, so a low-confidence echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet;",
+                      "note": "Wisdom 5:18 also gives the warrior 'impartial judgment as a helmet,' confirming the Second-Temple currency of the helmet image alongside Isaiah. Recurrence supports coherence though Isaiah supplies the exact 'helmet of salvation.'",
+                      "altSource": "Isaiah 59:17"
+                    },
+                    {
+                      "source": "Hosea 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore I have cut them to pieces with the prophets; I killed them with the words of my mouth. Your judgments are like a flash of lightning.",
+                      "note": "God's killing/hewing of the people 'by the words of my mouth' provides a further prophetic precedent for the word of God as a slaying weapon, supporting the sword image. The contact is thematic recurrence rather than verbal dependence, hence a faint echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.5",
+                  "ref": "6:18-20",
+                  "echoes": [
+                    {
+                      "source": "Daniel 6:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When Daniel knew that the writing was signed, he went into his house (now his windows were open in his room toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before.",
+                      "note": "'Praying at all times in the Spirit... in all perseverance' (6:18) coheres with the OT pattern of unceasing, regular prayer exemplified by Daniel's thrice-daily petition. The connection is to a devotional topos rather than a specific text, so a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 141:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let my prayer be set before you like incense; the lifting up of my hands like the evening sacrifice.",
+                      "note": "The summons to constant 'prayer and requests... at all times' (6:18) resonates with the Psalmist's plea that prayer rise continually like incense. Thematic coherence with perpetual supplication supports a low-confidence, contested echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 3:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But when I speak with you, I will open your mouth, and you shall tell them, Thus says the Lord Yahweh: He who hears, let him hear; and he who forbears, let him forbear: for they are a rebellious house.",
+                      "note": "Paul's request that 'utterance may be given me in opening my mouth' to make known the mystery with boldness (6:19) echoes the prophetic call in which God opens the prophet's mouth to speak his word. The mouth-opening / divinely given speech motif coheres with prophetic commissioning, though no single verse is quoted.",
+                      "contested": true,
+                      "altSource": "Ezekiel 29:21"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -816,7 +1081,148 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.6",
+                  "ref": "6:52-59",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 17:10-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘Any man of the house of Israel, or of the strangers who live as foreigners among them, who eats any kind of blood, I will set my face against that soul who eats blood, and will cut him off from among his people. For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life. Therefore I have said to the children of Israel, “No person […]",
+                      "note": "'Drink his blood' (v.53) collides head-on with the absolute Levitical prohibition: 'I will set my face against any who eats blood... the life is in the blood.' The scandal of vv.52-53 is unintelligible without this law; high Volume and Coherence as the offense John exploits."
+                    },
+                    {
+                      "source": "Exodus 12:8",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "They shall eat the flesh in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs.",
+                      "note": "'They shall eat the flesh that night' — the paschal lamb whose flesh is consumed. Jesus' demand to eat his flesh, set 'at Passover,' identifies him as the lamb; high typological Coherence binding the discourse to the chapter's opening note (v.4)."
+                    },
+                    {
+                      "source": "Genesis 9:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But flesh with its life, that is, its blood, you shall not eat.",
+                      "note": "'You shall not eat flesh with its life, that is, its blood' is the primal Noachic blood prohibition predating Sinai, broadening the scandal of v.53 beyond Israel to a universal taboo. Adds Recurrence to the blood-prohibition background."
+                    },
+                    {
+                      "source": "Deuteronomy 12:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Only be sure that you don’t eat the blood; for the blood is the life. You shall not eat the life with the flesh.",
+                      "note": "'Only be sure that you do not eat the blood, for the blood is the life' restates the prohibition with the life-in-the-blood rationale that John ironically affirms (the blood gives life). Reinforces the contested commandment behind the discourse."
+                    },
+                    {
+                      "source": "Sirach 24:21",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom's 'those who eat me... those who drink me' returns here with literal eating and drinking, deepening the Wisdom-banquet identification of Jesus. Coheres with v.35; the eat/drink pairing strengthens the Sirach link."
+                    },
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "'Eat of my bread and drink of the wine I have mixed' — Wisdom's bread-and-wine banquet underlies the flesh-as-food/blood-as-drink doubling of vv.53-56. Lower distinctiveness than the Leviticus collision but adds the sapiential meal frame."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "'Not as our fathers ate the manna, and died' (v.58) closes the discourse by again invoking the heaven-bread of Exodus 16, now surpassed. Recurrence of the governing manna text rather than a fresh allusion."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.7",
+                  "ref": "6:60-71",
+                  "echoes": [
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "'What if you would see the Son of Man ascending to where he was before?' (v.62) trades on the Danielic Son of Man who comes with the clouds before the Ancient of Days; John reverses the vector to ascent. Provides the title's apocalyptic Availability."
+                    },
+                    {
+                      "source": "Ezekiel 37:5-14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Thus says the Lord Yahweh to these bones: Behold, I will cause breath to enter into you, and you shall live. I will lay sinews on you, and will bring up flesh on you, and cover you with skin, and put breath in you, and you shall live; and you shall know that I am Yahweh. So I prophesied as I was commanded: and as I prophesied, there was a noise, and behold, an earthquake; and the bones came together, bone to its bone. I saw, and, behold, there were sinews […]",
+                      "note": "'It is the spirit who gives life; the flesh profits nothing' (v.63) echoes the valley-of-bones promise 'I will put my spirit within you, and you shall live.' Coherent spirit-gives-life theology; the dry-bones spirit animates dead flesh."
+                    },
+                    {
+                      "source": "Isaiah 31:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Now the Egyptians are men, and not God; and their horses flesh, and not spirit. When Yahweh stretches out his hand, both he who helps shall stumble, and he who is helped shall fall, and they all shall be consumed together.",
+                      "note": "'The Egyptians are flesh and not spirit' supplies the flesh/spirit antithesis behind 'the flesh profits nothing' (v.63), where flesh is the weak human plane and spirit the divine. Conceptual Coherence; moderate Volume."
+                    },
+                    {
+                      "source": "Psalm 16:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For you will not leave my soul in Sheol, neither will you allow your holy one to see corruption.",
+                      "note": "Peter's 'you are the Holy One of God' (v.69) resonates with 'you will not let your Holy One see corruption,' a key resurrection/messianic title. Coheres with the chapter's raising-on-the-last-day refrain; the holy-one designation is OT-rooted.",
+                      "altSource": "Judges 13:7"
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The spirit who gives life' (v.63) may glance at the breath of life by which the LORD made the man a living being. Foundational but diffuse; offered as a faint creational backdrop to life-giving Spirit.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 106:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They envied Moses also in the camp, and Aaron, Yahweh’s saint.",
+                      "note": "Aaron is 'the holy one of the LORD' — the only OT figure given nearly this exact title, offering a priestly alternative background to Peter's confession (v.69). Lower Volume than Psalm 16; contested as the operative source.",
+                      "contested": true,
+                      "altSource": "2 Kings 4:9"
+                    },
+                    {
+                      "source": "Deuteronomy 32:47",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For it is no vain thing for you; because it is your life, and through this thing you shall prolong your days in the land, where you go over the Jordan to possess it.”",
+                      "note": "'You have the words of eternal life' (v.68) faintly recalls Moses' 'it is no empty word for you, but your very life.' The word-as-life motif suits John's Mosaic typology; diffuse and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1590,7 +1996,44 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/joshua/24/"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/joshua/24/",
+              "title": "Covenant at Shechem",
+              "view": {
+                "center": [
+                  32.0,
+                  35.3
+                ],
+                "zoom": 7
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "shechem",
+                  "name": "Shechem",
+                  "coords": [
+                    32.213,
+                    35.282
+                  ],
+                  "tier": "identified",
+                  "id": "Tell Balata at the eastern edge of modern Nablus, in the saddle between Mount Ebal and Mount Gerizim. The patriarchal sanctuary of Gen 12:6, 33:18-20 and the covenant-renewal site of Joshua 24. Excavations by Sellin and Wright revealed Middle and Late Bronze fortifications and a fortress-temple."
+                },
+                {
+                  "key": "euphrates",
+                  "name": "The River",
+                  "coords": [
+                    34.42,
+                    40.95
+                  ],
+                  "tier": "region",
+                  "id": "The Euphrates, called simply 'the River' in Hebrew. The eastern frontier of the patriarchal homeland (Ur of the Chaldees and Haran lay beyond it) and the ideal northeastern boundary of the promised land (Gen 15:18, Josh 1:4). Pin sits on the middle Euphrates near ancient Mari."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -1603,7 +2046,195 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-34"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 34:19",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.3.10-2Tim.3.13",
+                      "refDisplay": "2 Timothy 3:10–13",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "3.10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-3.10"
+                    },
+                    {
+                      "refKey": "Acts.14.21-Acts.14.28",
+                      "refDisplay": "Acts 14:21–28",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-14.5"
+                    },
+                    {
+                      "refKey": "2Cor.6.3-2Cor.6.10",
+                      "refDisplay": "2 Corinthians 6:3–10",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-6.2"
+                    },
+                    {
+                      "refKey": "2Cor.11.23-2Cor.11.29",
+                      "refDisplay": "2 Corinthians 11:23–29",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "11.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-11.6"
+                    },
+                    {
+                      "refKey": "Acts.14.19-Acts.14.20",
+                      "refDisplay": "Acts 14:19–20",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-14.4"
+                    },
+                    {
+                      "refKey": "1Thess.3.1-1Thess.3.5",
+                      "refDisplay": "1 Thessalonians 3:1–5",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-3.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:18",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "2Cor.1.3-2Cor.1.7",
+                      "refDisplay": "2 Corinthians 1:3–7",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.2"
+                    },
+                    {
+                      "refKey": "Phil.4.4-Phil.4.7",
+                      "refDisplay": "Philippians 4:4–7",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.3"
+                    },
+                    {
+                      "refKey": "2Cor.12.7-2Cor.12.10",
+                      "refDisplay": "2 Corinthians 12:7–10",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-12.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:15",
+                  "occurrences": [
+                    {
+                      "refKey": "John.9.24-John.9.34",
+                      "refDisplay": "John 9:24–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "9.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-9.6"
+                    },
+                    {
+                      "refKey": "Jas.5.13-Jas.5.18",
+                      "refDisplay": "James 5:13–18",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "5.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-5.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:20",
+                  "occurrences": [
+                    {
+                      "refKey": "John.19.31-John.19.37",
+                      "refDisplay": "John 19:31–37",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.10",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-19.10"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:12–16",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.3.8-1Pet.3.12",
+                      "refDisplay": "1 Peter 3:8–12",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "3.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-3.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:17–19",
+                  "occurrences": [
+                    {
+                      "refKey": "2Pet.2.4-2Pet.2.10",
+                      "refDisplay": "2 Peter 2:4–10",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-peter#p-2.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1622,7 +2253,186 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:10-13",
+                  "echoes": [
+                    {
+                      "source": "Joshua 1:6-9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Be strong and courageous; for you shall cause this people to inherit the land which I swore to their fathers to give them. Only be strong and very courageous, to observe to do according to all the law, which Moses my servant commanded you. Don’t turn from it to the right hand or to the left, that you may have good success wherever you go. This book of the law shall not depart out of your mouth, but you shall meditate on it day and night, that you may […]",
+                      "note": "The opening exhortation 'be strong in the Lord and in the strength of his might' (6:10) echoes the repeated divine charge to Joshua 'be strong and courageous' (ischye kai andrizou) as he takes the land. The martial 'stand firm' framing of the whole passage coheres with the conquest setting, though the wording is a stock LXX encouragement formula.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "The command to 'put on the whole armor of God' (endysasthe... panoplian tou theou, 6:11,13) draws its core image from Isaiah's Divine Warrior who 'put on righteousness as a breastplate and a helmet of salvation,' and from Wisdom's elaboration of God arming creation. The arming verb endysasthai and the panoply frame derive from this Divine-Warrior tradition before the individual pieces are named."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:17-20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will take his jealousy as complete armor, And will make the whole creation his weapons for vengeance on his enemies: He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet; He will take holiness as an invincible shield, And he will sharpen stern wrath for a sword: And the world will go forth with him to fight against his insensate foes.",
+                      "note": "Wisdom expands Isaiah 59:17 into a full panoply: the Lord 'will take his zeal as a panoply (panoplian) and arm creation,' donning righteousness as breastplate and impartial judgment as helmet. Paul's distinctive word panoplia and the assembled set of pieces show direct dependence on this Second-Temple development, not Isaiah alone."
+                    },
+                    {
+                      "source": "Isaiah 40:31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+                      "note": "'In the strength of his might' (en to kratei tes ischyos autou, 6:10) resonates with Isaiah's promise that those who wait on the Lord 'shall renew their strength.' The verbal contact is thematic (divine strengthening of the weak) rather than lexical, so a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 10:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the prince of the kingdom of Persia withstood me twenty-one days; but, behold, Michael, one of the chief princes, came to help me: and I remained there with the kings of Persia.",
+                      "note": "The cosmic conflict 'not against flesh and blood but against the principalities... rulers of the darkness' (6:12) coheres with Daniel's angelic 'princes' (archontes) of Persia and Greece who war in the heavens. Second-Temple angelology of national powers supplies availability; the connection is conceptual, hence a contested echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:14-17",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Righteousness will be the belt of his waist, and faithfulness the belt of his waist.",
+                      "note": "'The belt of truth buckled around your waist' (6:14) draws on the messianic shoot of Jesse who wears 'righteousness as the belt of his waist and faithfulness/truth the belt of his loins.' Volume is high: the girdle imagery and the pairing with truth/righteousness are distinctive to Isaiah 11, and Paul redistributes its terms across belt and breastplate."
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "'The breastplate of righteousness' (6:14) is a direct lift of the Divine Warrior who 'put on righteousness as a breastplate' (enedysato dikaiosynen hos thoraka). The lexical match (thorax dikaiosynes) is exact, making this a high-volume allusion; the believer is clothed in God's own armor."
+                    },
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "'Feet fitted with the readiness of the gospel of peace' (6:15) alludes to Isaiah's herald, 'how beautiful upon the mountains are the feet of him who brings good news... who proclaims peace.' The triad feet + euangelizomenos + peace is distinctive to this verse; the 'shoes' piece evangelizes the warrior's stance."
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "'Take the helmet of salvation' (perikephalaian tou soteriou, 6:17) is a verbatim borrowing from the Divine Warrior who set 'a helmet of salvation on his head' (perikephalaian soteriou). The exact lexical match makes this among the clearest pieces of Isaianic armor; God's saving victory becomes the believer's headgear."
+                    },
+                    {
+                      "source": "Isaiah 49:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "and he has made my mouth like a sharp sword; in the shadow of his hand, he has hidden me: and he has made me a polished shaft; in his quiver has he kept me close:",
+                      "note": "'The sword of the Spirit, which is the word of God' (6:17) draws on the Servant who says God 'made my mouth like a sharp sword.' The fusion of sword + the spoken word of God is distinctive to this Servant Song; the believer wields the prophetic word as weapon."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:18",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet;",
+                      "note": "Wisdom's reworking of Isaiah ('he will put on righteousness as a breastplate') is the proximate Second-Temple form Paul knows, reinforcing the breastplate piece. Recurrence of the Isaiah image through Wisdom strengthens coherence even where Isaiah is the ultimate source.",
+                      "altSource": "Isaiah 59:17"
+                    },
+                    {
+                      "source": "Nahum 1:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, on the mountains the feet of him who brings good news, who publishes peace! Keep your feasts, Judah! Perform your vows, for the wicked one will no more pass through you. He is utterly cut off.",
+                      "note": "Nahum 2:1 LXX (1:15 EVV) repeats Isaiah's herald motif: 'behold upon the mountains the feet of one bringing good news and announcing peace.' Its near-identical wording strengthens the 'gospel of peace' shoe imagery, though Isaiah 52:7 is the primary source.",
+                      "altSource": "Isaiah 52:7"
+                    },
+                    {
+                      "source": "Isaiah 11:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "but with righteousness he will judge the poor, and decide with equity for the humble of the earth. He will strike the earth with the rod of his mouth; and with the breath of his lips he will kill the wicked.",
+                      "note": "The messianic shoot strikes the earth 'with the rod of his mouth' and slays the wicked 'with the breath (pneumati) of his lips,' joining sword/word with Spirit (pneuma) precisely as Eph 6:17 ('sword of the Spirit... word of God'). The Spirit-word-judgment cluster strengthens the allusion alongside Isaiah 49:2."
+                    },
+                    {
+                      "source": "Psalm 7:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He has also prepared for himself the instruments of death. He makes ready his flaming arrows.",
+                      "note": "The 'shield of faith' that quenches 'all the flaming darts of the evil one' (6:16) coheres with the Psalmist's image of God making his arrows into 'flaming/fiery shafts.' The unusual 'flaming darts' (belos pepyromena) motif has its nearest OT background here, though the attacker is reversed; a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 15:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "After these things Yahweh’s word came to Abram in a vision, saying, “Don’t be afraid, Abram. I am your shield, your exceedingly great reward.”",
+                      "note": "The 'shield of faith' (thyreos tes pisteos, 6:16) may evoke the LORD's word to Abram, 'I am your shield,' the foundational pairing of shield and faith (Abram 'believed'). Coherence with the faith motif is suggestive but the lexical contact is generic, so a low-confidence echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet;",
+                      "note": "Wisdom 5:18 also gives the warrior 'impartial judgment as a helmet,' confirming the Second-Temple currency of the helmet image alongside Isaiah. Recurrence supports coherence though Isaiah supplies the exact 'helmet of salvation.'",
+                      "altSource": "Isaiah 59:17"
+                    },
+                    {
+                      "source": "Hosea 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore I have cut them to pieces with the prophets; I killed them with the words of my mouth. Your judgments are like a flash of lightning.",
+                      "note": "God's killing/hewing of the people 'by the words of my mouth' provides a further prophetic precedent for the word of God as a slaying weapon, supporting the sword image. The contact is thematic recurrence rather than verbal dependence, hence a faint echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.5",
+                  "ref": "6:18-20",
+                  "echoes": [
+                    {
+                      "source": "Daniel 6:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When Daniel knew that the writing was signed, he went into his house (now his windows were open in his room toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before.",
+                      "note": "'Praying at all times in the Spirit... in all perseverance' (6:18) coheres with the OT pattern of unceasing, regular prayer exemplified by Daniel's thrice-daily petition. The connection is to a devotional topos rather than a specific text, so a faint echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 141:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let my prayer be set before you like incense; the lifting up of my hands like the evening sacrifice.",
+                      "note": "The summons to constant 'prayer and requests... at all times' (6:18) resonates with the Psalmist's plea that prayer rise continually like incense. Thematic coherence with perpetual supplication supports a low-confidence, contested echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 3:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But when I speak with you, I will open your mouth, and you shall tell them, Thus says the Lord Yahweh: He who hears, let him hear; and he who forbears, let him forbear: for they are a rebellious house.",
+                      "note": "Paul's request that 'utterance may be given me in opening my mouth' to make known the mystery with boldness (6:19) echoes the prophetic call in which God opens the prophet's mouth to speak his word. The mouth-opening / divinely given speech motif coheres with prophetic commissioning, though no single verse is quoted.",
+                      "contested": true,
+                      "altSource": "Ezekiel 29:21"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1641,7 +2451,148 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.6",
+                  "ref": "6:52-59",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 17:10-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘Any man of the house of Israel, or of the strangers who live as foreigners among them, who eats any kind of blood, I will set my face against that soul who eats blood, and will cut him off from among his people. For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life. Therefore I have said to the children of Israel, “No person […]",
+                      "note": "'Drink his blood' (v.53) collides head-on with the absolute Levitical prohibition: 'I will set my face against any who eats blood... the life is in the blood.' The scandal of vv.52-53 is unintelligible without this law; high Volume and Coherence as the offense John exploits."
+                    },
+                    {
+                      "source": "Exodus 12:8",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "They shall eat the flesh in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs.",
+                      "note": "'They shall eat the flesh that night' — the paschal lamb whose flesh is consumed. Jesus' demand to eat his flesh, set 'at Passover,' identifies him as the lamb; high typological Coherence binding the discourse to the chapter's opening note (v.4)."
+                    },
+                    {
+                      "source": "Genesis 9:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But flesh with its life, that is, its blood, you shall not eat.",
+                      "note": "'You shall not eat flesh with its life, that is, its blood' is the primal Noachic blood prohibition predating Sinai, broadening the scandal of v.53 beyond Israel to a universal taboo. Adds Recurrence to the blood-prohibition background."
+                    },
+                    {
+                      "source": "Deuteronomy 12:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Only be sure that you don’t eat the blood; for the blood is the life. You shall not eat the life with the flesh.",
+                      "note": "'Only be sure that you do not eat the blood, for the blood is the life' restates the prohibition with the life-in-the-blood rationale that John ironically affirms (the blood gives life). Reinforces the contested commandment behind the discourse."
+                    },
+                    {
+                      "source": "Sirach 24:21",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom's 'those who eat me... those who drink me' returns here with literal eating and drinking, deepening the Wisdom-banquet identification of Jesus. Coheres with v.35; the eat/drink pairing strengthens the Sirach link."
+                    },
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "'Eat of my bread and drink of the wine I have mixed' — Wisdom's bread-and-wine banquet underlies the flesh-as-food/blood-as-drink doubling of vv.53-56. Lower distinctiveness than the Leviticus collision but adds the sapiential meal frame."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "'Not as our fathers ate the manna, and died' (v.58) closes the discourse by again invoking the heaven-bread of Exodus 16, now surpassed. Recurrence of the governing manna text rather than a fresh allusion."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.7",
+                  "ref": "6:60-71",
+                  "echoes": [
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "'What if you would see the Son of Man ascending to where he was before?' (v.62) trades on the Danielic Son of Man who comes with the clouds before the Ancient of Days; John reverses the vector to ascent. Provides the title's apocalyptic Availability."
+                    },
+                    {
+                      "source": "Ezekiel 37:5-14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Thus says the Lord Yahweh to these bones: Behold, I will cause breath to enter into you, and you shall live. I will lay sinews on you, and will bring up flesh on you, and cover you with skin, and put breath in you, and you shall live; and you shall know that I am Yahweh. So I prophesied as I was commanded: and as I prophesied, there was a noise, and behold, an earthquake; and the bones came together, bone to its bone. I saw, and, behold, there were sinews […]",
+                      "note": "'It is the spirit who gives life; the flesh profits nothing' (v.63) echoes the valley-of-bones promise 'I will put my spirit within you, and you shall live.' Coherent spirit-gives-life theology; the dry-bones spirit animates dead flesh."
+                    },
+                    {
+                      "source": "Isaiah 31:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Now the Egyptians are men, and not God; and their horses flesh, and not spirit. When Yahweh stretches out his hand, both he who helps shall stumble, and he who is helped shall fall, and they all shall be consumed together.",
+                      "note": "'The Egyptians are flesh and not spirit' supplies the flesh/spirit antithesis behind 'the flesh profits nothing' (v.63), where flesh is the weak human plane and spirit the divine. Conceptual Coherence; moderate Volume."
+                    },
+                    {
+                      "source": "Psalm 16:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For you will not leave my soul in Sheol, neither will you allow your holy one to see corruption.",
+                      "note": "Peter's 'you are the Holy One of God' (v.69) resonates with 'you will not let your Holy One see corruption,' a key resurrection/messianic title. Coheres with the chapter's raising-on-the-last-day refrain; the holy-one designation is OT-rooted.",
+                      "altSource": "Judges 13:7"
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The spirit who gives life' (v.63) may glance at the breath of life by which the LORD made the man a living being. Foundational but diffuse; offered as a faint creational backdrop to life-giving Spirit.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 106:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They envied Moses also in the camp, and Aaron, Yahweh’s saint.",
+                      "note": "Aaron is 'the holy one of the LORD' — the only OT figure given nearly this exact title, offering a priestly alternative background to Peter's confession (v.69). Lower Volume than Psalm 16; contested as the operative source.",
+                      "contested": true,
+                      "altSource": "2 Kings 4:9"
+                    },
+                    {
+                      "source": "Deuteronomy 32:47",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For it is no vain thing for you; because it is your life, and through this thing you shall prolong your days in the land, where you go over the Jordan to possess it.”",
+                      "note": "'You have the words of eternal life' (v.68) faintly recalls Moses' 'it is no empty word for you, but your very life.' The word-as-life motif suits John's Mosaic typology; diffuse and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

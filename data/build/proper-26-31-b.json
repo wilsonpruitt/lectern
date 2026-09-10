@@ -695,7 +695,109 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/ruth/1/"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Ruth 1:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.1.1-Matt.1.17",
+                      "refDisplay": "Matthew 1:1–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Ruth 1:16",
+                  "occurrences": [
+                    {
+                      "refKey": "John.20.14-John.20.18",
+                      "refDisplay": "John 20:14–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "20.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-20.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Ruth 1:9–14",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.20.32-Acts.20.38",
+                      "refDisplay": "Acts 20:32–38",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "20.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-20.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Ruth 1:8",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.1.15-2Tim.1.18",
+                      "refDisplay": "2 Timothy 1:15–18",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.15"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/ruth/1/",
+              "title": "Famine and Return",
+              "view": {
+                "center": [
+                  31.62,
+                  35.5
+                ],
+                "zoom": 9
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "bethlehem-judah",
+                  "name": "Bethlehem",
+                  "coords": [
+                    31.705,
+                    35.203
+                  ],
+                  "tier": "identified",
+                  "id": "Modern Beit Lahm c. 8 km south of Jerusalem in the central hill country. Distinct from the Galilean Bethlehem of Joshua 19:15 (Beit Lahm of Zebulun). Burial place of Rachel (Gen 35:19, given as Ephrath); home of the Boaz-Obed-Jesse-David line; in later tradition the birthplace of Jesus."
+                },
+                {
+                  "key": "moab",
+                  "name": "Moab",
+                  "coords": [
+                    31.5,
+                    35.75
+                  ],
+                  "tier": "region",
+                  "id": "The plateau east of the Dead Sea, traditionally bounded by the Arnon canyon (south, against Edom) and the Heshbon plateau (north, against the trans-Jordan tribes). Ancestrally descended from Lot (Gen 19:37). Home of the Moabite Stone (Mesha Stele) found at Dhiban in 1868. Pin sits in the central plateau."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -708,7 +810,175 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-146"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 146:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.9.27-Matt.9.31",
+                      "refDisplay": "Matthew 9:27–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "9.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-9.5"
+                    },
+                    {
+                      "refKey": "Mark.10.46-Mark.10.52",
+                      "refDisplay": "Mark 10:46–52",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-10.7"
+                    },
+                    {
+                      "refKey": "Luke.13.10-Luke.13.17",
+                      "refDisplay": "Luke 13:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-13.3"
+                    },
+                    {
+                      "refKey": "Luke.18.35-Luke.18.43",
+                      "refDisplay": "Luke 18:35–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-18.7"
+                    },
+                    {
+                      "refKey": "John.9.24-John.9.34",
+                      "refDisplay": "John 9:24–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "9.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-9.6"
+                    },
+                    {
+                      "refKey": "Matt.15.29-Matt.15.31",
+                      "refDisplay": "Matthew 15:29–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.4.23-Acts.4.31",
+                      "refDisplay": "Acts 4:23–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "4.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-4.4"
+                    },
+                    {
+                      "refKey": "Acts.14.14-Acts.14.18",
+                      "refDisplay": "Acts 14:14–18",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-14.3"
+                    },
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    },
+                    {
+                      "refKey": "Rev.10.4-Rev.10.7",
+                      "refDisplay": "Revelation 10:4–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "10.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-10.2"
+                    },
+                    {
+                      "refKey": "Rev.14.6-Rev.14.7",
+                      "refDisplay": "Revelation 14:6–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.16.25-Acts.16.34",
+                      "refDisplay": "Acts 16:25–34",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "16.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-16.5"
+                    },
+                    {
+                      "refKey": "Acts.5.17-Acts.5.26",
+                      "refDisplay": "Acts 5:17–26",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "5.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-5.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.6-Acts.12.11",
+                      "refDisplay": "Acts 12:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-12.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -721,7 +991,72 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-9.2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.2",
+                  "ref": "9:11–22",
+                  "echoes": [
+                    {
+                      "source": "Exodus 24:8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Moses took the blood, and sprinkled it on the people, and said, ‘Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.’",
+                      "note": "Moses' words at Sinai, inaugurating the first covenant in blood. Hebrews quotes them to make blood the necessary seal of any covenant — and so to read Christ's death as the blood that ratifies the new one: ‘apart from shedding of blood there is no remission.’"
+                    },
+                    {
+                      "source": "Exodus 24:6–8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Moses took half of the blood and put it in basins, and half of the blood he sprinkled on the altar. He took the book of the covenant and read it in the hearing of the people, and they said, “All that Yahweh has spoken will we do, and be obedient.” Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”",
+                      "note": "Beyond the quoted clause (v. 8), the whole narrative frame of vv. 19–20 — Moses reading ‘every commandment to all the people,’ then sprinkling — retells Exod 24:6–8. Hebrews adds details (water, scarlet wool, hyssop, sprinkling the book) not in Exod 24, conflating it with the purification rites (Num 19; Lev 14): high recurrence of the sprinkling motif drives the link."
+                    },
+                    {
+                      "source": "Numbers 19:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for use in water for cleansing impurity. It is a sin offering.",
+                      "note": "‘The ashes of a heifer sprinkling those who have been defiled’ (v. 13) names the red-heifer rite of Num 19:9. Strong verbal volume (‘ashes of the heifer… cleansing impurity’) and exact thematic coherence: an outward cleansing ‘of the flesh’ that Hebrews contrasts with the inward cleansing of conscience by Christ's blood."
+                    },
+                    {
+                      "source": "Numbers 19:17–18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“For the unclean, they shall take of the ashes of the burning of the sin offering; and running water shall be poured into a vessel. A clean person shall take hyssop, dip it in the water, and sprinkle it on the tent, on all the vessels, on the persons who were there...",
+                      "note": "The mechanics of v. 13 (ashes + water sprinkled on the defiled) and the ‘water… and hyssop’ of vv. 19–21 echo Num 19:17–18, where hyssop dips the ash-water and sprinkles ‘the tent, all the vessels, the persons.’ Hebrews' phrase ‘sprinkled the tabernacle and all the vessels’ tracks this list closely — recurrence of sprinkling vocabulary."
+                    },
+                    {
+                      "source": "Numbers 19:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The priest shall take cedar wood, hyssop, and scarlet, and cast it into the middle of the burning of the heifer.",
+                      "note": "‘With water and scarlet wool and hyssop’ (v. 19) imports the ‘hyssop and scarlet’ of the heifer rite (Num 19:6) into the retelling of the Sinai covenant-cutting, which had neither. The conflation shows Hebrews reading all the blood-rites as one figural system; verbal contact on ‘scarlet… hyssop’ is the tell.",
+                      "contested": true,
+                      "altSource": "Leviticus 14:4–6 (scarlet and hyssop in the cleansing of the leper)"
+                    },
+                    {
+                      "source": "Leviticus 17:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life.",
+                      "note": "‘Apart from shedding of blood there is no remission’ (v. 22) crystallizes the principle of Lev 17:11 — blood makes atonement because the life is in it. No verbatim quotation, but high thematic coherence: this is the axiom on which the whole sacrificial argument of vv. 11–22 rests."
+                    },
+                    {
+                      "source": "Leviticus 16:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Aaron shall come into the sanctuary with a young bull for a sin offering, and a ram for a burnt offering.",
+                      "note": "‘The blood of goats and calves’ / ‘goats and bulls’ (vv. 12–13, 19) generalizes the Day-of-Atonement victims (bull and goat, Lev 16:3, 5–15). Faint and diffuse — Hebrews blends Day-of-Atonement animals with covenant-inauguration animals (Exod 24) — so verbal volume is low and the source is one strand among several."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -740,7 +1075,80 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.4",
+                  "ref": "12:28-34",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:4-5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one. You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "Jesus names the greatest commandment by quoting the Shema in full: 'Hear, O Israel, the Lord our God, the Lord is one; and you shall love the Lord your God with all your heart, soul, mind, and strength.' This is a formal, explicit citation of Israel's central confession, the pericope's anchor text."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "The second commandment, 'You shall love your neighbor as yourself,' is quoted verbatim from the Holiness Code. Mark's pairing of Deuteronomy 6 and Leviticus 19 as the summary of the Law is a formal double citation that the scribe affirms."
+                    },
+                    {
+                      "source": "Deuteronomy 4:35",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "It was shown to you so that you might know that Yahweh is God. There is no one else besides him.",
+                      "note": "The scribe's approving gloss, 'he is one, and there is no other but he,' echoes Deuteronomy's monotheistic confession 'the Lord is God; there is no other besides him.' This buttresses the Shema's 'the Lord is one' with the classic Deuteronomic affirmation of God's uniqueness."
+                    },
+                    {
+                      "source": "1 Samuel 15:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Samuel said, “Has Yahweh as great delight in burnt offerings and sacrifices, as in obeying the voice of Yahweh? Behold, to obey is better than sacrifice, and to listen than the fat of rams.",
+                      "note": "The scribe declares that loving God and neighbor is 'more than all whole burnt offerings and sacrifices,' echoing Samuel's rebuke that 'to obey is better than sacrifice.' The prioritizing of covenant love and obedience over cultic offering is a prophetic commonplace the scribe deliberately invokes."
+                    },
+                    {
+                      "source": "Hosea 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+                      "note": "Hosea's 'I desire mercy/steadfast love, not sacrifice, and the knowledge of God rather than burnt offerings' lies directly behind the scribe's ranking of love above 'whole burnt offerings.' The pairing of love-of-God with the relativizing of burnt offerings closely matches Hosea's formula."
+                    },
+                    {
+                      "source": "Isaiah 45:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Declare and present it. Yes, let them take counsel together. Who has shown this from ancient time? Who has declared it of old? Haven’t I, Yahweh? There is no other God besides me, a just God and a Savior; There is no one besides me.",
+                      "note": "Deutero-Isaiah's repeated 'there is no other God besides me' supplies the same monotheistic formula the scribe uses ('there is none other but he'). Given the recurrence of this oneness language across Deuteronomy and Isaiah, the scribe's confession may draw on the broader prophetic monotheism as well as the Shema.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Micah 6:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How shall I come before Yahweh, and bow myself before the exalted God? Shall I come before him with burnt offerings, with calves a year old? Will Yahweh be pleased with thousands of rams? With tens of thousands of rivers of oil? Shall I give my firstborn for my disobedience? The fruit of my body for the sin of my soul? He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+                      "note": "Micah's contrast between multiplied burnt offerings and the real requirement to do justice, love mercy, and walk humbly with God supplies the same prophetic logic the scribe applies. It belongs to the recurrent prophetic critique that ethical love outweighs sacrifice, reinforcing the scribe's verdict.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joshua 22:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Only take diligent heed to do the commandment and the law which Moses the servant of Yahweh commanded you, to love Yahweh your God, to walk in all his ways, to keep his commandments, to hold fast to him, and to serve him with all your heart and with all your soul.”",
+                      "note": "Joshua's exhortation to love the Lord, walk in his ways, and serve him 'with all your heart and all your soul' echoes the Shema's totalizing love-language that Jesus quotes. As a near-verbatim restatement of Deuteronomy's command, it shows the formula's currency but adds little beyond the primary citation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1407,7 +1815,455 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/deuteronomy-6"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Deuteronomy 6:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.22.34-Matt.22.40",
+                      "refDisplay": "Matthew 22:34–40",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "22.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-22.4"
+                    },
+                    {
+                      "refKey": "Luke.10.25-Luke.10.28",
+                      "refDisplay": "Luke 10:25–28",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "10.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-10.5"
+                    },
+                    {
+                      "refKey": "1John.2.3-1John.2.6",
+                      "refDisplay": "1 John 2:3–6",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "2.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-2.3"
+                    },
+                    {
+                      "refKey": "1John.4.17-1John.4.21",
+                      "refDisplay": "1 John 4:17–21",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "4.17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-4.17"
+                    },
+                    {
+                      "refKey": "1John.5.1-1John.5.5",
+                      "refDisplay": "1 John 5:1–5",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-5.1"
+                    },
+                    {
+                      "refKey": "Matt.6.24",
+                      "refDisplay": "Matthew 6:24",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.8"
+                    },
+                    {
+                      "refKey": "John.13.31-John.13.35",
+                      "refDisplay": "John 13:31–35",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-13.7"
+                    },
+                    {
+                      "refKey": "John.14.15-John.14.17",
+                      "refDisplay": "John 14:15–17",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.5"
+                    },
+                    {
+                      "refKey": "1Cor.8.4-1Cor.8.6",
+                      "refDisplay": "1 Corinthians 8:4–6",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "8.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-8.2"
+                    },
+                    {
+                      "refKey": "1Tim.1.3-1Tim.1.7",
+                      "refDisplay": "1 Timothy 1:3–7",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.2"
+                    },
+                    {
+                      "refKey": "1John.3.23-1John.3.24",
+                      "refDisplay": "1 John 3:23–24",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.23"
+                    },
+                    {
+                      "refKey": "2John.1.5-2John.1.6",
+                      "refDisplay": "2 John 1:5–6",
+                      "book": "2 John",
+                      "slug": "2-john",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-john#p-1.5"
+                    },
+                    {
+                      "refKey": "Luke.16.10-Luke.16.13",
+                      "refDisplay": "Luke 16:10–13",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-16.3"
+                    },
+                    {
+                      "refKey": "John.14.28-John.14.31",
+                      "refDisplay": "John 14:28–31",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-14.9"
+                    },
+                    {
+                      "refKey": "Acts.4.32-Acts.4.37",
+                      "refDisplay": "Acts 4:32–37",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "4.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-4.5"
+                    },
+                    {
+                      "refKey": "1Thess.5.23-1Thess.5.28",
+                      "refDisplay": "1 Thessalonians 5:23–28",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "5.23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-5.23"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.3.21-Rom.3.31",
+                      "refDisplay": "Romans 3:21–31",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-3.3"
+                    },
+                    {
+                      "refKey": "1Cor.8.4-1Cor.8.6",
+                      "refDisplay": "1 Corinthians 8:4–6",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-8.2"
+                    },
+                    {
+                      "refKey": "Eph.4.4-Eph.4.6",
+                      "refDisplay": "Ephesians 4:4–6",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "4.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/ephesians#p-4.2"
+                    },
+                    {
+                      "refKey": "1Tim.1.12-1Tim.1.17",
+                      "refDisplay": "1 Timothy 1:12–17",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.4"
+                    },
+                    {
+                      "refKey": "1Tim.2.1-1Tim.2.7",
+                      "refDisplay": "1 Timothy 2:1–7",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "2.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-2.1"
+                    },
+                    {
+                      "refKey": "Jas.2.14-Jas.2.26",
+                      "refDisplay": "James 2:14–26",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "2.14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/james#p-2.14"
+                    },
+                    {
+                      "refKey": "Mark.10.17-Mark.10.22",
+                      "refDisplay": "Mark 10:17–22",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-10.3"
+                    },
+                    {
+                      "refKey": "John.10.22-John.10.30",
+                      "refDisplay": "John 10:22–30",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-10.5"
+                    },
+                    {
+                      "refKey": "John.17.1-John.17.5",
+                      "refDisplay": "John 17:1–5",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-17.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:4–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.12.28-Mark.12.34",
+                      "refDisplay": "Mark 12:28–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "12.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-12.4"
+                    },
+                    {
+                      "refKey": "Matt.4.1-Matt.4.11",
+                      "refDisplay": "Matthew 4:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-4.1"
+                    },
+                    {
+                      "refKey": "Luke.18.18-Luke.18.23",
+                      "refDisplay": "Luke 18:18–23",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-18.4"
+                    },
+                    {
+                      "refKey": "John.5.39-John.5.47",
+                      "refDisplay": "John 5:39–47",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "5.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-5.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:6–7",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.3.14-2Tim.3.17",
+                      "refDisplay": "2 Timothy 3:14–17",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "3.14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-3.14"
+                    },
+                    {
+                      "refKey": "Col.3.15-Col.3.17",
+                      "refDisplay": "Colossians 3:15–17",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-3.5"
+                    },
+                    {
+                      "refKey": "1John.2.12-1John.2.14",
+                      "refDisplay": "1 John 2:12–14",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "2.12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-2.12"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.23.1-Matt.23.12",
+                      "refDisplay": "Matthew 23:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "23.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-23.1"
+                    },
+                    {
+                      "refKey": "Rev.13.16-Rev.13.18",
+                      "refDisplay": "Revelation 13:16–18",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "13.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-13.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:4–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.8.19-Luke.8.21",
+                      "refDisplay": "Luke 8:19–21",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-8.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:6",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.22-John.14.24",
+                      "refDisplay": "John 14:22–24",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-14.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:1",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.28-John.14.31",
+                      "refDisplay": "John 14:28–31",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-14.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.6.1-Eph.6.4",
+                      "refDisplay": "Ephesians 6:1–4",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "6.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-6.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 6:5–7",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.1.3-2Tim.1.5",
+                      "refDisplay": "2 Timothy 1:3–5",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1420,7 +2276,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-119"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1433,7 +2292,72 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-9.2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.2",
+                  "ref": "9:11–22",
+                  "echoes": [
+                    {
+                      "source": "Exodus 24:8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Moses took the blood, and sprinkled it on the people, and said, ‘Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.’",
+                      "note": "Moses' words at Sinai, inaugurating the first covenant in blood. Hebrews quotes them to make blood the necessary seal of any covenant — and so to read Christ's death as the blood that ratifies the new one: ‘apart from shedding of blood there is no remission.’"
+                    },
+                    {
+                      "source": "Exodus 24:6–8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Moses took half of the blood and put it in basins, and half of the blood he sprinkled on the altar. He took the book of the covenant and read it in the hearing of the people, and they said, “All that Yahweh has spoken will we do, and be obedient.” Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”",
+                      "note": "Beyond the quoted clause (v. 8), the whole narrative frame of vv. 19–20 — Moses reading ‘every commandment to all the people,’ then sprinkling — retells Exod 24:6–8. Hebrews adds details (water, scarlet wool, hyssop, sprinkling the book) not in Exod 24, conflating it with the purification rites (Num 19; Lev 14): high recurrence of the sprinkling motif drives the link."
+                    },
+                    {
+                      "source": "Numbers 19:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for use in water for cleansing impurity. It is a sin offering.",
+                      "note": "‘The ashes of a heifer sprinkling those who have been defiled’ (v. 13) names the red-heifer rite of Num 19:9. Strong verbal volume (‘ashes of the heifer… cleansing impurity’) and exact thematic coherence: an outward cleansing ‘of the flesh’ that Hebrews contrasts with the inward cleansing of conscience by Christ's blood."
+                    },
+                    {
+                      "source": "Numbers 19:17–18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“For the unclean, they shall take of the ashes of the burning of the sin offering; and running water shall be poured into a vessel. A clean person shall take hyssop, dip it in the water, and sprinkle it on the tent, on all the vessels, on the persons who were there...",
+                      "note": "The mechanics of v. 13 (ashes + water sprinkled on the defiled) and the ‘water… and hyssop’ of vv. 19–21 echo Num 19:17–18, where hyssop dips the ash-water and sprinkles ‘the tent, all the vessels, the persons.’ Hebrews' phrase ‘sprinkled the tabernacle and all the vessels’ tracks this list closely — recurrence of sprinkling vocabulary."
+                    },
+                    {
+                      "source": "Numbers 19:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The priest shall take cedar wood, hyssop, and scarlet, and cast it into the middle of the burning of the heifer.",
+                      "note": "‘With water and scarlet wool and hyssop’ (v. 19) imports the ‘hyssop and scarlet’ of the heifer rite (Num 19:6) into the retelling of the Sinai covenant-cutting, which had neither. The conflation shows Hebrews reading all the blood-rites as one figural system; verbal contact on ‘scarlet… hyssop’ is the tell.",
+                      "contested": true,
+                      "altSource": "Leviticus 14:4–6 (scarlet and hyssop in the cleansing of the leper)"
+                    },
+                    {
+                      "source": "Leviticus 17:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life.",
+                      "note": "‘Apart from shedding of blood there is no remission’ (v. 22) crystallizes the principle of Lev 17:11 — blood makes atonement because the life is in it. No verbatim quotation, but high thematic coherence: this is the axiom on which the whole sacrificial argument of vv. 11–22 rests."
+                    },
+                    {
+                      "source": "Leviticus 16:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Aaron shall come into the sanctuary with a young bull for a sin offering, and a ram for a burnt offering.",
+                      "note": "‘The blood of goats and calves’ / ‘goats and bulls’ (vv. 12–13, 19) generalizes the Day-of-Atonement victims (bull and goat, Lev 16:3, 5–15). Faint and diffuse — Hebrews blends Day-of-Atonement animals with covenant-inauguration animals (Exod 24) — so verbal volume is low and the source is one strand among several."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1452,7 +2376,80 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.4",
+                  "ref": "12:28-34",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:4-5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one. You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "Jesus names the greatest commandment by quoting the Shema in full: 'Hear, O Israel, the Lord our God, the Lord is one; and you shall love the Lord your God with all your heart, soul, mind, and strength.' This is a formal, explicit citation of Israel's central confession, the pericope's anchor text."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "The second commandment, 'You shall love your neighbor as yourself,' is quoted verbatim from the Holiness Code. Mark's pairing of Deuteronomy 6 and Leviticus 19 as the summary of the Law is a formal double citation that the scribe affirms."
+                    },
+                    {
+                      "source": "Deuteronomy 4:35",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "It was shown to you so that you might know that Yahweh is God. There is no one else besides him.",
+                      "note": "The scribe's approving gloss, 'he is one, and there is no other but he,' echoes Deuteronomy's monotheistic confession 'the Lord is God; there is no other besides him.' This buttresses the Shema's 'the Lord is one' with the classic Deuteronomic affirmation of God's uniqueness."
+                    },
+                    {
+                      "source": "1 Samuel 15:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Samuel said, “Has Yahweh as great delight in burnt offerings and sacrifices, as in obeying the voice of Yahweh? Behold, to obey is better than sacrifice, and to listen than the fat of rams.",
+                      "note": "The scribe declares that loving God and neighbor is 'more than all whole burnt offerings and sacrifices,' echoing Samuel's rebuke that 'to obey is better than sacrifice.' The prioritizing of covenant love and obedience over cultic offering is a prophetic commonplace the scribe deliberately invokes."
+                    },
+                    {
+                      "source": "Hosea 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+                      "note": "Hosea's 'I desire mercy/steadfast love, not sacrifice, and the knowledge of God rather than burnt offerings' lies directly behind the scribe's ranking of love above 'whole burnt offerings.' The pairing of love-of-God with the relativizing of burnt offerings closely matches Hosea's formula."
+                    },
+                    {
+                      "source": "Isaiah 45:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Declare and present it. Yes, let them take counsel together. Who has shown this from ancient time? Who has declared it of old? Haven’t I, Yahweh? There is no other God besides me, a just God and a Savior; There is no one besides me.",
+                      "note": "Deutero-Isaiah's repeated 'there is no other God besides me' supplies the same monotheistic formula the scribe uses ('there is none other but he'). Given the recurrence of this oneness language across Deuteronomy and Isaiah, the scribe's confession may draw on the broader prophetic monotheism as well as the Shema.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Micah 6:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How shall I come before Yahweh, and bow myself before the exalted God? Shall I come before him with burnt offerings, with calves a year old? Will Yahweh be pleased with thousands of rams? With tens of thousands of rivers of oil? Shall I give my firstborn for my disobedience? The fruit of my body for the sin of my soul? He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+                      "note": "Micah's contrast between multiplied burnt offerings and the real requirement to do justice, love mercy, and walk humbly with God supplies the same prophetic logic the scribe applies. It belongs to the recurrent prophetic critique that ethical love outweighs sacrifice, reinforcing the scribe's verdict.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joshua 22:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Only take diligent heed to do the commandment and the law which Moses the servant of Yahweh commanded you, to love Yahweh your God, to walk in all his ways, to keep his commandments, to hold fast to him, and to serve him with all your heart and with all your soul.”",
+                      "note": "Joshua's exhortation to love the Lord, walk in his ways, and serve him 'with all your heart and all your soul' echoes the Shema's totalizing love-language that Jesus quotes. As a near-verbatim restatement of Deuteronomy's command, it shows the formula's currency but adds little beyond the primary citation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

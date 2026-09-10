@@ -615,7 +615,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-45"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 45:9–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.7.9-Acts.7.16",
+                      "refDisplay": "Acts 7:9–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-7.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 45:5–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.11.27-Acts.11.30",
+                      "refDisplay": "Acts 11:27–30",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "11.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-11.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 45:5–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Phlm.1.15-Phlm.1.16",
+                      "refDisplay": "Philemon 1:15–16",
+                      "book": "Philemon",
+                      "slug": "philemon",
+                      "pericopeId": "1.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philemon#p-1.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -628,7 +681,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-37"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 37:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 37:4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.23-John.16.28",
+                      "refDisplay": "John 16:23–28",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-16.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 37:5",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.5.5-1Pet.5.11",
+                      "refDisplay": "1 Peter 5:5–11",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -647,7 +753,65 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "15.5",
+                  "ref": "15:35-49",
+                  "echoes": [
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The first man, Adam, became a living soul' (v.45) quotes Gen 2:7 LXX ('the man became a living soul') verbatim, adding 'first' and 'Adam' to set up the antithesis with the 'last Adam' as life-giving spirit. Volume is maximal with citation formula 'it is written'; this is the chapter's anchoring OT text for the two-Adam anthropology."
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The first man is of the earth, made of dust' (v.47) re-reads Gen 2:7, where God forms the man 'of the dust of the ground.' The dust/earth motif distinguishes the earthly Adam from 'the Lord from heaven'; recurrence within vv.45-49 confirms deliberate exegetical use beyond the v.45 citation."
+                    },
+                    {
+                      "source": "Genesis 3:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "By the sweat of your face will you eat bread until you return to the ground, for out of it you were taken. For you are dust, and to dust you shall return.”",
+                      "note": "'Those who are made of dust' bearing 'the image of the man of dust' (vv.48-49) recalls 'dust you are, and to dust you shall return,' the mortality stamped on Adam's line. It reinforces the Gen 2:7 dust language with the death-sentence of Eden, giving the contrast its weight of perishability."
+                    },
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "'As we have borne the image of those made of dust, let us also bear the image of the heavenly' (v.49) invokes the creation of humanity 'in the image of God,' now patterned after the heavenly Man. The image (eikon) language is distinctively Gen 1:26-27 (cf. 5:3); coherence with Paul's Adam Christology supports a medium allusion."
+                    },
+                    {
+                      "source": "Daniel 12:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever.",
+                      "note": "The graded 'glory' of sun, moon, and differing stars applied to the resurrection body (vv.40-42) echoes 'those who are wise shall shine like the brightness of the firmament, and those who turn many to righteousness like the stars.' Daniel's astral imagery of the risen righteous gives the star-glory analogy its resurrection coherence; verbal overlap on stars/glory grounds the allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 1:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said, “Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth”; and it was so. The earth yielded grass, herbs yielding seed after their kind, and trees bearing fruit, with their seeds in it, after their kind; and God saw that it was good.",
+                      "note": "'To each seed a body of its own' and the distinct kinds of flesh (vv.38-39) faintly echo the creation account where plants bear seed 'each according to its kind' and creatures are made by kinds. The echo is conceptual, supporting Paul's argument that God assigns distinct bodies; volume is low, hence a faint echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -666,7 +830,177 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.7",
+                  "ref": "6:27-31",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "'Love your enemies' radicalizes and inverts the Holiness Code's 'love your neighbor as yourself,' which forbids vengeance and grudge-bearing. The love-command and its anti-retaliation logic are directly in view; high Coherence with vv.32-36."
+                    },
+                    {
+                      "source": "Exodus 23:4-5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“If you meet your enemy’s ox or his donkey going astray, you shall surely bring it back to him again. If you see the donkey of him who hates you fallen down under his burden, don’t leave him, you shall surely help him with it.",
+                      "note": "The Torah already commands aiding an enemy's straying ox or fallen donkey — concrete enemy-love. This statute is the OT seedbed of 'do good to those who hate you,' giving strong Availability and Volume for the command."
+                    },
+                    {
+                      "source": "Proverbs 25:21-22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "If your enemy is hungry, give him food to eat. If he is thirsty, give him water to drink: for you will heap coals of fire on his head, and Yahweh will reward you.",
+                      "note": "'If your enemy is hungry, give him bread... ' is the wisdom tradition's enacted enemy-love, closely matching 'do good to those who hate you' and 'give to everyone who asks.' High Coherence with Leviticus 19 and Exodus 23."
+                    },
+                    {
+                      "source": "Tobit 4:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "And what you yourself hate, do to no man. Don’t drink wine to drunkenness, and don’t let drunkenness go with you on your way.",
+                      "note": "'What you hate, do to no one' is the deuterocanonical negative Golden Rule, the nearest Second-Temple antecedent to 'as you would like people to do to you, do so to them.' Direct conceptual dependence; Availability within the OT/deuterocanon is secure."
+                    },
+                    {
+                      "source": "Proverbs 24:29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t say, “I will do to him as he has done to me; I will render to the man according to his work.”",
+                      "note": "'Do not say, I will do to him as he has done to me' is the proverbial renunciation of retaliation behind 'offer also the other cheek' and not demanding goods back. Moderate Volume; reinforces the anti-lex-talionis thrust."
+                    },
+                    {
+                      "source": "Lamentations 3:30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Let him give his cheek to him who strikes him; let him be filled full with reproach.",
+                      "note": "'Let him give his cheek to the one who strikes him; let him be filled with reproach' is a striking verbal parallel to 'to him who strikes you on the cheek, offer also the other.' Notable Volume despite being a lament rather than a command."
+                    },
+                    {
+                      "source": "Isaiah 50:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I gave my back to the strikers, and my cheeks to those who plucked off the hair; I didn’t hide my face from shame and spitting.",
+                      "note": "The Servant 'gave my back to those who strike, and my cheeks to those who pluck the beard' models nonretaliatory submission to assault, coherent with the cheek-turning saying. Figural link to the Suffering Servant pattern.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 29:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He that shows mercy will lend to his neighbor; And he that strengthens him with his hand keeps the commandments. Lend to your neighbor in time of his need; And pay you your neighbor again in due season.",
+                      "note": "Ben Sira's teaching on lending to a neighbor and showing mercy stands behind 'lend, expecting nothing back.' Faint wisdom-tradition echo of generous lending without calculation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.8",
+                  "ref": "6:32-36",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 19:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Speak to all the congregation of the children of Israel, and tell them, ‘You shall be holy; for I, Yahweh your God, am holy.",
+                      "note": "'Be merciful, even as your Father is merciful' is a deliberate reworking of the Holiness Code's imitatio Dei formula 'be holy, for I the LORD your God am holy.' The imitation-of-God structure is unmistakable; Luke substitutes mercy for holiness. High Volume."
+                    },
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "The defining self-revelation 'the LORD, a God merciful and gracious' supplies the content of the Father's mercy that disciples are to imitate, and 'kind toward the unthankful and evil' echoes God's compassion on the undeserving. Strong Coherence with the imitatio Dei."
+                    },
+                    {
+                      "source": "Psalm 103:8-13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh is merciful and gracious, slow to anger, and abundant in loving kindness. He will not always accuse; neither will he stay angry forever. He has not dealt with us according to our sins, nor repaid us for our iniquities. For as the heavens are high above the earth, so great is his loving kindness toward those who fear him. As far as the east is from the west, so far has he removed our transgressions from us. Like a father has compassion on his […]",
+                      "note": "'The LORD is merciful and gracious... as a father has compassion on his children' joins divine mercy with fatherhood exactly as Luke does ('your Father is merciful'). Moderate Volume reinforcing Exodus 34."
+                    },
+                    {
+                      "source": "Deuteronomy 15:7-11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If a poor man, one of your brothers, is with you within any of your gates in your land which Yahweh your God gives you, you shall not harden your heart, nor shut your hand from your poor brother; but you shall surely open your hand to him, and shall surely lend him sufficient for his need, which he lacks. Beware that there not be a base thought in your heart, saying, “The seventh year, the year of release, is at hand”; and your eye be evil against your […]",
+                      "note": "The command to lend generously to the poor 'and your heart shall not be grieved' grounds open-handed lending without expectation of return. Coherent with Luke's generosity ethic; moderate Availability."
+                    },
+                    {
+                      "source": "Psalm 37:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All day long he deals graciously, and lends. His seed is blessed.",
+                      "note": "'All day long he deals graciously and lends' commends the righteous lender who gives freely, undergirding 'lend, expecting nothing back.' Faint wisdom-Psalter echo, low confidence.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.9",
+                  "ref": "6:37-38",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 19:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He who has pity on the poor lends to Yahweh; he will reward him.",
+                      "note": "'Whoever is kind to the poor lends to the LORD, and he will repay' captures the give-and-it-will-be-given reciprocity of v.38. Coherent with the surrounding generosity teaching; moderate Volume."
+                    },
+                    {
+                      "source": "Isaiah 65:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "your own iniquities, and the iniquities of your fathers together”, says Yahweh, “who have burned incense on the mountains, and blasphemed me on the hills; therefore will I first measure their work into their bosom.”",
+                      "note": "'I will measure their former work into their bosom' supplies the measure-into-the-lap imagery behind 'good measure... running over, will be given into your bosom.' Faint but specific verbal contact with the lap/bosom measuring motif.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 19:35-36",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘You shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity. You shall have just balances, just weights, a just ephah, and a just hin. I am Yahweh your God, who brought you out of the land of Egypt.",
+                      "note": "The Torah's demand for honest measures ('a just ephah') stands behind the just-recompense logic of 'with the measure you measure it will be measured back.' Conceptual echo of measure-for-measure justice.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Samuel 22:26-27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "With the merciful you will show yourself merciful. With the perfect man you will show yourself perfect. With the pure you will show yourself pure. With the crooked you will show yourself shrewd.",
+                      "note": "'With the merciful you show yourself merciful... with the pure you show yourself pure' is the OT measure-for-measure principle of divine requital matching human conduct, behind 'with the measure you measure.' Low and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Sermon on the Mount",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "5:1–7:29",
+                        "luke": "6:20–49"
+                      },
+                      "note": "Matthew's great mountain sermon; Luke gives a shorter \"sermon on the plain\" with its own blessings and woes."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

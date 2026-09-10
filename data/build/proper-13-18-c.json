@@ -696,7 +696,90 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/hosea-11"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Hosea 11:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.2.13-Matt.2.15",
+                      "refDisplay": "Matthew 2:13–15",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "2.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-2.2"
+                    },
+                    {
+                      "refKey": "Rom.8.1-Rom.8.17",
+                      "refDisplay": "Romans 8:1–17",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-8.1"
+                    },
+                    {
+                      "refKey": "Eph.1.3-Eph.1.6",
+                      "refDisplay": "Ephesians 1:3–6",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.2"
+                    },
+                    {
+                      "refKey": "Gal.4.1-Gal.4.7",
+                      "refDisplay": "Galatians 4:1–7",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Hosea 11:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.4.7-1John.4.12",
+                      "refDisplay": "1 John 4:7–12",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "4.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-4.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Hosea 11:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.10.1-Rev.10.3",
+                      "refDisplay": "Revelation 10:1–3",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-10.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -709,7 +792,105 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-107"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 107:5–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 107:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.22-Luke.13.30",
+                      "refDisplay": "Luke 13:22–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.6"
+                    },
+                    {
+                      "refKey": "Matt.8.5-Matt.8.13",
+                      "refDisplay": "Matthew 8:5–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 107:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.51-Luke.1.56",
+                      "refDisplay": "Luke 1:51–56",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-1.11"
+                    },
+                    {
+                      "refKey": "Luke.6.20-Luke.6.23",
+                      "refDisplay": "Luke 6:20–23",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-6.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 107:4–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.8.1-Mark.8.10",
+                      "refDisplay": "Mark 8:1–10",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-8.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -728,7 +909,139 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.1",
+                  "ref": "3:1-4",
+                  "echoes": [
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "\"Where Christ is, seated on the right hand of God\" verbally echoes the LXX of Ps 110:1 (\"Sit at my right hand\"), the most-cited OT verse in the NT. High volume of distinctive language (right hand, seated, exaltation) and strong recurrence make the session at God's right hand the dominant figure for the exalted Christ. Coherence with Colossians' cosmic Christology is exact."
+                    },
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "The exalted Christ glorified and revealed in heavenly session may faintly invoke Daniel's Son of Man given dominion and glory before the Ancient of Days. Low volume since no distinctive vocabulary is reproduced; the echo rests on the shared schema of heavenly enthronement and future revelation \"in glory\" (v.4).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 73:24-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You will guide me with your counsel, and afterward receive me to glory. Whom do I have in heaven? There is no one on earth whom I desire besides you. My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+                      "note": "\"Your life is hidden with Christ in God\" coheres with the psalmist's hope that God is his portion and will receive him to glory, the hidden security of life bound to God. Faint and contested; rests on thematic coherence (hiddenness, glory, God as the believer's life) rather than verbal contact.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.2",
+                  "ref": "3:5-7",
+                  "echoes": [
+                    {
+                      "source": "Exodus 20:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, nor his male servant, nor his female servant, nor his ox, nor his donkey, nor anything that is your neighbor’s.”",
+                      "note": "\"Covetousness, which is idolatry\" presupposes the Decalogue's prohibition of coveting, the climactic command that exposes disordered desire. The identification of greed with idolatry draws on Israel's covenant logic where craving what is not one's own is functionally false worship; coherent with Second-Temple Jewish moralizing of pleonexia."
+                    },
+                    {
+                      "source": "Exodus 20:3-5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You shall have no other gods before me. “You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is in the earth beneath, or that is in the water under the earth: you shall not bow yourself down to them, nor serve them, for I, Yahweh your God, am a jealous God, visiting the iniquity of the fathers on the children, on the third and on the fourth generation of those who hate me,",
+                      "note": "Naming covetousness \"idolatry\" invokes the first commandment's exclusive worship and the prohibition of other gods. The equation of greed with idol-service is a recurring Second-Temple move (cf. Testament traditions) grounded in the Decalogue's opening; coheres with the wrath-of-God indictment that follows."
+                    },
+                    {
+                      "source": "Genesis 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.",
+                      "note": "\"Evil desire\" and the inventory of corrupt members recall the prophetic-Pentateuchal diagnosis that the inclination of the human heart is only evil continually. Faint; the vice list is a Hellenistic-Jewish form and contact is conceptual (the earthly members, depraved passion) rather than lexical.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 9:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Remember, and don’t forget, how you provoked Yahweh your God to wrath in the wilderness. From the day that you left the land of Egypt, until you came to this place, you have been rebellious against Yahweh.",
+                      "note": "\"The wrath of God comes on the children of disobedience\" coheres with Deuteronomy's recurring theme of divine wrath provoked by Israel's rebellion and idolatry. Faint and generic; the wrath-against-disobedience schema is pervasive across the prophets, so no single passage controls.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 25:1-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Israel stayed in Shittim; and the people began to play the prostitute with the daughters of Moab; for they called the people to the sacrifices of their gods. The people ate and bowed down to their gods. Israel joined himself to Baal Peor. Yahweh’s anger was kindled against Israel. Yahweh said to Moses, “Take all the chiefs of the people, and hang them up to Yahweh before the sun, that the fierce anger of Yahweh may turn away from Israel.” Moses said to […]",
+                      "note": "Linking sexual immorality and idolatry, followed by divine wrath, echoes the Baal-Peor episode where harlotry with Moab and idol-worship together kindle God's anger. Faint; contact is the recurrent OT pairing of porneia with idolatry under wrath rather than verbal citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.3",
+                  "ref": "3:8-11",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "\"The new man, being renewed in knowledge after the image of his Creator\" directly reworks the creation of humanity in God's image. High volume (image, Creator, the making of man) and exact coherence: the new self is re-creation according to the imago Dei, recapitulating Gen 1. Availability and recurrence in Pauline new-creation theology are strong."
+                    },
+                    {
+                      "source": "Leviticus 19:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘You shall not steal. “‘You shall not lie. “‘You shall not deceive one another.",
+                      "note": "\"Don't lie to one another\" closely tracks the Holiness Code's \"you shall not lie one to another\" (LXX), addressed to the covenant community. Strong verbal and situational coherence (reciprocal prohibition among the people of God); the holiness framing fits Colossians' renewed humanity."
+                    },
+                    {
+                      "source": "Genesis 5:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "This is the book of the generations of Adam. In the day that God created man, he made him in God’s likeness.",
+                      "note": "\"After the image of his Creator\" also resonates with the toledot statement that God made man in his likeness, the verse that reasserts the image after the fall. Supports the renewal-of-the-image reading; medium because Gen 1:26-27 is the primary lexical source and 5:1 is the secondary, reinforcing one."
+                    },
+                    {
+                      "source": "Genesis 1:27",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "\"There can't be Greek and Jew... but Christ is all and in all\" figurally reconstitutes the single humanity created in God's image, undoing the divisions of the nations. The renewed image (vv.10) grounds a restored one-humanity; coheres with Gen 1's making of mankind as a unity before the scattering of Babel.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 3:7-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves. They heard the voice of Yahweh God walking in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh God among the trees of the garden. Yahweh God called to the man, and said to him, “Where are you?” The man said, “I heard your voice in the garden, and I was afraid, because I […]",
+                      "note": "\"Put off the old man... put on the new\" with its clothing imagery may figurally invoke Adam: the garments and the postlapsarian self stripped off. Faint and contested; the old-man/new-man Adam typology is conceptual, and the clothing metaphor is widely diffused in Jewish moral discourse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 11:1-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The whole earth was of one language and of one speech. As they traveled east, they found a plain in the land of Shinar, and they lived there. They said one to another, “Come, let’s make bricks, and burn them thoroughly.” They had brick for stone, and they used tar for mortar. They said, “Come, let’s build ourselves a city, and a tower whose top reaches to the sky, and let’s make ourselves a name, lest we be scattered abroad on the surface of the whole […]",
+                      "note": "The catalog of peoples (Greek, Jew, barbarian, Scythian) reconciled in Christ faintly reverses Babel's scattering and confusion of tongues into many nations. Low volume; the reversal-of-Babel reading is thematic and contested, resting on the restoration of one humanity rather than any cited wording.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -747,7 +1060,118 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.4",
+                  "ref": "12:13-15",
+                  "echoes": [
+                    {
+                      "source": "Exodus 2:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “Who made you a prince and a judge over us? Do you plan to kill me, as you killed the Egyptian?” Moses was afraid, and said, “Surely this thing is known.”",
+                      "note": "'Who made you a ruler and judge over us?'—the Hebrew's rebuke of Moses—is verbally echoed in Jesus' 'Man, who made me a judge or an arbitrator over you?' The near-quotation of the question gives notable Volume, though the speaker roles are inverted, marking it a deliberate echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ecclesiastes 5:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He who loves silver shall not be satisfied with silver; nor he who loves abundance, with increase: this also is vanity.",
+                      "note": "'Whoever loves money will not be satisfied with money'—Qoheleth's verdict on the futility of abundance—coheres directly with 'a man's life doesn't consist of the abundance of the things which he possesses.' The wisdom critique of accumulation supports the warning against covetousness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 21:15-17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If a man has two wives, the one beloved, and the other hated, and they have borne him children, both the beloved and the hated; and if the firstborn son is hers who was hated; then it shall be, in the day that he causes his sons to inherit that which he has, that he may not give the son of the beloved the rights of the firstborn before the son of the hated, who is the firstborn; but he shall acknowledge the firstborn, the son of the hated, by giving him a […]",
+                      "note": "The Torah law of inheritance division among heirs supplies the legal backdrop for the brother's request to divide the inheritance. It is the unstated Availability rather than an allusion Luke develops, hence low confidence.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.5",
+                  "ref": "12:16-21",
+                  "echoes": [
+                    {
+                      "source": "Sirach 11:18-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "There is that waxes rich by his wariness and pinching, And this is the portion of his reward: When he says, I have found rest, And now will I eat of my goods; Yet he knows not what time will pass, And he will leave them to others, and die.",
+                      "note": "Ben Sira describes one who grows rich, says 'I have found rest, now I will enjoy my goods,' yet does not know his death is near and must leave them to others. This is the closest Second-Temple template for the rich fool: the inner monologue of ease, the unexpected death, and the unanswered 'whose will they be,' giving very high Volume and Coherence."
+                    },
+                    {
+                      "source": "Ecclesiastes 2:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There is nothing better for a man than that he should eat and drink, and make his soul enjoy good in his labor. This also I saw, that it is from the hand of God.",
+                      "note": "Qoheleth's refrain that there is nothing better than to eat, drink, and find enjoyment underlies the rich fool's 'take your ease, eat, drink, be merry.' Luke ironizes the wisdom counsel by exposing its folly when death intervenes, giving strong thematic Coherence."
+                    },
+                    {
+                      "source": "Ecclesiastes 8:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Then I commended mirth, because a man has no better thing under the sun, than to eat, and to drink, and to be joyful: for that will accompany him in his labor all the days of his life which God has given him under the sun.",
+                      "note": "'I commend enjoyment, for man has nothing better under the sun than to eat and drink and be merry' is virtually quoted in the fool's resolve. The verbal triad eat/drink/be merry makes this a direct verbal source, though Luke subverts it."
+                    },
+                    {
+                      "source": "Psalm 39:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Surely every man walks like a shadow. Surely they busy themselves in vain. He heaps up, and doesn’t know who shall gather.",
+                      "note": "'He heaps up wealth and does not know who will gather it' is closely echoed by God's 'the things you have prepared—whose will they be?' The psalm's lament over the futility of hoarding against death gives strong Coherence and good Volume."
+                    },
+                    {
+                      "source": "Jeremiah 17:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "As the partridge that sits on eggs which she has not laid, so is he who gets riches, and not by right; in the midst of his days they shall leave him, and at his end he shall be a fool.",
+                      "note": "Jeremiah's proverb that one who gets riches unjustly will leave them in the midst of his days and prove a fool at his end supplies both the 'fool' verdict and the premature loss of wealth. The shared fool-and-forfeited-riches motif gives notable Coherence."
+                    },
+                    {
+                      "source": "Job 27:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For what is the hope of the godless, when he is cut off, when God takes away his life?",
+                      "note": "'What is the hope of the godless when God cuts him off, when God takes away his life?' parallels the question posed to the rich man whose soul is required. The taking of the life of the prosperous-but-godless undergirds the parable's verdict.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 49:16-20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Don’t be afraid when a man is made rich, when the glory of his house is increased. For when he dies he shall carry nothing away. His glory shall not descend after him. Though while he lived he blessed his soul— and men praise you when you do well for yourself— he shall go to the generation of his fathers. They shall never see the light. A man who has riches without understanding, is like the animals that perish.",
+                      "note": "The psalm warns not to fear the rich who lay up wealth, for they carry nothing away at death and perish like the beasts. The 'man in his pomp who does not understand' is a near-portrait of the rich fool, giving good Coherence to 'not rich toward God.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 31:24-28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“If I have made gold my hope, and have said to the fine gold, ‘You are my confidence;’ If I have rejoiced because my wealth was great, and because my hand had gotten much; if I have seen the sun when it shined, or the moon moving in splendor, and my heart has been secretly enticed, and my hand threw a kiss from my mouth, this also would be an iniquity to be punished by the judges; for I should have denied the God who is above.",
+                      "note": "Job's disavowal of making gold his hope reflects the parable's contrast between trusting accumulated wealth and being 'rich toward God.' The trust-in-riches-as-folly theme is a coherent but lighter echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 31:1-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wakefulness that comes of riches consumes the flesh, And the anxiety thereof puts away sleep. Wakeful anxiety will crave slumber; And in a sore disease sleep will be broken. A rich man toileth in gathering money together; And when he rests, he is filled with his good things. A poor man toileth in lack of substance; And when he rests, he becomes needy. He that loves gold shall not be justified; And he that follows destruction shall himself have his fill of […]",
+                      "note": "Ben Sira's reflections on wealth, sleepless anxiety over riches, and the rare rich man who is blameless complement the parable's critique of storing goods. A faint Second-Temple coherence echo behind the barn-building scheme.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1575,7 +1999,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/ecclesiastes-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Ecclesiastes 1:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.8.18-Rom.8.30",
+                      "refDisplay": "Romans 8:18–30",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-8.2"
+                    },
+                    {
+                      "refKey": "1John.2.15-1John.2.17",
+                      "refDisplay": "1 John 2:15–17",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "2.15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-2.15"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1588,7 +2045,145 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-49"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 49:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.20.24-Matt.20.28",
+                      "refDisplay": "Matthew 20:24–28",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "20.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-20.4"
+                    },
+                    {
+                      "refKey": "Mark.10.35-Mark.10.45",
+                      "refDisplay": "Mark 10:35–45",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-10.6"
+                    },
+                    {
+                      "refKey": "1Tim.2.1-1Tim.2.7",
+                      "refDisplay": "1 Timothy 2:1–7",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 49:7–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.16.24-Matt.16.28",
+                      "refDisplay": "Matthew 16:24–28",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.5"
+                    },
+                    {
+                      "refKey": "Mark.8.34-Mark.8.38",
+                      "refDisplay": "Mark 8:34–38",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-8.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 49:6–7",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.10.23-Mark.10.31",
+                      "refDisplay": "Mark 10:23–31",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-10.4"
+                    },
+                    {
+                      "refKey": "Eph.2.8-Eph.2.9",
+                      "refDisplay": "Ephesians 2:8–9",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 49:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.34-Matt.13.35",
+                      "refDisplay": "Matthew 13:34–35",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 49:6–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.19.23-Matt.19.26",
+                      "refDisplay": "Matthew 19:23–26",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 49:12",
+                  "occurrences": [
+                    {
+                      "refKey": "2Pet.2.11-2Pet.2.16",
+                      "refDisplay": "2 Peter 2:11–16",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "2.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-peter#p-2.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1607,7 +2202,139 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.1",
+                  "ref": "3:1-4",
+                  "echoes": [
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "\"Where Christ is, seated on the right hand of God\" verbally echoes the LXX of Ps 110:1 (\"Sit at my right hand\"), the most-cited OT verse in the NT. High volume of distinctive language (right hand, seated, exaltation) and strong recurrence make the session at God's right hand the dominant figure for the exalted Christ. Coherence with Colossians' cosmic Christology is exact."
+                    },
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "The exalted Christ glorified and revealed in heavenly session may faintly invoke Daniel's Son of Man given dominion and glory before the Ancient of Days. Low volume since no distinctive vocabulary is reproduced; the echo rests on the shared schema of heavenly enthronement and future revelation \"in glory\" (v.4).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 73:24-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You will guide me with your counsel, and afterward receive me to glory. Whom do I have in heaven? There is no one on earth whom I desire besides you. My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+                      "note": "\"Your life is hidden with Christ in God\" coheres with the psalmist's hope that God is his portion and will receive him to glory, the hidden security of life bound to God. Faint and contested; rests on thematic coherence (hiddenness, glory, God as the believer's life) rather than verbal contact.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.2",
+                  "ref": "3:5-7",
+                  "echoes": [
+                    {
+                      "source": "Exodus 20:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, nor his male servant, nor his female servant, nor his ox, nor his donkey, nor anything that is your neighbor’s.”",
+                      "note": "\"Covetousness, which is idolatry\" presupposes the Decalogue's prohibition of coveting, the climactic command that exposes disordered desire. The identification of greed with idolatry draws on Israel's covenant logic where craving what is not one's own is functionally false worship; coherent with Second-Temple Jewish moralizing of pleonexia."
+                    },
+                    {
+                      "source": "Exodus 20:3-5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You shall have no other gods before me. “You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is in the earth beneath, or that is in the water under the earth: you shall not bow yourself down to them, nor serve them, for I, Yahweh your God, am a jealous God, visiting the iniquity of the fathers on the children, on the third and on the fourth generation of those who hate me,",
+                      "note": "Naming covetousness \"idolatry\" invokes the first commandment's exclusive worship and the prohibition of other gods. The equation of greed with idol-service is a recurring Second-Temple move (cf. Testament traditions) grounded in the Decalogue's opening; coheres with the wrath-of-God indictment that follows."
+                    },
+                    {
+                      "source": "Genesis 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.",
+                      "note": "\"Evil desire\" and the inventory of corrupt members recall the prophetic-Pentateuchal diagnosis that the inclination of the human heart is only evil continually. Faint; the vice list is a Hellenistic-Jewish form and contact is conceptual (the earthly members, depraved passion) rather than lexical.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 9:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Remember, and don’t forget, how you provoked Yahweh your God to wrath in the wilderness. From the day that you left the land of Egypt, until you came to this place, you have been rebellious against Yahweh.",
+                      "note": "\"The wrath of God comes on the children of disobedience\" coheres with Deuteronomy's recurring theme of divine wrath provoked by Israel's rebellion and idolatry. Faint and generic; the wrath-against-disobedience schema is pervasive across the prophets, so no single passage controls.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 25:1-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Israel stayed in Shittim; and the people began to play the prostitute with the daughters of Moab; for they called the people to the sacrifices of their gods. The people ate and bowed down to their gods. Israel joined himself to Baal Peor. Yahweh’s anger was kindled against Israel. Yahweh said to Moses, “Take all the chiefs of the people, and hang them up to Yahweh before the sun, that the fierce anger of Yahweh may turn away from Israel.” Moses said to […]",
+                      "note": "Linking sexual immorality and idolatry, followed by divine wrath, echoes the Baal-Peor episode where harlotry with Moab and idol-worship together kindle God's anger. Faint; contact is the recurrent OT pairing of porneia with idolatry under wrath rather than verbal citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.3",
+                  "ref": "3:8-11",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "\"The new man, being renewed in knowledge after the image of his Creator\" directly reworks the creation of humanity in God's image. High volume (image, Creator, the making of man) and exact coherence: the new self is re-creation according to the imago Dei, recapitulating Gen 1. Availability and recurrence in Pauline new-creation theology are strong."
+                    },
+                    {
+                      "source": "Leviticus 19:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘You shall not steal. “‘You shall not lie. “‘You shall not deceive one another.",
+                      "note": "\"Don't lie to one another\" closely tracks the Holiness Code's \"you shall not lie one to another\" (LXX), addressed to the covenant community. Strong verbal and situational coherence (reciprocal prohibition among the people of God); the holiness framing fits Colossians' renewed humanity."
+                    },
+                    {
+                      "source": "Genesis 5:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "This is the book of the generations of Adam. In the day that God created man, he made him in God’s likeness.",
+                      "note": "\"After the image of his Creator\" also resonates with the toledot statement that God made man in his likeness, the verse that reasserts the image after the fall. Supports the renewal-of-the-image reading; medium because Gen 1:26-27 is the primary lexical source and 5:1 is the secondary, reinforcing one."
+                    },
+                    {
+                      "source": "Genesis 1:27",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "\"There can't be Greek and Jew... but Christ is all and in all\" figurally reconstitutes the single humanity created in God's image, undoing the divisions of the nations. The renewed image (vv.10) grounds a restored one-humanity; coheres with Gen 1's making of mankind as a unity before the scattering of Babel.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 3:7-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves. They heard the voice of Yahweh God walking in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh God among the trees of the garden. Yahweh God called to the man, and said to him, “Where are you?” The man said, “I heard your voice in the garden, and I was afraid, because I […]",
+                      "note": "\"Put off the old man... put on the new\" with its clothing imagery may figurally invoke Adam: the garments and the postlapsarian self stripped off. Faint and contested; the old-man/new-man Adam typology is conceptual, and the clothing metaphor is widely diffused in Jewish moral discourse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 11:1-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The whole earth was of one language and of one speech. As they traveled east, they found a plain in the land of Shinar, and they lived there. They said one to another, “Come, let’s make bricks, and burn them thoroughly.” They had brick for stone, and they used tar for mortar. They said, “Come, let’s build ourselves a city, and a tower whose top reaches to the sky, and let’s make ourselves a name, lest we be scattered abroad on the surface of the whole […]",
+                      "note": "The catalog of peoples (Greek, Jew, barbarian, Scythian) reconciled in Christ faintly reverses Babel's scattering and confusion of tongues into many nations. Low volume; the reversal-of-Babel reading is thematic and contested, resting on the restoration of one humanity rather than any cited wording.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1626,7 +2353,118 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.4",
+                  "ref": "12:13-15",
+                  "echoes": [
+                    {
+                      "source": "Exodus 2:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He said, “Who made you a prince and a judge over us? Do you plan to kill me, as you killed the Egyptian?” Moses was afraid, and said, “Surely this thing is known.”",
+                      "note": "'Who made you a ruler and judge over us?'—the Hebrew's rebuke of Moses—is verbally echoed in Jesus' 'Man, who made me a judge or an arbitrator over you?' The near-quotation of the question gives notable Volume, though the speaker roles are inverted, marking it a deliberate echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ecclesiastes 5:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He who loves silver shall not be satisfied with silver; nor he who loves abundance, with increase: this also is vanity.",
+                      "note": "'Whoever loves money will not be satisfied with money'—Qoheleth's verdict on the futility of abundance—coheres directly with 'a man's life doesn't consist of the abundance of the things which he possesses.' The wisdom critique of accumulation supports the warning against covetousness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 21:15-17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If a man has two wives, the one beloved, and the other hated, and they have borne him children, both the beloved and the hated; and if the firstborn son is hers who was hated; then it shall be, in the day that he causes his sons to inherit that which he has, that he may not give the son of the beloved the rights of the firstborn before the son of the hated, who is the firstborn; but he shall acknowledge the firstborn, the son of the hated, by giving him a […]",
+                      "note": "The Torah law of inheritance division among heirs supplies the legal backdrop for the brother's request to divide the inheritance. It is the unstated Availability rather than an allusion Luke develops, hence low confidence.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.5",
+                  "ref": "12:16-21",
+                  "echoes": [
+                    {
+                      "source": "Sirach 11:18-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "There is that waxes rich by his wariness and pinching, And this is the portion of his reward: When he says, I have found rest, And now will I eat of my goods; Yet he knows not what time will pass, And he will leave them to others, and die.",
+                      "note": "Ben Sira describes one who grows rich, says 'I have found rest, now I will enjoy my goods,' yet does not know his death is near and must leave them to others. This is the closest Second-Temple template for the rich fool: the inner monologue of ease, the unexpected death, and the unanswered 'whose will they be,' giving very high Volume and Coherence."
+                    },
+                    {
+                      "source": "Ecclesiastes 2:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There is nothing better for a man than that he should eat and drink, and make his soul enjoy good in his labor. This also I saw, that it is from the hand of God.",
+                      "note": "Qoheleth's refrain that there is nothing better than to eat, drink, and find enjoyment underlies the rich fool's 'take your ease, eat, drink, be merry.' Luke ironizes the wisdom counsel by exposing its folly when death intervenes, giving strong thematic Coherence."
+                    },
+                    {
+                      "source": "Ecclesiastes 8:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Then I commended mirth, because a man has no better thing under the sun, than to eat, and to drink, and to be joyful: for that will accompany him in his labor all the days of his life which God has given him under the sun.",
+                      "note": "'I commend enjoyment, for man has nothing better under the sun than to eat and drink and be merry' is virtually quoted in the fool's resolve. The verbal triad eat/drink/be merry makes this a direct verbal source, though Luke subverts it."
+                    },
+                    {
+                      "source": "Psalm 39:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Surely every man walks like a shadow. Surely they busy themselves in vain. He heaps up, and doesn’t know who shall gather.",
+                      "note": "'He heaps up wealth and does not know who will gather it' is closely echoed by God's 'the things you have prepared—whose will they be?' The psalm's lament over the futility of hoarding against death gives strong Coherence and good Volume."
+                    },
+                    {
+                      "source": "Jeremiah 17:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "As the partridge that sits on eggs which she has not laid, so is he who gets riches, and not by right; in the midst of his days they shall leave him, and at his end he shall be a fool.",
+                      "note": "Jeremiah's proverb that one who gets riches unjustly will leave them in the midst of his days and prove a fool at his end supplies both the 'fool' verdict and the premature loss of wealth. The shared fool-and-forfeited-riches motif gives notable Coherence."
+                    },
+                    {
+                      "source": "Job 27:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For what is the hope of the godless, when he is cut off, when God takes away his life?",
+                      "note": "'What is the hope of the godless when God cuts him off, when God takes away his life?' parallels the question posed to the rich man whose soul is required. The taking of the life of the prosperous-but-godless undergirds the parable's verdict.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 49:16-20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Don’t be afraid when a man is made rich, when the glory of his house is increased. For when he dies he shall carry nothing away. His glory shall not descend after him. Though while he lived he blessed his soul— and men praise you when you do well for yourself— he shall go to the generation of his fathers. They shall never see the light. A man who has riches without understanding, is like the animals that perish.",
+                      "note": "The psalm warns not to fear the rich who lay up wealth, for they carry nothing away at death and perish like the beasts. The 'man in his pomp who does not understand' is a near-portrait of the rich fool, giving good Coherence to 'not rich toward God.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 31:24-28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“If I have made gold my hope, and have said to the fine gold, ‘You are my confidence;’ If I have rejoiced because my wealth was great, and because my hand had gotten much; if I have seen the sun when it shined, or the moon moving in splendor, and my heart has been secretly enticed, and my hand threw a kiss from my mouth, this also would be an iniquity to be punished by the judges; for I should have denied the God who is above.",
+                      "note": "Job's disavowal of making gold his hope reflects the parable's contrast between trusting accumulated wealth and being 'rich toward God.' The trust-in-riches-as-folly theme is a coherent but lighter echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 31:1-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wakefulness that comes of riches consumes the flesh, And the anxiety thereof puts away sleep. Wakeful anxiety will crave slumber; And in a sore disease sleep will be broken. A rich man toileth in gathering money together; And when he rests, he is filled with his good things. A poor man toileth in lack of substance; And when he rests, he becomes needy. He that loves gold shall not be justified; And he that follows destruction shall himself have his fill of […]",
+                      "note": "Ben Sira's reflections on wealth, sleepless anxiety over riches, and the rare rich man who is blameless complement the parable's critique of storing goods. A faint Second-Temple coherence echo behind the barn-building scheme.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

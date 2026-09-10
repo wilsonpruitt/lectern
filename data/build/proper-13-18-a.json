@@ -619,7 +619,85 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-32"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 32:30",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.8-1Cor.13.12",
+                      "refDisplay": "1 Corinthians 13:8–12",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.7"
+                    },
+                    {
+                      "refKey": "1John.4.7-1John.4.12",
+                      "refDisplay": "1 John 4:7–12",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "4.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-4.7"
+                    },
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 32:28",
+                  "occurrences": [
+                    {
+                      "refKey": "John.1.35-John.1.42",
+                      "refDisplay": "John 1:35–42",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-1.7"
+                    },
+                    {
+                      "refKey": "2Cor.11.22",
+                      "refDisplay": "2 Corinthians 11:22",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "11.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-11.5"
+                    },
+                    {
+                      "refKey": "Phil.3.4-Phil.3.6",
+                      "refDisplay": "Philippians 3:4–6",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -632,7 +710,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-17"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 17:3",
+                  "occurrences": [
+                    {
+                      "refKey": "1Thess.2.1-1Thess.2.4",
+                      "refDisplay": "1 Thessalonians 2:1–4",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -651,7 +752,66 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.1",
+                  "ref": "9:1-5",
+                  "echoes": [
+                    {
+                      "source": "Exodus 32:32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet now, if you will, forgive their sin—and if not, please blot me out of your book which you have written.”",
+                      "note": "Paul's wish in v.3 that he himself were 'accursed (anathema) from Christ' for his kinsmen echoes Moses' intercession after the golden calf: 'blot me out of your book' rather than destroy Israel. Both are intercessors offering self-substitution/self-curse to spare the people; the Exodus 32 setting also frames the whole chapter's mercy-language (33:19 quoted at v.15)."
+                    },
+                    {
+                      "source": "Deuteronomy 7:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For you are a holy people to Yahweh your God. Yahweh your God has chosen you to be a people for his own possession, above all peoples who are on the face of the earth.",
+                      "note": "The catalogue of Israel's privileges (adoption, glory, covenants, law-giving, service, promises, fathers) in vv.4-5 draws on the Deuteronomic election traditions naming Israel as God's chosen, holy people set above the nations.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Whose is the adoption (huiothesia)' (v.4) recalls the sonship of Israel: 'Israel is my firstborn son.' Israel's national adoption is the OT root of the privilege Paul lists."
+                    },
+                    {
+                      "source": "Genesis 17:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you.",
+                      "note": "'The covenants' and 'the promises' (vv.4) point to the patriarchal covenant with Abraham and his seed, the seed-theme Paul immediately develops in vv.6-9."
+                    },
+                    {
+                      "source": "Exodus 16:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As Aaron spoke to the whole congregation of the children of Israel, they looked toward the wilderness, and behold, Yahweh’s glory appeared in the cloud.",
+                      "note": "'The glory' (doxa, v.4) evokes the Shekinah glory of the LORD that appeared to Israel in the wilderness and dwelt in tabernacle/temple — a covenant privilege belonging to Israel.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 147:19-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He shows his word to Jacob; his statutes and his ordinances to Israel. He has not done this for just any nation. They don’t know his ordinances. Praise Yah!",
+                      "note": "'The giving of the law' (nomothesia) as a unique privilege of Israel echoes the psalm's boast that God 'declares his word to Jacob... He has not dealt so with any nation.'",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -670,7 +830,133 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.2",
+                  "ref": "14:13-21",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 4:42-44",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "A man from Baal Shalishah came, and brought the man of God bread of the first fruits, twenty loaves of barley, and fresh ears of grain in his sack. He said, “Give to the people, that they may eat.” His servant said, “What, should I set this before a hundred men?” But he said, “Give the people, that they may eat; for thus says Yahweh, ‘They will eat, and will have some left over.’” So he set it before them, and they ate, and left some of it, according to […]",
+                      "note": "Elisha feeds a hundred men with twenty barley loaves and there is some left over, against the servant's objection that it is too little. Matthew's feeding shares the structure: a prophet, an inadequate supply of loaves, a disciple's protest, a command to give it to the people, all eating, and a surplus remaining. Jesus is the greater Elisha."
+                    },
+                    {
+                      "source": "Exodus 16:4-18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not. It shall come to pass on the sixth day, that they shall prepare that which they bring in, and it shall be twice as much as they gather daily.” Moses and Aaron said to all the children of Israel, “At evening, then you shall know that Yahweh has brought […]",
+                      "note": "The miraculous feeding of a multitude in a 'deserted place' (wilderness) where there is no bread evokes the manna narrative: God provides bread in the desert, all eat and are satisfied, and the gathering is measured. The new-Moses typology frames Jesus as the one who gives bread in the wilderness."
+                    },
+                    {
+                      "source": "Numbers 11:13-22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Where could I get meat to give to all this people? For they weep to me, saying, ‘Give us meat, that we may eat.’ I am not able to bear all this people alone, because it is too heavy for me. If you treat me this way, please kill me right now, if I have found favor in your sight; and don’t let me see my wretchedness.” Yahweh said to Moses, “Gather to me seventy men of the elders of Israel, whom you know to be the elders of the people, and officers over […]",
+                      "note": "Moses' despairing question, 'Where am I to get meat to give all this people?... Shall flocks and herds be slaughtered for them?' mirrors the disciples' helplessness before the hungry crowd. The motif of an overwhelmed leader confronting an impossible feeding in the wilderness is shared."
+                    },
+                    {
+                      "source": "Psalm 23:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh is my shepherd: I shall lack nothing. He makes me lie down in green pastures. He leads me beside still waters.",
+                      "note": "The shepherd who makes his flock lie down in green grass and spreads a table sounds through the detail that Jesus has the crowd 'sit down on the grass' and feeds them to the full. Matthew omits Mark's explicit 'sheep without a shepherd' yet retains the green-grass/feeding tableau of the LORD as shepherd."
+                    },
+                    {
+                      "source": "Numbers 27:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "who may go out before them, and who may come in before them, and who may lead them out, and who may bring them in; that the congregation of Yahweh not be as sheep which have no shepherd.”",
+                      "note": "The crowd 'like sheep without a shepherd' (Moses' prayer for a successor to lead Israel out and in) underlies Jesus' compassion on the shepherdless multitude; Matthew states this compassion (cf. 9:36) and enacts the shepherd's provision here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 34:14-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will feed them with good pasture; and on the mountains of the height of Israel shall their fold be: there shall they lie down in a good fold; and on fat pasture shall they feed on the mountains of Israel. I myself will be the shepherd of my sheep, and I will cause them to lie down, says the Lord Yahweh. I will seek that which was lost, and will bring back that which was driven away, and will bind up that which was broken, and will strengthen that which […]",
+                      "note": "God's promise to shepherd his scattered flock himself, feeding them in good pasture and seeking the lost and sick, resonates with Jesus healing the sick and feeding the crowd in the open country. The Davidic-shepherd hope of Ezekiel is being enacted.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 78:19-29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yes, they spoke against God. They said, “Can God prepare a table in the wilderness? Behold, he struck the rock, so that waters gushed out, and streams overflowed. Can he give bread also? Will he provide flesh for his people?” Therefore Yahweh heard, and was angry. A fire was kindled against Jacob, anger also went up against Israel, because they didn’t believe in God, and didn’t trust in his salvation. Yet he commanded the skies above, and opened the doors […]",
+                      "note": "'Can God spread a table in the wilderness?' Israel's doubting question is answered as God rains down bread and the people 'ate and were well filled.' Matthew's 'They all ate, and were filled' echoes this wilderness-banquet vindication of God's power to feed in the desert."
+                    },
+                    {
+                      "source": "Psalm 145:15-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The eyes of all wait for you. You give them their food in due season. You open your hand, and satisfy the desire of every living thing.",
+                      "note": "'You open your hand; you satisfy the desire of every living thing.' The theme of God satisfying the hungry crowd to the full coheres with Jesus blessing and distributing until all are filled.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 132:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will abundantly bless her provision. I will satisfy her poor with bread.",
+                      "note": "'I will abundantly bless her provisions; I will satisfy her poor with bread.' A faint thematic resonance with the abundant provision of bread to the multitude in Zion's hope.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 4:1-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now there cried a certain woman of the wives of the sons of the prophets to Elisha, saying, “Your servant my husband is dead. You know that your servant feared Yahweh. Now the creditor has come to take for himself my two children to be slaves.” Elisha said to her, “What shall I do for you? Tell me: what do you have in the house?” She said, “Your handmaid has nothing in the house, except a pot of oil.” Then he said, “Go, borrow containers from of all your […]",
+                      "note": "Elisha's multiplication of the widow's oil, where a small supply expands to abundance with a surplus, is a sibling miracle to the loaf-multiplication and reinforces the Elisha-as-feeder/provider background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ruth 2:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "At meal time Boaz said to her, “Come here, and eat of the bread, and dip your morsel in the vinegar.” She sat beside the reapers, and they reached her parched grain, and she ate, and was satisfied, and left some of it.",
+                      "note": "Boaz feeds Ruth so that 'she ate and was satisfied, and had some left over' — the same pattern of eating to the full with a remainder. A faint verbal-thematic parallel to the satisfied crowd and twelve leftover baskets.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 9:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As soon as you have come into the city, you shall immediately find him, before he goes up to the high place to eat; for the people will not eat until he come, because he blesses the sacrifice. Afterwards those who are invited eat. Now therefore go up; for at this time you shall find him.”",
+                      "note": "Samuel 'blesses' before the people eat at the sacrificial meal; the gesture of a prophet looking up and blessing the food before distribution faintly echoes the prophetic table-blessing convention.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Feeding the five thousand",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:13–21",
+                        "mark": "6:30–44",
+                        "luke": "9:10–17",
+                        "john": "6:1–14"
+                      },
+                      "note": "The one miracle all four record — the hinge where the harmony's four lanes briefly run as one."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1328,7 +1614,190 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-55"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 55:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.3.14-Rev.3.22",
+                      "refDisplay": "Revelation 3:14–22",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "3.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-3.3"
+                    },
+                    {
+                      "refKey": "Rev.21.5-Rev.21.8",
+                      "refDisplay": "Revelation 21:5–8",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "21.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-21.2"
+                    },
+                    {
+                      "refKey": "Rev.22.14-Rev.22.17",
+                      "refDisplay": "Revelation 22:14–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "22.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-22.4"
+                    },
+                    {
+                      "refKey": "John.4.7-John.4.15",
+                      "refDisplay": "John 4:7–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "4.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-4.2"
+                    },
+                    {
+                      "refKey": "John.7.37-John.7.39",
+                      "refDisplay": "John 7:37–39",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "7.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-7.6"
+                    },
+                    {
+                      "refKey": "Matt.11.28-Matt.11.30",
+                      "refDisplay": "Matthew 11:28–30",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "11.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-11.6"
+                    },
+                    {
+                      "refKey": "1Cor.9.15-1Cor.9.18",
+                      "refDisplay": "1 Corinthians 9:15–18",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "9.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-9.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 55:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.13.32-Acts.13.37",
+                      "refDisplay": "Acts 13:32–37",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-13.7"
+                    },
+                    {
+                      "refKey": "Heb.13.20-Heb.13.25",
+                      "refDisplay": "Hebrews 13:20–25",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "13.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-13.3"
+                    },
+                    {
+                      "refKey": "1John.5.6-1John.5.12",
+                      "refDisplay": "1 John 5:6–12",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "5.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-5.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 55:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.22.1-Matt.22.14",
+                      "refDisplay": "Matthew 22:1–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "22.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-22.1"
+                    },
+                    {
+                      "refKey": "Luke.14.15-Luke.14.24",
+                      "refDisplay": "Luke 14:15–24",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "14.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-14.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 55:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.1.4-Rev.1.6",
+                      "refDisplay": "Revelation 1:4–6",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-1.2"
+                    },
+                    {
+                      "refKey": "John.18.33-John.18.38",
+                      "refDisplay": "John 18:33–38",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "18.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-18.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 55:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.22-John.6.34",
+                      "refDisplay": "John 6:22–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-6.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1341,7 +1810,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-145"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 145:8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.4-1Cor.13.7",
+                      "refDisplay": "1 Corinthians 13:4–7",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.4"
+                    },
+                    {
+                      "refKey": "Phil.1.3-Phil.1.8",
+                      "refDisplay": "Philippians 1:3–8",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.43-Matt.5.48",
+                      "refDisplay": "Matthew 5:43–48",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1360,7 +1877,66 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.1",
+                  "ref": "9:1-5",
+                  "echoes": [
+                    {
+                      "source": "Exodus 32:32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet now, if you will, forgive their sin—and if not, please blot me out of your book which you have written.”",
+                      "note": "Paul's wish in v.3 that he himself were 'accursed (anathema) from Christ' for his kinsmen echoes Moses' intercession after the golden calf: 'blot me out of your book' rather than destroy Israel. Both are intercessors offering self-substitution/self-curse to spare the people; the Exodus 32 setting also frames the whole chapter's mercy-language (33:19 quoted at v.15)."
+                    },
+                    {
+                      "source": "Deuteronomy 7:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For you are a holy people to Yahweh your God. Yahweh your God has chosen you to be a people for his own possession, above all peoples who are on the face of the earth.",
+                      "note": "The catalogue of Israel's privileges (adoption, glory, covenants, law-giving, service, promises, fathers) in vv.4-5 draws on the Deuteronomic election traditions naming Israel as God's chosen, holy people set above the nations.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Whose is the adoption (huiothesia)' (v.4) recalls the sonship of Israel: 'Israel is my firstborn son.' Israel's national adoption is the OT root of the privilege Paul lists."
+                    },
+                    {
+                      "source": "Genesis 17:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you.",
+                      "note": "'The covenants' and 'the promises' (vv.4) point to the patriarchal covenant with Abraham and his seed, the seed-theme Paul immediately develops in vv.6-9."
+                    },
+                    {
+                      "source": "Exodus 16:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As Aaron spoke to the whole congregation of the children of Israel, they looked toward the wilderness, and behold, Yahweh’s glory appeared in the cloud.",
+                      "note": "'The glory' (doxa, v.4) evokes the Shekinah glory of the LORD that appeared to Israel in the wilderness and dwelt in tabernacle/temple — a covenant privilege belonging to Israel.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 147:19-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He shows his word to Jacob; his statutes and his ordinances to Israel. He has not done this for just any nation. They don’t know his ordinances. Praise Yah!",
+                      "note": "'The giving of the law' (nomothesia) as a unique privilege of Israel echoes the psalm's boast that God 'declares his word to Jacob... He has not dealt so with any nation.'",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1379,7 +1955,133 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.2",
+                  "ref": "14:13-21",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 4:42-44",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "A man from Baal Shalishah came, and brought the man of God bread of the first fruits, twenty loaves of barley, and fresh ears of grain in his sack. He said, “Give to the people, that they may eat.” His servant said, “What, should I set this before a hundred men?” But he said, “Give the people, that they may eat; for thus says Yahweh, ‘They will eat, and will have some left over.’” So he set it before them, and they ate, and left some of it, according to […]",
+                      "note": "Elisha feeds a hundred men with twenty barley loaves and there is some left over, against the servant's objection that it is too little. Matthew's feeding shares the structure: a prophet, an inadequate supply of loaves, a disciple's protest, a command to give it to the people, all eating, and a surplus remaining. Jesus is the greater Elisha."
+                    },
+                    {
+                      "source": "Exodus 16:4-18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not. It shall come to pass on the sixth day, that they shall prepare that which they bring in, and it shall be twice as much as they gather daily.” Moses and Aaron said to all the children of Israel, “At evening, then you shall know that Yahweh has brought […]",
+                      "note": "The miraculous feeding of a multitude in a 'deserted place' (wilderness) where there is no bread evokes the manna narrative: God provides bread in the desert, all eat and are satisfied, and the gathering is measured. The new-Moses typology frames Jesus as the one who gives bread in the wilderness."
+                    },
+                    {
+                      "source": "Numbers 11:13-22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Where could I get meat to give to all this people? For they weep to me, saying, ‘Give us meat, that we may eat.’ I am not able to bear all this people alone, because it is too heavy for me. If you treat me this way, please kill me right now, if I have found favor in your sight; and don’t let me see my wretchedness.” Yahweh said to Moses, “Gather to me seventy men of the elders of Israel, whom you know to be the elders of the people, and officers over […]",
+                      "note": "Moses' despairing question, 'Where am I to get meat to give all this people?... Shall flocks and herds be slaughtered for them?' mirrors the disciples' helplessness before the hungry crowd. The motif of an overwhelmed leader confronting an impossible feeding in the wilderness is shared."
+                    },
+                    {
+                      "source": "Psalm 23:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh is my shepherd: I shall lack nothing. He makes me lie down in green pastures. He leads me beside still waters.",
+                      "note": "The shepherd who makes his flock lie down in green grass and spreads a table sounds through the detail that Jesus has the crowd 'sit down on the grass' and feeds them to the full. Matthew omits Mark's explicit 'sheep without a shepherd' yet retains the green-grass/feeding tableau of the LORD as shepherd."
+                    },
+                    {
+                      "source": "Numbers 27:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "who may go out before them, and who may come in before them, and who may lead them out, and who may bring them in; that the congregation of Yahweh not be as sheep which have no shepherd.”",
+                      "note": "The crowd 'like sheep without a shepherd' (Moses' prayer for a successor to lead Israel out and in) underlies Jesus' compassion on the shepherdless multitude; Matthew states this compassion (cf. 9:36) and enacts the shepherd's provision here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 34:14-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will feed them with good pasture; and on the mountains of the height of Israel shall their fold be: there shall they lie down in a good fold; and on fat pasture shall they feed on the mountains of Israel. I myself will be the shepherd of my sheep, and I will cause them to lie down, says the Lord Yahweh. I will seek that which was lost, and will bring back that which was driven away, and will bind up that which was broken, and will strengthen that which […]",
+                      "note": "God's promise to shepherd his scattered flock himself, feeding them in good pasture and seeking the lost and sick, resonates with Jesus healing the sick and feeding the crowd in the open country. The Davidic-shepherd hope of Ezekiel is being enacted.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 78:19-29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yes, they spoke against God. They said, “Can God prepare a table in the wilderness? Behold, he struck the rock, so that waters gushed out, and streams overflowed. Can he give bread also? Will he provide flesh for his people?” Therefore Yahweh heard, and was angry. A fire was kindled against Jacob, anger also went up against Israel, because they didn’t believe in God, and didn’t trust in his salvation. Yet he commanded the skies above, and opened the doors […]",
+                      "note": "'Can God spread a table in the wilderness?' Israel's doubting question is answered as God rains down bread and the people 'ate and were well filled.' Matthew's 'They all ate, and were filled' echoes this wilderness-banquet vindication of God's power to feed in the desert."
+                    },
+                    {
+                      "source": "Psalm 145:15-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The eyes of all wait for you. You give them their food in due season. You open your hand, and satisfy the desire of every living thing.",
+                      "note": "'You open your hand; you satisfy the desire of every living thing.' The theme of God satisfying the hungry crowd to the full coheres with Jesus blessing and distributing until all are filled.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 132:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will abundantly bless her provision. I will satisfy her poor with bread.",
+                      "note": "'I will abundantly bless her provisions; I will satisfy her poor with bread.' A faint thematic resonance with the abundant provision of bread to the multitude in Zion's hope.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 4:1-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now there cried a certain woman of the wives of the sons of the prophets to Elisha, saying, “Your servant my husband is dead. You know that your servant feared Yahweh. Now the creditor has come to take for himself my two children to be slaves.” Elisha said to her, “What shall I do for you? Tell me: what do you have in the house?” She said, “Your handmaid has nothing in the house, except a pot of oil.” Then he said, “Go, borrow containers from of all your […]",
+                      "note": "Elisha's multiplication of the widow's oil, where a small supply expands to abundance with a surplus, is a sibling miracle to the loaf-multiplication and reinforces the Elisha-as-feeder/provider background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ruth 2:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "At meal time Boaz said to her, “Come here, and eat of the bread, and dip your morsel in the vinegar.” She sat beside the reapers, and they reached her parched grain, and she ate, and was satisfied, and left some of it.",
+                      "note": "Boaz feeds Ruth so that 'she ate and was satisfied, and had some left over' — the same pattern of eating to the full with a remainder. A faint verbal-thematic parallel to the satisfied crowd and twelve leftover baskets.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 9:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As soon as you have come into the city, you shall immediately find him, before he goes up to the high place to eat; for the people will not eat until he come, because he blesses the sacrifice. Afterwards those who are invited eat. Now therefore go up; for at this time you shall find him.”",
+                      "note": "Samuel 'blesses' before the people eat at the sacrificial meal; the gesture of a prophet looking up and blessing the food before distribution faintly echoes the prophetic table-blessing convention.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Feeding the five thousand",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:13–21",
+                        "mark": "6:30–44",
+                        "luke": "9:10–17",
+                        "john": "6:1–14"
+                      },
+                      "note": "The one miracle all four record — the hinge where the harmony's four lanes briefly run as one."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

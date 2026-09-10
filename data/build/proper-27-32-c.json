@@ -526,7 +526,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/haggai-1"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -539,7 +542,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-145"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 145:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.3.20-Eph.3.21",
+                      "refDisplay": "Ephesians 3:20–21",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -558,7 +584,240 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-2",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Blow the trumpet in Zion, and sound an alarm in my holy mountain! Let all the inhabitants of the land tremble, for the day of Yahweh comes, for it is close at hand:",
+                      "note": "The eschatological 'day of the Lord' (here 'day of Christ/the Lord') that Paul corrects the Thessalonians about derives its weight from the prophetic Day-of-the-Lord tradition, of which Joel is a primary witness. Joel sounds the alarm that the day is near and dreadful."
+                    },
+                    {
+                      "source": "Joel 2:31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The sun will be turned into darkness, and the moon into blood, before the great and terrible day of Yahweh comes.",
+                      "note": "The 'great and awesome day of the Lord' with cosmic signs feeds the apocalyptic timetable Paul is addressing. The Thessalonians' panic that the day had already come presupposes this prophetic frame."
+                    },
+                    {
+                      "source": "Amos 5:18-20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Woe to you who desire the day of Yahweh! Why do you long for the day of Yahweh? It is darkness, and not light. As if a man fled from a lion, and a bear met him; Or he went into the house and leaned his hand on the wall, and a snake bit him. Won’t the day of Yahweh be darkness, and not light? Even very dark, and no brightness in it?",
+                      "note": "Amos's reversal of the Day of the Lord into darkness rather than light is foundational to the NT's sober expectation of that day. Paul's warning against premature certainty draws on this prophetic gravity."
+                    },
+                    {
+                      "source": "Zephaniah 1:14-15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The great day of Yahweh is near. It is near, and hurries greatly, the voice of the day of Yahweh. The mighty man cries there bitterly. That day is a day of wrath, a day of distress and anguish, a day of trouble and ruin, a day of darkness and gloom, a day of clouds and blackness,",
+                      "note": "Zephaniah's 'day of the Lord is near' with wrath and distress contributes to the prophetic Day-of-the-Lord matrix behind Paul's eschatology."
+                    },
+                    {
+                      "source": "Isaiah 27:12-13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen in that day, that Yahweh will thresh from the flowing stream of the Euphrates to the brook of Egypt; and you will be gathered one by one, children of Israel. It will happen in that day that a great trumpet will be blown; and those who were ready to perish in the land of Assyria, and those who were outcasts in the land of Egypt, shall come; and they will worship Yahweh in the holy mountain at Jerusalem.",
+                      "note": "Paul's 'our gathering together to him' (episynagoge) echoes the prophetic hope of God gathering scattered Israel one by one at the trumpet. The ingathering of the elect is a stock eschatological motif rooted here."
+                    },
+                    {
+                      "source": "Deuteronomy 30:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "If your outcasts are in the uttermost parts of the heavens, from there Yahweh your God will gather you, and from there he will bring you back.",
+                      "note": "The promise that the Lord will gather the dispersed from the ends of the heavens undergirds the eschatological 'gathering together to him.' This is the seedbed of the NT gathering-of-the-elect language."
+                    },
+                    {
+                      "source": "Isaiah 13:6-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wail; for the day of Yahweh is at hand! It will come as destruction from the Almighty. Therefore all hands will be feeble, and everyone’s heart will melt. They will be dismayed. Pangs and sorrows will seize them. They will be in pain like a woman in labor. They will look in amazement one at another. Their faces will be faces of flame. Behold, the day of Yahweh comes, cruel, with wrath and fierce anger; to make the land a desolation, and to destroy its […]",
+                      "note": "Isaiah's 'day of the Lord' coming as destruction from the Almighty is part of the broad prophetic stream informing Paul's 'day of Christ.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says Yahweh of Armies, “that it shall leave them neither root nor branch.",
+                      "note": "The burning day of the Lord in Malachi belongs to the prophetic Day tradition that frames Paul's correction; faint and diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 2:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Come! Come! Flee from the land of the north,’ says Yahweh; ‘for I have spread you abroad as the four winds of the sky,’ says Yahweh.",
+                      "note": "Zechariah's call to the scattered people belongs to the ingathering hope behind episynagoge; faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 50:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Gather my saints together to me, those who have made a covenant with me by sacrifice.”",
+                      "note": "'Gather my faithful ones to me' offers a verbal-conceptual parallel to the assembling of believers to the Lord, though Paul does not cite it.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Maccabees 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But when Jeremiah perceived it, he blamed them, saying, Yes and the place shall be unknown until God gather the people again together, and mercy come:",
+                      "note": "The deuterocanonical hope that God will 'gather his people together' (episynagoge cognate) when mercy comes parallels Paul's gathering-to-him language. Possible shared eschatological idiom.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:3-4",
+                  "echoes": [
+                    {
+                      "source": "Daniel 11:36",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvelous things against the God of gods; and he shall prosper until the indignation be accomplished; for that which is determined shall be done.",
+                      "note": "The man of sin who 'opposes and exalts himself against all that is called God' closely tracks Daniel's king who 'shall do as he wills, exalt himself above every god, and speak astonishing things against the God of gods.' This is the principal scriptural template for the figure."
+                    },
+                    {
+                      "source": "Daniel 11:31",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Forces shall stand on his part, and they shall profane the sanctuary, even the fortress, and shall take away the continual burnt offering, and they shall set up the abomination that makes desolate.",
+                      "note": "Daniel's profanation of the sanctuary and setting up the abomination underlies Paul's 'sits as God in the temple of God.' The desecration-of-the-temple motif is drawn directly from Daniel's depiction of the eschatological tyrant."
+                    },
+                    {
+                      "source": "Daniel 12:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "From the time that the continual burnt offering shall be taken away, and the abomination that makes desolate set up, there shall be one thousand two hundred ninety days.",
+                      "note": "The 'abomination that makes desolate' set up in the temple grounds Paul's image of the lawless one seating himself in God's temple. Daniel's desolating abomination is the prototype of the temple usurpation."
+                    },
+                    {
+                      "source": "Ezekiel 28:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Son of man, tell the prince of Tyre, Thus says the Lord Yahweh: Because your heart is lifted up, and you have said, I am a god, I sit in the seat of God, in the midst of the seas; yet you are man, and not God, though you set your heart as the heart of God—",
+                      "note": "The prince of Tyre who says 'I am a god, I sit in the seat of gods' is a close conceptual and verbal parallel to the man of sin 'setting himself up as God' and sitting in God's temple. The blasphemous claim to deity and the enthroned posture both resonate."
+                    },
+                    {
+                      "source": "Isaiah 14:13-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You said in your heart, “I will ascend into heaven! I will exalt my throne above the stars of God! I will sit on the mountain of assembly, in the far north! I will ascend above the heights of the clouds! I will make myself like the Most High!”",
+                      "note": "The king of Babylon's boast, 'I will ascend... I will make myself like the Most High,' is a primary source for the self-exaltation of the man of lawlessness 'against all that is called God.' The hubristic ascent against the divine is the shared core."
+                    },
+                    {
+                      "source": "Daniel 9:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He shall make a firm covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the offering to cease; and on the wing of abominations shall come one who makes desolate; and even to the full end, and that determined, shall wrath be poured out on the desolate.",
+                      "note": "The covenant-breaker who sets the abomination on a wing of the temple feeds the temple-defilement element of Paul's portrait of the man of lawlessness."
+                    },
+                    {
+                      "source": "Daniel 7:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He shall speak words against the Most High, and shall wear out the saints of the Most High; and he shall think to change the times and the law; and they shall be given into his hand until a time and times and half a time.",
+                      "note": "The little horn that 'speaks words against the Most High' and exalts itself supplies the blasphemous self-deification of the man of sin."
+                    },
+                    {
+                      "source": "Daniel 8:9-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Out of one of them came out a little horn, which grew exceeding great, toward the south, and toward the east, and toward the glorious land. It grew great, even to the army of the sky; and some of the army and of the stars it cast down to the ground, and trampled on them. Yes, it magnified itself, even to the prince of the army; and it took away from him the continual burnt offering, and the place of his sanctuary was cast down. The army was given over to […]",
+                      "note": "The little horn that grows great, casts down the host, magnifies itself against the prince and takes away the regular sacrifice prefigures the lawless one's assault on God and his sanctuary."
+                    },
+                    {
+                      "source": "Daniel 8:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Through his policy he shall cause craft to prosper in his hand; and he shall magnify himself in his heart, and he shall destroy many in their security. He shall also stand up against the prince of princes; but he shall be broken without hand.",
+                      "note": "The horn that magnifies himself and 'rises up against the Prince of princes' contributes to the self-exalting opposition to God that defines the man of lawlessness."
+                    },
+                    {
+                      "source": "Ezekiel 28:6-9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "therefore thus says the Lord Yahweh: Because you have set your heart as the heart of God, therefore, behold, I will bring strangers on you, the terrible of the nations; and they shall draw their swords against the beauty of your wisdom, and they shall defile your brightness. They shall bring you down to the pit; and you shall die the death of those who are slain, in the heart of the seas. Will you yet say before him who kills you, I am God? but you are […]",
+                      "note": "The rebuke that the self-deifying prince is 'a man and not a god' continues the Tyre oracle's exposure of blasphemous self-deification, paralleling the man of sin's pretension to godhood."
+                    },
+                    {
+                      "source": "Daniel 11:37",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Neither shall he regard the gods of his fathers, nor the desire of women, nor regard any god; for he shall magnify himself above all.",
+                      "note": "The king who 'pays no heed to any god, for he magnifies himself above all' extends the self-exaltation directly behind Paul's description of opposition to every object of worship."
+                    },
+                    {
+                      "source": "1 Maccabees 1:54",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "And on the fifteenth day of Chislev, in the hundred and forty and fifth year, they built an abomination of desolation upon the altar, and in the cities of Judah on every side they built idol altars.",
+                      "note": "Antiochus's setting up of the 'abomination of desolation' on the altar is the historical realization of Daniel's prophecy and a deuterocanonical witness to the temple-desecration imagery behind Paul's man of sin."
+                    },
+                    {
+                      "source": "Daniel 8:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In the latter time of their kingdom, when the transgressors have come to the full, a king of fierce face, and understanding dark sentences, shall stand up.",
+                      "note": "The rise of a bold king 'when transgressors have reached their full measure' may inform Paul's sequence of the rebellion/apostasy preceding the lawless one's revelation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Maccabees 1:43",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and many of Israel consented to his worship, and sacrificed to the idols, and profaned the Sabbath.",
+                      "note": "The wider Maccabean apostasy narrative, where many abandon the law, can stand behind Paul's 'departure/rebellion' that comes first; faint and analogical.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:5-7",
+                  "echoes": [
+                    {
+                      "source": "Habakkuk 2:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "The vision that 'awaits its appointed time' and will not delay may inform Paul's notion of the lawless one being revealed 'in his own season' and the present restraint. Conceptual parallel of an appointed eschatological moment.",
+                      "contested": true,
+                      "lxxText": "For the vision is yet for a time, and it shall shoot forth at the end, and not in vain: though he should tarry, wait for him; for he will surely come, and will not tarry."
+                    },
+                    {
+                      "source": "Daniel 11:35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Some of those who are wise shall fall, to refine them, and to purify, and to make them white, even to the time of the end; because it is yet for the time appointed.",
+                      "note": "Daniel's testing 'until the time of the end, for it is yet for the appointed time' parallels the idea that the revelation of the lawless one waits for its set season.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 11:36",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvelous things against the God of gods; and he shall prosper until the indignation be accomplished; for that which is determined shall be done.",
+                      "note": "The clause 'till the indignation is accomplished, for what is determined shall be done' supplies a sense of restraint until an appointed limit, paralleling Paul's restrainer holding back until the set time.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -577,7 +836,73 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "20.5",
+                  "ref": "20:27-40",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 25:5-6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "If brothers dwell together, and one of them dies, and has no son, the wife of the dead shall not be married outside to a stranger. Her husband’s brother shall go in to her, and take her as his wife, and perform the duty of a husband’s brother to her. It shall be that the firstborn whom she bears shall succeed in the name of his brother who is dead, that his name not be blotted out of Israel.",
+                      "note": "The Sadducees cite 'Moses wrote to us' the levirate law: if a man dies childless his brother must take the wife and raise up offspring for the brother. This is a near-verbatim paraphrase of the Deuteronomic statute, high volume, and load-bearing for the whole dispute."
+                    },
+                    {
+                      "source": "Exodus 3:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Moreover he said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” Moses hid his face; for he was afraid to look at God.",
+                      "note": "Jesus' clinching proof: 'Moses showed at the bush, when he called the Lord the God of Abraham, the God of Isaac, and the God of Jacob.' Verbatim LXX quotation with the bush setting named, highest volume, the keystone of the resurrection argument ('not of the dead but of the living')."
+                    },
+                    {
+                      "source": "Genesis 38:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Judah said to Onan, “Go in to your brother’s wife, and perform the duty of a husband’s brother to her, and raise up seed to your brother.”",
+                      "note": "Judah's command to Onan to 'raise up offspring for your brother' is the narrative enactment of levirate duty and the closest verbal parallel to 'raise up children for his brother.' Moderate volume, coherent with the Deuteronomy citation as the precedent case the Sadducees invoke."
+                    },
+                    {
+                      "source": "Daniel 12:2-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever.",
+                      "note": "'Children of the resurrection... like the angels' draws on Daniel's resurrection hope, where the wise shine like the stars and the dead awake to everlasting life, a key Second-Temple text affirming bodily resurrection over against the Sadducees. Coherent and recurrent in resurrection discourse; moderate volume."
+                    },
+                    {
+                      "source": "Exodus 3:15-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations. Go, and gather the elders of Israel together, and tell them, ‘Yahweh, the God of your fathers, the God of Abraham, of Isaac, and of Jacob, has appeared to me, saying, “I have surely visited you, and […]",
+                      "note": "The patriarchal naming 'the God of Abraham, Isaac, and Jacob' as the LORD's everlasting name extends just beyond 3:6 into the surrounding self-revelation, reinforcing the living-God argument. Largely the same citation, so listed as a faint extension rather than a separate echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Enoch 104:4-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "The hope that the righteous will become 'companions of the host of heaven' / shine and be made like the angels parallels 'they are like the angels, children of the resurrection.' A pseudepigraphal analogue warranted by the angelomorphic-resurrection motif, but volume is faint and the dependence is contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "4 Maccabees 7:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "they who believe that to God they die not; for, as our forefathers, Abraham, Isaac, Jacob, they live to God.",
+                      "note": "'They live to God, as Abraham, Isaac, and Jacob live' anticipates Jesus' very logic that the patriarchs are alive to God, joined to the Exodus 3:6 naming. A strikingly coherent Second-Temple parallel (also 4 Macc 16:25), though as a likely independent reading of the same text it is marked low/contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1281,7 +1606,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/job-19"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Job 19:26",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.24.36-Luke.24.43",
+                      "refDisplay": "Luke 24:36–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-24.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Job 19:25–26",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.23.6-Acts.23.10",
+                      "refDisplay": "Acts 23:6–10",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "23.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-23.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Job 19:26–27",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.3.1-1John.3.3",
+                      "refDisplay": "1 John 3:1–3",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1294,7 +1672,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-17"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 17:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.23.37-Matt.23.39",
+                      "refDisplay": "Matthew 23:37–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "23.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-23.5"
+                    },
+                    {
+                      "refKey": "Luke.13.34-Luke.13.35",
+                      "refDisplay": "Luke 13:34–35",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-13.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 17:3",
+                  "occurrences": [
+                    {
+                      "refKey": "1Thess.2.1-1Thess.2.4",
+                      "refDisplay": "1 Thessalonians 2:1–4",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1313,7 +1739,240 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-2",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Blow the trumpet in Zion, and sound an alarm in my holy mountain! Let all the inhabitants of the land tremble, for the day of Yahweh comes, for it is close at hand:",
+                      "note": "The eschatological 'day of the Lord' (here 'day of Christ/the Lord') that Paul corrects the Thessalonians about derives its weight from the prophetic Day-of-the-Lord tradition, of which Joel is a primary witness. Joel sounds the alarm that the day is near and dreadful."
+                    },
+                    {
+                      "source": "Joel 2:31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The sun will be turned into darkness, and the moon into blood, before the great and terrible day of Yahweh comes.",
+                      "note": "The 'great and awesome day of the Lord' with cosmic signs feeds the apocalyptic timetable Paul is addressing. The Thessalonians' panic that the day had already come presupposes this prophetic frame."
+                    },
+                    {
+                      "source": "Amos 5:18-20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Woe to you who desire the day of Yahweh! Why do you long for the day of Yahweh? It is darkness, and not light. As if a man fled from a lion, and a bear met him; Or he went into the house and leaned his hand on the wall, and a snake bit him. Won’t the day of Yahweh be darkness, and not light? Even very dark, and no brightness in it?",
+                      "note": "Amos's reversal of the Day of the Lord into darkness rather than light is foundational to the NT's sober expectation of that day. Paul's warning against premature certainty draws on this prophetic gravity."
+                    },
+                    {
+                      "source": "Zephaniah 1:14-15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The great day of Yahweh is near. It is near, and hurries greatly, the voice of the day of Yahweh. The mighty man cries there bitterly. That day is a day of wrath, a day of distress and anguish, a day of trouble and ruin, a day of darkness and gloom, a day of clouds and blackness,",
+                      "note": "Zephaniah's 'day of the Lord is near' with wrath and distress contributes to the prophetic Day-of-the-Lord matrix behind Paul's eschatology."
+                    },
+                    {
+                      "source": "Isaiah 27:12-13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen in that day, that Yahweh will thresh from the flowing stream of the Euphrates to the brook of Egypt; and you will be gathered one by one, children of Israel. It will happen in that day that a great trumpet will be blown; and those who were ready to perish in the land of Assyria, and those who were outcasts in the land of Egypt, shall come; and they will worship Yahweh in the holy mountain at Jerusalem.",
+                      "note": "Paul's 'our gathering together to him' (episynagoge) echoes the prophetic hope of God gathering scattered Israel one by one at the trumpet. The ingathering of the elect is a stock eschatological motif rooted here."
+                    },
+                    {
+                      "source": "Deuteronomy 30:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "If your outcasts are in the uttermost parts of the heavens, from there Yahweh your God will gather you, and from there he will bring you back.",
+                      "note": "The promise that the Lord will gather the dispersed from the ends of the heavens undergirds the eschatological 'gathering together to him.' This is the seedbed of the NT gathering-of-the-elect language."
+                    },
+                    {
+                      "source": "Isaiah 13:6-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wail; for the day of Yahweh is at hand! It will come as destruction from the Almighty. Therefore all hands will be feeble, and everyone’s heart will melt. They will be dismayed. Pangs and sorrows will seize them. They will be in pain like a woman in labor. They will look in amazement one at another. Their faces will be faces of flame. Behold, the day of Yahweh comes, cruel, with wrath and fierce anger; to make the land a desolation, and to destroy its […]",
+                      "note": "Isaiah's 'day of the Lord' coming as destruction from the Almighty is part of the broad prophetic stream informing Paul's 'day of Christ.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says Yahweh of Armies, “that it shall leave them neither root nor branch.",
+                      "note": "The burning day of the Lord in Malachi belongs to the prophetic Day tradition that frames Paul's correction; faint and diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 2:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Come! Come! Flee from the land of the north,’ says Yahweh; ‘for I have spread you abroad as the four winds of the sky,’ says Yahweh.",
+                      "note": "Zechariah's call to the scattered people belongs to the ingathering hope behind episynagoge; faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 50:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Gather my saints together to me, those who have made a covenant with me by sacrifice.”",
+                      "note": "'Gather my faithful ones to me' offers a verbal-conceptual parallel to the assembling of believers to the Lord, though Paul does not cite it.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Maccabees 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But when Jeremiah perceived it, he blamed them, saying, Yes and the place shall be unknown until God gather the people again together, and mercy come:",
+                      "note": "The deuterocanonical hope that God will 'gather his people together' (episynagoge cognate) when mercy comes parallels Paul's gathering-to-him language. Possible shared eschatological idiom.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:3-4",
+                  "echoes": [
+                    {
+                      "source": "Daniel 11:36",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvelous things against the God of gods; and he shall prosper until the indignation be accomplished; for that which is determined shall be done.",
+                      "note": "The man of sin who 'opposes and exalts himself against all that is called God' closely tracks Daniel's king who 'shall do as he wills, exalt himself above every god, and speak astonishing things against the God of gods.' This is the principal scriptural template for the figure."
+                    },
+                    {
+                      "source": "Daniel 11:31",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Forces shall stand on his part, and they shall profane the sanctuary, even the fortress, and shall take away the continual burnt offering, and they shall set up the abomination that makes desolate.",
+                      "note": "Daniel's profanation of the sanctuary and setting up the abomination underlies Paul's 'sits as God in the temple of God.' The desecration-of-the-temple motif is drawn directly from Daniel's depiction of the eschatological tyrant."
+                    },
+                    {
+                      "source": "Daniel 12:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "From the time that the continual burnt offering shall be taken away, and the abomination that makes desolate set up, there shall be one thousand two hundred ninety days.",
+                      "note": "The 'abomination that makes desolate' set up in the temple grounds Paul's image of the lawless one seating himself in God's temple. Daniel's desolating abomination is the prototype of the temple usurpation."
+                    },
+                    {
+                      "source": "Ezekiel 28:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Son of man, tell the prince of Tyre, Thus says the Lord Yahweh: Because your heart is lifted up, and you have said, I am a god, I sit in the seat of God, in the midst of the seas; yet you are man, and not God, though you set your heart as the heart of God—",
+                      "note": "The prince of Tyre who says 'I am a god, I sit in the seat of gods' is a close conceptual and verbal parallel to the man of sin 'setting himself up as God' and sitting in God's temple. The blasphemous claim to deity and the enthroned posture both resonate."
+                    },
+                    {
+                      "source": "Isaiah 14:13-14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You said in your heart, “I will ascend into heaven! I will exalt my throne above the stars of God! I will sit on the mountain of assembly, in the far north! I will ascend above the heights of the clouds! I will make myself like the Most High!”",
+                      "note": "The king of Babylon's boast, 'I will ascend... I will make myself like the Most High,' is a primary source for the self-exaltation of the man of lawlessness 'against all that is called God.' The hubristic ascent against the divine is the shared core."
+                    },
+                    {
+                      "source": "Daniel 9:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He shall make a firm covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the offering to cease; and on the wing of abominations shall come one who makes desolate; and even to the full end, and that determined, shall wrath be poured out on the desolate.",
+                      "note": "The covenant-breaker who sets the abomination on a wing of the temple feeds the temple-defilement element of Paul's portrait of the man of lawlessness."
+                    },
+                    {
+                      "source": "Daniel 7:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He shall speak words against the Most High, and shall wear out the saints of the Most High; and he shall think to change the times and the law; and they shall be given into his hand until a time and times and half a time.",
+                      "note": "The little horn that 'speaks words against the Most High' and exalts itself supplies the blasphemous self-deification of the man of sin."
+                    },
+                    {
+                      "source": "Daniel 8:9-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Out of one of them came out a little horn, which grew exceeding great, toward the south, and toward the east, and toward the glorious land. It grew great, even to the army of the sky; and some of the army and of the stars it cast down to the ground, and trampled on them. Yes, it magnified itself, even to the prince of the army; and it took away from him the continual burnt offering, and the place of his sanctuary was cast down. The army was given over to […]",
+                      "note": "The little horn that grows great, casts down the host, magnifies itself against the prince and takes away the regular sacrifice prefigures the lawless one's assault on God and his sanctuary."
+                    },
+                    {
+                      "source": "Daniel 8:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Through his policy he shall cause craft to prosper in his hand; and he shall magnify himself in his heart, and he shall destroy many in their security. He shall also stand up against the prince of princes; but he shall be broken without hand.",
+                      "note": "The horn that magnifies himself and 'rises up against the Prince of princes' contributes to the self-exalting opposition to God that defines the man of lawlessness."
+                    },
+                    {
+                      "source": "Ezekiel 28:6-9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "therefore thus says the Lord Yahweh: Because you have set your heart as the heart of God, therefore, behold, I will bring strangers on you, the terrible of the nations; and they shall draw their swords against the beauty of your wisdom, and they shall defile your brightness. They shall bring you down to the pit; and you shall die the death of those who are slain, in the heart of the seas. Will you yet say before him who kills you, I am God? but you are […]",
+                      "note": "The rebuke that the self-deifying prince is 'a man and not a god' continues the Tyre oracle's exposure of blasphemous self-deification, paralleling the man of sin's pretension to godhood."
+                    },
+                    {
+                      "source": "Daniel 11:37",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Neither shall he regard the gods of his fathers, nor the desire of women, nor regard any god; for he shall magnify himself above all.",
+                      "note": "The king who 'pays no heed to any god, for he magnifies himself above all' extends the self-exaltation directly behind Paul's description of opposition to every object of worship."
+                    },
+                    {
+                      "source": "1 Maccabees 1:54",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "And on the fifteenth day of Chislev, in the hundred and forty and fifth year, they built an abomination of desolation upon the altar, and in the cities of Judah on every side they built idol altars.",
+                      "note": "Antiochus's setting up of the 'abomination of desolation' on the altar is the historical realization of Daniel's prophecy and a deuterocanonical witness to the temple-desecration imagery behind Paul's man of sin."
+                    },
+                    {
+                      "source": "Daniel 8:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In the latter time of their kingdom, when the transgressors have come to the full, a king of fierce face, and understanding dark sentences, shall stand up.",
+                      "note": "The rise of a bold king 'when transgressors have reached their full measure' may inform Paul's sequence of the rebellion/apostasy preceding the lawless one's revelation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Maccabees 1:43",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and many of Israel consented to his worship, and sacrificed to the idols, and profaned the Sabbath.",
+                      "note": "The wider Maccabean apostasy narrative, where many abandon the law, can stand behind Paul's 'departure/rebellion' that comes first; faint and analogical.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:5-7",
+                  "echoes": [
+                    {
+                      "source": "Habakkuk 2:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "The vision that 'awaits its appointed time' and will not delay may inform Paul's notion of the lawless one being revealed 'in his own season' and the present restraint. Conceptual parallel of an appointed eschatological moment.",
+                      "contested": true,
+                      "lxxText": "For the vision is yet for a time, and it shall shoot forth at the end, and not in vain: though he should tarry, wait for him; for he will surely come, and will not tarry."
+                    },
+                    {
+                      "source": "Daniel 11:35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Some of those who are wise shall fall, to refine them, and to purify, and to make them white, even to the time of the end; because it is yet for the time appointed.",
+                      "note": "Daniel's testing 'until the time of the end, for it is yet for the appointed time' parallels the idea that the revelation of the lawless one waits for its set season.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 11:36",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvelous things against the God of gods; and he shall prosper until the indignation be accomplished; for that which is determined shall be done.",
+                      "note": "The clause 'till the indignation is accomplished, for what is determined shall be done' supplies a sense of restraint until an appointed limit, paralleling Paul's restrainer holding back until the set time.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1332,7 +1991,73 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "20.5",
+                  "ref": "20:27-40",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 25:5-6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "If brothers dwell together, and one of them dies, and has no son, the wife of the dead shall not be married outside to a stranger. Her husband’s brother shall go in to her, and take her as his wife, and perform the duty of a husband’s brother to her. It shall be that the firstborn whom she bears shall succeed in the name of his brother who is dead, that his name not be blotted out of Israel.",
+                      "note": "The Sadducees cite 'Moses wrote to us' the levirate law: if a man dies childless his brother must take the wife and raise up offspring for the brother. This is a near-verbatim paraphrase of the Deuteronomic statute, high volume, and load-bearing for the whole dispute."
+                    },
+                    {
+                      "source": "Exodus 3:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Moreover he said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” Moses hid his face; for he was afraid to look at God.",
+                      "note": "Jesus' clinching proof: 'Moses showed at the bush, when he called the Lord the God of Abraham, the God of Isaac, and the God of Jacob.' Verbatim LXX quotation with the bush setting named, highest volume, the keystone of the resurrection argument ('not of the dead but of the living')."
+                    },
+                    {
+                      "source": "Genesis 38:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Judah said to Onan, “Go in to your brother’s wife, and perform the duty of a husband’s brother to her, and raise up seed to your brother.”",
+                      "note": "Judah's command to Onan to 'raise up offspring for your brother' is the narrative enactment of levirate duty and the closest verbal parallel to 'raise up children for his brother.' Moderate volume, coherent with the Deuteronomy citation as the precedent case the Sadducees invoke."
+                    },
+                    {
+                      "source": "Daniel 12:2-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever.",
+                      "note": "'Children of the resurrection... like the angels' draws on Daniel's resurrection hope, where the wise shine like the stars and the dead awake to everlasting life, a key Second-Temple text affirming bodily resurrection over against the Sadducees. Coherent and recurrent in resurrection discourse; moderate volume."
+                    },
+                    {
+                      "source": "Exodus 3:15-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations. Go, and gather the elders of Israel together, and tell them, ‘Yahweh, the God of your fathers, the God of Abraham, of Isaac, and of Jacob, has appeared to me, saying, “I have surely visited you, and […]",
+                      "note": "The patriarchal naming 'the God of Abraham, Isaac, and Jacob' as the LORD's everlasting name extends just beyond 3:6 into the surrounding self-revelation, reinforcing the living-God argument. Largely the same citation, so listed as a faint extension rather than a separate echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Enoch 104:4-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "The hope that the righteous will become 'companions of the host of heaven' / shine and be made like the angels parallels 'they are like the angels, children of the resurrection.' A pseudepigraphal analogue warranted by the angelomorphic-resurrection motif, but volume is faint and the dependence is contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "4 Maccabees 7:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "they who believe that to God they die not; for, as our forefathers, Abraham, Isaac, Jacob, they live to God.",
+                      "note": "'They live to God, as Abraham, Isaac, and Jacob live' anticipates Jesus' very logic that the patriarchs are alive to God, joined to the Exodus 3:6 naming. A strikingly coherent Second-Temple parallel (also 4 Macc 16:25), though as a likely independent reading of the same text it is marked low/contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

@@ -691,7 +691,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/job-38"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Job 38:3",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.1.13-1Pet.1.21",
+                      "refDisplay": "1 Peter 1:13–21",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Job 38:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.12.1-Rev.12.4",
+                      "refDisplay": "Revelation 12:1–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "12.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-12.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -704,7 +742,125 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-104"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 104:6–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.8.23-Matt.8.27",
+                      "refDisplay": "Matthew 8:23–27",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.6"
+                    },
+                    {
+                      "refKey": "Luke.8.22-Luke.8.25",
+                      "refDisplay": "Luke 8:22–25",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-8.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 104:2",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.6.13-1Tim.6.16",
+                      "refDisplay": "1 Timothy 6:13–16",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "6.13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-6.13"
+                    },
+                    {
+                      "refKey": "1John.1.5",
+                      "refDisplay": "1 John 1:5",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 104:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.4.35-Mark.4.41",
+                      "refDisplay": "Mark 4:35–41",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-4.10"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 104:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.13.24-Mark.13.27",
+                      "refDisplay": "Mark 13:24–27",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "13.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-13.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 104:3–4,30",
+                  "occurrences": [
+                    {
+                      "refKey": "John.3.1-John.3.8",
+                      "refDisplay": "John 3:1–8",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-3.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 104:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.1.7",
+                      "refDisplay": "Hebrews 1:7",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -717,7 +873,104 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-5.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1–4",
+                  "echoes": [
+                    {
+                      "source": "Exodus 28:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Bring Aaron your brother, and his sons with him, near to you from among the children of Israel, that he may minister to me in the priest’s office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron’s sons.",
+                      "note": "‘He is called by God, just like Aaron’ (v. 4) names Aaron's installation directly; Exod 28:1 is the foundational text where God ‘brings near’ Aaron to the priesthood. Moderate verbal volume (the proper name Aaron is shared) plus high thematic coherence with the high-priest argument seeded since 2:17 (Hays' recurrence)."
+                    },
+                    {
+                      "source": "Numbers 16:40",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "to be a memorial to the children of Israel, to the end that no stranger, who isn’t of the offspring of Aaron, would come near to burn incense before Yahweh, that he not be as Korah, and as his company; as Yahweh spoke to him by Moses.",
+                      "note": "‘Nobody takes this honor on himself’ (v. 4) recalls the Korah rebellion (Num 16–17), the locus classicus for seizing priesthood uninvited; the bronze-censer memorial of 16:40 warns against the ‘stranger’ who presumes. No verbatim quotation — a thematic allusion to the negative type behind Hebrews' rule of divine calling."
+                    },
+                    {
+                      "source": "Leviticus 9:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Moses said to Aaron, “Draw near to the altar, and offer your sin offering, and your burnt offering, and make atonement for yourself, and for the people; and offer the offering of the people, and make atonement for them; as Yahweh commanded.”",
+                      "note": "‘He must offer sacrifices for sins for the people, as well as for himself’ (v. 3) compresses the cultic logic of Lev 9:7, where Aaron atones first ‘for yourself’ then ‘for the people.’ Verbal coherence (the doubled for-himself/for-the-people structure) marks this as the underlying script; the divergence Hebrews exploits is that Christ, sinless (4:15; 7:27), needs no offering for himself."
+                    },
+                    {
+                      "source": "Leviticus 16:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Aaron shall offer the bull of the sin offering, which is for himself, and make atonement for himself and for his house.",
+                      "note": "The Day-of-Atonement requirement that the high priest atone ‘for himself’ (Lev 16:6) undergirds v. 3 and is the foil Hebrews overturns at 7:27. A faint echo paralleling Lev 9:7; recurrence of the Lev 16 figure already running through the letter (1:3; 9:7) raises its credence (Hays)."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.2",
+                  "ref": "5:5–10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I will tell of the decree. Yahweh said to me, ‘You are my son. Today I have become your father.’",
+                      "note": "Re-cited from 1:5, now welded to priesthood: the same divine ‘today’ that enthrones the Son also installs him as high priest. Recurrence binding the two halves of the letter together."
+                    },
+                    {
+                      "source": "Psalm 110:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yahweh has sworn, and will not change his mind: ‘You are a priest forever in the order of Melchizedek.’",
+                      "note": "The hinge of the whole letter. Ps 110:1 crowned the Son at 1:13; now verse 4 of the same psalm makes him priest — a priesthood older than Aaron's, sworn by an oath. Named here, expounded at length in chapter 7."
+                    },
+                    {
+                      "source": "Genesis 14:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Melchizedek king of Salem brought out bread and wine: and he was priest of God Most High.",
+                      "note": "The name ‘Melchizedek’ (vv. 6, 10) points beyond Ps 110:4 to its narrative root in Gen 14:18, the only other Old Testament Melchizedek text and the one ch. 7 will expound at length. The repeated naming is Hays' recurrence in advance — the figure is planted here and harvested in chapter 7."
+                    },
+                    {
+                      "source": "Psalm 22:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For he has not despised nor abhorred the affliction of the afflicted, Neither has he hidden his face from him; but when he cried to him, he heard.",
+                      "note": "‘Strong crying… having been heard for his godly fear’ (v. 7) reads the righteous sufferer's vindication: the very psalm of the cross (Ps 22, already cited at 2:12) testifies that God ‘heard’ the afflicted one's cry. Thematic coherence and recurrence of Ps 22 in Hebrews make this a heard, if unquoted, link to the Passion."
+                    },
+                    {
+                      "source": "Psalm 116:1–4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I love Yahweh, because he listens to my voice, and my cries for mercy. Because he has turned his ear to me, therefore I will call on him as long as I live. The cords of death surrounded me, the pains of Sheol got a hold of me. I found trouble and sorrow. Then I called on Yahweh’s name: “Yahweh, I beg you, deliver my soul.”",
+                      "note": "‘Prayers and petitions… to him who was able to save him from death, and having been heard’ (v. 7) closely tracks the lament-deliverance pattern of Ps 116: encircled by the ‘cords of death,’ the petitioner cries and is heard. Scholars (Beale & Carson) hear the Gethsemane prayer voiced through the lament psalms; medium volume, strong thematic fit."
+                    },
+                    {
+                      "source": "Psalm 39:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Hear my prayer, Yahweh, and give ear to my cry. Don’t be silent at my tears. For I am a stranger with you, a foreigner, as all my fathers were.",
+                      "note": "‘With strong crying and tears’ (v. 7) — the explicit ‘tears’ — faintly echoes the lament topos of Ps 39:12, where the sufferer begs God not to ‘be silent at my tears.’ Low verbal volume and a contested identification (any lament psalm could supply the motif), included for maximal coverage."
+                    },
+                    {
+                      "source": "Leviticus 8:33",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "You shall not go out from the door of the Tent of Meeting for seven days, until the days of your consecration are fulfilled: for he shall consecrate you seven days.",
+                      "note": "‘Having been made perfect’ (teleiōtheis, v. 9) carries the cultic sense of priestly ‘perfecting/consecration’ — the LXX teleioō word-group renders the ‘fill the hand’ ordination of Lev 8 (cf. 8:33, the seven-day consecration). A faint figural link: Christ's perfecting through suffering reworks the priest's installation rite. LXX-specific; invisible in the Hebrew ‘fill the hands.’"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -736,7 +989,105 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.6",
+                  "ref": "10:35-45",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:10-12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yet it pleased Yahweh to bruise him. He has caused him to suffer. When you make his soul an offering for sin, he shall see his seed. He shall prolong his days, and the pleasure of Yahweh shall prosper in his hand. After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities. Therefore will I divide him a portion with the great, and he shall […]",
+                      "note": "The Servant who 'pours out his soul to death,' 'bears the sin of many,' and makes his life a guilt offering 'for many' is the controlling source for 'to give his life as a ransom for many.' The distinctive vicarious 'for many' (rabbim) and the substitutionary death match decisively. This is the chapter's major Servant allusion, high in Volume and Coherence."
+                    },
+                    {
+                      "source": "Isaiah 51:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Awake, awake, stand up, Jerusalem, that have drunk at the hand of Yahweh the cup of his wrath; you have drunken the bowl of the cup of staggering, and drained it.",
+                      "note": "Jerusalem has drunk 'the cup of his wrath... the bowl of staggering,' the cup-of-judgment imagery behind 'the cup that I drink.' Jesus takes upon himself the cup of divine wrath the city must drink. The cup as wrath to be consumed coheres with the passion's substitutionary logic."
+                    },
+                    {
+                      "source": "Psalm 75:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For in the hand of Yahweh there is a cup, full of foaming wine mixed with spices. He pours it out. Indeed the wicked of the earth drink and drink it to its very dregs.",
+                      "note": "'In the hand of the LORD there is a cup... and he pours it out; surely all the wicked of the earth shall drain it' establishes the cup as the draught of God's judgment. Jesus' question 'are you able to drink the cup that I drink' draws on this judicial cup. The wrath-cup motif's Recurrence (Jeremiah 25, Isaiah 51) supports it."
+                    },
+                    {
+                      "source": "Jeremiah 25:15-28",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For thus says Yahweh, the God of Israel, to me: take this cup of the wine of wrath at my hand, and cause all the nations, to whom I send you, to drink it. They shall drink, and reel back and forth, and be mad, because of the sword that I will send among them. Then took I the cup at Yahweh’s hand, and made all the nations to drink, to whom Yahweh had sent me: Jerusalem, and the cities of Judah, and its kings, and its princes, to make them a desolation, an […]",
+                      "note": "The prophet makes the nations drink 'the cup of the wine of wrath,' the most extended OT development of the wrath-cup that Jesus alludes to. It strengthens the Recurrence of the cup-of-judgment tradition behind Mark 10:38. Marked contested only as to which cup-text is primary; Isaiah 51 and Psalm 75 are nearer.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "James and John request seats 'in your glory,' echoing the dominion and glory given to the son of man, while the right-and-left thrones evoke enthronement in the Danielic kingdom. The petition presupposes the Son of Man's coming glory. Coherence with the Daniel 7 background of Mark's Son of Man title supports the link."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "The request to sit 'at your right hand' draws on the royal enthronement of the king at God's right hand. The right-hand seat of honor is the Psalm 110 image Mark elsewhere applies to Jesus. The single-side request makes the echo partial but apt; marked contested as to directness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, shall be given to the people of the saints of the Most High: his kingdom is an everlasting kingdom, and all dominions shall serve and obey him.",
+                      "note": "Dominion is given to the saints, yet the kingdom's authority is from God, against which the Gentile kings who 'lord it over' their nations are contrasted. Jesus' antithesis between Gentile rulers' domination and servanthood draws on this kingdom-of-God-versus-beastly-empires schema. The contrast of empires coheres with Daniel 7.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 9:24-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Seventy weeks are decreed on your people and on your holy city, to finish disobedience, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up vision and prophecy, and to anoint the most holy. Know therefore and discern, that from the going out of the commandment to restore and to build Jerusalem to the Anointed One, the prince, shall be seven weeks, and sixty-two weeks: it shall be […]",
+                      "note": "The 'anointed one' cut off and atonement made 'for iniquity' resonates faintly with the ransoming death 'for many.' It supplies a Second-Temple frame for a representative figure's atoning death. Low and contested: conceptual, no verbal lock.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 30:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“When you take a census of the children of Israel, according to those who are numbered among them, then each man shall give a ransom for his soul to Yahweh, when you number them; that there be no plague among them when you number them.",
+                      "note": "The atonement-money 'ransom for his life' paid at the census supplies cultic background for lytron, 'ransom.' It frames a life-price offered to redeem. Contested and low: Mark's ransom is more directly Isaianic (53:10-12), but the redemption-price vocabulary is available here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 25:48-49",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "after he is sold he may be redeemed. One of his brothers may redeem him; or his uncle, or his uncle’s son, may redeem him, or any who is a close relative to him of his family may redeem him; or if he has grown rich, he may redeem himself.",
+                      "note": "The kinsman-redeemer who pays a price to redeem (gaal/lytron) supplies the OT economy of ransom behind 'a ransom for many.' It contributes Availability for the redemption metaphor. Contested; background vocabulary rather than citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 49:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "none of them can by any means redeem his brother, nor give God a ransom for him. For the redemption of their life is costly, no payment is ever enough,",
+                      "note": "No one can 'ransom' a brother or give God 'the price of his life,' for the ransom of a soul is costly, sharpening the surprise that the Son of Man does give exactly such a ransom 'for many.' The psalm sets up the impossibility Jesus' death answers. Contested and low: an inverted thematic contact.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1568,7 +1919,1565 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-53"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 53:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.27.38",
+                      "refDisplay": "Matthew 27:38",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.9"
+                    },
+                    {
+                      "refKey": "Mark.14.22-Mark.14.25",
+                      "refDisplay": "Mark 14:22–25",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.6"
+                    },
+                    {
+                      "refKey": "Mark.15.25-Mark.15.28",
+                      "refDisplay": "Mark 15:25–28",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-15.7"
+                    },
+                    {
+                      "refKey": "Luke.22.14-Luke.22.20",
+                      "refDisplay": "Luke 22:14–20",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-22.3"
+                    },
+                    {
+                      "refKey": "Luke.22.35-Luke.22.38",
+                      "refDisplay": "Luke 22:35–38",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-22.7"
+                    },
+                    {
+                      "refKey": "Luke.23.32-Luke.23.34",
+                      "refDisplay": "Luke 23:32–34",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-23.6"
+                    },
+                    {
+                      "refKey": "Luke.23.32-Luke.23.34",
+                      "refDisplay": "Luke 23:32–34",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-23.6"
+                    },
+                    {
+                      "refKey": "Phil.2.5-Phil.2.8",
+                      "refDisplay": "Philippians 2:5–8",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/philippians#p-2.2"
+                    },
+                    {
+                      "refKey": "Heb.9.23-Heb.9.28",
+                      "refDisplay": "Hebrews 9:23–28",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "9.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-9.3"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    },
+                    {
+                      "refKey": "Matt.12.22-Matt.12.30",
+                      "refDisplay": "Matthew 12:22–30",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "12.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-12.4"
+                    },
+                    {
+                      "refKey": "Matt.17.22-Matt.17.23",
+                      "refDisplay": "Matthew 17:22–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-17.4"
+                    },
+                    {
+                      "refKey": "Mark.3.20-Mark.3.30",
+                      "refDisplay": "Mark 3:20–30",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-3.4"
+                    },
+                    {
+                      "refKey": "Mark.9.30-Mark.9.32",
+                      "refDisplay": "Mark 9:30–32",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-9.5"
+                    },
+                    {
+                      "refKey": "Luke.23.39-Luke.23.43",
+                      "refDisplay": "Luke 23:39–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.8"
+                    },
+                    {
+                      "refKey": "John.19.17-John.19.18",
+                      "refDisplay": "John 19:17–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-19.5"
+                    },
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    },
+                    {
+                      "refKey": "2Cor.5.20-2Cor.5.21",
+                      "refDisplay": "2 Corinthians 5:20–21",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "5.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-5.5"
+                    },
+                    {
+                      "refKey": "1John.3.16-1John.3.18",
+                      "refDisplay": "1 John 3:16–18",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.16"
+                    },
+                    {
+                      "refKey": "Matt.27.33-Matt.27.37",
+                      "refDisplay": "Matthew 27:33–37",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.8"
+                    },
+                    {
+                      "refKey": "Matt.27.50",
+                      "refDisplay": "Matthew 27:50",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.13"
+                    },
+                    {
+                      "refKey": "Mark.14.43-Mark.14.49",
+                      "refDisplay": "Mark 14:43–49",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-14.10"
+                    },
+                    {
+                      "refKey": "Luke.11.14-Luke.11.23",
+                      "refDisplay": "Luke 11:14–23",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-11.4"
+                    },
+                    {
+                      "refKey": "Luke.23.13-Luke.23.25",
+                      "refDisplay": "Luke 23:13–25",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-23.3"
+                    },
+                    {
+                      "refKey": "John.18.38-John.18.40",
+                      "refDisplay": "John 18:38–40",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "18.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-18.8"
+                    },
+                    {
+                      "refKey": "Acts.3.11-Acts.3.16",
+                      "refDisplay": "Acts 3:11–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "3.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-3.2"
+                    },
+                    {
+                      "refKey": "Rom.8.31-Rom.8.39",
+                      "refDisplay": "Romans 8:31–39",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-8.3"
+                    },
+                    {
+                      "refKey": "1Cor.11.23-1Cor.11.26",
+                      "refDisplay": "1 Corinthians 11:23–26",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "11.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-11.3"
+                    },
+                    {
+                      "refKey": "Col.2.14-Col.2.15",
+                      "refDisplay": "Colossians 2:14–15",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "2.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-2.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    },
+                    {
+                      "refKey": "2Cor.5.20-2Cor.5.21",
+                      "refDisplay": "2 Corinthians 5:20–21",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "5.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-5.5"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    },
+                    {
+                      "refKey": "Matt.10.5-Matt.10.15",
+                      "refDisplay": "Matthew 10:5–15",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "10.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-10.2"
+                    },
+                    {
+                      "refKey": "Matt.18.12-Matt.18.14",
+                      "refDisplay": "Matthew 18:12–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "18.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-18.5"
+                    },
+                    {
+                      "refKey": "Matt.20.17-Matt.20.19",
+                      "refDisplay": "Matthew 20:17–19",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "20.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-20.2"
+                    },
+                    {
+                      "refKey": "Mark.9.30-Mark.9.32",
+                      "refDisplay": "Mark 9:30–32",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-9.5"
+                    },
+                    {
+                      "refKey": "Mark.15.6-Mark.15.15",
+                      "refDisplay": "Mark 15:6–15",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-15.2"
+                    },
+                    {
+                      "refKey": "Luke.9.44-Luke.9.45",
+                      "refDisplay": "Luke 9:44–45",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-9.8"
+                    },
+                    {
+                      "refKey": "Luke.15.3-Luke.15.7",
+                      "refDisplay": "Luke 15:3–7",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-15.2"
+                    },
+                    {
+                      "refKey": "John.18.38-John.18.40",
+                      "refDisplay": "John 18:38–40",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "18.8",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-18.8"
+                    },
+                    {
+                      "refKey": "Rom.8.31-Rom.8.39",
+                      "refDisplay": "Romans 8:31–39",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-8.3"
+                    },
+                    {
+                      "refKey": "Gal.1.1-Gal.1.5",
+                      "refDisplay": "Galatians 1:1–5",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "1.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/galatians#p-1.1"
+                    },
+                    {
+                      "refKey": "Matt.15.21-Matt.15.28",
+                      "refDisplay": "Matthew 15:21–28",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.3"
+                    },
+                    {
+                      "refKey": "Matt.27.15-Matt.27.23",
+                      "refDisplay": "Matthew 27:15–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.4"
+                    },
+                    {
+                      "refKey": "Luke.23.13-Luke.23.25",
+                      "refDisplay": "Luke 23:13–25",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-23.3"
+                    },
+                    {
+                      "refKey": "Titus.3.3",
+                      "refDisplay": "Titus 3:3",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/titus#p-3.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.26.57-Matt.26.68",
+                      "refDisplay": "Matthew 26:57–68",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.10"
+                    },
+                    {
+                      "refKey": "Matt.27.11-Matt.27.14",
+                      "refDisplay": "Matthew 27:11–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.3"
+                    },
+                    {
+                      "refKey": "Mark.14.60-Mark.14.61",
+                      "refDisplay": "Mark 14:60–61",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.14"
+                    },
+                    {
+                      "refKey": "Mark.15.1-Mark.15.5",
+                      "refDisplay": "Mark 15:1–5",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-15.1"
+                    },
+                    {
+                      "refKey": "Luke.23.6-Luke.23.12",
+                      "refDisplay": "Luke 23:6–12",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-23.2"
+                    },
+                    {
+                      "refKey": "John.1.29-John.1.34",
+                      "refDisplay": "John 1:29–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-1.6"
+                    },
+                    {
+                      "refKey": "1Pet.1.13-1Pet.1.21",
+                      "refDisplay": "1 Peter 1:13–21",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.2"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    },
+                    {
+                      "refKey": "Rev.5.6-Rev.5.8",
+                      "refDisplay": "Revelation 5:6–8",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "5.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-5.2"
+                    },
+                    {
+                      "refKey": "Luke.23.1-Luke.23.5",
+                      "refDisplay": "Luke 23:1–5",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.1"
+                    },
+                    {
+                      "refKey": "John.1.35-John.1.42",
+                      "refDisplay": "John 1:35–42",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-1.7"
+                    },
+                    {
+                      "refKey": "Rev.13.5-Rev.13.10",
+                      "refDisplay": "Revelation 13:5–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "13.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-13.2"
+                    },
+                    {
+                      "refKey": "Luke.24.13-Luke.24.27",
+                      "refDisplay": "Luke 24:13–27",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-24.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:11",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.5.20-2Cor.5.21",
+                      "refDisplay": "2 Corinthians 5:20–21",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "5.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-5.5"
+                    },
+                    {
+                      "refKey": "Luke.22.35-Luke.22.38",
+                      "refDisplay": "Luke 22:35–38",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-22.7"
+                    },
+                    {
+                      "refKey": "Luke.23.13-Luke.23.25",
+                      "refDisplay": "Luke 23:13–25",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.3"
+                    },
+                    {
+                      "refKey": "Luke.23.47-Luke.23.49",
+                      "refDisplay": "Luke 23:47–49",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.11"
+                    },
+                    {
+                      "refKey": "Acts.3.11-Acts.3.16",
+                      "refDisplay": "Acts 3:11–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "3.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-3.2"
+                    },
+                    {
+                      "refKey": "Acts.22.12-Acts.22.16",
+                      "refDisplay": "Acts 22:12–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "22.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-22.3"
+                    },
+                    {
+                      "refKey": "Acts.26.19-Acts.26.23",
+                      "refDisplay": "Acts 26:19–23",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "26.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-26.6"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    },
+                    {
+                      "refKey": "Mark.9.33-Mark.9.37",
+                      "refDisplay": "Mark 9:33–37",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-9.6"
+                    },
+                    {
+                      "refKey": "Acts.7.51-Acts.7.53",
+                      "refDisplay": "Acts 7:51–53",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.8",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-7.8"
+                    },
+                    {
+                      "refKey": "Acts.13.38-Acts.13.41",
+                      "refDisplay": "Acts 13:38–41",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-13.8"
+                    },
+                    {
+                      "refKey": "1Pet.1.3-1Pet.1.12",
+                      "refDisplay": "1 Peter 1:3–12",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.1"
+                    },
+                    {
+                      "refKey": "1John.2.1-1John.2.2",
+                      "refDisplay": "1 John 2:1–2",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.27.57-Matt.27.61",
+                      "refDisplay": "Matthew 27:57–61",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.17"
+                    },
+                    {
+                      "refKey": "Mark.15.42-Mark.15.47",
+                      "refDisplay": "Mark 15:42–47",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-15.15"
+                    },
+                    {
+                      "refKey": "Luke.23.50-Luke.23.56",
+                      "refDisplay": "Luke 23:50–56",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-23.12"
+                    },
+                    {
+                      "refKey": "John.19.38-John.19.42",
+                      "refDisplay": "John 19:38–42",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-19.11"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    },
+                    {
+                      "refKey": "Luke.23.39-Luke.23.43",
+                      "refDisplay": "Luke 23:39–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-23.8"
+                    },
+                    {
+                      "refKey": "Acts.13.26-Acts.13.31",
+                      "refDisplay": "Acts 13:26–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-13.6"
+                    },
+                    {
+                      "refKey": "1John.3.4-1John.3.6",
+                      "refDisplay": "1 John 3:4–6",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.4"
+                    },
+                    {
+                      "refKey": "Rev.14.1-Rev.14.5",
+                      "refDisplay": "Revelation 14:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.1"
+                    },
+                    {
+                      "refKey": "Matt.27.38",
+                      "refDisplay": "Matthew 27:38",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.8.16-Matt.8.17",
+                      "refDisplay": "Matthew 8:16–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.4"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    },
+                    {
+                      "refKey": "Matt.4.23-Matt.4.25",
+                      "refDisplay": "Matthew 4:23–25",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "4.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-4.4"
+                    },
+                    {
+                      "refKey": "Mark.9.9-Mark.9.13",
+                      "refDisplay": "Mark 9:9–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-9.3"
+                    },
+                    {
+                      "refKey": "Matt.27.32",
+                      "refDisplay": "Matthew 27:32",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.7"
+                    },
+                    {
+                      "refKey": "Mark.1.32-Mark.1.34",
+                      "refDisplay": "Mark 1:32–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "1.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-1.9"
+                    },
+                    {
+                      "refKey": "Mark.15.21-Mark.15.22",
+                      "refDisplay": "Mark 15:21–22",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-15.4"
+                    },
+                    {
+                      "refKey": "Luke.23.26",
+                      "refDisplay": "Luke 23:26",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-23.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:11–12",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.26.26-Matt.26.30",
+                      "refDisplay": "Matthew 26:26–30",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.6"
+                    },
+                    {
+                      "refKey": "Rom.3.21-Rom.3.31",
+                      "refDisplay": "Romans 3:21–31",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-3.3"
+                    },
+                    {
+                      "refKey": "Rom.4.23-Rom.4.25",
+                      "refDisplay": "Romans 4:23–25",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-4.5"
+                    },
+                    {
+                      "refKey": "Heb.7.20-Heb.7.28",
+                      "refDisplay": "Hebrews 7:20–28",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "7.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-7.3"
+                    },
+                    {
+                      "refKey": "1Pet.3.18-1Pet.3.22",
+                      "refDisplay": "1 Peter 3:18–22",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-3.4"
+                    },
+                    {
+                      "refKey": "Matt.8.16-Matt.8.17",
+                      "refDisplay": "Matthew 8:16–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.4"
+                    },
+                    {
+                      "refKey": "Mark.15.6-Mark.15.15",
+                      "refDisplay": "Mark 15:6–15",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-15.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:8",
+                  "occurrences": [
+                    {
+                      "refKey": "John.7.25-John.7.31",
+                      "refDisplay": "John 7:25–31",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "7.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-7.4"
+                    },
+                    {
+                      "refKey": "Phil.2.5-Phil.2.8",
+                      "refDisplay": "Philippians 2:5–8",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-2.2"
+                    },
+                    {
+                      "refKey": "Matt.9.14-Matt.9.17",
+                      "refDisplay": "Matthew 9:14–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "9.3",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-9.3"
+                    },
+                    {
+                      "refKey": "Matt.27.1-Matt.27.2",
+                      "refDisplay": "Matthew 27:1–2",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.1"
+                    },
+                    {
+                      "refKey": "Matt.27.57-Matt.27.61",
+                      "refDisplay": "Matthew 27:57–61",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.17"
+                    },
+                    {
+                      "refKey": "Mark.2.18-Mark.2.22",
+                      "refDisplay": "Mark 2:18–22",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-2.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:10",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.5.20-2Cor.5.21",
+                      "refDisplay": "2 Corinthians 5:20–21",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "5.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-5.5"
+                    },
+                    {
+                      "refKey": "Luke.22.14-Luke.22.20",
+                      "refDisplay": "Luke 22:14–20",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-22.3"
+                    },
+                    {
+                      "refKey": "Gal.1.1-Gal.1.5",
+                      "refDisplay": "Galatians 1:1–5",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "1.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/galatians#p-1.1"
+                    },
+                    {
+                      "refKey": "Eph.5.1-Eph.5.2",
+                      "refDisplay": "Ephesians 5:1–2",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-5.1"
+                    },
+                    {
+                      "refKey": "2Cor.4.10-2Cor.4.12",
+                      "refDisplay": "2 Corinthians 4:10–12",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "4.5",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-4.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.4.23-Rom.4.25",
+                      "refDisplay": "Romans 4:23–25",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.5"
+                    },
+                    {
+                      "refKey": "1Cor.15.1-1Cor.15.11",
+                      "refDisplay": "1 Corinthians 15:1–11",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "15.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-15.1"
+                    },
+                    {
+                      "refKey": "Matt.17.22-Matt.17.23",
+                      "refDisplay": "Matthew 17:22–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-17.4"
+                    },
+                    {
+                      "refKey": "Gal.2.15-Gal.2.21",
+                      "refDisplay": "Galatians 2:15–21",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "2.3",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-2.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:10–12",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.20.24-Matt.20.28",
+                      "refDisplay": "Matthew 20:24–28",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "20.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-20.4"
+                    },
+                    {
+                      "refKey": "Mark.10.35-Mark.10.45",
+                      "refDisplay": "Mark 10:35–45",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-10.6"
+                    },
+                    {
+                      "refKey": "1Tim.2.1-1Tim.2.7",
+                      "refDisplay": "1 Timothy 2:1–7",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-2.1"
+                    },
+                    {
+                      "refKey": "1John.2.1-1John.2.2",
+                      "refDisplay": "1 John 2:1–2",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    },
+                    {
+                      "refKey": "Matt.27.24-Matt.27.26",
+                      "refDisplay": "Matthew 27:24–26",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.5"
+                    },
+                    {
+                      "refKey": "Col.1.15-Col.1.20",
+                      "refDisplay": "Colossians 1:15–20",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:3–5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.19.1-John.19.3",
+                      "refDisplay": "John 19:1–3",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-19.1"
+                    },
+                    {
+                      "refKey": "Acts.26.19-Acts.26.23",
+                      "refDisplay": "Acts 26:19–23",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "26.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-26.6"
+                    },
+                    {
+                      "refKey": "Matt.16.21-Matt.16.23",
+                      "refDisplay": "Matthew 16:21–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:7–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.26.20-Matt.26.25",
+                      "refDisplay": "Matthew 26:20–25",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.5",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.5"
+                    },
+                    {
+                      "refKey": "Mark.14.17-Mark.14.21",
+                      "refDisplay": "Mark 14:17–21",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-14.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:3–12",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.8.31-Mark.8.33",
+                      "refDisplay": "Mark 8:31–33",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-8.6"
+                    },
+                    {
+                      "refKey": "Acts.17.1-Acts.17.9",
+                      "refDisplay": "Acts 17:1–9",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-17.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:4–12",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.4.7-1John.4.12",
+                      "refDisplay": "1 John 4:7–12",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "4.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-4.7"
+                    },
+                    {
+                      "refKey": "1Pet.4.1-1Pet.4.6",
+                      "refDisplay": "1 Peter 4:1–6",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "4.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:7–12",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.26.47-Matt.26.56",
+                      "refDisplay": "Matthew 26:47–56",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.9",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:3–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.10.32-Mark.10.34",
+                      "refDisplay": "Mark 10:32–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-10.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:3–7",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.18.31-Luke.18.34",
+                      "refDisplay": "Luke 18:31–34",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-18.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:6–12",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.11-John.10.18",
+                      "refDisplay": "John 10:11–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-10.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:5–8",
+                  "occurrences": [
+                    {
+                      "refKey": "John.11.45-John.11.53",
+                      "refDisplay": "John 11:45–53",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "11.5",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-11.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.8.32-Acts.8.35",
+                      "refDisplay": "Acts 8:32–35",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "8.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-8.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 52:13–53:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.15.14-Rom.15.33",
+                      "refDisplay": "Romans 15:14–33",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "15.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-15.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 52:13–53:11",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.9.19-1Cor.9.23",
+                      "refDisplay": "1 Corinthians 9:19–23",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "9.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-9.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:8–12",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.15.1-1Cor.15.11",
+                      "refDisplay": "1 Corinthians 15:1–11",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "15.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-15.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:2–9",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.8.8-2Cor.8.12",
+                      "refDisplay": "2 Corinthians 8:8–12",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-8.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:1–12",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.13.1-2Cor.13.4",
+                      "refDisplay": "2 Corinthians 13:1–4",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "13.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-13.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 53:4–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.3.4-1John.3.6",
+                      "refDisplay": "1 John 3:4–6",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1581,7 +3490,125 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-91"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 91:13",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.10.17-Luke.10.20",
+                      "refDisplay": "Luke 10:17–20",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "10.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-10.3"
+                    },
+                    {
+                      "refKey": "Acts.28.1-Acts.28.6",
+                      "refDisplay": "Acts 28:1–6",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "28.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-28.1"
+                    },
+                    {
+                      "refKey": "Mark.16.14-Mark.16.18",
+                      "refDisplay": "Mark 16:14–18",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "16.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-16.4"
+                    },
+                    {
+                      "refKey": "Matt.4.1-Matt.4.11",
+                      "refDisplay": "Matthew 4:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 91:11–12",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.4.1-Matt.4.11",
+                      "refDisplay": "Matthew 4:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "4.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-4.1"
+                    },
+                    {
+                      "refKey": "Luke.4.1-Luke.4.13",
+                      "refDisplay": "Luke 4:1–13",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 91:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.18.10-Matt.18.11",
+                      "refDisplay": "Matthew 18:10–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "18.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-18.4"
+                    },
+                    {
+                      "refKey": "Heb.1.14",
+                      "refDisplay": "Hebrews 1:14",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 91:11–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.1.12-Mark.1.13",
+                      "refDisplay": "Mark 1:12–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-1.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1594,7 +3621,104 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-5.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1–4",
+                  "echoes": [
+                    {
+                      "source": "Exodus 28:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Bring Aaron your brother, and his sons with him, near to you from among the children of Israel, that he may minister to me in the priest’s office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron’s sons.",
+                      "note": "‘He is called by God, just like Aaron’ (v. 4) names Aaron's installation directly; Exod 28:1 is the foundational text where God ‘brings near’ Aaron to the priesthood. Moderate verbal volume (the proper name Aaron is shared) plus high thematic coherence with the high-priest argument seeded since 2:17 (Hays' recurrence)."
+                    },
+                    {
+                      "source": "Numbers 16:40",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "to be a memorial to the children of Israel, to the end that no stranger, who isn’t of the offspring of Aaron, would come near to burn incense before Yahweh, that he not be as Korah, and as his company; as Yahweh spoke to him by Moses.",
+                      "note": "‘Nobody takes this honor on himself’ (v. 4) recalls the Korah rebellion (Num 16–17), the locus classicus for seizing priesthood uninvited; the bronze-censer memorial of 16:40 warns against the ‘stranger’ who presumes. No verbatim quotation — a thematic allusion to the negative type behind Hebrews' rule of divine calling."
+                    },
+                    {
+                      "source": "Leviticus 9:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Moses said to Aaron, “Draw near to the altar, and offer your sin offering, and your burnt offering, and make atonement for yourself, and for the people; and offer the offering of the people, and make atonement for them; as Yahweh commanded.”",
+                      "note": "‘He must offer sacrifices for sins for the people, as well as for himself’ (v. 3) compresses the cultic logic of Lev 9:7, where Aaron atones first ‘for yourself’ then ‘for the people.’ Verbal coherence (the doubled for-himself/for-the-people structure) marks this as the underlying script; the divergence Hebrews exploits is that Christ, sinless (4:15; 7:27), needs no offering for himself."
+                    },
+                    {
+                      "source": "Leviticus 16:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Aaron shall offer the bull of the sin offering, which is for himself, and make atonement for himself and for his house.",
+                      "note": "The Day-of-Atonement requirement that the high priest atone ‘for himself’ (Lev 16:6) undergirds v. 3 and is the foil Hebrews overturns at 7:27. A faint echo paralleling Lev 9:7; recurrence of the Lev 16 figure already running through the letter (1:3; 9:7) raises its credence (Hays)."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.2",
+                  "ref": "5:5–10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I will tell of the decree. Yahweh said to me, ‘You are my son. Today I have become your father.’",
+                      "note": "Re-cited from 1:5, now welded to priesthood: the same divine ‘today’ that enthrones the Son also installs him as high priest. Recurrence binding the two halves of the letter together."
+                    },
+                    {
+                      "source": "Psalm 110:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yahweh has sworn, and will not change his mind: ‘You are a priest forever in the order of Melchizedek.’",
+                      "note": "The hinge of the whole letter. Ps 110:1 crowned the Son at 1:13; now verse 4 of the same psalm makes him priest — a priesthood older than Aaron's, sworn by an oath. Named here, expounded at length in chapter 7."
+                    },
+                    {
+                      "source": "Genesis 14:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Melchizedek king of Salem brought out bread and wine: and he was priest of God Most High.",
+                      "note": "The name ‘Melchizedek’ (vv. 6, 10) points beyond Ps 110:4 to its narrative root in Gen 14:18, the only other Old Testament Melchizedek text and the one ch. 7 will expound at length. The repeated naming is Hays' recurrence in advance — the figure is planted here and harvested in chapter 7."
+                    },
+                    {
+                      "source": "Psalm 22:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For he has not despised nor abhorred the affliction of the afflicted, Neither has he hidden his face from him; but when he cried to him, he heard.",
+                      "note": "‘Strong crying… having been heard for his godly fear’ (v. 7) reads the righteous sufferer's vindication: the very psalm of the cross (Ps 22, already cited at 2:12) testifies that God ‘heard’ the afflicted one's cry. Thematic coherence and recurrence of Ps 22 in Hebrews make this a heard, if unquoted, link to the Passion."
+                    },
+                    {
+                      "source": "Psalm 116:1–4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I love Yahweh, because he listens to my voice, and my cries for mercy. Because he has turned his ear to me, therefore I will call on him as long as I live. The cords of death surrounded me, the pains of Sheol got a hold of me. I found trouble and sorrow. Then I called on Yahweh’s name: “Yahweh, I beg you, deliver my soul.”",
+                      "note": "‘Prayers and petitions… to him who was able to save him from death, and having been heard’ (v. 7) closely tracks the lament-deliverance pattern of Ps 116: encircled by the ‘cords of death,’ the petitioner cries and is heard. Scholars (Beale & Carson) hear the Gethsemane prayer voiced through the lament psalms; medium volume, strong thematic fit."
+                    },
+                    {
+                      "source": "Psalm 39:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Hear my prayer, Yahweh, and give ear to my cry. Don’t be silent at my tears. For I am a stranger with you, a foreigner, as all my fathers were.",
+                      "note": "‘With strong crying and tears’ (v. 7) — the explicit ‘tears’ — faintly echoes the lament topos of Ps 39:12, where the sufferer begs God not to ‘be silent at my tears.’ Low verbal volume and a contested identification (any lament psalm could supply the motif), included for maximal coverage."
+                    },
+                    {
+                      "source": "Leviticus 8:33",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "You shall not go out from the door of the Tent of Meeting for seven days, until the days of your consecration are fulfilled: for he shall consecrate you seven days.",
+                      "note": "‘Having been made perfect’ (teleiōtheis, v. 9) carries the cultic sense of priestly ‘perfecting/consecration’ — the LXX teleioō word-group renders the ‘fill the hand’ ordination of Lev 8 (cf. 8:33, the seven-day consecration). A faint figural link: Christ's perfecting through suffering reworks the priest's installation rite. LXX-specific; invisible in the Hebrew ‘fill the hands.’"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1613,7 +3737,105 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.6",
+                  "ref": "10:35-45",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:10-12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yet it pleased Yahweh to bruise him. He has caused him to suffer. When you make his soul an offering for sin, he shall see his seed. He shall prolong his days, and the pleasure of Yahweh shall prosper in his hand. After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities. Therefore will I divide him a portion with the great, and he shall […]",
+                      "note": "The Servant who 'pours out his soul to death,' 'bears the sin of many,' and makes his life a guilt offering 'for many' is the controlling source for 'to give his life as a ransom for many.' The distinctive vicarious 'for many' (rabbim) and the substitutionary death match decisively. This is the chapter's major Servant allusion, high in Volume and Coherence."
+                    },
+                    {
+                      "source": "Isaiah 51:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Awake, awake, stand up, Jerusalem, that have drunk at the hand of Yahweh the cup of his wrath; you have drunken the bowl of the cup of staggering, and drained it.",
+                      "note": "Jerusalem has drunk 'the cup of his wrath... the bowl of staggering,' the cup-of-judgment imagery behind 'the cup that I drink.' Jesus takes upon himself the cup of divine wrath the city must drink. The cup as wrath to be consumed coheres with the passion's substitutionary logic."
+                    },
+                    {
+                      "source": "Psalm 75:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For in the hand of Yahweh there is a cup, full of foaming wine mixed with spices. He pours it out. Indeed the wicked of the earth drink and drink it to its very dregs.",
+                      "note": "'In the hand of the LORD there is a cup... and he pours it out; surely all the wicked of the earth shall drain it' establishes the cup as the draught of God's judgment. Jesus' question 'are you able to drink the cup that I drink' draws on this judicial cup. The wrath-cup motif's Recurrence (Jeremiah 25, Isaiah 51) supports it."
+                    },
+                    {
+                      "source": "Jeremiah 25:15-28",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For thus says Yahweh, the God of Israel, to me: take this cup of the wine of wrath at my hand, and cause all the nations, to whom I send you, to drink it. They shall drink, and reel back and forth, and be mad, because of the sword that I will send among them. Then took I the cup at Yahweh’s hand, and made all the nations to drink, to whom Yahweh had sent me: Jerusalem, and the cities of Judah, and its kings, and its princes, to make them a desolation, an […]",
+                      "note": "The prophet makes the nations drink 'the cup of the wine of wrath,' the most extended OT development of the wrath-cup that Jesus alludes to. It strengthens the Recurrence of the cup-of-judgment tradition behind Mark 10:38. Marked contested only as to which cup-text is primary; Isaiah 51 and Psalm 75 are nearer.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "James and John request seats 'in your glory,' echoing the dominion and glory given to the son of man, while the right-and-left thrones evoke enthronement in the Danielic kingdom. The petition presupposes the Son of Man's coming glory. Coherence with the Daniel 7 background of Mark's Son of Man title supports the link."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "The request to sit 'at your right hand' draws on the royal enthronement of the king at God's right hand. The right-hand seat of honor is the Psalm 110 image Mark elsewhere applies to Jesus. The single-side request makes the echo partial but apt; marked contested as to directness.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, shall be given to the people of the saints of the Most High: his kingdom is an everlasting kingdom, and all dominions shall serve and obey him.",
+                      "note": "Dominion is given to the saints, yet the kingdom's authority is from God, against which the Gentile kings who 'lord it over' their nations are contrasted. Jesus' antithesis between Gentile rulers' domination and servanthood draws on this kingdom-of-God-versus-beastly-empires schema. The contrast of empires coheres with Daniel 7.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 9:24-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Seventy weeks are decreed on your people and on your holy city, to finish disobedience, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up vision and prophecy, and to anoint the most holy. Know therefore and discern, that from the going out of the commandment to restore and to build Jerusalem to the Anointed One, the prince, shall be seven weeks, and sixty-two weeks: it shall be […]",
+                      "note": "The 'anointed one' cut off and atonement made 'for iniquity' resonates faintly with the ransoming death 'for many.' It supplies a Second-Temple frame for a representative figure's atoning death. Low and contested: conceptual, no verbal lock.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 30:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“When you take a census of the children of Israel, according to those who are numbered among them, then each man shall give a ransom for his soul to Yahweh, when you number them; that there be no plague among them when you number them.",
+                      "note": "The atonement-money 'ransom for his life' paid at the census supplies cultic background for lytron, 'ransom.' It frames a life-price offered to redeem. Contested and low: Mark's ransom is more directly Isaianic (53:10-12), but the redemption-price vocabulary is available here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 25:48-49",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "after he is sold he may be redeemed. One of his brothers may redeem him; or his uncle, or his uncle’s son, may redeem him, or any who is a close relative to him of his family may redeem him; or if he has grown rich, he may redeem himself.",
+                      "note": "The kinsman-redeemer who pays a price to redeem (gaal/lytron) supplies the OT economy of ransom behind 'a ransom for many.' It contributes Availability for the redemption metaphor. Contested; background vocabulary rather than citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 49:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "none of them can by any means redeem his brother, nor give God a ransom for him. For the redemption of their life is costly, no payment is ever enough,",
+                      "note": "No one can 'ransom' a brother or give God 'the price of his life,' for the ransom of a soul is costly, sharpening the surprise that the Son of Man does give exactly such a ransom 'for many.' The psalm sets up the impossibility Jesus' death answers. Contested and low: an inverted thematic contact.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

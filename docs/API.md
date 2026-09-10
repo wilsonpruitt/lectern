@@ -9,7 +9,7 @@ Base: `https://lectern.wrootpress.com/api`  ·  no auth  ·  `Access-Control-All
 | URL | What |
 |---|---|
 | `/api/index.json` | Ordered list of occasions: `{id, name, year, season, date, display, hasCalls, hasTurn, series[], readings[]}`. Use to pick a Sunday. |
-| `/api/{id}.json` | Full contract for one occasion + a flattened `worship` block (below). Beyond `worship`, each track's `readings[]` also carries `notes` (Wesley's Explanatory Notes) and `glossa` (the Glossa ordinaria, Migne recension) per reading — `[{chapter, v_start, v_end, text}]` (`glossa` entries also carry `anchor`, a PL column reference). Both are public-domain-or-in-house text, not pointer-only, but this doc's drop-in mapping below doesn't route them anywhere in Circuit yet. |
+| `/api/{id}.json` | Full contract for one occasion + a flattened `worship` block (below). Beyond `worship`, each track's `readings[]` also carries `notes` (Wesley's Explanatory Notes) and `glossa` (the Glossa ordinaria, Migne recension) per reading — `[{chapter, v_start, v_end, text}]` (`glossa` entries also carry `anchor`, a PL column reference). Both are public-domain-or-in-house text, not pointer-only, but this doc's drop-in mapping below doesn't route them anywhere in Circuit yet. Each track's `lenses.readings[]` also carries `echoes` (Catena reception-history cross-references), `chronology` (Annales timeline/harmony placement), and `map` (a Topographia place list + view, only when that reading has a built map) — see `src/connections.py`'s `catena_echoes`/`annales_chronology`/`topographia_map` for the exact shapes; all three are `null` when nothing resolves. |
 | `/api/series.json` | Native series per year (the RCL's lectio-continua runs). |
 | `/api/manifest.json` | Self-describing manifest. |
 

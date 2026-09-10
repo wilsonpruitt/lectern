@@ -580,7 +580,115 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/micah-5"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Micah 5:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.2.1-Matt.2.12",
+                      "refDisplay": "Matthew 2:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "2.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-2.1"
+                    },
+                    {
+                      "refKey": "Luke.2.1-Luke.2.7",
+                      "refDisplay": "Luke 2:1–7",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-2.1"
+                    },
+                    {
+                      "refKey": "John.7.40-John.7.44",
+                      "refDisplay": "John 7:40–44",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "7.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-7.7"
+                    },
+                    {
+                      "refKey": "John.7.25-John.7.31",
+                      "refDisplay": "John 7:25–31",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "7.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-7.4"
+                    },
+                    {
+                      "refKey": "Heb.7.11-Heb.7.19",
+                      "refDisplay": "Hebrews 7:11–19",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "7.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-7.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Micah 5:4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.11-John.10.18",
+                      "refDisplay": "John 10:11–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-10.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Micah 5:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.2.14-Eph.2.16",
+                      "refDisplay": "Ephesians 2:14–16",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Micah 5:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.12.5-Rev.12.6",
+                      "refDisplay": "Revelation 12:5–6",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-12.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -599,7 +707,235 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.10",
+                  "ref": "1:46-50",
+                  "echoes": [
+                    {
+                      "source": "1 Samuel 2:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Hannah prayed, and said: “My heart exults in Yahweh! My horn is exalted in Yahweh. My mouth is enlarged over my enemies, because I rejoice in your salvation.",
+                      "note": "The Magnificat's opening, 'My soul magnifies the Lord, my spirit has rejoiced in God my Savior,' is modeled directly on Hannah's Song: 'My heart exults in the Lord... I rejoice in your salvation' (1 Samuel 2:1). Hannah's hymn is the structural template for the whole canticle; high volume and strong recurrence."
+                    },
+                    {
+                      "source": "1 Samuel 1:11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "She vowed a vow, and said, “Yahweh of Armies, if you will indeed look on the affliction of your handmaid, and remember me, and not forget your handmaid, but will give to your handmaid a boy, then I will give him to Yahweh all the days of his life, and no razor shall come on his head.”",
+                      "note": "'He has looked at the humble state (tapeinosin) of his handmaid' quotes Hannah's prayer that God would 'look on the affliction (tapeinosin) of your handmaid' (1 Samuel 1:11 LXX). The shared rare-noun + handmaid combination is high-volume and ties the canticle's singer to Hannah."
+                    },
+                    {
+                      "source": "Genesis 30:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Leah said, “Happy am I, for the daughters will call me happy.” She named him Asher.",
+                      "note": "'From now on, all generations will call me blessed' takes up Leah's 'the women will call me blessed' (Genesis 30:13 LXX), spoken at the birth of a son. The call-me-blessed formula is distinctive matriarchal speech, here universalized to all generations."
+                    },
+                    {
+                      "source": "Psalm 111:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He has sent redemption to his people. He has ordained his covenant forever. His name is holy and awesome!",
+                      "note": "'Holy is his name' quotes Psalm 111:9, 'holy and awesome is his name' (cf. Psalm 99:3). The fixed liturgical predication of the divine name gives high volume; Psalm 111 also feeds the Benedictus (1:68), showing recurrence."
+                    },
+                    {
+                      "source": "Psalm 103:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But Yahweh’s loving kindness is from everlasting to everlasting with those who fear him, his righteousness to children’s children;",
+                      "note": "'His mercy is for generations of generations on those who fear him' quotes Psalm 103:17, 'the steadfast love of the Lord is from everlasting to everlasting on those who fear him.' The mercy + on-those-who-fear-him + perpetual-generations combination is high-volume and distinctive."
+                    },
+                    {
+                      "source": "Habakkuk 3:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "yet I will rejoice in Yahweh. I will be joyful in the God of my salvation!",
+                      "note": "'My spirit has rejoiced in God my Savior' closely matches 'I will rejoice in the Lord; I will take joy in the God of my salvation' (Habakkuk 3:18 LXX). The rejoice-in-God-my-savior formula is distinctive and reinforces the exultant-prophetic-hymn register."
+                    },
+                    {
+                      "source": "Psalm 35:9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "My soul shall be joyful in Yahweh. It shall rejoice in his salvation.",
+                      "note": "'My soul shall rejoice in the Lord, exulting in his salvation' (Psalm 35:9) supplies the soul-rejoices-in-salvation diction underlying 1:47. A coherent psalmic echo within the cluster of rejoicing-in-God's-deliverance texts."
+                    },
+                    {
+                      "source": "Isaiah 61:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will greatly rejoice in Yahweh, my soul shall be joyful in my God; for he has clothed me with the garments of salvation, he has covered me with the robe of righteousness, as a bridegroom decks himself with a garland, and as a bride adorns herself with her jewels.",
+                      "note": "'My soul shall exult in my God' (Isaiah 61:10) within the Spirit-anointed-good-news passage contributes to the rejoicing diction of the canticle's opening. Thematic coherence with eschatological salvation supports the echo."
+                    },
+                    {
+                      "source": "Genesis 29:32",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Leah conceived, and bore a son, and she named him Reuben. For she said, “Because Yahweh has looked at my affliction. For now my husband will love me.”",
+                      "note": "'He has looked at the humble state' also echoes Leah's 'the Lord has looked upon my affliction' at Reuben's birth (Genesis 29:32 LXX). The look-on-affliction-of-the-lowly motif coheres with the matriarchal reversal theme; a supporting echo to the Hannah primary."
+                    },
+                    {
+                      "source": "Psalm 126:2-3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then our mouth was filled with laughter, and our tongue with singing. Then they said among the nations, “Yahweh has done great things for them.” Yahweh has done great things for us, and we are glad.",
+                      "note": "'He who is mighty has done great things for me' echoes 'The Lord has done great things for us; we are glad' (Psalm 126:2-3). The great-things-the-Lord-has-done formula is a coherent psalmic source for the canticle's praise."
+                    },
+                    {
+                      "source": "Deuteronomy 10:21",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He is your praise, and he is your God, who has done for you these great and awesome things, which your eyes have seen.",
+                      "note": "'He... has done great things for me' also recalls 'He is your praise; he is your God, who has done for you these great and awesome things' (Deuteronomy 10:21). A further great-deeds source coherent with the doxological tone."
+                    },
+                    {
+                      "source": "Exodus 20:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and showing loving kindness to thousands of those who love me and keep my commandments.",
+                      "note": "'His mercy is for generations... on those who fear him' echoes the Decalogue's promise of steadfast love 'to thousands of those who love me and keep my commandments' (Exodus 20:6; Deuteronomy 5:10). The covenant mercy-to-generations formula coheres with Psalm 103."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.11",
+                  "ref": "1:51-56",
+                  "echoes": [
+                    {
+                      "source": "Psalm 89:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You have broken Rahab in pieces, like one of the slain. You have scattered your enemies with your mighty arm.",
+                      "note": "'He has shown strength with his arm. He has scattered the proud' echoes Psalm 89:10, 'you scattered your enemies with your mighty arm.' The arm + scatter combination is distinctive, and Psalm 89 (Davidic covenant) coheres with the chapter's throne themes; high volume."
+                    },
+                    {
+                      "source": "1 Samuel 2:3-4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Talk no more so exceeding proudly. Don’t let arrogance come out of your mouth, For Yahweh is a God of knowledge. By him actions are weighed. “The bows of the mighty men are broken. Those who stumbled are armed with strength.",
+                      "note": "'He has scattered the proud in the imagination of their hearts' draws on Hannah's warning, 'Talk no more so very proudly... the bows of the mighty are broken' (1 Samuel 2:3-4). The humbling-of-the-arrogant motif is structurally central to Hannah's Song, the canticle's master text."
+                    },
+                    {
+                      "source": "1 Samuel 2:7-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh makes poor, and makes rich. He brings low, he also lifts up. He raises up the poor out of the dust. He lifts up the needy from the dunghill, To make them sit with princes, and inherit the throne of glory. For the pillars of the earth are Yahweh’s. He has set the world on them.",
+                      "note": "'He has put down princes from their thrones, and has exalted the lowly' directly reworks Hannah: 'The Lord makes poor and makes rich; he brings low and he exalts. He raises up the poor from the dust... to make them sit with princes' (1 Samuel 2:7-8). High volume; the great-reversal heart of the Magnificat."
+                    },
+                    {
+                      "source": "1 Samuel 2:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Those who were full have hired themselves out for bread. Those who were hungry are satisfied. Yes, the barren has borne seven. She who has many children languishes.",
+                      "note": "'He has filled the hungry with good things. He has sent the rich away empty' reworks Hannah's 'those who were full have hired themselves out for bread, but the hungry have ceased to hunger' (1 Samuel 2:5). The hungry-filled / sated-emptied antithesis is high-volume and distinctive."
+                    },
+                    {
+                      "source": "Psalm 107:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For he satisfies the longing soul. He fills the hungry soul with good.",
+                      "note": "'He has filled the hungry with good things' quotes Psalm 107:9, 'he satisfies the longing soul, and the hungry soul he fills with good things.' Near-verbatim; a strong psalmic doublet to the Hannah hunger-reversal."
+                    },
+                    {
+                      "source": "Psalm 113:7-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He raises up the poor out of the dust. Lifts up the needy from the ash heap; that he may set him with princes, even with the princes of his people.",
+                      "note": "'Has exalted the lowly' reflects Psalm 113:7-8, 'He raises the poor from the dust... to make them sit with princes.' Psalm 113 (a Hallel psalm) shares both the lifting-the-lowly motif and its own debt to Hannah; high volume within the reversal cluster."
+                    },
+                    {
+                      "source": "Isaiah 41:8-9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“But you, Israel, my servant, Jacob whom I have chosen, the seed of Abraham my friend, You whom I have taken hold of from the ends of the earth, and called from its corners, and said to you, ‘You are my servant, I have chosen you and not cast you away;’",
+                      "note": "'He has given help to Israel, his servant' draws on Isaiah 41:8-9, 'But you, Israel, my servant... whom I have taken... I have chosen you and not cast you off.' The Israel-my-servant designation plus God's helping/upholding (Isaiah 41:10) gives high volume for the canticle's turn to corporate Israel."
+                    },
+                    {
+                      "source": "Psalm 98:3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He has remembered his loving kindness and his faithfulness toward the house of Israel. All the ends of the earth have seen the salvation of our God.",
+                      "note": "'That he might remember mercy' quotes Psalm 98:3, 'He has remembered his steadfast love and faithfulness to the house of Israel.' The remembered-mercy-to-Israel formula is distinctive and rounds off the canticle's covenant-faithfulness theme."
+                    },
+                    {
+                      "source": "Micah 7:20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You will give truth to Jacob, and mercy to Abraham, as you have sworn to our fathers from the days of old.",
+                      "note": "'As he spoke to our fathers, to Abraham and his seed forever' echoes Micah 7:20, 'You will show faithfulness to Jacob and steadfast love to Abraham, as you have sworn to our fathers from the days of old.' The mercy-to-Abraham-as-sworn-to-the-fathers structure is high-volume and concludes both hymns (cf. 1:73)."
+                    },
+                    {
+                      "source": "Genesis 17:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you.",
+                      "note": "'To Abraham and his seed forever' takes up the Abrahamic covenant, 'to be God to you and to your offspring after you... an everlasting covenant' (Genesis 17:7; cf. 13:15). The to-Abraham-and-his-seed-forever formula is distinctive covenant language; high volume."
+                    },
+                    {
+                      "source": "Job 12:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He leads priests away stripped, and overthrows the mighty.",
+                      "note": "'He has put down princes from their thrones' echoes Job 12:19, 'he leads priests away stripped and overthrows the mighty.' Job 12's catalogue of God's reversal of the powerful (12:14-25) coheres with the Magnificat's social inversion; a focused supporting allusion."
+                    },
+                    {
+                      "source": "Sirach 10:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Lord cast down the thrones of rulers, And set the meek in their stead.",
+                      "note": "'He has put down princes from their thrones' closely matches Sirach 10:14, 'The Lord has cast down the thrones of rulers, and has seated the lowly in their place.' A deuterocanonical near-parallel with the throne-down / lowly-up structure; strong coherence, moderate independent volume."
+                    },
+                    {
+                      "source": "Ezekiel 21:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "thus says the Lord Yahweh: Remove the turban, and take off the crown; this will not be as it was; exalt that which is low, and abase that which is high.",
+                      "note": "'Put down princes from their thrones... exalted the lowly' echoes Ezekiel 21:26, 'exalt that which is low, and abase that which is high.' The abase-the-high / exalt-the-low formula coheres with the inversion theme as a prophetic supporting echo."
+                    },
+                    {
+                      "source": "Genesis 22:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "that I will bless you greatly, and I will multiply your seed greatly like the stars of the heavens, and like the sand which is on the seashore. Your seed will possess the gate of his enemies.",
+                      "note": "'And his seed forever' also recalls the oath at the Aqedah, 'I will surely multiply your offspring' (Genesis 22:17), the same sworn promise the Benedictus names explicitly at 1:73. A coherent supporting echo binding Magnificat and Benedictus."
+                    },
+                    {
+                      "source": "2 Samuel 6:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh’s ark remained in the house of Obed-Edom the Gittite three months: and Yahweh blessed Obed-Edom, and all his house.",
+                      "note": "'Mary stayed with her about three months' parallels the ark of God remaining 'in the house of Obed-edom... three months' (2 Samuel 6:11). Combined with the ark allusions of 1:43-44, the three-month notice supports the Mary-as-ark typology; figural and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Visitation (Magnificat)",
+                      "section": "beginnings",
+                      "refs": {
+                        "luke": "1:39–56"
+                      },
+                      "note": "Mary's song — \"he has put down princes from their thrones, and has exalted the lowly.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           },
           {
             "role": "second",
@@ -612,7 +948,10 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -631,7 +970,83 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.9",
+                  "ref": "1:39-45",
+                  "echoes": [
+                    {
+                      "source": "Genesis 25:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The children struggled together within her. She said, “If it be so, why do I live?” She went to inquire of Yahweh.",
+                      "note": "'The baby leaped in her womb' recalls the children who 'struggled (leaped) together within' Rebekah (Genesis 25:22 LXX), the one OT scene of pre-natal movement bearing prophetic significance about the elder/younger. The distinctive womb-movement motif gives high volume."
+                    },
+                    {
+                      "source": "Deuteronomy 28:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall be blessed in the fruit of your body, the fruit of your ground, the fruit of your animals, the increase of your livestock, and the young of your flock.",
+                      "note": "'Blessed is the fruit of your womb' quotes the covenant blessing of Deuteronomy 28:4, 'Blessed shall be the fruit of your womb.' The exact fruit-of-the-womb-blessing formula gives high volume and casts Mary's child as the supreme covenant blessing."
+                    },
+                    {
+                      "source": "Judges 5:24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Jael shall be blessed above women, the wife of Heber the Kenite; blessed shall she be above women in the tent.",
+                      "note": "'Blessed are you among women' repeats the Jael blessing of Judges 5:24, now on Elizabeth's lips. Recurrence (cf. 1:28) confirms this as a deliberate, sustained scriptural beatitude pattern."
+                    },
+                    {
+                      "source": "Judith 13:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Ozias said to her, “Blessed are you, daughter, in the sight of the Most High God, above all the women upon the earth; and blessed is the Lord God, who created the heavens and the earth, who directed you to cut off the head of the prince of our enemies.",
+                      "note": "Elizabeth's acclamation matches Uzziah's blessing of Judith, 'Blessed are you above all women on earth' (Judith 13:18), the nearest verbal parallel for the woman-through-whom-God-delivers beatitude. A strong deuterocanonical recurrence."
+                    },
+                    {
+                      "source": "2 Samuel 6:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "David was afraid of Yahweh that day; and he said, “How shall Yahweh’s ark come to me?”",
+                      "note": "'Why am I so favored, that the mother of my Lord should come to me?' echoes David's awe before the ark: 'How can the ark of the Lord come to me?' (2 Samuel 6:9). With Mary's three-month stay (1:56) paralleling the ark's three months (2 Samuel 6:11), Luke figurally presents Mary as the ark of the new covenant; the reading is widely held but disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Samuel 6:14-16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "David danced before Yahweh with all his might; and David was clothed in a linen ephod. So David and all the house of Israel brought up Yahweh’s ark with shouting, and with the sound of the trumpet. It was so, as Yahweh’s ark came into the city of David, that Michal the daughter of Saul looked out at the window, and saw king David leaping and dancing before Yahweh; and she despised him in her heart.",
+                      "note": "'The baby leaped in my womb for joy' echoes David's leaping and dancing for joy before the ark (2 Samuel 6:14-16). The cultic joy before the bearer of the Lord's presence supports the Mary-as-ark typology of the pericope; the link is figural and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Visitation (Magnificat)",
+                      "section": "beginnings",
+                      "refs": {
+                        "luke": "1:39–56"
+                      },
+                      "note": "Mary's song — \"he has put down princes from their thrones, and has exalted the lowly.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

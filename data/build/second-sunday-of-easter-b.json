@@ -696,7 +696,96 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.5",
+                  "ref": "4:32-37",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 15:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "However there shall be no poor with you (for Yahweh will surely bless you in the land which Yahweh your God gives you for an inheritance to possess it)",
+                      "note": "Verse 34, 'neither was there among them any who lacked,' closely echoes Deut 15:4 LXX, 'there shall be no poor/needy among you,' the Deuteronomic ideal of the covenant community in which God's blessing eliminates poverty. Luke presents the Jerusalem community's common purse as the fulfillment of this Torah promise — strong thematic coherence and notable verbal overlap on 'no one lacked / no poor.'"
+                    },
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "The believers being 'of one heart and soul' (v.32) faintly recalls the Shema's 'with all your heart and with all your soul' (Deut 6:5); here the heart-and-soul language describes communal unity rather than love of God. A lexical resonance only, low and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 32:39",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and I will give them one heart and one way, that they may fear me forever, for their good, and of their children after them:",
+                      "note": "'One heart and one soul' (v.32) may echo the new-covenant promise of Jer 32:39 (LXX 39:39), 'I will give them one heart and one way,' where God grants the restored people a unified heart. The Spirit-given unity of the believers coheres with this restoration promise. Low, contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 18:20",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Yahweh said to Aaron, “You shall have no inheritance in their land, neither shall you have any portion among them. I am your portion and your inheritance among the children of Israel.",
+                      "note": "The closing note that Barnabas, 'a Levite' (v.36), sold his field and laid the proceeds at the apostles' feet plays ironically against Num 18:20, where Levites were to have no landed inheritance because the LORD was their portion. Barnabas's divestment of a field embodies that Levitical landlessness in the new community. Typological/ironic, no verbal borrowing.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/4/",
+              "title": "Peter and John before the Sanhedrin",
+              "view": {
+                "center": [
+                  33.5,
+                  34.5
+                ],
+                "zoom": 6
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "nazareth",
+                  "name": "Nazareth",
+                  "coords": [
+                    32.7022,
+                    35.2978
+                  ],
+                  "tier": "identified",
+                  "id": "Modern en-Nasira / Nazareth in Lower Galilee, c. 30 km west of the Sea of Galilee. A village of perhaps 200-400 in the early first century, identified through continuous habitation, tomb evidence, and the third-century Caesarea inscription naming it as a priestly course settlement."
+                },
+                {
+                  "key": "cyprus",
+                  "name": "Cyprus",
+                  "coords": [
+                    35.0,
+                    33.0
+                  ],
+                  "tier": "region",
+                  "id": "The third-largest Mediterranean island, a Roman senatorial province since 22 B.C. with capital at Paphos. Home of Barnabas (Acts 4:36), site of Paul and Barnabas's first missionary stop (Acts 13:4-12). Pin sits in the central Troodos range; the cities (Salamis, Paphos, Citium) appear later in the book."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -709,7 +798,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-133"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 133:1",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.1.10-1Cor.1.17",
+                      "refDisplay": "1 Corinthians 1:10–17",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-1.3"
+                    },
+                    {
+                      "refKey": "Eph.4.1-Eph.4.3",
+                      "refDisplay": "Ephesians 4:1–3",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-4.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -722,7 +844,82 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-john#p-1.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-4",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the beginning, God created the heavens and the earth.",
+                      "note": "The opening phrase 'that which was from the beginning' deliberately echoes the Septuagint's 'en arche' of Genesis 1:1. The author frames the proclamation in cosmogonic terms, locating the Word of life at the primordial beginning of all things."
+                    },
+                    {
+                      "source": "Psalm 33:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "By Yahweh’s word, the heavens were made; all their army by the breath of his mouth.",
+                      "note": "'By the word of the LORD the heavens were made' supplies the background for a life-giving creative word. The Word of life that was from the beginning draws on the tradition of God's word as the agent of creation and vivification."
+                    },
+                    {
+                      "source": "Proverbs 8:22-23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old. I was set up from everlasting, from the beginning, before the earth existed.",
+                      "note": "Personified Wisdom, 'possessed from the beginning, before the earth was,' provides a conceptual matrix for a pre-existent Word that was from the beginning with the Father. The 1 John prologue shares the sapiential vocabulary of primordial origin."
+                    },
+                    {
+                      "source": "Genesis 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said, “Let there be light,” and there was light.",
+                      "note": "The creative divine word that calls light into being ('Let there be light') resonates faintly with the 'Word of life' that is manifested. The juxtaposition of beginning, word, and life recalls the spoken creation of Genesis.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "The manifested 'life' that the witnesses heard, saw, and touched may recall God breathing the breath of life into the human, the originating gift of life. The link is thematic rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 3:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "She is a tree of life to those who lay hold of her. Happy is everyone who retains her.",
+                      "note": "Wisdom as a 'tree of life' to those who lay hold of her loosely parallels the 'eternal life' that the witnesses lay hold of and touch with their hands. A faint sapiential resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 30:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "to love Yahweh your God, to obey his voice, and to cling to him; for he is your life, and the length of your days; that you may dwell in the land which Yahweh swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them.",
+                      "note": "The LORD as 'your life and the length of your days' undergirds the Johannine equation of God/Word with life itself. The eternal life that was with the Father echoes the covenantal life found in God.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom 7:25-26",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "For she is a breath of the power of God, And a clear effluence of the glory of the Almighty; Therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "Wisdom as 'a pure emanation' and 'reflection of eternal light' with God supplies a deuterocanonical bridge for the pre-existent life that was with the Father and was manifested. Shares the language of a divine reality made visible.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -741,7 +938,145 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "20.5",
+                  "ref": "20:19-23",
+                  "echoes": [
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "Jesus 'breathed on them' and said 'Receive the Holy Spirit' — the verb (enephysesen, LXX of Gen 2:7) directly evokes God breathing the breath of life into Adam's nostrils so he became a living being. John presents the Spirit-impartation as new creation/new Adam; very high Volume given the rare shared verb and high Coherence with the Gospel's creation theology."
+                    },
+                    {
+                      "source": "Ezekiel 37:9-10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then he said to me, Prophesy to the wind, prophesy, son of man, and tell the wind, Thus says the Lord Yahweh: Come from the four winds, breath, and breathe on these slain, that they may live. So I prophesied as he commanded me, and the breath came into them, and they lived, and stood up on their feet, an exceedingly great army.",
+                      "note": "'Come from the four winds, O breath, and breathe on these slain, that they may live' stands behind Jesus breathing Spirit into the disciples after the resurrection. Ezekiel's vivified corpses give the scene its resurrection-and-Spirit valence; high Coherence and shared breath/Spirit (ruach/pneuma) vocabulary reinforce the Genesis 2:7 figure."
+                    },
+                    {
+                      "source": "Numbers 6:24-26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "‘Yahweh bless you, and keep you. Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The risen Jesus' threefold greeting 'Peace be to you' (20:19,21,26) functions as the eschatological enactment of the Aaronic priestly blessing 'the LORD lift up his countenance on you and give you peace.' Medium Volume (shared 'peace') with strong Coherence as the resurrected high-priestly Lord blesses his gathered people.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 22:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will lay the key of the house of David on his shoulder. He will open, and no one will shut. He will shut, and no one will open.",
+                      "note": "The authority to forgive or retain sins ('he shall open, and no one shall shut; he shall shut, and no one shall open') parallels the key-of-the-house-of-David grant of binding/loosing power. The remit-or-retain antithesis matches the open/shut structure of the oracle; medium confidence on the structural rather than verbal link.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 15:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Because he was ignorant of him that moulded him, And of him that inspired into him an active soul, And breathed into him a vital spirit.",
+                      "note": "'He failed to know the one who formed him and inspired him with an active soul and breathed into him a living spirit' restates Gen 2:7 in Second-Temple idiom, evidencing the availability of the breath-of-life motif John reworks. Deuterocanonical witness rather than a direct source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 43:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+                      "note": "'I, even I, am he who blots out your transgressions for my own sake' grounds the forgiveness of sins as a divine prerogative now delegated to the disciples (20:23). Faint background highlighting that sin-forgiveness is God's act, sharpening the Christological claim.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "20.6",
+                  "ref": "20:24-29",
+                  "echoes": [
+                    {
+                      "source": "Psalm 35:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Wake up! Rise up to defend me, my God! My Lord, contend for me!",
+                      "note": "Thomas' confession 'My Lord and my God!' (20:28) reproduces the psalmist's vocative 'my God and my Lord' (LXX Ps 34:23: ho theos mou kai ho kyrios mou). The unusual paired address gives high Volume; John climaxes the Gospel by directing to Jesus the cry the psalmist directs to YHWH."
+                    },
+                    {
+                      "source": "Psalm 86:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But you, Lord, are a merciful and gracious God, slow to anger, and abundant in loving kindness and truth.",
+                      "note": "Thomas addresses Jesus with the divine titles 'Lord... God' that the psalter repeatedly couples ('you, O Lord, are a God merciful and gracious'), reinforcing the deliberate transfer of YHWH-language to the risen Christ. Supporting Recurrence behind the primary Ps 35:23 allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 2:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith.",
+                      "note": "'Blessed are those who have not seen, and have believed' (20:29) coheres with 'the righteous shall live by his faith,' the OT charter of faith-not-sight. Thematic rather than verbal; faint and one of several wisdom/faith backgrounds.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "20.7",
+                  "ref": "20:30-31",
+                  "echoes": [
+                    {
+                      "source": "Habakkuk 2:2-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh answered me, “Write the vision, and make it plain on tablets, that he who runs may read it. For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "'These are written, that you may believe' enacts the prophetic command 'Write the vision; make it plain... it awaits its appointed time,' grounding the inscribed witness-for-faith in the OT theology of the written vision that calls for belief. Medium Coherence with the Gospel's purpose statement; verbal contact is on the writing-for-faith motif.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:1-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“At that time shall Michael stand up, the great prince who stands for the children of your people; and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time your people shall be delivered, everyone who shall be found written in the book. Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. Those who are wise shall […]",
+                      "note": "The notion of words 'written in this book' so that the faithful 'may have life' faintly recalls Daniel's sealed book and those 'found written in the book' who awake to everlasting life. Low Volume; offered as a faint life-through-the-book resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "The confessional goal 'that Jesus is the Christ, the Son of God' draws on the royal-messianic decree 'You are my Son,' the OT title-cluster (Messiah / Son of God) John affirms. Background to the titulature rather than a quotation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Appearances in the upper room",
+                      "section": "risen",
+                      "refs": {
+                        "luke": "24:36–43",
+                        "john": "20:19–29"
+                      },
+                      "note": "\"Peace be with you\"; the wounds shown; Thomas — \"My Lord and my God.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

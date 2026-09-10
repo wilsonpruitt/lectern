@@ -626,7 +626,44 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/joshua/24/"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/joshua/24/",
+              "title": "Covenant at Shechem",
+              "view": {
+                "center": [
+                  32.0,
+                  35.3
+                ],
+                "zoom": 7
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "shechem",
+                  "name": "Shechem",
+                  "coords": [
+                    32.213,
+                    35.282
+                  ],
+                  "tier": "identified",
+                  "id": "Tell Balata at the eastern edge of modern Nablus, in the saddle between Mount Ebal and Mount Gerizim. The patriarchal sanctuary of Gen 12:6, 33:18-20 and the covenant-renewal site of Joshua 24. Excavations by Sellin and Wright revealed Middle and Late Bronze fortifications and a fortress-temple."
+                },
+                {
+                  "key": "euphrates",
+                  "name": "The River",
+                  "coords": [
+                    34.42,
+                    40.95
+                  ],
+                  "tier": "region",
+                  "id": "The Euphrates, called simply 'the River' in Hebrew. The eastern frontier of the patriarchal homeland (Ur of the Chaldees and Haran lay beyond it) and the ideal northeastern boundary of the promised land (Gen 15:18, Josh 1:4). Pin sits on the middle Euphrates near ancient Mari."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -639,7 +676,80 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-78"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 78:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.34-Matt.13.35",
+                      "refDisplay": "Matthew 13:34–35",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.7"
+                    },
+                    {
+                      "refKey": "Mark.4.10-Mark.4.12",
+                      "refDisplay": "Mark 4:10–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-4.3"
+                    },
+                    {
+                      "refKey": "Mark.4.33-Mark.4.34",
+                      "refDisplay": "Mark 4:33–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-4.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 78:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.13.13-Acts.13.16",
+                      "refDisplay": "Acts 13:13–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-13.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 78:5–7",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.1.3-2Tim.1.5",
+                      "refDisplay": "2 Timothy 1:3–5",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -658,7 +768,124 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.13",
+                  "ref": "4:13-18",
+                  "echoes": [
+                    {
+                      "source": "Daniel 12:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“At that time shall Michael stand up, the great prince who stands for the children of your people; and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time your people shall be delivered, everyone who shall be found written in the book. Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The promise that at the end 'many who sleep in the dust shall awake' grounds Paul's hope for 'those who have fallen asleep' rising. The deliverance of God's people and the resurrection/awakening sequence is the clearest scriptural matrix for vv. 14-16."
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "Being 'caught up together... in the clouds, to meet the Lord' draws on the vision of one like a son of man coming 'with the clouds of heaven.' The cloud imagery of glorious eschatological encounter is Danielic."
+                    },
+                    {
+                      "source": "Exodus 19:16-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "On the third day, when it was morning, there were thunders and lightnings, and a thick cloud on the mountain, and the sound of an exceedingly loud trumpet; and all the people who were in the camp trembled. Moses led the people out of the camp to meet God; and they stood at the lower part of the mountain. Mount Sinai, all it, smoked, because Yahweh descended on it in fire; and its smoke ascended like the smoke of a furnace, and the whole mountain quaked […]",
+                      "note": "The Sinai theophany, with the LORD descending, thick cloud, and a very loud trumpet blast, supplies the template for the Lord descending from heaven with God's trumpet and a shout. Paul recasts covenant theophany as parousia."
+                    },
+                    {
+                      "source": "Zechariah 9:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh will be seen over them; and his arrow will go flash like lightning; and the Lord Yahweh will blow the trumpet, and will go with whirlwinds of the south.",
+                      "note": "'the Lord GOD will sound the trumpet' as the divine warrior appears closely matches 'with God's trumpet' at the Lord's descent. The eschatological trumpet of divine advent is shared."
+                    },
+                    {
+                      "source": "Isaiah 26:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Your dead shall live. My dead bodies shall arise. Awake and sing, you who dwell in the dust; for your dew is like the dew of herbs, and the earth will cast out the departed spirits.",
+                      "note": "'Your dead shall live... awake and sing, you who dwell in the dust' is a primary OT resurrection text behind 'the dead in Christ will rise.' The awakening of the dead at the LORD's coming directly informs Paul's hope against grief."
+                    },
+                    {
+                      "source": "Joel 2:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Blow the trumpet in Zion, and sound an alarm in my holy mountain! Let all the inhabitants of the land tremble, for the day of Yahweh comes, for it is close at hand:",
+                      "note": "'Blow the trumpet in Zion... for the day of the LORD is coming' associates the trumpet blast with the day of the Lord, the framework for Paul's trumpet and parousia. Continues into 1 Thess 5's 'day of the Lord.'"
+                    },
+                    {
+                      "source": "Isaiah 27:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen in that day that a great trumpet will be blown; and those who were ready to perish in the land of Assyria, and those who were outcasts in the land of Egypt, shall come; and they will worship Yahweh in the holy mountain at Jerusalem.",
+                      "note": "'a great trumpet will be blown' to gather the scattered to worship the LORD parallels the trumpet summoning the dead and living to meet the Lord. Eschatological-gathering trumpet motif."
+                    },
+                    {
+                      "source": "Micah 1:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For, behold, Yahweh comes out of his place, and will come down and tread on the high places of the earth.",
+                      "note": "'the LORD is coming forth out of his place, and will come down' provides the descent imagery of God leaving heaven to act, echoed in 'the Lord himself will descend from heaven.' Theophanic descent."
+                    },
+                    {
+                      "source": "Psalm 47:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God has gone up with a shout, Yahweh with the sound of a trumpet.",
+                      "note": "'God has gone up with a shout, the LORD with the sound of a trumpet' uniquely pairs a loud shout with a trumpet blast, the precise combination in 'with a shout... and with God's trumpet.' Direction is reversed (ascent vs. descent) but the acclamation imagery is striking.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 14:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall flee by the valley of my mountains; for the valley of the mountains shall reach to Azel; yes, you shall flee, just like you fled from before the earthquake in the days of Uzziah king of Judah. Yahweh my God will come, and all the holy ones with you./f + Septuagint reads “him” instead of “you”./f*",
+                      "note": "'the LORD my God will come, and all the holy ones with him' parallels 'God will bring with him those who have fallen asleep' and the Lord's coming accompanied by his people. Often cited behind the parousia retinue."
+                    },
+                    {
+                      "source": "Numbers 10:1-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh spoke to Moses, saying, “Make two trumpets of silver. You shall make them of beaten work. You shall use them for the calling of the congregation, and for the journeying of the camps. When they blow them, all the congregation shall gather themselves to you at the door of the Tent of Meeting. If they blow just one, then the princes, the heads of the thousands of Israel, shall gather themselves to you. When you blow an alarm, the camps that lie on the […]",
+                      "note": "The silver trumpets that summon the assembly and signal God's remembrance offer a cultic backdrop to the eschatological trumpet gathering the saints. Faint and thematic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zephaniah 1:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "a day of the trumpet and alarm, against the fortified cities, and against the high battlements.",
+                      "note": "'a day of trumpet blast' for the day of the LORD reinforces the trumpet-of-judgment-and-advent motif. Faint, part of the cluster of day-of-the-LORD trumpet texts.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 2:11",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "As they still went on, and talked, behold, a chariot of fire and horses of fire separated them; and Elijah went up by a whirlwind into heaven.",
+                      "note": "Elijah's being 'taken up' bodily to heaven, like Enoch (Gen 5:24), figurally anticipates the living being 'caught up' to meet the Lord without death. Typological rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 5:24",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Enoch walked with God, and he was not found, for God took him.",
+                      "note": "Enoch, who 'was not, for God took him,' prefigures the rapture of the living to be with the Lord forever. Faint figural precedent for translation without death.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -677,7 +904,104 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "25.1",
+                  "ref": "25:1-13",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 62:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For as a young man marries a virgin, so your sons shall marry you; and as the bridegroom rejoices over the bride, so your God will rejoice over you.",
+                      "note": "The bridegroom motif organizing the whole parable draws on the prophetic image of God/Messiah as bridegroom: 'as the bridegroom rejoices over the bride, so shall your God rejoice over you.' Matthew makes the coming bridegroom the figure for the returning Son of Man, joining the eschatological wedding feast to messianic arrival."
+                    },
+                    {
+                      "source": "Hosea 2:19-20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will betroth you to me forever. Yes, I will betroth you to me in righteousness, in justice, in loving kindness, and in compassion. I will even betroth you to me in faithfulness; and you shall know Yahweh.",
+                      "note": "God's betrothal of Israel ('I will betroth you to me forever') stands behind the bridegroom-and-attendants imagery; the marriage covenant is the controlling metaphor for the eschatological union the wise virgins enter and the foolish miss."
+                    },
+                    {
+                      "source": "Song of Solomon 3:6-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Who is this who comes up from the wilderness like pillars of smoke, perfumed with myrrh and frankincense, with all spices of the merchant? Behold, it is Solomon’s carriage! Sixty mighty men are around it, of the mighty men of Israel. They all handle the sword, and are expert in war. Every man has his sword on his thigh, because of fear in the night. King Solomon made himself a carriage of the wood of Lebanon. He made its pillars of silver, its bottom of […]",
+                      "note": "The nocturnal coming of the bridegroom in procession, the cry going up, and the wedding of King Solomon supply a scriptural scene of a bridegroom arriving by night to be met by attendants. Verbal contact is thematic rather than lexical.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Amos 5:18-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Woe to you who desire the day of Yahweh! Why do you long for the day of Yahweh? It is darkness, and not light. As if a man fled from a lion, and a bear met him; Or he went into the house and leaned his hand on the wall, and a snake bit him. Won’t the day of Yahweh be darkness, and not light? Even very dark, and no brightness in it?",
+                      "note": "The reversal whereby those who presume entry are shut out ('Lord, Lord, open to us' / 'I don't know you') resonates with the prophetic Day of the LORD warning that the day will be darkness for the complacent, not the light they expected.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies. “But who can endure the day of his coming? And who will stand when he appears? For he is like a refiner’s fire, and like launderer’s soap;",
+                      "note": "'The Lord whom you seek will suddenly come to his temple... but who can endure the day of his coming?' supplies the pattern of a sudden, testing arrival of the Lord for which one must be prepared; the delay-then-sudden-cry structure of the parable echoes this.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 2:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "'Though it tarry, wait for it; because it will surely come, it will not delay' frames the theme of the bridegroom's delay (v.5) and the call to keep ready through the apparent postponement of the appointed time.",
+                      "contested": true,
+                      "lxxText": "For the vision is yet for a time, and it shall shoot forth at the end, and not in vain: though he should tarry, wait for him; for he will surely come, and will not tarry."
+                    },
+                    {
+                      "source": "Exodus 27:20-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“You shall command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually. In the Tent of Meeting, outside the veil which is before the testimony, Aaron and his sons shall keep it in order from evening to morning before Yahweh: it shall be a statute forever throughout their generations on the behalf of the children of Israel.",
+                      "note": "The provision of pure oil to keep the lamp burning continually 'from evening to morning' supplies the cultic background for oil-as-fidelity that keeps the light alive through the night of waiting.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 45:13-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The princess inside is all glorious. Her clothing is interwoven with gold. She shall be led to the king in embroidered work. The virgins, her companions who follow her, shall be brought to you. With gladness and rejoicing they shall be led. They shall enter into the king’s palace.",
+                      "note": "The royal wedding psalm, with virgin companions led in procession to the king's palace amid gladness, provides a scriptural template for virgins escorting a bridegroom into the marriage feast.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Olivet discourse",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "24:1–25:46",
+                        "mark": "13:1–37",
+                        "luke": "21:5–38"
+                      },
+                      "note": "The discourse on the end; Matthew adds the parables of the virgins, the talents, and the sheep and goats."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1293,7 +1617,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/wisdom-of-solomon-6"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Wisdom of Solomon 6:12–16",
+                  "occurrences": [
+                    {
+                      "refKey": "Col.1.24-Col.1.29",
+                      "refDisplay": "Colossians 1:24–29",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-1.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1306,7 +1653,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/wisdom-of-solomon-6"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Wisdom 6:17–20",
+                  "occurrences": [
+                    {
+                      "refKey": "2Pet.1.1-2Pet.1.4",
+                      "refDisplay": "2 Peter 1:1–4",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-peter#p-1.1"
+                    },
+                    {
+                      "refKey": "2Pet.1.5-2Pet.1.11",
+                      "refDisplay": "2 Peter 1:5–11",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-peter#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1325,7 +1705,124 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.13",
+                  "ref": "4:13-18",
+                  "echoes": [
+                    {
+                      "source": "Daniel 12:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“At that time shall Michael stand up, the great prince who stands for the children of your people; and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time your people shall be delivered, everyone who shall be found written in the book. Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The promise that at the end 'many who sleep in the dust shall awake' grounds Paul's hope for 'those who have fallen asleep' rising. The deliverance of God's people and the resurrection/awakening sequence is the clearest scriptural matrix for vv. 14-16."
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "Being 'caught up together... in the clouds, to meet the Lord' draws on the vision of one like a son of man coming 'with the clouds of heaven.' The cloud imagery of glorious eschatological encounter is Danielic."
+                    },
+                    {
+                      "source": "Exodus 19:16-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "On the third day, when it was morning, there were thunders and lightnings, and a thick cloud on the mountain, and the sound of an exceedingly loud trumpet; and all the people who were in the camp trembled. Moses led the people out of the camp to meet God; and they stood at the lower part of the mountain. Mount Sinai, all it, smoked, because Yahweh descended on it in fire; and its smoke ascended like the smoke of a furnace, and the whole mountain quaked […]",
+                      "note": "The Sinai theophany, with the LORD descending, thick cloud, and a very loud trumpet blast, supplies the template for the Lord descending from heaven with God's trumpet and a shout. Paul recasts covenant theophany as parousia."
+                    },
+                    {
+                      "source": "Zechariah 9:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh will be seen over them; and his arrow will go flash like lightning; and the Lord Yahweh will blow the trumpet, and will go with whirlwinds of the south.",
+                      "note": "'the Lord GOD will sound the trumpet' as the divine warrior appears closely matches 'with God's trumpet' at the Lord's descent. The eschatological trumpet of divine advent is shared."
+                    },
+                    {
+                      "source": "Isaiah 26:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Your dead shall live. My dead bodies shall arise. Awake and sing, you who dwell in the dust; for your dew is like the dew of herbs, and the earth will cast out the departed spirits.",
+                      "note": "'Your dead shall live... awake and sing, you who dwell in the dust' is a primary OT resurrection text behind 'the dead in Christ will rise.' The awakening of the dead at the LORD's coming directly informs Paul's hope against grief."
+                    },
+                    {
+                      "source": "Joel 2:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Blow the trumpet in Zion, and sound an alarm in my holy mountain! Let all the inhabitants of the land tremble, for the day of Yahweh comes, for it is close at hand:",
+                      "note": "'Blow the trumpet in Zion... for the day of the LORD is coming' associates the trumpet blast with the day of the Lord, the framework for Paul's trumpet and parousia. Continues into 1 Thess 5's 'day of the Lord.'"
+                    },
+                    {
+                      "source": "Isaiah 27:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen in that day that a great trumpet will be blown; and those who were ready to perish in the land of Assyria, and those who were outcasts in the land of Egypt, shall come; and they will worship Yahweh in the holy mountain at Jerusalem.",
+                      "note": "'a great trumpet will be blown' to gather the scattered to worship the LORD parallels the trumpet summoning the dead and living to meet the Lord. Eschatological-gathering trumpet motif."
+                    },
+                    {
+                      "source": "Micah 1:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For, behold, Yahweh comes out of his place, and will come down and tread on the high places of the earth.",
+                      "note": "'the LORD is coming forth out of his place, and will come down' provides the descent imagery of God leaving heaven to act, echoed in 'the Lord himself will descend from heaven.' Theophanic descent."
+                    },
+                    {
+                      "source": "Psalm 47:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God has gone up with a shout, Yahweh with the sound of a trumpet.",
+                      "note": "'God has gone up with a shout, the LORD with the sound of a trumpet' uniquely pairs a loud shout with a trumpet blast, the precise combination in 'with a shout... and with God's trumpet.' Direction is reversed (ascent vs. descent) but the acclamation imagery is striking.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 14:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall flee by the valley of my mountains; for the valley of the mountains shall reach to Azel; yes, you shall flee, just like you fled from before the earthquake in the days of Uzziah king of Judah. Yahweh my God will come, and all the holy ones with you./f + Septuagint reads “him” instead of “you”./f*",
+                      "note": "'the LORD my God will come, and all the holy ones with him' parallels 'God will bring with him those who have fallen asleep' and the Lord's coming accompanied by his people. Often cited behind the parousia retinue."
+                    },
+                    {
+                      "source": "Numbers 10:1-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh spoke to Moses, saying, “Make two trumpets of silver. You shall make them of beaten work. You shall use them for the calling of the congregation, and for the journeying of the camps. When they blow them, all the congregation shall gather themselves to you at the door of the Tent of Meeting. If they blow just one, then the princes, the heads of the thousands of Israel, shall gather themselves to you. When you blow an alarm, the camps that lie on the […]",
+                      "note": "The silver trumpets that summon the assembly and signal God's remembrance offer a cultic backdrop to the eschatological trumpet gathering the saints. Faint and thematic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zephaniah 1:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "a day of the trumpet and alarm, against the fortified cities, and against the high battlements.",
+                      "note": "'a day of trumpet blast' for the day of the LORD reinforces the trumpet-of-judgment-and-advent motif. Faint, part of the cluster of day-of-the-LORD trumpet texts.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 2:11",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "As they still went on, and talked, behold, a chariot of fire and horses of fire separated them; and Elijah went up by a whirlwind into heaven.",
+                      "note": "Elijah's being 'taken up' bodily to heaven, like Enoch (Gen 5:24), figurally anticipates the living being 'caught up' to meet the Lord without death. Typological rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 5:24",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Enoch walked with God, and he was not found, for God took him.",
+                      "note": "Enoch, who 'was not, for God took him,' prefigures the rapture of the living to be with the Lord forever. Faint figural precedent for translation without death.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1344,7 +1841,104 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "25.1",
+                  "ref": "25:1-13",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 62:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For as a young man marries a virgin, so your sons shall marry you; and as the bridegroom rejoices over the bride, so your God will rejoice over you.",
+                      "note": "The bridegroom motif organizing the whole parable draws on the prophetic image of God/Messiah as bridegroom: 'as the bridegroom rejoices over the bride, so shall your God rejoice over you.' Matthew makes the coming bridegroom the figure for the returning Son of Man, joining the eschatological wedding feast to messianic arrival."
+                    },
+                    {
+                      "source": "Hosea 2:19-20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will betroth you to me forever. Yes, I will betroth you to me in righteousness, in justice, in loving kindness, and in compassion. I will even betroth you to me in faithfulness; and you shall know Yahweh.",
+                      "note": "God's betrothal of Israel ('I will betroth you to me forever') stands behind the bridegroom-and-attendants imagery; the marriage covenant is the controlling metaphor for the eschatological union the wise virgins enter and the foolish miss."
+                    },
+                    {
+                      "source": "Song of Solomon 3:6-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Who is this who comes up from the wilderness like pillars of smoke, perfumed with myrrh and frankincense, with all spices of the merchant? Behold, it is Solomon’s carriage! Sixty mighty men are around it, of the mighty men of Israel. They all handle the sword, and are expert in war. Every man has his sword on his thigh, because of fear in the night. King Solomon made himself a carriage of the wood of Lebanon. He made its pillars of silver, its bottom of […]",
+                      "note": "The nocturnal coming of the bridegroom in procession, the cry going up, and the wedding of King Solomon supply a scriptural scene of a bridegroom arriving by night to be met by attendants. Verbal contact is thematic rather than lexical.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Amos 5:18-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Woe to you who desire the day of Yahweh! Why do you long for the day of Yahweh? It is darkness, and not light. As if a man fled from a lion, and a bear met him; Or he went into the house and leaned his hand on the wall, and a snake bit him. Won’t the day of Yahweh be darkness, and not light? Even very dark, and no brightness in it?",
+                      "note": "The reversal whereby those who presume entry are shut out ('Lord, Lord, open to us' / 'I don't know you') resonates with the prophetic Day of the LORD warning that the day will be darkness for the complacent, not the light they expected.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies. “But who can endure the day of his coming? And who will stand when he appears? For he is like a refiner’s fire, and like launderer’s soap;",
+                      "note": "'The Lord whom you seek will suddenly come to his temple... but who can endure the day of his coming?' supplies the pattern of a sudden, testing arrival of the Lord for which one must be prepared; the delay-then-sudden-cry structure of the parable echoes this.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 2:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "'Though it tarry, wait for it; because it will surely come, it will not delay' frames the theme of the bridegroom's delay (v.5) and the call to keep ready through the apparent postponement of the appointed time.",
+                      "contested": true,
+                      "lxxText": "For the vision is yet for a time, and it shall shoot forth at the end, and not in vain: though he should tarry, wait for him; for he will surely come, and will not tarry."
+                    },
+                    {
+                      "source": "Exodus 27:20-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“You shall command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually. In the Tent of Meeting, outside the veil which is before the testimony, Aaron and his sons shall keep it in order from evening to morning before Yahweh: it shall be a statute forever throughout their generations on the behalf of the children of Israel.",
+                      "note": "The provision of pure oil to keep the lamp burning continually 'from evening to morning' supplies the cultic background for oil-as-fidelity that keeps the light alive through the night of waiting.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 45:13-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The princess inside is all glorious. Her clothing is interwoven with gold. She shall be led to the king in embroidered work. The virgins, her companions who follow her, shall be brought to you. With gladness and rejoicing they shall be led. They shall enter into the king’s palace.",
+                      "note": "The royal wedding psalm, with virgin companions led in procession to the king's palace amid gladness, provides a scriptural template for virgins escorting a bridegroom into the marriage feast.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Olivet discourse",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "24:1–25:46",
+                        "mark": "13:1–37",
+                        "luke": "21:5–38"
+                      },
+                      "note": "The discourse on the end; Matthew adds the parables of the virgins, the talents, and the sheep and goats."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

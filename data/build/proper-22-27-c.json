@@ -597,7 +597,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/lamentations-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Lamentations 1:1",
+                  "occurrences": [
+                    {
+                      "refKey": "2John.1.1-2John.1.3",
+                      "refDisplay": "2 John 1:1–3",
+                      "book": "2 John",
+                      "slug": "2-john",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-john#p-1.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -610,7 +633,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/lamentations-3"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Lamentations 3:19",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.27.33-Matt.27.37",
+                      "refDisplay": "Matthew 27:33–37",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Lamentations 3:24",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.10.38-Luke.10.42",
+                      "refDisplay": "Luke 10:38–42",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "10.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-10.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Lamentations 3:26",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.7",
+                      "refDisplay": "1 Corinthians 13:7",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -629,7 +705,299 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-2",
+                  "echoes": [
+                    {
+                      "source": "Numbers 6:25-26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The greeting 'Grace, mercy, and peace' echoes the Aaronic priestly blessing, where the LORD is asked to 'be gracious' and to 'give peace.' The triad of grace and peace in Paul's salutations draws on this benedictory form."
+                    },
+                    {
+                      "source": "Deuteronomy 30:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "to love Yahweh your God, to obey his voice, and to cling to him; for he is your life, and the length of your days; that you may dwell in the land which Yahweh swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them.",
+                      "note": "Paul styles his apostleship as serving 'the promise of the life which is in Christ Jesus.' The Deuteronomic covenant blessing frames clinging to the LORD as the source of 'life and length of days,' an OT matrix for the promise-of-life language Paul Christologizes here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 17:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you.",
+                      "note": "The 'promise' according to which Paul is sent recalls the patriarchal covenant promise to Abraham and his seed; Pauline 'promise' theology consistently roots in this Genesis covenant. Faint here, marked contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:3-5",
+                  "echoes": [
+                    {
+                      "source": "Psalm 24:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.",
+                      "note": "The 'pure conscience' with which Paul serves echoes the OT ideal of the 'pure heart and clean hands' required to stand before God. The psalm's purity-of-heart standard underlies the conscience language transposed into Pauline interiority."
+                    },
+                    {
+                      "source": "Deuteronomy 6:5-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might. These words, which I command you this day, shall be on your heart; and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+                      "note": "The 'sincere faith' that lived first in grandmother Lois and mother Eunice and now in Timothy enacts the Shema's command to bind covenant faith on the heart and teach it diligently to children across generations. The intergenerational transmission of faith is the Deuteronomic catechetical ideal."
+                    },
+                    {
+                      "source": "Psalm 78:5-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For he established a testimony in Jacob, and appointed a teaching in Israel, which he commanded our fathers, that they should make them known to their children; that the generation to come might know, even the children who should be born; who should arise and tell their children, that they might set their hope in God, and not forget the works of God, but keep his commandments,",
+                      "note": "The chain of faith from grandmother to mother to son mirrors the psalm's mandate that fathers teach the next generation so that children yet unborn would set their hope in God. Timothy's inherited 'sincere faith' embodies this generational handing-down."
+                    },
+                    {
+                      "source": "2 Maccabees 15:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And the vision of that dream was this: He saw Onias, him that was high priest, a noble and good man, reverend in bearing, yet gentle in manner and well-spoken, and exercised from a child in all points of virtue, with outstretched hands invoking blessings on the whole body of the Jews:",
+                      "note": "Serving God 'as my forefathers did' with a 'pure conscience' presents Paul's gospel as continuous with ancestral Jewish piety; 2 Maccabees praises the high priest Onias as a man of upright conscience and ancestral devotion. Deuterocanonical conscience language is faint background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Create in me a clean heart, O God. Renew a right spirit within me.",
+                      "note": "The plea for a 'clean heart' and right spirit parallels Paul's claim to serve God with a pure conscience; the conscience motif develops the OT clean-heart ideal. Faint, marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 8:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh smelled the pleasant aroma. Yahweh said in his heart, “I will not again curse the ground any more for man’s sake because the imagination of man’s heart is evil from his youth; neither will I ever again strike every living thing, as I have done.",
+                      "note": "Paul's 'unceasing memory' and remembering 'night and day' draws on the OT idiom of a fragrant memorial / remembrance before God; Genesis introduces the 'pleasing aroma' the LORD remembers. The remembrance language is faint.",
+                      "contested": true,
+                      "altSource": "Numbers 10:9-10"
+                    },
+                    {
+                      "source": "Proverbs 1:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, listen to your father’s instruction, and don’t forsake your mother’s teaching:",
+                      "note": "The faith received specifically through grandmother and mother recalls the wisdom tradition's appeal to heed 'your mother's teaching.' The maternal pedagogy motif faintly underlies the naming of Lois and Eunice.",
+                      "contested": true,
+                      "altSource": "Proverbs 31:1"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.6",
+                  "ref": "1:6-7",
+                  "echoes": [
+                    {
+                      "source": "Joshua 1:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid, neither be dismayed: for Yahweh your God is with you wherever you go.”",
+                      "note": "'God didn't give us a spirit of fear' answers the LORD's charge to Joshua, 'be strong and courageous; do not be afraid,' precisely as Timothy steps into a Joshua-like succession of leadership. The not-fearing-but-strong commission undergirds the whole exhortation."
+                    },
+                    {
+                      "source": "Numbers 27:18-23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him. Set him before Eleazar the priest, and before all the congregation; and commission him in their sight. You shall give authority to him, that all the congregation of the children of Israel may obey. He shall stand before Eleazar the priest, who shall inquire for him by the judgment of the Urim before Yahweh. At his word they shall go out, and at his […]",
+                      "note": "Stirring up 'the gift of God which is in you through the laying on of my hands' recalls Moses commissioning Joshua by the laying on of hands so that he was filled with the spirit of wisdom. The ordination-by-imposition-of-hands motif is rooted in this Mosaic succession."
+                    },
+                    {
+                      "source": "Deuteronomy 34:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands on him. The children of Israel listened to him, and did as Yahweh commanded Moses.",
+                      "note": "Joshua was 'full of the spirit of wisdom, for Moses had laid his hands on him,' the precise pattern Paul invokes: a spiritual gift conferred through imposition of hands by the predecessor. Strongly parallels Timothy's reception of the charisma."
+                    },
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The Spirit God gives, 'of power, love, and self-control' rather than fear, recalls the messianic endowment of the Spirit of wisdom, counsel, and might resting on the shoot of Jesse. The enumerated Spirit-qualities echo Isaiah's catalog of the Spirit's gifts."
+                    },
+                    {
+                      "source": "Isaiah 41:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
+                      "note": "'Don't be afraid, for I am with you... I will strengthen you' parallels Paul's denial that God gives a spirit of fear and his assertion of a spirit of power. Isaiah's salvation-oracle formula of fearlessness-through-divine-strength stands behind the verse."
+                    },
+                    {
+                      "source": "Zechariah 4:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.",
+                      "note": "The 'spirit of power' contrasted with fear echoes 'not by might nor by power, but by my Spirit'; the divine Spirit as the true source of effective strength. Faint conceptual link, marked contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.8",
+                  "ref": "1:8-10",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 50:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed.",
+                      "note": "'Don't be ashamed of the testimony' draws on the Servant's resolve: 'I have set my face like a flint, and I know I will not be put to shame.' The vindication-of-the-unashamed-witness motif shapes Paul's appeal to Timothy to embrace suffering without shame."
+                    },
+                    {
+                      "source": "Psalm 119:46",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will also speak of your statutes before kings, and will not be disappointed.",
+                      "note": "'I will speak of your testimonies before kings, and will not be put to shame' directly anticipates Paul's call not to be ashamed of the testimony and of his chains. The unashamed public confession before rulers is the psalmist's posture."
+                    },
+                    {
+                      "source": "Deuteronomy 7:7-8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh didn’t set his love on you, nor choose you, because you were more in number than any people; for you were the fewest of all peoples: but because Yahweh loves you, and because he desires to keep the oath which he swore to your fathers, Yahweh has brought you out with a mighty hand, and redeemed you out of the house of bondage, from the hand of Pharaoh king of Egypt.",
+                      "note": "God 'saved us and called us... not according to our works, but according to his own purpose and grace' restates the Deuteronomic logic of election: the LORD set his love on Israel not because of their numbers or merit but because he loved them and kept his oath. Election by sheer gracious purpose is the OT root."
+                    },
+                    {
+                      "source": "Isaiah 25:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He has swallowed up death forever! The Lord Yahweh will wipe away tears from off all faces. He will take the reproach of his people away from off all the earth, for Yahweh has spoken it.",
+                      "note": "Christ 'who abolished death' echoes the eschatological promise that the LORD 'will swallow up death forever.' The abolition-of-death motif is the climactic Isaianic hope now realized in the Savior's appearing."
+                    },
+                    {
+                      "source": "Wisdom 2:23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Because God created man for incorruption, And made him an image of his own proper being;",
+                      "note": "Christ 'brought life and immortality to light' resonates with Wisdom's claim that God created humanity for incorruption, in the image of his own eternity. The deuterocanonical immortality/incorruption vocabulary directly underlies Paul's athanasia language."
+                    },
+                    {
+                      "source": "Wisdom 3:1-4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But the souls of the righteous are in the hand of God, And no torment will touch them. In the eyes of the foolish they seemed to have died; And their departure was accounted to be their hurt, And their journeying away from us to be their ruin: But they are in peace. For even if in the sight of men they be punished, Their hope is full of immortality;",
+                      "note": "The hope that 'the souls of the righteous are in the hand of God' and their 'hope is full of immortality' parallels the life-and-immortality brought to light through the gospel. Wisdom's immortality theology is the closest Second-Temple antecedent."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "'He who believes will not be put to shame' is a recurrent Pauline shame-text; here it faintly informs the unashamed-testimony theme even without citation. Marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 13:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will ransom them from the power of Sheol. I will redeem them from death! Death, where are your plagues? Sheol, where is your destruction? “Compassion will be hidden from my eyes.",
+                      "note": "'I will ransom them from the power of the grave; I will redeem them from death' provides an OT oracle of death's defeat behind Christ's abolishing of death. Faint, overlapping with Isaiah 25:8.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The disclosure of 'life and immortality' resonates with Daniel's resurrection hope of awaking to everlasting life. The apocalyptic immortality promise is a faint backdrop to the gospel's bringing of imperishable life to light.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.11",
+                  "ref": "1:11-12",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "yes, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give you for a light to the nations, that you may be my salvation to the end of the earth.”",
+                      "note": "Paul's appointment as 'a teacher of the Gentiles' enacts the Servant's commission to be 'a light to the nations,' that salvation might reach the ends of the earth. His Gentile herald-role fulfills Isaiah's light-to-the-nations mandate."
+                    },
+                    {
+                      "source": "Isaiah 50:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed.",
+                      "note": "'Yet I am not ashamed' in the midst of suffering reprises the Servant's flint-faced confidence that he will not be put to shame. The Servant's unashamed endurance models Paul's own."
+                    },
+                    {
+                      "source": "Psalm 31:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Into your hand I commend my spirit. You redeem me, Yahweh, God of truth.",
+                      "note": "'I know whom I have believed, and... he is able to guard that which I have committed to him' echoes 'Into your hand I commit my spirit; you have redeemed me.' The committing/entrusting of oneself to the faithful God parallels the psalmist's deposit. Marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 56:3-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When I am afraid, I will put my trust in you. In God, I praise his word. In God, I put my trust. I will not be afraid. What can flesh do to me?",
+                      "note": "'In God I trust; I will not be afraid' parallels Paul's confident 'I know whom I have believed' and lack of shame. Faint trust-formula resonance.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.13",
+                  "ref": "1:13-14",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 11:18-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore you shall lay up these my words in your heart and in your soul. You shall bind them for a sign on your hand, and they shall be for frontlets between your eyes. You shall teach them your children, talking of them, when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+                      "note": "'Guard' the good deposit through the Spirit echoes the command to lay up God's words in heart and soul, binding and teaching them. The entrusted-treasure-of-the-word imagery is rooted in Deuteronomy's commands to keep and transmit the torah."
+                    },
+                    {
+                      "source": "Proverbs 4:13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Take firm hold of instruction. Don’t let her go. Keep her, for she is your life.",
+                      "note": "'Take hold of instruction; do not let go; keep her, for she is your life' closely parallels 'hold the pattern of sound words' and 'guard' the deposit. The wisdom command to grip and guard saving instruction undergirds Paul's exhortation."
+                    },
+                    {
+                      "source": "Deuteronomy 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall not add to the word which I command you, neither shall you take away from it, that you may keep the commandments of Yahweh your God which I command you.",
+                      "note": "Holding 'the pattern of sound words' and guarding 'that good thing committed to you' draws on the Deuteronomic charge to add nothing and take nothing from the commanded word but to keep it. The deposit-of-teaching motif reflects covenant-word preservation.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 6:6-9"
+                    },
+                    {
+                      "source": "Proverbs 2:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, if you will receive my words, and store up my commandments within you;",
+                      "note": "Receiving words and 'treasuring up' commandments parallels the entrusted good deposit to be guarded. Faint wisdom-deposit link, marked contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -648,7 +1016,91 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "17.3",
+                  "ref": "17:5-6",
+                  "echoes": [
+                    {
+                      "source": "Zechariah 4:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Who are you, great mountain? Before Zerubbabel you are a plain; and he will bring out the capstone with shouts of ‘Grace, grace, to it!’”",
+                      "note": "Zechariah's word that the great 'mountain' shall become a plain before Zerubbabel by the Spirit, not by might, is the canonical pairing of faith with the moving/leveling of an immovable obstacle. The mountain-removed-by-faith logic gives Coherence with 'faith like a mustard seed,' though Luke uses a sycamore-into-sea rather than a mountain, lowering Volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 46:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore we won’t be afraid, though the earth changes, though the mountains are shaken into the heart of the seas;",
+                      "note": "The psalm's confidence even 'though the mountains be carried into the midst of the sea' supplies the very image of an immovable thing thrown into the sea, here recast as the work of faith. The verbal overlap (uprooted/carried into the sea) is real but the figure is proverbial, so it is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 3:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He stood, and shook the earth. He looked, and made the nations tremble. The ancient mountains were crumbled. The age-old hills collapsed. His ways are eternal.",
+                      "note": "The theophany that scatters the everlasting mountains coheres with the faith-moves-mountains topos behind the uprooted-tree saying. The connection is conceptual and diffuse, so confidence is low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 54:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the mountains may depart, and the hills be removed; but my loving kindness shall not depart from you, neither shall my covenant of peace be removed,” says Yahweh who has mercy on you.",
+                      "note": "Isaiah's 'the mountains may depart' as a figure of cosmic upheaval feeds the same stock of immovable-object-displaced imagery that the mustard-seed/sycamore saying exploits. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "17.4",
+                  "ref": "17:7-10",
+                  "echoes": [
+                    {
+                      "source": "Job 22:2-3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Can a man be profitable to God? Surely he who is wise is profitable to himself. Is it any pleasure to the Almighty, that you are righteous? Or does it benefit him, that you make your ways perfect?",
+                      "note": "Eliphaz asks whether a man can be profitable to God or whether it is gain to the Almighty that one is righteous, the wisdom premise that human service places God under no obligation. This grounds the 'we are unworthy servants, we have only done our duty' logic; moderate Coherence with the servant parable.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 35:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If you are righteous, what do you give him? Or what does he receive from your hand?",
+                      "note": "Elihu's 'if you are righteous, what do you give him?' states the same theology of non-meritorious obedience underlying the unprofitable-servant saying. Recurrence of the motif across Job strengthens the Availability and Coherence, though there is no verbal quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 123:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, as the eyes of servants look to the hand of their master, as the eyes of a maid to the hand of her mistress; so our eyes look to Yahweh, our God, until he has mercy on us.",
+                      "note": "The image of servants' eyes fixed on the hand of their master, waiting on his command, supplies the master-servant deference picture the parable assumes. Conceptual rather than verbal, hence low confidence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 25:55",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For to me the children of Israel are servants; they are my servants whom I brought out of the land of Egypt. I am Yahweh your God.",
+                      "note": "God's claim that the Israelites are his servants whom he brought out of Egypt frames Israel's whole obedience as owed service, the covenantal backdrop to 'we have only done what was our duty.' Faint, diffuse, contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1379,7 +1831,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/habakkuk-1"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1392,7 +1847,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-37"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 37:4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.23-John.16.28",
+                      "refDisplay": "John 16:23–28",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-16.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 37:5",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.5.5-1Pet.5.11",
+                      "refDisplay": "1 Peter 5:5–11",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1411,7 +1904,299 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-2",
+                  "echoes": [
+                    {
+                      "source": "Numbers 6:25-26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The greeting 'Grace, mercy, and peace' echoes the Aaronic priestly blessing, where the LORD is asked to 'be gracious' and to 'give peace.' The triad of grace and peace in Paul's salutations draws on this benedictory form."
+                    },
+                    {
+                      "source": "Deuteronomy 30:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "to love Yahweh your God, to obey his voice, and to cling to him; for he is your life, and the length of your days; that you may dwell in the land which Yahweh swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them.",
+                      "note": "Paul styles his apostleship as serving 'the promise of the life which is in Christ Jesus.' The Deuteronomic covenant blessing frames clinging to the LORD as the source of 'life and length of days,' an OT matrix for the promise-of-life language Paul Christologizes here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 17:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you.",
+                      "note": "The 'promise' according to which Paul is sent recalls the patriarchal covenant promise to Abraham and his seed; Pauline 'promise' theology consistently roots in this Genesis covenant. Faint here, marked contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:3-5",
+                  "echoes": [
+                    {
+                      "source": "Psalm 24:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.",
+                      "note": "The 'pure conscience' with which Paul serves echoes the OT ideal of the 'pure heart and clean hands' required to stand before God. The psalm's purity-of-heart standard underlies the conscience language transposed into Pauline interiority."
+                    },
+                    {
+                      "source": "Deuteronomy 6:5-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might. These words, which I command you this day, shall be on your heart; and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+                      "note": "The 'sincere faith' that lived first in grandmother Lois and mother Eunice and now in Timothy enacts the Shema's command to bind covenant faith on the heart and teach it diligently to children across generations. The intergenerational transmission of faith is the Deuteronomic catechetical ideal."
+                    },
+                    {
+                      "source": "Psalm 78:5-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For he established a testimony in Jacob, and appointed a teaching in Israel, which he commanded our fathers, that they should make them known to their children; that the generation to come might know, even the children who should be born; who should arise and tell their children, that they might set their hope in God, and not forget the works of God, but keep his commandments,",
+                      "note": "The chain of faith from grandmother to mother to son mirrors the psalm's mandate that fathers teach the next generation so that children yet unborn would set their hope in God. Timothy's inherited 'sincere faith' embodies this generational handing-down."
+                    },
+                    {
+                      "source": "2 Maccabees 15:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And the vision of that dream was this: He saw Onias, him that was high priest, a noble and good man, reverend in bearing, yet gentle in manner and well-spoken, and exercised from a child in all points of virtue, with outstretched hands invoking blessings on the whole body of the Jews:",
+                      "note": "Serving God 'as my forefathers did' with a 'pure conscience' presents Paul's gospel as continuous with ancestral Jewish piety; 2 Maccabees praises the high priest Onias as a man of upright conscience and ancestral devotion. Deuterocanonical conscience language is faint background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Create in me a clean heart, O God. Renew a right spirit within me.",
+                      "note": "The plea for a 'clean heart' and right spirit parallels Paul's claim to serve God with a pure conscience; the conscience motif develops the OT clean-heart ideal. Faint, marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 8:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh smelled the pleasant aroma. Yahweh said in his heart, “I will not again curse the ground any more for man’s sake because the imagination of man’s heart is evil from his youth; neither will I ever again strike every living thing, as I have done.",
+                      "note": "Paul's 'unceasing memory' and remembering 'night and day' draws on the OT idiom of a fragrant memorial / remembrance before God; Genesis introduces the 'pleasing aroma' the LORD remembers. The remembrance language is faint.",
+                      "contested": true,
+                      "altSource": "Numbers 10:9-10"
+                    },
+                    {
+                      "source": "Proverbs 1:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, listen to your father’s instruction, and don’t forsake your mother’s teaching:",
+                      "note": "The faith received specifically through grandmother and mother recalls the wisdom tradition's appeal to heed 'your mother's teaching.' The maternal pedagogy motif faintly underlies the naming of Lois and Eunice.",
+                      "contested": true,
+                      "altSource": "Proverbs 31:1"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.6",
+                  "ref": "1:6-7",
+                  "echoes": [
+                    {
+                      "source": "Joshua 1:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid, neither be dismayed: for Yahweh your God is with you wherever you go.”",
+                      "note": "'God didn't give us a spirit of fear' answers the LORD's charge to Joshua, 'be strong and courageous; do not be afraid,' precisely as Timothy steps into a Joshua-like succession of leadership. The not-fearing-but-strong commission undergirds the whole exhortation."
+                    },
+                    {
+                      "source": "Numbers 27:18-23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him. Set him before Eleazar the priest, and before all the congregation; and commission him in their sight. You shall give authority to him, that all the congregation of the children of Israel may obey. He shall stand before Eleazar the priest, who shall inquire for him by the judgment of the Urim before Yahweh. At his word they shall go out, and at his […]",
+                      "note": "Stirring up 'the gift of God which is in you through the laying on of my hands' recalls Moses commissioning Joshua by the laying on of hands so that he was filled with the spirit of wisdom. The ordination-by-imposition-of-hands motif is rooted in this Mosaic succession."
+                    },
+                    {
+                      "source": "Deuteronomy 34:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands on him. The children of Israel listened to him, and did as Yahweh commanded Moses.",
+                      "note": "Joshua was 'full of the spirit of wisdom, for Moses had laid his hands on him,' the precise pattern Paul invokes: a spiritual gift conferred through imposition of hands by the predecessor. Strongly parallels Timothy's reception of the charisma."
+                    },
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The Spirit God gives, 'of power, love, and self-control' rather than fear, recalls the messianic endowment of the Spirit of wisdom, counsel, and might resting on the shoot of Jesse. The enumerated Spirit-qualities echo Isaiah's catalog of the Spirit's gifts."
+                    },
+                    {
+                      "source": "Isaiah 41:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
+                      "note": "'Don't be afraid, for I am with you... I will strengthen you' parallels Paul's denial that God gives a spirit of fear and his assertion of a spirit of power. Isaiah's salvation-oracle formula of fearlessness-through-divine-strength stands behind the verse."
+                    },
+                    {
+                      "source": "Zechariah 4:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.",
+                      "note": "The 'spirit of power' contrasted with fear echoes 'not by might nor by power, but by my Spirit'; the divine Spirit as the true source of effective strength. Faint conceptual link, marked contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.8",
+                  "ref": "1:8-10",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 50:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed.",
+                      "note": "'Don't be ashamed of the testimony' draws on the Servant's resolve: 'I have set my face like a flint, and I know I will not be put to shame.' The vindication-of-the-unashamed-witness motif shapes Paul's appeal to Timothy to embrace suffering without shame."
+                    },
+                    {
+                      "source": "Psalm 119:46",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will also speak of your statutes before kings, and will not be disappointed.",
+                      "note": "'I will speak of your testimonies before kings, and will not be put to shame' directly anticipates Paul's call not to be ashamed of the testimony and of his chains. The unashamed public confession before rulers is the psalmist's posture."
+                    },
+                    {
+                      "source": "Deuteronomy 7:7-8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh didn’t set his love on you, nor choose you, because you were more in number than any people; for you were the fewest of all peoples: but because Yahweh loves you, and because he desires to keep the oath which he swore to your fathers, Yahweh has brought you out with a mighty hand, and redeemed you out of the house of bondage, from the hand of Pharaoh king of Egypt.",
+                      "note": "God 'saved us and called us... not according to our works, but according to his own purpose and grace' restates the Deuteronomic logic of election: the LORD set his love on Israel not because of their numbers or merit but because he loved them and kept his oath. Election by sheer gracious purpose is the OT root."
+                    },
+                    {
+                      "source": "Isaiah 25:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He has swallowed up death forever! The Lord Yahweh will wipe away tears from off all faces. He will take the reproach of his people away from off all the earth, for Yahweh has spoken it.",
+                      "note": "Christ 'who abolished death' echoes the eschatological promise that the LORD 'will swallow up death forever.' The abolition-of-death motif is the climactic Isaianic hope now realized in the Savior's appearing."
+                    },
+                    {
+                      "source": "Wisdom 2:23",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Because God created man for incorruption, And made him an image of his own proper being;",
+                      "note": "Christ 'brought life and immortality to light' resonates with Wisdom's claim that God created humanity for incorruption, in the image of his own eternity. The deuterocanonical immortality/incorruption vocabulary directly underlies Paul's athanasia language."
+                    },
+                    {
+                      "source": "Wisdom 3:1-4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But the souls of the righteous are in the hand of God, And no torment will touch them. In the eyes of the foolish they seemed to have died; And their departure was accounted to be their hurt, And their journeying away from us to be their ruin: But they are in peace. For even if in the sight of men they be punished, Their hope is full of immortality;",
+                      "note": "The hope that 'the souls of the righteous are in the hand of God' and their 'hope is full of immortality' parallels the life-and-immortality brought to light through the gospel. Wisdom's immortality theology is the closest Second-Temple antecedent."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "'He who believes will not be put to shame' is a recurrent Pauline shame-text; here it faintly informs the unashamed-testimony theme even without citation. Marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 13:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will ransom them from the power of Sheol. I will redeem them from death! Death, where are your plagues? Sheol, where is your destruction? “Compassion will be hidden from my eyes.",
+                      "note": "'I will ransom them from the power of the grave; I will redeem them from death' provides an OT oracle of death's defeat behind Christ's abolishing of death. Faint, overlapping with Isaiah 25:8.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The disclosure of 'life and immortality' resonates with Daniel's resurrection hope of awaking to everlasting life. The apocalyptic immortality promise is a faint backdrop to the gospel's bringing of imperishable life to light.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.11",
+                  "ref": "1:11-12",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "yes, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give you for a light to the nations, that you may be my salvation to the end of the earth.”",
+                      "note": "Paul's appointment as 'a teacher of the Gentiles' enacts the Servant's commission to be 'a light to the nations,' that salvation might reach the ends of the earth. His Gentile herald-role fulfills Isaiah's light-to-the-nations mandate."
+                    },
+                    {
+                      "source": "Isaiah 50:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed.",
+                      "note": "'Yet I am not ashamed' in the midst of suffering reprises the Servant's flint-faced confidence that he will not be put to shame. The Servant's unashamed endurance models Paul's own."
+                    },
+                    {
+                      "source": "Psalm 31:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Into your hand I commend my spirit. You redeem me, Yahweh, God of truth.",
+                      "note": "'I know whom I have believed, and... he is able to guard that which I have committed to him' echoes 'Into your hand I commit my spirit; you have redeemed me.' The committing/entrusting of oneself to the faithful God parallels the psalmist's deposit. Marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 56:3-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When I am afraid, I will put my trust in you. In God, I praise his word. In God, I put my trust. I will not be afraid. What can flesh do to me?",
+                      "note": "'In God I trust; I will not be afraid' parallels Paul's confident 'I know whom I have believed' and lack of shame. Faint trust-formula resonance.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.13",
+                  "ref": "1:13-14",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 11:18-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore you shall lay up these my words in your heart and in your soul. You shall bind them for a sign on your hand, and they shall be for frontlets between your eyes. You shall teach them your children, talking of them, when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+                      "note": "'Guard' the good deposit through the Spirit echoes the command to lay up God's words in heart and soul, binding and teaching them. The entrusted-treasure-of-the-word imagery is rooted in Deuteronomy's commands to keep and transmit the torah."
+                    },
+                    {
+                      "source": "Proverbs 4:13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Take firm hold of instruction. Don’t let her go. Keep her, for she is your life.",
+                      "note": "'Take hold of instruction; do not let go; keep her, for she is your life' closely parallels 'hold the pattern of sound words' and 'guard' the deposit. The wisdom command to grip and guard saving instruction undergirds Paul's exhortation."
+                    },
+                    {
+                      "source": "Deuteronomy 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall not add to the word which I command you, neither shall you take away from it, that you may keep the commandments of Yahweh your God which I command you.",
+                      "note": "Holding 'the pattern of sound words' and guarding 'that good thing committed to you' draws on the Deuteronomic charge to add nothing and take nothing from the commanded word but to keep it. The deposit-of-teaching motif reflects covenant-word preservation.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 6:6-9"
+                    },
+                    {
+                      "source": "Proverbs 2:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, if you will receive my words, and store up my commandments within you;",
+                      "note": "Receiving words and 'treasuring up' commandments parallels the entrusted good deposit to be guarded. Faint wisdom-deposit link, marked contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1430,7 +2215,91 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "17.3",
+                  "ref": "17:5-6",
+                  "echoes": [
+                    {
+                      "source": "Zechariah 4:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Who are you, great mountain? Before Zerubbabel you are a plain; and he will bring out the capstone with shouts of ‘Grace, grace, to it!’”",
+                      "note": "Zechariah's word that the great 'mountain' shall become a plain before Zerubbabel by the Spirit, not by might, is the canonical pairing of faith with the moving/leveling of an immovable obstacle. The mountain-removed-by-faith logic gives Coherence with 'faith like a mustard seed,' though Luke uses a sycamore-into-sea rather than a mountain, lowering Volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 46:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore we won’t be afraid, though the earth changes, though the mountains are shaken into the heart of the seas;",
+                      "note": "The psalm's confidence even 'though the mountains be carried into the midst of the sea' supplies the very image of an immovable thing thrown into the sea, here recast as the work of faith. The verbal overlap (uprooted/carried into the sea) is real but the figure is proverbial, so it is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 3:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He stood, and shook the earth. He looked, and made the nations tremble. The ancient mountains were crumbled. The age-old hills collapsed. His ways are eternal.",
+                      "note": "The theophany that scatters the everlasting mountains coheres with the faith-moves-mountains topos behind the uprooted-tree saying. The connection is conceptual and diffuse, so confidence is low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 54:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the mountains may depart, and the hills be removed; but my loving kindness shall not depart from you, neither shall my covenant of peace be removed,” says Yahweh who has mercy on you.",
+                      "note": "Isaiah's 'the mountains may depart' as a figure of cosmic upheaval feeds the same stock of immovable-object-displaced imagery that the mustard-seed/sycamore saying exploits. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "17.4",
+                  "ref": "17:7-10",
+                  "echoes": [
+                    {
+                      "source": "Job 22:2-3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Can a man be profitable to God? Surely he who is wise is profitable to himself. Is it any pleasure to the Almighty, that you are righteous? Or does it benefit him, that you make your ways perfect?",
+                      "note": "Eliphaz asks whether a man can be profitable to God or whether it is gain to the Almighty that one is righteous, the wisdom premise that human service places God under no obligation. This grounds the 'we are unworthy servants, we have only done our duty' logic; moderate Coherence with the servant parable.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 35:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If you are righteous, what do you give him? Or what does he receive from your hand?",
+                      "note": "Elihu's 'if you are righteous, what do you give him?' states the same theology of non-meritorious obedience underlying the unprofitable-servant saying. Recurrence of the motif across Job strengthens the Availability and Coherence, though there is no verbal quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 123:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, as the eyes of servants look to the hand of their master, as the eyes of a maid to the hand of her mistress; so our eyes look to Yahweh, our God, until he has mercy on us.",
+                      "note": "The image of servants' eyes fixed on the hand of their master, waiting on his command, supplies the master-servant deference picture the parable assumes. Conceptual rather than verbal, hence low confidence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 25:55",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For to me the children of Israel are servants; they are my servants whom I brought out of the land of Egypt. I am Yahweh your God.",
+                      "note": "God's claim that the Israelites are his servants whom he brought out of Egypt frames Israel's whole obedience as owed service, the covenantal backdrop to 'we have only done what was our duty.' Faint, diffuse, contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

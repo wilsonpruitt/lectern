@@ -699,7 +699,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-32"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -712,7 +715,75 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-91"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 91:3",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.3.1-1Tim.3.7",
+                      "refDisplay": "1 Timothy 3:1–7",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-3.1"
+                    },
+                    {
+                      "refKey": "2Tim.2.22-2Tim.2.26",
+                      "refDisplay": "2 Timothy 2:22–26",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "2.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-2.5"
+                    },
+                    {
+                      "refKey": "2Tim.4.14-2Tim.4.18",
+                      "refDisplay": "2 Timothy 4:14–18",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "4.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-4.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 91:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.23.37-Matt.23.39",
+                      "refDisplay": "Matthew 23:37–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "23.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-23.5"
+                    },
+                    {
+                      "refKey": "Luke.13.34-Luke.13.35",
+                      "refDisplay": "Luke 13:34–35",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.8"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -731,7 +802,314 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.6",
+                  "ref": "6:6-8",
+                  "echoes": [
+                    {
+                      "source": "Job 1:21",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He said, “Naked I came out of my mother’s womb, and naked shall I return there. Yahweh gave, and Yahweh has taken away. Blessed be Yahweh’s name.”",
+                      "note": "'We brought nothing into the world, and we certainly can't carry anything out' closely renders Job's confession, 'Naked I came from my mother's womb, and naked I will return there.' The shared logic of human poverty at birth and at death grounds the call to contentment and is the primary scriptural source for v.7."
+                    },
+                    {
+                      "source": "Ecclesiastes 5:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "As he came out of his mother’s womb, naked shall he go again as he came, and shall take nothing for his labor, which he may carry away in his hand.",
+                      "note": "'As he came from his mother's womb, naked shall he go again as he came, and shall take nothing for his labor.' Qoheleth's meditation on the impossibility of carrying wealth out of life is a direct conceptual parallel to v.7 and reinforces the Job allusion. The pairing forms the wisdom backbone of the contentment teaching."
+                    },
+                    {
+                      "source": "Psalm 49:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For when he dies he shall carry nothing away. His glory shall not descend after him.",
+                      "note": "'For when he dies he will carry nothing away; his glory will not descend after him.' The psalm's reflection that the rich take nothing in death directly parallels the claim that we 'can't carry anything out.' A strong supporting witness to the same death-and-dispossession tradition."
+                    },
+                    {
+                      "source": "Sirach 5:1-8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Set not your heart upon your goods; And say not, They are sufficient for me. Follow not your own mind and your strength, To walk in the desires of your heart; And say not, Who will have dominion over me? For the Lord will surely take vengeance on you. Say not, I sinned, and what happened to me? For the Lord is longsuffering. Concerning atonement, be not without fear, To add sin upon sins: And say not, His compassion is great; He will be pacified for the […]",
+                      "note": "Ben Sira warns against relying on wealth and saying 'I have enough,' urging the reader not to follow heart and strength after riches. The deuterocanonical wisdom on the futility of trusting possessions undergirds the contentment ethic of vv.6-8 and the warnings of vv.9-10."
+                    },
+                    {
+                      "source": "Proverbs 30:8-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me; lest I be full, deny you, and say, ‘Who is Yahweh?’ or lest I be poor, and steal, and so dishonor the name of my God.",
+                      "note": "Agur's prayer, 'feed me with the food that is needful for me,' seeking neither poverty nor riches, supplies the ideal of sufficiency behind 'having food and clothing, we will be content.' The wisdom request for daily necessities is the closest sapiential parallel to v.8."
+                    },
+                    {
+                      "source": "Genesis 28:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Jacob vowed a vow, saying, “If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and clothing to put on,",
+                      "note": "Jacob's vow asks God for 'bread to eat and clothing to wear,' the same minimal pairing of food and clothing that defines contentment in v.8. The verbal pairing may stand behind Paul's formula, though it is a common biblical idiom of basic provision.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 8:3-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He humbled you, and allowed you to be hungry, and fed you with manna, which you didn’t know, neither did your fathers know; that he might teach you that man does not live by bread only, but man lives by every word that proceeds out of Yahweh’s mouth. Your clothing didn’t grow old on you, neither did your foot swell, these forty years.",
+                      "note": "The wilderness lesson that God provided manna and that clothing did not wear out teaches dependence on God for daily food and covering. This forms a faint background to the food-and-clothing sufficiency that the believer is to rest content in.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.9",
+                  "ref": "6:9-10",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 15:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He who is greedy for gain troubles his own house, but he who hates bribes will live.",
+                      "note": "'He who is greedy for gain troubles his own house.' The maxim that avarice brings ruin upon the grasping person directly underwrites 'the love of money is a root of all kinds of evil' and the picture of those who 'pierced themselves through with many sorrows.' A core wisdom source for v.10."
+                    },
+                    {
+                      "source": "Sirach 27:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Many have sinned for a thing indifferent; And he that seeks to multiply gain will turn his eye away.",
+                      "note": "'Many have sinned for the sake of profit, and he who seeks to multiply gain will turn his eye away.' Ben Sira's aphorism that the pursuit of money is itself a cause of sin is the closest known parallel to 'the love of money is a root of all kinds of evil.' Strong deuterocanonical antecedent for v.10."
+                    },
+                    {
+                      "source": "Sirach 31:5-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He that loves gold shall not be justified; And he that follows destruction shall himself have his fill of it. Many have been given over to ruin for the sake of gold; And their perdition meets them face to face. It is a stumbling block to those who sacrifice to it; And every fool shall be taken therewith.",
+                      "note": "'He who loves gold will not be justified... Gold has been a stumbling block to many, and their destruction has met them face to face. It is a snare to those who are devoted to it.' The imagery of gold as a snare causing ruin parallels both the 'snare' of v.9 and the 'root of evil' of v.10. A remarkably close sapiential model."
+                    },
+                    {
+                      "source": "Ecclesiastes 5:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who loves silver shall not be satisfied with silver; nor he who loves abundance, with increase: this also is vanity.",
+                      "note": "'He who loves silver shall not be satisfied with silver, nor he who loves abundance with increase.' Qoheleth's insight into the insatiability of money-love directly parallels the diagnosis of those 'determined to be rich' and 'the love of money.' A direct wisdom witness to the avarice critique."
+                    },
+                    {
+                      "source": "Proverbs 23:4-5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t weary yourself to be rich. In your wisdom, show restraint. Why do you set your eyes on that which is not? For it certainly sprouts wings like an eagle and flies in the sky.",
+                      "note": "'Don't weary yourself to be rich... riches certainly sprout wings.' The warning against straining to be wealthy maps onto 'those who are determined to be rich fall into a temptation and a snare.' The fleeting, ensnaring character of riches grounds vv.9-10."
+                    },
+                    {
+                      "source": "Proverbs 28:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "A stingy man hurries after riches, and doesn’t know that poverty waits for him.",
+                      "note": "'A stingy man hurries after riches, and doesn't know that poverty waits for him.' The proverb that the avaricious rush toward wealth only to meet ruin parallels the trajectory of those who 'fall into... ruin and destruction.' Supporting wisdom source."
+                    },
+                    {
+                      "source": "Proverbs 1:18-19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "but these lay wait for their own blood. They lurk secretly for their own lives. So are the ways of everyone who is greedy for gain. It takes away the life of its owners.",
+                      "note": "'So are the ways of everyone who is greedy for gain. It takes away the life of its owners.' Wisdom's claim that greed is self-destructive, ambushing the very ones who seek it, parallels those who in greed 'pierced themselves through with many sorrows.' A self-harm motif resonant with v.10.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 11:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, be not busy about many matters: For if you meddle much, you will not be unpunished; And if you pursue, you will not overtake; And you will not escape by fleeing.",
+                      "note": "'If you pursue, you will not overtake... and you will not escape by fleeing.' Ben Sira's counsel against frenetic pursuit of gain resonates with those 'determined to be rich' who fall into a snare. A faint deuterocanonical parallel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.11",
+                  "ref": "6:11-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 33:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "This is the blessing with which Moses the man of God blessed the children of Israel before his death.",
+                      "note": "The address 'man of God' is the standard Hebrew Bible title for a prophet or authorized servant of God, applied to Moses ('the man of God') and frequently to figures like Elijah and Elisha. Timothy is cast in this prophetic-leadership lineage, charged to embody covenant virtue."
+                    },
+                    {
+                      "source": "1 Samuel 9:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to him, “See now, there is in this city a man of God, and he is a man who is held in honor. All that he says comes surely to pass. Now let us go there. Perhaps he can tell us concerning our journey whereon we go.”",
+                      "note": "Samuel is repeatedly called 'the man of God,' establishing the title as a designation for a trusted seer who speaks for the Lord. The Pastoral epithet for Timothy draws on this same OT usage of the authorized divine spokesman.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 21:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He who follows after righteousness and kindness finds life, righteousness, and honor.",
+                      "note": "'He who follows after righteousness and kindness finds life, righteousness, and honor.' The exhortation to 'follow after righteousness... and gentleness' and so 'lay hold of eternal life' resonates with wisdom's promise that pursuing righteousness leads to life. A thematic virtue-pursuit parallel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.13",
+                  "ref": "6:13-16",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 10:17",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For Yahweh your God, he is God of gods, and Lord of lords, the great God, the mighty, and the awesome, who doesn’t respect persons, nor takes reward.",
+                      "note": "'For Yahweh your God, he is God of gods and Lord of lords.' The doxology's title 'King of kings, and Lord of lords' (v.15) directly takes up this Deuteronomic confession of God's supremacy over all powers. The clearest verbal source for the title."
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "'You cannot see my face, for man may not see me and live.' The doxology's 'whom no man has seen, nor can see' (v.16) directly echoes God's word to Moses on the impossibility of beholding the divine face. A primary scriptural source for the invisibility motif."
+                    },
+                    {
+                      "source": "Psalm 104:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He covers himself with light as with a garment. He stretches out the heavens like a curtain.",
+                      "note": "God is 'covered with light as with a garment.' 'Dwelling in unapproachable light' (v.16) draws on this hymnic image of God clothed in light. The closest scriptural antecedent for the light-dwelling description."
+                    },
+                    {
+                      "source": "Nehemiah 9:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You are Yahweh, even you alone. You have made heaven, the heaven of heavens, with all their army, the earth and all things that are on it, the seas and all that is in them, and you preserve them all. The army of heaven worships you.",
+                      "note": "'You give life to all of them' praises the one God who made and sustains all things. The charge before 'God, who gives life to all things' (v.13) echoes this confession of the Creator as life-giver to the whole creation. A direct conceptual parallel to the life-giving formula."
+                    },
+                    {
+                      "source": "Deuteronomy 32:39",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“See now that I myself am he. There is no god with me. I kill and I make alive. I wound and I heal. There is no one who can deliver out of my hand.",
+                      "note": "'I kill and I make alive... there is no god with me.' God's exclusive prerogative over life and death undergirds 'God, who gives life to all things' and the doxology's stress that he 'alone has immortality.' Supports both the life-giver and sole-sovereign motifs of vv.13-16."
+                    },
+                    {
+                      "source": "Psalm 136:2-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give thanks to the God of gods; for his loving kindness endures forever. Give thanks to the Lord of lords; for his loving kindness endures forever:",
+                      "note": "'Give thanks to the God of gods... to the Lord of lords.' The liturgical pairing of these superlatives reinforces the 'Lord of lords' title of v.15 and its hymnic, doxological setting. A strong secondary witness alongside Deuteronomy 10:17."
+                    },
+                    {
+                      "source": "Daniel 2:47",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The king answered to Daniel, and said, Of a truth your God is the God of gods, and the Lord of kings, and a revealer of secrets, since you have been able to reveal this secret.",
+                      "note": "Nebuchadnezzar confesses Daniel's God as 'God of gods, and Lord of kings.' The royal-supremacy formula praising the God who is over all kings parallels 'King of kings, and Lord of lords.' Reflects the apocalyptic vocabulary of divine kingship behind v.15."
+                    },
+                    {
+                      "source": "Exodus 24:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The appearance of Yahweh’s glory was like devouring fire on the top of the mountain in the eyes of the children of Israel.",
+                      "note": "The glory of the Lord appeared 'like a devouring fire' on the mountain, inaccessible to the people. The unapproachable, blazing presence informs the 'unapproachable light' in which God dwells. A faint Sinai-theophany resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 36:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For with you is the spring of life. In your light shall we see light.",
+                      "note": "'For with you is the spring of life. In your light we will see light.' The association of God with life and with light loosely supports the doxology's coupling of the life-giver (v.13) with the God of unapproachable light (v.16). A thematic resonance rather than a citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 60:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The sun shall be no more your light by day; neither for brightness shall the moon give light to you: but Yahweh will be to you an everlasting light, and your God your glory.",
+                      "note": "'Yahweh will be your everlasting light.' The eschatological depiction of God as light may faintly inform the doxology's 'unapproachable light.' A distant resonance secondary to Psalm 104:2.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.17",
+                  "ref": "6:17-19",
+                  "echoes": [
+                    {
+                      "source": "Psalm 62:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t trust in oppression. Don’t become vain in robbery. If riches increase, don’t set your heart on them.",
+                      "note": "'If riches increase, don't set your heart on them.' The charge that the rich not 'have their hope set on the uncertainty of riches' closely matches the psalm's warning against fixing the heart on growing wealth. A primary source for v.17."
+                    },
+                    {
+                      "source": "Proverbs 11:28",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He who trusts in his riches will fall, but the righteous shall flourish as the green leaf.",
+                      "note": "'He who trusts in his riches will fall.' The contrast between trusting riches and the alternative directly parallels the command not to hope in 'the uncertainty of riches' but on the living God. A core wisdom antecedent for v.17."
+                    },
+                    {
+                      "source": "Jeremiah 9:23-24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Thus says Yahweh, Don’t let the wise man glory in his wisdom, neither let the mighty man glory in his might, don’t let the rich man glory in his riches; but let him who glories glory in this, that he has understanding, and knows me, that I am Yahweh who exercises loving kindness, justice, and righteousness, in the earth: for in these things I delight, says Yahweh.",
+                      "note": "'Don't let the rich man glory in his riches; but let him who glories glory in this, that he... knows me.' The redirection of the wealthy from boasting in riches to glorying in God parallels the charge that the rich not be haughty but hope on the living God. A strong source for the structure of v.17."
+                    },
+                    {
+                      "source": "Proverbs 23:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Why do you set your eyes on that which is not? For it certainly sprouts wings like an eagle and flies in the sky.",
+                      "note": "Riches 'certainly sprout wings, like an eagle they fly toward the sky.' The fleeting, unreliable nature of wealth grounds the phrase 'the uncertainty of riches.' A vivid wisdom image of money's instability."
+                    },
+                    {
+                      "source": "Deuteronomy 8:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and lest you say in your heart, “My power and the might of my hand has gotten me this wealth.” But you shall remember Yahweh your God, for it is he who gives you power to get wealth; that he may establish his covenant which he swore to your fathers, as at this day.",
+                      "note": "'Beware lest you say... My power and the might of my hand has gotten me this wealth. But you shall remember Yahweh your God, for it is he who gives you power to get wealth.' The warning against pride in self-made riches and the reminder that God is the giver parallels the charge against the haughty rich and the God 'who richly provides us with everything.'"
+                    },
+                    {
+                      "source": "Proverbs 19:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who has pity on the poor lends to Yahweh; he will reward him.",
+                      "note": "'He who has pity on the poor lends to Yahweh; he will reward him.' The exhortation that the rich 'be rich in good works, ready to distribute,' 'laying up in store... a good foundation against the time to come' echoes the wisdom principle that generosity to the needy is treasure stored with God. Grounds the storing-up imagery of v.19."
+                    },
+                    {
+                      "source": "Tobit 4:7-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give alms from your possessions. When you give alms, don’t let your eye be envious. Don’t turn away your face from any poor man, and the face of God won’t be turned away from you. As your possessions are, give alms of it according to your abundance. If you have little, don’t be afraid to give alms according to that little; for you lay up a good treasure for yourself against the day of necessity; because alms-giving delivers from death, and doesn’t allow […]",
+                      "note": "'Give alms from your possessions... you will be laying up a good treasure for yourself against the day of necessity.' Tobit's almsgiving counsel that charity stores up a treasure for the day of need is a remarkably close parallel to 'laying up in store... a good foundation against the time to come' (v.19). A strong deuterocanonical source."
+                    },
+                    {
+                      "source": "Sirach 29:11-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold. Shut up alms in your store-chambers; And it shall deliver you out of all affliction:",
+                      "note": "'Lay up your treasure according to the commandments... and it will profit you more than gold. Store up almsgiving in your treasury, and it will rescue you from all affliction.' Ben Sira's image of almsgiving as treasure that delivers in the future directly parallels the rich laying up a good foundation against the time to come. Close sapiential antecedent for v.19."
+                    },
+                    {
+                      "source": "Proverbs 30:8-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me; lest I be full, deny you, and say, ‘Who is Yahweh?’ or lest I be poor, and steal, and so dishonor the name of my God.",
+                      "note": "Agur's prayer against riches that lead one to deny God and against poverty that leads to theft frames wealth as spiritually perilous. This wisdom ambivalence about riches faintly supports the warning that the rich not be haughty nor trust their wealth.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -750,7 +1128,147 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.7",
+                  "ref": "16:19-21",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 15:7-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "If a poor man, one of your brothers, is with you within any of your gates in your land which Yahweh your God gives you, you shall not harden your heart, nor shut your hand from your poor brother; but you shall surely open your hand to him, and shall surely lend him sufficient for his need, which he lacks. Beware that there not be a base thought in your heart, saying, “The seventh year, the year of release, is at hand”; and your eye be evil against your […]",
+                      "note": "Lazarus laid 'at the gate' desiring crumbs while the rich man feasts dramatizes the Deuteronomic command not to harden the heart against the poor brother at your gate, for the poor will never cease in the land. High coherence with the covenantal gate-and-poor topos."
+                    },
+                    {
+                      "source": "Job 2:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head. He took for himself a potsherd to scrape himself with, and he sat among the ashes.",
+                      "note": "Lazarus 'full of sores' with dogs licking him evokes Job afflicted with sores from sole to crown, scraping himself amid loss. The shared imagery of a body covered in sores as the type of the abject sufferer gives coherent, available background."
+                    },
+                    {
+                      "source": "Psalm 73:3-12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For I was envious of the arrogant, when I saw the prosperity of the wicked. For there are no struggles in their death, but their strength is firm. They are free from burdens of men, neither are they plagued like other men. Therefore pride is like a chain around their neck. Violence covers them like a garment. Their eyes bulge with fat. Their minds pass the limits of conceit. They scoff and speak with malice. In arrogance, they threaten oppression. They […]",
+                      "note": "The prospering, sumptuously clothed rich man set against the afflicted poor man echoes the psalmist's scandal at the wicked who are 'always at ease' and 'clothed with violence' while the godly suffer, resolved only at their end. Strong coherence with the reversal-of-fortunes frame that the parable will enact."
+                    },
+                    {
+                      "source": "Amos 6:1-7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Woe to those who are at ease in Zion, and to those who are secure on the mountain of Samaria, the notable men of the chief of the nations, to whom the house of Israel come! Go to Calneh, and see; and from there go to Hamath the great; then go down to Gath of the Philistines. are they better than these kingdoms? or is their border greater than your border? Those who put far away the evil day, and cause the seat of violence to come near; Who lie on beds of […]",
+                      "note": "The rich man 'clothed in purple and fine linen, feasting in luxury every day' matches Amos' woe on those who lie on ivory beds, eat lambs, and feast while not grieved over ruin, who go first into exile. The prophetic indictment of callous luxury gives recurrent, coherent background."
+                    },
+                    {
+                      "source": "Proverbs 21:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Whoever stops his ears at the cry of the poor, he will also cry out, but shall not be heard.",
+                      "note": "'Whoever shuts his ear to the cry of the poor will himself cry out and not be heard' anticipates the rich man's later unanswered cry from Hades after ignoring Lazarus at his gate. Coherence with the lex talionis of neglected mercy is real but the link is thematic, not verbal.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.8",
+                  "ref": "16:22-26",
+                  "echoes": [
+                    {
+                      "source": "Genesis 15:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "but you will go to your fathers in peace. You will be buried in a good old age.",
+                      "note": "Being 'carried to Abraham's bosom' and the rich man's address 'Father Abraham' draw on the patriarchal hope of being gathered to one's fathers, with Abraham as the paradigmatic destination of the righteous dead. Coherence with the gathered-to-Abraham motif is strong, though 'bosom' as the resting place is Second-Temple development."
+                    },
+                    {
+                      "source": "4 Maccabees 13:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If we suffer thus, Abraham, and Isaac, and Jacob will receive us, and all the fathers will commend us.",
+                      "note": "'Abraham, Isaac and Jacob will receive us' on the lips of the martyrs supplies the explicit Second-Temple picture of the righteous welcomed by the patriarchs after death, illuminating 'Abraham's bosom.' Availability and coherence with the post-mortem reception motif support the echo."
+                    },
+                    {
+                      "source": "Isaiah 66:24",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“They shall go out, and look on the dead bodies of the men who have transgressed against me: for their worm shall not die, neither shall their fire be quenched; and they will be loathsome to all mankind.”",
+                      "note": "The rich man's torment, flame, and anguish in Hades draws on Isaiah's closing vision of the dead whose fire is not quenched, the canonical seedbed of post-mortem fiery punishment. Coherence with the unquenched-fire judgment is high and the text was widely available."
+                    },
+                    {
+                      "source": "Sirach 21:9-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The congregation of wicked men is as tow wrapped together; And the end of them is a flame of fire. The way of sinners is made smooth with stones; And at the last end thereof is the pit of Hades.",
+                      "note": "Ben Sira's image of the assembly of the wicked as tow set to flame and the broad road of sinners ending in Hades coheres with the flame and fixed-gulf fate of the rich man. The link is thematic to the sapiential fate-of-the-wicked topos rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Enoch 22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "Enoch's tour of the hollow places of the dead, where the righteous and wicked are separated by a great division awaiting judgment, parallels the great chasm fixed between Lazarus and the rich man. As pseudepigraphal background to Second-Temple afterlife topography it is warranted but faint and contested.",
+                      "contested": true,
+                      "altSource": "4 Ezra 7:36-38"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.9",
+                  "ref": "16:27-31",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 18:15-19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh your God will raise up to you a prophet from your midst, of your brothers, like me. You shall listen to him. This is according to all that you desired of Yahweh your God in Horeb in the day of the assembly, saying, “Let me not hear again the voice of Yahweh my God, neither let me see this great fire any more, that I not die.” Yahweh said to me, “They have well said that which they have spoken. I will raise them up a prophet from among their […]",
+                      "note": "'They have Moses and the prophets; let them hear them' presses the Deuteronomic demand to heed the words spoken in God's name, with refusal entailing accountability. Coherence with the obligation to 'hear' the authoritative Mosaic word is strong, framing the sufficiency-of-Scripture point."
+                    },
+                    {
+                      "source": "Deuteronomy 30:11-14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant. It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do […]",
+                      "note": "Abraham's verdict that those who will not hear Moses will not be persuaded even by a resurrection coheres with Deuteronomy's insistence that the word is not far off in heaven or beyond reach but near, in mouth and heart, so no extraordinary sign is needed. The sufficiency and nearness of the revealed word grounds the saying."
+                    },
+                    {
+                      "source": "2 Kings 17:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yet Yahweh testified to Israel, and to Judah, by every prophet, and every seer, saying, “Turn from your evil ways, and keep my commandments and my statutes, according to all the law which I commanded your fathers, and which I sent to you by my servants the prophets.” Notwithstanding, they would not listen, but hardened their neck, like the neck of their fathers, who didn’t believe in Yahweh their God.",
+                      "note": "Israel's stiff-necked refusal to listen to the LORD's testimony 'by every prophet' despite warnings prefigures brothers who 'will not be persuaded' though warned by Moses and the prophets. The recurrent prophetic-rejection motif gives coherence, but the connection is thematic rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The rich man and Lazarus",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "16:19–31"
+                      },
+                      "note": "Luke alone — \"they have Moses and the prophets; let them hear them.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1557,7 +2075,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/amos-6"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Amos 6:1–7",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.5.1-Jas.5.6",
+                      "refDisplay": "James 5:1–6",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/james#p-5.1"
+                    },
+                    {
+                      "refKey": "Luke.16.19-Luke.16.21",
+                      "refDisplay": "Luke 16:19–21",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "16.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-16.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Amos 6:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.6.24-Luke.6.26",
+                      "refDisplay": "Luke 6:24–26",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-6.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1570,7 +2136,175 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-146"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 146:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.9.27-Matt.9.31",
+                      "refDisplay": "Matthew 9:27–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "9.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-9.5"
+                    },
+                    {
+                      "refKey": "Mark.10.46-Mark.10.52",
+                      "refDisplay": "Mark 10:46–52",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-10.7"
+                    },
+                    {
+                      "refKey": "Luke.13.10-Luke.13.17",
+                      "refDisplay": "Luke 13:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-13.3"
+                    },
+                    {
+                      "refKey": "Luke.18.35-Luke.18.43",
+                      "refDisplay": "Luke 18:35–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-18.7"
+                    },
+                    {
+                      "refKey": "John.9.24-John.9.34",
+                      "refDisplay": "John 9:24–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "9.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-9.6"
+                    },
+                    {
+                      "refKey": "Matt.15.29-Matt.15.31",
+                      "refDisplay": "Matthew 15:29–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.4.23-Acts.4.31",
+                      "refDisplay": "Acts 4:23–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "4.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-4.4"
+                    },
+                    {
+                      "refKey": "Acts.14.14-Acts.14.18",
+                      "refDisplay": "Acts 14:14–18",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-14.3"
+                    },
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    },
+                    {
+                      "refKey": "Rev.10.4-Rev.10.7",
+                      "refDisplay": "Revelation 10:4–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "10.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-10.2"
+                    },
+                    {
+                      "refKey": "Rev.14.6-Rev.14.7",
+                      "refDisplay": "Revelation 14:6–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.16.25-Acts.16.34",
+                      "refDisplay": "Acts 16:25–34",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "16.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-16.5"
+                    },
+                    {
+                      "refKey": "Acts.5.17-Acts.5.26",
+                      "refDisplay": "Acts 5:17–26",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "5.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-5.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 146:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.6-Acts.12.11",
+                      "refDisplay": "Acts 12:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-12.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1589,7 +2323,314 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.6",
+                  "ref": "6:6-8",
+                  "echoes": [
+                    {
+                      "source": "Job 1:21",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He said, “Naked I came out of my mother’s womb, and naked shall I return there. Yahweh gave, and Yahweh has taken away. Blessed be Yahweh’s name.”",
+                      "note": "'We brought nothing into the world, and we certainly can't carry anything out' closely renders Job's confession, 'Naked I came from my mother's womb, and naked I will return there.' The shared logic of human poverty at birth and at death grounds the call to contentment and is the primary scriptural source for v.7."
+                    },
+                    {
+                      "source": "Ecclesiastes 5:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "As he came out of his mother’s womb, naked shall he go again as he came, and shall take nothing for his labor, which he may carry away in his hand.",
+                      "note": "'As he came from his mother's womb, naked shall he go again as he came, and shall take nothing for his labor.' Qoheleth's meditation on the impossibility of carrying wealth out of life is a direct conceptual parallel to v.7 and reinforces the Job allusion. The pairing forms the wisdom backbone of the contentment teaching."
+                    },
+                    {
+                      "source": "Psalm 49:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For when he dies he shall carry nothing away. His glory shall not descend after him.",
+                      "note": "'For when he dies he will carry nothing away; his glory will not descend after him.' The psalm's reflection that the rich take nothing in death directly parallels the claim that we 'can't carry anything out.' A strong supporting witness to the same death-and-dispossession tradition."
+                    },
+                    {
+                      "source": "Sirach 5:1-8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Set not your heart upon your goods; And say not, They are sufficient for me. Follow not your own mind and your strength, To walk in the desires of your heart; And say not, Who will have dominion over me? For the Lord will surely take vengeance on you. Say not, I sinned, and what happened to me? For the Lord is longsuffering. Concerning atonement, be not without fear, To add sin upon sins: And say not, His compassion is great; He will be pacified for the […]",
+                      "note": "Ben Sira warns against relying on wealth and saying 'I have enough,' urging the reader not to follow heart and strength after riches. The deuterocanonical wisdom on the futility of trusting possessions undergirds the contentment ethic of vv.6-8 and the warnings of vv.9-10."
+                    },
+                    {
+                      "source": "Proverbs 30:8-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me; lest I be full, deny you, and say, ‘Who is Yahweh?’ or lest I be poor, and steal, and so dishonor the name of my God.",
+                      "note": "Agur's prayer, 'feed me with the food that is needful for me,' seeking neither poverty nor riches, supplies the ideal of sufficiency behind 'having food and clothing, we will be content.' The wisdom request for daily necessities is the closest sapiential parallel to v.8."
+                    },
+                    {
+                      "source": "Genesis 28:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Jacob vowed a vow, saying, “If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and clothing to put on,",
+                      "note": "Jacob's vow asks God for 'bread to eat and clothing to wear,' the same minimal pairing of food and clothing that defines contentment in v.8. The verbal pairing may stand behind Paul's formula, though it is a common biblical idiom of basic provision.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 8:3-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He humbled you, and allowed you to be hungry, and fed you with manna, which you didn’t know, neither did your fathers know; that he might teach you that man does not live by bread only, but man lives by every word that proceeds out of Yahweh’s mouth. Your clothing didn’t grow old on you, neither did your foot swell, these forty years.",
+                      "note": "The wilderness lesson that God provided manna and that clothing did not wear out teaches dependence on God for daily food and covering. This forms a faint background to the food-and-clothing sufficiency that the believer is to rest content in.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.9",
+                  "ref": "6:9-10",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 15:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He who is greedy for gain troubles his own house, but he who hates bribes will live.",
+                      "note": "'He who is greedy for gain troubles his own house.' The maxim that avarice brings ruin upon the grasping person directly underwrites 'the love of money is a root of all kinds of evil' and the picture of those who 'pierced themselves through with many sorrows.' A core wisdom source for v.10."
+                    },
+                    {
+                      "source": "Sirach 27:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Many have sinned for a thing indifferent; And he that seeks to multiply gain will turn his eye away.",
+                      "note": "'Many have sinned for the sake of profit, and he who seeks to multiply gain will turn his eye away.' Ben Sira's aphorism that the pursuit of money is itself a cause of sin is the closest known parallel to 'the love of money is a root of all kinds of evil.' Strong deuterocanonical antecedent for v.10."
+                    },
+                    {
+                      "source": "Sirach 31:5-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He that loves gold shall not be justified; And he that follows destruction shall himself have his fill of it. Many have been given over to ruin for the sake of gold; And their perdition meets them face to face. It is a stumbling block to those who sacrifice to it; And every fool shall be taken therewith.",
+                      "note": "'He who loves gold will not be justified... Gold has been a stumbling block to many, and their destruction has met them face to face. It is a snare to those who are devoted to it.' The imagery of gold as a snare causing ruin parallels both the 'snare' of v.9 and the 'root of evil' of v.10. A remarkably close sapiential model."
+                    },
+                    {
+                      "source": "Ecclesiastes 5:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who loves silver shall not be satisfied with silver; nor he who loves abundance, with increase: this also is vanity.",
+                      "note": "'He who loves silver shall not be satisfied with silver, nor he who loves abundance with increase.' Qoheleth's insight into the insatiability of money-love directly parallels the diagnosis of those 'determined to be rich' and 'the love of money.' A direct wisdom witness to the avarice critique."
+                    },
+                    {
+                      "source": "Proverbs 23:4-5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t weary yourself to be rich. In your wisdom, show restraint. Why do you set your eyes on that which is not? For it certainly sprouts wings like an eagle and flies in the sky.",
+                      "note": "'Don't weary yourself to be rich... riches certainly sprout wings.' The warning against straining to be wealthy maps onto 'those who are determined to be rich fall into a temptation and a snare.' The fleeting, ensnaring character of riches grounds vv.9-10."
+                    },
+                    {
+                      "source": "Proverbs 28:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "A stingy man hurries after riches, and doesn’t know that poverty waits for him.",
+                      "note": "'A stingy man hurries after riches, and doesn't know that poverty waits for him.' The proverb that the avaricious rush toward wealth only to meet ruin parallels the trajectory of those who 'fall into... ruin and destruction.' Supporting wisdom source."
+                    },
+                    {
+                      "source": "Proverbs 1:18-19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "but these lay wait for their own blood. They lurk secretly for their own lives. So are the ways of everyone who is greedy for gain. It takes away the life of its owners.",
+                      "note": "'So are the ways of everyone who is greedy for gain. It takes away the life of its owners.' Wisdom's claim that greed is self-destructive, ambushing the very ones who seek it, parallels those who in greed 'pierced themselves through with many sorrows.' A self-harm motif resonant with v.10.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 11:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, be not busy about many matters: For if you meddle much, you will not be unpunished; And if you pursue, you will not overtake; And you will not escape by fleeing.",
+                      "note": "'If you pursue, you will not overtake... and you will not escape by fleeing.' Ben Sira's counsel against frenetic pursuit of gain resonates with those 'determined to be rich' who fall into a snare. A faint deuterocanonical parallel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.11",
+                  "ref": "6:11-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 33:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "This is the blessing with which Moses the man of God blessed the children of Israel before his death.",
+                      "note": "The address 'man of God' is the standard Hebrew Bible title for a prophet or authorized servant of God, applied to Moses ('the man of God') and frequently to figures like Elijah and Elisha. Timothy is cast in this prophetic-leadership lineage, charged to embody covenant virtue."
+                    },
+                    {
+                      "source": "1 Samuel 9:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to him, “See now, there is in this city a man of God, and he is a man who is held in honor. All that he says comes surely to pass. Now let us go there. Perhaps he can tell us concerning our journey whereon we go.”",
+                      "note": "Samuel is repeatedly called 'the man of God,' establishing the title as a designation for a trusted seer who speaks for the Lord. The Pastoral epithet for Timothy draws on this same OT usage of the authorized divine spokesman.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 21:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He who follows after righteousness and kindness finds life, righteousness, and honor.",
+                      "note": "'He who follows after righteousness and kindness finds life, righteousness, and honor.' The exhortation to 'follow after righteousness... and gentleness' and so 'lay hold of eternal life' resonates with wisdom's promise that pursuing righteousness leads to life. A thematic virtue-pursuit parallel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.13",
+                  "ref": "6:13-16",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 10:17",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For Yahweh your God, he is God of gods, and Lord of lords, the great God, the mighty, and the awesome, who doesn’t respect persons, nor takes reward.",
+                      "note": "'For Yahweh your God, he is God of gods and Lord of lords.' The doxology's title 'King of kings, and Lord of lords' (v.15) directly takes up this Deuteronomic confession of God's supremacy over all powers. The clearest verbal source for the title."
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "'You cannot see my face, for man may not see me and live.' The doxology's 'whom no man has seen, nor can see' (v.16) directly echoes God's word to Moses on the impossibility of beholding the divine face. A primary scriptural source for the invisibility motif."
+                    },
+                    {
+                      "source": "Psalm 104:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He covers himself with light as with a garment. He stretches out the heavens like a curtain.",
+                      "note": "God is 'covered with light as with a garment.' 'Dwelling in unapproachable light' (v.16) draws on this hymnic image of God clothed in light. The closest scriptural antecedent for the light-dwelling description."
+                    },
+                    {
+                      "source": "Nehemiah 9:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You are Yahweh, even you alone. You have made heaven, the heaven of heavens, with all their army, the earth and all things that are on it, the seas and all that is in them, and you preserve them all. The army of heaven worships you.",
+                      "note": "'You give life to all of them' praises the one God who made and sustains all things. The charge before 'God, who gives life to all things' (v.13) echoes this confession of the Creator as life-giver to the whole creation. A direct conceptual parallel to the life-giving formula."
+                    },
+                    {
+                      "source": "Deuteronomy 32:39",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“See now that I myself am he. There is no god with me. I kill and I make alive. I wound and I heal. There is no one who can deliver out of my hand.",
+                      "note": "'I kill and I make alive... there is no god with me.' God's exclusive prerogative over life and death undergirds 'God, who gives life to all things' and the doxology's stress that he 'alone has immortality.' Supports both the life-giver and sole-sovereign motifs of vv.13-16."
+                    },
+                    {
+                      "source": "Psalm 136:2-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give thanks to the God of gods; for his loving kindness endures forever. Give thanks to the Lord of lords; for his loving kindness endures forever:",
+                      "note": "'Give thanks to the God of gods... to the Lord of lords.' The liturgical pairing of these superlatives reinforces the 'Lord of lords' title of v.15 and its hymnic, doxological setting. A strong secondary witness alongside Deuteronomy 10:17."
+                    },
+                    {
+                      "source": "Daniel 2:47",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The king answered to Daniel, and said, Of a truth your God is the God of gods, and the Lord of kings, and a revealer of secrets, since you have been able to reveal this secret.",
+                      "note": "Nebuchadnezzar confesses Daniel's God as 'God of gods, and Lord of kings.' The royal-supremacy formula praising the God who is over all kings parallels 'King of kings, and Lord of lords.' Reflects the apocalyptic vocabulary of divine kingship behind v.15."
+                    },
+                    {
+                      "source": "Exodus 24:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The appearance of Yahweh’s glory was like devouring fire on the top of the mountain in the eyes of the children of Israel.",
+                      "note": "The glory of the Lord appeared 'like a devouring fire' on the mountain, inaccessible to the people. The unapproachable, blazing presence informs the 'unapproachable light' in which God dwells. A faint Sinai-theophany resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 36:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For with you is the spring of life. In your light shall we see light.",
+                      "note": "'For with you is the spring of life. In your light we will see light.' The association of God with life and with light loosely supports the doxology's coupling of the life-giver (v.13) with the God of unapproachable light (v.16). A thematic resonance rather than a citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 60:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The sun shall be no more your light by day; neither for brightness shall the moon give light to you: but Yahweh will be to you an everlasting light, and your God your glory.",
+                      "note": "'Yahweh will be your everlasting light.' The eschatological depiction of God as light may faintly inform the doxology's 'unapproachable light.' A distant resonance secondary to Psalm 104:2.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.17",
+                  "ref": "6:17-19",
+                  "echoes": [
+                    {
+                      "source": "Psalm 62:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t trust in oppression. Don’t become vain in robbery. If riches increase, don’t set your heart on them.",
+                      "note": "'If riches increase, don't set your heart on them.' The charge that the rich not 'have their hope set on the uncertainty of riches' closely matches the psalm's warning against fixing the heart on growing wealth. A primary source for v.17."
+                    },
+                    {
+                      "source": "Proverbs 11:28",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He who trusts in his riches will fall, but the righteous shall flourish as the green leaf.",
+                      "note": "'He who trusts in his riches will fall.' The contrast between trusting riches and the alternative directly parallels the command not to hope in 'the uncertainty of riches' but on the living God. A core wisdom antecedent for v.17."
+                    },
+                    {
+                      "source": "Jeremiah 9:23-24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Thus says Yahweh, Don’t let the wise man glory in his wisdom, neither let the mighty man glory in his might, don’t let the rich man glory in his riches; but let him who glories glory in this, that he has understanding, and knows me, that I am Yahweh who exercises loving kindness, justice, and righteousness, in the earth: for in these things I delight, says Yahweh.",
+                      "note": "'Don't let the rich man glory in his riches; but let him who glories glory in this, that he... knows me.' The redirection of the wealthy from boasting in riches to glorying in God parallels the charge that the rich not be haughty but hope on the living God. A strong source for the structure of v.17."
+                    },
+                    {
+                      "source": "Proverbs 23:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Why do you set your eyes on that which is not? For it certainly sprouts wings like an eagle and flies in the sky.",
+                      "note": "Riches 'certainly sprout wings, like an eagle they fly toward the sky.' The fleeting, unreliable nature of wealth grounds the phrase 'the uncertainty of riches.' A vivid wisdom image of money's instability."
+                    },
+                    {
+                      "source": "Deuteronomy 8:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and lest you say in your heart, “My power and the might of my hand has gotten me this wealth.” But you shall remember Yahweh your God, for it is he who gives you power to get wealth; that he may establish his covenant which he swore to your fathers, as at this day.",
+                      "note": "'Beware lest you say... My power and the might of my hand has gotten me this wealth. But you shall remember Yahweh your God, for it is he who gives you power to get wealth.' The warning against pride in self-made riches and the reminder that God is the giver parallels the charge against the haughty rich and the God 'who richly provides us with everything.'"
+                    },
+                    {
+                      "source": "Proverbs 19:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who has pity on the poor lends to Yahweh; he will reward him.",
+                      "note": "'He who has pity on the poor lends to Yahweh; he will reward him.' The exhortation that the rich 'be rich in good works, ready to distribute,' 'laying up in store... a good foundation against the time to come' echoes the wisdom principle that generosity to the needy is treasure stored with God. Grounds the storing-up imagery of v.19."
+                    },
+                    {
+                      "source": "Tobit 4:7-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Give alms from your possessions. When you give alms, don’t let your eye be envious. Don’t turn away your face from any poor man, and the face of God won’t be turned away from you. As your possessions are, give alms of it according to your abundance. If you have little, don’t be afraid to give alms according to that little; for you lay up a good treasure for yourself against the day of necessity; because alms-giving delivers from death, and doesn’t allow […]",
+                      "note": "'Give alms from your possessions... you will be laying up a good treasure for yourself against the day of necessity.' Tobit's almsgiving counsel that charity stores up a treasure for the day of need is a remarkably close parallel to 'laying up in store... a good foundation against the time to come' (v.19). A strong deuterocanonical source."
+                    },
+                    {
+                      "source": "Sirach 29:11-12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Bestow your treasure according to the commandments of the Most High; And it shall profit you more than gold. Shut up alms in your store-chambers; And it shall deliver you out of all affliction:",
+                      "note": "'Lay up your treasure according to the commandments... and it will profit you more than gold. Store up almsgiving in your treasury, and it will rescue you from all affliction.' Ben Sira's image of almsgiving as treasure that delivers in the future directly parallels the rich laying up a good foundation against the time to come. Close sapiential antecedent for v.19."
+                    },
+                    {
+                      "source": "Proverbs 30:8-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me; lest I be full, deny you, and say, ‘Who is Yahweh?’ or lest I be poor, and steal, and so dishonor the name of my God.",
+                      "note": "Agur's prayer against riches that lead one to deny God and against poverty that leads to theft frames wealth as spiritually perilous. This wisdom ambivalence about riches faintly supports the warning that the rich not be haughty nor trust their wealth.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1608,7 +2649,147 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.7",
+                  "ref": "16:19-21",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 15:7-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "If a poor man, one of your brothers, is with you within any of your gates in your land which Yahweh your God gives you, you shall not harden your heart, nor shut your hand from your poor brother; but you shall surely open your hand to him, and shall surely lend him sufficient for his need, which he lacks. Beware that there not be a base thought in your heart, saying, “The seventh year, the year of release, is at hand”; and your eye be evil against your […]",
+                      "note": "Lazarus laid 'at the gate' desiring crumbs while the rich man feasts dramatizes the Deuteronomic command not to harden the heart against the poor brother at your gate, for the poor will never cease in the land. High coherence with the covenantal gate-and-poor topos."
+                    },
+                    {
+                      "source": "Job 2:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head. He took for himself a potsherd to scrape himself with, and he sat among the ashes.",
+                      "note": "Lazarus 'full of sores' with dogs licking him evokes Job afflicted with sores from sole to crown, scraping himself amid loss. The shared imagery of a body covered in sores as the type of the abject sufferer gives coherent, available background."
+                    },
+                    {
+                      "source": "Psalm 73:3-12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For I was envious of the arrogant, when I saw the prosperity of the wicked. For there are no struggles in their death, but their strength is firm. They are free from burdens of men, neither are they plagued like other men. Therefore pride is like a chain around their neck. Violence covers them like a garment. Their eyes bulge with fat. Their minds pass the limits of conceit. They scoff and speak with malice. In arrogance, they threaten oppression. They […]",
+                      "note": "The prospering, sumptuously clothed rich man set against the afflicted poor man echoes the psalmist's scandal at the wicked who are 'always at ease' and 'clothed with violence' while the godly suffer, resolved only at their end. Strong coherence with the reversal-of-fortunes frame that the parable will enact."
+                    },
+                    {
+                      "source": "Amos 6:1-7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Woe to those who are at ease in Zion, and to those who are secure on the mountain of Samaria, the notable men of the chief of the nations, to whom the house of Israel come! Go to Calneh, and see; and from there go to Hamath the great; then go down to Gath of the Philistines. are they better than these kingdoms? or is their border greater than your border? Those who put far away the evil day, and cause the seat of violence to come near; Who lie on beds of […]",
+                      "note": "The rich man 'clothed in purple and fine linen, feasting in luxury every day' matches Amos' woe on those who lie on ivory beds, eat lambs, and feast while not grieved over ruin, who go first into exile. The prophetic indictment of callous luxury gives recurrent, coherent background."
+                    },
+                    {
+                      "source": "Proverbs 21:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Whoever stops his ears at the cry of the poor, he will also cry out, but shall not be heard.",
+                      "note": "'Whoever shuts his ear to the cry of the poor will himself cry out and not be heard' anticipates the rich man's later unanswered cry from Hades after ignoring Lazarus at his gate. Coherence with the lex talionis of neglected mercy is real but the link is thematic, not verbal.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.8",
+                  "ref": "16:22-26",
+                  "echoes": [
+                    {
+                      "source": "Genesis 15:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "but you will go to your fathers in peace. You will be buried in a good old age.",
+                      "note": "Being 'carried to Abraham's bosom' and the rich man's address 'Father Abraham' draw on the patriarchal hope of being gathered to one's fathers, with Abraham as the paradigmatic destination of the righteous dead. Coherence with the gathered-to-Abraham motif is strong, though 'bosom' as the resting place is Second-Temple development."
+                    },
+                    {
+                      "source": "4 Maccabees 13:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "If we suffer thus, Abraham, and Isaac, and Jacob will receive us, and all the fathers will commend us.",
+                      "note": "'Abraham, Isaac and Jacob will receive us' on the lips of the martyrs supplies the explicit Second-Temple picture of the righteous welcomed by the patriarchs after death, illuminating 'Abraham's bosom.' Availability and coherence with the post-mortem reception motif support the echo."
+                    },
+                    {
+                      "source": "Isaiah 66:24",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“They shall go out, and look on the dead bodies of the men who have transgressed against me: for their worm shall not die, neither shall their fire be quenched; and they will be loathsome to all mankind.”",
+                      "note": "The rich man's torment, flame, and anguish in Hades draws on Isaiah's closing vision of the dead whose fire is not quenched, the canonical seedbed of post-mortem fiery punishment. Coherence with the unquenched-fire judgment is high and the text was widely available."
+                    },
+                    {
+                      "source": "Sirach 21:9-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The congregation of wicked men is as tow wrapped together; And the end of them is a flame of fire. The way of sinners is made smooth with stones; And at the last end thereof is the pit of Hades.",
+                      "note": "Ben Sira's image of the assembly of the wicked as tow set to flame and the broad road of sinners ending in Hades coheres with the flame and fixed-gulf fate of the rich man. The link is thematic to the sapiential fate-of-the-wicked topos rather than verbal.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Enoch 22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "Enoch's tour of the hollow places of the dead, where the righteous and wicked are separated by a great division awaiting judgment, parallels the great chasm fixed between Lazarus and the rich man. As pseudepigraphal background to Second-Temple afterlife topography it is warranted but faint and contested.",
+                      "contested": true,
+                      "altSource": "4 Ezra 7:36-38"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.9",
+                  "ref": "16:27-31",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 18:15-19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh your God will raise up to you a prophet from your midst, of your brothers, like me. You shall listen to him. This is according to all that you desired of Yahweh your God in Horeb in the day of the assembly, saying, “Let me not hear again the voice of Yahweh my God, neither let me see this great fire any more, that I not die.” Yahweh said to me, “They have well said that which they have spoken. I will raise them up a prophet from among their […]",
+                      "note": "'They have Moses and the prophets; let them hear them' presses the Deuteronomic demand to heed the words spoken in God's name, with refusal entailing accountability. Coherence with the obligation to 'hear' the authoritative Mosaic word is strong, framing the sufficiency-of-Scripture point."
+                    },
+                    {
+                      "source": "Deuteronomy 30:11-14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant. It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do […]",
+                      "note": "Abraham's verdict that those who will not hear Moses will not be persuaded even by a resurrection coheres with Deuteronomy's insistence that the word is not far off in heaven or beyond reach but near, in mouth and heart, so no extraordinary sign is needed. The sufficiency and nearness of the revealed word grounds the saying."
+                    },
+                    {
+                      "source": "2 Kings 17:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yet Yahweh testified to Israel, and to Judah, by every prophet, and every seer, saying, “Turn from your evil ways, and keep my commandments and my statutes, according to all the law which I commanded your fathers, and which I sent to you by my servants the prophets.” Notwithstanding, they would not listen, but hardened their neck, like the neck of their fathers, who didn’t believe in Yahweh their God.",
+                      "note": "Israel's stiff-necked refusal to listen to the LORD's testimony 'by every prophet' despite warnings prefigures brothers who 'will not be persuaded' though warned by Moses and the prophets. The recurrent prophetic-rejection motif gives coherence, but the connection is thematic rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The rich man and Lazarus",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "16:19–31"
+                      },
+                      "note": "Luke alone — \"they have Moses and the prophets; let them hear them.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

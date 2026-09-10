@@ -716,7 +716,85 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Kings 19:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.14.1-Matt.14.12",
+                      "refDisplay": "Matthew 14:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.1"
+                    },
+                    {
+                      "refKey": "Mark.6.14-Mark.6.29",
+                      "refDisplay": "Mark 6:14–29",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-6.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:2–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.17.9-Matt.17.13",
+                      "refDisplay": "Matthew 17:9–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "17.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-17.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.9.9-Mark.9.13",
+                      "refDisplay": "Mark 9:9–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-9.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:3–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.11.54-John.11.57",
+                      "refDisplay": "John 11:54–57",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "11.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-11.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -729,7 +807,80 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-42"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 42:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.26.36-Matt.26.46",
+                      "refDisplay": "Matthew 26:36–46",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.8"
+                    },
+                    {
+                      "refKey": "Mark.14.32-Mark.14.42",
+                      "refDisplay": "Mark 14:32–42",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.9"
+                    },
+                    {
+                      "refKey": "Luke.22.39-Luke.22.46",
+                      "refDisplay": "Luke 22:39–46",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-22.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 42:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.14.32-Mark.14.42",
+                      "refDisplay": "Mark 14:32–42",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.9",
+                      "type": "echo",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-14.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 42:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.22.1-Rev.22.5",
+                      "refDisplay": "Revelation 22:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "22.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-22.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -748,7 +899,51 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.6",
+                  "ref": "3:23-29",
+                  "echoes": [
+                    {
+                      "source": "Genesis 13:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "for all the land which you see, I will give to you, and to your offspring forever.",
+                      "note": "'You are Abraham's seed and heirs according to promise' (v.29) recapitulates the singular-seed promise of Gen 13:15/17:8 expounded in v.16, now extended to all who are Christ's. This closes the chapter's inclusio on seed/promise/inheritance with strong intra-chapter recurrence."
+                    },
+                    {
+                      "source": "Genesis 1:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "'There is neither... male nor female' (v.28) verbally echoes Gen 1:27 LXX 'male and female he created them' (arsen kai thely), the only place this exact pairing occurs. Paul's shift from 'nor/nor' to 'and' marks the deliberate citation; the new creation in Christ relativizes the created distinction. Medium-high volume on the specific phrase."
+                    },
+                    {
+                      "source": "Genesis 22:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the nations of the earth will be blessed by your seed, because you have obeyed my voice.”",
+                      "note": "The heirs-of-promise climax (v.29) realizes the seed-and-nations blessing of Gen 22:18, gathering Gentile believers into Abraham's offspring. It reprises the citation chain (vv.8, 16) and so coheres with the chapter's argument, though without fresh wording. Medium."
+                    },
+                    {
+                      "source": "Isaiah 61:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will greatly rejoice in Yahweh, my soul shall be joyful in my God; for he has clothed me with the garments of salvation, he has covered me with the robe of righteousness, as a bridegroom decks himself with a garland, and as a bride adorns herself with her jewels.",
+                      "note": "'Put on Christ' (v.27) may echo the clothing-with-salvation imagery of Isa 61:10 ('he has clothed me with garments of salvation') and the robing motif of Zechariah 3:4. The metaphor of investiture is available in the prophets but the contact is thematic, not verbal. Contested and faint.",
+                      "contested": true,
+                      "altSource": "Zechariah 3:4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -767,7 +962,87 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.8",
+                  "ref": "8:26-39",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 65:1-5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“I am inquired of by those who didn’t ask; I am found by those who didn’t seek me: I said, See me, see me, to a nation that was not called by my name. I have spread out my hands all the day to a rebellious people, who walk in a way that is not good, after their own thoughts; a people who provoke me to my face continually, sacrificing in gardens, and burning incense on bricks; who sit among the graves, and lodge in the secret places; who eat pig’s flesh, […]",
+                      "note": "Isaiah's rebellious people 'who sit in tombs and lodge in secret places, who eat swine's flesh' and say 'keep to yourself, do not come near me' map strikingly onto the demoniac among the tombs, the herd of swine, and the man's cry 'what have I to do with you?' The cluster of tombs + swine + repulsion gives notable Volume."
+                    },
+                    {
+                      "source": "Isaiah 65:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "who sit among the graves, and lodge in the secret places; who eat pig’s flesh, and broth of abominable things is in their vessels;",
+                      "note": "The specific verse pairing dwelling among the tombs with eating swine's flesh concentrates the two defining impurities of the scene. Coherence with Luke's Gentile-territory unclean-spirit setting is strong."
+                    },
+                    {
+                      "source": "Leviticus 11:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The pig, because he has a split hoof, and is cloven-footed, but doesn’t chew the cud, he is unclean to you. Of their flesh you shall not eat, and their carcasses you shall not touch; they are unclean to you.",
+                      "note": "The classification of the pig as unclean (do not eat, do not touch its carcass) gives the swine their symbolic charge as fit vessels for unclean spirits in this Gentile region. Coherence is strong even though Luke does not cite the law."
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "The demons' dread of the 'abyss' (8:31) evokes the primordial deep (LXX abyssos in Gen 1:2) as the place of chaos/restraint; the swine drowning in the lake returns the chaotic powers to the watery abyss. Conceptual, contested.",
+                      "contested": true,
+                      "altSource": "Job 26:5-6"
+                    },
+                    {
+                      "source": "Psalm 22:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Save me from the lion’s mouth! Yes, from the horns of the wild oxen, you have answered me.",
+                      "note": "The cry of one tormented, naked, and bound, delivered by God, faintly resonates with the psalmist's plea for rescue from beastly powers; the 'Most High God' title also recurs in the psalms. Low Volume; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 3:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Nebuchadnezzar came near to the mouth of the burning fiery furnace: he spoke and said, Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here. Then Shadrach, Meshach, and Abednego came out of the midst of the fire.",
+                      "note": "The Gentile address of God as 'the Most High God' (8:28) matches the Aramaic court-tale title used by Nebuchadnezzar, a Septuagintal idiom for the God of Israel on pagan lips. Real but minor lexical contact.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Gerasene demoniac",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "8:28–34",
+                        "mark": "5:1–20",
+                        "luke": "8:26–39"
+                      },
+                      "note": "Legion, and the herd of swine; Mark and Luke give one man, Matthew two."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1663,7 +1938,235 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-65"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 65:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.5.1-Mark.5.20",
+                      "refDisplay": "Mark 5:1–20",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-5.1"
+                    },
+                    {
+                      "refKey": "Matt.8.28-Matt.8.34",
+                      "refDisplay": "Matthew 8:28–34",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.7"
+                    },
+                    {
+                      "refKey": "Luke.8.26-Luke.8.39",
+                      "refDisplay": "Luke 8:26–39",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-8.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.5.1-Mark.5.20",
+                      "refDisplay": "Mark 5:1–20",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-5.1"
+                    },
+                    {
+                      "refKey": "Luke.15.1-Luke.15.2",
+                      "refDisplay": "Luke 15:1–2",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-15.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.10.14-Rom.10.21",
+                      "refDisplay": "Romans 10:14–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-10.2"
+                    },
+                    {
+                      "refKey": "John.21.18-John.21.19",
+                      "refDisplay": "John 21:18–19",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-21.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.24.15-Matt.24.22",
+                      "refDisplay": "Matthew 24:15–22",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "24.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-24.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.5.1-Mark.5.20",
+                      "refDisplay": "Mark 5:1–20",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:8–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.13.14-Mark.13.20",
+                      "refDisplay": "Mark 13:14–20",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "13.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-13.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.6.37-Luke.6.38",
+                      "refDisplay": "Luke 6:37–38",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-6.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.8.26-Luke.8.39",
+                      "refDisplay": "Luke 8:26–39",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-8.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.10.1-Rom.10.4",
+                      "refDisplay": "Romans 10:1–4",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.0",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-10.0"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.10.14-Rom.10.21",
+                      "refDisplay": "Romans 10:14–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-10.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:9",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.2.8-2Tim.2.13",
+                      "refDisplay": "2 Timothy 2:8–13",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 65:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.20.11-Rev.20.15",
+                      "refDisplay": "Revelation 20:11–15",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "20.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-20.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1676,7 +2179,240 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-22"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 22:22",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.2.10-Heb.2.13",
+                      "refDisplay": "Hebrews 2:10–13",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "2.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-2.2"
+                    },
+                    {
+                      "refKey": "John.17.6-John.17.10",
+                      "refDisplay": "John 17:6–10",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-17.2"
+                    },
+                    {
+                      "refKey": "John.17.24-John.17.26",
+                      "refDisplay": "John 17:24–26",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-17.7"
+                    },
+                    {
+                      "refKey": "John.20.14-John.20.18",
+                      "refDisplay": "John 20:14–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "20.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-20.4"
+                    },
+                    {
+                      "refKey": "Matt.12.46-Matt.12.50",
+                      "refDisplay": "Matthew 12:46–50",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "12.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-12.8"
+                    },
+                    {
+                      "refKey": "Matt.28.1-Matt.28.10",
+                      "refDisplay": "Matthew 28:1–10",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "28.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-28.1"
+                    },
+                    {
+                      "refKey": "Mark.3.31-Mark.3.35",
+                      "refDisplay": "Mark 3:31–35",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-3.5"
+                    },
+                    {
+                      "refKey": "Luke.2.15-Luke.2.20",
+                      "refDisplay": "Luke 2:15–20",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "2.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-2.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:21",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.4.14-2Tim.4.18",
+                      "refDisplay": "2 Timothy 4:14–18",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "4.14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-4.14"
+                    },
+                    {
+                      "refKey": "Luke.8.26-Luke.8.39",
+                      "refDisplay": "Luke 8:26–39",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-8.8"
+                    },
+                    {
+                      "refKey": "1Cor.15.29-1Cor.15.34",
+                      "refDisplay": "1 Corinthians 15:29–34",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "15.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-15.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:27–31",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.27.54",
+                      "refDisplay": "Matthew 27:54",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.15"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:19–21",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.15.34",
+                      "refDisplay": "Mark 15:34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-15.10"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:27–28",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.15.39",
+                      "refDisplay": "Mark 15:39",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-15.13"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:1–21",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.24.13-Luke.24.27",
+                      "refDisplay": "Luke 24:13–27",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-24.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:27",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.24.44-Luke.24.49",
+                      "refDisplay": "Luke 24:44–49",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-24.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:25",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.2.10-Heb.2.13",
+                      "refDisplay": "Hebrews 2:10–13",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 22:24",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.5.5-Heb.5.10",
+                      "refDisplay": "Hebrews 5:5–10",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "5.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-5.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1695,7 +2431,51 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.6",
+                  "ref": "3:23-29",
+                  "echoes": [
+                    {
+                      "source": "Genesis 13:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "for all the land which you see, I will give to you, and to your offspring forever.",
+                      "note": "'You are Abraham's seed and heirs according to promise' (v.29) recapitulates the singular-seed promise of Gen 13:15/17:8 expounded in v.16, now extended to all who are Christ's. This closes the chapter's inclusio on seed/promise/inheritance with strong intra-chapter recurrence."
+                    },
+                    {
+                      "source": "Genesis 1:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "'There is neither... male nor female' (v.28) verbally echoes Gen 1:27 LXX 'male and female he created them' (arsen kai thely), the only place this exact pairing occurs. Paul's shift from 'nor/nor' to 'and' marks the deliberate citation; the new creation in Christ relativizes the created distinction. Medium-high volume on the specific phrase."
+                    },
+                    {
+                      "source": "Genesis 22:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the nations of the earth will be blessed by your seed, because you have obeyed my voice.”",
+                      "note": "The heirs-of-promise climax (v.29) realizes the seed-and-nations blessing of Gen 22:18, gathering Gentile believers into Abraham's offspring. It reprises the citation chain (vv.8, 16) and so coheres with the chapter's argument, though without fresh wording. Medium."
+                    },
+                    {
+                      "source": "Isaiah 61:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will greatly rejoice in Yahweh, my soul shall be joyful in my God; for he has clothed me with the garments of salvation, he has covered me with the robe of righteousness, as a bridegroom decks himself with a garland, and as a bride adorns herself with her jewels.",
+                      "note": "'Put on Christ' (v.27) may echo the clothing-with-salvation imagery of Isa 61:10 ('he has clothed me with garments of salvation') and the robing motif of Zechariah 3:4. The metaphor of investiture is available in the prophets but the contact is thematic, not verbal. Contested and faint.",
+                      "contested": true,
+                      "altSource": "Zechariah 3:4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1714,7 +2494,87 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.8",
+                  "ref": "8:26-39",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 65:1-5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“I am inquired of by those who didn’t ask; I am found by those who didn’t seek me: I said, See me, see me, to a nation that was not called by my name. I have spread out my hands all the day to a rebellious people, who walk in a way that is not good, after their own thoughts; a people who provoke me to my face continually, sacrificing in gardens, and burning incense on bricks; who sit among the graves, and lodge in the secret places; who eat pig’s flesh, […]",
+                      "note": "Isaiah's rebellious people 'who sit in tombs and lodge in secret places, who eat swine's flesh' and say 'keep to yourself, do not come near me' map strikingly onto the demoniac among the tombs, the herd of swine, and the man's cry 'what have I to do with you?' The cluster of tombs + swine + repulsion gives notable Volume."
+                    },
+                    {
+                      "source": "Isaiah 65:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "who sit among the graves, and lodge in the secret places; who eat pig’s flesh, and broth of abominable things is in their vessels;",
+                      "note": "The specific verse pairing dwelling among the tombs with eating swine's flesh concentrates the two defining impurities of the scene. Coherence with Luke's Gentile-territory unclean-spirit setting is strong."
+                    },
+                    {
+                      "source": "Leviticus 11:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The pig, because he has a split hoof, and is cloven-footed, but doesn’t chew the cud, he is unclean to you. Of their flesh you shall not eat, and their carcasses you shall not touch; they are unclean to you.",
+                      "note": "The classification of the pig as unclean (do not eat, do not touch its carcass) gives the swine their symbolic charge as fit vessels for unclean spirits in this Gentile region. Coherence is strong even though Luke does not cite the law."
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "The demons' dread of the 'abyss' (8:31) evokes the primordial deep (LXX abyssos in Gen 1:2) as the place of chaos/restraint; the swine drowning in the lake returns the chaotic powers to the watery abyss. Conceptual, contested.",
+                      "contested": true,
+                      "altSource": "Job 26:5-6"
+                    },
+                    {
+                      "source": "Psalm 22:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Save me from the lion’s mouth! Yes, from the horns of the wild oxen, you have answered me.",
+                      "note": "The cry of one tormented, naked, and bound, delivered by God, faintly resonates with the psalmist's plea for rescue from beastly powers; the 'Most High God' title also recurs in the psalms. Low Volume; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 3:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Nebuchadnezzar came near to the mouth of the burning fiery furnace: he spoke and said, Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here. Then Shadrach, Meshach, and Abednego came out of the midst of the fire.",
+                      "note": "The Gentile address of God as 'the Most High God' (8:28) matches the Aramaic court-tale title used by Nebuchadnezzar, a Septuagintal idiom for the God of Israel on pagan lips. Real but minor lexical contact.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Gerasene demoniac",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "8:28–34",
+                        "mark": "5:1–20",
+                        "luke": "8:26–39"
+                      },
+                      "note": "Legion, and the herd of swine; Mark and Luke give one man, Matthew two."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

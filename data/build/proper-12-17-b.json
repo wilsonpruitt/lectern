@@ -691,7 +691,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/2-samuel-11"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "2 Samuel 11:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.1.1-Matt.1.17",
+                      "refDisplay": "Matthew 1:1–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "1.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-1.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -704,7 +727,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-14"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 14:3",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.1.10",
+                      "refDisplay": "1 John 1:10",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.10"
+                    },
+                    {
+                      "refKey": "Gal.3.19-Gal.3.22",
+                      "refDisplay": "Galatians 3:19–22",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-3.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 14:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.3.9-Rom.3.20",
+                      "refDisplay": "Romans 3:9–20",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-3.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -723,7 +794,109 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.3",
+                  "ref": "3:14-19",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 17:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For he shall be as a tree planted by the waters, who spreads out its roots by the river, and shall not fear when heat comes, but its leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.",
+                      "note": "'Rooted and grounded in love' draws on the OT image of the person planted by water who is 'rooted' and bears fruit (Jeremiah 17:8; cf. Psalm 1:3). The agricultural 'rooted' metaphor for the secure, flourishing believer is the same, giving good coherence; the architectural 'grounded' pairs a building image, but the rootedness half is a clear OT echo."
+                    },
+                    {
+                      "source": "Job 11:7-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Can you fathom the mystery of God? Or can you probe the limits of the Almighty? They are high as heaven. What can you do? They are deeper than Sheol. What can you know? Its measure is longer than the earth, and broader than the sea.",
+                      "note": "'The breadth and length and height and depth' that the saints 'comprehend' echoes Job 11:7-9, where the unsearchable extent of God is measured by 'higher than heaven... deeper than Sheol... longer than the earth and broader than the sea.' The four-dimensional measuring of an immeasurable divine reality is a distinctive shared template, giving good coherence even without verbatim wording."
+                    },
+                    {
+                      "source": "Isaiah 45:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I have sworn by myself, the word has gone out of my mouth in righteousness, and will not return, that to me every knee shall bow, every tongue shall take an oath.",
+                      "note": "'I bow my knees to the Father' evokes the universal-homage motif of Isaiah 45:23, 'to me every knee shall bow,' the OT locus for bending the knee to God. The posture and the universal-fatherhood frame ('every family in heaven and on earth') cohere, though the volume of the verbal link is faint here.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:54"
+                    },
+                    {
+                      "source": "1 Kings 8:54",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It was so, that when Solomon had made an end of praying all this prayer and supplication to Yahweh, he arose from before the altar of Yahweh, from kneeling on his knees with his hands spread out toward heaven.",
+                      "note": "Bowing the knees to the Father in intercessory prayer recalls Solomon kneeling with hands spread to heaven in dedicatory prayer (1 Kings 8:54; cf. Ezra 9:5; Daniel 6:10). The kneeling-in-prayer gesture is a shared OT posture, supporting a faint echo rather than a pointed allusion.",
+                      "contested": true,
+                      "altSource": "Isaiah 45:23"
+                    },
+                    {
+                      "source": "Psalm 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither. Whatever he does shall prosper.",
+                      "note": "Psalm 1:3's 'tree planted by streams of water' that flourishes is the classic OT picture of the rooted, stable righteous person and reinforces 'rooted and grounded in love.' It is best paired with Jeremiah 17:8 as part of the same planted-tree image cluster rather than an independent source.",
+                      "contested": true,
+                      "altSource": "Jeremiah 17:8"
+                    },
+                    {
+                      "source": "Sirach 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The height of the heaven, and the breadth of the earth, And the deep, and wisdom, who shall search them out?",
+                      "note": "The same four-dimensional immeasurability motif appears in Sirach 1:3, 'the height of heaven, the breadth of the earth, the deep, and wisdom — who can search them out?' applied to God's wisdom. Within Second-Temple wisdom literature this strengthens the availability of the breadth/length/height/depth topos behind verse 18.",
+                      "contested": true,
+                      "altSource": "Job 11:7-9"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:20-21",
+                  "echoes": [
+                    {
+                      "source": "1 Chronicles 29:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yours, Yahweh, is the greatness, the power, the glory, the victory, and the majesty! For all that is in the heavens and in the earth is yours. Yours is the kingdom, Yahweh, and you are exalted as head above all.",
+                      "note": "The doxology 'to him be the glory... forever and ever' draws on David's blessing, 'Yours, O Lord, is the greatness and the power and the glory... yours is the kingdom... forever.' The pattern of ascribing glory and power to God in an everlasting public blessing is the OT model for this doxology; coherence is high, the link being formal rather than verbatim."
+                    },
+                    {
+                      "source": "Psalm 72:18-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Praise be to Yahweh God, the God of Israel, who alone does marvelous deeds. Blessed be his glorious name forever! Let the whole earth be filled with his glory! Amen and amen.",
+                      "note": "'To him be the glory... to all generations forever and ever. Amen' closely matches the closing doxology of Psalm 72:18-19, 'blessed be his glorious name forever... Amen and Amen,' which praises the God 'who alone does wondrous things.' The wondrous-deeds-plus-eternal-glory-plus-Amen structure makes this a strong formal model, supporting medium confidence."
+                    },
+                    {
+                      "source": "Psalm 145:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Great is Yahweh, and greatly to be praised! His greatness is unsearchable.",
+                      "note": "'Him who is able to do exceedingly abundantly above all that we ask or think' coheres with Psalm 145:3, 'great is the Lord and greatly to be praised; his greatness is unsearchable,' which celebrates God's measureless power as ground for praise. The link is conceptual (immeasurable divine ability) rather than verbal, hence a faint echo.",
+                      "contested": true,
+                      "altSource": "1 Chronicles 29:11"
+                    },
+                    {
+                      "source": "Genesis 18:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Is anything too hard for Yahweh? At the set time I will return to you, when the season comes round, and Sarah will have a son.”",
+                      "note": "'Able to do exceedingly abundantly above all that we ask or think' echoes the OT confession that nothing is too hard/wonderful for the Lord (Genesis 18:14; cf. Jeremiah 32:17,27). The motif of God's unlimited capacity to do what humans cannot conceive coheres, but the volume is low and it is one of several possible backgrounds.",
+                      "contested": true,
+                      "altSource": "Psalm 145:3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -742,7 +915,173 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-15",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:4-15",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not. It shall come to pass on the sixth day, that they shall prepare that which they bring in, and it shall be twice as much as they gather daily.” Moses and Aaron said to all the children of Israel, “At evening, then you shall know that Yahweh has brought […]",
+                      "note": "The wilderness feeding of a great multitude with miraculous bread sets the controlling type that the chapter will name explicitly in v.31. High Volume and total Coherence with the manna economy (bread, gathering, leftovers, no waste); the feeding scene is the narrative enactment of the manna gift Jesus later interprets."
+                    },
+                    {
+                      "source": "Numbers 11:13-22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Where could I get meat to give to all this people? For they weep to me, saying, ‘Give us meat, that we may eat.’ I am not able to bear all this people alone, because it is too heavy for me. If you treat me this way, please kill me right now, if I have found favor in your sight; and don’t let me see my wretchedness.” Yahweh said to Moses, “Gather to me seventy men of the elders of Israel, whom you know to be the elders of the people, and officers over […]",
+                      "note": "Philip's 'Where are we to buy bread... not sufficient' (v.7) closely mirrors Moses' despairing 'Where am I to get meat... shall flocks and herds be slaughtered to suffice them?' Strong structural and verbal Coherence: a leader confronted with an impossible crowd, mountain setting, and divine provision overriding human arithmetic."
+                    },
+                    {
+                      "source": "2 Kings 4:42-44",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "A man from Baal Shalishah came, and brought the man of God bread of the first fruits, twenty loaves of barley, and fresh ears of grain in his sack. He said, “Give to the people, that they may eat.” His servant said, “What, should I set this before a hundred men?” But he said, “Give the people, that they may eat; for thus says Yahweh, ‘They will eat, and will have some left over.’” So he set it before them, and they ate, and left some of it, according to […]",
+                      "note": "Elisha multiplies twenty barley loaves to feed a hundred with leftovers, dismissing a servant's 'How can I set this before a hundred?' John alone specifies 'barley loaves' and 'what are these among so many?', and adds the leftovers motif. High Volume and verbal Recurrence make this the closest single OT analogue to the miracle's mechanics."
+                    },
+                    {
+                      "source": "Psalm 78:24-25",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "He rained down manna on them to eat, and gave them food from the sky. Man ate the bread of angels. He sent them food to the full.",
+                      "note": "Asaph's 'he rained down manna... gave them grain of heaven... bread of the angels' is the psalm John will quote at v.31; its presence governs the feeding as the eschatological manna. High Coherence: the crowd reads the sign as a renewed wilderness banquet."
+                    },
+                    {
+                      "source": "Deuteronomy 18:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh your God will raise up to you a prophet from your midst, of your brothers, like me. You shall listen to him.",
+                      "note": "The crowd's acclamation 'This is truly the prophet who comes into the world' (v.14) invokes the promised prophet-like-Moses. The Mosaic feeding miracle triggers a Mosaic-prophet expectation; high Coherence with John's prophet-and-king Christology."
+                    },
+                    {
+                      "source": "Psalm 105:40",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "They asked, and he brought quails, and satisfied them with the bread of the sky.",
+                      "note": "'He gave them bread from heaven in abundance' — a second psalmic celebration of the manna, reinforcing the satisfied-fullness motif ('when they were filled,' v.12). Lower distinctiveness than Ps 78 but adds Recurrence to the manna tradition active here."
+                    },
+                    {
+                      "source": "Exodus 12",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to Moses and Aaron in the land of Egypt, saying, “This month shall be to you the beginning of months. It shall be the first month of the year to you. Speak to all the congregation of Israel, saying, ‘On the tenth day of this month, they shall take to them every man a lamb, according to their fathers’ houses, a lamb for a household; and if the household is too little for a lamb, then he and his neighbor next to his house shall take one […]",
+                      "note": "John's editorial note 'Now the Passover was at hand' (v.4) frames the whole chapter under the paschal lamb, preparing the flesh-and-blood discourse (vv.51-56). Availability and Coherence are strong; the Passover anchor is authorial, though the feeding scene itself does not verbally cite Exodus 12."
+                    },
+                    {
+                      "source": "Exodus 24:1-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to Moses, “Come up to Yahweh, you, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship from a distance. Moses alone shall come near to Yahweh, but they shall not come near, neither shall the people go up with him.” Moses came and told the people all Yahweh’s words, and all the ordinances; and all the people answered with one voice, and said, “All the words which Yahweh has spoken will we do.” Moses wrote all Yahweh’s […]",
+                      "note": "Jesus 'went up into the mountain and sat there with his disciples' (v.3) before a meal faintly recalls Moses ascending Sinai where the elders 'beheld God and ate and drank.' Suggestive of a covenant-meal-on-the-mountain pattern but low Volume; contested.",
+                      "contested": true,
+                      "altSource": "Exodus 19:3"
+                    },
+                    {
+                      "source": "1 Samuel 8:5-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and they said to him, “Behold, you are old, and your sons don’t walk in your ways: now make us a king to judge us like all the nations.” But the thing displeased Samuel, when they said, “Give us a king to judge us.” Samuel prayed to Yahweh. Yahweh said to Samuel, “Listen to the voice of the people in all that they tell you; for they have not rejected you, but they have rejected me, that I should not be king over them.",
+                      "note": "The crowd's move to 'take him by force, to make him king' (v.15) faintly evokes Israel's improper demand for a king, which the LORD treats as rejection of his rule. Thematic rather than verbal; offered as a contested background to Jesus' refusal of a politicized kingship.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.2",
+                  "ref": "6:16-21",
+                  "echoes": [
+                    {
+                      "source": "Exodus 3:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”",
+                      "note": "Jesus' 'It is I (ego eimi); do not be afraid' atop the storm reads, in John's idiom, as the divine self-naming 'I AM.' High Coherence with the chapter's later absolute 'I am' sayings; the theophanic-on-the-water setting elevates the otherwise ordinary phrase to divine self-disclosure."
+                    },
+                    {
+                      "source": "Job 9:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He alone stretches out the heavens, and treads on the waves of the sea.",
+                      "note": "'who alone... treads on the waves of the sea' ascribes sea-trampling to God alone. Jesus 'walking on the sea' enacts a prerogative the OT reserves for the Creator; strong Volume and Coherence with the I-AM disclosure that accompanies it."
+                    },
+                    {
+                      "source": "Psalm 77:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Your way was through the sea; your paths through the great waters. Your footsteps were not known.",
+                      "note": "'Your way was through the sea, your path through the great waters, yet your footprints were unseen' — a hymn of God's exodus march across the deep. Coheres with Jesus pathless on the water; the psalm's exodus frame fits John's Passover setting."
+                    },
+                    {
+                      "source": "Isaiah 43:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine. When you pass through the waters, I will be with you; and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+                      "note": "'Fear not... when you pass through the waters I will be with you' pairs the precise reassurance ('Don't be afraid') with passage through threatening waters. Coherence with the disciples' deliverance; the chapter's I-AM resonates with Isaiah 43:10 below."
+                    },
+                    {
+                      "source": "Isaiah 43:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You are my witnesses,” says Yahweh, “With my servant whom I have chosen; that you may know and believe me, and understand that I am he. Before me there was no God formed, neither will there be after me.",
+                      "note": "'that you may... believe me and understand that I am he (ani hu / ego eimi)' supplies the LXX 'I am' that stands behind Jesus' words on the sea. Strengthens the case that v.20's ego eimi is theophanic rather than mere identification."
+                    },
+                    {
+                      "source": "Psalm 107:23-30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Those who go down to the sea in ships, who do business in great waters; These see Yahweh’s works, and his wonders in the deep. For he commands, and raises the stormy wind, which lifts up its waves. They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble. They reel back and forth, and stagger like a drunken man, and are at their wits’ end. Then they cry to Yahweh in their trouble, and he brings them out of their […]",
+                      "note": "Seafarers in a wind-tossed storm cry out and God 'made the storm a calm' and 'brought them to their desired haven' — strikingly close to the boat reaching land 'immediately' (v.21). Good Coherence though John gives stilling-by-arrival rather than rebuke of the storm."
+                    },
+                    {
+                      "source": "Exodus 14:21-29",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Moses stretched out his hand over the sea, and Yahweh caused the sea to go back by a strong east wind all the night, and made the sea dry land, and the waters were divided. The children of Israel went into the midst of the sea on the dry ground, and the waters were a wall to them on their right hand, and on their left. The Egyptians pursued, and went in after them into the midst of the sea: all of Pharaoh’s horses, his chariots, and his horsemen. In the […]",
+                      "note": "Under the Passover frame, a nighttime deliverance over/through the sea recalls the Red Sea crossing where Israel 'feared' then was saved. Typological rather than verbal; coheres with the exodus pattern saturating the chapter."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Feeding the five thousand",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:13–21",
+                        "mark": "6:30–44",
+                        "luke": "9:10–17",
+                        "john": "6:1–14"
+                      },
+                      "note": "The one miracle all four record — the hinge where the harmony's four lanes briefly run as one."
+                    },
+                    {
+                      "title": "Walking on the water",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:22–33",
+                        "mark": "6:45–52",
+                        "john": "6:15–21"
+                      },
+                      "note": "Luke alone omits it; Matthew alone adds Peter stepping out and sinking."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1511,7 +1850,90 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "2 Kings 4:42–44",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.14.13-Matt.14.21",
+                      "refDisplay": "Matthew 14:13–21",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.2"
+                    },
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    },
+                    {
+                      "refKey": "Mark.8.1-Mark.8.10",
+                      "refDisplay": "Mark 8:1–10",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-8.1"
+                    },
+                    {
+                      "refKey": "Luke.9.10-Luke.9.17",
+                      "refDisplay": "Luke 9:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-9.3"
+                    },
+                    {
+                      "refKey": "John.6.1-John.6.15",
+                      "refDisplay": "John 6:1–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.1"
+                    },
+                    {
+                      "refKey": "Matt.10.40-Matt.10.42",
+                      "refDisplay": "Matthew 10:40–42",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "10.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-10.8"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1524,7 +1946,145 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-145"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 145:18–19",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.7.7-Matt.7.11",
+                      "refDisplay": "Matthew 7:7–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "7.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-7.3"
+                    },
+                    {
+                      "refKey": "1John.5.13-1John.5.17",
+                      "refDisplay": "1 John 5:13–17",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "5.13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-5.13"
+                    },
+                    {
+                      "refKey": "John.14.12-John.14.14",
+                      "refDisplay": "John 14:12–14",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-14.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:15–16",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.14.13-Matt.14.21",
+                      "refDisplay": "Matthew 14:13–21",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.2"
+                    },
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:18",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.4.4-Phil.4.7",
+                      "refDisplay": "Philippians 4:4–7",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.3"
+                    },
+                    {
+                      "refKey": "Acts.17.22-Acts.17.31",
+                      "refDisplay": "Acts 17:22–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-17.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.10-Luke.13.17",
+                      "refDisplay": "Luke 13:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-13.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:13",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.1.12-1Tim.1.17",
+                      "refDisplay": "1 Timothy 1:12–17",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:17",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.15.2-Rev.15.4",
+                      "refDisplay": "Revelation 15:2–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "15.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-15.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1543,7 +2103,109 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.3",
+                  "ref": "3:14-19",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 17:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For he shall be as a tree planted by the waters, who spreads out its roots by the river, and shall not fear when heat comes, but its leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.",
+                      "note": "'Rooted and grounded in love' draws on the OT image of the person planted by water who is 'rooted' and bears fruit (Jeremiah 17:8; cf. Psalm 1:3). The agricultural 'rooted' metaphor for the secure, flourishing believer is the same, giving good coherence; the architectural 'grounded' pairs a building image, but the rootedness half is a clear OT echo."
+                    },
+                    {
+                      "source": "Job 11:7-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Can you fathom the mystery of God? Or can you probe the limits of the Almighty? They are high as heaven. What can you do? They are deeper than Sheol. What can you know? Its measure is longer than the earth, and broader than the sea.",
+                      "note": "'The breadth and length and height and depth' that the saints 'comprehend' echoes Job 11:7-9, where the unsearchable extent of God is measured by 'higher than heaven... deeper than Sheol... longer than the earth and broader than the sea.' The four-dimensional measuring of an immeasurable divine reality is a distinctive shared template, giving good coherence even without verbatim wording."
+                    },
+                    {
+                      "source": "Isaiah 45:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I have sworn by myself, the word has gone out of my mouth in righteousness, and will not return, that to me every knee shall bow, every tongue shall take an oath.",
+                      "note": "'I bow my knees to the Father' evokes the universal-homage motif of Isaiah 45:23, 'to me every knee shall bow,' the OT locus for bending the knee to God. The posture and the universal-fatherhood frame ('every family in heaven and on earth') cohere, though the volume of the verbal link is faint here.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:54"
+                    },
+                    {
+                      "source": "1 Kings 8:54",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It was so, that when Solomon had made an end of praying all this prayer and supplication to Yahweh, he arose from before the altar of Yahweh, from kneeling on his knees with his hands spread out toward heaven.",
+                      "note": "Bowing the knees to the Father in intercessory prayer recalls Solomon kneeling with hands spread to heaven in dedicatory prayer (1 Kings 8:54; cf. Ezra 9:5; Daniel 6:10). The kneeling-in-prayer gesture is a shared OT posture, supporting a faint echo rather than a pointed allusion.",
+                      "contested": true,
+                      "altSource": "Isaiah 45:23"
+                    },
+                    {
+                      "source": "Psalm 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither. Whatever he does shall prosper.",
+                      "note": "Psalm 1:3's 'tree planted by streams of water' that flourishes is the classic OT picture of the rooted, stable righteous person and reinforces 'rooted and grounded in love.' It is best paired with Jeremiah 17:8 as part of the same planted-tree image cluster rather than an independent source.",
+                      "contested": true,
+                      "altSource": "Jeremiah 17:8"
+                    },
+                    {
+                      "source": "Sirach 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The height of the heaven, and the breadth of the earth, And the deep, and wisdom, who shall search them out?",
+                      "note": "The same four-dimensional immeasurability motif appears in Sirach 1:3, 'the height of heaven, the breadth of the earth, the deep, and wisdom — who can search them out?' applied to God's wisdom. Within Second-Temple wisdom literature this strengthens the availability of the breadth/length/height/depth topos behind verse 18.",
+                      "contested": true,
+                      "altSource": "Job 11:7-9"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:20-21",
+                  "echoes": [
+                    {
+                      "source": "1 Chronicles 29:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yours, Yahweh, is the greatness, the power, the glory, the victory, and the majesty! For all that is in the heavens and in the earth is yours. Yours is the kingdom, Yahweh, and you are exalted as head above all.",
+                      "note": "The doxology 'to him be the glory... forever and ever' draws on David's blessing, 'Yours, O Lord, is the greatness and the power and the glory... yours is the kingdom... forever.' The pattern of ascribing glory and power to God in an everlasting public blessing is the OT model for this doxology; coherence is high, the link being formal rather than verbatim."
+                    },
+                    {
+                      "source": "Psalm 72:18-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Praise be to Yahweh God, the God of Israel, who alone does marvelous deeds. Blessed be his glorious name forever! Let the whole earth be filled with his glory! Amen and amen.",
+                      "note": "'To him be the glory... to all generations forever and ever. Amen' closely matches the closing doxology of Psalm 72:18-19, 'blessed be his glorious name forever... Amen and Amen,' which praises the God 'who alone does wondrous things.' The wondrous-deeds-plus-eternal-glory-plus-Amen structure makes this a strong formal model, supporting medium confidence."
+                    },
+                    {
+                      "source": "Psalm 145:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Great is Yahweh, and greatly to be praised! His greatness is unsearchable.",
+                      "note": "'Him who is able to do exceedingly abundantly above all that we ask or think' coheres with Psalm 145:3, 'great is the Lord and greatly to be praised; his greatness is unsearchable,' which celebrates God's measureless power as ground for praise. The link is conceptual (immeasurable divine ability) rather than verbal, hence a faint echo.",
+                      "contested": true,
+                      "altSource": "1 Chronicles 29:11"
+                    },
+                    {
+                      "source": "Genesis 18:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Is anything too hard for Yahweh? At the set time I will return to you, when the season comes round, and Sarah will have a son.”",
+                      "note": "'Able to do exceedingly abundantly above all that we ask or think' echoes the OT confession that nothing is too hard/wonderful for the Lord (Genesis 18:14; cf. Jeremiah 32:17,27). The motif of God's unlimited capacity to do what humans cannot conceive coheres, but the volume is low and it is one of several possible backgrounds.",
+                      "contested": true,
+                      "altSource": "Psalm 145:3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1562,7 +2224,173 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-15",
+                  "echoes": [
+                    {
+                      "source": "Exodus 16:4-15",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not. It shall come to pass on the sixth day, that they shall prepare that which they bring in, and it shall be twice as much as they gather daily.” Moses and Aaron said to all the children of Israel, “At evening, then you shall know that Yahweh has brought […]",
+                      "note": "The wilderness feeding of a great multitude with miraculous bread sets the controlling type that the chapter will name explicitly in v.31. High Volume and total Coherence with the manna economy (bread, gathering, leftovers, no waste); the feeding scene is the narrative enactment of the manna gift Jesus later interprets."
+                    },
+                    {
+                      "source": "Numbers 11:13-22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Where could I get meat to give to all this people? For they weep to me, saying, ‘Give us meat, that we may eat.’ I am not able to bear all this people alone, because it is too heavy for me. If you treat me this way, please kill me right now, if I have found favor in your sight; and don’t let me see my wretchedness.” Yahweh said to Moses, “Gather to me seventy men of the elders of Israel, whom you know to be the elders of the people, and officers over […]",
+                      "note": "Philip's 'Where are we to buy bread... not sufficient' (v.7) closely mirrors Moses' despairing 'Where am I to get meat... shall flocks and herds be slaughtered to suffice them?' Strong structural and verbal Coherence: a leader confronted with an impossible crowd, mountain setting, and divine provision overriding human arithmetic."
+                    },
+                    {
+                      "source": "2 Kings 4:42-44",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "A man from Baal Shalishah came, and brought the man of God bread of the first fruits, twenty loaves of barley, and fresh ears of grain in his sack. He said, “Give to the people, that they may eat.” His servant said, “What, should I set this before a hundred men?” But he said, “Give the people, that they may eat; for thus says Yahweh, ‘They will eat, and will have some left over.’” So he set it before them, and they ate, and left some of it, according to […]",
+                      "note": "Elisha multiplies twenty barley loaves to feed a hundred with leftovers, dismissing a servant's 'How can I set this before a hundred?' John alone specifies 'barley loaves' and 'what are these among so many?', and adds the leftovers motif. High Volume and verbal Recurrence make this the closest single OT analogue to the miracle's mechanics."
+                    },
+                    {
+                      "source": "Psalm 78:24-25",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "He rained down manna on them to eat, and gave them food from the sky. Man ate the bread of angels. He sent them food to the full.",
+                      "note": "Asaph's 'he rained down manna... gave them grain of heaven... bread of the angels' is the psalm John will quote at v.31; its presence governs the feeding as the eschatological manna. High Coherence: the crowd reads the sign as a renewed wilderness banquet."
+                    },
+                    {
+                      "source": "Deuteronomy 18:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh your God will raise up to you a prophet from your midst, of your brothers, like me. You shall listen to him.",
+                      "note": "The crowd's acclamation 'This is truly the prophet who comes into the world' (v.14) invokes the promised prophet-like-Moses. The Mosaic feeding miracle triggers a Mosaic-prophet expectation; high Coherence with John's prophet-and-king Christology."
+                    },
+                    {
+                      "source": "Psalm 105:40",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "They asked, and he brought quails, and satisfied them with the bread of the sky.",
+                      "note": "'He gave them bread from heaven in abundance' — a second psalmic celebration of the manna, reinforcing the satisfied-fullness motif ('when they were filled,' v.12). Lower distinctiveness than Ps 78 but adds Recurrence to the manna tradition active here."
+                    },
+                    {
+                      "source": "Exodus 12",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to Moses and Aaron in the land of Egypt, saying, “This month shall be to you the beginning of months. It shall be the first month of the year to you. Speak to all the congregation of Israel, saying, ‘On the tenth day of this month, they shall take to them every man a lamb, according to their fathers’ houses, a lamb for a household; and if the household is too little for a lamb, then he and his neighbor next to his house shall take one […]",
+                      "note": "John's editorial note 'Now the Passover was at hand' (v.4) frames the whole chapter under the paschal lamb, preparing the flesh-and-blood discourse (vv.51-56). Availability and Coherence are strong; the Passover anchor is authorial, though the feeding scene itself does not verbally cite Exodus 12."
+                    },
+                    {
+                      "source": "Exodus 24:1-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said to Moses, “Come up to Yahweh, you, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship from a distance. Moses alone shall come near to Yahweh, but they shall not come near, neither shall the people go up with him.” Moses came and told the people all Yahweh’s words, and all the ordinances; and all the people answered with one voice, and said, “All the words which Yahweh has spoken will we do.” Moses wrote all Yahweh’s […]",
+                      "note": "Jesus 'went up into the mountain and sat there with his disciples' (v.3) before a meal faintly recalls Moses ascending Sinai where the elders 'beheld God and ate and drank.' Suggestive of a covenant-meal-on-the-mountain pattern but low Volume; contested.",
+                      "contested": true,
+                      "altSource": "Exodus 19:3"
+                    },
+                    {
+                      "source": "1 Samuel 8:5-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and they said to him, “Behold, you are old, and your sons don’t walk in your ways: now make us a king to judge us like all the nations.” But the thing displeased Samuel, when they said, “Give us a king to judge us.” Samuel prayed to Yahweh. Yahweh said to Samuel, “Listen to the voice of the people in all that they tell you; for they have not rejected you, but they have rejected me, that I should not be king over them.",
+                      "note": "The crowd's move to 'take him by force, to make him king' (v.15) faintly evokes Israel's improper demand for a king, which the LORD treats as rejection of his rule. Thematic rather than verbal; offered as a contested background to Jesus' refusal of a politicized kingship.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.2",
+                  "ref": "6:16-21",
+                  "echoes": [
+                    {
+                      "source": "Exodus 3:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”",
+                      "note": "Jesus' 'It is I (ego eimi); do not be afraid' atop the storm reads, in John's idiom, as the divine self-naming 'I AM.' High Coherence with the chapter's later absolute 'I am' sayings; the theophanic-on-the-water setting elevates the otherwise ordinary phrase to divine self-disclosure."
+                    },
+                    {
+                      "source": "Job 9:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He alone stretches out the heavens, and treads on the waves of the sea.",
+                      "note": "'who alone... treads on the waves of the sea' ascribes sea-trampling to God alone. Jesus 'walking on the sea' enacts a prerogative the OT reserves for the Creator; strong Volume and Coherence with the I-AM disclosure that accompanies it."
+                    },
+                    {
+                      "source": "Psalm 77:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Your way was through the sea; your paths through the great waters. Your footsteps were not known.",
+                      "note": "'Your way was through the sea, your path through the great waters, yet your footprints were unseen' — a hymn of God's exodus march across the deep. Coheres with Jesus pathless on the water; the psalm's exodus frame fits John's Passover setting."
+                    },
+                    {
+                      "source": "Isaiah 43:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine. When you pass through the waters, I will be with you; and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+                      "note": "'Fear not... when you pass through the waters I will be with you' pairs the precise reassurance ('Don't be afraid') with passage through threatening waters. Coherence with the disciples' deliverance; the chapter's I-AM resonates with Isaiah 43:10 below."
+                    },
+                    {
+                      "source": "Isaiah 43:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“You are my witnesses,” says Yahweh, “With my servant whom I have chosen; that you may know and believe me, and understand that I am he. Before me there was no God formed, neither will there be after me.",
+                      "note": "'that you may... believe me and understand that I am he (ani hu / ego eimi)' supplies the LXX 'I am' that stands behind Jesus' words on the sea. Strengthens the case that v.20's ego eimi is theophanic rather than mere identification."
+                    },
+                    {
+                      "source": "Psalm 107:23-30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Those who go down to the sea in ships, who do business in great waters; These see Yahweh’s works, and his wonders in the deep. For he commands, and raises the stormy wind, which lifts up its waves. They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble. They reel back and forth, and stagger like a drunken man, and are at their wits’ end. Then they cry to Yahweh in their trouble, and he brings them out of their […]",
+                      "note": "Seafarers in a wind-tossed storm cry out and God 'made the storm a calm' and 'brought them to their desired haven' — strikingly close to the boat reaching land 'immediately' (v.21). Good Coherence though John gives stilling-by-arrival rather than rebuke of the storm."
+                    },
+                    {
+                      "source": "Exodus 14:21-29",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Moses stretched out his hand over the sea, and Yahweh caused the sea to go back by a strong east wind all the night, and made the sea dry land, and the waters were divided. The children of Israel went into the midst of the sea on the dry ground, and the waters were a wall to them on their right hand, and on their left. The Egyptians pursued, and went in after them into the midst of the sea: all of Pharaoh’s horses, his chariots, and his horsemen. In the […]",
+                      "note": "Under the Passover frame, a nighttime deliverance over/through the sea recalls the Red Sea crossing where Israel 'feared' then was saved. Typological rather than verbal; coheres with the exodus pattern saturating the chapter."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Feeding the five thousand",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:13–21",
+                        "mark": "6:30–44",
+                        "luke": "9:10–17",
+                        "john": "6:1–14"
+                      },
+                      "note": "The one miracle all four record — the hinge where the harmony's four lanes briefly run as one."
+                    },
+                    {
+                      "title": "Walking on the water",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:22–33",
+                        "mark": "6:45–52",
+                        "john": "6:15–21"
+                      },
+                      "note": "Luke alone omits it; Matthew alone adds Peter stepping out and sinking."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

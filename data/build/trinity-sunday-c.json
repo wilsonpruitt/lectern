@@ -573,7 +573,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/proverbs-8"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -586,7 +589,190 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-8"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 8:6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.15.20-1Cor.15.28",
+                      "refDisplay": "1 Corinthians 15:20–28",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "15.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-15.3"
+                    },
+                    {
+                      "refKey": "Eph.1.20-Eph.1.23",
+                      "refDisplay": "Ephesians 1:20–23",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.7"
+                    },
+                    {
+                      "refKey": "Phil.3.20-Phil.3.21",
+                      "refDisplay": "Philippians 3:20–21",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.7"
+                    },
+                    {
+                      "refKey": "Heb.1.13",
+                      "refDisplay": "Hebrews 1:13",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.7"
+                    },
+                    {
+                      "refKey": "Mark.12.35-Mark.12.37",
+                      "refDisplay": "Mark 12:35–37",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "12.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-12.5"
+                    },
+                    {
+                      "refKey": "John.13.1-John.13.3",
+                      "refDisplay": "John 13:1–3",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-13.1"
+                    },
+                    {
+                      "refKey": "Rom.16.17-Rom.16.20",
+                      "refDisplay": "Romans 16:17–20",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "16.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-16.2"
+                    },
+                    {
+                      "refKey": "1Cor.3.21-1Cor.3.23",
+                      "refDisplay": "1 Corinthians 3:21–23",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "3.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-3.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.17.20-John.17.23",
+                      "refDisplay": "John 17:20–23",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-17.6"
+                    },
+                    {
+                      "refKey": "1Cor.13.1",
+                      "refDisplay": "1 Corinthians 13:1",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.1"
+                    },
+                    {
+                      "refKey": "2Cor.3.16-2Cor.3.18",
+                      "refDisplay": "2 Corinthians 3:16–18",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-3.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.21.12-Matt.21.17",
+                      "refDisplay": "Matthew 21:12–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "21.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-21.2"
+                    },
+                    {
+                      "refKey": "Matt.19.13-Matt.19.15",
+                      "refDisplay": "Matthew 19:13–15",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.1.20-Eph.1.23",
+                      "refDisplay": "Ephesians 1:20–23",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:4–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.2.5-Heb.2.9",
+                      "refDisplay": "Hebrews 2:5–9",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "2.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -605,7 +791,160 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.0",
+                  "ref": "5:1-11",
+                  "echoes": [
+                    {
+                      "source": "Genesis 15:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He believed in Yahweh; and he reckoned it to him for righteousness.",
+                      "note": "\"Justified by faith\" (5:1) is the conclusion Paul has just drawn from Abraham (Romans 4), and ultimately rests on Genesis 15:6, \"Abram believed the LORD, and he reckoned it to him as righteousness.\" The faith-righteousness link governing 5:1 is verbally and conceptually the Genesis 15:6 logic carried forward into this pericope's opening clause."
+                    },
+                    {
+                      "source": "Isaiah 53:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
+                      "note": "\"Peace with God\" (5:1) and reconciliation through Christ's death (5:10-11) echo the Suffering Servant whose \"chastisement brought us peace, and with his stripes we are healed.\" Isaiah 53 supplies the template of one man's death securing peace and healing for the many that drives the whole passage."
+                    },
+                    {
+                      "source": "Isaiah 53:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "\"While we were yet sinners/ungodly\" Christ died for us (5:6, 5:8): \"All we like sheep have gone astray... and the LORD has laid on him the iniquity of us all.\" The Servant bearing the iniquity of the straying matches Paul's \"Christ died for the ungodly.\""
+                    },
+                    {
+                      "source": "Joel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit.",
+                      "note": "\"God's love has been poured out into our hearts through the Holy Spirit\" (5:5): \"I will pour out my Spirit on all flesh.\" The verb \"pour out\" (ekcheo) applied to the Spirit is the prophetic eschatological-outpouring idiom; Paul quotes Joel 2:32 at Romans 10:13, showing the passage is in view."
+                    },
+                    {
+                      "source": "Habakkuk 2:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith.",
+                      "note": "\"The righteous shall live by faith\" is Paul's thesis text (Romans 1:17) and stands behind \"being justified by faith\" (5:1). The faith-life pairing of Habakkuk 2:4 resonates in the move from justification by faith to being \"saved by his life\" (5:10), though no verbal quotation appears here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "\"He poured out his soul to death and was numbered with the transgressors; yet he bore the sin of many\" stands behind \"Christ died for us\" while sinners (5:8) and \"justified by his blood\" (5:9). The Servant's vicarious death for \"many\" anticipates the many/one structure Paul develops."
+                    },
+                    {
+                      "source": "Leviticus 17:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life.",
+                      "note": "\"Justified by his blood\" (5:9): \"the life of the flesh is in the blood... it is the blood that makes atonement.\" Paul's atoning-blood language draws on the Levitical principle that blood effects expiation, already invoked at Romans 3:25 (hilasterion)."
+                    },
+                    {
+                      "source": "Psalm 5:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But let all those who take refuge in you rejoice, Let them always shout for joy, because you defend them. Let them also who love your name be joyful in you.",
+                      "note": "\"We rejoice in hope of the glory of God\" and \"rejoice in God\" (5:2, 5:11): \"let all who take refuge in you rejoice; let them ever sing for joy... let those who love your name exult in you.\" The pattern of those justified/sheltered by God rejoicing/exulting in him is a recurrent Psalmic posture Paul takes up.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 22:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They cried to you, and were delivered. They trusted in you, and were not disappointed.",
+                      "note": "\"Hope does not put us to shame\" (5:5): \"they trusted in you and were not put to shame.\" The Psalmic confession that trust in God does not end in shame is the verbal-conceptual root of Paul's claim that hope ou kataischynei."
+                    },
+                    {
+                      "source": "Psalm 25:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yes, no one who waits for you shall be shamed. They shall be shamed who deal treacherously without cause.",
+                      "note": "\"Hope does not put us to shame\" (5:5): \"none who wait for you shall be put to shame.\" Psalm 25 (vv. 3, 20) repeatedly grounds the assurance that hope in God is not disappointed, matching Paul's claim about hope."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "\"Hope does not put us to shame\" (5:5): \"whoever believes will not be put to shame\" (LXX). Paul quotes this very verse at Romans 9:33 and 10:11; the same shame/faith formula colors his statement here that hope does not disappoint."
+                    },
+                    {
+                      "source": "Isaiah 44:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For I will pour water on him who is thirsty, and streams on the dry ground. I will pour my Spirit on your seed, and my blessing on your offspring:",
+                      "note": "\"God's love poured out... through the Holy Spirit\" (5:5): \"I will pour my Spirit upon your offspring.\" The same Spirit-outpouring promise, paired with water/blessing imagery, undergirds Paul's image of love flooding the heart by the Spirit."
+                    },
+                    {
+                      "source": "Ezekiel 36:26-27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will also give you a new heart, and I will put a new spirit within you; and I will take away the stony heart out of your flesh, and I will give you a heart of flesh. I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "\"Poured out into our hearts... the Holy Spirit who was given to us\" (5:5): \"I will give you a new heart... I will put my Spirit within you.\" The new-covenant promise of God's Spirit placed within the heart matches Paul's interiorized gift of the Spirit and love."
+                    },
+                    {
+                      "source": "Sirach 2:1-5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "My son, if you come to serve the Lord, Prepare your soul for temptation. Set your heart aright, and constantly endure, And make not haste in time of calamity. Cleave to him, and depart not, That you may be increased at your latter end. Accept whatever is brought upon you, And be longsuffering when you passest into humiliation. For gold is tried in the fire, And acceptable men in the furnace of humiliation.",
+                      "note": "\"Suffering produces perseverance, and perseverance proven character\" (5:3-4): \"My son, if you come to serve the Lord, prepare yourself for testing... for gold is tested in the fire, and acceptable men in the furnace of humiliation.\" A Second Temple wisdom commonplace that trials refine and prove the faithful, closely parallel to Paul's chain suffering->endurance->proven character."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 3:5-6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "And having borne a little chastening, they will receive great good; Because God made trial of them, and found them worthy of himself. As gold in the furnace he proved them, And as a whole burnt offering he accepted them.",
+                      "note": "\"Suffering works perseverance... proven character; and proven character, hope\" (5:3-4): \"Having been disciplined a little, they will receive great good, because God tested them and found them worthy of himself; like gold in the furnace he tried them.\" Second Temple parallel linking testing/discipline to being proven worthy and to hope of glory (cf. Wisdom 3:4, hope full of immortality)."
+                    },
+                    {
+                      "source": "Exodus 24:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”",
+                      "note": "\"Justified by his blood\" (5:9) may faintly recall the blood of the covenant Moses dashed on the people, sealing the relationship with God. Disputed as a deliberate echo here versus general sacrificial background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 32:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The work of righteousness will be peace; and the effect of righteousness, quietness and confidence forever.",
+                      "note": "\"Peace with God\" through righteousness (5:1): \"the work of righteousness shall be peace.\" The prophetic linkage of righteousness and peace faintly underlies Paul's pairing of justification with peace, though no verbal borrowing is evident.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 85:8-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will hear what God, Yahweh, will speak, for he will speak peace to his people, his saints; but let them not turn again to folly. Surely his salvation is near those who fear him, that glory may dwell in our land. Mercy and truth meet together. Righteousness and peace have kissed each other.",
+                      "note": "\"Peace with God\" (5:1): \"righteousness and peace kiss each other.\" The Psalm's union of righteousness and peace as God's salvific gift resonates faintly with Paul's justification-yields-peace claim. Disputed as a deliberate echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 57:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I create the fruit of the lips: Peace, peace, to him who is far off and to him who is near,” says Yahweh; “and I will heal them.”",
+                      "note": "\"Peace with God\" for the reconciled (5:1, 5:10-11): \"Peace, peace, to the far and the near, says the LORD; and I will heal him.\" The prophetic announcement of peace and healing to estranged people faintly anticipates peace and reconciliation language. Contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -624,7 +963,77 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.3",
+                  "ref": "16:12-15",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The 'Spirit of truth' who guides into all truth draws on the Spirit of wisdom and understanding; the leading/guiding function recalls the Spirit as teacher. Recurrence of the Spirit-of-truth title in John strengthens the Isaianic resonance."
+                    },
+                    {
+                      "source": "Psalm 25:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Guide me in your truth, and teach me, For you are the God of my salvation, I wait for you all day long.",
+                      "note": "'Guide me in your truth and teach me' supplies the precise idiom of being led/guided into truth (hodegein + aletheia in LXX), matching 'he will guide you into all truth.' Volume is notable because the verb and noun co-occur as in John 16:13."
+                    },
+                    {
+                      "source": "Psalm 143:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Teach me to do your will, for you are my God. Your Spirit is good. Lead me in the land of uprightness.",
+                      "note": "'Your good Spirit will lead me' pairs the divine Spirit with guidance into right paths, coherent with the Paraclete leading disciples. The conjunction of Spirit and leading reinforces the guidance motif though the wording is more distant than Psalm 25.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Amos 3:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Surely the Lord Yahweh will do nothing, unless he reveals his secret to his servants the prophets.",
+                      "note": "'The Lord GOD will do nothing but he reveals his secret to his servants the prophets' undergirds 'he will declare to you things that are coming' — the Spirit functioning as the prophetic revealer of God's hidden future. Coherence with the disclosure-of-the-future clause is good though the allusion is diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 2:28-29",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "but there is a God in heaven who reveals secrets, and he has made known to the king Nebuchadnezzar what shall be in the latter days. Your dream, and the visions of your head on your bed, are these: as for you, O king, your thoughts came on your bed, what should happen hereafter; and he who reveals secrets has made known to you what shall happen.",
+                      "note": "'There is a God in heaven who reveals secrets and has made known what shall come to pass' parallels the Spirit declaring 'things that are coming.' The apocalyptic disclosure of the future coheres with the Paraclete's revelatory role.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The footwashing and farewell discourse",
+                      "section": "passion",
+                      "refs": {
+                        "john": "13:1–17:26"
+                      },
+                      "note": "Five chapters where the Synoptics give the meal: the new commandment, the vine, the Paraclete, and the high-priestly prayer. John only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

@@ -735,7 +735,80 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/daniel-7"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Daniel 7:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.13.1-Rev.13.4",
+                      "refDisplay": "Revelation 13:1–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "13.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-13.1"
+                    },
+                    {
+                      "refKey": "Rev.17.7-Rev.17.11",
+                      "refDisplay": "Revelation 17:7–11",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "17.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-17.2"
+                    },
+                    {
+                      "refKey": "Rev.11.7-Rev.11.10",
+                      "refDisplay": "Revelation 11:7–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "11.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-11.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Daniel 7:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.7.1-Rev.7.3",
+                      "refDisplay": "Revelation 7:1–3",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "7.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-7.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Daniel 7:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.21.1-Rev.21.4",
+                      "refDisplay": "Revelation 21:1–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "21.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-21.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -748,7 +821,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-149"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 149:5–9",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.6.1-1Cor.6.8",
+                      "refDisplay": "1 Corinthians 6:1–8",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "6.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-6.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -767,7 +863,230 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:9-12",
+                  "echoes": [
+                    {
+                      "source": "Daniel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "but there is a God in heaven who reveals secrets, and he has made known to the king Nebuchadnezzar what shall be in the latter days. Your dream, and the visions of your head on your bed, are these: as for you, O king, your thoughts came on your bed, what should happen hereafter; and he who reveals secrets has made known to you what shall happen.",
+                      "note": "'Making known to us the mystery of his will' draws on Daniel's God 'who reveals mysteries' and 'made known... what will be.' Volume is strong (mysterion + the verb 'make known' is distinctively Danielic in the LXX); recurrence (Dan 2:19,30,47) and thematic coherence (eschatological disclosure of God's hidden purpose) make this the primary subtext for Ephesians' mystery language."
+                    },
+                    {
+                      "source": "Daniel 2:47",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The king answered to Daniel, and said, Of a truth your God is the God of gods, and the Lord of kings, and a revealer of secrets, since you have been able to reveal this secret.",
+                      "note": "'Your God is... a revealer of mysteries, since you could reveal this mystery' reinforces the Danielic provenance of 'the mystery of his will' made known. Recurrence within Daniel 2 strengthens the allusion; medium because it overlaps with 2:28-29 rather than adding distinct wording.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 46:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "declaring the end from the beginning, and from ancient times things that are not yet done; saying, My counsel shall stand, and I will do all my pleasure;",
+                      "note": "'Him who works all things after the counsel of his will' echoes Isaiah's God 'declaring the end from the beginning... my counsel shall stand, and I will accomplish all my purpose.' Thematic coherence (sovereign counsel/purpose executed in history) is strong; volume is moderate, hence a medium echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 4:35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All the inhabitants of the earth are reputed as nothing; and he does according to his will in the army of heaven, and among the inhabitants of the earth; and no one can stay his hand, or ask him, What are you doing?",
+                      "note": "'Works all things after the counsel of his will' resonates with Daniel's confession that God 'does according to his will... none can stay his hand.' Availability and thematic coherence (universal divine sovereignty) support a faint echo; volume is low, so it is marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 11:6-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The wolf will live with the lamb, and the leopard will lie down with the young goat; The calf, the young lion, and the fattened calf together; and a little child will lead them. The cow and the bear will graze. Their young ones will lie down together. The lion will eat straw like the ox. The nursing child will play near a cobra’s hole, and the weaned child will put his hand on the viper’s den. They will not hurt nor destroy in all my holy mountain; for […]",
+                      "note": "'To sum up all things in Christ, the things in the heavens and the things on the earth' may resonate with Isaiah's eschatological reconciliation of all creation under the Messianic shoot. Thematic coherence (cosmic harmony restored under the Anointed) is plausible but the volume is low; marked contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.5",
+                  "ref": "1:13-14",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit.",
+                      "note": "'Sealed with the Holy Spirit of promise' draws on the eschatological promise 'I will pour out my Spirit on all flesh.' The Spirit as 'of promise' coheres with Joel's prophetic gift inaugurating the last days; recurrence in Second-Temple expectation and thematic coherence (Spirit marking the eschatological people) support a high-confidence allusion."
+                    },
+                    {
+                      "source": "Ezekiel 36:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "'I will put my Spirit within you' is the new-covenant promise behind the indwelling 'Spirit of promise.' Thematic coherence (Spirit given to a redeemed possession, cleansed and made holy) matches Ephesians' election/holiness frame; recurrence with Ezek 37:14 and 39:29 strengthens the link."
+                    },
+                    {
+                      "source": "Deuteronomy 14:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For you are a holy people to Yahweh your God, and Yahweh has chosen you to be a people for his own possession, above all peoples who are on the face of the earth.",
+                      "note": "'The redemption of God's own possession' reproduces Deuteronomy's 'a people for his own possession (peripoiesis/segullah).' Volume is strong on the possession motif; recurrence (Deut 7:6; 26:18; Exod 19:5) and thematic coherence (redeemed people belonging to God) make this a controlling subtext for 1:14."
+                    },
+                    {
+                      "source": "Exodus 19:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Now therefore, if you will indeed obey my voice, and keep my covenant, then you shall be my own possession from among all peoples; for all the earth is mine;",
+                      "note": "'You shall be my own possession among all peoples' (segullah / LXX laos periousios) underlies 'the redemption of God's own possession.' Recurrence with Deut 7:6 and 14:2 and thematic coherence (covenant possession claimed and redeemed) reinforce the allusion; the volume on the possession concept is high."
+                    },
+                    {
+                      "source": "Haggai 2:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "In that day, says Yahweh of Armies, will I take you, Zerubbabel, my servant, the son of Shealtiel,’ says Yahweh, ‘and will make you as a signet, for I have chosen you,’ says Yahweh of Armies.”",
+                      "note": "'You were sealed' (esphragisthete) evokes Haggai's 'I will make you like a signet ring (sphragis), for I have chosen you,' which joins the seal image to divine election — the very pairing of Ephesians 1:4,13. Thematic coherence is strong; medium because the seal in Ephesians is the Spirit, not the person.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:8-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For he said, “Surely, they are my people, children who will not deal falsely:” so he was their Savior. In all their affliction he was afflicted, and the angel of his presence saved them: in his love and in his pity he redeemed them; and he bore them, and carried them all the days of old.",
+                      "note": "'They are my people... so he became their Savior... he redeemed them' joins God's people, Spirit, and redemption — the cluster of Ephesians 1:13-14. Thematic coherence is decent but the volume is faint, so this is a low, contested echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Malachi 3:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They shall be mine,” says Yahweh of Armies, “my own possession in the day that I make, and I will spare them, as a man spares his own son who serves him.",
+                      "note": "'They shall be mine, says the LORD of hosts, my own possession (segullah)' on the day God acts could reinforce 'the redemption of God's own possession' with an eschatological cast. Recurrence of the segullah term supports availability; volume is low, hence contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.6",
+                  "ref": "1:15-19",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "'A spirit of wisdom and revelation in the knowledge of him' draws on the Messianic 'Spirit of the LORD... the spirit of wisdom and understanding... the spirit of knowledge.' Volume is strong (spirit + wisdom + knowledge in sequence); thematic coherence (the endowing Spirit granting wisdom and knowledge of God) and the passage's Messianic availability make this a high-confidence allusion."
+                    },
+                    {
+                      "source": "Daniel 2:21-22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He changes the times and the seasons; he removes kings, and sets up kings; he gives wisdom to the wise, and knowledge to those who have understanding; he reveals the deep and secret things; he knows what is in the darkness, and the light dwells with him.",
+                      "note": "'A spirit of wisdom and revelation' coheres with Daniel's God who 'gives wisdom to the wise... reveals deep and hidden things.' Recurrence of the Danielic wisdom/revelation pairing (cf. 1:9 mystery) supports a medium echo; the volume is moderate alongside the dominant Isaiah 11 source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 7:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For this cause I prayed, and understanding was given me: I called upon God, and there came to me a spirit of wisdom.",
+                      "note": "'I prayed, and understanding was given me; I called, and the spirit of wisdom came to me' (deuterocanonical) closely parallels praying for 'a spirit of wisdom' to know God. Thematic coherence is strong and the Wisdom tradition was available in Greek-speaking Judaism; medium because it is a parallel within a shared milieu rather than a citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 28:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall speak to all who are wise-hearted, whom I have filled with the spirit of wisdom, that they make Aaron’s garments to sanctify him, that he may minister to me in the priest’s office.",
+                      "note": "God filling artisans with a 'spirit of wisdom' to equip them is one OT background for Spirit-given wisdom granted to God's people. Availability is real but thematic coherence with revelatory knowledge of God is weaker than Isaiah 11; marked low and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 17:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He filled them with the knowledge of wisdom, And showed them good and evil. He set his eye upon their hearts, To show them the majesty of his works.",
+                      "note": "Sirach's depiction of God enlightening humans with knowledge and 'setting his eye on their hearts' resonates faintly with 'the eyes of your hearts enlightened.' Availability within the wisdom corpus is genuine; volume and verbal overlap are low, so the echo is contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 19:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh’s precepts are right, rejoicing the heart. Yahweh’s commandment is pure, enlightening the eyes.",
+                      "note": "'The commandment of the LORD is pure, enlightening the eyes' offers an OT idiom of divine illumination behind 'the eyes of your hearts enlightened.' Thematic coherence (God enlightening the perceiving faculty) is plausible; volume is faint, so low and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.7",
+                  "ref": "1:20-23",
+                  "echoes": [
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "'Made him to sit at his right hand in the heavenly places, far above all rule and authority' reproduces 'Sit at my right hand until I make your enemies your footstool.' Volume is very high (the most-cited OT verse in the NT); recurrence and thematic coherence (enthroned exaltation over all powers) make this a near-quotation undergirding the entire exaltation statement."
+                    },
+                    {
+                      "source": "Psalm 8:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You make him ruler over the works of your hands. You have put all things under his feet:",
+                      "note": "'He put all things in subjection under his feet' is a verbatim citation of 'you have put all things under his feet.' Volume is maximal (direct verbal match); recurrence (1 Cor 15:27; Heb 2:8) and thematic coherence (the dominion granted to the exalted man over creation) make this an explicit quotation."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "'He put all things in subjection under his feet' also fulfills Psalm 110:1's 'until I make your enemies a footstool for your feet,' which Ephesians conflates with Psalm 8:6. The footstool/subjection imagery shows the two enthronement psalms read together; volume and thematic coherence (subjugation of enemies under the exalted Lord) are high."
+                    },
+                    {
+                      "source": "1 Kings 8:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "so that the priests could not stand to minister by reason of the cloud; for Yahweh’s glory filled Yahweh’s house.",
+                      "note": "'The fullness of him who fills all in all' evokes the glory of the LORD filling the temple so that 'the priests could not stand to minister.' Thematic coherence (divine presence filling God's house, now the church as body/temple) is strong; medium because the link is conceptual and joins other temple-glory texts.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 23:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Can any hide himself in secret places so that I shall not see him? says Yahweh. Don’t I fill heaven and earth? says Yahweh.",
+                      "note": "'Do I not fill heaven and earth? says the LORD' supplies the divine self-description behind 'him who fills all in all.' Thematic coherence with God's omnipresent fullness is strong; the volume is moderate (a shared plerosis motif), so medium confidence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 6:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In the year that king Uzziah died, I saw the Lord sitting on a throne, high and lifted up; and his train filled the temple. Above him stood the seraphim. Each one had six wings. With two he covered his face. With two he covered his feet. With two he flew. One called to another, and said, “Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!”",
+                      "note": "'The whole earth is full of his glory,' with the temple filled by the LORD's train, reinforces the fullness/glory imagery of 1:23. Availability and thematic coherence (glory filling the sanctuary) support a faint echo; volume is low alongside 1 Kings 8 and Jeremiah 23, so contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 8:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, our Lord, how majestic is your name in all the earth, who has set your glory above the heavens!",
+                      "note": "'Head over all things' resonates with Psalm 8's exaltation of God's name 'above the heavens' and the dominion theme framing the quoted v.6. Thematic coherence (universal supremacy) is plausible; the volume is low and the link secondary to 8:6, so contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -786,7 +1105,199 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.5",
+                  "ref": "6:20-23",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 61:1-3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound; to proclaim the year of Yahweh’s favor, and the day of vengeance of our God; to comfort all who mourn; to appoint to those who mourn in Zion, to give to them a garland for ashes, the oil of joy for mourning, the garment of praise for the spirit of […]",
+                      "note": "The beatitudes for the poor, the mourning (who will laugh/rejoice), and the comforted directly draw on Isaiah's good-news-to-the-poor and comfort-for-mourners, which Luke programmatically makes Jesus' manifesto (cf. Luke 4:18). High Volume, Recurrence in Luke, and strong Coherence.",
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind; to declare the acceptable year of the Lord, and the day of recompence; to comfort all that mourn; that there should be given to them that mourn in Sion glory instead of ashes, the oil of joy to the mourners, the garment of glory for the spirit of heaviness: and […]"
+                    },
+                    {
+                      "source": "2 Chronicles 36:16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "but they mocked the messengers of God, and despised his words, and scoffed at his prophets, until the wrath of Yahweh arose against his people, until there was no remedy.",
+                      "note": "'Their fathers did the same thing to the prophets' invokes the deuteronomistic tradition of Israel persecuting and killing the prophets, classically summarized in 2 Chronicles 36:16. High Coherence; Luke makes the persecuted-prophet typology explicit."
+                    },
+                    {
+                      "source": "Isaiah 65:13-14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, my servants shall eat, but you shall be hungry; behold, my servants shall drink, but you shall be thirsty; behold, my servants shall rejoice, but you shall be disappointed; behold, my servants shall sing for joy of heart, but you shall cry for sorrow of heart, and shall wail for anguish of spirit.",
+                      "note": "Isaiah's eschatological reversal — God's servants will eat, rejoice and sing while the wicked hunger, are ashamed and wail — supplies the exact hunger/fullness and weeping/laughing antitheses structuring Luke's blessings and woes. Strong Coherence with the following woes section."
+                    },
+                    {
+                      "source": "Psalm 126:5-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Those who sow in tears will reap in joy. He who goes out weeping, carrying seed for sowing, will certainly come again with joy, carrying his sheaves.",
+                      "note": "'Those who sow in tears shall reap with joyful shouting' is the Psalter's paradigm of weeping turned to joy, matching 'blessed are you who weep now, for you will laugh.' Moderate Volume via shared reversal motif."
+                    },
+                    {
+                      "source": "Psalm 107:9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For he satisfies the longing soul. He fills the hungry soul with good.",
+                      "note": "'He satisfies the hungry soul with good things' undergirds 'blessed are you who hunger now, for you will be filled.' Coherent with Luke's broader hunger-satisfaction theme (Magnificat, 1:53)."
+                    },
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "Persecution endured 'for the Son of Man's sake,' with reward in heaven, draws the title and the vindication-of-the-righteous frame from Daniel's heavenly Son of Man. Coherent with Luke's pervasive Son of Man usage.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 17:7-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Blessed is the man who trusts in Yahweh, and whose trust Yahweh is. For he shall be as a tree planted by the waters, who spreads out its roots by the river, and shall not fear when heat comes, but its leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.",
+                      "note": "Jeremiah's macarism 'blessed is the man who trusts in the LORD' (tree planted by water) stands behind the OT beatitude form Luke adopts. The form-critical background gives a faint but real echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 1:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Blessed is the man who doesn’t walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers; but his delight is in Yahweh’s law. On his law he meditates day and night. He will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither. Whatever he does shall prosper.",
+                      "note": "The Psalter's opening 'Blessed is the man...' is the fountainhead of the beatitude genre Jesus employs, contrasting two ways with reward/judgment. Genre-level Availability, hence low confidence and figural.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.6",
+                  "ref": "6:24-26",
+                  "echoes": [
+                    {
+                      "source": "Amos 6:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Woe to those who are at ease in Zion, and to those who are secure on the mountain of Samaria, the notable men of the chief of the nations, to whom the house of Israel come!",
+                      "note": "'Woe to those who are at ease... the notable men' — Amos' woe against the complacent rich is the prophetic prototype of Jesus' 'woe to you who are rich.' Shared genre (prophetic woe-oracle) and target (the comfortable wealthy) give moderate Volume."
+                    },
+                    {
+                      "source": "Isaiah 65:13-14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, my servants shall eat, but you shall be hungry; behold, my servants shall drink, but you shall be thirsty; behold, my servants shall rejoice, but you shall be disappointed; behold, my servants shall sing for joy of heart, but you shall cry for sorrow of heart, and shall wail for anguish of spirit.",
+                      "note": "The full/hungry and laughing/mourning reversals in the woes mirror Isaiah's oracle that the wicked who feast will hunger and those who rejoice will be put to shame and wail. Strong structural Coherence with the beatitudes that precede."
+                    },
+                    {
+                      "source": "Jeremiah 5:31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The prophets prophesy falsely, and the priests rule by their own authority; and my people love to have it so. What will you do in the end of it?",
+                      "note": "'The prophets prophesy falsely... and my people love it so' grounds 'their fathers did the same thing to the false prophets' — popular acclaim is the mark of the false prophet. Coherent with the deuteronomistic false-prophet tradition (cf. Micaiah, 1 Kings 22)."
+                    },
+                    {
+                      "source": "Amos 8:9-10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen in that day,” says the Lord Yahweh, “that I will cause the sun to go down at noon, and I will darken the earth in the clear day. I will turn your feasts into mourning, and all your songs into lamentation; and I will make you wear sackcloth on all your bodies, and baldness on every head. I will make it like the mourning for an only son, and its end like a bitter day.",
+                      "note": "Amos turns feasting and songs into mourning and lamentation, paralleling 'you will mourn and weep' for those who now laugh. Faint thematic echo of prophetic reversal of revelry into grief.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.7",
+                  "ref": "6:27-31",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "'Love your enemies' radicalizes and inverts the Holiness Code's 'love your neighbor as yourself,' which forbids vengeance and grudge-bearing. The love-command and its anti-retaliation logic are directly in view; high Coherence with vv.32-36."
+                    },
+                    {
+                      "source": "Exodus 23:4-5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“If you meet your enemy’s ox or his donkey going astray, you shall surely bring it back to him again. If you see the donkey of him who hates you fallen down under his burden, don’t leave him, you shall surely help him with it.",
+                      "note": "The Torah already commands aiding an enemy's straying ox or fallen donkey — concrete enemy-love. This statute is the OT seedbed of 'do good to those who hate you,' giving strong Availability and Volume for the command."
+                    },
+                    {
+                      "source": "Proverbs 25:21-22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "If your enemy is hungry, give him food to eat. If he is thirsty, give him water to drink: for you will heap coals of fire on his head, and Yahweh will reward you.",
+                      "note": "'If your enemy is hungry, give him bread... ' is the wisdom tradition's enacted enemy-love, closely matching 'do good to those who hate you' and 'give to everyone who asks.' High Coherence with Leviticus 19 and Exodus 23."
+                    },
+                    {
+                      "source": "Tobit 4:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "And what you yourself hate, do to no man. Don’t drink wine to drunkenness, and don’t let drunkenness go with you on your way.",
+                      "note": "'What you hate, do to no one' is the deuterocanonical negative Golden Rule, the nearest Second-Temple antecedent to 'as you would like people to do to you, do so to them.' Direct conceptual dependence; Availability within the OT/deuterocanon is secure."
+                    },
+                    {
+                      "source": "Proverbs 24:29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t say, “I will do to him as he has done to me; I will render to the man according to his work.”",
+                      "note": "'Do not say, I will do to him as he has done to me' is the proverbial renunciation of retaliation behind 'offer also the other cheek' and not demanding goods back. Moderate Volume; reinforces the anti-lex-talionis thrust."
+                    },
+                    {
+                      "source": "Lamentations 3:30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Let him give his cheek to him who strikes him; let him be filled full with reproach.",
+                      "note": "'Let him give his cheek to the one who strikes him; let him be filled with reproach' is a striking verbal parallel to 'to him who strikes you on the cheek, offer also the other.' Notable Volume despite being a lament rather than a command."
+                    },
+                    {
+                      "source": "Isaiah 50:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I gave my back to the strikers, and my cheeks to those who plucked off the hair; I didn’t hide my face from shame and spitting.",
+                      "note": "The Servant 'gave my back to those who strike, and my cheeks to those who pluck the beard' models nonretaliatory submission to assault, coherent with the cheek-turning saying. Figural link to the Suffering Servant pattern.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 29:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He that shows mercy will lend to his neighbor; And he that strengthens him with his hand keeps the commandments. Lend to your neighbor in time of his need; And pay you your neighbor again in due season.",
+                      "note": "Ben Sira's teaching on lending to a neighbor and showing mercy stands behind 'lend, expecting nothing back.' Faint wisdom-tradition echo of generous lending without calculation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Sermon on the Mount",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "5:1–7:29",
+                        "luke": "6:20–49"
+                      },
+                      "note": "Matthew's great mountain sermon; Luke gives a shorter \"sermon on the plain\" with its own blessings and woes."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

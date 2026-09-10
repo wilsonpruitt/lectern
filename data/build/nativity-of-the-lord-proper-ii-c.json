@@ -614,7 +614,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-62"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 62:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.21.1-Matt.21.11",
+                      "refDisplay": "Matthew 21:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "21.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-21.1"
+                    },
+                    {
+                      "refKey": "Rev.22.10-Rev.22.13",
+                      "refDisplay": "Revelation 22:10–13",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "22.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-22.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 62:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Col.4.2-Col.4.4",
+                      "refDisplay": "Colossians 4:2–4",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "4.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-4.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -627,7 +675,100 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-97"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 97:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.12.9-Rom.12.21",
+                      "refDisplay": "Romans 12:9–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "12.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-12.3"
+                    },
+                    {
+                      "refKey": "1Thess.5.16-1Thess.5.22",
+                      "refDisplay": "1 Thessalonians 5:16–22",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "5.16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-5.16"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 97:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.17.22-Luke.17.25",
+                      "refDisplay": "Luke 17:22–25",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "17.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-17.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 97:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.4.4-Phil.4.7",
+                      "refDisplay": "Philippians 4:4–7",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 97:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.1.6",
+                      "refDisplay": "Hebrews 1:6",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 97:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.19.6-Rev.19.10",
+                      "refDisplay": "Revelation 19:6–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -646,7 +787,110 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:4-7",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 36:25-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will sprinkle clean water on you, and you shall be clean: from all your filthiness, and from all your idols, will I cleanse you. I will also give you a new heart, and I will put a new spirit within you; and I will take away the stony heart out of your flesh, and I will give you a heart of flesh. I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "The new-covenant promise to sprinkle clean water for cleansing and to put a new spirit within stands directly behind the washing of regeneration and renewing by the Holy Spirit. The pairing of water-cleansing with Spirit-renewal is the structural template of Titus' soteriology."
+                    },
+                    {
+                      "source": "Joel 2:28-29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions. And also on the servants and on the handmaids in those days, I will pour out my Spirit.",
+                      "note": "The promise that God will pour out his Spirit on all flesh underlies the statement that he poured out the Spirit on us richly. The verb of outpouring is the prophetic signature for the eschatological gift of the Spirit appropriated here."
+                    },
+                    {
+                      "source": "Isaiah 44:3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For I will pour water on him who is thirsty, and streams on the dry ground. I will pour my Spirit on your seed, and my blessing on your offspring:",
+                      "note": "I will pour water on the thirsty and my Spirit on your offspring fuses water and Spirit exactly as Titus fuses the washing with the renewing of the Holy Spirit. The double pouring of water and Spirit is the prophetic matrix for the regenerating bath."
+                    },
+                    {
+                      "source": "Ezekiel 39:29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "neither will I hide my face any more from them; for I have poured out my Spirit on the house of Israel, says the Lord Yahweh.",
+                      "note": "God's pledge that I have poured out my Spirit on the house of Israel reinforces the outpouring language of verse 6. The prophetic image of lavish Spirit-effusion grounds Paul's emphasis on the Spirit poured out richly."
+                    },
+                    {
+                      "source": "Psalm 51:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Purify me with hyssop, and I will be clean. Wash me, and I will be whiter than snow.",
+                      "note": "Purge me and I shall be clean, wash me and I shall be whiter than snow voices the cleansing-by-washing that Titus names the washing of regeneration. The penitential plea for inward purity prefigures the saving bath grounded in mercy, not works."
+                    },
+                    {
+                      "source": "Psalm 51:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Create in me a clean heart, O God. Renew a right spirit within me.",
+                      "note": "Create in me a clean heart and renew a right spirit within me supplies the language of renewal by the Spirit. The Davidic prayer joins cleansing and inward renewing precisely as Titus joins washing and renewing of the Holy Spirit."
+                    },
+                    {
+                      "source": "Ezekiel 37:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it and performed it, says Yahweh.",
+                      "note": "I will put my Spirit in you and you shall live undergirds the link between Spirit-indwelling and the hope of eternal life in verse 7. The vivifying gift of the Spirit that raises the dead nation prefigures regeneration unto life."
+                    },
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "The self-revelation of the LORD as merciful, gracious, and abounding in steadfast love stands behind the appearance of the kindness and love of God who saves according to his mercy. The grace-formula of Sinai is the theological ground for salvation not by works.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 19:17-19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“For the unclean, they shall take of the ashes of the burning of the sin offering; and running water shall be poured into a vessel. A clean person shall take hyssop, dip it in the water, and sprinkle it on the tent, on all the vessels, on the persons who were there, and on him who touched the bone, or the slain, or the dead, or the grave. The clean person shall sprinkle on the unclean on the third day, and on the seventh day. On the seventh day, he shall […]",
+                      "note": "The ritual sprinkling of the water of purification to cleanse defilement informs the cultic background of the washing of regeneration. The Mosaic lustration provides the ceremonial idiom later spiritualized into the saving bath.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will make mention of the loving kindnesses of Yahweh and the praises of Yahweh, according to all that Yahweh has bestowed on us, and the great goodness toward the house of Israel, which he has bestowed on them according to his mercies, and according to the multitude of his loving kindnesses.",
+                      "note": "The recital of the LORD's lovingkindnesses and the multitude of his mercies frames God's saving action as kindness and love, echoed in the kindness of God our Savior and his love toward mankind. Salvation is grounded in covenant mercy rather than desert.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 130:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Israel, hope in Yahweh, for with Yahweh there is loving kindness. With him is abundant redemption.",
+                      "note": "With the LORD is steadfast love and plenteous redemption colors the claim that salvation rests on mercy and issues in justification by grace. The psalm's hope in abundant redemption parallels the hope of eternal life made the believer's inheritance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen that whoever will call on Yahweh’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as Yahweh has said, and among the remnant, those whom Yahweh calls.",
+                      "note": "The promise that whoever calls on the name of the LORD shall be saved follows the Spirit-outpouring oracle and undergirds the language of being saved according to mercy. The Joel context links Spirit and salvation as Titus does.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -665,7 +909,146 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:8-14",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 9:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For to us a child is born. To us a son is given; and the government will be on his shoulders. His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+                      "note": "The angel announces a child born 'this day' who is 'Savior... Christ the Lord' bringing 'great joy' and 'peace,' the cluster of Isaiah's oracle of the child born to us, called the Prince of Peace, on whose shoulder the government rests. Coherence is exact (birth, joy, peace, Davidic rule) and the theme recurs across the infancy account, giving strong volume despite no formula quotation."
+                    },
+                    {
+                      "source": "2 Samuel 7:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Now therefore you shall tell my servant David this, ‘Thus says Yahweh of Armies, “I took you from the sheep pen, from following the sheep, that you should be prince over my people, over Israel.",
+                      "note": "Shepherds first receive the Davidic birth announcement, fittingly because David was taken 'from following the sheep' to shepherd Israel. The motif of the shepherd-king frames the angel's proclamation of a 'Savior... in the city of David'; coherence is high, though the link is conceptual rather than quoted.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 24:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh’s glory settled on Mount Sinai, and the cloud covered it six days. The seventh day he called to Moses out of the midst of the cloud.",
+                      "note": "'The glory of the LORD shone around them' renders the Septuagintal doxa kyriou, the visible Sinai/tabernacle glory that settled and shone. Luke uses the technical theophany vocabulary, giving real volume; coherence is high as the kabod now attends the announcement of salvation."
+                    },
+                    {
+                      "source": "Isaiah 9:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "You have multiplied the nation. You have increased their joy. They rejoice before you according to the joy in harvest, as men rejoice when they divide the plunder.",
+                      "note": "'Good news of great joy' echoes Isaiah's 'they rejoice before you... as men rejoice when they divide the spoil,' the joy attending the breaking of the oppressor's yoke in the same Immanuel oracle that names the child. The joy-language strengthens the broader Isaiah 9 allusion in this pericope.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "The angel 'brings good news' (euangelizomai) of peace and salvation, the very verb-and-content of Isaiah's herald who publishes peace and announces 'your God reigns.' Septuagintal availability is direct and the salvation/peace coherence is strong; Luke universalizes it to 'all the people.'"
+                    },
+                    {
+                      "source": "Micah 4:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You, tower of the flock, the hill of the daughter of Zion, to you it will come, yes, the former dominion will come, the kingdom of the daughter of Jerusalem.",
+                      "note": "The shepherds 'keeping watch over their flock' near Bethlehem evoke Micah's 'tower of the flock' (Migdal Eder), traditionally located by Bethlehem and read messianically as the place where kingship returns. Verbal contact is slight in Greek, so the echo is faint, but the Bethlehem-shepherd-king geography is thematically coherent.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 29:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh will give strength to his people. Yahweh will bless his people with peace.",
+                      "note": "The Gloria's 'on earth peace' set beside the heavenly host's praise recalls the psalm in which the LORD enthroned amid the heavenly beings 'gives strength to his people' and 'blesses his people with peace.' The host-of-heaven plus peace pairing is coherent though the verbal contact is thin, so it is a faint supporting echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 6:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "One called to another, and said, “Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!”",
+                      "note": "The 'multitude of the heavenly army' crying 'Glory to God in the highest' resembles the seraphim antiphon 'Holy... the whole earth is full of his glory,' a heavenly liturgy proclaiming God's glory over the earth. The pattern (angelic chorus, glory, earth) is coherent though Luke's wording is independent.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 148:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Praise Yah! Praise Yahweh from the heavens! Praise him in the heights! Praise him, all his angels! Praise him, all his army!",
+                      "note": "'Glory to God in the highest' with the angelic host praising parallels the psalm's call to 'praise him in the heights... praise him, all his hosts/angels.' The heights/host/praise vocabulary is coherent, supplying a plausible liturgical backdrop to the Gloria, though faint as direct source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 16:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Samuel took the horn of oil, and anointed him in the midst of his brothers: and the Spirit of Yahweh came mightily on David from that day forward. So Samuel rose up, and went to Ramah.",
+                      "note": "Naming Jesus 'Savior... Christ (anointed) the Lord' in David's city recalls the anointing of David at Bethlehem when the Spirit rushed upon him. The christos-David-Bethlehem nexus is coherent within the chapter's Davidic frame, though no verbal echo is pressed.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:15-20",
+                  "echoes": [
+                    {
+                      "source": "Genesis 37:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "His brothers envied him, but his father kept this saying in mind.",
+                      "note": "'Mary kept all these sayings, pondering them in her heart' resembles Jacob who 'kept the saying in mind' after Joseph's dreams (LXX: dieterei to rhema). The verbal pattern (keeping/treasuring a rhema) is close and recurs at 2:51, giving recurrence, though the motif is also a general wisdom convention, so the specific source is contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Here is the end of the matter. As for me, Daniel, my thoughts much troubled me, and my face was changed in me: but I kept the matter in my heart.",
+                      "note": "Mary's treasuring the matter 'in her heart' parallels Daniel who 'kept the matter in my heart' (LXX) after a revelation he did not fully grasp. The apocalyptic reticence-and-treasuring motif coheres with Luke's portrayal of a not-yet-understood revelation, but the link is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 22:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will declare your name to my brothers. In the midst of the assembly, I will praise you.",
+                      "note": "The shepherds 'returned, glorifying and praising God' and publishing the saying recalls the psalmist's vow to 'declare your name to my brothers; in the midst of the assembly I will praise you.' The proclaim-and-praise pattern is coherent but generic, so a faint echo at best.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Nativity at Bethlehem",
+                      "section": "beginnings",
+                      "refs": {
+                        "luke": "2:1–20"
+                      },
+                      "note": "Only Luke gives the census, the manger, and the shepherds keeping watch."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

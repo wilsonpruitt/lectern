@@ -742,7 +742,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/1-samuel-17"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Samuel 17:47",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.1.18-1Tim.1.20",
+                      "refDisplay": "1 Timothy 1:18–20",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -755,7 +778,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-9"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 9:13",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.16.13-Matt.16.20",
+                      "refDisplay": "Matthew 16:13–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -774,7 +820,103 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-2",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Thus says Yahweh, “In an acceptable time have I answered you, and in a day of salvation have I helped you; and I will preserve you, and give you for a covenant of the people, to raise up the land, to make them inherit the desolate heritage:",
+                      "note": "Verbatim LXX citation introduced by 'he says': 'In an acceptable time I listened to you, in a day of salvation I helped you.' Volume is maximal (explicit formula-marked quotation), recurrence high (Isaiah's Servant Songs pervade Paul's ministry self-understanding), coherence strong as Paul reapplies the eschatological 'day of salvation' to the now of gospel proclamation."
+                    },
+                    {
+                      "source": "Isaiah 49:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "yes, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give you for a light to the nations, that you may be my salvation to the end of the earth.”",
+                      "note": "The immediate Servant-Song context that Paul draws on includes the Servant as light/salvation to the nations; faint contextual echo since Paul's apostolic role mirrors the Servant's commissioning. Volume low (not quoted), but availability and coherence with v.2's quotation support a contextual reading.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.2",
+                  "ref": "6:3-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 34:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Many are the afflictions of the righteous, but Yahweh delivers him out of them all.",
+                      "note": "The hardship catalog of the suffering-yet-delivered righteous one ('many are the afflictions of the righteous, but the LORD delivers him out of them all') stands behind Paul's peristasis. Coherence is strong with the righteous-sufferer topos; recurrence high in Paul, though volume is diffuse rather than a marked citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 118:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will not die, but live, and declare Yah’s works. Yah has punished me severely, but he has not given me over to death.",
+                      "note": "'As dying, and behold, we live; as punished, and not killed' closely tracks 'I shall not die, but live... The LORD has chastened me severely, but he has not given me over to death.' Volume moderate (no formula, but distinctive paired antithesis of chastening-yet-not-killed), coherence high with paschal deliverance language Paul applies to apostolic survival."
+                    },
+                    {
+                      "source": "Psalm 119:32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I run in the path of your commandments, for you have set my heart free.",
+                      "note": "The motif of endurance and the enlarged heart (anticipating v.11) under affliction has loose verbal contact with the psalmist running the way of commandments 'when you enlarge my heart.' Faint; volume low and the connection is thematic, included for maximal coverage.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 50:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I gave my back to the strikers, and my cheeks to those who plucked off the hair; I didn’t hide my face from shame and spitting. For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed. He is near who justifies me; who will bring charges against me? Let us stand up together: who is my adversary? Let him come near to me.",
+                      "note": "The Servant's vindication amid beatings and dishonor ('I gave my back to those who strike... he who vindicates me is near') coheres with Paul's 'by glory and dishonor, by evil report and good report.' Volume low and diffuse, but availability strong given the chapter's Isaiah-49 anchor.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 13:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "There are some who pretend to be rich, yet have nothing. There are some who pretend to be poor, yet have great wealth.",
+                      "note": "'As poor, yet making many rich; as having nothing, and yet possessing all things' echoes the proverbial paradox 'One pretends to be rich, yet has nothing; another pretends to be poor, yet has great wealth.' Volume low, contested as a possible sapiential commonplace rather than a deliberate citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:11-13",
+                  "echoes": [
+                    {
+                      "source": "Psalm 119:32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I run in the path of your commandments, for you have set my heart free.",
+                      "note": "'Our heart is enlarged' / 'be open wide' uses the idiom of the enlarged (widened) heart found in 'I will run the way of your commandments when you enlarge my heart.' Volume low and the metaphor is common, but the shared verb of heart-widening gives a faint, plausible contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 11:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Be careful, lest your heart be deceived, and you turn aside, and serve other gods, and worship them;",
+                      "note": "Paul's plea against the heart being 'restricted' / led astray by their own affections faintly recalls Deuteronomy's warnings to guard the heart from being deceived. Very faint; included only for maximal coverage and bridges to the holiness summons of vv.14-18.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -793,7 +935,116 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.10",
+                  "ref": "4:35-41",
+                  "echoes": [
+                    {
+                      "source": "Psalm 107:23-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Those who go down to the sea in ships, who do business in great waters; These see Yahweh’s works, and his wonders in the deep. For he commands, and raises the stormy wind, which lifts up its waves. They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble. They reel back and forth, and stagger like a drunken man, and are at their wits’ end. Then they cry to Yahweh in their trouble, and he brings them out of their […]",
+                      "note": "The storm-stilling sequence—seafarers in distress, a stormy wind lifting the waves, a cry to the LORD, and his making 'the storm a calm, so that its waves are still'—maps closely onto 4:37-39. The verbal echo of the LORD stilling waves into calm is distinctive (high volume) and thematically frames Jesus exercising divine prerogative over the sea."
+                    },
+                    {
+                      "source": "Jonah 1:4-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But Yahweh sent out a great wind on the sea, and there was a mighty storm on the sea, so that the ship was likely to break up. Then the mariners were afraid, and every man cried to his god. They threw the cargo that was in the ship into the sea to lighten the ship. But Jonah had gone down into the innermost parts of the ship, and he was laying down, and was fast asleep. So the ship master came to him, and said to him, “What do you mean, sleeper? Arise, […]",
+                      "note": "The scene of a prophet asleep in the boat during a great storm, woken by terrified sailors fearing death, with the sea growing calm once he acts, closely parallels 4:37-41. The shared narrative structure (sleeping figure, fear of perishing, calmed sea, awe-struck question) gives strong volume and coherence, with Jesus surpassing Jonah by commanding rather than being thrown overboard."
+                    },
+                    {
+                      "source": "Psalm 89:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You rule the pride of the sea. When its waves rise up, you calm them.",
+                      "note": "'You rule the pride of the sea. When its waves rise up, you still them' attributes to YHWH precisely the sea-rebuking power Jesus wields in 4:39. The distinctive divine-warrior motif of mastering the chaotic sea makes this a strong echo undergirding the disciples' question 'Who then is this?'"
+                    },
+                    {
+                      "source": "Psalm 65:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "who stills the roaring of the seas, the roaring of their waves, and the turmoil of the nations.",
+                      "note": "God's stilling of 'the roaring of the seas, the roaring of their waves' supplies the same sea-mastery vocabulary applied to Jesus in 4:39. It reinforces the recurrence of the YHWH-stills-the-sea topos across the Psalter that frames the miracle's Christological force."
+                    },
+                    {
+                      "source": "Psalm 106:9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He rebuked the Red Sea also, and it was dried up; so he led them through the depths, as through a desert.",
+                      "note": "God's 'rebuke' of the Red Sea so that it dried up supplies the rebuke-of-the-sea verb (epitimao) used in 4:39, framing the calming as a divine-warrior subjugation of chaotic waters. The shared rebuking-the-sea motif gives good coherence with Mark's exodus-tinged sea command.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Nahum 1:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He rebukes the sea, and makes it dry, and dries up all the rivers. Bashan languishes, and Carmel; and the flower of Lebanon languishes.",
+                      "note": "Nahum's God who 'rebukes the sea, and makes it dry' provides another instance of the divine rebuke of the waters behind Jesus' command 'Peace! Be still!' (4:39). It strengthens the recurrence of the sea-rebuke tradition, though it is not specifically cited.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 38:8-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Or who shut up the sea with doors, when it broke out of the womb, when I made clouds its garment, and wrapped it in thick darkness, marked out for it my bound, set bars and doors, and said, ‘Here you may come, but no further. Here your proud waves shall be stayed?’",
+                      "note": "The LORD's setting bounds for the sea—'thus far shall you come, but no further; and here shall your proud waves be stayed'—portrays the creator's unique authority over the deep that Jesus assumes in 4:39-41. The coherence with the disciples' awe at one who commands wind and sea is strong, supporting the figural Christology."
+                    },
+                    {
+                      "source": "Psalm 104:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "At your rebuke they fled. At the voice of your thunder they hurried away.",
+                      "note": "The waters fleeing at God's rebuke in the creation-psalm adds to the cluster of texts where the deity's voice masters the sea, coherent with Jesus' verbal command. It is a faint reinforcement of the sea-rebuke topos rather than a distinct source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 4:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In peace I will both lay myself down and sleep, for you, Yahweh alone, make me live in safety.",
+                      "note": "The psalmist's peaceful sleep in trust—'I will both lay down and sleep in peace'—offers a faint counterpoint to Jesus asleep amid the storm (4:38), portraying serene confidence in God. The link is thematic and weak, included for maximality.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 14:1-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Again, one preparing to sail, and about to journey over raging waves, Calleth upon a piece of wood more rotten than the vessel that carries him; For that vessel the hunger for gains devised, And a craftsman, even wisdom, built it; And your providence, O Father, guideth it along, Because even in the sea you gave a way, And in the waves a sure path, Shewing that you can save out of every danger, That so even without are a man may put to sea;",
+                      "note": "Wisdom's portrait of God's providence guiding the sea-voyager safely through the waves provides a Second-Temple backdrop to deliverance from a storm at sea (4:37-39). It contributes thematic coherence and availability, but the connection is general rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Stilling the storm",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "8:23–27",
+                        "mark": "4:35–41",
+                        "luke": "8:22–25"
+                      },
+                      "note": "\"Who then is this, that even the wind and the sea obey him?\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1534,7 +1785,80 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/job-38"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Job 38:8–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.8.23-Matt.8.27",
+                      "refDisplay": "Matthew 8:23–27",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.6"
+                    },
+                    {
+                      "refKey": "Mark.4.35-Mark.4.41",
+                      "refDisplay": "Mark 4:35–41",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-4.10"
+                    },
+                    {
+                      "refKey": "Luke.8.22-Luke.8.25",
+                      "refDisplay": "Luke 8:22–25",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "8.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-8.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Job 38:3",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.1.13-1Pet.1.21",
+                      "refDisplay": "1 Peter 1:13–21",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Job 38:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.12.1-Rev.12.4",
+                      "refDisplay": "Revelation 12:1–4",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "12.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-12.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1547,7 +1871,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-107"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 107:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.22-Luke.13.30",
+                      "refDisplay": "Luke 13:22–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.6"
+                    },
+                    {
+                      "refKey": "Matt.8.5-Matt.8.13",
+                      "refDisplay": "Matthew 8:5–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1566,7 +1923,103 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-2",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Thus says Yahweh, “In an acceptable time have I answered you, and in a day of salvation have I helped you; and I will preserve you, and give you for a covenant of the people, to raise up the land, to make them inherit the desolate heritage:",
+                      "note": "Verbatim LXX citation introduced by 'he says': 'In an acceptable time I listened to you, in a day of salvation I helped you.' Volume is maximal (explicit formula-marked quotation), recurrence high (Isaiah's Servant Songs pervade Paul's ministry self-understanding), coherence strong as Paul reapplies the eschatological 'day of salvation' to the now of gospel proclamation."
+                    },
+                    {
+                      "source": "Isaiah 49:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "yes, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give you for a light to the nations, that you may be my salvation to the end of the earth.”",
+                      "note": "The immediate Servant-Song context that Paul draws on includes the Servant as light/salvation to the nations; faint contextual echo since Paul's apostolic role mirrors the Servant's commissioning. Volume low (not quoted), but availability and coherence with v.2's quotation support a contextual reading.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.2",
+                  "ref": "6:3-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 34:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Many are the afflictions of the righteous, but Yahweh delivers him out of them all.",
+                      "note": "The hardship catalog of the suffering-yet-delivered righteous one ('many are the afflictions of the righteous, but the LORD delivers him out of them all') stands behind Paul's peristasis. Coherence is strong with the righteous-sufferer topos; recurrence high in Paul, though volume is diffuse rather than a marked citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 118:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will not die, but live, and declare Yah’s works. Yah has punished me severely, but he has not given me over to death.",
+                      "note": "'As dying, and behold, we live; as punished, and not killed' closely tracks 'I shall not die, but live... The LORD has chastened me severely, but he has not given me over to death.' Volume moderate (no formula, but distinctive paired antithesis of chastening-yet-not-killed), coherence high with paschal deliverance language Paul applies to apostolic survival."
+                    },
+                    {
+                      "source": "Psalm 119:32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I run in the path of your commandments, for you have set my heart free.",
+                      "note": "The motif of endurance and the enlarged heart (anticipating v.11) under affliction has loose verbal contact with the psalmist running the way of commandments 'when you enlarge my heart.' Faint; volume low and the connection is thematic, included for maximal coverage.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 50:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I gave my back to the strikers, and my cheeks to those who plucked off the hair; I didn’t hide my face from shame and spitting. For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed. He is near who justifies me; who will bring charges against me? Let us stand up together: who is my adversary? Let him come near to me.",
+                      "note": "The Servant's vindication amid beatings and dishonor ('I gave my back to those who strike... he who vindicates me is near') coheres with Paul's 'by glory and dishonor, by evil report and good report.' Volume low and diffuse, but availability strong given the chapter's Isaiah-49 anchor.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 13:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "There are some who pretend to be rich, yet have nothing. There are some who pretend to be poor, yet have great wealth.",
+                      "note": "'As poor, yet making many rich; as having nothing, and yet possessing all things' echoes the proverbial paradox 'One pretends to be rich, yet has nothing; another pretends to be poor, yet has great wealth.' Volume low, contested as a possible sapiential commonplace rather than a deliberate citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:11-13",
+                  "echoes": [
+                    {
+                      "source": "Psalm 119:32",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I run in the path of your commandments, for you have set my heart free.",
+                      "note": "'Our heart is enlarged' / 'be open wide' uses the idiom of the enlarged (widened) heart found in 'I will run the way of your commandments when you enlarge my heart.' Volume low and the metaphor is common, but the shared verb of heart-widening gives a faint, plausible contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 11:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Be careful, lest your heart be deceived, and you turn aside, and serve other gods, and worship them;",
+                      "note": "Paul's plea against the heart being 'restricted' / led astray by their own affections faintly recalls Deuteronomy's warnings to guard the heart from being deceived. Very faint; included only for maximal coverage and bridges to the holiness summons of vv.14-18.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1585,7 +2038,116 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.10",
+                  "ref": "4:35-41",
+                  "echoes": [
+                    {
+                      "source": "Psalm 107:23-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Those who go down to the sea in ships, who do business in great waters; These see Yahweh’s works, and his wonders in the deep. For he commands, and raises the stormy wind, which lifts up its waves. They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble. They reel back and forth, and stagger like a drunken man, and are at their wits’ end. Then they cry to Yahweh in their trouble, and he brings them out of their […]",
+                      "note": "The storm-stilling sequence—seafarers in distress, a stormy wind lifting the waves, a cry to the LORD, and his making 'the storm a calm, so that its waves are still'—maps closely onto 4:37-39. The verbal echo of the LORD stilling waves into calm is distinctive (high volume) and thematically frames Jesus exercising divine prerogative over the sea."
+                    },
+                    {
+                      "source": "Jonah 1:4-16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But Yahweh sent out a great wind on the sea, and there was a mighty storm on the sea, so that the ship was likely to break up. Then the mariners were afraid, and every man cried to his god. They threw the cargo that was in the ship into the sea to lighten the ship. But Jonah had gone down into the innermost parts of the ship, and he was laying down, and was fast asleep. So the ship master came to him, and said to him, “What do you mean, sleeper? Arise, […]",
+                      "note": "The scene of a prophet asleep in the boat during a great storm, woken by terrified sailors fearing death, with the sea growing calm once he acts, closely parallels 4:37-41. The shared narrative structure (sleeping figure, fear of perishing, calmed sea, awe-struck question) gives strong volume and coherence, with Jesus surpassing Jonah by commanding rather than being thrown overboard."
+                    },
+                    {
+                      "source": "Psalm 89:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You rule the pride of the sea. When its waves rise up, you calm them.",
+                      "note": "'You rule the pride of the sea. When its waves rise up, you still them' attributes to YHWH precisely the sea-rebuking power Jesus wields in 4:39. The distinctive divine-warrior motif of mastering the chaotic sea makes this a strong echo undergirding the disciples' question 'Who then is this?'"
+                    },
+                    {
+                      "source": "Psalm 65:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "who stills the roaring of the seas, the roaring of their waves, and the turmoil of the nations.",
+                      "note": "God's stilling of 'the roaring of the seas, the roaring of their waves' supplies the same sea-mastery vocabulary applied to Jesus in 4:39. It reinforces the recurrence of the YHWH-stills-the-sea topos across the Psalter that frames the miracle's Christological force."
+                    },
+                    {
+                      "source": "Psalm 106:9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He rebuked the Red Sea also, and it was dried up; so he led them through the depths, as through a desert.",
+                      "note": "God's 'rebuke' of the Red Sea so that it dried up supplies the rebuke-of-the-sea verb (epitimao) used in 4:39, framing the calming as a divine-warrior subjugation of chaotic waters. The shared rebuking-the-sea motif gives good coherence with Mark's exodus-tinged sea command.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Nahum 1:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He rebukes the sea, and makes it dry, and dries up all the rivers. Bashan languishes, and Carmel; and the flower of Lebanon languishes.",
+                      "note": "Nahum's God who 'rebukes the sea, and makes it dry' provides another instance of the divine rebuke of the waters behind Jesus' command 'Peace! Be still!' (4:39). It strengthens the recurrence of the sea-rebuke tradition, though it is not specifically cited.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 38:8-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Or who shut up the sea with doors, when it broke out of the womb, when I made clouds its garment, and wrapped it in thick darkness, marked out for it my bound, set bars and doors, and said, ‘Here you may come, but no further. Here your proud waves shall be stayed?’",
+                      "note": "The LORD's setting bounds for the sea—'thus far shall you come, but no further; and here shall your proud waves be stayed'—portrays the creator's unique authority over the deep that Jesus assumes in 4:39-41. The coherence with the disciples' awe at one who commands wind and sea is strong, supporting the figural Christology."
+                    },
+                    {
+                      "source": "Psalm 104:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "At your rebuke they fled. At the voice of your thunder they hurried away.",
+                      "note": "The waters fleeing at God's rebuke in the creation-psalm adds to the cluster of texts where the deity's voice masters the sea, coherent with Jesus' verbal command. It is a faint reinforcement of the sea-rebuke topos rather than a distinct source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 4:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In peace I will both lay myself down and sleep, for you, Yahweh alone, make me live in safety.",
+                      "note": "The psalmist's peaceful sleep in trust—'I will both lay down and sleep in peace'—offers a faint counterpoint to Jesus asleep amid the storm (4:38), portraying serene confidence in God. The link is thematic and weak, included for maximality.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 14:1-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Again, one preparing to sail, and about to journey over raging waves, Calleth upon a piece of wood more rotten than the vessel that carries him; For that vessel the hunger for gains devised, And a craftsman, even wisdom, built it; And your providence, O Father, guideth it along, Because even in the sea you gave a way, And in the waves a sure path, Shewing that you can save out of every danger, That so even without are a man may put to sea;",
+                      "note": "Wisdom's portrait of God's providence guiding the sea-voyager safely through the waves provides a Second-Temple backdrop to deliverance from a storm at sea (4:37-39). It contributes thematic coherence and availability, but the connection is general rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Stilling the storm",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "8:23–27",
+                        "mark": "4:35–41",
+                        "luke": "8:22–25"
+                      },
+                      "note": "\"Who then is this, that even the wind and the sea obey him?\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

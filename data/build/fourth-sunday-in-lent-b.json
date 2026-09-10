@@ -640,7 +640,90 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/numbers-21"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Numbers 21:8–9",
+                  "occurrences": [
+                    {
+                      "refKey": "John.3.14-John.3.15",
+                      "refDisplay": "John 3:14–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "3.3",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-3.3"
+                    },
+                    {
+                      "refKey": "John.12.27-John.12.33",
+                      "refDisplay": "John 12:27–33",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "12.5",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-12.5"
+                    },
+                    {
+                      "refKey": "John.8.21-John.8.30",
+                      "refDisplay": "John 8:21–30",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "8.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-8.3"
+                    },
+                    {
+                      "refKey": "Mark.16.14-Mark.16.18",
+                      "refDisplay": "Mark 16:14–18",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "16.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-16.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Numbers 21:6–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.28.1-Acts.28.6",
+                      "refDisplay": "Acts 28:1–6",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "28.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-28.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Numbers 21:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.10.6-1Cor.10.10",
+                      "refDisplay": "1 Corinthians 10:6–10",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "10.2",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-10.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -653,7 +736,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-107"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 107:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.22-Luke.13.30",
+                      "refDisplay": "Luke 13:22–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.6"
+                    },
+                    {
+                      "refKey": "Matt.8.5-Matt.8.13",
+                      "refDisplay": "Matthew 8:5–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -672,7 +788,167 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-3",
+                  "echoes": [
+                    {
+                      "source": "Genesis 2:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "but you shall not eat of the tree of the knowledge of good and evil; for in the day that you eat of it, you will surely die.”",
+                      "note": "'Dead in transgressions and sins' draws on the Edenic verdict that disobedience brings death ('in the day you eat of it you shall surely die'). The metaphor of spiritual death as the consequence of sin coheres with Genesis' linkage of transgression and death, an availability Paul could presume."
+                    },
+                    {
+                      "source": "Genesis 3:1-7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden?’” The woman said to the serpent, “We may eat fruit from the trees of the garden, but not the fruit of the tree which is in the middle of the garden. God has said, ‘You shall not eat of it, neither shall you touch it, lest you die.’” The serpent said to the woman, “You won’t surely […]",
+                      "note": "The serpent's deception inaugurating human disobedience underlies 'children of disobedience' and the death-through-sin pattern. The figural Adam/Eden background coheres with Paul's broader use of the Fall narrative elsewhere.",
+                      "contested": true,
+                      "altSource": "Genesis 2:17"
+                    },
+                    {
+                      "source": "Job 1:6-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them. Yahweh said to Satan, “Where have you come from?” Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.” Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.” Then Satan […]",
+                      "note": "'The prince of the power of the air' presupposes a heavenly accusing spirit-figure like the satan who roams and acts in the world. Job's Adversary supplies an available OT prototype for a malign cosmic ruler operating under God, though no verbal link exists.",
+                      "contested": true,
+                      "altSource": "Job 2:1-7"
+                    },
+                    {
+                      "source": "Genesis 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.",
+                      "note": "'Doing the desires of the flesh and of the mind' echoes the flood-era verdict that every inclination of the thoughts of the human heart was only evil. The OT yetzer-language of corrupt human imagination coheres with Paul's 'desires of the mind.'",
+                      "contested": true,
+                      "altSource": "Genesis 8:21"
+                    },
+                    {
+                      "source": "Psalm 51:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, I was born in iniquity. In sin my mother conceived me.",
+                      "note": "'By nature children of wrath' resonates with the Psalmist's confession of being conceived in sin, supplying OT warrant for an innate sinful condition. The coherence is thematic (inborn guilt) rather than verbal.",
+                      "contested": true,
+                      "altSource": "Genesis 8:21"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:4-7",
+                  "echoes": [
+                    {
+                      "source": "Exodus 34:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,",
+                      "note": "'God, being rich in mercy, for his great love' draws directly on the Sinai self-revelation of YHWH as 'merciful and gracious... abounding in steadfast love.' The pairing of abundant mercy with great love reproduces the chesed-rab formula, a high-volume, recurrent OT confession Paul evokes to ground salvation in God's covenant character."
+                    },
+                    {
+                      "source": "Psalm 103:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh is merciful and gracious, slow to anger, and abundant in loving kindness.",
+                      "note": "'Rich in mercy... great love' echoes the Psalm's restatement of the Exodus 34 formula, 'The LORD is merciful and gracious... abounding in steadfast love.' Recurrence of this confession in the Psalter strengthens the allusion as the lens through which Paul reads God's saving initiative."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "Being 'raised up with him and made to sit with him in the heavenly places' applies the enthronement oracle 'Sit at my right hand' to believers' co-exaltation with Christ. Psalm 110:1 is the most-cited OT verse in the NT, and its session-language coheres precisely with Paul's seating motif."
+                    },
+                    {
+                      "source": "Daniel 9:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My God, turn your ear, and hear; open your eyes, and see our desolations, and the city which is called by your name: for we do not present our petitions before you for our righteousness, but for your great mercies’ sake.",
+                      "note": "Salvation grounded 'not on our own righteousness but on God's great mercy' parallels Daniel's plea appealing to God's great mercy rather than human merit. The coherence with 2:4-9's grace-not-works logic is notable though verbally faint.",
+                      "contested": true,
+                      "altSource": "Psalm 103:8"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:8-9",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 9:23-24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Thus says Yahweh, Don’t let the wise man glory in his wisdom, neither let the mighty man glory in his might, don’t let the rich man glory in his riches; but let him who glories glory in this, that he has understanding, and knows me, that I am Yahweh who exercises loving kindness, justice, and righteousness, in the earth: for in these things I delight, says Yahweh.",
+                      "note": "'Not of works, that no one would boast' invokes the prophetic prohibition against self-boasting: 'Let not the wise man boast in his wisdom... but let him who boasts boast in this, that he knows me.' Paul cites this exact text elsewhere (1 Cor 1:31), making it the controlling OT warrant for excluding human boasting before God."
+                    },
+                    {
+                      "source": "Deuteronomy 9:4-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Don’t say in your heart, after Yahweh your God has thrust them out from before you, saying, “For my righteousness Yahweh has brought me in to possess this land”; because Yahweh drives them out before you because of the wickedness of these nations. Not for your righteousness, or for the uprightness of your heart, do you go in to possess their land; but for the wickedness of these nations Yahweh your God does drive them out from before you, and that he may […]",
+                      "note": "'Not of yourselves... not of works' echoes Moses' insistence that Israel possesses the land 'not because of your righteousness' but by God's gift. The covenantal grace-not-merit logic coheres tightly with Paul's anti-works argument."
+                    },
+                    {
+                      "source": "Psalm 49:6-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Those who trust in their wealth, and boast in the multitude of their riches— none of them can by any means redeem his brother, nor give God a ransom for him.",
+                      "note": "The futility of boasting in wealth or self-ransom ('no man can redeem... or give to God a ransom for him') resonates with salvation as God's gift, not human achievement. The link to 2:9's no-boasting is thematic and faint.",
+                      "contested": true,
+                      "altSource": "Jeremiah 9:23-24"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:10",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "In the beginning, God created the heavens and the earth.",
+                      "note": "'His workmanship, created in Christ Jesus' deploys creation-language (ktizo/bara) to frame redemption as a new creative act of God. The Genesis creation account is the figural backdrop for the 'created... for good works' new-creation motif."
+                    },
+                    {
+                      "source": "Psalm 100:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Know that Yahweh, he is God. It is he who has made us, and we are his. We are his people, and the sheep of his pasture.",
+                      "note": "'We are his workmanship' echoes 'It is he who made us, and we are his' — the confession of God as maker of his people. The coherence with creaturely dependence on the Maker reinforces the new-creation reading."
+                    },
+                    {
+                      "source": "Isaiah 29:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But when he sees his children, the work of my hands, in the midst of him, they will sanctify my name. Yes, they will sanctify the Holy One of Jacob, and will stand in awe of the God of Israel.",
+                      "note": "'The work of my hands... they will sanctify my name' resonates with believers as God's 'workmanship... for good works.' Isaiah's restoration-as-recreation theme coheres with Paul's eschatological new making.",
+                      "contested": true,
+                      "altSource": "Isaiah 43:21"
+                    },
+                    {
+                      "source": "Isaiah 43:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "the people which I formed for myself, that they might declare my praise.",
+                      "note": "'The people I formed for myself, that they might declare my praise' parallels a people created for a purpose (good works). The purposive creation-language coheres with 2:10 though no verbal quotation occurs.",
+                      "contested": true,
+                      "altSource": "Psalm 100:3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -691,7 +967,130 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.3",
+                  "ref": "3:14-15",
+                  "echoes": [
+                    {
+                      "source": "Numbers 21:8-9",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Yahweh said to Moses, “Make a fiery serpent, and set it on a pole. It shall happen, that everyone who is bitten, when he sees it, shall live.” Moses made a serpent of brass, and set it on the pole. If a serpent had bitten any man, when he looked at the serpent of brass, he lived.",
+                      "note": "The explicit typological centerpiece: 'As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up.' Direct verbal and figural correspondence — the lifted bronze serpent that the snake-bitten looked to and lived prefigures the crucified Son giving eternal life to those who believe. Maximal volume and coherence."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 16:5-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For even when terrible raging of wild beasts came upon your people, And they were perishing by the bites of crooked serpents, Your wrath continued not to the uttermost; But for admonition were they troubled for a short space, Having a token of salvation, To put them in remembrance of the commandment of your law: For he that turned toward it was not saved because of that which was seen, But because of you, the Saviour of all.",
+                      "note": "The Wisdom midrash on Numbers 21 clarifies that 'the one who turned toward it was saved, not by what was seen, but by you, the Savior of all' — exactly John's point that the serpent saves by directing faith beyond itself to God. Strong Second-Temple interpretive parallel, high coherence with 3:15's believing-and-living."
+                    },
+                    {
+                      "source": "Isaiah 52:13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.",
+                      "note": "The Servant who is 'lifted up (hypsothesetai) and exalted' supplies the double sense of John's hypsoo (crucified/exalted) Son of Man. LXX verbal contact with the lifting-up vocabulary that John deploys here and in 8:28; 12:32-34.",
+                      "contested": true,
+                      "altSource": "Isaiah 6:1"
+                    },
+                    {
+                      "source": "2 Kings 18:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He removed the high places, and broke the pillars, and cut down the Asherah: and he broke in pieces the bronze serpent that Moses had made; for in those days the children of Israel burned incense to it; and he called it Nehushtan.",
+                      "note": "Hezekiah's destruction of the bronze serpent (Nehushtan) is part of the object's canonical afterlife and may inform the careful 'not the bronze itself but faith' nuance; faint, supplementary to Num 21.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:16-21",
+                  "echoes": [
+                    {
+                      "source": "Genesis 22:2,12,16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "'God so loved the world that he gave his one and only Son' echoes the Aqedah where God says of Isaac 'your son, your only son, whom you love' and credits Abraham who 'did not withhold' him. The LXX agapetos / monogenes-equivalent and the giving of the beloved only son give strong figural volume and coherence."
+                    },
+                    {
+                      "source": "Isaiah 60:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Arise, shine; for your light has come, and Yahweh’s glory is risen on you. For, behold, darkness shall cover the earth, and gross darkness the peoples; but Yahweh will arise on you, and his glory shall be seen on you. Nations shall come to your light, and kings to the brightness of your rising.",
+                      "note": "'The light has come into the world' and nations coming to the light coheres with Isaiah's 'Arise, shine, for your light has come.' Recurrent Johannine light-coming-into-the-world motif (cf. 1:9; 8:12); moderate verbal contact."
+                    },
+                    {
+                      "source": "Job 24:13-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“These are of those who rebel against the light. They don’t know its ways, nor stay in its paths. The murderer rises with the light. He kills the poor and needy. In the night he is like a thief. The eye also of the adulterer waits for the twilight, saying, ‘No eye shall see me.’ He disguises his face. In the dark they dig through houses. They shut themselves up in the daytime. They don’t know the light. For the morning is to all of them like thick […]",
+                      "note": "The evildoers who 'rebel against the light,' who do their deeds in darkness and for whom 'morning is like deep darkness,' closely parallel 3:19-20: those who do evil hate the light lest their works be exposed. Strong thematic coherence of light/darkness moral exposure."
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "'The people who walked in darkness have seen a great light' supplies the light-into-darkness frame of 3:19; faint, part of the broader Isaianic light cluster.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:35-36",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For whoever finds me, finds life, and will obtain favor from Yahweh. But he who sins against me wrongs his own soul. All those who hate me love death.”",
+                      "note": "'Whoever finds me finds life... all who hate me love death' parallels the believe-and-live / hate-the-light-love-darkness antithesis of 3:16-20 in a wisdom register; faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 16:6-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But for admonition were they troubled for a short space, Having a token of salvation, To put them in remembrance of the commandment of your law: For he that turned toward it was not saved because of that which was seen, But because of you, the Saviour of all.",
+                      "note": "The salvific 'looking' that brings life carries over from 3:14-15 into the believing-for-eternal-life of 3:15-16; low independent volume here, recurrence within the pericope cluster.",
+                      "contested": true,
+                      "altSource": "Numbers 21:8-9"
+                    },
+                    {
+                      "source": "Genesis 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.",
+                      "note": "'Their works were evil' (3:19) faintly recalls the flood-judgment verdict that human deeds were continually evil; low volume, judgment register.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Nicodemus by night",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "3:1–21"
+                      },
+                      "note": "\"You must be born again\" — and John 3:16. John only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

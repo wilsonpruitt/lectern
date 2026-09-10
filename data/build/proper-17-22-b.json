@@ -654,7 +654,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/song-of-songs-2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Song of Songs 2:13",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.24.32-Matt.24.35",
+                      "refDisplay": "Matthew 24:32–35",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "24.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-24.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -667,7 +690,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-45"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 45:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.1.8-Heb.1.9",
+                      "refDisplay": "Hebrews 1:8–9",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.5"
+                    },
+                    {
+                      "refKey": "Luke.4.22-Luke.4.24",
+                      "refDisplay": "Luke 4:22–24",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-4.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -680,7 +736,300 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/james#p-1.16"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.16",
+                  "ref": "1:16-18",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:14-18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let there be lights in the expanse of sky to divide the day from the night; and let them be for signs to mark seasons, days, and years; and let them be for lights in the expanse of sky to give light on the earth”; and it was so. God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars. God set them in the expanse of sky to give light to the earth, and to rule over the day […]",
+                      "note": "God's 'Father of lights' designates him as Creator of the heavenly luminaries set in the firmament on the fourth day. James draws on the creation account to name God as source of the celestial lights, then contrasts their changing shadows with his own constancy."
+                    },
+                    {
+                      "source": "Malachi 3:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“For I, Yahweh, don’t change; therefore you, sons of Jacob, are not consumed.",
+                      "note": "'For I the Lord do not change.' James's claim that with the Father of lights there is 'no variation, nor turning shadow' affirms divine immutability in the very terms Malachi uses to assure Israel of God's unchanging fidelity."
+                    },
+                    {
+                      "source": "Exodus 23:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The first of the first fruits of your ground you shall bring into the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.",
+                      "note": "'The best of the firstfruits of your ground you shall bring into the house of the Lord.' James's claim that we are 'a kind of first fruits of his creatures,' brought forth by the word of truth, applies the cultic firstfruits law to the new-birth of believers as God's consecrated portion."
+                    },
+                    {
+                      "source": "Numbers 23:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God is not a man, that he should lie, nor the son of man, that he should repent. Has he said, and will he not do it? Or has he spoken, and will he not make it good?",
+                      "note": "'God is not man, that he should lie, or a son of man, that he should change his mind.' Balaam's oracle on God's unchanging reliability undergirds James's contrast between God's constancy and the shifting shadows of the luminaries."
+                    },
+                    {
+                      "source": "Psalm 136:7-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "To him who made the great lights; for his loving kindness endures forever: The sun to rule by day; for his loving kindness endures forever; The moon and stars to rule by night; for his loving kindness endures forever:",
+                      "note": "The hymn praises God who made 'the great lights... the sun to rule over the day, the moon and stars to rule over the night.' James's 'Father of lights' draws on this liturgical confession of God as maker of the heavenly bodies."
+                    },
+                    {
+                      "source": "Deuteronomy 26:1-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It shall be, when you have come in to the land which Yahweh your God gives you for an inheritance, possess it, and dwell in it, that you shall take some of the first of all the fruit of the ground, which you shall bring in from your land that Yahweh your God gives you. You shall put it in a basket, and shall go to the place which Yahweh your God shall choose, to cause his name to dwell there. You shall come to the priest who shall be in those days, and […]",
+                      "note": "The firstfruits offering ritual, with its confession of God's saving acts, lies behind James's designation of believers as firstfruits. The dedication of the first and best to God interprets the believers' status among his creatures."
+                    },
+                    {
+                      "source": "Jeremiah 2:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Israel was holiness to Yahweh, the first fruits of his increase. All who devour him shall be held guilty. Evil shall come on them,”’ says Yahweh.”",
+                      "note": "'Israel was holy to the Lord, the firstfruits of his harvest.' James's 'firstfruits of his creatures' transfers to the reborn community Jeremiah's designation of Israel as God's firstfruits, holy and set apart."
+                    },
+                    {
+                      "source": "Genesis 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said, “Let there be light,” and there was light.",
+                      "note": "God's creative word, 'Let there be light,' resonates with James's pairing of the Father of lights with the begetting 'word of truth' by which God gives new birth. Faint creation-by-word background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:22-31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old. I was set up from everlasting, from the beginning, before the earth existed. When there were no depths, I was born, when there were no springs abounding with water. Before the mountains were settled in place, before the hills, I was born; while as yet he had not made the earth, nor the fields, nor the beginning of the dust of the world. When he established the heavens, I was […]",
+                      "note": "Wisdom present with God at creation provides a faint backdrop to God begetting believers by the word of truth as firstfruits of his creatures. Contested wisdom-cosmology resonance.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.19",
+                  "ref": "1:19-21",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 10:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the multitude of words there is no lack of disobedience, but he who restrains his lips does wisely.",
+                      "note": "'When words are many, transgression is not lacking, but whoever restrains his lips is prudent.' James's counsel to be 'slow to speak' draws directly on the Wisdom tradition's repeated commendation of restrained speech."
+                    },
+                    {
+                      "source": "Proverbs 14:29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He who is slow to anger has great understanding, but he who has a quick temper displays folly.",
+                      "note": "'Whoever is slow to anger has great understanding, but he who has a hasty temper exalts folly.' James's 'slow to anger,' with the claim that human anger does not produce God's righteousness, restates this Proverb's praise of restrained wrath."
+                    },
+                    {
+                      "source": "Ecclesiastes 7:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t be hasty in your spirit to be angry, for anger rests in the bosom of fools.",
+                      "note": "'Be not quick in your spirit to become angry, for anger lodges in the heart of fools.' James's 'slow to anger' directly parallels Qoheleth's warning against hasty wrath."
+                    },
+                    {
+                      "source": "Sirach 5:11-13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Be swift to hear; And with patience make your answer. If you have understanding, answer your neighbor; And if not, let your hand be upon your mouth. Glory and dishonor is in talk: And the tongue of a man is his fall.",
+                      "note": "'Be quick to hear, but deliberate in answering... let your life be sincere.' Sirach's near-identical counsel to be swift in listening and slow in reply is the closest extant verbal parallel to James's triad of swift-to-hear, slow-to-speak."
+                    },
+                    {
+                      "source": "Proverbs 17:27-28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who spares his words has knowledge. He who is even tempered is a man of understanding. Even a fool, when he keeps silent, is counted wise. When he shuts his lips, he is thought to be discerning.",
+                      "note": "'Whoever restrains his words has knowledge... even a fool who keeps silent is counted wise.' The pairing of measured speech with wisdom underlies James's swift-to-hear, slow-to-speak triad."
+                    },
+                    {
+                      "source": "Proverbs 15:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "A gentle answer turns away wrath, but a harsh word stirs up anger.",
+                      "note": "'A soft answer turns away wrath, but a harsh word stirs up anger.' James's concern that the anger of man does not work God's righteousness resonates with the Proverbial linkage of speech and the management of anger."
+                    },
+                    {
+                      "source": "Proverbs 29:20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Do you see a man who is hasty in his words? There is more hope for a fool than for him.",
+                      "note": "'Do you see a man who is hasty in his words? There is more hope for a fool than for him.' The warning against hasty speech reinforces James's slow-to-speak exhortation."
+                    },
+                    {
+                      "source": "Sirach 1:22-24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Unjust wrath can never be justified; For the sway of his wrath is his downfall. A man that is longsuffering will bear for a season, And afterward gladness will spring up to him; He will hide his words for a season, And the lips of many will tell forth his understanding.",
+                      "note": "'Unjust anger cannot be justified... a wise man will hold his tongue until the right moment.' Sirach's linkage of controlled anger and restrained speech resonates with James's exhortation on listening, speaking, and wrath.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The new-covenant law 'written on the heart' resonates faintly with James's 'implanted word which is able to save your souls,' an internalized word effecting salvation. Contested but thematically apt.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.22",
+                  "ref": "1:22-25",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 30:11-14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant. It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do […]",
+                      "note": "Moses insists the commandment is 'not too hard... but very near you, in your mouth and in your heart, so that you can do it.' James's demand to be doers and not merely hearers of the word reflects the deuteronomic insistence that the word is given to be done."
+                    },
+                    {
+                      "source": "Ezekiel 33:31-32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They come to you as the people come, and they sit before you as my people, and they hear your words, but don’t do them; for with their mouth they show much love, but their heart goes after their gain. Behold, you are to them as a very lovely song of one who has a pleasant voice, and can play well on an instrument; for they hear your words, but they don’t do them.",
+                      "note": "The people 'hear your words, but they will not do them'; the prophet is to them like a pleasant singer they enjoy yet disobey. James's hearers-who-are-not-doers, self-deluded, directly mirrors Ezekiel's indictment of those who listen without obeying."
+                    },
+                    {
+                      "source": "Psalm 19:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh’s law is perfect, restoring the soul. Yahweh’s testimony is sure, making wise the simple.",
+                      "note": "'The law of the Lord is perfect, reviving the soul.' James's 'perfect law of freedom' that blesses the doer draws on the Psalter's praise of the perfect, soul-restoring Torah."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "The doing of the law that culminates in love of neighbor (cited by James in 2:8) stands behind his 'perfect law of freedom' that demands enactment, not mere hearing. Faint anticipatory link.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now, Israel, listen to the statutes and to the ordinances, which I teach you, to do them; that you may live, and go in and possess the land which Yahweh, the God of your fathers, gives you.",
+                      "note": "'Listen to the statutes and rules that I am teaching you, and do them, that you may live.' The hear-and-do-that-you-may-live formula resonates with James's promise that the doer of the work will be blessed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 19:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All wisdom is the fear of the Lord; And in all wisdom is the doing of the law.",
+                      "note": "'All wisdom is the fear of the Lord, and in all wisdom there is the fulfilment of the law.' Sirach's pairing of wisdom with doing the law resonates faintly with James's doer-of-the-word who is blessed.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.26",
+                  "ref": "1:26-27",
+                  "echoes": [
+                    {
+                      "source": "Psalm 39:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I said, “I will watch my ways, so that I don’t sin with my tongue. I will keep my mouth with a bridle while the wicked is before me.”",
+                      "note": "'I will guard my ways, that I may not sin with my tongue; I will guard my mouth with a muzzle.' James's image of bridling the tongue as the mark of true religion draws directly on the psalmist's resolve to muzzle his speech."
+                    },
+                    {
+                      "source": "Psalm 141:3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Set a watch, Yahweh, before my mouth. Keep the door of my lips.",
+                      "note": "'Set a guard, O Lord, over my mouth; keep watch over the door of my lips.' The plea for divine restraint of the tongue parallels James's demand that the religious man bridle his tongue lest his religion be worthless."
+                    },
+                    {
+                      "source": "Isaiah 1:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Learn to do well. Seek justice. Relieve the oppressed. Judge the fatherless. Plead for the widow.”",
+                      "note": "'Bring justice to the fatherless, plead the widow's cause.' James's definition of pure religion as visiting orphans and widows in their affliction restates Isaiah's prophetic summons to care for the fatherless and the widow as the true worship God desires."
+                    },
+                    {
+                      "source": "Deuteronomy 10:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He does execute justice for the fatherless and widow, and loves the foreigner, in giving him food and clothing.",
+                      "note": "God 'executes justice for the fatherless and the widow.' James grounds pure religion in imitating the God who defends orphans and widows, a defining mark of Israel's covenant ethics."
+                    },
+                    {
+                      "source": "Exodus 22:22-24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“You shall not take advantage of any widow or fatherless child. If you take advantage of them at all, and they cry at all to me, I will surely hear their cry; and my wrath will grow hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+                      "note": "'You shall not mistreat any widow or fatherless child.' The covenant law's protection of widows and orphans, with divine wrath against their oppressors, undergirds James's identification of their care as undefiled religion."
+                    },
+                    {
+                      "source": "Proverbs 21:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Whoever guards his mouth and his tongue keeps his soul from troubles.",
+                      "note": "'Whoever keeps his mouth and his tongue keeps himself out of trouble.' The Wisdom commendation of tongue-control reinforces James's linkage of bridled speech with genuine piety."
+                    },
+                    {
+                      "source": "Sirach 35:14-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will in no wise despise the supplication of the fatherless; Nor the widow, when she pours out her tale. Do not the tears of the widow run down her cheek? And is not her cry against him that has caused them to fall? He that serves God according to his good pleasure shall be accepted, And his supplication shall reach to the clouds. The prayer of the humble pierces the clouds; And till it come near, he will not be comforted; And he will not depart, till […]",
+                      "note": "'He will not ignore the supplication of the orphan, nor the widow when she pours out her complaint.' Sirach's portrait of God hearing the cry of orphans and widows reinforces James's standard of true religion as their care."
+                    },
+                    {
+                      "source": "Isaiah 1:10-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Hear Yahweh’s word, you rulers of Sodom! Listen to the law of our God, you people of Gomorrah! “What are the multitude of your sacrifices to me?”, says Yahweh. “I have had enough of the burnt offerings of rams, and the fat of fed animals. I don’t delight in the blood of bulls, or of lambs, or of male goats. When you come to appear before me, who has required this at your hand, to trample my courts? Bring no more vain offerings. Incense is an abomination […]",
+                      "note": "Isaiah rejects cultic observance divorced from justice, calling instead to 'wash yourselves... cease to do evil' and defend the oppressed. James's contrast of worthless versus pure-and-undefiled religion enacts this prophetic critique of empty ritual."
+                    },
+                    {
+                      "source": "Zechariah 7:9-10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Thus has Yahweh of Armies spoken, saying, ‘Execute true judgment, and show kindness and compassion every man to his brother. Don’t oppress the widow, nor the fatherless, the foreigner, nor the poor; and let none of you devise evil against his brother in your heart.’",
+                      "note": "'Do not oppress the widow, the fatherless, the sojourner, or the poor.' Zechariah's prophetic restatement of covenant care for the vulnerable resonates with James's measure of authentic religion."
+                    },
+                    {
+                      "source": "Psalm 68:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "A father of the fatherless, and a defender of the widows, is God in his holy habitation.",
+                      "note": "'Father of the fatherless and protector of widows is God in his holy habitation.' James's God-and-Father before whom pure religion attends to orphans and widows echoes this Psalmic title for the divine defender of the vulnerable."
+                    },
+                    {
+                      "source": "Isaiah 52:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Depart, depart, go out from there, touch no unclean thing! Go out of the midst of her! Cleanse yourselves, you who bear the vessels of Yahweh.",
+                      "note": "'Touch no unclean thing... purify yourselves.' James's call to keep oneself 'unstained by the world' resonates faintly with the prophetic summons to ritual and moral purity over against defiling contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 4:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Be as a father to the fatherless, And instead of a husband to their mother: So will you be as a son of the Most High, And he will love you more than your mother does.",
+                      "note": "'Be a father to orphans, and like a husband to their mother.' Sirach's exhortation to care for orphans and widows resonates with James's standard of pure religion, reinforcing the Wisdom tradition's mercy ethic.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -699,7 +1048,112 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "7.1",
+                  "ref": "7:1-5",
+                  "echoes": [
+                    {
+                      "source": "Exodus 30:18-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“You shall also make a basin of brass, and its base of brass, in which to wash. You shall put it between the Tent of Meeting and the altar, and you shall put water in it. Aaron and his sons shall wash their hands and their feet in it. When they go into the Tent of Meeting, they shall wash with water, that they not die; or when they come near to the altar to minister, to burn an offering made by fire to Yahweh. So they shall wash their hands and their […]",
+                      "note": "The Pharisaic 'tradition of the elders' on washing hands before eating develops from priestly ablution law, where Aaron and his sons must wash hands and feet before approaching the altar. Mark frames the dispute against this Torah backdrop of ritual purity, though the hand-washing of laypeople before ordinary meals is an extension beyond the written commandment, which is precisely Jesus' point. Availability and thematic coherence are strong; verbal volume is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 11:32-40",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "On whatever any of them falls when they are dead, it shall be unclean; whether it is any vessel of wood, or clothing, or skin, or sack, whatever vessel it is, with which any work is done, it must be put into water, and it shall be unclean until the evening; then it will be clean. Every earthen vessel, into which any of them falls, all that is in it shall be unclean, and you shall break it. All food which may be eaten, that on which water comes, shall be […]",
+                      "note": "The catalogue of washings of cups, pitchers, bronze vessels, and couches echoes Leviticus' rules on vessels rendered unclean by contact and requiring rinsing or breaking. Mark's parenthetical ethnography (7:3-4) presupposes this purity system as the matrix for the elders' tradition. The coherence is high though no single verse is quoted.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 15:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘Whoever he who has the discharge touches, without having rinsed his hands in water, he shall wash his clothes, and bathe himself in water, and be unclean until the evening. “‘The earthen vessel, which he who has the discharge touches, shall be broken; and every vessel of wood shall be rinsed in water.",
+                      "note": "Leviticus 15 makes hands a vector of impurity (one with a discharge who has not rinsed his hands conveys uncleanness) and prescribes rinsing vessels of wood and breaking those of clay. This is among the few Torah texts tying hand-rinsing to purity, plausibly seeding the elders' extension to all meals. Faint and contested but availability is genuine.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "7.2",
+                  "ref": "7:6-13",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 29:13",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The Lord said, “Because this people draws near with their mouth and with their lips to honor me, but they have removed their heart far from me, and their fear of me is a commandment of men which has been taught;",
+                      "note": "Formal citation introduced 'as it is written': 'This people honors me with their lips, but their heart is far from me; in vain do they worship me, teaching as doctrines the commandments of men.' Mark follows the LXX, whose 'teaching as doctrines the commandments of men' supplies the polemical hinge against human tradition that the Hebrew lacks. Maximal volume, recurrence, and thematic coherence; this is the load-bearing OT text of the pericope.",
+                      "lxxText": "And the Lord has said, This people draw nigh to me with their mouth, and they honour me with their lips, but their heart is far from me: but in vain do they worship me, teaching the commandments and doctrines of men."
+                    },
+                    {
+                      "source": "Exodus 20:12",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Honor your father and your mother, that your days may be long in the land which Yahweh your God gives you.",
+                      "note": "Jesus cites the Decalogue commandment 'Honor your father and your mother' (attributed to Moses) as the divine command that Corban casuistry nullifies. Direct verbal quotation; the antithesis between this commandment and the tradition is the argument's spine."
+                    },
+                    {
+                      "source": "Exodus 21:17",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Anyone who curses his father or his mother shall surely be put to death.",
+                      "note": "The paired citation 'He who speaks evil of father or mother, let him be put to death' quotes the capital statute of Exodus 21:17, reinforcing the gravity of the command being voided. Mark's wording tracks the LXX (kakologon). High volume and direct verbal correspondence."
+                    },
+                    {
+                      "source": "Deuteronomy 5:16",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "text": "“Honor your father and your mother, as Yahweh your God commanded you; that your days may be long, and that it may go well with you, in the land which Yahweh your God gives you.",
+                      "note": "The Deuteronomic form of the honor-parents commandment is an equally valid source for 'Honor your father and your mother,' since Mark's citation could draw on either Decalogue. Listed as a parallel availability alongside Exodus 20:12; the verbal match is exact in both.",
+                      "altSource": "Exodus 20:12"
+                    },
+                    {
+                      "source": "Leviticus 20:9",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "text": "“‘For everyone who curses his father or his mother shall surely be put to death: he has cursed his father or his mother; his blood shall be upon him.",
+                      "note": "Leviticus 20:9 ('everyone who curses his father or mother shall be put to death') is a near-identical alternate source for the death-penalty clause and may stand behind Mark alongside Exodus 21:17. Strong availability; offered as parallel attestation.",
+                      "altSource": "Exodus 21:17"
+                    },
+                    {
+                      "source": "Numbers 30:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When a man vows a vow to Yahweh, or swears an oath to bind his soul with a bond, he shall not break his word. He shall do according to all that proceeds out of his mouth.",
+                      "note": "The Corban dispute turns on the binding force of a vow dedicating property to God; Numbers 30 is the Torah's law of vows ('he shall not break his word, he shall do according to all that proceeds out of his mouth'). Jesus' charge is that scribal handling of such irrevocable vows is used to override the prior duty to parents, so the vow legislation is the legal substrate of the controversy. Thematic coherence high; verbal volume moderate."
+                    },
+                    {
+                      "source": "Deuteronomy 23:21-23",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "When you vow a vow to Yahweh your God, you shall not be slack to pay it; for Yahweh your God will surely require it of you; and it would be sin in you. But if you refrain from making a vow, it shall be no sin in you. You shall observe and do that which has gone out of your lips. Whatever you have vowed to Yahweh your God as a freewill offering, which you have promised with your mouth, you must do.",
+                      "note": "Deuteronomy's vow law ('when you make a vow to the LORD your God, you shall not delay to pay it... that which has gone out of your lips you shall keep') reinforces the irrevocability that makes Corban exploitable. A secondary witness to the vow background behind 7:11-12.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 27:9-28",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "“‘If it is an animal, of which men offer an offering to Yahweh, all that any man gives of such to Yahweh becomes holy. He shall not alter it, nor change it, a good for a bad, or a bad for a good: and if he shall at all change animal for animal, then both it and that for which it is changed shall be holy. If it is any unclean animal, of which they do not offer as an offering to Yahweh, then he shall set the animal before the priest; and the priest shall […]",
+                      "note": "Leviticus 27 governs things devoted/dedicated to the LORD (cherem and votive gifts), the legal category 'Corban, that is, given to God' invokes. Mark's transliterated technical term presupposes this dedication law; the abuse is treating a thing as devoted to bar a creditor-parent. Availability genuine, volume faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1459,7 +1913,75 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/deuteronomy-4"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Deuteronomy 4:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.22.18-Rev.22.21",
+                      "refDisplay": "Revelation 22:18–21",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "22.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-22.5"
+                    },
+                    {
+                      "refKey": "Matt.5.17-Matt.5.20",
+                      "refDisplay": "Matthew 5:17–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.3"
+                    },
+                    {
+                      "refKey": "2Tim.1.13-2Tim.1.14",
+                      "refDisplay": "2 Timothy 1:13–14",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.13"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 4:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.2.12-Rom.2.16",
+                      "refDisplay": "Romans 2:12–16",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-2.2"
+                    },
+                    {
+                      "refKey": "Jas.1.22-Jas.1.25",
+                      "refDisplay": "James 1:22–25",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/james#p-1.22"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1472,7 +1994,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-15"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 15:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.14.1-Rev.14.5",
+                      "refDisplay": "Revelation 14:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1485,7 +2030,300 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/james#p-1.16"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.16",
+                  "ref": "1:16-18",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:14-18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let there be lights in the expanse of sky to divide the day from the night; and let them be for signs to mark seasons, days, and years; and let them be for lights in the expanse of sky to give light on the earth”; and it was so. God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars. God set them in the expanse of sky to give light to the earth, and to rule over the day […]",
+                      "note": "God's 'Father of lights' designates him as Creator of the heavenly luminaries set in the firmament on the fourth day. James draws on the creation account to name God as source of the celestial lights, then contrasts their changing shadows with his own constancy."
+                    },
+                    {
+                      "source": "Malachi 3:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“For I, Yahweh, don’t change; therefore you, sons of Jacob, are not consumed.",
+                      "note": "'For I the Lord do not change.' James's claim that with the Father of lights there is 'no variation, nor turning shadow' affirms divine immutability in the very terms Malachi uses to assure Israel of God's unchanging fidelity."
+                    },
+                    {
+                      "source": "Exodus 23:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The first of the first fruits of your ground you shall bring into the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.",
+                      "note": "'The best of the firstfruits of your ground you shall bring into the house of the Lord.' James's claim that we are 'a kind of first fruits of his creatures,' brought forth by the word of truth, applies the cultic firstfruits law to the new-birth of believers as God's consecrated portion."
+                    },
+                    {
+                      "source": "Numbers 23:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God is not a man, that he should lie, nor the son of man, that he should repent. Has he said, and will he not do it? Or has he spoken, and will he not make it good?",
+                      "note": "'God is not man, that he should lie, or a son of man, that he should change his mind.' Balaam's oracle on God's unchanging reliability undergirds James's contrast between God's constancy and the shifting shadows of the luminaries."
+                    },
+                    {
+                      "source": "Psalm 136:7-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "To him who made the great lights; for his loving kindness endures forever: The sun to rule by day; for his loving kindness endures forever; The moon and stars to rule by night; for his loving kindness endures forever:",
+                      "note": "The hymn praises God who made 'the great lights... the sun to rule over the day, the moon and stars to rule over the night.' James's 'Father of lights' draws on this liturgical confession of God as maker of the heavenly bodies."
+                    },
+                    {
+                      "source": "Deuteronomy 26:1-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It shall be, when you have come in to the land which Yahweh your God gives you for an inheritance, possess it, and dwell in it, that you shall take some of the first of all the fruit of the ground, which you shall bring in from your land that Yahweh your God gives you. You shall put it in a basket, and shall go to the place which Yahweh your God shall choose, to cause his name to dwell there. You shall come to the priest who shall be in those days, and […]",
+                      "note": "The firstfruits offering ritual, with its confession of God's saving acts, lies behind James's designation of believers as firstfruits. The dedication of the first and best to God interprets the believers' status among his creatures."
+                    },
+                    {
+                      "source": "Jeremiah 2:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Israel was holiness to Yahweh, the first fruits of his increase. All who devour him shall be held guilty. Evil shall come on them,”’ says Yahweh.”",
+                      "note": "'Israel was holy to the Lord, the firstfruits of his harvest.' James's 'firstfruits of his creatures' transfers to the reborn community Jeremiah's designation of Israel as God's firstfruits, holy and set apart."
+                    },
+                    {
+                      "source": "Genesis 1:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said, “Let there be light,” and there was light.",
+                      "note": "God's creative word, 'Let there be light,' resonates with James's pairing of the Father of lights with the begetting 'word of truth' by which God gives new birth. Faint creation-by-word background.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:22-31",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old. I was set up from everlasting, from the beginning, before the earth existed. When there were no depths, I was born, when there were no springs abounding with water. Before the mountains were settled in place, before the hills, I was born; while as yet he had not made the earth, nor the fields, nor the beginning of the dust of the world. When he established the heavens, I was […]",
+                      "note": "Wisdom present with God at creation provides a faint backdrop to God begetting believers by the word of truth as firstfruits of his creatures. Contested wisdom-cosmology resonance.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.19",
+                  "ref": "1:19-21",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 10:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the multitude of words there is no lack of disobedience, but he who restrains his lips does wisely.",
+                      "note": "'When words are many, transgression is not lacking, but whoever restrains his lips is prudent.' James's counsel to be 'slow to speak' draws directly on the Wisdom tradition's repeated commendation of restrained speech."
+                    },
+                    {
+                      "source": "Proverbs 14:29",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He who is slow to anger has great understanding, but he who has a quick temper displays folly.",
+                      "note": "'Whoever is slow to anger has great understanding, but he who has a hasty temper exalts folly.' James's 'slow to anger,' with the claim that human anger does not produce God's righteousness, restates this Proverb's praise of restrained wrath."
+                    },
+                    {
+                      "source": "Ecclesiastes 7:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t be hasty in your spirit to be angry, for anger rests in the bosom of fools.",
+                      "note": "'Be not quick in your spirit to become angry, for anger lodges in the heart of fools.' James's 'slow to anger' directly parallels Qoheleth's warning against hasty wrath."
+                    },
+                    {
+                      "source": "Sirach 5:11-13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Be swift to hear; And with patience make your answer. If you have understanding, answer your neighbor; And if not, let your hand be upon your mouth. Glory and dishonor is in talk: And the tongue of a man is his fall.",
+                      "note": "'Be quick to hear, but deliberate in answering... let your life be sincere.' Sirach's near-identical counsel to be swift in listening and slow in reply is the closest extant verbal parallel to James's triad of swift-to-hear, slow-to-speak."
+                    },
+                    {
+                      "source": "Proverbs 17:27-28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He who spares his words has knowledge. He who is even tempered is a man of understanding. Even a fool, when he keeps silent, is counted wise. When he shuts his lips, he is thought to be discerning.",
+                      "note": "'Whoever restrains his words has knowledge... even a fool who keeps silent is counted wise.' The pairing of measured speech with wisdom underlies James's swift-to-hear, slow-to-speak triad."
+                    },
+                    {
+                      "source": "Proverbs 15:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "A gentle answer turns away wrath, but a harsh word stirs up anger.",
+                      "note": "'A soft answer turns away wrath, but a harsh word stirs up anger.' James's concern that the anger of man does not work God's righteousness resonates with the Proverbial linkage of speech and the management of anger."
+                    },
+                    {
+                      "source": "Proverbs 29:20",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Do you see a man who is hasty in his words? There is more hope for a fool than for him.",
+                      "note": "'Do you see a man who is hasty in his words? There is more hope for a fool than for him.' The warning against hasty speech reinforces James's slow-to-speak exhortation."
+                    },
+                    {
+                      "source": "Sirach 1:22-24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Unjust wrath can never be justified; For the sway of his wrath is his downfall. A man that is longsuffering will bear for a season, And afterward gladness will spring up to him; He will hide his words for a season, And the lips of many will tell forth his understanding.",
+                      "note": "'Unjust anger cannot be justified... a wise man will hold his tongue until the right moment.' Sirach's linkage of controlled anger and restrained speech resonates with James's exhortation on listening, speaking, and wrath.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The new-covenant law 'written on the heart' resonates faintly with James's 'implanted word which is able to save your souls,' an internalized word effecting salvation. Contested but thematically apt.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.22",
+                  "ref": "1:22-25",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 30:11-14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant. It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do […]",
+                      "note": "Moses insists the commandment is 'not too hard... but very near you, in your mouth and in your heart, so that you can do it.' James's demand to be doers and not merely hearers of the word reflects the deuteronomic insistence that the word is given to be done."
+                    },
+                    {
+                      "source": "Ezekiel 33:31-32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They come to you as the people come, and they sit before you as my people, and they hear your words, but don’t do them; for with their mouth they show much love, but their heart goes after their gain. Behold, you are to them as a very lovely song of one who has a pleasant voice, and can play well on an instrument; for they hear your words, but they don’t do them.",
+                      "note": "The people 'hear your words, but they will not do them'; the prophet is to them like a pleasant singer they enjoy yet disobey. James's hearers-who-are-not-doers, self-deluded, directly mirrors Ezekiel's indictment of those who listen without obeying."
+                    },
+                    {
+                      "source": "Psalm 19:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh’s law is perfect, restoring the soul. Yahweh’s testimony is sure, making wise the simple.",
+                      "note": "'The law of the Lord is perfect, reviving the soul.' James's 'perfect law of freedom' that blesses the doer draws on the Psalter's praise of the perfect, soul-restoring Torah."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "The doing of the law that culminates in love of neighbor (cited by James in 2:8) stands behind his 'perfect law of freedom' that demands enactment, not mere hearing. Faint anticipatory link.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now, Israel, listen to the statutes and to the ordinances, which I teach you, to do them; that you may live, and go in and possess the land which Yahweh, the God of your fathers, gives you.",
+                      "note": "'Listen to the statutes and rules that I am teaching you, and do them, that you may live.' The hear-and-do-that-you-may-live formula resonates with James's promise that the doer of the work will be blessed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 19:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "All wisdom is the fear of the Lord; And in all wisdom is the doing of the law.",
+                      "note": "'All wisdom is the fear of the Lord, and in all wisdom there is the fulfilment of the law.' Sirach's pairing of wisdom with doing the law resonates faintly with James's doer-of-the-word who is blessed.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.26",
+                  "ref": "1:26-27",
+                  "echoes": [
+                    {
+                      "source": "Psalm 39:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I said, “I will watch my ways, so that I don’t sin with my tongue. I will keep my mouth with a bridle while the wicked is before me.”",
+                      "note": "'I will guard my ways, that I may not sin with my tongue; I will guard my mouth with a muzzle.' James's image of bridling the tongue as the mark of true religion draws directly on the psalmist's resolve to muzzle his speech."
+                    },
+                    {
+                      "source": "Psalm 141:3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Set a watch, Yahweh, before my mouth. Keep the door of my lips.",
+                      "note": "'Set a guard, O Lord, over my mouth; keep watch over the door of my lips.' The plea for divine restraint of the tongue parallels James's demand that the religious man bridle his tongue lest his religion be worthless."
+                    },
+                    {
+                      "source": "Isaiah 1:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Learn to do well. Seek justice. Relieve the oppressed. Judge the fatherless. Plead for the widow.”",
+                      "note": "'Bring justice to the fatherless, plead the widow's cause.' James's definition of pure religion as visiting orphans and widows in their affliction restates Isaiah's prophetic summons to care for the fatherless and the widow as the true worship God desires."
+                    },
+                    {
+                      "source": "Deuteronomy 10:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He does execute justice for the fatherless and widow, and loves the foreigner, in giving him food and clothing.",
+                      "note": "God 'executes justice for the fatherless and the widow.' James grounds pure religion in imitating the God who defends orphans and widows, a defining mark of Israel's covenant ethics."
+                    },
+                    {
+                      "source": "Exodus 22:22-24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“You shall not take advantage of any widow or fatherless child. If you take advantage of them at all, and they cry at all to me, I will surely hear their cry; and my wrath will grow hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+                      "note": "'You shall not mistreat any widow or fatherless child.' The covenant law's protection of widows and orphans, with divine wrath against their oppressors, undergirds James's identification of their care as undefiled religion."
+                    },
+                    {
+                      "source": "Proverbs 21:23",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Whoever guards his mouth and his tongue keeps his soul from troubles.",
+                      "note": "'Whoever keeps his mouth and his tongue keeps himself out of trouble.' The Wisdom commendation of tongue-control reinforces James's linkage of bridled speech with genuine piety."
+                    },
+                    {
+                      "source": "Sirach 35:14-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will in no wise despise the supplication of the fatherless; Nor the widow, when she pours out her tale. Do not the tears of the widow run down her cheek? And is not her cry against him that has caused them to fall? He that serves God according to his good pleasure shall be accepted, And his supplication shall reach to the clouds. The prayer of the humble pierces the clouds; And till it come near, he will not be comforted; And he will not depart, till […]",
+                      "note": "'He will not ignore the supplication of the orphan, nor the widow when she pours out her complaint.' Sirach's portrait of God hearing the cry of orphans and widows reinforces James's standard of true religion as their care."
+                    },
+                    {
+                      "source": "Isaiah 1:10-17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Hear Yahweh’s word, you rulers of Sodom! Listen to the law of our God, you people of Gomorrah! “What are the multitude of your sacrifices to me?”, says Yahweh. “I have had enough of the burnt offerings of rams, and the fat of fed animals. I don’t delight in the blood of bulls, or of lambs, or of male goats. When you come to appear before me, who has required this at your hand, to trample my courts? Bring no more vain offerings. Incense is an abomination […]",
+                      "note": "Isaiah rejects cultic observance divorced from justice, calling instead to 'wash yourselves... cease to do evil' and defend the oppressed. James's contrast of worthless versus pure-and-undefiled religion enacts this prophetic critique of empty ritual."
+                    },
+                    {
+                      "source": "Zechariah 7:9-10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Thus has Yahweh of Armies spoken, saying, ‘Execute true judgment, and show kindness and compassion every man to his brother. Don’t oppress the widow, nor the fatherless, the foreigner, nor the poor; and let none of you devise evil against his brother in your heart.’",
+                      "note": "'Do not oppress the widow, the fatherless, the sojourner, or the poor.' Zechariah's prophetic restatement of covenant care for the vulnerable resonates with James's measure of authentic religion."
+                    },
+                    {
+                      "source": "Psalm 68:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "A father of the fatherless, and a defender of the widows, is God in his holy habitation.",
+                      "note": "'Father of the fatherless and protector of widows is God in his holy habitation.' James's God-and-Father before whom pure religion attends to orphans and widows echoes this Psalmic title for the divine defender of the vulnerable."
+                    },
+                    {
+                      "source": "Isaiah 52:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Depart, depart, go out from there, touch no unclean thing! Go out of the midst of her! Cleanse yourselves, you who bear the vessels of Yahweh.",
+                      "note": "'Touch no unclean thing... purify yourselves.' James's call to keep oneself 'unstained by the world' resonates faintly with the prophetic summons to ritual and moral purity over against defiling contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Sirach 4:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Be as a father to the fatherless, And instead of a husband to their mother: So will you be as a son of the Most High, And he will love you more than your mother does.",
+                      "note": "'Be a father to orphans, and like a husband to their mother.' Sirach's exhortation to care for orphans and widows resonates with James's standard of pure religion, reinforcing the Wisdom tradition's mercy ethic.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1504,7 +2342,112 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "7.1",
+                  "ref": "7:1-5",
+                  "echoes": [
+                    {
+                      "source": "Exodus 30:18-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“You shall also make a basin of brass, and its base of brass, in which to wash. You shall put it between the Tent of Meeting and the altar, and you shall put water in it. Aaron and his sons shall wash their hands and their feet in it. When they go into the Tent of Meeting, they shall wash with water, that they not die; or when they come near to the altar to minister, to burn an offering made by fire to Yahweh. So they shall wash their hands and their […]",
+                      "note": "The Pharisaic 'tradition of the elders' on washing hands before eating develops from priestly ablution law, where Aaron and his sons must wash hands and feet before approaching the altar. Mark frames the dispute against this Torah backdrop of ritual purity, though the hand-washing of laypeople before ordinary meals is an extension beyond the written commandment, which is precisely Jesus' point. Availability and thematic coherence are strong; verbal volume is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 11:32-40",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "On whatever any of them falls when they are dead, it shall be unclean; whether it is any vessel of wood, or clothing, or skin, or sack, whatever vessel it is, with which any work is done, it must be put into water, and it shall be unclean until the evening; then it will be clean. Every earthen vessel, into which any of them falls, all that is in it shall be unclean, and you shall break it. All food which may be eaten, that on which water comes, shall be […]",
+                      "note": "The catalogue of washings of cups, pitchers, bronze vessels, and couches echoes Leviticus' rules on vessels rendered unclean by contact and requiring rinsing or breaking. Mark's parenthetical ethnography (7:3-4) presupposes this purity system as the matrix for the elders' tradition. The coherence is high though no single verse is quoted.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 15:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“‘Whoever he who has the discharge touches, without having rinsed his hands in water, he shall wash his clothes, and bathe himself in water, and be unclean until the evening. “‘The earthen vessel, which he who has the discharge touches, shall be broken; and every vessel of wood shall be rinsed in water.",
+                      "note": "Leviticus 15 makes hands a vector of impurity (one with a discharge who has not rinsed his hands conveys uncleanness) and prescribes rinsing vessels of wood and breaking those of clay. This is among the few Torah texts tying hand-rinsing to purity, plausibly seeding the elders' extension to all meals. Faint and contested but availability is genuine.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "7.2",
+                  "ref": "7:6-13",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 29:13",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "The Lord said, “Because this people draws near with their mouth and with their lips to honor me, but they have removed their heart far from me, and their fear of me is a commandment of men which has been taught;",
+                      "note": "Formal citation introduced 'as it is written': 'This people honors me with their lips, but their heart is far from me; in vain do they worship me, teaching as doctrines the commandments of men.' Mark follows the LXX, whose 'teaching as doctrines the commandments of men' supplies the polemical hinge against human tradition that the Hebrew lacks. Maximal volume, recurrence, and thematic coherence; this is the load-bearing OT text of the pericope.",
+                      "lxxText": "And the Lord has said, This people draw nigh to me with their mouth, and they honour me with their lips, but their heart is far from me: but in vain do they worship me, teaching the commandments and doctrines of men."
+                    },
+                    {
+                      "source": "Exodus 20:12",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Honor your father and your mother, that your days may be long in the land which Yahweh your God gives you.",
+                      "note": "Jesus cites the Decalogue commandment 'Honor your father and your mother' (attributed to Moses) as the divine command that Corban casuistry nullifies. Direct verbal quotation; the antithesis between this commandment and the tradition is the argument's spine."
+                    },
+                    {
+                      "source": "Exodus 21:17",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Anyone who curses his father or his mother shall surely be put to death.",
+                      "note": "The paired citation 'He who speaks evil of father or mother, let him be put to death' quotes the capital statute of Exodus 21:17, reinforcing the gravity of the command being voided. Mark's wording tracks the LXX (kakologon). High volume and direct verbal correspondence."
+                    },
+                    {
+                      "source": "Deuteronomy 5:16",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "text": "“Honor your father and your mother, as Yahweh your God commanded you; that your days may be long, and that it may go well with you, in the land which Yahweh your God gives you.",
+                      "note": "The Deuteronomic form of the honor-parents commandment is an equally valid source for 'Honor your father and your mother,' since Mark's citation could draw on either Decalogue. Listed as a parallel availability alongside Exodus 20:12; the verbal match is exact in both.",
+                      "altSource": "Exodus 20:12"
+                    },
+                    {
+                      "source": "Leviticus 20:9",
+                      "type": "quotation",
+                      "confidence": "medium",
+                      "text": "“‘For everyone who curses his father or his mother shall surely be put to death: he has cursed his father or his mother; his blood shall be upon him.",
+                      "note": "Leviticus 20:9 ('everyone who curses his father or mother shall be put to death') is a near-identical alternate source for the death-penalty clause and may stand behind Mark alongside Exodus 21:17. Strong availability; offered as parallel attestation.",
+                      "altSource": "Exodus 21:17"
+                    },
+                    {
+                      "source": "Numbers 30:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When a man vows a vow to Yahweh, or swears an oath to bind his soul with a bond, he shall not break his word. He shall do according to all that proceeds out of his mouth.",
+                      "note": "The Corban dispute turns on the binding force of a vow dedicating property to God; Numbers 30 is the Torah's law of vows ('he shall not break his word, he shall do according to all that proceeds out of his mouth'). Jesus' charge is that scribal handling of such irrevocable vows is used to override the prior duty to parents, so the vow legislation is the legal substrate of the controversy. Thematic coherence high; verbal volume moderate."
+                    },
+                    {
+                      "source": "Deuteronomy 23:21-23",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "When you vow a vow to Yahweh your God, you shall not be slack to pay it; for Yahweh your God will surely require it of you; and it would be sin in you. But if you refrain from making a vow, it shall be no sin in you. You shall observe and do that which has gone out of your lips. Whatever you have vowed to Yahweh your God as a freewill offering, which you have promised with your mouth, you must do.",
+                      "note": "Deuteronomy's vow law ('when you make a vow to the LORD your God, you shall not delay to pay it... that which has gone out of your lips you shall keep') reinforces the irrevocability that makes Corban exploitable. A secondary witness to the vow background behind 7:11-12.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 27:9-28",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "“‘If it is an animal, of which men offer an offering to Yahweh, all that any man gives of such to Yahweh becomes holy. He shall not alter it, nor change it, a good for a bad, or a bad for a good: and if he shall at all change animal for animal, then both it and that for which it is changed shall be holy. If it is any unclean animal, of which they do not offer as an offering to Yahweh, then he shall set the animal before the priest; and the priest shall […]",
+                      "note": "Leviticus 27 governs things devoted/dedicated to the LORD (cherem and votive gifts), the legal category 'Corban, that is, given to God' invokes. Mark's transliterated technical term presupposes this dedication law; the abuse is treating a thing as devoted to bar a creditor-parent. Availability genuine, volume faint.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

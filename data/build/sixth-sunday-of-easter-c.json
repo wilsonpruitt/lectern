@@ -605,7 +605,192 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "16.2",
+                  "ref": "16:6-10",
+                  "echoes": [
+                    {
+                      "source": "Genesis 46:2-4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God spoke to Israel in the visions of the night, and said, “Jacob, Jacob!” He said, “Here I am.” He said, “I am God, the God of your father. Don’t be afraid to go down into Egypt, for there I will make of you a great nation. I will go down with you into Egypt. I will also surely bring you up again. Joseph will close your eyes.”",
+                      "note": "God speaks to Israel/Jacob 'in visions of the night,' directing his movement to a new land ('I will go down with thee') with assurance of divine purpose. The Macedonian vision in the night that redirects Paul's journey across into Europe shares the genre (night vision) and function (divine redirection of geography) closely."
+                    },
+                    {
+                      "source": "Exodus 13:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh went before them by day in a pillar of cloud, to lead them on their way, and by night in a pillar of fire, to give them light, that they might go by day and by night:",
+                      "note": "The Spirit twice forbidding and not allowing the missionaries' chosen routes, then steering them, echoes the pillar of cloud and fire guiding Israel's route step by step; divine micromanagement of the missionary itinerary as a new wilderness leading. Thematic only.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 15:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "After these things Yahweh’s word came to Abram in a vision, saying, “Don’t be afraid, Abram. I am your shield, your exceedingly great reward.”",
+                      "note": "'A vision appeared to Paul in the night' uses the stock revelatory idiom of the word/vision of the LORD coming in the night; Abram's night vision is the paradigm of God commissioning through nocturnal revelation. Generic verbal resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 2:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then was the secret revealed to Daniel in a vision of the night. Then Daniel blessed the God of heaven.",
+                      "note": "Mystery 'revealed in a night vision' as the medium of divine disclosure; faint Septuagintal parallel for night-vision revelation that resolves a course of action.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "16.3",
+                  "ref": "16:11-15",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "'The Lord opened her heart to listen' is the divine-initiative idiom of the LORD circumcising/opening the heart so that Israel will hear and obey; conversion is portrayed as God's sovereign opening of the heart, the inward counterpart to covenant circumcision. Thematic coherence strong."
+                    },
+                    {
+                      "source": "Proverbs 31:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "She makes for herself carpets of tapestry. Her clothing is fine linen and purple.",
+                      "note": "Lydia, a 'seller of purple' whose household and hospitality she manages, evokes the capable woman of Proverbs 31 whose clothing is purple and who trades in fine cloth; a wealthy, industrious, God-honoring matron. Suggestive characterization, no quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 25:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "blue, purple, scarlet, fine linen, goats’ hair,",
+                      "note": "Purple as the prized textile of the tabernacle offerings; Lydia's trade in purple carries an aura of dignity and devoted craft. Lexical (purple) only.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Open my eyes, that I may see wondrous things out of your law.",
+                      "note": "'Open thou mine eyes, that I may behold wondrous things' as the prayer-paradigm for God enabling perception of his word; Lydia's opened heart to attend to Paul's words is its narrative fulfillment. Conceptual parallel.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Life of Paul",
+                  "editionUrl": "https://annales.wrootpress.com/life-of-paul",
+                  "spans": [
+                    {
+                      "label": "Second journey",
+                      "group": null,
+                      "lane": "journeys",
+                      "start": 49,
+                      "end": 52,
+                      "length": null,
+                      "ref": "Acts 15:36–18:22",
+                      "note": "Split with Barnabas; took Silas, picked up Timothy and Luke. Crossed into Europe at the Macedonian call — the Philippian jailer, the Areopagus, and a year and a half building the church at Corinth."
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/16/",
+              "title": "Second Journey: Macedonia Crossing; Philippi",
+              "view": {
+                "center": [
+                  39.0,
+                  28.5
+                ],
+                "zoom": 5
+              },
+              "route": [
+                "derbe",
+                "lystra",
+                "iconium",
+                "troas",
+                "samothrace",
+                "neapolis",
+                "philippi"
+              ],
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "troas",
+                  "name": "Troas",
+                  "coords": [
+                    39.7522,
+                    26.1592
+                  ],
+                  "tier": "identified",
+                  "id": "Alexandria Troas on the Aegean coast of Mysia, founded by Antigonus c. 310 B.C. and refounded by Lysimachus. A Roman colony from c. 12 B.C. The natural embarkation port for crossings to Macedonia. Distinct from the Homeric Troy / Hisarlik some 30 km to the north."
+                },
+                {
+                  "key": "macedonia",
+                  "name": "Macedonia",
+                  "coords": [
+                    41.0,
+                    22.5
+                  ],
+                  "tier": "region",
+                  "id": "The Roman province (formed 146 B.C.) covering northern Greece, the Vardar/Axios valley, and adjacent territories. Capital at Thessalonica from 27 B.C. The 'Macedonian vision' of Acts 16:9 brings the gospel into Europe for the first time."
+                },
+                {
+                  "key": "samothrace",
+                  "name": "Samothrace",
+                  "coords": [
+                    40.45,
+                    25.55
+                  ],
+                  "tier": "identified",
+                  "id": "A small mountainous island in the northern Aegean, c. 60 km off the Thracian coast. Famous in antiquity for the Sanctuary of the Great Gods (the Cabeiroi); the Hellenistic Winged Victory of Samothrace was carved here. The standard overnight stop for ships crossing from Troas to Neapolis."
+                },
+                {
+                  "key": "neapolis",
+                  "name": "Neapolis",
+                  "coords": [
+                    40.9388,
+                    24.4048
+                  ],
+                  "tier": "identified",
+                  "id": "On the Macedonian coast c. 14 km southeast of Philippi, modern Kavala. The harbor served Philippi and was the standard western terminus of the sea route from Asia Minor."
+                },
+                {
+                  "key": "philippi",
+                  "name": "Philippi",
+                  "coords": [
+                    41.0136,
+                    24.2864
+                  ],
+                  "tier": "identified",
+                  "id": "On a hill above the Egnatian Way c. 14 km inland from Neapolis, refounded by Philip II of Macedon (hence the name) on the older site of Krenides. A Roman colony (<em>Colonia Augusta Iulia Philippensis</em>) from 42 B.C. after the battle of Philippi where Antony and Octavian defeated Brutus and Cassius. The 'foremost city of the district' in v.&nbsp;16:12."
+                },
+                {
+                  "key": "thyatira",
+                  "name": "Thyatira",
+                  "coords": [
+                    38.9176,
+                    27.8369
+                  ],
+                  "tier": "identified",
+                  "id": "Modern Akhisar in western Anatolia (Roman Asia), a centre of guild industry famous for purple-dye production (cf. Lydia, the &lsquo;seller of purple&rsquo;, v.&nbsp;16:14). One of the seven cities addressed in Revelation 2:18-29."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -618,7 +803,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-67"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 67:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.28.23-Acts.28.28",
+                      "refDisplay": "Acts 28:23–28",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "28.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-28.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -631,7 +839,85 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/revelation#p-21.3"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "21.3",
+                  "ref": "21:9-14",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 40:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the visions of God brought he me into the land of Israel, and set me down on a very high mountain, whereon was as it were the frame of a city on the south.",
+                      "note": "'He carried me away in the Spirit to a great and high mountain, and showed me the holy city' (v.10) closely reproduces Ezekiel's visionary transport: 'he brought me... and set me upon a very high mountain, on which was the frame of a city.' Tour-of-the-city framework derives directly from Ezek 40-48."
+                    },
+                    {
+                      "source": "Ezekiel 48:30-35",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "These are the exits of the city: On the north side four thousand and five hundred reeds by measure; and the gates of the city shall be after the names of the tribes of Israel, three gates northward: the gate of Reuben, one; the gate of Judah, one; the gate of Levi, one. At the east side four thousand and five hundred reeds, and three gates: even the gate of Joseph, one; the gate of Benjamin, one; the gate of Dan, one. At the south side four thousand and […]",
+                      "note": "Twelve gates inscribed with the names of the twelve tribes, three on each of the four sides (v.12-13), reproduces Ezekiel's gate-list (three N, three E, three S, three W, named for the tribes). Highest structural and verbal correspondence for the gates."
+                    },
+                    {
+                      "source": "Isaiah 60:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Arise, shine; for your light has come, and Yahweh’s glory is risen on you. For, behold, darkness shall cover the earth, and gross darkness the peoples; but Yahweh will arise on you, and his glory shall be seen on you.",
+                      "note": "'Arise, shine, for your light has come, and the glory of the LORD has risen upon you' underlies 'having the glory of God. Her light was like a most precious stone' (v.11). Isa 60 is the controlling intertext for the city's radiance and is quarried throughout 21:23-26."
+                    },
+                    {
+                      "source": "Isaiah 61:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will greatly rejoice in Yahweh, my soul shall be joyful in my God; for he has clothed me with the garments of salvation, he has covered me with the robe of righteousness, as a bridegroom decks himself with a garland, and as a bride adorns herself with her jewels.",
+                      "note": "Bridal imagery resumed (v.9 'the wife, the Lamb's bride') — cf. 21:2; the bride 'adorned' theme carries into the jewel-glory description (v.11)."
+                    },
+                    {
+                      "source": "Ezekiel 43:2-5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, the glory of the God of Israel came from the way of the east: and his voice was like the sound of many waters; and the earth shined with his glory. It was according to the appearance of the vision which I saw, even according to the vision that I saw when I came to destroy the city; and the visions were like the vision that I saw by the river Chebar; and I fell on my face. Yahweh’s glory came into the house by the way of the gate whose prospect is […]",
+                      "note": "'The glory of the God of Israel... the earth shone with his glory' as it enters the temple-city — parallels the city 'having the glory of God' (v.11). Reinforces the Ezekielian glory-filling pattern."
+                    },
+                    {
+                      "source": "Isaiah 54:11-12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“You afflicted, tossed with storms, and not comforted, behold, I will set your stones in beautiful colors, and lay your foundations with sapphires. I will make your pinnacles of rubies, and your gates of sparkling jewels, and all your walls of precious stones.",
+                      "note": "Jerusalem rebuilt with sapphires, jewels, and precious-stone gates — anticipates the jasper radiance (v.11) and is the chief source for the foundations/gates jewelry developed in 21:18-21."
+                    },
+                    {
+                      "source": "Exodus 28:21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The stones shall be according to the names of the children of Israel, twelve, according to their names; like the engravings of a signet, everyone according to his name, they shall be for the twelve tribes.",
+                      "note": "The high priest's breastpiece bearing the names of the twelve tribes engraved on twelve stones (v.12 'names of the twelve tribes') — links the tribe-inscribed gates to priestly typology; develops fully at 21:19-20."
+                    },
+                    {
+                      "source": "Numbers 2:1-31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to Moses and to Aaron, saying, “The children of Israel shall encamp every man by his own standard, with the banners of their fathers’ houses: at a distance from the Tent of Meeting shall they encamp around it.” Those who encamp on the east side toward the sunrise shall be of the standard of the camp of Judah, according to their divisions: and the prince of the children of Judah shall be Nahshon the son of Amminadab. His division, and those […]",
+                      "note": "The wilderness camp arranged by tribes three-per-side around the tabernacle on the four compass points — pattern behind the three-gates-per-side arrangement (v.13)."
+                    },
+                    {
+                      "source": "Ezekiel 40:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, a wall on the outside of the house all around, and in the man’s hand a measuring reed six cubits long, of a cubit and a hand breadth each: so he measured the thickness of the building, one reed; and the height, one reed.",
+                      "note": "The wall surrounding the temple-complex measured by the angel — anticipates the 'great and high wall' (v.12) and the measuring of 21:15-17.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -650,7 +936,169 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.7",
+                  "ref": "14:22-24",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 26:11-12",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "I will set my tent among you, and my soul won’t abhor you. I will walk among you, and will be your God, and you will be my people.",
+                      "note": "'I will make my dwelling among you... and I will walk among you and be your God' is the covenant indwelling formula that 14:23 personalizes: 'we will come to him and make our home (monen) with him.' High Coherence because John reuses the same divine-dwelling-with-the-people promise, now realized as Father and Son abiding with the believer."
+                    },
+                    {
+                      "source": "Ezekiel 37:27",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "My tent also shall be with them; and I will be their God, and they shall be my people.",
+                      "note": "'My dwelling place shall be with them, and I will be their God,' the new-covenant restatement of God dwelling among his people, reinforces the indwelling promise of 14:23. Recurrence of the 'dwelling with them' formula (Lev/Ezek) strengthens Volume; medium because John gives the topos individual rather than national scope.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 2:10-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Sing and rejoice, daughter of Zion; for, behold, I come, and I will dwell in your midst,’ says Yahweh. Many nations shall join themselves to Yahweh in that day, and shall be my people; and I will dwell in your midst, and you shall know that Yahweh of Armies has sent me to you.",
+                      "note": "'I will dwell in your midst... and many nations shall join themselves to the LORD... and shall be my people,' an eschatological in-dwelling promise resonant with the Father and Son making their home with the one who loves Jesus. Low confidence: it adds Recurrence to the divine-indwelling motif but contributes no distinctive wording to 14:23.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 6:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "These words, which I command you this day, shall be on your heart;",
+                      "note": "'These words that I command you... shall be on your heart,' the Shema's call to internalize God's word, undergirds 14:23-24's 'keep my word'/'the word you hear is the Father's.' Low and contested: the keep-the-word idiom is broadly Deuteronomic and not anchored to a single verse here.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "14.8",
+                  "ref": "14:25-27",
+                  "echoes": [
+                    {
+                      "source": "Numbers 6:24-26",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "‘Yahweh bless you, and keep you. Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The Aaronic blessing climaxes 'the LORD... give you peace (shalom),' the priestly bestowal of divine peace that Jesus reissues as 'Peace I leave with you; my peace I give to you.' High Coherence: Jesus speaks the priestly gift-of-peace formula directly, distinguishing his giving from the world's, just as the blessing conveys God's own peace."
+                    },
+                    {
+                      "source": "Isaiah 26:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
+                      "note": "'You keep him in perfect peace whose mind is stayed on you,' linking peace with an untroubled, trusting heart, parallels 14:27's 'my peace I give... let not your heart be troubled.' Coherence is strong between the peace-and-undisturbed-heart pairing; medium because the connection is thematic rather than a verbal citation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 57:19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I create the fruit of the lips: Peace, peace, to him who is far off and to him who is near,” says Yahweh; “and I will heal them.”",
+                      "note": "'Peace, peace, to the far and to the near, says the LORD; and I will heal him' is God's gift of peace to his people, the prophetic backdrop to Jesus bestowing his own peace. Medium for the shared divine-gift-of-peace motif; John heightens it by contrasting Jesus' peace with the world's hollow giving.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Haggai 2:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "‘The latter glory of this house will be greater than the former,’ says Yahweh of Armies; ‘and in this place will I give peace,’ says Yahweh of Armies.”",
+                      "note": "'In this place I will give peace, declares the LORD of hosts,' tying peace to the eschatological house/temple, resonates with the farewell peace given amid the 'Father's house' discourse. Low confidence: a thematic temple-peace link rather than a verbal one, supplementing the stronger Aaronic and Isaianic echoes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The resting 'Spirit of wisdom and understanding' that teaches and counsels stands behind the Paraclete who 'will teach you all things' (14:26). Low and contested here because the teaching-Spirit link is better located at 14:17; included for the instructive-Spirit motif that the reminder-and-teaching function of the Counselor presupposes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Nehemiah 9:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You gave also your good Spirit to instruct them, and didn’t withhold your manna from their mouth, and gave them water for their thirst.",
+                      "note": "'You gave your good Spirit to instruct them,' a rare OT statement of the Spirit as teacher of God's people, parallels the Paraclete who 'will teach you all things.' Low confidence: genuine conceptual match for the teaching-Spirit, but verbally remote and not signaled as a source by John.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "14.9",
+                  "ref": "14:28-31",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "'You shall love the LORD your God' lies behind 14:28's 'if you loved me' and 14:31's 'that the world may know that I love the Father,' transposing the Shema's love onto the Father-Son relation. Low and contested: it reiterates the Deuteronomic love idiom already credited at 14:15, here governing Jesus' own filial love.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 6:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now this is the commandment, the statutes, and the ordinances, which Yahweh your God commanded to teach you, that you might do them in the land where you go over to possess it;",
+                      "note": "'The commandment... that the LORD commanded me to teach you' models the obedient mediator who does only as God commanded, the pattern Jesus claims in 14:31, 'as the Father commanded me, so I do.' Low confidence: the as-commanded obedience motif is generically Deuteronomic, supplying coloring rather than a specific source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 27:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He laid his hands on him, and commissioned him, as Yahweh spoke by Moses.",
+                      "note": "Moses commissions Joshua 'as the LORD directed... so he did,' the do-as-commanded formula echoed in Jesus' 'as the Father commanded me, even so I do.' Low and contested: a faint obedient-agent parallel without verbal anchoring; one of several Pentateuchal 'as commanded, so he did' instances.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 3:15",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "I will put hostility between you and the woman, and between your offspring and her offspring. He will bruise your head, and you will bruise his heel.”",
+                      "note": "The protoevangelium's enmity between the serpent and the woman's seed faintly underlies 'the ruler of this world comes, and he has nothing in me,' where the satanic adversary advances but holds no claim on Jesus. Figural and contested: John's 'ruler of this world' draws on a Second-Temple satanology more than on a single Genesis verse, so the link is thematic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 1:6-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now on the day when God’s sons came to present themselves before Yahweh, Satan also came among them. Yahweh said to Satan, “Where have you come from?” Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.” Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.” Then Satan […]",
+                      "note": "The Adversary (ha-satan) who roams the earth and is granted limited power over the righteous supplies an OT antecedent for 'the ruler of this world' who comes but 'has nothing in' Jesus. Low confidence: it grounds the accusing-adversary figure conceptually, but John's title and the 'no claim on me' idea outrun anything verbal in Job.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The footwashing and farewell discourse",
+                      "section": "passion",
+                      "refs": {
+                        "john": "13:1–17:26"
+                      },
+                      "note": "Five chapters where the Synoptics give the meal: the new commandment, the vine, the Paraclete, and the high-priestly prayer. John only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

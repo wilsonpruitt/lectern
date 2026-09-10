@@ -649,7 +649,105 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/exodus-17"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Exodus 17:1–7",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.4.1-Matt.4.11",
+                      "refDisplay": "Matthew 4:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-4.1"
+                    },
+                    {
+                      "refKey": "Mark.8.11-Mark.8.13",
+                      "refDisplay": "Mark 8:11–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-8.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 17:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.16.1-Matt.16.4",
+                      "refDisplay": "Matthew 16:1–4",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.1"
+                    },
+                    {
+                      "refKey": "Acts.5.1-Acts.5.11",
+                      "refDisplay": "Acts 5:1–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 17:6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.10.1-1Cor.10.5",
+                      "refDisplay": "1 Corinthians 10:1–5",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "10.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-10.1"
+                    },
+                    {
+                      "refKey": "John.19.31-John.19.37",
+                      "refDisplay": "John 19:31–37",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-19.10"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 17:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.3.7-Heb.3.11",
+                      "refDisplay": "Hebrews 3:7–11",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "3.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-3.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -662,7 +760,65 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-78"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 78:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.34-Matt.13.35",
+                      "refDisplay": "Matthew 13:34–35",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.7"
+                    },
+                    {
+                      "refKey": "Mark.4.10-Mark.4.12",
+                      "refDisplay": "Mark 4:10–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-4.3"
+                    },
+                    {
+                      "refKey": "Mark.4.33-Mark.4.34",
+                      "refDisplay": "Mark 4:33–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-4.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 78:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.13.13-Acts.13.16",
+                      "refDisplay": "Acts 13:13–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-13.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -681,7 +837,162 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-4",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 3:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t be wise in your own eyes. Fear Yahweh, and depart from evil.",
+                      "note": "Paul's call to do nothing through conceit and to count others better than oneself coheres with the wisdom warning 'Be not wise in your own eyes,' a recurrent sapiential theme of self-abasement. Volume is faint (no shared vocabulary in WEB) and the thought is a commonplace, so this is a contested low-confidence echo of the humility tradition rather than a pointed allusion.",
+                      "contested": true,
+                      "altSource": "Proverbs 26:12"
+                    },
+                    {
+                      "source": "Sirach 3:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The greater you are, humble yourself the more, And you will find favor before the Lord.",
+                      "note": "'The greater you are, the more you must humble yourself' supplies a Second-Temple Jewish backdrop for Paul's 'in humility each counting others better than himself.' Availability and coherence are strong (Sirach's humility ethic was widely read), but the verbal overlap is thematic rather than lexical, marking this a faint contested echo.",
+                      "contested": true,
+                      "altSource": "Proverbs 11:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:5-8",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "'Emptied himself, taking the form of a servant' echoes the Suffering Servant who 'poured out his soul to death' and was 'numbered with the transgressors,' the Servant's self-emptying obedience unto death. Volume is strong given the servant/slave (doulos) language plus the death motif, and recurrence is high since the hymn climaxes in an explicit Isaiah citation (45:23), grounding availability and coherence."
+                    },
+                    {
+                      "source": "Isaiah 52:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.",
+                      "note": "The downward arc 'he humbled himself, becoming obedient to death' sets up the Servant who, though abased, 'shall be exalted and lifted up,' which v.9 then fulfills. The pairing of the Servant's humiliation here and exaltation in 2:9 mirrors Isa 52:13's own movement, giving strong coherence and recurrence within the hymn."
+                    },
+                    {
+                      "source": "Genesis 1:26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+                      "note": "Christ 'existing in the form of God' (en morphe theou) evokes humanity made in the image/likeness of God, the foundational image-of-God text, setting up the Adam/Christ contrast that runs through the hymn. Coherence is high with Pauline image-of-God theology (cf. 2 Cor 4:4; Col 1:15), though 'form' is not the LXX 'image,' so this remains an allusion of medium volume."
+                    },
+                    {
+                      "source": "Genesis 3:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”",
+                      "note": "That Christ 'didn't consider equality with God a thing to be grasped' is widely read as an inverse of Adam and Eve's grasping to 'be like God' at the serpent's prompting. The Adam-Christ antithesis (humility undoing the primal grasp) gives high coherence with Pauline theology; the allusion is conceptual rather than verbal, hence medium confidence and a recognized scholarly debate.",
+                      "contested": true,
+                      "altSource": "Genesis 3:22"
+                    },
+                    {
+                      "source": "Isaiah 53:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He was taken away by oppression and judgment; and as for his generation, who considered that he was cut off out of the land of the living and stricken for the disobedience of my people?",
+                      "note": "'Becoming obedient to death, yes, the death of the cross' resonates with the Servant 'cut off out of the land of the living,' the violent, undeserved death of the righteous sufferer. The echo strengthens the broader Isa 53 matrix already active in the hymn, though the specific 'death' wording is generic, keeping confidence medium.",
+                      "contested": true,
+                      "altSource": "Isaiah 53:7"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 2:19-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "With outrage and torture let us put him to the test, That we may learn his gentleness, And may prove his patience under wrong. Let us condemn him to a shameful death; For he will be visited according to his words.",
+                      "note": "The righteous one condemned 'to a shameful death' who tests God's claim coheres with Christ's obedient death on the cross and subsequent vindication. Wisdom 2-5 was available and shares the suffering-then-vindicated righteous pattern, but lexical overlap with Philippians is thin, so this is a faint contested echo.",
+                      "contested": true,
+                      "altSource": "Wisdom of Solomon 5:1-5"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:9-11",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 45:23",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I have sworn by myself, the word has gone out of my mouth in righteousness, and will not return, that to me every knee shall bow, every tongue shall take an oath.",
+                      "note": "'That at the name of Jesus every knee should bow... and every tongue should confess' is a direct citation of 'to me every knee shall bow, every tongue shall swear,' a monotheistic oracle of universal homage. Volume is maximal (near-verbatim of the LXX with knee-bow and tongue-confess parallelism), and Paul redeploys the same text in Rom 14:11, giving high recurrence; the staggering move is applying YHWH's exclusive worship to Jesus."
+                    },
+                    {
+                      "source": "Isaiah 52:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.",
+                      "note": "'Therefore God also highly exalted him' answers Isa 52:13's promise that the Servant 'shall be exalted and lifted up, and shall be very high.' The Greek hyperhypsoo intensifies the LXX's verbs of exaltation, and the Servant frame from 2:7-8 makes this the climactic vindication, yielding strong coherence and volume."
+                    },
+                    {
+                      "source": "Isaiah 45:21",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Declare and present it. Yes, let them take counsel together. Who has shown this from ancient time? Who has declared it of old? Haven’t I, Yahweh? There is no other God besides me, a just God and a Savior; There is no one besides me.",
+                      "note": "The confession 'Jesus Christ is Lord' draws its monotheistic force from the surrounding oracle ('there is no God else beside me; a just God and a Savior'), the very context of the quoted 45:23. Including the immediate co-text strengthens availability and coherence, supporting the bold identification of Jesus with the one Lord."
+                    },
+                    {
+                      "source": "Exodus 3:14-15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’” God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations.",
+                      "note": "'The name which is above every name' evokes the divine Name revealed to Moses, the ineffable Tetragrammaton/'I AM,' which bowing and confession honor. Coherence is high since the bestowed 'name' that draws universal worship is best read as the divine Name (kyrios = YHWH), though Exodus is not verbally cited, so confidence is medium and the precise referent is debated.",
+                      "contested": true,
+                      "altSource": "Exodus 23:21"
+                    },
+                    {
+                      "source": "Isaiah 45:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For thus says Yahweh who created the heavens, the God who formed the earth and made it, who established it and didn’t create it a waste, who formed it to be inhabited: “I am Yahweh; and there is no other.",
+                      "note": "The cosmic scope 'those in heaven, those on earth, and those under the earth' resonates with Deutero-Isaiah's Creator who 'formed the earth' and rules all spheres, the universal-sovereignty context of the cited oracle. The three-tier cosmos language is conventional, so this is a faint contested echo bolstering the 45:23 citation's totality.",
+                      "contested": true,
+                      "altSource": "Psalm 148:1-10"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:12-13",
+                  "echoes": [
+                    {
+                      "source": "Psalm 2:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Serve Yahweh with fear, and rejoice with trembling.",
+                      "note": "'Work out your own salvation with fear and trembling' echoes 'Serve the LORD with fear, and rejoice with trembling,' the posture of reverent obedience before God's enthroned king. The phobos kai tromos pairing is a recurrent LXX idiom Paul favors (1 Cor 2:3; 2 Cor 7:15; Eph 6:5), giving coherence; the Psalm 2 royal context coheres with the Lordship theme of 2:9-11, supporting medium confidence.",
+                      "contested": true,
+                      "altSource": "Exodus 15:16"
+                    },
+                    {
+                      "source": "Isaiah 26:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "We have been with child. We have been in pain. We gave birth, it seems, only to wind. We have not worked any deliverance in the earth; neither have the inhabitants of the world fallen.",
+                      "note": "'It is God who works in you both to will and to work' faintly recalls Isaiah's confession 'we have... wrought no deliverance in the earth' apart from God, the theme that salvation is God's effective working, not human achievement. The conceptual overlap (God as the one who works salvation) is thin verbally, so this is a low-confidence contested echo.",
+                      "contested": true,
+                      "altSource": "Isaiah 26:12"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -700,7 +1011,66 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "21.4",
+                  "ref": "21:23-27",
+                  "echoes": [
+                    {
+                      "source": "Exodus 2:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Who made you a prince and a judge over us? Do you plan to kill me, as you killed the Egyptian?” Moses was afraid, and said, “Surely this thing is known.”",
+                      "note": "The challenge 'By what authority do you do these things? Who gave you this authority?' (21:23) faintly recalls the recurring biblical motif of authority contested ('Who made you a ruler and a judge over us?'), the leader's commission questioned by his own people.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 16:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They assembled themselves together against Moses and against Aaron, and said to them, “You take too much on yourself, since all the congregation are holy, everyone of them, and Yahweh is among them! Why do you lift yourselves up above Yahweh’s assembly?”",
+                      "note": "Korah's challenge to Moses and Aaron, 'Why do you lift yourselves up above the assembly?,' is a paradigmatic disputing of divinely given authority, distantly resonant with the priests' interrogation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "21.5",
+                  "ref": "21:28-32",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 5:1-7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill. He dug it up, gathered out its stones, planted it with the choicest vine, built a tower in its midst, and also cut out a wine press therein. He looked for it to yield grapes, but it yielded wild grapes. “Now, inhabitants of Jerusalem and men of Judah, please judge between me and my vineyard. What could have been done more to my […]",
+                      "note": "The father's command 'go work today in my vineyard' (21:28) uses the standing prophetic image of the vineyard as Israel and its work as covenant obedience, preparing for the explicit vineyard parable that follows."
+                    },
+                    {
+                      "source": "Ezekiel 18:21-32",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But if the wicked turn from all his sins that he has committed, and keep all my statutes, and do that which is lawful and right, he shall surely live, he shall not die. None of his transgressions that he has committed shall be remembered against him: in his righteousness that he has done he shall live. Have I any pleasure in the death of the wicked? says the Lord Yahweh; and not rather that he should return from his way, and live? But when the righteous […]",
+                      "note": "The contrast between the son who says no but repents and obeys, and the son who professes obedience but does not act, dramatizes Ezekiel's teaching that the wicked who turns shall live and the righteous who turns away shall die — repentance, not initial profession, is decisive.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I walk in the way of righteousness, in the midst of the paths of justice;",
+                      "note": "'John came to you in the way of righteousness' (21:32) employs the Wisdom/sapiential idiom 'the way of righteousness' (cf. Prov 12:28; 21:16) for the path of life that the hearers refused.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1489,7 +1859,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/ezekiel-18"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Ezekiel 18:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.6.15-Rom.6.23",
+                      "refDisplay": "Romans 6:15–23",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-6.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1502,7 +1895,100 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-25"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 25:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.12-John.16.15",
+                      "refDisplay": "John 16:12–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-16.3"
+                    },
+                    {
+                      "refKey": "1Tim.1.1-1Tim.1.2",
+                      "refDisplay": "1 Timothy 1:1–2",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:4–5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.5-John.14.7",
+                      "refDisplay": "John 14:5–7",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.19-Phil.1.26",
+                      "refDisplay": "Philippians 1:19–26",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1521,7 +2007,162 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "2.1",
+                  "ref": "2:1-4",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 3:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Don’t be wise in your own eyes. Fear Yahweh, and depart from evil.",
+                      "note": "Paul's call to do nothing through conceit and to count others better than oneself coheres with the wisdom warning 'Be not wise in your own eyes,' a recurrent sapiential theme of self-abasement. Volume is faint (no shared vocabulary in WEB) and the thought is a commonplace, so this is a contested low-confidence echo of the humility tradition rather than a pointed allusion.",
+                      "contested": true,
+                      "altSource": "Proverbs 26:12"
+                    },
+                    {
+                      "source": "Sirach 3:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The greater you are, humble yourself the more, And you will find favor before the Lord.",
+                      "note": "'The greater you are, the more you must humble yourself' supplies a Second-Temple Jewish backdrop for Paul's 'in humility each counting others better than himself.' Availability and coherence are strong (Sirach's humility ethic was widely read), but the verbal overlap is thematic rather than lexical, marking this a faint contested echo.",
+                      "contested": true,
+                      "altSource": "Proverbs 11:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.2",
+                  "ref": "2:5-8",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "'Emptied himself, taking the form of a servant' echoes the Suffering Servant who 'poured out his soul to death' and was 'numbered with the transgressors,' the Servant's self-emptying obedience unto death. Volume is strong given the servant/slave (doulos) language plus the death motif, and recurrence is high since the hymn climaxes in an explicit Isaiah citation (45:23), grounding availability and coherence."
+                    },
+                    {
+                      "source": "Isaiah 52:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.",
+                      "note": "The downward arc 'he humbled himself, becoming obedient to death' sets up the Servant who, though abased, 'shall be exalted and lifted up,' which v.9 then fulfills. The pairing of the Servant's humiliation here and exaltation in 2:9 mirrors Isa 52:13's own movement, giving strong coherence and recurrence within the hymn."
+                    },
+                    {
+                      "source": "Genesis 1:26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+                      "note": "Christ 'existing in the form of God' (en morphe theou) evokes humanity made in the image/likeness of God, the foundational image-of-God text, setting up the Adam/Christ contrast that runs through the hymn. Coherence is high with Pauline image-of-God theology (cf. 2 Cor 4:4; Col 1:15), though 'form' is not the LXX 'image,' so this remains an allusion of medium volume."
+                    },
+                    {
+                      "source": "Genesis 3:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”",
+                      "note": "That Christ 'didn't consider equality with God a thing to be grasped' is widely read as an inverse of Adam and Eve's grasping to 'be like God' at the serpent's prompting. The Adam-Christ antithesis (humility undoing the primal grasp) gives high coherence with Pauline theology; the allusion is conceptual rather than verbal, hence medium confidence and a recognized scholarly debate.",
+                      "contested": true,
+                      "altSource": "Genesis 3:22"
+                    },
+                    {
+                      "source": "Isaiah 53:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He was taken away by oppression and judgment; and as for his generation, who considered that he was cut off out of the land of the living and stricken for the disobedience of my people?",
+                      "note": "'Becoming obedient to death, yes, the death of the cross' resonates with the Servant 'cut off out of the land of the living,' the violent, undeserved death of the righteous sufferer. The echo strengthens the broader Isa 53 matrix already active in the hymn, though the specific 'death' wording is generic, keeping confidence medium.",
+                      "contested": true,
+                      "altSource": "Isaiah 53:7"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 2:19-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "With outrage and torture let us put him to the test, That we may learn his gentleness, And may prove his patience under wrong. Let us condemn him to a shameful death; For he will be visited according to his words.",
+                      "note": "The righteous one condemned 'to a shameful death' who tests God's claim coheres with Christ's obedient death on the cross and subsequent vindication. Wisdom 2-5 was available and shares the suffering-then-vindicated righteous pattern, but lexical overlap with Philippians is thin, so this is a faint contested echo.",
+                      "contested": true,
+                      "altSource": "Wisdom of Solomon 5:1-5"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.3",
+                  "ref": "2:9-11",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 45:23",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I have sworn by myself, the word has gone out of my mouth in righteousness, and will not return, that to me every knee shall bow, every tongue shall take an oath.",
+                      "note": "'That at the name of Jesus every knee should bow... and every tongue should confess' is a direct citation of 'to me every knee shall bow, every tongue shall swear,' a monotheistic oracle of universal homage. Volume is maximal (near-verbatim of the LXX with knee-bow and tongue-confess parallelism), and Paul redeploys the same text in Rom 14:11, giving high recurrence; the staggering move is applying YHWH's exclusive worship to Jesus."
+                    },
+                    {
+                      "source": "Isaiah 52:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.",
+                      "note": "'Therefore God also highly exalted him' answers Isa 52:13's promise that the Servant 'shall be exalted and lifted up, and shall be very high.' The Greek hyperhypsoo intensifies the LXX's verbs of exaltation, and the Servant frame from 2:7-8 makes this the climactic vindication, yielding strong coherence and volume."
+                    },
+                    {
+                      "source": "Isaiah 45:21",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Declare and present it. Yes, let them take counsel together. Who has shown this from ancient time? Who has declared it of old? Haven’t I, Yahweh? There is no other God besides me, a just God and a Savior; There is no one besides me.",
+                      "note": "The confession 'Jesus Christ is Lord' draws its monotheistic force from the surrounding oracle ('there is no God else beside me; a just God and a Savior'), the very context of the quoted 45:23. Including the immediate co-text strengthens availability and coherence, supporting the bold identification of Jesus with the one Lord."
+                    },
+                    {
+                      "source": "Exodus 3:14-15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’” God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations.",
+                      "note": "'The name which is above every name' evokes the divine Name revealed to Moses, the ineffable Tetragrammaton/'I AM,' which bowing and confession honor. Coherence is high since the bestowed 'name' that draws universal worship is best read as the divine Name (kyrios = YHWH), though Exodus is not verbally cited, so confidence is medium and the precise referent is debated.",
+                      "contested": true,
+                      "altSource": "Exodus 23:21"
+                    },
+                    {
+                      "source": "Isaiah 45:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For thus says Yahweh who created the heavens, the God who formed the earth and made it, who established it and didn’t create it a waste, who formed it to be inhabited: “I am Yahweh; and there is no other.",
+                      "note": "The cosmic scope 'those in heaven, those on earth, and those under the earth' resonates with Deutero-Isaiah's Creator who 'formed the earth' and rules all spheres, the universal-sovereignty context of the cited oracle. The three-tier cosmos language is conventional, so this is a faint contested echo bolstering the 45:23 citation's totality.",
+                      "contested": true,
+                      "altSource": "Psalm 148:1-10"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "2.4",
+                  "ref": "2:12-13",
+                  "echoes": [
+                    {
+                      "source": "Psalm 2:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Serve Yahweh with fear, and rejoice with trembling.",
+                      "note": "'Work out your own salvation with fear and trembling' echoes 'Serve the LORD with fear, and rejoice with trembling,' the posture of reverent obedience before God's enthroned king. The phobos kai tromos pairing is a recurrent LXX idiom Paul favors (1 Cor 2:3; 2 Cor 7:15; Eph 6:5), giving coherence; the Psalm 2 royal context coheres with the Lordship theme of 2:9-11, supporting medium confidence.",
+                      "contested": true,
+                      "altSource": "Exodus 15:16"
+                    },
+                    {
+                      "source": "Isaiah 26:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "We have been with child. We have been in pain. We gave birth, it seems, only to wind. We have not worked any deliverance in the earth; neither have the inhabitants of the world fallen.",
+                      "note": "'It is God who works in you both to will and to work' faintly recalls Isaiah's confession 'we have... wrought no deliverance in the earth' apart from God, the theme that salvation is God's effective working, not human achievement. The conceptual overlap (God as the one who works salvation) is thin verbally, so this is a low-confidence contested echo.",
+                      "contested": true,
+                      "altSource": "Isaiah 26:12"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1540,7 +2181,66 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "21.4",
+                  "ref": "21:23-27",
+                  "echoes": [
+                    {
+                      "source": "Exodus 2:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Who made you a prince and a judge over us? Do you plan to kill me, as you killed the Egyptian?” Moses was afraid, and said, “Surely this thing is known.”",
+                      "note": "The challenge 'By what authority do you do these things? Who gave you this authority?' (21:23) faintly recalls the recurring biblical motif of authority contested ('Who made you a ruler and a judge over us?'), the leader's commission questioned by his own people.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 16:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They assembled themselves together against Moses and against Aaron, and said to them, “You take too much on yourself, since all the congregation are holy, everyone of them, and Yahweh is among them! Why do you lift yourselves up above Yahweh’s assembly?”",
+                      "note": "Korah's challenge to Moses and Aaron, 'Why do you lift yourselves up above the assembly?,' is a paradigmatic disputing of divinely given authority, distantly resonant with the priests' interrogation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "21.5",
+                  "ref": "21:28-32",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 5:1-7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill. He dug it up, gathered out its stones, planted it with the choicest vine, built a tower in its midst, and also cut out a wine press therein. He looked for it to yield grapes, but it yielded wild grapes. “Now, inhabitants of Jerusalem and men of Judah, please judge between me and my vineyard. What could have been done more to my […]",
+                      "note": "The father's command 'go work today in my vineyard' (21:28) uses the standing prophetic image of the vineyard as Israel and its work as covenant obedience, preparing for the explicit vineyard parable that follows."
+                    },
+                    {
+                      "source": "Ezekiel 18:21-32",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But if the wicked turn from all his sins that he has committed, and keep all my statutes, and do that which is lawful and right, he shall surely live, he shall not die. None of his transgressions that he has committed shall be remembered against him: in his righteousness that he has done he shall live. Have I any pleasure in the death of the wicked? says the Lord Yahweh; and not rather that he should return from his way, and live? But when the righteous […]",
+                      "note": "The contrast between the son who says no but repents and obeys, and the son who professes obedience but does not act, dramatizes Ezekiel's teaching that the wicked who turns shall live and the righteous who turns away shall die — repentance, not initial profession, is decisive.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I walk in the way of righteousness, in the midst of the paths of justice;",
+                      "note": "'John came to you in the way of righteousness' (21:32) employs the Wisdom/sapiential idiom 'the way of righteousness' (cf. Prov 12:28; 21:16) for the path of life that the hearers refused.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

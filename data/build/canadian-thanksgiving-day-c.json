@@ -604,7 +604,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/deuteronomy-26"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Deuteronomy 26:2",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.16.15-1Cor.16.18",
+                      "refDisplay": "1 Corinthians 16:15–18",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "16.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-16.5"
+                    },
+                    {
+                      "refKey": "2Thess.2.13-2Thess.2.15",
+                      "refDisplay": "2 Thessalonians 2:13–15",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "2.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-2.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 26:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.24.14-Acts.24.16",
+                      "refDisplay": "Acts 24:14–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "24.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-24.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 26:1–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.1.16-Jas.1.18",
+                      "refDisplay": "James 1:16–18",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-1.16"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -617,7 +680,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-100"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 100:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.2.10",
+                      "refDisplay": "Ephesians 2:10",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.4"
+                    },
+                    {
+                      "refKey": "John.10.1-John.10.6",
+                      "refDisplay": "John 10:1–6",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-10.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -636,7 +732,134 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.3",
+                  "ref": "4:4-7",
+                  "echoes": [
+                    {
+                      "source": "Psalm 145:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh is near to all those who call on him, to all who call on him in truth.",
+                      "note": "'The Lord is at hand' (ho kyrios engys) most closely matches 'The LORD is near to all who call on him' (engys kyrios), grounding Paul's nearness claim and its link to prayer in v.6. High lexical volume on engys, coherence with the prayer/petition context, and availability in the LXX Psalter make this the strongest source for the phrase."
+                    },
+                    {
+                      "source": "Psalm 32:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Be glad in Yahweh, and rejoice, you righteous! Shout for joy, all you who are upright in heart!",
+                      "note": "'Rejoice in the LORD always' echoes the recurrent Psalter imperative 'Be glad in the LORD, and rejoice, you righteous' (32:11; cf. 33:1; 97:12). Recurrence is strong across the Psalter and coherence with Paul's joy theme is high; volume is moderate because Paul universalizes 'always' beyond any single psalm."
+                    },
+                    {
+                      "source": "Psalm 97:12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Be glad in Yahweh, you righteous people! Give thanks to his holy Name.",
+                      "note": "'Rejoice in the LORD, O you righteous' supplies the same divine-object joy imperative that Paul doubles for emphasis. The Psalter's habitual call to rejoice in the LORD is available and coherent, though the volume of any single verse is moderate given the formula's diffusion."
+                    },
+                    {
+                      "source": "Psalm 34:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+                      "note": "'The LORD is near to the brokenhearted' reinforces the 'Lord is near' motif with the same engys idiom, and Psalm 34 broadly underwrites Paul's confidence in deliverance. Recurrence of the nearness formula with Psalm 145 strengthens coherence, though volume per verse is moderate."
+                    },
+                    {
+                      "source": "Zephaniah 1:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Be silent at the presence of the Lord Yahweh, for the day of Yahweh is at hand. For Yahweh has prepared a sacrifice. He has consecrated his guests.",
+                      "note": "'The day of the LORD is at hand/near' supplies the eschatological-imminence sense of 'The Lord is at hand,' if Paul means the Lord's coming rather than his presence. Availability in the prophetic day-of-the-Lord tradition and coherence with Philippians' Parousia hope (3:20) support this, though it competes with the Psalter nearness reading.",
+                      "contested": true,
+                      "altSource": "Zephaniah 1:14"
+                    },
+                    {
+                      "source": "Isaiah 26:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
+                      "note": "'You keep him in perfect peace whose mind is stayed on you' parallels Paul's 'peace of God which surpasses all understanding will guard your hearts,' linking divine peace, the mind, and protective keeping. Coherence is strong on the guarding-peace-of-the-mind motif; volume is moderate because Paul does not quote the phrasing verbatim."
+                    },
+                    {
+                      "source": "Psalm 55:22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Cast your burden on Yahweh, and he will sustain you. He will never allow the righteous to be moved.",
+                      "note": "'Cast your burden on the LORD, and he will sustain you' parallels Paul's remedy for anxiety: hand your requests to God in prayer rather than carry them. Coherence with the anti-anxiety-through-petition logic is strong; volume is moderate since Paul shares the idea, not the wording."
+                    },
+                    {
+                      "source": "Psalm 4:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In peace I will both lay myself down and sleep, for you, Yahweh alone, make me live in safety.",
+                      "note": "'In peace I will both lie down and sleep, for you alone, O LORD, make me dwell in safety' offers the OT pairing of divine peace with security from anxiety that underlies 'do not be anxious... and the peace of God will guard you.' Volume is low and the link thematic, so this is a contributing echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 12:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Anxiety in a man’s heart weighs it down, but a kind word makes it glad.",
+                      "note": "'Anxiety in a man's heart weighs him down, but a good word makes him glad' supplies a wisdom backdrop for Paul's 'in nothing be anxious.' Volume and verbal overlap are slight, but the heart-anxiety theme is available in the sapiential tradition, making this a faint echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.4",
+                  "ref": "4:8-9",
+                  "echoes": [
+                    {
+                      "source": "Wisdom 8:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "And if a man loves righteousness, The fruits of wisdom’s labor are virtues, For she teaches soberness and understanding, righteousness and courage; And there is nothing in life for men more profitable than these.",
+                      "note": "Wisdom's praise of the cardinal virtues ('she teaches self-control and prudence, justice and courage') models the Hellenistic-Jewish virtue list Paul adapts, especially the terms for 'just' and the framing of virtue (arete) itself, which Paul uses uniquely here. Coherence with the Wisdom tradition's moral catalogues makes this a plausible deuterocanonical source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 22:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He who loves purity of heart and speaks gracefully is the king’s friend.",
+                      "note": "Paul's virtue catalogue (true, honorable, just, pure, lovely, of good report) draws on the sapiential ideal of the pure heart and gracious speech that wins favor. Recurrence of these virtue terms in Proverbs and the wider Hellenistic-Jewish moral tradition supplies availability, but the volume of any one verse is low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 3:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "So you will find favor, and good understanding in the sight of God and man.",
+                      "note": "'So you will find favor and good repute (LXX: good things) in the sight of God and man' parallels Paul's 'whatever is of good report' and the appeal to public commendation. Volume is low and the link conceptual, but the good-repute motif is available in the sapiential tradition.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 26:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
+                      "note": "'The God of peace will be with you' continues the divine-peace motif of v.7 and resonates with Isaiah's promise that God keeps in peace those whose minds are fixed on him. Volume is faint here and the title 'God of peace' is Paul's own, so this is a low-grade continuation echo of the peace tradition.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Judges 6:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Gideon built an altar there to Yahweh, and called it “Yahweh is Peace.” To this day it is still in Ophrah of the Abiezrites.",
+                      "note": "Gideon's altar 'The LORD is peace' (YHWH-shalom) offers an OT antecedent for naming God by his peace, loosely behind Paul's 'the God of peace.' The volume is very low and the connection figural, but it documents the availability of associating God's name with shalom.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -655,7 +878,110 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:22-34",
+                  "echoes": [
+                    {
+                      "source": "Psalm 78:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He rained down manna on them to eat, and gave them food from the sky.",
+                      "note": "'He gave them bread out of heaven to eat' (v.31) is a formal citation ('as it is written') closest in wording to LXX Psalm 78:24 ('arton ouranou edoken autois'). The chapter's hermeneutical hinge; maximal Volume."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "'I am about to rain bread from heaven for you' is the originating text behind the v.31 citation; Jesus directly contests its meaning ('it was not Moses who gave...'). The quotation conflates Exodus 16 with Psalm 78, so both are primary sources.",
+                      "altSource": "Exodus 16:15"
+                    },
+                    {
+                      "source": "Nehemiah 9:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and gave them bread from the sky for their hunger, and brought water out of the rock for them for their thirst, and commanded them that they should go in to possess the land which you had sworn to give them.",
+                      "note": "'You gave them bread from heaven for their hunger' is a third witness to the formula the crowd cites, showing the manna-from-heaven line was a fixed liturgical commonplace (Recurrence) rather than a single text."
+                    },
+                    {
+                      "source": "Isaiah 55:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Come, everyone who thirsts, to the waters! Come, he who has no money, buy, and eat! Yes, come, buy wine and milk without money and without price. Why do you spend money for that which is not bread? and your labor for that which doesn’t satisfy? listen diligently to me, and eat you that which is good, and let your soul delight itself in fatness. Turn your ear, and come to me; hear, and your soul shall live: and I will make an everlasting covenant with […]",
+                      "note": "'Why spend money for that which is not bread... eat what is good... that your soul may live' undergirds Jesus' contrast between 'food which perishes' and 'food which remains to eternal life' (v.27). Coherent invitation-to-true-nourishment background."
+                    },
+                    {
+                      "source": "Exodus 16:19-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Moses said to them, “Let no one leave of it until the morning.” Notwithstanding they didn’t listen to Moses, but some of them left of it until the morning, and it bred worms, and became foul: and Moses was angry with them. They gathered it morning by morning, everyone according to his eating. When the sun grew hot, it melted.",
+                      "note": "The manna that bred worms and stank when hoarded overnight gives concrete force to 'the food which perishes' (v.27). A plausible but faint verbal-conceptual link within the active manna matrix; contested as deliberate.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:35-40",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "Wisdom's invitation 'Come, eat of my bread and drink of the wine I have mixed' stands behind 'I am the bread of life. He who comes to me will not hunger.' Strong Coherence: Jesus speaks as personified Wisdom hosting a banquet that confers life."
+                    },
+                    {
+                      "source": "Sirach 24:19-21",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Come to me, you that are desirous of me, And be you filled with my produce. For my memorial is sweeter than honey, And my inheritance than the honeycomb. They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom says 'Come to me... those who eat me will hunger for more, those who drink me will thirst for more.' John inverts it ('will never hunger... never thirst'), a deliberate transformation signalling Jesus surpasses Wisdom/Torah. High Availability and Coherence; the inversion is the point."
+                    },
+                    {
+                      "source": "Isaiah 49:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them, even by springs of water he will guide them.",
+                      "note": "'They shall not hunger or thirst... he who has pity will lead them' supplies the hunger-and-thirst-abolished promise of the eschatological return. Coheres tightly with v.35's double negation; an exilic-restoration backdrop to the bread of life."
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The repeated 'I will raise him up at the last day' (vv.39-40) draws on the clearest OT resurrection text, 'many who sleep in the dust shall awake... to everlasting life.' Provides the Availability for John's last-day raising; recurs across the discourse."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

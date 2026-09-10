@@ -758,7 +758,45 @@
                 "label": "Wordplay — The word on the wall",
                 "url": "https://verbum.wrootpress.com/amos#amos-7-7-amos-7-8"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Amos 7:12–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.53-Matt.13.58",
+                      "refDisplay": "Matthew 13:53–58",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.13"
+                    }
+                  ]
+                },
+                {
+                  "source": "Amos 7:14–15",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.6.7-Mark.6.13",
+                      "refDisplay": "Mark 6:7–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-6.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -771,7 +809,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-82"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 82:6",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.31-John.10.39",
+                      "refDisplay": "John 10:31–39",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-10.6"
+                    },
+                    {
+                      "refKey": "2Pet.1.1-2Pet.1.4",
+                      "refDisplay": "2 Peter 1:1–4",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-peter#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 82:1–8",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.31-John.10.39",
+                      "refDisplay": "John 10:31–39",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-10.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 82:5",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.1.6-1John.1.7",
+                      "refDisplay": "1 John 1:6–7",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -790,7 +891,176 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-2",
+                  "echoes": [
+                    {
+                      "source": "Numbers 6:25-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The epistolary blessing 'Grace to you and peace' channels the Aaronic benediction's pairing of divine favor and shalom (the LORD make his face shine... and give you peace). Volume is low and the formula is conventionally Pauline, but the coherence with the priestly grace/peace dyad and its availability in the Torah make it a plausible faint figural backdrop.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:3-8",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:28",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.”",
+                      "note": "The gospel 'bearing fruit and growing... in all the world' (v.6) replays the creation/Edenic mandate 'be fruitful and multiply and fill the earth.' The paired participles fruit-bearing + increasing, set worldwide, deliberately recast the protological blessing as the spread of the word, a Genesis-creation coherence the hymn that follows will make explicit."
+                    },
+                    {
+                      "source": "Genesis 9:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God blessed Noah and his sons, and said to them, “Be fruitful, and multiply, and replenish the earth.",
+                      "note": "The post-flood renewal of the be-fruitful-and-multiply command (also 9:7) reinforces the Genesis fruitfulness lexeme behind v.6's worldwide growth of the gospel. Recurrence of the same blessing-formula in Genesis strengthens availability; lower volume than 1:28 since the wording is the same mandate repeated.",
+                      "contested": true,
+                      "altSource": "Genesis 1:28"
+                    },
+                    {
+                      "source": "Isaiah 55:10-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For as the rain comes down and the snow from the sky, and doesn’t return there, but waters the earth, and makes it grow and bud, and gives seed to the sower and bread to the eater; so shall my word be that goes out of my mouth: it shall not return to me void, but it shall accomplish that which I please, and it shall prosper in the thing I sent it to do.",
+                      "note": "The 'word of the truth of the gospel' that 'has come to you' and is fruitful in all the world echoes Isaiah's word that goes out from God's mouth and does not return empty but accomplishes and prospers, like rain making the earth bring forth and sprout. Coherence is strong: a divine word personified as agriculturally fruitful and unfailingly effective."
+                    },
+                    {
+                      "source": "Jeremiah 23:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they shall be fruitful and multiply.",
+                      "note": "Jeremiah's promise that the gathered remnant 'shall be fruitful and multiply' fuses the Genesis blessing with restoration hope; Colossians' worldwide fruitful word may stand in this prophetic stream of fruitfulness-as-restoration. Faint and overlapping with the Genesis echoes, hence contested.",
+                      "contested": true,
+                      "altSource": "Genesis 1:28"
+                    },
+                    {
+                      "source": "Isaiah 11:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They will not hurt nor destroy in all my holy mountain; for the earth will be full of the knowledge of Yahweh, as the waters cover the sea.",
+                      "note": "The motif of 'all the world' / earth filled (here with the fruitful word) faintly recalls Isaiah's eschatological 'the earth shall be full of the knowledge of the LORD as the waters cover the sea,' which also surfaces in the knowledge-language of v.9-10. Low volume, flagged contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:9-14",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The prayer to be 'filled with the knowledge of his will in all spiritual wisdom and understanding' (v.9) draws on the messianic endowment of Isaiah 11:2, the Spirit of wisdom and understanding, of counsel and knowledge. The triad wisdom/understanding/knowledge clusters in both texts, a coherent Spirit-given cognition of God's will."
+                    },
+                    {
+                      "source": "Exodus 31:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and I have filled him with the Spirit of God, in wisdom, and in understanding, and in knowledge, and in all kinds of workmanship,",
+                      "note": "Being 'filled with' wisdom and understanding (v.9) echoes Bezalel filled with the Spirit of God 'in wisdom, in understanding, and in knowledge' for the work of the sanctuary. The fullness-of-Spirit-wisdom idiom and the same three faculties make this a strong lexical parallel; availability in Exodus is secure."
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "Being delivered 'out of the power of darkness' and translated into the kingdom (v.13) draws on Isaiah's people walking in darkness who see a great light and the dawning kingdom of the messianic son (9:6-7). Light/darkness reversal plus an established kingdom of a royal son cohere tightly."
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "'The kingdom of the Son of his love' (v.13) evokes the royal-adoption oracle 'You are my Son'; with v.15-18's firstborn language it situates Christ in the Davidic sonship of Psalm 2. Volume here is thematic (beloved royal son enthroned over a kingdom) rather than verbal."
+                    },
+                    {
+                      "source": "Genesis 22:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "'The Son of his love' / the Beloved (v.13) carries the Aqedah resonance of Isaac, 'your son, your only son, whom you love,' a beloved-son figure offered up. Coherence with the redemption-through-death theme that immediately follows (v.14, v.20) strengthens the figural reading of the beloved son.",
+                      "contested": true,
+                      "altSource": "Psalm 2:7"
+                    },
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "'In whom we have our redemption' after being delivered out of the domain of darkness (v.13-14) replays the exodus pattern: God redeems (apolytrosis/lytrosis) Israel out of bondage with an outstretched arm. The deliverance-then-redemption sequence and transfer into God's kingdom map onto the exodus from Egypt's darkness."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 9:9-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And with you is wisdom, which knows your works, And was present when you were making the world, And which understands what is pleasing in your eyes, And what is right according to your commandments. Send her forth out of the holy heavens, And from the throne of your glory bid her come, That being present with me she may toil with me, And that I may learn what is well-pleasing before you. For she knows all things and has understanding thereof, And in my […]",
+                      "note": "Solomon's prayer that Wisdom be sent to teach 'what is pleasing' to God and to guide him to 'walk' rightly parallels v.9-10's prayer for knowledge of God's will so as to 'walk worthily... pleasing him.' The walk/please/wisdom cluster is Wisdom-tradition coherent, though diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But go you your way until the end; for you shall rest, and shall stand in your lot, at the end of the days.",
+                      "note": "The 'inheritance of the saints in light' (v.12) faintly recalls Daniel's promise that the wise will 'rest and stand in your allotted inheritance at the end of days' and shine like the brightness of the firmament (12:3). The lot/inheritance of the holy ones in light is apocalyptic-coherent. Faint, contested.",
+                      "contested": true,
+                      "altSource": "Wisdom of Solomon 5:5"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How was he counted among sons of God? And how is his lot among saints?",
+                      "note": "'The inheritance of the saints in light' (v.12) resonates with Wisdom 5:5, where the righteous are numbered 'among the sons of God' and their 'lot is among the saints/holy ones.' Shared lot-among-the-holy-ones language gives modest coherence with Second-Temple beatific-portion expectation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill.",
+                      "note": "'Son of his love' (v.13) may faintly echo Isaiah's 'song of my beloved' for the vineyard; the LXX agapetos vocabulary links beloved-son and beloved-vineyard traditions. Low volume and contested against the stronger Psalm 2 / Genesis 22 candidates.",
+                      "contested": true,
+                      "altSource": "Genesis 22:2"
+                    },
+                    {
+                      "source": "Isaiah 43:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+                      "note": "'Our redemption, the forgiveness of sins' (v.14) resonates with Isaiah's 'I have redeemed you, I have called you by name, you are mine,' and 43:25's blotting out of transgressions. Redemption coupled with forgiveness is a second-exodus motif; volume modest, flagged contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 10:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”",
+                      "note": "The 'power of darkness' from which we are delivered (v.13) may glance at the plague of palpable darkness over Egypt that the exodus undoes, reinforcing the deliverance-from-darkness-into-kingdom exodus typology. Faint and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 9:2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -809,7 +1079,120 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.5",
+                  "ref": "10:25-28",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "The lawyer's answer cites the Shema's command to love the Lord your God with all your heart, soul, and strength, the heart of Israel's covenant confession. This is a near-verbatim quotation (Luke adds mind), unmistakable in volume and availability."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "And your neighbor as yourself quotes verbatim the Holiness Code's neighbor-love command, which then drives the Who is my neighbor question. The exact wording and its programmatic role make this a clear quotation."
+                    },
+                    {
+                      "source": "Leviticus 18:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall therefore keep my statutes and my ordinances; which if a man does, he shall live in them. I am Yahweh.",
+                      "note": "Do this, and you will live echoes the Levitical promise that the one who keeps God's statutes shall live by them, framing eternal life as covenant obedience. The do-them-and-live formula is distinctive enough to register as an allusion."
+                    },
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "The promise that God will circumcise the heart so Israel may love the LORD with all heart and soul stands behind the wholehearted love demanded here. It is a faint reinforcing echo of the Deuteronomic love-command cluster.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 6:5"
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "Inherit eternal life draws on the only clear OT promise of everlasting life, where some awake to everlasting life. The phrase supplies the eschatological referent though the contact is conceptual rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.6",
+                  "ref": "10:29-37",
+                  "echoes": [
+                    {
+                      "source": "2 Chronicles 28:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The men who have been mentioned by name rose up, and took the captives, and with the plunder clothed all who were naked among them, dressed them, gave them sandals, and gave them something to eat and to drink, anointed them, carried all the feeble of them on donkeys, and brought them to Jericho, the city of palm trees, to their brothers. Then they returned to Samaria.",
+                      "note": "The compassionate Samaritan who binds wounds, anoints with oil, sets the man on his own animal, and brings him to care closely mirrors the men of Samaria who clothed, anointed, carried on donkeys, and brought the Judean captives to Jericho. The cluster of shared details (Samaritans, oil/anointing, animal, conveying the helpless toward Jericho) is too dense to be coincidental."
+                    },
+                    {
+                      "source": "Leviticus 21:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh said to Moses, “Speak to the priests, the sons of Aaron, and say to them, ‘A priest shall not defile himself for the dead among his people; except for his relatives that are near to him: for his mother, for his father, for his son, for his daughter, for his brother, and for his virgin sister who is near to him, who has had no husband; for her he may defile himself.",
+                      "note": "The priest passing by on the other side gains its edge from the priestly prohibition against defilement by a corpse, since the victim appeared half dead. The corpse-purity background coheres with the priest's and Levite's avoidance, sharpening the parable's irony."
+                    },
+                    {
+                      "source": "Numbers 19:11-13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“He who touches the dead body of any man shall be unclean seven days. He shall purify himself with water on the third day, and on the seventh day he shall be clean; but if he doesn’t purify himself the third day, then the seventh day he shall not be clean. Whoever touches a dead person, the body of a man who has died, and doesn’t purify himself, defiles Yahweh’s tabernacle; and that soul shall be cut off from Israel; because the water for impurity was not […]",
+                      "note": "The general corpse-impurity law (seven-day uncleanness from touching a dead body) reinforces the ritual motive a priest and Levite might invoke for keeping their distance. It supplies recurrence to the purity rationale behind the passing by."
+                    },
+                    {
+                      "source": "Hosea 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+                      "note": "The verdict that the neighbor is the one who showed mercy embodies Hosea's I desire mercy and not sacrifice, prioritizing compassion over the cultic scruples of priest and Levite. The mercy-over-cult coherence with the parable's structure supports the allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 1:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "From the sole of the foot even to the head there is no soundness in it: wounds, welts, and open sores. They haven’t been closed, neither bandaged, neither soothed with oil.",
+                      "note": "Pouring oil and wine on wounds faintly recalls Isaiah's image of wounds not pressed out or softened with oil, the standard idiom for medicinal care. The contact is on the treatment imagery only and remains low-confidence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Good Samaritan",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "10:25–37"
+                      },
+                      "note": "A Lukan parable found nowhere else — \"Go and do likewise.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1752,7 +2135,140 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/deuteronomy-30"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Deuteronomy 30:11–14",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.16.27-Luke.16.31",
+                      "refDisplay": "Luke 16:27–31",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "16.9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-16.9"
+                    },
+                    {
+                      "refKey": "Jas.1.22-Jas.1.25",
+                      "refDisplay": "James 1:22–25",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-1.22"
+                    },
+                    {
+                      "refKey": "Luke.17.20-Luke.17.21",
+                      "refDisplay": "Luke 17:20–21",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "17.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-17.6"
+                    },
+                    {
+                      "refKey": "Rom.2.12-Rom.2.16",
+                      "refDisplay": "Romans 2:12–16",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-2.2"
+                    },
+                    {
+                      "refKey": "Rom.12.1-Rom.12.2",
+                      "refDisplay": "Romans 12:1–2",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "12.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-12.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 30:11",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.5.1-1John.5.5",
+                      "refDisplay": "1 John 5:1–5",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-5.1"
+                    },
+                    {
+                      "refKey": "Rom.10.5-Rom.10.13",
+                      "refDisplay": "Romans 10:5–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-10.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 30:12",
+                  "occurrences": [
+                    {
+                      "refKey": "John.3.9-John.3.13",
+                      "refDisplay": "John 3:9–13",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "3.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-3.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 30:12–14",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.10.5-Rom.10.13",
+                      "refDisplay": "Romans 10:5–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-10.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 30:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.10.5-Rom.10.13",
+                      "refDisplay": "Romans 10:5–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-10.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1765,7 +2281,115 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-25"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 25:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.16.12-John.16.15",
+                      "refDisplay": "John 16:12–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-16.3"
+                    },
+                    {
+                      "refKey": "1Tim.1.1-1Tim.1.2",
+                      "refDisplay": "1 Timothy 1:1–2",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:4–5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.5-John.14.7",
+                      "refDisplay": "John 14:5–7",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.19-Phil.1.26",
+                      "refDisplay": "Philippians 1:19–26",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 25:10",
+                  "occurrences": [
+                    {
+                      "refKey": "2John.1.1-2John.1.3",
+                      "refDisplay": "2 John 1:1–3",
+                      "book": "2 John",
+                      "slug": "2-john",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-john#p-1.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1784,7 +2408,176 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-2",
+                  "echoes": [
+                    {
+                      "source": "Numbers 6:25-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The epistolary blessing 'Grace to you and peace' channels the Aaronic benediction's pairing of divine favor and shalom (the LORD make his face shine... and give you peace). Volume is low and the formula is conventionally Pauline, but the coherence with the priestly grace/peace dyad and its availability in the Torah make it a plausible faint figural backdrop.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:3-8",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:28",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.”",
+                      "note": "The gospel 'bearing fruit and growing... in all the world' (v.6) replays the creation/Edenic mandate 'be fruitful and multiply and fill the earth.' The paired participles fruit-bearing + increasing, set worldwide, deliberately recast the protological blessing as the spread of the word, a Genesis-creation coherence the hymn that follows will make explicit."
+                    },
+                    {
+                      "source": "Genesis 9:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God blessed Noah and his sons, and said to them, “Be fruitful, and multiply, and replenish the earth.",
+                      "note": "The post-flood renewal of the be-fruitful-and-multiply command (also 9:7) reinforces the Genesis fruitfulness lexeme behind v.6's worldwide growth of the gospel. Recurrence of the same blessing-formula in Genesis strengthens availability; lower volume than 1:28 since the wording is the same mandate repeated.",
+                      "contested": true,
+                      "altSource": "Genesis 1:28"
+                    },
+                    {
+                      "source": "Isaiah 55:10-11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For as the rain comes down and the snow from the sky, and doesn’t return there, but waters the earth, and makes it grow and bud, and gives seed to the sower and bread to the eater; so shall my word be that goes out of my mouth: it shall not return to me void, but it shall accomplish that which I please, and it shall prosper in the thing I sent it to do.",
+                      "note": "The 'word of the truth of the gospel' that 'has come to you' and is fruitful in all the world echoes Isaiah's word that goes out from God's mouth and does not return empty but accomplishes and prospers, like rain making the earth bring forth and sprout. Coherence is strong: a divine word personified as agriculturally fruitful and unfailingly effective."
+                    },
+                    {
+                      "source": "Jeremiah 23:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they shall be fruitful and multiply.",
+                      "note": "Jeremiah's promise that the gathered remnant 'shall be fruitful and multiply' fuses the Genesis blessing with restoration hope; Colossians' worldwide fruitful word may stand in this prophetic stream of fruitfulness-as-restoration. Faint and overlapping with the Genesis echoes, hence contested.",
+                      "contested": true,
+                      "altSource": "Genesis 1:28"
+                    },
+                    {
+                      "source": "Isaiah 11:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They will not hurt nor destroy in all my holy mountain; for the earth will be full of the knowledge of Yahweh, as the waters cover the sea.",
+                      "note": "The motif of 'all the world' / earth filled (here with the fruitful word) faintly recalls Isaiah's eschatological 'the earth shall be full of the knowledge of the LORD as the waters cover the sea,' which also surfaces in the knowledge-language of v.9-10. Low volume, flagged contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:9-14",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The prayer to be 'filled with the knowledge of his will in all spiritual wisdom and understanding' (v.9) draws on the messianic endowment of Isaiah 11:2, the Spirit of wisdom and understanding, of counsel and knowledge. The triad wisdom/understanding/knowledge clusters in both texts, a coherent Spirit-given cognition of God's will."
+                    },
+                    {
+                      "source": "Exodus 31:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and I have filled him with the Spirit of God, in wisdom, and in understanding, and in knowledge, and in all kinds of workmanship,",
+                      "note": "Being 'filled with' wisdom and understanding (v.9) echoes Bezalel filled with the Spirit of God 'in wisdom, in understanding, and in knowledge' for the work of the sanctuary. The fullness-of-Spirit-wisdom idiom and the same three faculties make this a strong lexical parallel; availability in Exodus is secure."
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "Being delivered 'out of the power of darkness' and translated into the kingdom (v.13) draws on Isaiah's people walking in darkness who see a great light and the dawning kingdom of the messianic son (9:6-7). Light/darkness reversal plus an established kingdom of a royal son cohere tightly."
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "'The kingdom of the Son of his love' (v.13) evokes the royal-adoption oracle 'You are my Son'; with v.15-18's firstborn language it situates Christ in the Davidic sonship of Psalm 2. Volume here is thematic (beloved royal son enthroned over a kingdom) rather than verbal."
+                    },
+                    {
+                      "source": "Genesis 22:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "'The Son of his love' / the Beloved (v.13) carries the Aqedah resonance of Isaac, 'your son, your only son, whom you love,' a beloved-son figure offered up. Coherence with the redemption-through-death theme that immediately follows (v.14, v.20) strengthens the figural reading of the beloved son.",
+                      "contested": true,
+                      "altSource": "Psalm 2:7"
+                    },
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "'In whom we have our redemption' after being delivered out of the domain of darkness (v.13-14) replays the exodus pattern: God redeems (apolytrosis/lytrosis) Israel out of bondage with an outstretched arm. The deliverance-then-redemption sequence and transfer into God's kingdom map onto the exodus from Egypt's darkness."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 9:9-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And with you is wisdom, which knows your works, And was present when you were making the world, And which understands what is pleasing in your eyes, And what is right according to your commandments. Send her forth out of the holy heavens, And from the throne of your glory bid her come, That being present with me she may toil with me, And that I may learn what is well-pleasing before you. For she knows all things and has understanding thereof, And in my […]",
+                      "note": "Solomon's prayer that Wisdom be sent to teach 'what is pleasing' to God and to guide him to 'walk' rightly parallels v.9-10's prayer for knowledge of God's will so as to 'walk worthily... pleasing him.' The walk/please/wisdom cluster is Wisdom-tradition coherent, though diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But go you your way until the end; for you shall rest, and shall stand in your lot, at the end of the days.",
+                      "note": "The 'inheritance of the saints in light' (v.12) faintly recalls Daniel's promise that the wise will 'rest and stand in your allotted inheritance at the end of days' and shine like the brightness of the firmament (12:3). The lot/inheritance of the holy ones in light is apocalyptic-coherent. Faint, contested.",
+                      "contested": true,
+                      "altSource": "Wisdom of Solomon 5:5"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How was he counted among sons of God? And how is his lot among saints?",
+                      "note": "'The inheritance of the saints in light' (v.12) resonates with Wisdom 5:5, where the righteous are numbered 'among the sons of God' and their 'lot is among the saints/holy ones.' Shared lot-among-the-holy-ones language gives modest coherence with Second-Temple beatific-portion expectation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill.",
+                      "note": "'Son of his love' (v.13) may faintly echo Isaiah's 'song of my beloved' for the vineyard; the LXX agapetos vocabulary links beloved-son and beloved-vineyard traditions. Low volume and contested against the stronger Psalm 2 / Genesis 22 candidates.",
+                      "contested": true,
+                      "altSource": "Genesis 22:2"
+                    },
+                    {
+                      "source": "Isaiah 43:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+                      "note": "'Our redemption, the forgiveness of sins' (v.14) resonates with Isaiah's 'I have redeemed you, I have called you by name, you are mine,' and 43:25's blotting out of transgressions. Redemption coupled with forgiveness is a second-exodus motif; volume modest, flagged contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 10:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”",
+                      "note": "The 'power of darkness' from which we are delivered (v.13) may glance at the plague of palpable darkness over Egypt that the exodus undoes, reinforcing the deliverance-from-darkness-into-kingdom exodus typology. Faint and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 9:2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1803,7 +2596,120 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.5",
+                  "ref": "10:25-28",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall love Yahweh your God with all your heart, with all your soul, and with all your might.",
+                      "note": "The lawyer's answer cites the Shema's command to love the Lord your God with all your heart, soul, and strength, the heart of Israel's covenant confession. This is a near-verbatim quotation (Luke adds mind), unmistakable in volume and availability."
+                    },
+                    {
+                      "source": "Leviticus 19:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.",
+                      "note": "And your neighbor as yourself quotes verbatim the Holiness Code's neighbor-love command, which then drives the Who is my neighbor question. The exact wording and its programmatic role make this a clear quotation."
+                    },
+                    {
+                      "source": "Leviticus 18:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall therefore keep my statutes and my ordinances; which if a man does, he shall live in them. I am Yahweh.",
+                      "note": "Do this, and you will live echoes the Levitical promise that the one who keeps God's statutes shall live by them, framing eternal life as covenant obedience. The do-them-and-live formula is distinctive enough to register as an allusion."
+                    },
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "The promise that God will circumcise the heart so Israel may love the LORD with all heart and soul stands behind the wholehearted love demanded here. It is a faint reinforcing echo of the Deuteronomic love-command cluster.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 6:5"
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "Inherit eternal life draws on the only clear OT promise of everlasting life, where some awake to everlasting life. The phrase supplies the eschatological referent though the contact is conceptual rather than verbal.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.6",
+                  "ref": "10:29-37",
+                  "echoes": [
+                    {
+                      "source": "2 Chronicles 28:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The men who have been mentioned by name rose up, and took the captives, and with the plunder clothed all who were naked among them, dressed them, gave them sandals, and gave them something to eat and to drink, anointed them, carried all the feeble of them on donkeys, and brought them to Jericho, the city of palm trees, to their brothers. Then they returned to Samaria.",
+                      "note": "The compassionate Samaritan who binds wounds, anoints with oil, sets the man on his own animal, and brings him to care closely mirrors the men of Samaria who clothed, anointed, carried on donkeys, and brought the Judean captives to Jericho. The cluster of shared details (Samaritans, oil/anointing, animal, conveying the helpless toward Jericho) is too dense to be coincidental."
+                    },
+                    {
+                      "source": "Leviticus 21:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh said to Moses, “Speak to the priests, the sons of Aaron, and say to them, ‘A priest shall not defile himself for the dead among his people; except for his relatives that are near to him: for his mother, for his father, for his son, for his daughter, for his brother, and for his virgin sister who is near to him, who has had no husband; for her he may defile himself.",
+                      "note": "The priest passing by on the other side gains its edge from the priestly prohibition against defilement by a corpse, since the victim appeared half dead. The corpse-purity background coheres with the priest's and Levite's avoidance, sharpening the parable's irony."
+                    },
+                    {
+                      "source": "Numbers 19:11-13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“He who touches the dead body of any man shall be unclean seven days. He shall purify himself with water on the third day, and on the seventh day he shall be clean; but if he doesn’t purify himself the third day, then the seventh day he shall not be clean. Whoever touches a dead person, the body of a man who has died, and doesn’t purify himself, defiles Yahweh’s tabernacle; and that soul shall be cut off from Israel; because the water for impurity was not […]",
+                      "note": "The general corpse-impurity law (seven-day uncleanness from touching a dead body) reinforces the ritual motive a priest and Levite might invoke for keeping their distance. It supplies recurrence to the purity rationale behind the passing by."
+                    },
+                    {
+                      "source": "Hosea 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+                      "note": "The verdict that the neighbor is the one who showed mercy embodies Hosea's I desire mercy and not sacrifice, prioritizing compassion over the cultic scruples of priest and Levite. The mercy-over-cult coherence with the parable's structure supports the allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 1:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "From the sole of the foot even to the head there is no soundness in it: wounds, welts, and open sores. They haven’t been closed, neither bandaged, neither soothed with oil.",
+                      "note": "Pouring oil and wine on wounds faintly recalls Isaiah's image of wounds not pressed out or softened with oil, the standard idiom for medicinal care. The contact is on the treatment imagery only and remains low-confidence.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Good Samaritan",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "10:25–37"
+                      },
+                      "note": "A Lukan parable found nowhere else — \"Go and do likewise.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

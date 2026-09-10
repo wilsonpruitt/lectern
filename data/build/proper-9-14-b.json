@@ -808,7 +808,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/2-samuel-5"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "2 Samuel 5:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.2.1-Matt.2.12",
+                      "refDisplay": "Matthew 2:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -821,7 +844,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-48"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 48:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.33-Matt.5.37",
+                      "refDisplay": "Matthew 5:33–37",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 48:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.27.13-Acts.27.20",
+                      "refDisplay": "Acts 27:13–20",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "27.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-27.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 48:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.12.18-Heb.12.24",
+                      "refDisplay": "Hebrews 12:18–24",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "12.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-12.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -840,7 +916,178 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.1",
+                  "ref": "12:1-6",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 1:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Now in the thirtieth year, in the fourth month, in the fifth of the month, as I was among the captives by the river Chebar, the heavens were opened, and I saw visions of God.",
+                      "note": "Paul opens his account of ascent with the rubric 'visions and revelations of the Lord,' echoing the prophetic-apocalyptic technical language for throne and merkabah experience inaugurated by Ezekiel's 'I saw visions of God' (Ezek 1:1). The recurrence of such opening formulae across Ezekiel and Daniel makes this the native idiom Paul reworks; coherence is high since the whole pericope is a heavenly vision."
+                    },
+                    {
+                      "source": "Genesis 2:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh God planted a garden eastward, in Eden, and there he put the man whom he had formed.",
+                      "note": "Paul says the man was 'caught up into Paradise' (paradeisos), the LXX word for the garden 'God planted in Eden.' The localization of Paradise in the highest heaven is a Second-Temple development from the Eden narrative; volume is moderate because the loaded term Paradise is a direct lexical link to the Genesis garden as rendered by the LXX."
+                    },
+                    {
+                      "source": "Ezekiel 28:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You were in Eden, the garden of God; every precious stone adorned you: ruby, topaz, emerald, chrysolite, onyx, jasper, sapphire, turquoise, and beryl. Gold work of tambourines and of pipes was in you. In the day that you were created they were prepared.",
+                      "note": "Ezekiel's oracle places a figure 'in Eden, the garden of God,' fusing Eden with a glorious cosmic-mountain sanctuary, a trajectory that feeds the heavenly-Paradise of Paul's account. Coherence is strong because Ezekiel already relocates Eden into visionary, throne-adjacent space, the very move Paul presupposes when he equates the third heaven with Paradise.",
+                      "contested": true,
+                      "altSource": "1 Enoch 32:3"
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "The apocalyptic 'visions' frame and the motif of being shown heavenly realities draw on Danielic seer-vision conventions, where Daniel beholds the divine throne 'in the visions of the night.' Faint and generic; flagged because Paul's vocabulary of revelation belongs to the Danielic apocalyptic stream that was available in the Second-Temple period.",
+                      "contested": true,
+                      "altSource": "1 Enoch 14"
+                    },
+                    {
+                      "source": "Ezekiel 8:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He stretched out the form of a hand, and took me by a lock of my head; and the Spirit lifted me up between earth and the sky, and brought me in the visions of God to Jerusalem, to the door of the gate of the inner court that looks toward the north; where there was the seat of the image of jealousy, which provokes to jealousy.",
+                      "note": "Paul's repeated uncertainty 'whether in the body or out of the body' and the verb 'caught up' recall prophetic rapture, as when the spirit 'lifted me up between earth and heaven' and brought Ezekiel in visions to Jerusalem. Faint but coherent: the motif of bodily-or-spiritual transport in vision is a prophetic precedent Paul reflexively invokes.",
+                      "contested": true,
+                      "altSource": "Ezekiel 3:12-14"
+                    },
+                    {
+                      "source": "1 Kings 19:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Go out, and stand on the mountain before Yahweh.” Behold, Yahweh passed by, and a great and strong wind tore the mountains, and broke in pieces the rocks before Yahweh; but Yahweh was not in the wind. After the wind an earthquake; but Yahweh was not in the earthquake.",
+                      "note": "The 'unspeakable words which it is not lawful to utter' loosely participates in the OT topos of an ineffable divine encounter, as at Horeb where the LORD passes by in a silence beyond the wind, earthquake, and fire. Very faint and contested; offered only because the apophatic restraint around theophany has OT roots, though Paul's secrecy is closer to apocalyptic sealing conventions.",
+                      "contested": true,
+                      "altSource": "Daniel 12:4"
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "The notion that what was heard 'is not lawful for a man to utter' resonates with the Sinai principle that direct apprehension of God's glory exceeds human bearing ('no man shall see me and live'). Faint; flagged because the unspeakable/unbearable quality of the highest revelation traces to the Mosaic theophany tradition Paul elsewhere engages closely (2 Cor 3).",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.2",
+                  "ref": "12:7-10",
+                  "echoes": [
+                    {
+                      "source": "Job 2:6-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.” So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.",
+                      "note": "Paul's 'messenger of Satan to torment me' closely mirrors the prologue of Job, where the LORD permits the Satan to strike Job's flesh with sore boils. The structural parallel is strong: a faithful servant afflicted in the body by Satan under divine permission for a higher purpose, which frames Paul's theodicy of the thorn."
+                    },
+                    {
+                      "source": "Numbers 33:55",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“But if you do not drive out the inhabitants of the land from before you, then those you let remain of them will be as pricks in your eyes and as thorns in your sides, and they will harass you in the land in which you dwell.",
+                      "note": "The 'thorn in the flesh' draws on the LXX idiom for a persistent God-permitted affliction, where unexpelled inhabitants become 'thorns in your sides.' Volume and coherence are good: the metaphor of a thorn/goad lodged in the body as an ongoing scourge is precisely the OT figure Paul reworks into a personal torment."
+                    },
+                    {
+                      "source": "Ezekiel 28:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There shall be no more a pricking brier to the house of Israel, nor a hurting thorn of any that are around them, that scorned them; and they shall know that I am the Lord Yahweh.",
+                      "note": "Ezekiel promises Israel relief from 'a pricking brier and a grieving thorn' from hostile neighbors, the same skolops/thorn imagery for a chronic harassment. The recurrence of this exact figure (Num, Josh, Ezek) for a divinely-tolerated irritant strengthens the case that Paul's 'thorn' is biblical metaphor, not merely medical."
+                    },
+                    {
+                      "source": "Joshua 23:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "know for a certainty that Yahweh your God will no longer drive these nations from out of your sight; but they shall be a snare and a trap to you, a scourge in your sides, and thorns in your eyes, until you perish from off this good land which Yahweh your God has given you.",
+                      "note": "Joshua warns that the remaining nations will be 'scourges in your sides and thorns in your eyes,' pairing thorn with scourge exactly as Paul pairs his thorn with a tormenting 'messenger of Satan.' The combined thorn-and-scourge motif, recurring across the conquest texts, gives strong intertextual coherence to Paul's affliction language."
+                    },
+                    {
+                      "source": "Job 2:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But he said to her, “You speak as one of the foolish women would speak. What? Shall we receive good at the hand of God, and shall we not receive evil?” In all this Job didn’t sin with his lips.",
+                      "note": "Paul's resolve to 'take pleasure in weaknesses... for Christ's sake' and to receive affliction without rebellion echoes Job's acceptance, 'shall we receive good at the hand of God, and shall we not receive evil?' Coherence is high because both texts make Satanic bodily affliction the arena of tested faithfulness rather than divine abandonment.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 40:29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He gives power to the weak. He increases the strength of him who has no might.",
+                      "note": "The divine word 'my power is made perfect in weakness' and 'when I am weak, then am I strong' enact Isaiah's promise that God 'gives power to the faint, and to him who has no might he increases strength.' Volume is moderate but thematic coherence is strong: strength supplied precisely at the point of human exhaustion is Isaiah's consolation reapplied to apostolic suffering."
+                    },
+                    {
+                      "source": "Isaiah 40:31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+                      "note": "Paul's paradox that weakness is the condition of renewed power restates Isaiah's 'they who wait for the LORD shall renew their strength.' Recurrence within the same Isaianic passage (40:29-31) and Paul's documented dependence on Isaiah in 2 Corinthians strengthen the link beyond a generic strength-theme.",
+                      "contested": true,
+                      "altSource": "Isaiah 40:29"
+                    },
+                    {
+                      "source": "Zechariah 4:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.",
+                      "note": "The principle that God's work advances through human weakness rather than human force recalls Zechariah's oracle, 'Not by might, nor by power, but by my Spirit.' Coherence is strong: both deny that strength is the basis of God's accomplishment, locating efficacy in divine power, though Paul's wording is his own.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 73:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+                      "note": "Paul's confession that grace suffices when his own flesh fails echoes the psalmist's 'My flesh and my heart fails, but God is the strength of my heart.' The shared move from bodily failure to God as one's sustaining strength gives good thematic coherence to the grace-in-weakness motif.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 34:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+                      "note": "The promise that grace is sufficient and Christ's power rests on the weak loosely reflects the psalmic conviction that 'the LORD is near to those of a broken heart.' Faint and generic; included because Paul's grace-to-the-afflicted theology participates in the psalter's nearness-to-the-lowly tradition.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 40:34",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then the cloud covered the Tent of Meeting, and Yahweh’s glory filled the tabernacle.",
+                      "note": "The phrase that 'the power of Christ may rest on me' (lit. 'tabernacle/dwell upon me,' episkenoo) faintly evokes the glory that 'filled the tabernacle' and overshadowed it at its consecration. Faint but offered because Paul's verb is cognate to tabernacle/skene, suggesting the indwelling Shekinah-glory now resting on the apostle's weak body.",
+                      "contested": true,
+                      "altSource": "Numbers 9:18"
+                    },
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The 'power of Christ' resting upon the apostle distantly echoes the Spirit of the LORD that 'shall rest upon' the messianic shoot. Faint; flagged because the resting of divine power/Spirit upon a chosen agent is an Isaianic figure, here transferred from Messiah to the one who bears Christ's power in weakness.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -859,7 +1106,141 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-6",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 11:21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore thus says Yahweh concerning the men of Anathoth, who seek your life, saying, You shall not prophesy in Yahweh’s name, that you not die by our hand;",
+                      "note": "Jeremiah's own townsmen of Anathoth seek his life, the classic instance of a prophet rejected by his native place. Jesus' aphorism that a prophet lacks honor 'in his own country' and 'among his own relatives' coheres thematically with Jeremiah's hometown opposition. Recurrence of the rejected-prophet pattern across the OT strengthens the figural reading.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 12:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For even your brothers, and the house of your father, even they have dealt treacherously with you; even they have cried aloud after you: don’t believe them, though they speak beautiful words to you.",
+                      "note": "Jeremiah is warned that even his brothers and his father's house deal treacherously with him. Mark's specification 'among his own relatives, and in his own house' closely tracks this kin-and-household betrayal motif. The verbal overlap of 'house' and 'kindred' makes the echo more than generic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 2:3-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said to me, Son of man, I send you to the children of Israel, to a nation of rebels who have rebelled against me. They and their fathers have transgressed against me even to this very day. The children are impudent and stiff-hearted: I am sending you to them; and you shall tell them, Thus says the Lord Yahweh. They, whether they will hear, or whether they will forbear, (for they are a rebellious house), yet shall know that there has been a prophet […]",
+                      "note": "Ezekiel is sent to a rebellious house that will not listen, and is told to speak 'whether they hear or refuse to hear.' Jesus' marveling at their unbelief and inability to do mighty works mirrors the prophet sent to obstinate kin. The commissioning-to-the-resistant pattern coheres with Mark's portrait.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 19:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and slain your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+                      "note": "Elijah laments rejection by his own people Israel despite his prophetic word, part of the OT type of the lone unhonored prophet. The thematic coherence with Jesus' rejection at Nazareth supports a faint echo, though no verbal link exists. Marked contested as a pattern-level resonance only.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He was despised, and rejected by men; a man of suffering, and acquainted with disease. He was despised as one from whom men hide their face; and we didn’t respect him.",
+                      "note": "The Servant is 'despised and rejected' and not esteemed. Nazareth's being 'offended' at Jesus faintly anticipates the despised-Servant motif Mark develops toward the passion. Low confidence and contested: thematic only, no verbal contact here.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.2",
+                  "ref": "6:7-13",
+                  "echoes": [
+                    {
+                      "source": "Genesis 19:24-25",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then Yahweh rained on Sodom and on Gomorrah sulfur and fire from Yahweh out of the sky. He overthrew those cities, all the plain, all the inhabitants of the cities, and that which grew on the ground.",
+                      "note": "The destruction of Sodom and Gomorrah is explicitly named by Jesus as the benchmark of judgment for towns that reject the messengers. This is a direct invocation of the OT narrative as the measure of eschatological accountability. High confidence given the named cities."
+                    },
+                    {
+                      "source": "Exodus 12:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "This is how you shall eat it: with your belt on your waist, your shoes on your feet, and your staff in your hand; and you shall eat it in haste: it is Yahweh’s Passover.",
+                      "note": "Israel eats the Passover with staff in hand, sandals on feet, dressed for urgent departure. The Twelve are likewise equipped with a staff and sandals only, traveling light and ready, evoking the Exodus-haste posture. The shared cluster of staff + sandals supports the allusion despite the differing inventory of permitted items.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 4:29",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then he said to Gehazi, “Tuck your cloak into your belt, take my staff in your hand, and go your way. If you meet any man, don’t greet him; and if anyone greets you, don’t answer him again. Then lay my staff on the face of the child.”",
+                      "note": "Elisha sends Gehazi with staff in hand on an urgent prophetic errand, not to greet anyone on the way. The sending of agents bearing a staff, with authority over life and sickness, coheres with the Elijah/Elisha framing of the mission of the Twelve who heal and anoint. Recurrence of the prophet-sends-disciple type strengthens this.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Nehemiah 5:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Also I shook out my lap, and said, “So may God shake out every man from his house, and from his labor, that doesn’t perform this promise; even thus be he shaken out, and emptied.” All the assembly said, “Amen,” and praised Yahweh. The people did according to this promise.",
+                      "note": "Nehemiah shakes out the fold of his garment as a prophetic sign-act of curse against those who break covenant. The disciples' shaking off the dust 'for a testimony against them' enacts the same symbolic withdrawal-and-witness gesture. The shared performative testimony-against-the-faithless motif supports the allusion."
+                    },
+                    {
+                      "source": "1 Kings 17:8-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh’s word came to him, saying, “Arise, go to Zarephath, which belongs to Sidon, and stay there. Behold, I have commanded a widow there to sustain you.” So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks: and he called to her, and said, “Please get me a little water in a vessel, that I may drink.” As she was going to get it, he called to her, and said, “Please bring me a morsel of […]",
+                      "note": "Elijah lodges in a single household (the widow of Zarephath) and is sustained there, a model of the prophet received into one house. Jesus' instruction to stay in one house until departure resonates faintly with this prophetic hospitality pattern. Contested, thematic coherence only.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 9:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Elisha the prophet called one of the sons of the prophets, and said to him, “Put your belt on your waist, take this vial of oil in your hand, and go to Ramoth Gilead. When you come there, find Jehu the son of Jehoshaphat the son of Nimshi, and go in, and make him arise up from among his brothers, and carry him to an inner room. Then take the vial of oil, and pour it on his head, and say, ‘Thus says Yahweh, “I have anointed you king over Israel.”’ Then […]",
+                      "note": "Elisha dispatches a member of the prophetic guild with anointing oil to act in Yahweh's name. The Twelve who 'anointed many with oil' for healing faintly echo prophetic anointing as a delegated sign-act. Contested and thematic; the OT oil here anoints a king, not the sick.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Amos 7:14-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Amos answered Amaziah, “I was no prophet, neither was I a prophet’s son; but I was a herdsman, and a farmer of sycamore figs; and Yahweh took me from following the flock, and Yahweh said to me, ‘Go, prophesy to my people Israel.’",
+                      "note": "Amos is a layman taken from his ordinary work and sent to prophesy, paralleling the commissioning of ordinary disciples to preach repentance. The send-the-unlikely-prophet motif coheres but lacks verbal contact. Marked contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Sending out the Twelve",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "10:1–42",
+                        "mark": "6:7–13",
+                        "luke": "9:1–6"
+                      },
+                      "note": "Matthew gathers a whole missionary discourse where Mark and Luke give only the commission."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1581,7 +1962,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/ezekiel-2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Ezekiel 2:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.26.16-Acts.26.18",
+                      "refDisplay": "Acts 26:16–18",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "26.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-26.5"
+                    },
+                    {
+                      "refKey": "Acts.9.1-Acts.9.9",
+                      "refDisplay": "Acts 9:1–9",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "9.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-9.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Ezekiel 2:3–7",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.6.1-Mark.6.6",
+                      "refDisplay": "Mark 6:1–6",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Ezekiel 2:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.14.8-Acts.14.13",
+                      "refDisplay": "Acts 14:8–13",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-14.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1594,7 +2038,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-123"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 123:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.9.27-Matt.9.31",
+                      "refDisplay": "Matthew 9:27–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "9.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-9.5"
+                    },
+                    {
+                      "refKey": "Matt.20.29-Matt.20.34",
+                      "refDisplay": "Matthew 20:29–34",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "20.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-20.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 123:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.17.7-Luke.17.10",
+                      "refDisplay": "Luke 17:7–10",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-17.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1613,7 +2105,178 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "12.1",
+                  "ref": "12:1-6",
+                  "echoes": [
+                    {
+                      "source": "Ezekiel 1:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Now in the thirtieth year, in the fourth month, in the fifth of the month, as I was among the captives by the river Chebar, the heavens were opened, and I saw visions of God.",
+                      "note": "Paul opens his account of ascent with the rubric 'visions and revelations of the Lord,' echoing the prophetic-apocalyptic technical language for throne and merkabah experience inaugurated by Ezekiel's 'I saw visions of God' (Ezek 1:1). The recurrence of such opening formulae across Ezekiel and Daniel makes this the native idiom Paul reworks; coherence is high since the whole pericope is a heavenly vision."
+                    },
+                    {
+                      "source": "Genesis 2:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh God planted a garden eastward, in Eden, and there he put the man whom he had formed.",
+                      "note": "Paul says the man was 'caught up into Paradise' (paradeisos), the LXX word for the garden 'God planted in Eden.' The localization of Paradise in the highest heaven is a Second-Temple development from the Eden narrative; volume is moderate because the loaded term Paradise is a direct lexical link to the Genesis garden as rendered by the LXX."
+                    },
+                    {
+                      "source": "Ezekiel 28:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You were in Eden, the garden of God; every precious stone adorned you: ruby, topaz, emerald, chrysolite, onyx, jasper, sapphire, turquoise, and beryl. Gold work of tambourines and of pipes was in you. In the day that you were created they were prepared.",
+                      "note": "Ezekiel's oracle places a figure 'in Eden, the garden of God,' fusing Eden with a glorious cosmic-mountain sanctuary, a trajectory that feeds the heavenly-Paradise of Paul's account. Coherence is strong because Ezekiel already relocates Eden into visionary, throne-adjacent space, the very move Paul presupposes when he equates the third heaven with Paradise.",
+                      "contested": true,
+                      "altSource": "1 Enoch 32:3"
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "The apocalyptic 'visions' frame and the motif of being shown heavenly realities draw on Danielic seer-vision conventions, where Daniel beholds the divine throne 'in the visions of the night.' Faint and generic; flagged because Paul's vocabulary of revelation belongs to the Danielic apocalyptic stream that was available in the Second-Temple period.",
+                      "contested": true,
+                      "altSource": "1 Enoch 14"
+                    },
+                    {
+                      "source": "Ezekiel 8:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He stretched out the form of a hand, and took me by a lock of my head; and the Spirit lifted me up between earth and the sky, and brought me in the visions of God to Jerusalem, to the door of the gate of the inner court that looks toward the north; where there was the seat of the image of jealousy, which provokes to jealousy.",
+                      "note": "Paul's repeated uncertainty 'whether in the body or out of the body' and the verb 'caught up' recall prophetic rapture, as when the spirit 'lifted me up between earth and heaven' and brought Ezekiel in visions to Jerusalem. Faint but coherent: the motif of bodily-or-spiritual transport in vision is a prophetic precedent Paul reflexively invokes.",
+                      "contested": true,
+                      "altSource": "Ezekiel 3:12-14"
+                    },
+                    {
+                      "source": "1 Kings 19:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “Go out, and stand on the mountain before Yahweh.” Behold, Yahweh passed by, and a great and strong wind tore the mountains, and broke in pieces the rocks before Yahweh; but Yahweh was not in the wind. After the wind an earthquake; but Yahweh was not in the earthquake.",
+                      "note": "The 'unspeakable words which it is not lawful to utter' loosely participates in the OT topos of an ineffable divine encounter, as at Horeb where the LORD passes by in a silence beyond the wind, earthquake, and fire. Very faint and contested; offered only because the apophatic restraint around theophany has OT roots, though Paul's secrecy is closer to apocalyptic sealing conventions.",
+                      "contested": true,
+                      "altSource": "Daniel 12:4"
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "The notion that what was heard 'is not lawful for a man to utter' resonates with the Sinai principle that direct apprehension of God's glory exceeds human bearing ('no man shall see me and live'). Faint; flagged because the unspeakable/unbearable quality of the highest revelation traces to the Mosaic theophany tradition Paul elsewhere engages closely (2 Cor 3).",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "12.2",
+                  "ref": "12:7-10",
+                  "echoes": [
+                    {
+                      "source": "Job 2:6-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh said to Satan, “Behold, he is in your hand. Only spare his life.” So Satan went out from the presence of Yahweh, and struck Job with painful sores from the sole of his foot to his head.",
+                      "note": "Paul's 'messenger of Satan to torment me' closely mirrors the prologue of Job, where the LORD permits the Satan to strike Job's flesh with sore boils. The structural parallel is strong: a faithful servant afflicted in the body by Satan under divine permission for a higher purpose, which frames Paul's theodicy of the thorn."
+                    },
+                    {
+                      "source": "Numbers 33:55",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“But if you do not drive out the inhabitants of the land from before you, then those you let remain of them will be as pricks in your eyes and as thorns in your sides, and they will harass you in the land in which you dwell.",
+                      "note": "The 'thorn in the flesh' draws on the LXX idiom for a persistent God-permitted affliction, where unexpelled inhabitants become 'thorns in your sides.' Volume and coherence are good: the metaphor of a thorn/goad lodged in the body as an ongoing scourge is precisely the OT figure Paul reworks into a personal torment."
+                    },
+                    {
+                      "source": "Ezekiel 28:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "There shall be no more a pricking brier to the house of Israel, nor a hurting thorn of any that are around them, that scorned them; and they shall know that I am the Lord Yahweh.",
+                      "note": "Ezekiel promises Israel relief from 'a pricking brier and a grieving thorn' from hostile neighbors, the same skolops/thorn imagery for a chronic harassment. The recurrence of this exact figure (Num, Josh, Ezek) for a divinely-tolerated irritant strengthens the case that Paul's 'thorn' is biblical metaphor, not merely medical."
+                    },
+                    {
+                      "source": "Joshua 23:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "know for a certainty that Yahweh your God will no longer drive these nations from out of your sight; but they shall be a snare and a trap to you, a scourge in your sides, and thorns in your eyes, until you perish from off this good land which Yahweh your God has given you.",
+                      "note": "Joshua warns that the remaining nations will be 'scourges in your sides and thorns in your eyes,' pairing thorn with scourge exactly as Paul pairs his thorn with a tormenting 'messenger of Satan.' The combined thorn-and-scourge motif, recurring across the conquest texts, gives strong intertextual coherence to Paul's affliction language."
+                    },
+                    {
+                      "source": "Job 2:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But he said to her, “You speak as one of the foolish women would speak. What? Shall we receive good at the hand of God, and shall we not receive evil?” In all this Job didn’t sin with his lips.",
+                      "note": "Paul's resolve to 'take pleasure in weaknesses... for Christ's sake' and to receive affliction without rebellion echoes Job's acceptance, 'shall we receive good at the hand of God, and shall we not receive evil?' Coherence is high because both texts make Satanic bodily affliction the arena of tested faithfulness rather than divine abandonment.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 40:29",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He gives power to the weak. He increases the strength of him who has no might.",
+                      "note": "The divine word 'my power is made perfect in weakness' and 'when I am weak, then am I strong' enact Isaiah's promise that God 'gives power to the faint, and to him who has no might he increases strength.' Volume is moderate but thematic coherence is strong: strength supplied precisely at the point of human exhaustion is Isaiah's consolation reapplied to apostolic suffering."
+                    },
+                    {
+                      "source": "Isaiah 40:31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+                      "note": "Paul's paradox that weakness is the condition of renewed power restates Isaiah's 'they who wait for the LORD shall renew their strength.' Recurrence within the same Isaianic passage (40:29-31) and Paul's documented dependence on Isaiah in 2 Corinthians strengthen the link beyond a generic strength-theme.",
+                      "contested": true,
+                      "altSource": "Isaiah 40:29"
+                    },
+                    {
+                      "source": "Zechariah 4:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.",
+                      "note": "The principle that God's work advances through human weakness rather than human force recalls Zechariah's oracle, 'Not by might, nor by power, but by my Spirit.' Coherence is strong: both deny that strength is the basis of God's accomplishment, locating efficacy in divine power, though Paul's wording is his own.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 73:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+                      "note": "Paul's confession that grace suffices when his own flesh fails echoes the psalmist's 'My flesh and my heart fails, but God is the strength of my heart.' The shared move from bodily failure to God as one's sustaining strength gives good thematic coherence to the grace-in-weakness motif.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 34:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+                      "note": "The promise that grace is sufficient and Christ's power rests on the weak loosely reflects the psalmic conviction that 'the LORD is near to those of a broken heart.' Faint and generic; included because Paul's grace-to-the-afflicted theology participates in the psalter's nearness-to-the-lowly tradition.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 40:34",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then the cloud covered the Tent of Meeting, and Yahweh’s glory filled the tabernacle.",
+                      "note": "The phrase that 'the power of Christ may rest on me' (lit. 'tabernacle/dwell upon me,' episkenoo) faintly evokes the glory that 'filled the tabernacle' and overshadowed it at its consecration. Faint but offered because Paul's verb is cognate to tabernacle/skene, suggesting the indwelling Shekinah-glory now resting on the apostle's weak body.",
+                      "contested": true,
+                      "altSource": "Numbers 9:18"
+                    },
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The 'power of Christ' resting upon the apostle distantly echoes the Spirit of the LORD that 'shall rest upon' the messianic shoot. Faint; flagged because the resting of divine power/Spirit upon a chosen agent is an Isaianic figure, here transferred from Messiah to the one who bears Christ's power in weakness.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1632,7 +2295,141 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.1",
+                  "ref": "6:1-6",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 11:21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore thus says Yahweh concerning the men of Anathoth, who seek your life, saying, You shall not prophesy in Yahweh’s name, that you not die by our hand;",
+                      "note": "Jeremiah's own townsmen of Anathoth seek his life, the classic instance of a prophet rejected by his native place. Jesus' aphorism that a prophet lacks honor 'in his own country' and 'among his own relatives' coheres thematically with Jeremiah's hometown opposition. Recurrence of the rejected-prophet pattern across the OT strengthens the figural reading.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 12:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For even your brothers, and the house of your father, even they have dealt treacherously with you; even they have cried aloud after you: don’t believe them, though they speak beautiful words to you.",
+                      "note": "Jeremiah is warned that even his brothers and his father's house deal treacherously with him. Mark's specification 'among his own relatives, and in his own house' closely tracks this kin-and-household betrayal motif. The verbal overlap of 'house' and 'kindred' makes the echo more than generic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 2:3-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said to me, Son of man, I send you to the children of Israel, to a nation of rebels who have rebelled against me. They and their fathers have transgressed against me even to this very day. The children are impudent and stiff-hearted: I am sending you to them; and you shall tell them, Thus says the Lord Yahweh. They, whether they will hear, or whether they will forbear, (for they are a rebellious house), yet shall know that there has been a prophet […]",
+                      "note": "Ezekiel is sent to a rebellious house that will not listen, and is told to speak 'whether they hear or refuse to hear.' Jesus' marveling at their unbelief and inability to do mighty works mirrors the prophet sent to obstinate kin. The commissioning-to-the-resistant pattern coheres with Mark's portrait.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 19:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and slain your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+                      "note": "Elijah laments rejection by his own people Israel despite his prophetic word, part of the OT type of the lone unhonored prophet. The thematic coherence with Jesus' rejection at Nazareth supports a faint echo, though no verbal link exists. Marked contested as a pattern-level resonance only.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He was despised, and rejected by men; a man of suffering, and acquainted with disease. He was despised as one from whom men hide their face; and we didn’t respect him.",
+                      "note": "The Servant is 'despised and rejected' and not esteemed. Nazareth's being 'offended' at Jesus faintly anticipates the despised-Servant motif Mark develops toward the passion. Low confidence and contested: thematic only, no verbal contact here.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.2",
+                  "ref": "6:7-13",
+                  "echoes": [
+                    {
+                      "source": "Genesis 19:24-25",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then Yahweh rained on Sodom and on Gomorrah sulfur and fire from Yahweh out of the sky. He overthrew those cities, all the plain, all the inhabitants of the cities, and that which grew on the ground.",
+                      "note": "The destruction of Sodom and Gomorrah is explicitly named by Jesus as the benchmark of judgment for towns that reject the messengers. This is a direct invocation of the OT narrative as the measure of eschatological accountability. High confidence given the named cities."
+                    },
+                    {
+                      "source": "Exodus 12:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "This is how you shall eat it: with your belt on your waist, your shoes on your feet, and your staff in your hand; and you shall eat it in haste: it is Yahweh’s Passover.",
+                      "note": "Israel eats the Passover with staff in hand, sandals on feet, dressed for urgent departure. The Twelve are likewise equipped with a staff and sandals only, traveling light and ready, evoking the Exodus-haste posture. The shared cluster of staff + sandals supports the allusion despite the differing inventory of permitted items.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 4:29",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then he said to Gehazi, “Tuck your cloak into your belt, take my staff in your hand, and go your way. If you meet any man, don’t greet him; and if anyone greets you, don’t answer him again. Then lay my staff on the face of the child.”",
+                      "note": "Elisha sends Gehazi with staff in hand on an urgent prophetic errand, not to greet anyone on the way. The sending of agents bearing a staff, with authority over life and sickness, coheres with the Elijah/Elisha framing of the mission of the Twelve who heal and anoint. Recurrence of the prophet-sends-disciple type strengthens this.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Nehemiah 5:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Also I shook out my lap, and said, “So may God shake out every man from his house, and from his labor, that doesn’t perform this promise; even thus be he shaken out, and emptied.” All the assembly said, “Amen,” and praised Yahweh. The people did according to this promise.",
+                      "note": "Nehemiah shakes out the fold of his garment as a prophetic sign-act of curse against those who break covenant. The disciples' shaking off the dust 'for a testimony against them' enacts the same symbolic withdrawal-and-witness gesture. The shared performative testimony-against-the-faithless motif supports the allusion."
+                    },
+                    {
+                      "source": "1 Kings 17:8-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh’s word came to him, saying, “Arise, go to Zarephath, which belongs to Sidon, and stay there. Behold, I have commanded a widow there to sustain you.” So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks: and he called to her, and said, “Please get me a little water in a vessel, that I may drink.” As she was going to get it, he called to her, and said, “Please bring me a morsel of […]",
+                      "note": "Elijah lodges in a single household (the widow of Zarephath) and is sustained there, a model of the prophet received into one house. Jesus' instruction to stay in one house until departure resonates faintly with this prophetic hospitality pattern. Contested, thematic coherence only.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Kings 9:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Elisha the prophet called one of the sons of the prophets, and said to him, “Put your belt on your waist, take this vial of oil in your hand, and go to Ramoth Gilead. When you come there, find Jehu the son of Jehoshaphat the son of Nimshi, and go in, and make him arise up from among his brothers, and carry him to an inner room. Then take the vial of oil, and pour it on his head, and say, ‘Thus says Yahweh, “I have anointed you king over Israel.”’ Then […]",
+                      "note": "Elisha dispatches a member of the prophetic guild with anointing oil to act in Yahweh's name. The Twelve who 'anointed many with oil' for healing faintly echo prophetic anointing as a delegated sign-act. Contested and thematic; the OT oil here anoints a king, not the sick.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Amos 7:14-15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then Amos answered Amaziah, “I was no prophet, neither was I a prophet’s son; but I was a herdsman, and a farmer of sycamore figs; and Yahweh took me from following the flock, and Yahweh said to me, ‘Go, prophesy to my people Israel.’",
+                      "note": "Amos is a layman taken from his ordinary work and sent to prophesy, paralleling the commissioning of ordinary disciples to preach repentance. The send-the-unlikely-prophet motif coheres but lacks verbal contact. Marked contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Sending out the Twelve",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "10:1–42",
+                        "mark": "6:7–13",
+                        "luke": "9:1–6"
+                      },
+                      "note": "Matthew gathers a whole missionary discourse where Mark and Luke give only the commission."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

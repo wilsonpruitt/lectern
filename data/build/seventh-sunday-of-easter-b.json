@@ -624,7 +624,142 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.5",
+                  "ref": "1:15-20",
+                  "echoes": [
+                    {
+                      "source": "Psalm 69:25",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Let their habitation be desolate. Let no one dwell in their tents.",
+                      "note": "Explicitly introduced: 'it is written in the book of Psalms, Let his habitation be made desolate; let no one dwell therein.' Volume: a formal, formula-marked quotation with high verbal correspondence to LXX Ps 68:26 (genetheto he epaulis autou eremos). Recurrence: Psalm 69 is among the most-cited psalms in the NT and recurs in Luke's passion theology as a psalm of the righteous sufferer. Thematic coherence high; the betrayer's 'habitation' made desolate justifies vacating Judas' office. Textbook quotation."
+                    },
+                    {
+                      "source": "Psalm 109:8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Let his days be few. Let another take his office.",
+                      "note": "The second member of Peter's catena: 'Let another take his office (ten episkopen autou laboi heteros),' verbatim from LXX Ps 108:8. Volume: very high, a direct formula-marked citation. Thematic coherence: decisive — it supplies the warrant for electing a replacement apostle in vv.21-26. Recurrence: Psalm 109 is an imprecatory psalm against a treacherous adversary, read figurally of Judas. Unambiguous quotation."
+                    },
+                    {
+                      "source": "2 Samuel 23:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“The Spirit of Yahweh spoke by me. His word was on my tongue.",
+                      "note": "Peter says 'the Holy Spirit spoke before by the mouth of David' the scripture about Judas. This inspiration formula echoes David's own claim, 'The Spirit of the Lord spoke by me, and his word was on my tongue.' Volume: shared the-Spirit-spoke-through-David formula. Thematic coherence high; it grounds the Davidic psalter as prophetic of Judas. Recurrence: Luke repeatedly attributes the Psalms to David's Spirit-inspired prophecy (e.g., Acts 2:30; 4:25)."
+                    },
+                    {
+                      "source": "Zechariah 11:12-13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I said to them, “If you think it best, give me my wages; and if not, keep them.” So they weighed for my wages thirty pieces of silver. Yahweh said to me, “Throw it to the potter, the handsome price that I was valued at by them!” I took the thirty pieces of silver, and threw them to the potter, in Yahweh’s house.",
+                      "note": "Judas 'obtained a field with the reward for his wickedness,' and the place becomes 'the field of blood.' Volume: the field-bought-with-blood-money and the potter/field motif track Zechariah's thirty pieces of silver cast to the potter in the house of the Lord. Recurrence: Matthew makes the Zechariah link explicit; Luke's version is more allusive. Thematic coherence good — the betrayal price defiles a field. Mid-level because Luke's wording diverges from Zechariah's.",
+                      "contested": true,
+                      "altSource": "Jeremiah 32:6-9"
+                    },
+                    {
+                      "source": "2 Maccabees 9:5-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But the All-seeing Lord, the God of Israel, struck him with a fatal and invisible stroke; and as soon as he had ceased speaking this word, an incurable pain of the bowels seized him, and bitter torments of the inner parts; and that most justly, for he had tormented other men’s bowels with many and strange sufferings. But he in no wise ceased from his rude insolence; nay, still more was he filled with arrogancy, breathing fire in his passion against the […]",
+                      "note": "Judas 'falling headlong, his body burst open, and all his intestines gushed out' — a death-of-the-wicked topos closely matching the gruesome end of Antiochus IV, whose bowels were wracked and whose body rotted, a divine judgment on a persecutor. Volume: distinctive shared motif of the betrayer's body bursting/entrails as visible verdict. Thematic coherence high; deuterocanonical and permitted as a source. Recurrence: the 'horrible death of the persecutor' is a Hellenistic-Jewish topos (cf. Wisdom). Medium.",
+                      "contested": true,
+                      "altSource": "Wisdom 4:19"
+                    },
+                    {
+                      "source": "2 Samuel 17:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When Ahithophel saw that his counsel was not followed, he saddled his donkey, and arose, and went home, to his city, and set his house in order, and hanged himself; and he died, and was buried in the tomb of his father.",
+                      "note": "Judas as the counselor-turned-traitor of Jesus faintly recalls Ahithophel, David's trusted counselor who betrayed him and then died by his own hand. Volume: low (Luke reports a different mode of death than the Matthean hanging); the link is typological — the betrayer of the anointed king meets a self-inflicted, ignominious end. Recurrence: Ahithophel was widely read as a type of the traitor, and Psalm 69/109 imprecations were associated with such figures. Coherence good but verbal volume slight, hence echo/low.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/1/",
+              "title": "Pentecost Approaches",
+              "view": {
+                "center": [
+                  31.78,
+                  35.23
+                ],
+                "zoom": 11
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "judea",
+                  "name": "Judea",
+                  "coords": [
+                    31.5,
+                    35.1
+                  ],
+                  "tier": "region",
+                  "id": "The Roman administrative province (later procuratorial province) covering the southern hill country of Israel — Jerusalem, the Judean wilderness, and territory south to the Negev. The Greco-Roman successor to the Hasmonean and Herodian Iudaea. Pin sits in the central hill country."
+                },
+                {
+                  "key": "samaria-region",
+                  "name": "Samaria",
+                  "coords": [
+                    32.3,
+                    35.2
+                  ],
+                  "tier": "region",
+                  "id": "The central hill-country region between Galilee (north) and Judea (south), centered on the city of Sebaste / Samaria (Sebastiya) — the old capital of Omri (1 Kgs 16:24) refounded by Herod. Distinct from the city: pin sits in the regional centre."
+                },
+                {
+                  "key": "galilee-region",
+                  "name": "Galilee",
+                  "coords": [
+                    32.85,
+                    35.4
+                  ],
+                  "tier": "region",
+                  "id": "The northern region of Roman-period Palestine, bounded by the Jezreel valley (south), the Lebanese mountains (north), the Mediterranean (west), and the Jordan / Sea of Galilee (east). Subdivided into Lower Galilee (the Jesus traditions are mostly here) and Upper Galilee."
+                },
+                {
+                  "key": "mount-of-olives",
+                  "name": "Mount of Olives",
+                  "coords": [
+                    31.7782,
+                    35.2434
+                  ],
+                  "tier": "identified",
+                  "id": "The ridge east of Jerusalem rising c. 100 m above the city across the Kidron valley. Site of the Bethphage and Bethany approach (Mk 11), the Ascension tradition, and (2 Sam 15:30, Zech 14:4) earlier covenantal geography. Modern Jebel et-Tur preserves the name."
+                },
+                {
+                  "key": "akeldama",
+                  "name": "Akeldama",
+                  "coords": [
+                    31.7705,
+                    35.2308
+                  ],
+                  "tier": "probable",
+                  "id": "Generally located on the southern slope of the Hinnom valley below modern Mount Zion, where a small ravine joins the Kidron. The traditional site preserved in Greek (Hakeldama) and Aramaic (haqal dema) names is marked by a Crusader-era charnel-house chapel."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -637,7 +772,280 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 1:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "Luke.15.1-Luke.15.2",
+                      "refDisplay": "Luke 15:1–2",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-15.1"
+                    },
+                    {
+                      "refKey": "John.13.12-John.13.17",
+                      "refDisplay": "John 13:12–17",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-13.4"
+                    },
+                    {
+                      "refKey": "John.18.15-John.18.18",
+                      "refDisplay": "John 18:15–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "18.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-18.3"
+                    },
+                    {
+                      "refKey": "1Cor.5.9-1Cor.5.13",
+                      "refDisplay": "1 Corinthians 5:9–13",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "5.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-5.4"
+                    },
+                    {
+                      "refKey": "Phil.4.1",
+                      "refDisplay": "Philippians 4:1",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.1"
+                    },
+                    {
+                      "refKey": "Rev.14.13",
+                      "refDisplay": "Revelation 14:13",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 1:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.7.15-Matt.7.20",
+                      "refDisplay": "Matthew 7:15–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "7.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-7.6"
+                    },
+                    {
+                      "refKey": "John.15.1-John.15.8",
+                      "refDisplay": "John 15:1–8",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "15.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-15.1"
+                    },
+                    {
+                      "refKey": "Luke.3.7-Luke.3.9",
+                      "refDisplay": "Luke 3:7–9",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-3.3"
+                    },
+                    {
+                      "refKey": "Eph.3.14-Eph.3.19",
+                      "refDisplay": "Ephesians 3:14–19",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-3.3"
+                    },
+                    {
+                      "refKey": "Col.2.6-Col.2.8",
+                      "refDisplay": "Colossians 2:6–8",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "2.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-2.3"
+                    },
+                    {
+                      "refKey": "3John.1.1-3John.1.4",
+                      "refDisplay": "3 John 1:1–4",
+                      "book": "3 John",
+                      "slug": "3-john",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/3-john#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 1:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.7.13-Matt.7.14",
+                      "refDisplay": "Matthew 7:13–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "7.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-7.5"
+                    },
+                    {
+                      "refKey": "Matt.7.21-Matt.7.23",
+                      "refDisplay": "Matthew 7:21–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "7.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-7.7"
+                    },
+                    {
+                      "refKey": "1Cor.8.1-1Cor.8.3",
+                      "refDisplay": "1 Corinthians 8:1–3",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "8.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-8.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 1:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.7.13-Rom.7.25",
+                      "refDisplay": "Romans 7:13–25",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/romans#p-7.3"
+                    },
+                    {
+                      "refKey": "Acts.17.10-Acts.17.15",
+                      "refDisplay": "Acts 17:10–15",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-17.2"
+                    },
+                    {
+                      "refKey": "Col.3.15-Col.3.17",
+                      "refDisplay": "Colossians 3:15–17",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-3.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 1:3–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.3.1-Matt.3.12",
+                      "refDisplay": "Matthew 3:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "3.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-3.1"
+                    },
+                    {
+                      "refKey": "Luke.6.46-Luke.6.49",
+                      "refDisplay": "Luke 6:46–49",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-6.12"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 1:1–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.7.24-Matt.7.27",
+                      "refDisplay": "Matthew 7:24–27",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "7.8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-7.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 1:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.6.20-Luke.6.23",
+                      "refDisplay": "Luke 6:20–23",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-6.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -650,7 +1058,173 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-john#p-5.6"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.6",
+                  "ref": "5:6-12",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 19:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sins. At the mouth of two witnesses, or at the mouth of three witnesses, shall a matter be established.",
+                      "note": "'There are three who testify... and the three agree as one' applies the Mosaic rule that a matter is established 'at the mouth of two witnesses, or at the mouth of three witnesses.' John assembles exactly the legally sufficient number of corroborating witnesses to validate the testimony about the Son. The juridical framework of accredited witnesses is drawn straight from the Torah's evidentiary law."
+                    },
+                    {
+                      "source": "Deuteronomy 17:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "At the mouth of two witnesses, or three witnesses, he who is to die shall be put to death. At the mouth of one witness he shall not be put to death.",
+                      "note": "The companion legal principle requiring multiple witnesses to establish a capital matter reinforces John's threefold testimony. The Spirit, water, and blood function as the plurality of witnesses that secures conviction in God's case for his Son. The forensic logic of confirmed testimony is Deuteronomic."
+                    },
+                    {
+                      "source": "Numbers 35:30",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“‘Whoever kills any person, the murderer shall be slain at the mouth of witnesses; but one witness shall not testify against any person that he die.",
+                      "note": "The legal insistence that no single witness suffices, but a plurality establishes the verdict, undergirds John's grouping of three concurring witnesses. The motif that life-and-death matters demand corroborated testimony fits John's life-giving testimony about the Son. A further Pentateuchal source for the witness-rule.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 17:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the life of the flesh is in the blood; and I have given it to you on the altar to make atonement for your souls: for it is the blood that makes atonement by reason of the life.",
+                      "note": "The blood among the witnesses evokes the Levitical principle that 'the life of the flesh is in the blood' and that blood makes atonement. John's 'water and blood' draws atoning significance from the sacrificial system where blood is the witnessing, life-bearing agent. The blood testifies because it is the locus of atoning life.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 43:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“You are my witnesses,” says Yahweh, “With my servant whom I have chosen; that you may know and believe me, and understand that I am he. Before me there was no God formed, neither will there be after me.",
+                      "note": "God's declaration 'Ye are my witnesses... that ye may know and believe me' parallels John's structure of divine testimony aimed at belief and knowledge of God. The 'testimony of God' that one must receive develops Isaiah's courtroom scenes where God testifies to himself. Both stage a trial in which God's own witness compels faith.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 16:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He shall take some of the blood of the bull, and sprinkle it with his finger on the mercy seat on the east; and before the mercy seat he shall sprinkle some of the blood with his finger seven times.",
+                      "note": "The Day of Atonement sprinkling of blood stands behind the atoning weight John gives 'the blood.' The cleansing blood ritual informs the salvific testimony of Christ's blood. A faint cultic resonance underlying the witness of blood.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 19:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for a water for impurity. It is a sin offering.",
+                      "note": "The 'water of purification' from the red heifer informs the cleansing connotation of 'the water' among the witnesses. Purifying water and atoning blood together echo the Pentateuchal rites of cleansing. The pairing of water and blood recalls Israel's purification system.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 24:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Moses took half of the blood and put it in basins, and half of the blood he sprinkled on the altar. He took the book of the covenant and read it in the hearing of the people, and they said, “All that Yahweh has spoken will we do, and be obedient.” Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”",
+                      "note": "The covenant ratification in which Moses applies the blood and the people pledge obedience associates blood with sealed testimony. John's blood-witness to the Son parallels the blood that confirmed the covenant. A faint covenantal-blood backdrop to the witnessing blood.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 55:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Turn your ear, and come to me; hear, and your soul shall live: and I will make an everlasting covenant with you, even the sure mercies of David.",
+                      "note": "The offer of 'an everlasting covenant... the sure mercies of David' and the call to 'hear, and your soul shall live' resonate with John's 'God gave to us eternal life.' Hearing God's testimony issues in life. A faint resonance for life granted through receiving God's word.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 8:35",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For whoever finds me, finds life, and will obtain favor from Yahweh.",
+                      "note": "Wisdom's promise 'whoso findeth me findeth life' parallels 'He who has the Son has the life.' Possessing the divine gift is possessing life itself. A sapiential echo for life located in a person to be found.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 1:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For wisdom is a spirit that loves man, And she will not hold a blasphemer guiltless for his lips; Because God bears witness of his reins, And is a true overseer of his heart, And a hearer of his tongue:",
+                      "note": "The portrayal of the Spirit as a witness who searches and testifies of inward truth resonates with 'It is the Spirit who testifies, because the Spirit is the truth.' The deuterocanonical conception of the Spirit as truthful witness anticipates John's Spirit-testimony. The connection is thematic and faint.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "5.13",
+                  "ref": "5:13-17",
+                  "echoes": [
+                    {
+                      "source": "Numbers 15:30-31",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, the same blasphemes Yahweh. That soul shall be cut off from among his people. Because he has despised Yahweh’s word, and has broken his commandment, that soul shall utterly be cut off. His iniquity shall be on him.’”",
+                      "note": "The 'sin leading to death,' for which intercession is withheld, draws on the Torah's distinction between unintentional sin (atonable) and the 'high-handed' sin that 'reproacheth the LORD,' whose soul 'shall be utterly cut off.' John's two-tier sin scheme mirrors the Pentateuchal contrast between forgivable error and defiant apostasy that forfeits atonement. The deadly sin is the presumptuous, deliberate rejection that excludes from the covenant."
+                    },
+                    {
+                      "source": "Psalm 145:18-19",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh is near to all those who call on him, to all who call on him in truth. He will fulfill the desire of those who fear him. He also will hear their cry, and will save them.",
+                      "note": "'If we ask anything according to his will, he listens to us' echoes the psalm that 'the LORD is nigh unto all them that call upon him... he will hear their cry, and will save them.' Both ground confident prayer in God's reliable hearing of those rightly disposed toward him. The assurance that petitions are heard is psalmic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Samuel 2:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "If one man sin against another, God shall judge him; but if a man sin against Yahweh, who shall entreat for him?” Notwithstanding, they didn’t listen to the voice of their father, because Yahweh intended to kill them.",
+                      "note": "Eli's words, 'if a man sin against the LORD, who shall intreat for him?'—spoken of sons whom the LORD willed to slay—anticipate the sin for which John says one should not pray. Both mark a sin so grave that intercession is futile or inappropriate. The notion of a sin beyond the reach of petition is shared."
+                    },
+                    {
+                      "source": "Jeremiah 7:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Therefore don’t pray for this people, neither lift up a cry nor prayer for them, neither make intercession to me; for I will not hear you.",
+                      "note": "God's command to Jeremiah, 'pray not thou for this people... for I will not hear thee,' parallels John's 'I don't say that he should make a request concerning this.' Both texts identify a condition of sin under which intercession is forbidden or pointless. The withholding of prayer for the hardened sinner is a prophetic precedent."
+                    },
+                    {
+                      "source": "Numbers 15:27-28",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“‘If one person sins unwittingly, then he shall offer a female goat a year old for a sin offering. The priest shall make atonement for the soul who errs, when he sins unwittingly before Yahweh, to make atonement for him; and he shall be forgiven.",
+                      "note": "The provision of atonement for the soul that 'sinneth through ignorance' corresponds to John's 'sin not leading to death,' for which one may pray and receive life. The forgivable, unintentional category in the Torah underlies John's lesser sin. The two-fold sin distinction is rooted in sacrificial law."
+                    },
+                    {
+                      "source": "Job 42:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now therefore, take to yourselves seven bulls and seven rams, and go to my servant Job, and offer up for yourselves a burnt offering; and my servant Job shall pray for you, for I will accept him, that I not deal with you according to your folly. For you have not spoken of me the thing that is right, as my servant Job has.”",
+                      "note": "God's instruction that Job pray for his friends so they be not dealt with after their folly models intercession granting life to fellow sinners. John's 'he shall ask, and God will give him life' parallels the effective intercession for another's sin. A faint precedent for life secured through a brother's prayer.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 20:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now therefore, restore the man’s wife. For he is a prophet, and he will pray for you, and you will live. If you don’t restore her, know for sure that you will die, you, and all who are yours.”",
+                      "note": "The promise that Abraham 'shall pray for thee, and thou shalt live' anticipates intercession that restores life to a sinner. John's framework of asking on behalf of a sinning brother to gain him life resonates with this pattern. The link is faint and thematic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 22:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh of Armies revealed himself in my ears, “Surely this iniquity will not be forgiven you until you die,” says the Lord, Yahweh of Armies.",
+                      "note": "The oracle that 'this iniquity shall not be purged from you till ye die' depicts an unpardonable sin terminating in death, paralleling John's 'sin leading to death.' Both envision guilt that atonement cannot reach. A faint prophetic analogue to the deadly sin.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -669,7 +1243,263 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "17.2",
+                  "ref": "17:6-10",
+                  "echoes": [
+                    {
+                      "source": "Exodus 3:14-15",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’” God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations.",
+                      "note": "'I revealed your name to the people' (v6) figures Jesus' mission as the disclosure of the divine Name first given at the bush, where God names himself I AM and 'this is my name forever.' John's recurrent egō eimi sayings make this Name-revelation channel highly coherent and recurrent."
+                    },
+                    {
+                      "source": "Exodus 33:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said, “I will make all my goodness pass before you, and will proclaim Yahweh’s name before you. I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy.”",
+                      "note": "'I revealed your name' (v6) draws on the LORD's promise 'I will proclaim before you my name, the LORD.' The pattern of God making his Name known through a mediator coheres with the prayer's theology; Volume modest but the Name-proclamation motif recurs across the chapter (vv11,26)."
+                    },
+                    {
+                      "source": "Exodus 34:5-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh descended in the cloud, and stood with him there, and proclaimed Yahweh’s name. Yahweh passed by before him, and proclaimed, “Yahweh! Yahweh, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth, keeping loving kindness for thousands, forgiving iniquity and disobedience and sin; and that will by no means clear the guilty, visiting the iniquity of the fathers on the children, and on the children’s children, on the […]",
+                      "note": "The Sinai theophany where the LORD 'proclaimed the name of the LORD' (grace, truth, steadfast love) underlies 'I revealed your name' (v6) and feeds John's grace-and-truth framework. Coherent and recurrent with John 1:14-17; the manifest-Name act is the shared structure."
+                    },
+                    {
+                      "source": "Isaiah 52:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore my people shall know my name. Therefore they shall know in that day that I am he who speaks; behold, it is I.”",
+                      "note": "'Therefore my people shall know my name' anticipates 'I revealed your name to the people... they have known' (vv6-7). The eschatological Name-knowledge promised to the elect people coheres tightly with Jesus' report to the Father; moderate Volume via the shared name/know pairing."
+                    },
+                    {
+                      "source": "Psalm 22:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will declare your name to my brothers. In the midst of the assembly, I will praise you.",
+                      "note": "'I will tell of your name to my brothers' is the psalmist's vow that 'I revealed your name to the people whom you gave me' (v6) enacts. Recurrence is strong (Ps 22 pervades the Johannine passion); Coherence high since the speaker declares the Name to a given community."
+                    },
+                    {
+                      "source": "Deuteronomy 33:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He said of his father, and of his mother, ‘I have not seen him.’ He didn’t acknowledge his brothers, nor did he know his own children; for they have observed your word, and keep your covenant.",
+                      "note": "'They have kept your word' (v6) echoes Levi who 'kept your word and held to your covenant.' The covenant-fidelity idiom for the consecrated supports the priestly coloring of the prayer; low Volume, generic phrasing.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 7:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you are a holy people to Yahweh your God. Yahweh your God has chosen you to be a people for his own possession, above all peoples who are on the face of the earth.",
+                      "note": "'The people whom you have given me out of the world... they were yours' (vv6,9) recasts Israel as God's own chosen possession 'out of all peoples.' Election-from-the-nations language is the coherent backdrop, though John substitutes 'world' for 'peoples'; low Volume.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "17.3",
+                  "ref": "17:11-12",
+                  "echoes": [
+                    {
+                      "source": "Psalm 41:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yes, my own familiar friend, in whom I trusted, who ate bread with me, has lifted up his heel against me.",
+                      "note": "'None of them is lost except the son of destruction, that the Scripture might be fulfilled' (v12) points to 'my close friend... who ate my bread, has lifted his heel against me,' the betrayal text John explicitly cites at 13:18. High Coherence and Recurrence make this the leading scriptural referent for the fulfillment formula here."
+                    },
+                    {
+                      "source": "Numbers 6:24-27",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "‘Yahweh bless you, and keep you. Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’ “So they shall put my name on the children of Israel; and I will bless them.”",
+                      "note": "'Holy Father, keep them through your name' (v11) figures the Aaronic blessing where the LORD 'keep you' and 'so shall they put my name upon the people of Israel, and I will bless them.' The conjunction of keeping + the Name placed on the people is a strong, specific structural parallel to Jesus' priestly petition."
+                    },
+                    {
+                      "source": "Ezekiel 37:17",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "and join them for you one to another into one stick, that they may become one in your hand.",
+                      "note": "'That they may be one, even as we are' (v11) figures the two sticks joined 'that they may become one in your hand,' Ezekiel's sign of regathered, unified Israel. The oneness-of-the-people motif is coherent with John's unity petitions (vv21-23) and recurs there, strengthening the figural reading."
+                    },
+                    {
+                      "source": "Psalm 109:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Let his days be few. Let another take his office.",
+                      "note": "'The son of destruction' whose loss fulfills Scripture (v12) is illumined by 'may his days be few; may another take his office,' the imprecation later applied to Judas in Acts. The betrayer-who-must-be-replaced motif coheres with the fulfillment claim; medium since John does not quote it here."
+                    },
+                    {
+                      "source": "2 Samuel 15-17",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "After this, Absalom prepared him a chariot and horses, and fifty men to run before him. Absalom rose up early, and stood beside the way of the gate. It was so, that when any man had a suit which should come to the king for judgment, then Absalom called to him, and said, “What city are you from?” He said, “Your servant is of one of the tribes of Israel.” Absalom said to him, “Behold, your matters are good and right; but there is no man deputized by the […]",
+                      "note": "The 'son of destruction' (v12) is typologically prefigured by Ahithophel, David's trusted counselor who betrays him, crosses with him over the brook, and hangs himself. The David/Jesus typology with a betraying intimate provides coherent, recurrent narrative substance behind Judas; figural rather than verbal."
+                    },
+                    {
+                      "source": "Zephaniah 3:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For then I will purify the lips of the peoples, that they may all call on Yahweh’s name, to serve him shoulder to shoulder.",
+                      "note": "Keeping the people in the Name 'that they may be one' (v11) echoes the promise that purified peoples will 'call upon the name of the LORD and serve him with one accord' (lit. one shoulder). Name + unity cluster is coherent though the Volume is faint.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 57:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Against whom do you sport yourselves? Against whom do you make a wide mouth, and stick out your tongue? Aren’t you children of disobedience, a seed of falsehood,",
+                      "note": "The Semitic idiom 'son of destruction/perdition' (v12) resembles prophetic 'children of transgression, offspring of deceit.' Supplies an OT pattern for the 'son of X' designation of the doomed, but the specific phrase is not borrowed; low Volume, contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "17.4",
+                  "ref": "17:13-16",
+                  "echoes": [
+                    {
+                      "source": "Psalm 16:11",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "You will show me the path of life. In your presence is fullness of joy. In your right hand there are pleasures forever more.",
+                      "note": "'That they may have my joy made full in themselves' (v13) resonates with 'in your presence there is fullness of joy.' The eschatological-fullness-of-joy-before-God motif is coherent with Jesus' departure-to-the-Father context; moderate Volume on the shared joy/fullness pairing."
+                    },
+                    {
+                      "source": "Psalm 69:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Those who hate me without a cause are more than the hairs of my head. Those who want to cut me off, being my enemies wrongfully, are mighty. I have to restore what I didn’t take away.",
+                      "note": "'The world hated them' (v14) draws on 'those who hate me without cause are more than the hairs of my head,' a psalm John cites for groundless hatred (cf. 15:25 'they hated me without a cause'). Recurrence in the Johannine farewell makes the hatred-without-cause echo coherent here."
+                    },
+                    {
+                      "source": "Psalm 121:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh will keep you from all evil. He will keep your soul.",
+                      "note": "'Keep them from the evil one' (v15) parallels 'The LORD will keep you from all evil; he will keep your life.' The divine keeping/guarding-from-evil idiom is coherent with the prayer's repeated 'keep' language (vv11-12), though 'the evil one' personalizes it; moderate Volume."
+                    },
+                    {
+                      "source": "Genesis 3:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will put hostility between you and the woman, and between your offspring and her offspring. He will bruise your head, and you will bruise his heel.”",
+                      "note": "'Keep them from the evil one' (v15) faintly invokes the primeval serpent/adversary whose enmity God will overcome. Provides the figural source for a personal evil agent, but the connection is inferential; low Volume, contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 23:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For from the top of the rocks I see him. From the hills I see him. Behold, it is a people that dwells alone, and shall not be reckoned among the nations.",
+                      "note": "'They are not of the world even as I am not of the world' (v16) echoes Israel 'a people dwelling alone, and not counting itself among the nations.' The set-apart, distinct-from-the-nations identity coheres with the disciples' otherworldly status; faint and generic.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "17.5",
+                  "ref": "17:17-19",
+                  "echoes": [
+                    {
+                      "source": "Psalm 119:142",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Your righteousness is an everlasting righteousness. Your law is truth.",
+                      "note": "'Your word is truth' (v17) closely renders 'your law is truth' (Ps 119:142) and 'the sum of your word is truth' (119:160). Near-verbal correspondence gives high Volume; the equation of God's word with truth is the precise scriptural ground for the petition."
+                    },
+                    {
+                      "source": "Psalm 119:160",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "All of your words are truth. Every one of your righteous ordinances endures forever.",
+                      "note": "'The sum of your word is truth, and every one of your righteous rules endures forever' is the most exact antecedent of 'your word is truth' (v17). High Volume and Coherence; listed alongside 119:142 as the twin source of the maxim."
+                    },
+                    {
+                      "source": "Exodus 28:41",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "You shall put them on Aaron your brother, and on his sons with him, and shall anoint them, and consecrate them, and sanctify them, that they may minister to me in the priest’s office.",
+                      "note": "'Sanctify them in your truth... for their sakes I sanctify myself' (vv17,19) figures the consecration of Aaron and his sons to priestly service ('anoint them, ordain them, and consecrate them'). The setting-apart-for-sacred-mission language gives the prayer its priestly architecture; coherent and recurrent across vv17-19."
+                    },
+                    {
+                      "source": "Leviticus 8",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh spoke to Moses, saying, “Take Aaron and his sons with him, and the garments, and the anointing oil, and the bull of the sin offering, and the two rams, and the basket of unleavened bread; and assemble all the congregation at the door of the Tent of Meeting.” Moses did as Yahweh commanded him; and the congregation was assembled at the door of the Tent of Meeting. Moses said to the congregation, “This is the thing which Yahweh has commanded to be […]",
+                      "note": "The ordination rite consecrating Aaron underlies the double sanctification of disciples and self (vv17,19). Jesus as both consecrating priest and consecrated offering coheres with the chapter's high-priestly framing; figural Volume is substantial though no single verse is quoted."
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "'I sanctified you... and appointed you a prophet to the nations' parallels both 'sanctify them' and the sending 'into the world' (vv17-18). The set-apart-and-sent pattern for the prophetic commission coheres tightly with the disciples' consecration-for-mission; moderate Volume."
+                    },
+                    {
+                      "source": "Exodus 40:13",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "You shall put on Aaron the holy garments; and you shall anoint him, and sanctify him, that he may minister to me in the priest’s office.",
+                      "note": "'Sanctify them' (v17) recalls the command to clothe and 'consecrate' Aaron that he may serve as priest. Reinforces the consecration channel alongside Exod 28 and Lev 8; counted separately but lower independent Volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 11:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Say to the people, ‘Sanctify yourselves against tomorrow, and you will eat flesh; for you have wept in the ears of Yahweh, saying, “Who will give us flesh to eat? For it was well with us in Egypt.” Therefore Yahweh will give you flesh, and you will eat.",
+                      "note": "'Sanctify yourselves' as preparation to encounter the LORD offers an OT idiom behind 'sanctify them' (v17). Generic consecration language; supportive but faint, marked contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "2 Samuel 7:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Now, O Lord Yahweh, you are God, and your words are truth, and you have promised this good thing to your servant.",
+                      "note": "'Your words are truth' in David's prayer offers a second OT formulation behind 'your word is truth' (v17). Supports the maxim but with lower Volume than the Psalm 119 parallels; contested as the primary referent.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 6:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I heard the Lord’s voice, saying, “Whom shall I send, and who will go for us?” Then I said, “Here I am. Send me!”",
+                      "note": "'As you sent me into the world, so I have sent them' (v18) faintly recalls the prophetic sending 'Whom shall I send... Here I am, send me.' The divine commissioning-and-being-sent pattern is coherent though the wording is general; low Volume.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The footwashing and farewell discourse",
+                      "section": "passion",
+                      "refs": {
+                        "john": "13:1–17:26"
+                      },
+                      "note": "Five chapters where the Synoptics give the meal: the new commandment, the vine, the Paraclete, and the high-priestly prayer. John only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

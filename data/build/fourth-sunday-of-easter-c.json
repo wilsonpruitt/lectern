@@ -682,7 +682,97 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.6",
+                  "ref": "9:36-43",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 4:32-37",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When Elisha had come into the house, behold, the child was dead, and laid on his bed. He went in therefore, and shut the door on them both, and prayed to Yahweh. He went up, and lay on the child, and put his mouth on his mouth, and his eyes on his eyes, and his hands on his hands. He stretched himself on him; and the flesh of the child grew warm. Then he returned, and walked in the house once back and forth; and went up, and stretched himself on him. Then […]",
+                      "note": "Elisha enters the room where the dead child lies, puts everyone out, prays, and the child opens her/his eyes. 'Peter sent them all out, and knelt down and prayed... he said, Tabitha, get up! She opened her eyes' matches the sequence point-for-point: privacy, prayer, command, the opening of the eyes. Highest-volume parallel in the pericope."
+                    },
+                    {
+                      "source": "1 Kings 17:17-24",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "After these things, the son of the woman, the mistress of the house, fell sick; and his sickness was so severe, that there was no breath left in him. She said to Elijah, “What have I to do with you, you man of God? You have come to me to bring my sin to memory, and to kill my son!” He said to her, “Give me your son.” He took him out of her bosom, and carried him up into the room where he stayed, and laid him on his own bed. He cried to Yahweh, and said, […]",
+                      "note": "Elijah raises the widow's son, who is laid in the upper room (loft) where the prophet prays; the result is faith ('now I know'). Tabitha is laid in an upper room, surrounded by widows, raised through Peter's prayer, and 'many believed.' Strong coherence: upper room + widow context + prayer + resurrection + resulting belief."
+                    },
+                    {
+                      "source": "2 Kings 4:8-37",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "It fell on a day, that Elisha passed to Shunem, where there was a prominent woman; and she persuaded him to eat bread. So it was, that as often as he passed by, he turned in there to eat bread. She said to her husband, “See now, I perceive that this is a holy man of God, that passes by us continually. Please let us make a little room on the wall. Let us set for him there a bed, a table, a chair, and a lamp stand. It shall be, when he comes to us, that he […]",
+                      "note": "Beyond the resuscitation itself, the Shunammite cycle frames the dead one laid in a prepared upper chamber and messengers sent urgently to fetch the man of God ('do not slacken your riding'); Joppa's disciples 'sent two men... imploring him not to delay.' The send-for-the-prophet-without-delay motif reinforces the Elisha typology."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Life of Paul",
+                  "editionUrl": "https://annales.wrootpress.com/life-of-paul",
+                  "spans": [
+                    {
+                      "label": "Tarsus & Antioch",
+                      "group": "The hidden years",
+                      "lane": "journeys",
+                      "start": 37,
+                      "end": 46,
+                      "length": null,
+                      "ref": "Acts 9:30–11:30",
+                      "note": "Sent home to Tarsus, then fetched by Barnabas to teach at Antioch, where the disciples were first called Christians. Ends with the famine-relief visit to Jerusalem."
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/9/",
+              "title": "Saul's Conversion; Damascus, Jerusalem, Tarsus",
+              "view": {
+                "center": [
+                  33.0,
+                  35.5
+                ],
+                "zoom": 7
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "lydda",
+                  "name": "Lydda",
+                  "coords": [
+                    31.9518,
+                    34.8954
+                  ],
+                  "tier": "identified",
+                  "id": "Modern Lod on the eastern Sharon plain, an Iron Age and post-exilic Jewish town (Neh 11:35 Lod). Renamed Diospolis under Hadrian. Continuous habitation; the modern Israeli town preserves the name."
+                },
+                {
+                  "key": "joppa",
+                  "name": "Joppa",
+                  "coords": [
+                    32.054,
+                    34.751
+                  ],
+                  "tier": "identified",
+                  "id": "Tel Yafo (Jaffa) on the Mediterranean coast, the natural harbor for Jerusalem. Listed in Thutmose III's Karnak topographical list and in the Amarna letters."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -695,7 +785,190 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-23"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 23:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.7.13-Rev.7.17",
+                      "refDisplay": "Revelation 7:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "7.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-7.4"
+                    },
+                    {
+                      "refKey": "Matt.14.13-Matt.14.21",
+                      "refDisplay": "Matthew 14:13–21",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.2"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    },
+                    {
+                      "refKey": "John.21.15-John.21.17",
+                      "refDisplay": "John 21:15–17",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-21.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.4.14-Phil.4.20",
+                      "refDisplay": "Philippians 4:14–20",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.6"
+                    },
+                    {
+                      "refKey": "1Pet.5.1-1Pet.5.4",
+                      "refDisplay": "1 Peter 5:1–4",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.1"
+                    },
+                    {
+                      "refKey": "1Pet.2.18-1Pet.2.25",
+                      "refDisplay": "1 Peter 2:18–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.11-John.10.18",
+                      "refDisplay": "John 10:11–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-10.3"
+                    },
+                    {
+                      "refKey": "Mark.14.27-Mark.14.31",
+                      "refDisplay": "Mark 14:27–31",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-14.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.9.10-Luke.9.17",
+                      "refDisplay": "Luke 9:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-9.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:6",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.1-John.14.4",
+                      "refDisplay": "John 14:1–4",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.1",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 23:4",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.1.3-2Cor.1.7",
+                      "refDisplay": "2 Corinthians 1:3–7",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-1.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -708,7 +981,199 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/revelation#p-7.3"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "7.3",
+                  "ref": "7:9-12",
+                  "echoes": [
+                    {
+                      "source": "Genesis 15:5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh brought him outside, and said, “Look now toward the sky, and count the stars, if you are able to count them.” He said to Abram, “So will your seed be.”",
+                      "note": "The Abrahamic promise: \"count the stars, if you are able to count them... so shall your offspring be\" — the uncountable, innumerable seed. John's \"a great multitude, which no man could count\" (hon arithmesai auton oudeis edynato) directly fulfills the count-if-you-can promise, now extended beyond Israel to every nation. Strong on volume and on John's larger Abrahamic-fulfillment logic (the multitude completes what the sealed 144,000 represent)."
+                    },
+                    {
+                      "source": "Genesis 13:16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will make your offspring as the dust of the earth, so that if a man can number the dust of the earth, then your seed may also be numbered.",
+                      "note": "Parallel Abrahamic promise: offspring \"as the dust of the earth, which if a man can number...\" — the explicit \"if a man can number\" idiom that John negates (\"which no man could count\"). LXX ei dynatai tis exarithmesai is verbally close to John's clause. Pairs with Gen 15:5 as the twin innumerability promises being eschatologically realized."
+                    },
+                    {
+                      "source": "Leviticus 23:40",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall take on the first day the fruit of goodly trees, branches of palm trees, and boughs of thick trees, and willows of the brook; and you shall rejoice before Yahweh your God seven days.",
+                      "note": "The palm branches (phoinikes) in the multitude's hands evoke the Feast of Tabernacles/Sukkot, where worshipers take \"branches of palm trees\" and rejoice before the LORD — fitting the booth/tabernacle imagery that immediately follows (7:15, God spreading his tabernacle, skenosei). Festal-joy and ingathering-harvest coherence is strong; the specific lulav connection is the principal reason this is an allusion not a mere echo."
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "\"all peoples, nations, and languages should serve him\" (Aram./Theod. laoi, phylai, glossai) — Daniel's stereotyped fourfold list of the nations is the template for John's recurrent \"every nation, tribe, people, and language\" formula (cf. Rev 5:9; 13:7). The multitude drawn from all peoples fulfills Daniel's universal dominion of the Son of Man. Recurrence in Revelation strengthens the link."
+                    },
+                    {
+                      "source": "1 Maccabees 13:51",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "And he entered into it on the three and twentieth day of the second month, in the hundred and seventy and first year, with praise and palm branches, and with harps, and with cymbals, and with viols, and with hymns, and with songs: because a great enemy was destroyed out of Israel.",
+                      "note": "Simon's triumphal entry into the Jerusalem citadel \"with praise and palm branches (baia)... and with hymns and songs\" — Second-Temple precedent for palm branches as the gesture of victory celebration and deliverance, illuminating why the redeemed multitude (victors out of tribulation) bear palms while acclaiming salvation. Confirms the victory-procession nuance alongside the Tabernacles nuance (cf. also 2 Macc 10:7; John 12:13)."
+                    },
+                    {
+                      "source": "Psalm 3:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Salvation belongs to Yahweh. Your blessing be on your people. Selah.",
+                      "note": "\"Salvation belongs to the LORD\" (LXX Ps 3:9, tou kyriou he soteria) — the acclamation \"Salvation be to our God\" closely mirrors this psalmic confession that deliverance is God's alone. Idiom is common across the Psalter (cf. Ps 37:39; Jonah 2:9), so attribution to a single verse is uncertain, but the verbal shape is closest here.",
+                      "contested": true,
+                      "altSource": "Jonah 2:9"
+                    },
+                    {
+                      "source": "1 Chronicles 29:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yours, Yahweh, is the greatness, the power, the glory, the victory, and the majesty! For all that is in the heavens and in the earth is yours. Yours is the kingdom, Yahweh, and you are exalted as head above all.",
+                      "note": "David's doxology — \"Yours, O LORD, is the greatness and the power and the glory... and the majesty... blessing\" — a sevenfold-style ascription of attributes to God that stands behind the seven-membered doxology of 7:12 (blessing, glory, wisdom, thanksgiving, honor, power, might). Liturgical-doxological coherence; faint as a specific citation since such ascriptions are formulaic.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 6:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In the year that king Uzziah died, I saw the Lord sitting on a throne, high and lifted up; and his train filled the temple. Above him stood the seraphim. Each one had six wings. With two he covered his face. With two he covered his feet. With two he flew. One called to another, and said, “Holy, holy, holy, is Yahweh of Armies! The whole earth is full of his glory!”",
+                      "note": "The throne-vision with surrounding heavenly beings prostrate/crying praise underlies the angels, elders, and four living creatures falling before the throne; the living creatures themselves derive from Isa 6 seraphim and Ezek 1/10. Faint here because the throne-room cast is established earlier (Rev 4) rather than newly drawn from Isaiah in this verse.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "7.4",
+                  "ref": "7:13-17",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them, even by springs of water he will guide them.",
+                      "note": "\"They shall not hunger nor thirst, neither scorching heat nor sun shall strike them, for he who has pity on them will lead them, and by springs of water will guide them\" — the densest verbal source in the chapter. John reproduces all four elements in order: no hunger, no thirst, no sun/scorching heat smiting them, and a shepherd-guide leading to springs of water. Hays' criteria max out (volume, recurrence of the Servant-shepherd motif, coherence with the new-exodus ingathering). LXX peinasousin... dipsesousin... kausön... pegas hydaton tracks John closely."
+                    },
+                    {
+                      "source": "Isaiah 25:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He has swallowed up death forever! The Lord Yahweh will wipe away tears from off all faces. He will take the reproach of his people away from off all the earth, for Yahweh has spoken it.",
+                      "note": "\"He will swallow up death forever, and the Lord GOD will wipe away tears from all faces\" — direct source for \"God will wipe away every tear from their eyes\" (exaleipsei... pan dakryon). The eschatological consolation at the victory-banquet on the mountain. High verbal volume; recurs at Rev 21:4. Note the MT \"swallow up death\" vs. LXX katepien ho thanatos ischysas; John follows the tear-wiping clause closely regardless of the textual divergence in the first colon."
+                    },
+                    {
+                      "source": "Ezekiel 34:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd.",
+                      "note": "\"I will set up over them one shepherd... my servant David, and he shall feed them and be their shepherd\" — the messianic Davidic-shepherd promise underlying \"the Lamb... shepherds them.\" Striking oxymoron (the Lamb is the Shepherd) fuses Ezekiel 34's shepherd-king with John's Lamb-Christology. Strong coherence; Ezek 34:23 cited as the principal verse of the chapter-long shepherd oracle."
+                    },
+                    {
+                      "source": "Psalm 23:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh is my shepherd: I shall lack nothing. He makes me lie down in green pastures. He leads me beside still waters.",
+                      "note": "\"The LORD is my shepherd... he leads me beside still waters\" (LXX Ps 22:1-2, hodegesen me epi hydatos anapauseos) — the shepherd-leads-to-water image directly behind \"shepherds them, and leads (hodegesei) them to springs of life-giving waters.\" John's hodegeo echoes the psalm's verb. High volume and coherence with the Isa 49 / Ezek 34 shepherd cluster."
+                    },
+                    {
+                      "source": "Genesis 49:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Binding his foal to the vine, his donkey’s colt to the choice vine; he has washed his garments in wine, his robes in the blood of grapes.",
+                      "note": "Judah's blessing: \"he washed his garments in wine and his robe in the blood of grapes\" — the only OT image of washing a robe in (grape-)blood, giving John the paradoxical \"washed their robes... white in the Lamb's blood.\" Coheres with the Judah/Lion-Lamb Christology and ties pericope 7.4 back to the Judah-first tribal list (7.2). The blood-of-grapes/blood-of-the-Lamb figural link is medium-to-strong on coherence though contested on verbal volume.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 1:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Come now, and let us reason together,” says Yahweh: “Though your sins be as scarlet, they shall be as white as snow. Though they be red like crimson, they shall be as wool.",
+                      "note": "\"Though your sins be as scarlet, they shall be as white as snow\" — the prophetic image of sin-cleansing producing whiteness underlies robes \"made white\" through the Lamb's blood (cleansing-unto-whiteness). Coheres with the purification motif; medium volume since John supplies the paradoxical agent (blood) absent from Isaiah."
+                    },
+                    {
+                      "source": "Daniel 12:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many shall purify themselves, and make themselves white, and be refined; but the wicked shall do wickedly; and none of the wicked shall understand; but those who are wise shall understand.",
+                      "note": "\"Many shall purify themselves and make themselves white (LXX leukanthosin) and be refined\" through the time of trouble — the closest source for the eschatological making-white of the faithful precisely amid tribulation, matching \"made them white\" of those who \"came out of the great tribulation.\" Daniel's end-time-refining-whitening is thematically and verbally apt (leukaino)."
+                    },
+                    {
+                      "source": "Daniel 11:35",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Some of those who are wise shall fall, to refine them, and to purify, and to make them white, even to the time of the end; because it is yet for the time appointed.",
+                      "note": "\"Some of the wise shall stumble, to refine and purify them and to make them white (LXX leukanai), until the time of the end\" — companion to Dan 12:10; the wise are whitened/refined through persecution. Reinforces the tribulation-purification reading of the white-robed multitude. Cited alongside 12:10 as the Danielic whitening pair."
+                    },
+                    {
+                      "source": "Daniel 12:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“At that time shall Michael stand up, the great prince who stands for the children of your people; and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time your people shall be delivered, everyone who shall be found written in the book.",
+                      "note": "\"there shall be a time of trouble (LXX thlipsis / Theod. hemera thlipseos) such as never has been\" — the eschatological great distress that John names \"the great tribulation\" (tes thlipseos tes megales). Daniel supplies the technical term and the deliver-the-named-remnant frame; coherent with the sealing/deliverance arc of the whole chapter."
+                    },
+                    {
+                      "source": "Leviticus 26:11-12",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will set my tent among you, and my soul won’t abhor you. I will walk among you, and will be your God, and you will be my people.",
+                      "note": "\"I will make my dwelling (LXX skenen) among you... and I will walk among you\" — the covenant-presence/tabernacling promise behind \"He who sits on the throne will spread his tabernacle (skenosei) over them.\" Part of the dwelling-of-God-with-his-people stream (Ezek 37:27; cf. Rev 21:3). Medium coherence; the skene cognate strengthens it."
+                    },
+                    {
+                      "source": "Ezekiel 37:27",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "My tent also shall be with them; and I will be their God, and they shall be my people.",
+                      "note": "\"My dwelling place (LXX kataskenosis) shall be with them, and I will be their God\" — the eschatological tabernacling-with-the-redeemed promise, near-synonymous with Lev 26:11 and directly echoed in the skenoo of 7:15 (and again Rev 21:3). Reinforces the new-covenant-presence reading."
+                    },
+                    {
+                      "source": "Isaiah 4:5-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh will create over the whole habitation of Mount Zion, and over her assemblies, a cloud and smoke by day, and the shining of a flaming fire by night; for over all the glory will be a canopy. There will be a pavilion for a shade in the daytime from the heat, and for a refuge and for a shelter from storm and from rain.",
+                      "note": "Over Zion a canopy/booth (LXX skepe) for \"shade from the heat\" and shelter — combines the tabernacle-spread-over-them and the no-scorching-heat motifs in a single Zion-protection oracle, paralleling 7:15-16. Faint but apposite; possibly part of the cluster behind John's protective-canopy imagery.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 121:5-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is your keeper. Yahweh is your shade on your right hand. The sun will not harm you by day, nor the moon by night.",
+                      "note": "\"The LORD is your keeper... the sun shall not strike you by day, nor the moon by night\" — the sun-shall-not-strike-you protection paralleling \"neither will the sun beat on them.\" Idiomatically close but likely mediated through Isa 49:10, which John follows more fully; cited as a secondary witness.",
+                      "contested": true,
+                      "altSource": "Isaiah 49:10"
+                    },
+                    {
+                      "source": "Isaiah 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Seven women shall take hold of one man in that day, saying, “We will eat our own bread, and wear our own clothing: only let us be called by your name. Take away our reproach.”",
+                      "note": "Faint: white-garment/clean-robe symbolism of the purified Zion-remnant in Isa 4 (the branch made glorious, the survivors called holy) coheres with the white-robed survivors of tribulation; included as a contested ingathering-of-the-holy-remnant resonance rather than a verbal source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 2:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“For my people have committed two evils: they have forsaken me, the spring of living waters, and cut them out cisterns, broken cisterns, that can hold no water.",
+                      "note": "\"the fountain of living waters\" (LXX pegen hydatos zoes) — Jeremiah's image of God as the living-water source colors \"springs of life-giving waters\" (pegas hydaton zoes); the phrase also runs through Ps 36:9, Zech 14:8, and John 4/7. Common idiom, so single-verse attribution is uncertain; cited as the closest verbal match.",
+                      "contested": true,
+                      "altSource": "Zechariah 14:8"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -727,7 +1192,67 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.5",
+                  "ref": "10:22-30",
+                  "echoes": [
+                    {
+                      "source": "1 Maccabees 4:36-59",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But Judas and his kindred said, Behold, our enemies are discomfited: let us go up to cleanse the holy place, and to dedicate it afresh. And all the army was gathered together, and they went up to mount Sion. And they saw the sanctuary laid desolate, and the altar profaned, and the gates burned up, and shrubs growing in the courts as in a forest or as on one of the mountains, and the priests’ chambers pulled down; and they tore their clothes, and made […]",
+                      "note": "The Feast of the Dedication (Hanukkah) commemorates Judas Maccabeus' cleansing and rededication of the temple altar, the festival's institution. John's explicit setting at this feast (v.22) frames Jesus, the one whom the Father 'consecrated' (v.36), as the true dedicated/sanctified one. High availability as Second-Temple background."
+                    },
+                    {
+                      "source": "2 Maccabees 10:1-8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "And Maccabaeus and those who were with him, the Lord leading them on, recovered the temple and the city; and they pulled down the altars that had been built in the marketplace by the aliens, and also the walls of sacred inclosures. And having cleansed the sanctuary they made another altar of sacrifice; and striking stones and taking fire out of them, they offered sacrifices, after they had ceased for two years, and burned incense, and lighted lamps, and […]",
+                      "note": "Parallel account of the purification and rededication of the temple and the eight-day festival 'in the manner of Tabernacles,' establishing the Dedication setting. Reinforces 1 Macc 4 as the festival's narrative grounding for John's winter feast."
+                    },
+                    {
+                      "source": "Ezekiel 34:11-16",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "For thus says the Lord Yahweh: Behold, I myself, even I, will search for my sheep, and will seek them out. As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so will I seek out my sheep; and I will deliver them out of all places where they have been scattered in the cloudy and dark day. I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land; and I […]",
+                      "note": "'My sheep hear my voice... and they follow me' (v.27) restates the LORD's own knowing and gathering of his flock from Ezekiel 34, now claimed by Jesus. The sustained shepherd theme links the Dedication confrontation back to the discourse's governing subtext."
+                    },
+                    {
+                      "source": "Isaiah 43:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yes, since the day was I am he; and there is no one who can deliver out of my hand. I will work, and who can hinder it?”",
+                      "note": "'There is no one who can deliver out of my hand' undergirds 'no one will snatch them out of my hand' (v.28) and 'out of my Father's hand' (v.29). The security-in-the-divine-hand idiom is a deliberate divine self-claim applied to Jesus."
+                    },
+                    {
+                      "source": "Deuteronomy 32:39",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“See now that I myself am he. There is no god with me. I kill and I make alive. I wound and I heal. There is no one who can deliver out of my hand.",
+                      "note": "'There is no one who can deliver out of my hand' (the same idiom) with 'I kill and I make alive' stands behind Jesus giving eternal life and holding the sheep inviolably. Reinforces the divine-hand security motif alongside Isaiah.",
+                      "contested": true,
+                      "altSource": "Isaiah 43:13"
+                    },
+                    {
+                      "source": "Deuteronomy 6:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one.",
+                      "note": "'Hear, O Israel: the LORD our God, the LORD is one' resonates behind 'I and the Father are one' (v.30). The Shema's oneness language is reframed christologically; coherent with the blasphemy charge that follows, though the unity claimed is functional/relational.",
+                      "contested": true,
+                      "altSource": "Zechariah 14:9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

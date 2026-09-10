@@ -729,7 +729,125 @@
                 "label": "Wordplay — Summer fruit, the end",
                 "url": "https://verbum.wrootpress.com/amos#amos-8-1-amos-8-2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Amos 8:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.27.45",
+                      "refDisplay": "Matthew 27:45",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.11"
+                    },
+                    {
+                      "refKey": "Mark.15.33",
+                      "refDisplay": "Mark 15:33",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "15.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-15.9"
+                    },
+                    {
+                      "refKey": "Luke.23.44-Luke.23.45",
+                      "refDisplay": "Luke 23:44–45",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "23.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-23.9"
+                    },
+                    {
+                      "refKey": "Rev.6.12-Rev.6.14",
+                      "refDisplay": "Revelation 6:12–14",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "6.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-6.3"
+                    },
+                    {
+                      "refKey": "Rev.8.8-Rev.8.13",
+                      "refDisplay": "Revelation 8:8–13",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "8.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-8.3"
+                    },
+                    {
+                      "refKey": "Matt.27.33-Matt.27.37",
+                      "refDisplay": "Matthew 27:33–37",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Amos 8:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.2.18-Mark.2.22",
+                      "refDisplay": "Mark 2:18–22",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-2.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Amos 8:9–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.6.24-Luke.6.26",
+                      "refDisplay": "Luke 6:24–26",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "6.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-6.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Amos 8:4–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.2.1-Jas.2.7",
+                      "refDisplay": "James 2:1–7",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/james#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -742,7 +860,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-52"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 52:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.11.11-Rom.11.24",
+                      "refDisplay": "Romans 11:11–24",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "11.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-11.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -761,7 +902,208 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:15-20",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "'The image of the invisible God' (v.15) directly invokes the creation of humanity in the image and likeness of God. Christ is presented as the true eikon in whom the protological image is realized, and the hymn's creation framing (v.16) confirms the Genesis 1 backdrop. High volume and coherence."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 7:25-26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For she is a breath of the power of God, And a clear effluence of the glory of the Almighty; Therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "'Image of the invisible God' (v.15) and the fullness/glory motifs draw on Wisdom personified as 'a breath of the power of God,' 'a pure emanation of the glory of the Almighty,' 'a spotless mirror... and an image (eikon) of his goodness.' The eikon-of-the-invisible-God predicate is a near-direct Wisdom borrowing."
+                    },
+                    {
+                      "source": "Proverbs 8:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old.",
+                      "note": "'The firstborn of all creation' who is 'before all things' (v.15,17) recasts Wisdom, whom 'the LORD created/possessed as the beginning (arche) of his way, before his works of old.' The hymn maps Christ onto pre-existent Wisdom as the principle and firstfruit of creation; v.18 even calls him arche."
+                    },
+                    {
+                      "source": "Proverbs 8:27-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When he established the heavens, I was there; when he set a circle on the surface of the deep, when he established the clouds above, when the springs of the deep became strong, when he gave to the sea its boundary, that the waters should not violate his commandment, when he marked out the foundations of the earth; then I was the craftsman by his side. I was a delight day by day, always rejoicing before him,",
+                      "note": "'For by/in him all things were created' and 'in him all things hold together' (v.16-17) draws on Wisdom present when God established the heavens, the deep, and the foundations, beside him as the agent/craftsman of creation. Wisdom-as-cosmic-mediator coherence is strong across the whole hymn."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'The firstborn (prototokos) of all creation' (v.15) and 'firstborn from the dead' (v.18) draw on the Davidic oracle 'I will make him the firstborn, the highest of the kings of the earth.' Firstborn as a title of supreme rank and primacy ('that he might be preeminent') matches Psalm 89's royal exaltation exactly."
+                    },
+                    {
+                      "source": "Genesis 1:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the beginning, God created the heavens and the earth.",
+                      "note": "'By him all things were created, in heaven and on earth' (v.16) is a deliberate restatement of 'In the beginning God created the heavens and the earth,' with the merism heaven/earth and the verb create binding the hymn to Genesis 1. Christ is the agent through whom the Genesis creation comes to be."
+                    },
+                    {
+                      "source": "Psalm 33:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "By Yahweh’s word, the heavens were made; all their army by the breath of his mouth.",
+                      "note": "'By him all things were created... all things have been created through him' (v.16) echoes 'By the word of the LORD the heavens were made, and all their host by the breath of his mouth.' Creation-by-the-word coherence supports the Logos/Wisdom agency Colossians ascribes to Christ."
+                    },
+                    {
+                      "source": "Sirach 43:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "By reason of him his end has success, And by his word all things consist.",
+                      "note": "'In him all things hold together' (v.17) parallels Sirach's cosmological 'by his word all things hold together' (en logo autou sygkeitai ta panta), the sustaining of the cosmos by the divine word. The cohesion verb and the all-things object make this a strong Second-Temple sapiential parallel."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 1:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Because the spirit of the Lord has filled the world, And that which holds all things together has knowledge of every voice.",
+                      "note": "'In him all things hold together' (v.17) resonates with Wisdom's 'the spirit of the Lord has filled the world, and that which holds all things together (to synechon ta panta) knows every word.' Wisdom as the cosmic glue that fills and binds the universe undergirds the hymn's sustaining-Christ claim."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 8:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But she reaches from one end of the world to the other with full strength, And ordereth all things graciously.",
+                      "note": "'He is before all things, and in him all things hold together' (v.17) echoes 'Wisdom reaches mightily from one end of the earth to the other, and orders all things well.' Wisdom's pervasive cosmic ordering supports Christ's pre-eminence and sustaining role."
+                    },
+                    {
+                      "source": "1 Kings 8:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "so that the priests could not stand to minister by reason of the cloud; for Yahweh’s glory filled Yahweh’s house.",
+                      "note": "'All the fullness was pleased to dwell in him' (v.19) draws on the glory (kabod) filling the temple so that it could not be contained, the divine presence taking up bodily dwelling. Christ becomes the new temple in whom the full divine presence indwells; the dwelling/fullness/glory cluster (cf. v.27) coheres."
+                    },
+                    {
+                      "source": "Psalm 68:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why do you look in envy, you rugged mountains, at the mountain where God chooses to reign? Yes, Yahweh will dwell there forever.",
+                      "note": "'For in him all the fullness was pleased to dwell' (v.19) faintly echoes the mountain that God 'desired for his dwelling,' where the LORD will dwell forever, transferring the chosen-dwelling motif onto Christ as the locus where God is pleased to dwell. Volume low; the eudokia/katoikein dwelling logic is the link.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Psalm 132:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For Yahweh has chosen Zion. He has desired it for his habitation. “This is my resting place forever. Here I will live, for I have desired it.",
+                      "note": "'The fullness was pleased to dwell in him' (v.19) resonates with the LORD's choice of Zion: 'this is my resting place forever; here I will dwell, for I have desired it.' The desire/pleasure-to-dwell verb aligns; faint and overlapping with the 1 Kings 8 temple-glory echo.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Leviticus 16:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "for on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh.",
+                      "note": "'To reconcile all things to himself... making peace through the blood of his cross' (v.20) reframes the Day of Atonement reconciliation accomplished by blood. The blood-effecting-reconciliation logic is Levitical; volume low because Colossians universalizes it cosmically rather than cultically.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
+                      "note": "'Making peace through the blood of his cross' (v.20) faintly recalls the Servant whose chastisement brought 'peace' (shalom) and whose wounds bring healing. The peace-through-suffering-death linkage is coherent; flagged contested given the diffuse wording.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.5",
+                  "ref": "1:21-23",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 22:21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Whoever offers a sacrifice of peace offerings to Yahweh to accomplish a vow, or for a freewill offering, of the herd or of the flock, it shall be perfect to be accepted. It shall have no defect.",
+                      "note": "To 'present you holy and without defect/blameless before him' (v.22) borrows the sacrificial standard that an offering must be 'without blemish (amomos) to be accepted.' Believers are presented as a perfected, unblemished cultic offering, the holiness/without-defect language taken directly from the sacrificial code."
+                    },
+                    {
+                      "source": "Exodus 12:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Your lamb shall be without defect, a male a year old. You shall take it from the sheep, or from the goats:",
+                      "note": "'Without defect and blameless' (v.22) echoes the Passover lamb requirement 'your lamb shall be without blemish.' The amomos qualifier and the presentation-before-God of an acceptable victim cohere with the paschal/sacrificial backdrop, reinforcing the blood-of-the-cross atonement just stated.",
+                      "contested": true,
+                      "altSource": "Leviticus 22:21"
+                    },
+                    {
+                      "source": "Genesis 17:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When Abram was ninety-nine years old, Yahweh appeared to Abram, and said to him, “I am God Almighty. Walk before me, and be blameless.",
+                      "note": "Being presented 'blameless' (amomos/teleios) before God (v.22) faintly recalls the covenant charge 'walk before me and be blameless.' The blameless-walk-before-God ideal coheres with v.10's 'walk worthily,' though the volume is low.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.6",
+                  "ref": "1:24-29",
+                  "echoes": [
+                    {
+                      "source": "Daniel 2:28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "but there is a God in heaven who reveals secrets, and he has made known to the king Nebuchadnezzar what shall be in the latter days. Your dream, and the visions of your head on your bed, are these:",
+                      "note": "'The mystery (mysterion) which has been hidden for ages... but now has been revealed' (v.26) draws on Daniel's God 'who reveals mysteries' and 'made known what will be in the latter days.' The technical hidden-then-revealed mystery apocalyptic vocabulary derives from Daniel 2 (cf. 2:19,28,47)."
+                    },
+                    {
+                      "source": "Daniel 2:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "he reveals the deep and secret things; he knows what is in the darkness, and the light dwells with him.",
+                      "note": "'The mystery now revealed' (v.26) resonates with Daniel's 'he reveals deep and hidden things; he knows what is in the darkness, and the light dwells with him,' joining the revealed-mystery motif with the light/darkness imagery of v.12-13. Coherent but lower volume than Daniel 2:28.",
+                      "contested": true,
+                      "altSource": "Daniel 2:28"
+                    },
+                    {
+                      "source": "Amos 3:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Surely the Lord Yahweh will do nothing, unless he reveals his secret to his servants the prophets.",
+                      "note": "The disclosure of a previously hidden divine plan now 'revealed to his saints' (v.26) faintly echoes 'the Lord God does nothing without revealing his secret (sod) to his servants the prophets.' The hidden-counsel-now-disclosed prophetic motif is coherent though diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 49:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "yes, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give you for a light to the nations, that you may be my salvation to the end of the earth.”",
+                      "note": "The mystery's content 'among the Gentiles' (v.27) resonates with the Servant given 'as a light to the nations' so salvation reaches the ends of the earth. The Gentile-inclusion-as-revealed-glory theme coheres with Colossians' worldwide gospel (v.6,23). Faint, contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 6:12-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wisdom is radiant and fades not away; And easily is she saw those who love her, And found of those who seek her. She forestalleth those who desire to know her, making herself first known. He that rises up early to seek her will have no toil, For he will find her sitting at his gates. For to think upon her is perfectness of understanding, And he that watches for her sake will quickly be free from care. Because she goes about, herself seeking those who are […]",
+                      "note": "'In all wisdom... that we may present every man perfect (teleios)' (v.28) resonates with Wisdom-tradition pedagogy that leads to maturity/perfection. The teaching-in-wisdom-toward-perfection aim coheres with the sapiential framing of the whole chapter; volume modest.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -780,7 +1122,73 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.7",
+                  "ref": "10:38-42",
+                  "echoes": [
+                    {
+                      "source": "Psalm 27:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "One thing I have asked of Yahweh, that I will seek after, that I may dwell in Yahweh’s house all the days of my life, to see Yahweh’s beauty, and to inquire in his temple.",
+                      "note": "Mary's choice of the one thing needful, to sit and hear the Lord's word, resonates with the psalmist's one thing I have asked, to dwell in the LORD's house and gaze on his beauty. The shared one-thing focus on devoted presence before God gives a genuine if non-verbal echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Lamentations 3:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is my portion, says my soul; therefore will I hope in him.",
+                      "note": "Mary has chosen the good part faintly evokes the confession the LORD is my portion, the language of choosing God himself as one's allotted share. The portion/part motif is suggestive but the lexical bridge is thin.",
+                      "contested": true,
+                      "altSource": "Psalm 16:5"
+                    },
+                    {
+                      "source": "Psalm 16:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh assigned my portion and my cup. You made my lot secure.",
+                      "note": "The LORD as my chosen portion and cup supplies the same theology of God as one's lasting allotment that the good part which will not be taken away expresses. It is a contributory echo within the portion-of-the-LORD tradition.",
+                      "contested": true,
+                      "altSource": "Lamentations 3:24"
+                    },
+                    {
+                      "source": "Genesis 18:1-8",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Yahweh appeared to him by the oaks of Mamre, as he sat in the tent door in the heat of the day. He lifted up his eyes and looked, and saw that three men stood opposite him. When he saw them, he ran to meet them from the tent door, and bowed himself to the earth, and said, “My lord, if now I have found favor in your sight, please don’t go away from your servant. Now let a little water be fetched, wash your feet, and rest yourselves under the tree. I will […]",
+                      "note": "Martha's busy hospitality toward the Lord visiting her house figurally recalls Abraham hastening to serve the three visitors at Mamre, the model scene of hospitality to a divine guest. The link is thematic (welcoming and serving the Lord) and faint, hence figural and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Mary and Martha",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "10:38–42"
+                      },
+                      "note": "\"Mary has chosen the good part.\" Luke only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1670,7 +2078,295 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-18"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 18:1–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.13.1-Heb.13.6",
+                      "refDisplay": "Hebrews 13:1–6",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "13.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-13.1"
+                    },
+                    {
+                      "refKey": "Matt.10.5-Matt.10.15",
+                      "refDisplay": "Matthew 10:5–15",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "10.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-10.2"
+                    },
+                    {
+                      "refKey": "John.8.31-John.8.47",
+                      "refDisplay": "John 8:31–47",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "8.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-8.4"
+                    },
+                    {
+                      "refKey": "1Tim.5.9-1Tim.5.10",
+                      "refDisplay": "1 Timothy 5:9–10",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "5.9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-5.9"
+                    },
+                    {
+                      "refKey": "3John.1.5-3John.1.8",
+                      "refDisplay": "3 John 1:5–8",
+                      "book": "3 John",
+                      "slug": "3-john",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/3-john#p-1.2"
+                    },
+                    {
+                      "refKey": "Luke.10.38-Luke.10.42",
+                      "refDisplay": "Luke 10:38–42",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "10.7",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-10.7"
+                    },
+                    {
+                      "refKey": "John.21.9-John.21.14",
+                      "refDisplay": "John 21:9–14",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.2",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-21.2"
+                    },
+                    {
+                      "refKey": "Rom.12.9-Rom.12.21",
+                      "refDisplay": "Romans 12:9–21",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "12.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-12.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.13.4-John.13.11",
+                      "refDisplay": "John 13:4–11",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-13.3"
+                    },
+                    {
+                      "refKey": "1Tim.5.9-1Tim.5.10",
+                      "refDisplay": "1 Timothy 5:9–10",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "5.9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-5.9"
+                    },
+                    {
+                      "refKey": "Luke.7.36-Luke.7.50",
+                      "refDisplay": "Luke 7:36–50",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "7.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-7.6"
+                    },
+                    {
+                      "refKey": "Luke.9.1-Luke.9.6",
+                      "refDisplay": "Luke 9:1–6",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-9.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.13.33",
+                      "refDisplay": "Matthew 13:33",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "13.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-13.6"
+                    },
+                    {
+                      "refKey": "Luke.13.20-Luke.13.21",
+                      "refDisplay": "Luke 13:20–21",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-13.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.24.36-Luke.24.43",
+                      "refDisplay": "Luke 24:36–43",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-24.4"
+                    },
+                    {
+                      "refKey": "Luke.24.28-Luke.24.35",
+                      "refDisplay": "Luke 24:28–35",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-24.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.9.6-Rom.9.13",
+                      "refDisplay": "Romans 9:6–13",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-9.2"
+                    },
+                    {
+                      "refKey": "Gal.4.21-Gal.4.23",
+                      "refDisplay": "Galatians 4:21–23",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "4.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/galatians#p-4.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.28.1-Matt.28.10",
+                      "refDisplay": "Matthew 28:1–10",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "28.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-28.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.16.12-Mark.16.13",
+                      "refDisplay": "Mark 16:12–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "16.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-16.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.15.20-Luke.15.24",
+                      "refDisplay": "Luke 15:20–24",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-15.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.24.13-Luke.24.27",
+                      "refDisplay": "Luke 24:13–27",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "24.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-24.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 18:1–15",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.12-Acts.12.17",
+                      "refDisplay": "Acts 12:12–17",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-12.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1683,7 +2379,30 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-15"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 15:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.14.1-Rev.14.5",
+                      "refDisplay": "Revelation 14:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "14.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-14.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1702,7 +2421,208 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:15-20",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "'The image of the invisible God' (v.15) directly invokes the creation of humanity in the image and likeness of God. Christ is presented as the true eikon in whom the protological image is realized, and the hymn's creation framing (v.16) confirms the Genesis 1 backdrop. High volume and coherence."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 7:25-26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For she is a breath of the power of God, And a clear effluence of the glory of the Almighty; Therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "'Image of the invisible God' (v.15) and the fullness/glory motifs draw on Wisdom personified as 'a breath of the power of God,' 'a pure emanation of the glory of the Almighty,' 'a spotless mirror... and an image (eikon) of his goodness.' The eikon-of-the-invisible-God predicate is a near-direct Wisdom borrowing."
+                    },
+                    {
+                      "source": "Proverbs 8:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old.",
+                      "note": "'The firstborn of all creation' who is 'before all things' (v.15,17) recasts Wisdom, whom 'the LORD created/possessed as the beginning (arche) of his way, before his works of old.' The hymn maps Christ onto pre-existent Wisdom as the principle and firstfruit of creation; v.18 even calls him arche."
+                    },
+                    {
+                      "source": "Proverbs 8:27-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When he established the heavens, I was there; when he set a circle on the surface of the deep, when he established the clouds above, when the springs of the deep became strong, when he gave to the sea its boundary, that the waters should not violate his commandment, when he marked out the foundations of the earth; then I was the craftsman by his side. I was a delight day by day, always rejoicing before him,",
+                      "note": "'For by/in him all things were created' and 'in him all things hold together' (v.16-17) draws on Wisdom present when God established the heavens, the deep, and the foundations, beside him as the agent/craftsman of creation. Wisdom-as-cosmic-mediator coherence is strong across the whole hymn."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'The firstborn (prototokos) of all creation' (v.15) and 'firstborn from the dead' (v.18) draw on the Davidic oracle 'I will make him the firstborn, the highest of the kings of the earth.' Firstborn as a title of supreme rank and primacy ('that he might be preeminent') matches Psalm 89's royal exaltation exactly."
+                    },
+                    {
+                      "source": "Genesis 1:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the beginning, God created the heavens and the earth.",
+                      "note": "'By him all things were created, in heaven and on earth' (v.16) is a deliberate restatement of 'In the beginning God created the heavens and the earth,' with the merism heaven/earth and the verb create binding the hymn to Genesis 1. Christ is the agent through whom the Genesis creation comes to be."
+                    },
+                    {
+                      "source": "Psalm 33:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "By Yahweh’s word, the heavens were made; all their army by the breath of his mouth.",
+                      "note": "'By him all things were created... all things have been created through him' (v.16) echoes 'By the word of the LORD the heavens were made, and all their host by the breath of his mouth.' Creation-by-the-word coherence supports the Logos/Wisdom agency Colossians ascribes to Christ."
+                    },
+                    {
+                      "source": "Sirach 43:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "By reason of him his end has success, And by his word all things consist.",
+                      "note": "'In him all things hold together' (v.17) parallels Sirach's cosmological 'by his word all things hold together' (en logo autou sygkeitai ta panta), the sustaining of the cosmos by the divine word. The cohesion verb and the all-things object make this a strong Second-Temple sapiential parallel."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 1:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Because the spirit of the Lord has filled the world, And that which holds all things together has knowledge of every voice.",
+                      "note": "'In him all things hold together' (v.17) resonates with Wisdom's 'the spirit of the Lord has filled the world, and that which holds all things together (to synechon ta panta) knows every word.' Wisdom as the cosmic glue that fills and binds the universe undergirds the hymn's sustaining-Christ claim."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 8:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But she reaches from one end of the world to the other with full strength, And ordereth all things graciously.",
+                      "note": "'He is before all things, and in him all things hold together' (v.17) echoes 'Wisdom reaches mightily from one end of the earth to the other, and orders all things well.' Wisdom's pervasive cosmic ordering supports Christ's pre-eminence and sustaining role."
+                    },
+                    {
+                      "source": "1 Kings 8:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "so that the priests could not stand to minister by reason of the cloud; for Yahweh’s glory filled Yahweh’s house.",
+                      "note": "'All the fullness was pleased to dwell in him' (v.19) draws on the glory (kabod) filling the temple so that it could not be contained, the divine presence taking up bodily dwelling. Christ becomes the new temple in whom the full divine presence indwells; the dwelling/fullness/glory cluster (cf. v.27) coheres."
+                    },
+                    {
+                      "source": "Psalm 68:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why do you look in envy, you rugged mountains, at the mountain where God chooses to reign? Yes, Yahweh will dwell there forever.",
+                      "note": "'For in him all the fullness was pleased to dwell' (v.19) faintly echoes the mountain that God 'desired for his dwelling,' where the LORD will dwell forever, transferring the chosen-dwelling motif onto Christ as the locus where God is pleased to dwell. Volume low; the eudokia/katoikein dwelling logic is the link.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Psalm 132:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For Yahweh has chosen Zion. He has desired it for his habitation. “This is my resting place forever. Here I will live, for I have desired it.",
+                      "note": "'The fullness was pleased to dwell in him' (v.19) resonates with the LORD's choice of Zion: 'this is my resting place forever; here I will dwell, for I have desired it.' The desire/pleasure-to-dwell verb aligns; faint and overlapping with the 1 Kings 8 temple-glory echo.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Leviticus 16:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "for on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh.",
+                      "note": "'To reconcile all things to himself... making peace through the blood of his cross' (v.20) reframes the Day of Atonement reconciliation accomplished by blood. The blood-effecting-reconciliation logic is Levitical; volume low because Colossians universalizes it cosmically rather than cultically.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
+                      "note": "'Making peace through the blood of his cross' (v.20) faintly recalls the Servant whose chastisement brought 'peace' (shalom) and whose wounds bring healing. The peace-through-suffering-death linkage is coherent; flagged contested given the diffuse wording.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.5",
+                  "ref": "1:21-23",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 22:21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Whoever offers a sacrifice of peace offerings to Yahweh to accomplish a vow, or for a freewill offering, of the herd or of the flock, it shall be perfect to be accepted. It shall have no defect.",
+                      "note": "To 'present you holy and without defect/blameless before him' (v.22) borrows the sacrificial standard that an offering must be 'without blemish (amomos) to be accepted.' Believers are presented as a perfected, unblemished cultic offering, the holiness/without-defect language taken directly from the sacrificial code."
+                    },
+                    {
+                      "source": "Exodus 12:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Your lamb shall be without defect, a male a year old. You shall take it from the sheep, or from the goats:",
+                      "note": "'Without defect and blameless' (v.22) echoes the Passover lamb requirement 'your lamb shall be without blemish.' The amomos qualifier and the presentation-before-God of an acceptable victim cohere with the paschal/sacrificial backdrop, reinforcing the blood-of-the-cross atonement just stated.",
+                      "contested": true,
+                      "altSource": "Leviticus 22:21"
+                    },
+                    {
+                      "source": "Genesis 17:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "When Abram was ninety-nine years old, Yahweh appeared to Abram, and said to him, “I am God Almighty. Walk before me, and be blameless.",
+                      "note": "Being presented 'blameless' (amomos/teleios) before God (v.22) faintly recalls the covenant charge 'walk before me and be blameless.' The blameless-walk-before-God ideal coheres with v.10's 'walk worthily,' though the volume is low.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.6",
+                  "ref": "1:24-29",
+                  "echoes": [
+                    {
+                      "source": "Daniel 2:28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "but there is a God in heaven who reveals secrets, and he has made known to the king Nebuchadnezzar what shall be in the latter days. Your dream, and the visions of your head on your bed, are these:",
+                      "note": "'The mystery (mysterion) which has been hidden for ages... but now has been revealed' (v.26) draws on Daniel's God 'who reveals mysteries' and 'made known what will be in the latter days.' The technical hidden-then-revealed mystery apocalyptic vocabulary derives from Daniel 2 (cf. 2:19,28,47)."
+                    },
+                    {
+                      "source": "Daniel 2:22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "he reveals the deep and secret things; he knows what is in the darkness, and the light dwells with him.",
+                      "note": "'The mystery now revealed' (v.26) resonates with Daniel's 'he reveals deep and hidden things; he knows what is in the darkness, and the light dwells with him,' joining the revealed-mystery motif with the light/darkness imagery of v.12-13. Coherent but lower volume than Daniel 2:28.",
+                      "contested": true,
+                      "altSource": "Daniel 2:28"
+                    },
+                    {
+                      "source": "Amos 3:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Surely the Lord Yahweh will do nothing, unless he reveals his secret to his servants the prophets.",
+                      "note": "The disclosure of a previously hidden divine plan now 'revealed to his saints' (v.26) faintly echoes 'the Lord God does nothing without revealing his secret (sod) to his servants the prophets.' The hidden-counsel-now-disclosed prophetic motif is coherent though diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 49:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "yes, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give you for a light to the nations, that you may be my salvation to the end of the earth.”",
+                      "note": "The mystery's content 'among the Gentiles' (v.27) resonates with the Servant given 'as a light to the nations' so salvation reaches the ends of the earth. The Gentile-inclusion-as-revealed-glory theme coheres with Colossians' worldwide gospel (v.6,23). Faint, contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 6:12-16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wisdom is radiant and fades not away; And easily is she saw those who love her, And found of those who seek her. She forestalleth those who desire to know her, making herself first known. He that rises up early to seek her will have no toil, For he will find her sitting at his gates. For to think upon her is perfectness of understanding, And he that watches for her sake will quickly be free from care. Because she goes about, herself seeking those who are […]",
+                      "note": "'In all wisdom... that we may present every man perfect (teleios)' (v.28) resonates with Wisdom-tradition pedagogy that leads to maturity/perfection. The teaching-in-wisdom-toward-perfection aim coheres with the sapiential framing of the whole chapter; volume modest.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1721,7 +2641,73 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.7",
+                  "ref": "10:38-42",
+                  "echoes": [
+                    {
+                      "source": "Psalm 27:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "One thing I have asked of Yahweh, that I will seek after, that I may dwell in Yahweh’s house all the days of my life, to see Yahweh’s beauty, and to inquire in his temple.",
+                      "note": "Mary's choice of the one thing needful, to sit and hear the Lord's word, resonates with the psalmist's one thing I have asked, to dwell in the LORD's house and gaze on his beauty. The shared one-thing focus on devoted presence before God gives a genuine if non-verbal echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Lamentations 3:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh is my portion, says my soul; therefore will I hope in him.",
+                      "note": "Mary has chosen the good part faintly evokes the confession the LORD is my portion, the language of choosing God himself as one's allotted share. The portion/part motif is suggestive but the lexical bridge is thin.",
+                      "contested": true,
+                      "altSource": "Psalm 16:5"
+                    },
+                    {
+                      "source": "Psalm 16:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh assigned my portion and my cup. You made my lot secure.",
+                      "note": "The LORD as my chosen portion and cup supplies the same theology of God as one's lasting allotment that the good part which will not be taken away expresses. It is a contributory echo within the portion-of-the-LORD tradition.",
+                      "contested": true,
+                      "altSource": "Lamentations 3:24"
+                    },
+                    {
+                      "source": "Genesis 18:1-8",
+                      "type": "figural",
+                      "confidence": "low",
+                      "text": "Yahweh appeared to him by the oaks of Mamre, as he sat in the tent door in the heat of the day. He lifted up his eyes and looked, and saw that three men stood opposite him. When he saw them, he ran to meet them from the tent door, and bowed himself to the earth, and said, “My lord, if now I have found favor in your sight, please don’t go away from your servant. Now let a little water be fetched, wash your feet, and rest yourselves under the tree. I will […]",
+                      "note": "Martha's busy hospitality toward the Lord visiting her house figurally recalls Abraham hastening to serve the three visitors at Mamre, the model scene of hospitality to a divine guest. The link is thematic (welcoming and serving the Lord) and faint, hence figural and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Mary and Martha",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "10:38–42"
+                      },
+                      "note": "\"Mary has chosen the good part.\" Luke only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

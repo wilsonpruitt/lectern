@@ -574,7 +574,10 @@
                 "label": "Index Fontium",
                 "url": "https://catena.wrootpress.com/fontium"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -587,7 +590,95 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-130"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 130:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.1.18-Matt.1.25",
+                      "refDisplay": "Matthew 1:18–25",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-1.2"
+                    },
+                    {
+                      "refKey": "Titus.2.11-Titus.2.14",
+                      "refDisplay": "Titus 2:11–14",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/titus#p-2.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    },
+                    {
+                      "refKey": "Eph.1.7-Eph.1.8",
+                      "refDisplay": "Ephesians 1:7–8",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.2.1-Mark.2.12",
+                      "refDisplay": "Mark 2:1–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 130:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -606,7 +697,10 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -625,7 +719,67 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:35-40",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "Wisdom's invitation 'Come, eat of my bread and drink of the wine I have mixed' stands behind 'I am the bread of life. He who comes to me will not hunger.' Strong Coherence: Jesus speaks as personified Wisdom hosting a banquet that confers life."
+                    },
+                    {
+                      "source": "Sirach 24:19-21",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Come to me, you that are desirous of me, And be you filled with my produce. For my memorial is sweeter than honey, And my inheritance than the honeycomb. They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom says 'Come to me... those who eat me will hunger for more, those who drink me will thirst for more.' John inverts it ('will never hunger... never thirst'), a deliberate transformation signalling Jesus surpasses Wisdom/Torah. High Availability and Coherence; the inversion is the point."
+                    },
+                    {
+                      "source": "Isaiah 49:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them, even by springs of water he will guide them.",
+                      "note": "'They shall not hunger or thirst... he who has pity will lead them' supplies the hunger-and-thirst-abolished promise of the eschatological return. Coheres tightly with v.35's double negation; an exilic-restoration backdrop to the bread of life."
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The repeated 'I will raise him up at the last day' (vv.39-40) draws on the clearest OT resurrection text, 'many who sleep in the dust shall awake... to everlasting life.' Provides the Availability for John's last-day raising; recurs across the discourse."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1403,7 +1557,145 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Kings 19:5–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.1.12-Mark.1.13",
+                      "refDisplay": "Mark 1:12–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-1.4"
+                    },
+                    {
+                      "refKey": "Luke.22.39-Luke.22.46",
+                      "refDisplay": "Luke 22:39–46",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-22.8"
+                    },
+                    {
+                      "refKey": "Matt.4.1-Matt.4.11",
+                      "refDisplay": "Matthew 4:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-4.1"
+                    },
+                    {
+                      "refKey": "John.21.9-John.21.14",
+                      "refDisplay": "John 21:9–14",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-21.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.4.1-Luke.4.13",
+                      "refDisplay": "Luke 4:1–13",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.1",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-4.1"
+                    },
+                    {
+                      "refKey": "Gal.1.15-Gal.1.17",
+                      "refDisplay": "Galatians 1:15–17",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-1.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:2–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.17.9-Matt.17.13",
+                      "refDisplay": "Matthew 17:9–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "17.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-17.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:8–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.9.28-Luke.9.36",
+                      "refDisplay": "Luke 9:28–36",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-9.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:3–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.11.54-John.11.57",
+                      "refDisplay": "John 11:54–57",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "11.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-11.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:5–7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.6-Acts.12.11",
+                      "refDisplay": "Acts 12:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-12.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1416,7 +1708,105 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-34"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 34:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Phil.1.19-Phil.1.26",
+                      "refDisplay": "Philippians 1:19–26",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.5"
+                    },
+                    {
+                      "refKey": "Acts.19.13-Acts.19.17",
+                      "refDisplay": "Acts 19:13–17",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "19.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-19.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.5.18-Eph.5.21",
+                      "refDisplay": "Ephesians 5:18–21",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "5.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-5.5"
+                    },
+                    {
+                      "refKey": "1Thess.5.16-1Thess.5.22",
+                      "refDisplay": "1 Thessalonians 5:16–22",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "5.16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-5.16"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.2.1-1Pet.2.3",
+                      "refDisplay": "1 Peter 2:1–3",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.1"
+                    },
+                    {
+                      "refKey": "1Thess.5.16-1Thess.5.22",
+                      "refDisplay": "1 Thessalonians 5:16–22",
+                      "book": "1 Thessalonians",
+                      "slug": "1-thessalonians",
+                      "pericopeId": "5.16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-thessalonians#p-5.16"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 34:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.12.6-Acts.12.11",
+                      "refDisplay": "Acts 12:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "12.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-12.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1435,7 +1825,10 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1454,7 +1847,67 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:35-40",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "Wisdom's invitation 'Come, eat of my bread and drink of the wine I have mixed' stands behind 'I am the bread of life. He who comes to me will not hunger.' Strong Coherence: Jesus speaks as personified Wisdom hosting a banquet that confers life."
+                    },
+                    {
+                      "source": "Sirach 24:19-21",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Come to me, you that are desirous of me, And be you filled with my produce. For my memorial is sweeter than honey, And my inheritance than the honeycomb. They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom says 'Come to me... those who eat me will hunger for more, those who drink me will thirst for more.' John inverts it ('will never hunger... never thirst'), a deliberate transformation signalling Jesus surpasses Wisdom/Torah. High Availability and Coherence; the inversion is the point."
+                    },
+                    {
+                      "source": "Isaiah 49:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them, even by springs of water he will guide them.",
+                      "note": "'They shall not hunger or thirst... he who has pity will lead them' supplies the hunger-and-thirst-abolished promise of the eschatological return. Coheres tightly with v.35's double negation; an exilic-restoration backdrop to the bread of life."
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The repeated 'I will raise him up at the last day' (vv.39-40) draws on the clearest OT resurrection text, 'many who sleep in the dust shall awake... to everlasting life.' Provides the Availability for John's last-day raising; recurs across the discourse."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

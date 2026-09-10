@@ -758,7 +758,103 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.4",
+                  "ref": "5:27-32",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 21:22-23",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "If a man has committed a sin worthy of death, and he is put to death, and you hang him on a tree; his body shall not remain all night on the tree, but you shall surely bury him the same day; for he who is hanged is accursed of God; that you don’t defile your land which Yahweh your God gives you for an inheritance.",
+                      "note": "'Hanging him on a tree' (v. 30) draws directly on the law that a man executed and hung 'on a tree' is under God's curse. Acts deliberately uses xylon ('tree/wood'), the LXX term, to characterize the crucifixion in the categories of this statute. High volume and clear verbal dependence."
+                    },
+                    {
+                      "source": "Daniel 3:16-18",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Shadrach, Meshach, and Abednego answered the king, Nebuchadnezzar, we have no need to answer you in this matter. If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king. But if not, let it be known to you, O king, that we will not serve your gods, nor worship the golden image which you have set up.",
+                      "note": "Shadrach, Meshach, and Abednego refuse the king's command to disobey God, declaring they will serve God whatever the cost — the paradigm for 'We must obey God rather than men' (v. 29)."
+                    },
+                    {
+                      "source": "Daniel 6:10",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "When Daniel knew that the writing was signed, he went into his house (now his windows were open in his room toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before.",
+                      "note": "Daniel defies the royal decree to continue worshiping God, modeling principled obedience to God over human authority, the stance Peter articulates in v. 29."
+                    },
+                    {
+                      "source": "Exodus 3:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations.",
+                      "note": "'The God of our fathers' (v. 30) is the self-designation revealed to Moses at the bush, anchoring the apostolic proclamation in the covenant identity of Israel's God."
+                    },
+                    {
+                      "source": "Psalm 118:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The right hand of Yahweh is exalted! The right hand of Yahweh does valiantly!”",
+                      "note": "'The right hand of the LORD is exalted' lies behind 'God exalted him with his right hand' (v. 31); Psalm 118 is a primary early-church resource for the vindication of the rejected one."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”",
+                      "note": "The enthronement 'at the right hand' of God underwrites the exaltation of Jesus 'with his right hand' as Prince and Savior (v. 31), the dominant NT proof-text for the session."
+                    },
+                    {
+                      "source": "Joshua 10:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Afterward Joshua struck them, put them to death, and hanged them on five trees. They were hanging on the trees until the evening.",
+                      "note": "The execution of enemy kings by hanging on trees illustrates the legal practice behind Deut 21 invoked in v. 30; a secondary witness to 'hanging on a tree.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 55:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "let the wicked forsake his way, and the unrighteous man his thoughts; and let him return to Yahweh, and he will have mercy on him; and to our God, for he will abundantly pardon.",
+                      "note": "The call to return for abundant pardon stands faintly behind 'to give repentance to Israel and remission of sins' (v. 31).",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/5/",
+              "title": "Ananias and Sapphira; the Apostles before the Council",
+              "view": {
+                "center": [
+                  31.95,
+                  35.3
+                ],
+                "zoom": 9
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -771,7 +867,325 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-118"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 118:22",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.8.31-Mark.8.33",
+                      "refDisplay": "Mark 8:31–33",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-8.6"
+                    },
+                    {
+                      "refKey": "Acts.4.5-Acts.4.12",
+                      "refDisplay": "Acts 4:5–12",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "4.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-4.2"
+                    },
+                    {
+                      "refKey": "1Pet.2.4-1Pet.2.10",
+                      "refDisplay": "1 Peter 2:4–10",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.2"
+                    },
+                    {
+                      "refKey": "Luke.9.21-Luke.9.27",
+                      "refDisplay": "Luke 9:21–27",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-9.5"
+                    },
+                    {
+                      "refKey": "Eph.2.19-Eph.2.22",
+                      "refDisplay": "Ephesians 2:19–22",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.10"
+                    },
+                    {
+                      "refKey": "1Pet.2.4-1Pet.2.10",
+                      "refDisplay": "1 Peter 2:4–10",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.2"
+                    },
+                    {
+                      "refKey": "1Pet.2.4-1Pet.2.10",
+                      "refDisplay": "1 Peter 2:4–10",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "2.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-2.2"
+                    },
+                    {
+                      "refKey": "Mark.9.9-Mark.9.13",
+                      "refDisplay": "Mark 9:9–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-9.3"
+                    },
+                    {
+                      "refKey": "Luke.18.31-Luke.18.34",
+                      "refDisplay": "Luke 18:31–34",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-18.6"
+                    },
+                    {
+                      "refKey": "Acts.4.13-Acts.4.22",
+                      "refDisplay": "Acts 4:13–22",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-4.3"
+                    },
+                    {
+                      "refKey": "Rom.9.30-Rom.9.33",
+                      "refDisplay": "Romans 9:30–33",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "9.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-9.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:25–26",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.21.1-Matt.21.11",
+                      "refDisplay": "Matthew 21:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "21.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-21.1"
+                    },
+                    {
+                      "refKey": "Mark.11.1-Mark.11.11",
+                      "refDisplay": "Mark 11:1–11",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "11.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-11.1"
+                    },
+                    {
+                      "refKey": "John.12.12-John.12.19",
+                      "refDisplay": "John 12:12–19",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "12.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-12.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:22–23",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.21.33-Matt.21.46",
+                      "refDisplay": "Matthew 21:33–46",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "21.6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-21.6"
+                    },
+                    {
+                      "refKey": "Mark.12.1-Mark.12.12",
+                      "refDisplay": "Mark 12:1–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "12.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-12.1"
+                    },
+                    {
+                      "refKey": "Luke.20.17-Luke.20.18",
+                      "refDisplay": "Luke 20:17–18",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "20.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-20.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:26",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.23.37-Matt.23.39",
+                      "refDisplay": "Matthew 23:37–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "23.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-23.5"
+                    },
+                    {
+                      "refKey": "Luke.13.34-Luke.13.35",
+                      "refDisplay": "Luke 13:34–35",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-13.8"
+                    },
+                    {
+                      "refKey": "Luke.19.28-Luke.19.40",
+                      "refDisplay": "Luke 19:28–40",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "19.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-19.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:20",
+                  "occurrences": [
+                    {
+                      "refKey": "John.10.7-John.10.10",
+                      "refDisplay": "John 10:7–10",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-10.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:17",
+                  "occurrences": [
+                    {
+                      "refKey": "John.11.17-John.11.27",
+                      "refDisplay": "John 11:17–27",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "11.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-11.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:16",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.5.27-Acts.5.32",
+                      "refDisplay": "Acts 5:27–32",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "5.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-5.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:18",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.4.8-2Cor.4.9",
+                      "refDisplay": "2 Corinthians 4:8–9",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "4.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-4.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:17–18",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.6.3-2Cor.6.10",
+                      "refDisplay": "2 Corinthians 6:3–10",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "6.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-6.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 118:19–20",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.22.14-Rev.22.17",
+                      "refDisplay": "Revelation 22:14–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "22.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-22.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -784,7 +1198,101 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/revelation#p-1.2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:4–6",
+                  "echoes": [
+                    {
+                      "source": "Exodus 3:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”",
+                      "note": "'Who is and who was and who is to come' expands the divine Name of Exod 3:14 (LXX ho ōn, 'the one who is') into a three-tense formula. High thematic coherence on the eternal self-existent God; John adds 'who was' and 'who is to come' to render the Tetragrammaton's timelessness, a known Targumic/Hellenistic-Jewish expansion."
+                    },
+                    {
+                      "source": "Exodus 19:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "and you shall be to me a kingdom of priests, and a holy nation.’ These are the words which you shall speak to the children of Israel.”",
+                      "note": "'He made us to be a Kingdom, priests to his God' directly reapplies the Sinai covenant charter 'a kingdom of priests' to the church. Strong verbal volume; John follows a reading like 'kingdom and priests' (cf. LXX basileion hierateuma), democratizing Israel's vocation onto the redeemed."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'The firstborn of the dead, and the ruler of the kings of the earth' fuses both halves of Ps 89:27 (LXX 88:28), the royal-messianic enthronement of David's heir. Two distinct phrases recur together (firstborn + highest/ruler of earth's kings), giving high verbal volume; Christ's resurrection becomes the 'firstborn' coronation."
+                    },
+                    {
+                      "source": "Isaiah 55:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, I have given him for a witness to the peoples, a leader and commander to the peoples.",
+                      "note": "'The faithful witness' coheres with Isaiah's messianic 'witness to the peoples.' Thematic and partial verbal overlap on the title 'witness'; less distinctive than the Ps 89 / Exod echoes, so medium and arguably secondary.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zechariah 4:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.",
+                      "note": "The 'seven Spirits before his throne' may draw on Zechariah's vision-cycle of the Spirit and the seven lamps/eyes (Zech 4:2, 10). Faint; the sevenfold Spirit more likely develops Isa 11:2's enumerated Spirit, so low confidence and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 11:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:7–8",
+                  "echoes": [
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "'He is coming with the clouds' lifts Daniel's 'one like a son of man' coming 'with the clouds of the sky.' Very high verbal volume and recurrence (this is Revelation's signature christophany text); John applies Daniel's heavenward enthronement to Christ's parousia toward earth."
+                    },
+                    {
+                      "source": "Zechariah 12:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will pour on the house of David, and on the inhabitants of Jerusalem, the spirit of grace and of supplication; and they will look to me whom they have pierced; and they shall mourn for him, as one mourns for his only son, and will grieve bitterly for him, as one grieves for his firstborn.",
+                      "note": "'Those who pierced him' and 'all the tribes will mourn' weave together Zech 12:10's piercing and mourning. High verbal volume; John follows the Hebrew 'whom they pierced' (the LXX reads 'because they mocked/danced'), agreeing with John 19:37 against the LXX — a noted Hebrew-vs-LXX divergence.",
+                      "lxxText": "And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and compassion: and they shall look upon me, because they have mocked me, and they shall make lamentation for him, as for a beloved friend, and they shall grieve intensely, as for a firstborn son."
+                    },
+                    {
+                      "source": "Zechariah 12:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The land will mourn, every family apart; the family of the house of David apart, and their wives apart; the family of the house of Nathan apart, and their wives apart;",
+                      "note": "'All the tribes of the earth will mourn over him' extends Zech 12:12's catalog of mourning families. Reinforces the Zechariah piercing-and-mourning complex; John universalizes Zechariah's tribes of the land into 'all the tribes of the earth.'"
+                    },
+                    {
+                      "source": "Isaiah 44:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "This is what Yahweh, the King of Israel, and his Redeemer, Yahweh of Armies, says: “I am the first, and I am the last; and besides me there is no God.",
+                      "note": "'I am the Alpha and the Omega' is a Greek-alphabet equivalent of Isaiah's divine self-predication 'I am the first and the last.' High thematic coherence with the Deutero-Isaianic monotheism formula; John recasts the merism into the first and last Greek letters, claiming exhaustive divine sovereignty."
+                    },
+                    {
+                      "source": "Exodus 3:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”",
+                      "note": "The repeated 'who is and who was and who is to come' restates the Exod 3:14 Name (LXX ho ōn). Recurrence from 1:4 raises verbal volume; here joined to 'the Almighty' (LXX pantokratōr), the standard rendering of 'Yahweh of Armies / El Shaddai.'"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -803,7 +1311,145 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "20.5",
+                  "ref": "20:19-23",
+                  "echoes": [
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "Jesus 'breathed on them' and said 'Receive the Holy Spirit' — the verb (enephysesen, LXX of Gen 2:7) directly evokes God breathing the breath of life into Adam's nostrils so he became a living being. John presents the Spirit-impartation as new creation/new Adam; very high Volume given the rare shared verb and high Coherence with the Gospel's creation theology."
+                    },
+                    {
+                      "source": "Ezekiel 37:9-10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Then he said to me, Prophesy to the wind, prophesy, son of man, and tell the wind, Thus says the Lord Yahweh: Come from the four winds, breath, and breathe on these slain, that they may live. So I prophesied as he commanded me, and the breath came into them, and they lived, and stood up on their feet, an exceedingly great army.",
+                      "note": "'Come from the four winds, O breath, and breathe on these slain, that they may live' stands behind Jesus breathing Spirit into the disciples after the resurrection. Ezekiel's vivified corpses give the scene its resurrection-and-Spirit valence; high Coherence and shared breath/Spirit (ruach/pneuma) vocabulary reinforce the Genesis 2:7 figure."
+                    },
+                    {
+                      "source": "Numbers 6:24-26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "‘Yahweh bless you, and keep you. Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The risen Jesus' threefold greeting 'Peace be to you' (20:19,21,26) functions as the eschatological enactment of the Aaronic priestly blessing 'the LORD lift up his countenance on you and give you peace.' Medium Volume (shared 'peace') with strong Coherence as the resurrected high-priestly Lord blesses his gathered people.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 22:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will lay the key of the house of David on his shoulder. He will open, and no one will shut. He will shut, and no one will open.",
+                      "note": "The authority to forgive or retain sins ('he shall open, and no one shall shut; he shall shut, and no one shall open') parallels the key-of-the-house-of-David grant of binding/loosing power. The remit-or-retain antithesis matches the open/shut structure of the oracle; medium confidence on the structural rather than verbal link.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 15:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Because he was ignorant of him that moulded him, And of him that inspired into him an active soul, And breathed into him a vital spirit.",
+                      "note": "'He failed to know the one who formed him and inspired him with an active soul and breathed into him a living spirit' restates Gen 2:7 in Second-Temple idiom, evidencing the availability of the breath-of-life motif John reworks. Deuterocanonical witness rather than a direct source.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 43:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+                      "note": "'I, even I, am he who blots out your transgressions for my own sake' grounds the forgiveness of sins as a divine prerogative now delegated to the disciples (20:23). Faint background highlighting that sin-forgiveness is God's act, sharpening the Christological claim.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "20.6",
+                  "ref": "20:24-29",
+                  "echoes": [
+                    {
+                      "source": "Psalm 35:23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Wake up! Rise up to defend me, my God! My Lord, contend for me!",
+                      "note": "Thomas' confession 'My Lord and my God!' (20:28) reproduces the psalmist's vocative 'my God and my Lord' (LXX Ps 34:23: ho theos mou kai ho kyrios mou). The unusual paired address gives high Volume; John climaxes the Gospel by directing to Jesus the cry the psalmist directs to YHWH."
+                    },
+                    {
+                      "source": "Psalm 86:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But you, Lord, are a merciful and gracious God, slow to anger, and abundant in loving kindness and truth.",
+                      "note": "Thomas addresses Jesus with the divine titles 'Lord... God' that the psalter repeatedly couples ('you, O Lord, are a God merciful and gracious'), reinforcing the deliberate transfer of YHWH-language to the risen Christ. Supporting Recurrence behind the primary Ps 35:23 allusion.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 2:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith.",
+                      "note": "'Blessed are those who have not seen, and have believed' (20:29) coheres with 'the righteous shall live by his faith,' the OT charter of faith-not-sight. Thematic rather than verbal; faint and one of several wisdom/faith backgrounds.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "20.7",
+                  "ref": "20:30-31",
+                  "echoes": [
+                    {
+                      "source": "Habakkuk 2:2-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh answered me, “Write the vision, and make it plain on tablets, that he who runs may read it. For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+                      "note": "'These are written, that you may believe' enacts the prophetic command 'Write the vision; make it plain... it awaits its appointed time,' grounding the inscribed witness-for-faith in the OT theology of the written vision that calls for belief. Medium Coherence with the Gospel's purpose statement; verbal contact is on the writing-for-faith motif.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:1-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“At that time shall Michael stand up, the great prince who stands for the children of your people; and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time your people shall be delivered, everyone who shall be found written in the book. Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. Those who are wise shall […]",
+                      "note": "The notion of words 'written in this book' so that the faithful 'may have life' faintly recalls Daniel's sealed book and those 'found written in the book' who awake to everlasting life. Low Volume; offered as a faint life-through-the-book resonance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "The confessional goal 'that Jesus is the Christ, the Son of God' draws on the royal-messianic decree 'You are my Son,' the OT title-cluster (Messiah / Son of God) John affirms. Background to the titulature rather than a quotation.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Appearances in the upper room",
+                      "section": "risen",
+                      "refs": {
+                        "luke": "24:36–43",
+                        "john": "20:19–29"
+                      },
+                      "note": "\"Peace be with you\"; the wounds shown; Thomas — \"My Lord and my God.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

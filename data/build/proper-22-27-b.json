@@ -642,7 +642,40 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/job-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Job 1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.1.2-Jas.1.4",
+                      "refDisplay": "James 1:2–4",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-1.2"
+                    },
+                    {
+                      "refKey": "1Pet.5.5-1Pet.5.11",
+                      "refDisplay": "1 Peter 5:5–11",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -655,7 +688,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-26"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 26:2",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.11.27-1Cor.11.34",
+                      "refDisplay": "1 Corinthians 11:27–34",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "11.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-11.4"
+                    },
+                    {
+                      "refKey": "2Cor.13.5-2Cor.13.10",
+                      "refDisplay": "2 Corinthians 13:5–10",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "13.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-13.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 26:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.27.24-Matt.27.26",
+                      "refDisplay": "Matthew 27:24–26",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 26:4",
+                  "occurrences": [
+                    {
+                      "refKey": "2Tim.4.9-2Tim.4.13",
+                      "refDisplay": "2 Timothy 4:9–13",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "4.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-4.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -668,7 +764,77 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-1.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1–4",
+                  "echoes": [
+                    {
+                      "source": "Wisdom of Solomon 7:25–26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For she is a breath of the power of God, and a clear effluence of the glory of the Almighty; therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, and an unspotted mirror of the working of God, and an image of his goodness. (Wisdom of Solomon 7:25–26)",
+                      "note": "The marquee echo of the chapter. ‘Radiance of his glory… the very image of his substance’ (v. 3) reproduces the rare term apaugasma and the eikōn/glory pairing of Wis 7:25–26 — high verbal volume against a Second Temple text most scholars (Hays, Attridge, Beale & Carson) name as the direct source. Hebrews transfers what Wisdom says of personified Sophia to the Son. Confidence kept high despite low text-field availability, since bible-api serves only the Protestant canon."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh says to my Lord, ‘Sit at my right hand, until I make your enemies your footstool for your feet.’",
+                      "note": "‘Sat down on the right hand of the Majesty’ (v. 3) is a low-volume echo of Ps 110:1, planted before the catena begins and paid off as its explicit climax at 1:13. Hays' recurrence test: the same source surfaces twice, so even the faint first instance earns credence."
+                    },
+                    {
+                      "source": "Leviticus 16",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "For on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh. (Leviticus 16:30)",
+                      "note": "‘When he had by himself purified us of our sins’ (v. 3) quotes nothing, yet figurally invokes the Day of Atonement cult that chapters 9–10 will expound — the book's central typology. No verbal volume; high figural coherence (Hays, Reading Backwards)."
+                    },
+                    {
+                      "source": "Proverbs 8:22–31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh possessed me in the beginning of his work, before his deeds of old. I was set up from everlasting, from the beginning, before the earth existed. When there were no depths, I was born, when there were no springs abounding with water. Before the mountains were settled in place, before the hills, I was born; while as yet he had not made the earth, nor the fields, nor the beginning of the dust of the world. When he established the heavens, I was there; when he set a circle on the surface of the deep, when he established the clouds above, when the springs of the deep became strong, when he gave to the sea its boundary, that the waters should not violate his commandment, when he marked out the foundations of the earth; then I was the craftsman by his side. I was a delight day by day, always rejoicing before him, rejoicing in his whole world. My delight was with the sons of men.",
+                      "note": "‘Through whom also he made the worlds’ (v. 2) draws on the Wisdom-as-agent-of-creation tradition that runs from Prov 8:22–31 into Wisdom and Sirach. Thematic coherence (Wisdom christology) more than verbal volume; the LXX of Prov 8:22 (‘the Lord created me’) fed the patristic debates this verse anticipates."
+                    },
+                    {
+                      "source": "Psalm 2:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Ask of me, and I will give the nations for your inheritance, the uttermost parts of the earth for your possession.",
+                      "note": "‘Whom he appointed heir of all things’ (v. 2) sounds the inheritance grant of Ps 2:8 — the same psalm quoted outright at 1:5. Recurrence (Hays): Ps 2 is demonstrably available and re-used, so the inheritance language is heard as its anticipatory echo."
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "Dominion was given him, and glory, and a kingdom, that all the peoples, nations, and languages should serve him. His dominion is an everlasting dominion, which will not pass away, and his kingdom that which will not be destroyed.",
+                      "note": "‘Heir of all things’ and the universal, unending dominion granted the one ‘like a son of man’ (Dan 7:14) share thematic coherence with the Son's inheritance and session. Faint, contested — no verbal volume — but a stock messianic substrate scholars note behind the exaltation language."
+                    },
+                    {
+                      "source": "Isaiah 44:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, your Redeemer, and he who formed you from the womb says: ‘I am Yahweh, who makes all things; who alone stretches out the heavens; who spreads out the earth by myself;’",
+                      "note": "‘Upholding all things by the word of his power’ (v. 3) ascribes to the Son the sole-creator role Isa 44:24 reserves to YHWH — a faint conceptual echo that prepares the bolder Ps 102 transfer at 1:10–12. Low volume; coherence with the creation theme of the prologue."
+                    },
+                    {
+                      "source": "Psalm 89:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For who in the skies can be compared to Yahweh? Who among the sons of the heavenly beings is like Yahweh,",
+                      "note": "‘Having become so much better than the angels’ (v. 4) faintly recalls the incomparability formula of Ps 89:6, which sets YHWH above the ‘sons of the heavenly beings.’ A dashed echo seeding the angel-comparison the catena exists to make; Ps 89 recurs at 1:6 (‘firstborn’)."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -687,7 +853,102 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.1",
+                  "ref": "10:1-12",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:27",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "Jesus grounds marriage 'from the beginning of the creation' in 'God made them male and female,' a near-verbatim citation of the creation of humanity as male and female. High Volume and explicit appeal to creation order; the phrase functions as a formal scriptural authority over against Deuteronomy's concession. Availability and Coherence are secure within Mark's argument structure."
+                    },
+                    {
+                      "source": "Genesis 2:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.",
+                      "note": "The words 'a man will leave his father and mother, and will join to his wife, and the two will become one flesh' reproduce the etiological marriage saying nearly word-for-word. This is the load-bearing prooftext; Jesus stacks it on Genesis 1:27 to argue indissolubility. Maximal Volume and Recurrence in early Jewish marriage discourse."
+                    },
+                    {
+                      "source": "Deuteronomy 24:1-4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "When a man takes a wife and marries her, then it shall be, if she finds no favor in his eyes, because he has found some unseemly thing in her, that he shall write her a bill of divorce, and put it in her hand, and send her out of his house. When she has departed out of his house, she may go and be another man’s wife. If the latter husband hates her, and write her a bill of divorce, and puts it in her hand, and sends her out of his house; or if the latter […]",
+                      "note": "The 'certificate of divorce' Moses 'allowed' is a direct invocation of the Mosaic divorce statute, named explicitly as Moses' command. Jesus cites it precisely in order to subordinate it as a concession to 'hardness of heart.' Explicit attribution to Moses makes this an unambiguous, high-Volume citation."
+                    },
+                    {
+                      "source": "Malachi 2:14-16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet you say, ‘Why?’ Because Yahweh has been witness between you and the wife of your youth, against whom you have dealt treacherously, though she is your companion, and the wife of your covenant. Did he not make you one, although he had the residue of the Spirit? Why one? He sought a godly seed. Therefore take heed to your spirit, and let no one deal treacherously against the wife of his youth. For I hate divorce”, says Yahweh, the God of Israel, “and him […]",
+                      "note": "Malachi rebukes faithless divorce, invokes 'the wife of your covenant,' appeals to the one-flesh creation ('did he not make them one?'), and reports that God 'hates divorce.' Jesus' fusion of one-flesh creation theology with a polemic against divorce coheres strongly with Malachi's distinctive argument. The shared appeal to creation against divorce raises this above generic thematic overlap."
+                    },
+                    {
+                      "source": "Genesis 5:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He created them male and female, and blessed them. On the day they were created, he named them “Adam”.",
+                      "note": "The toledot restatement 'male and female he created them, and blessed them' reinforces the male-and-female creation formula Jesus cites. It is a secondary witness to the same tradition behind Genesis 1:27, strengthening Recurrence. Marked contested because Mark most plausibly draws on Genesis 1:27 directly.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 4:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “When you go back into Egypt, see that you do before Pharaoh all the wonders which I have put in your hand, but I will harden his heart and he will not let the people go.",
+                      "note": "The diagnosis 'for your hardness of heart' resonates with the Pentateuch's hardened-heart vocabulary, of which the Exodus Pharaoh cycle is the paradigm. The motif frames Israel's recalcitrance as the reason for the concession. Low confidence and contested: thematic vocabulary rather than a specific citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.2",
+                  "ref": "10:13-16",
+                  "echoes": [
+                    {
+                      "source": "Genesis 48:14-16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Israel stretched out his right hand, and laid it on Ephraim’s head, who was the younger, and his left hand on Manasseh’s head, guiding his hands knowingly, for Manasseh was the firstborn. He blessed Joseph, and said, “The God before whom my fathers Abraham and Isaac walked, the God who has fed me all my life long to this day, the angel who has redeemed me from all evil, bless the lads, and let my name be named on them, and the name of my fathers Abraham […]",
+                      "note": "Jacob lays his hands on Ephraim and Manasseh and blesses them, the foundational scene of patriarchal blessing by laying on of hands. Jesus 'took them in his arms, and blessed them, laying his hands on them' reenacts this gesture upon children. The verbal and ritual overlap (hands, blessing, children) gives the allusion real Volume."
+                    },
+                    {
+                      "source": "Numbers 27:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him.",
+                      "note": "The laying on of hands to convey authority and blessing (Moses on Joshua) is the OT background for the gesture Jesus performs. It supplies the Availability of the imposition-of-hands motif. Low confidence and contested because Mark's scene is blessing, not commissioning.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 131:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Surely I have stilled and quieted my soul, like a weaned child with his mother, like a weaned child is my soul within me.",
+                      "note": "The psalmist stills his soul 'like a weaned child,' modeling trustful smallness before God, which coheres with receiving the kingdom 'like a little child.' The child as image of humble dependence is the shared note. Contested and low: thematic resonance without verbal contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Better than this is childishness with virtue; For in the memory of virtue is immortality: Because it is recognized both before God and before men.",
+                      "note": "Wisdom prizes virtue over many children and the immortality of the righteous, part of a Second-Temple revaluation of childhood and worth. The faint resonance lies in valuing what the world overlooks, as the disciples overlook the children. Contested; included for maximal coverage of deuterocanonical availability.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1472,7 +1733,215 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-2"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 2:24",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.19.3-Matt.19.9",
+                      "refDisplay": "Matthew 19:3–9",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.2"
+                    },
+                    {
+                      "refKey": "Mark.10.1-Mark.10.12",
+                      "refDisplay": "Mark 10:1–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-10.1"
+                    },
+                    {
+                      "refKey": "1Cor.6.15-1Cor.6.17",
+                      "refDisplay": "1 Corinthians 6:15–17",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "6.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-6.4"
+                    },
+                    {
+                      "refKey": "Eph.5.31-Eph.5.33",
+                      "refDisplay": "Ephesians 5:31–33",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "5.8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/ephesians#p-5.8"
+                    },
+                    {
+                      "refKey": "Matt.5.31-Matt.5.32",
+                      "refDisplay": "Matthew 5:31–32",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.6"
+                    },
+                    {
+                      "refKey": "Luke.16.18",
+                      "refDisplay": "Luke 16:18",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "16.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-16.6"
+                    },
+                    {
+                      "refKey": "1Cor.7.1-1Cor.7.7",
+                      "refDisplay": "1 Corinthians 7:1–7",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "7.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-7.1"
+                    },
+                    {
+                      "refKey": "1Cor.7.10-1Cor.7.11",
+                      "refDisplay": "1 Corinthians 7:10–11",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "7.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-7.3"
+                    },
+                    {
+                      "refKey": "Rom.7.1-Rom.7.6",
+                      "refDisplay": "Romans 7:1–6",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-7.1"
+                    },
+                    {
+                      "refKey": "1Cor.7.39-1Cor.7.40",
+                      "refDisplay": "1 Corinthians 7:39–40",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "7.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-7.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 2:18–23",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.11.2-1Cor.11.16",
+                      "refDisplay": "1 Corinthians 11:2–16",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "11.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-11.1"
+                    },
+                    {
+                      "refKey": "1Tim.2.11-1Tim.2.15",
+                      "refDisplay": "1 Timothy 2:11–15",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "2.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-2.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 2:18",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.4.1-1Tim.4.5",
+                      "refDisplay": "1 Timothy 4:1–5",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "4.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-4.1"
+                    },
+                    {
+                      "refKey": "1Tim.5.11-1Tim.5.16",
+                      "refDisplay": "1 Timothy 5:11–16",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "5.11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-5.11"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 2:23",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.19.3-Matt.19.9",
+                      "refDisplay": "Matthew 19:3–9",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 2:21–24",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.14.34-1Cor.14.36",
+                      "refDisplay": "1 Corinthians 14:34–36",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "14.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-14.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.9.23-Heb.9.28",
+                      "refDisplay": "Hebrews 9:23–28",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-9.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1485,7 +1954,190 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-8"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 8:6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.15.20-1Cor.15.28",
+                      "refDisplay": "1 Corinthians 15:20–28",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "15.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-15.3"
+                    },
+                    {
+                      "refKey": "Eph.1.20-Eph.1.23",
+                      "refDisplay": "Ephesians 1:20–23",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.7"
+                    },
+                    {
+                      "refKey": "Phil.3.20-Phil.3.21",
+                      "refDisplay": "Philippians 3:20–21",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.7"
+                    },
+                    {
+                      "refKey": "Heb.1.13",
+                      "refDisplay": "Hebrews 1:13",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "1.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-1.7"
+                    },
+                    {
+                      "refKey": "Mark.12.35-Mark.12.37",
+                      "refDisplay": "Mark 12:35–37",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "12.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-12.5"
+                    },
+                    {
+                      "refKey": "John.13.1-John.13.3",
+                      "refDisplay": "John 13:1–3",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-13.1"
+                    },
+                    {
+                      "refKey": "Rom.16.17-Rom.16.20",
+                      "refDisplay": "Romans 16:17–20",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "16.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-16.2"
+                    },
+                    {
+                      "refKey": "1Cor.3.21-1Cor.3.23",
+                      "refDisplay": "1 Corinthians 3:21–23",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "3.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-3.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:5",
+                  "occurrences": [
+                    {
+                      "refKey": "John.17.20-John.17.23",
+                      "refDisplay": "John 17:20–23",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-17.6"
+                    },
+                    {
+                      "refKey": "1Cor.13.1",
+                      "refDisplay": "1 Corinthians 13:1",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.1"
+                    },
+                    {
+                      "refKey": "2Cor.3.16-2Cor.3.18",
+                      "refDisplay": "2 Corinthians 3:16–18",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-3.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.21.12-Matt.21.17",
+                      "refDisplay": "Matthew 21:12–17",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "21.2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-21.2"
+                    },
+                    {
+                      "refKey": "Matt.19.13-Matt.19.15",
+                      "refDisplay": "Matthew 19:13–15",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "19.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-19.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.1.20-Eph.1.23",
+                      "refDisplay": "Ephesians 1:20–23",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "1.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-1.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 8:4–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.2.5-Heb.2.9",
+                      "refDisplay": "Hebrews 2:5–9",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "2.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1498,7 +2150,77 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/hebrews#p-1.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1–4",
+                  "echoes": [
+                    {
+                      "source": "Wisdom of Solomon 7:25–26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For she is a breath of the power of God, and a clear effluence of the glory of the Almighty; therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, and an unspotted mirror of the working of God, and an image of his goodness. (Wisdom of Solomon 7:25–26)",
+                      "note": "The marquee echo of the chapter. ‘Radiance of his glory… the very image of his substance’ (v. 3) reproduces the rare term apaugasma and the eikōn/glory pairing of Wis 7:25–26 — high verbal volume against a Second Temple text most scholars (Hays, Attridge, Beale & Carson) name as the direct source. Hebrews transfers what Wisdom says of personified Sophia to the Son. Confidence kept high despite low text-field availability, since bible-api serves only the Protestant canon."
+                    },
+                    {
+                      "source": "Psalm 110:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh says to my Lord, ‘Sit at my right hand, until I make your enemies your footstool for your feet.’",
+                      "note": "‘Sat down on the right hand of the Majesty’ (v. 3) is a low-volume echo of Ps 110:1, planted before the catena begins and paid off as its explicit climax at 1:13. Hays' recurrence test: the same source surfaces twice, so even the faint first instance earns credence."
+                    },
+                    {
+                      "source": "Leviticus 16",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "For on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh. (Leviticus 16:30)",
+                      "note": "‘When he had by himself purified us of our sins’ (v. 3) quotes nothing, yet figurally invokes the Day of Atonement cult that chapters 9–10 will expound — the book's central typology. No verbal volume; high figural coherence (Hays, Reading Backwards)."
+                    },
+                    {
+                      "source": "Proverbs 8:22–31",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh possessed me in the beginning of his work, before his deeds of old. I was set up from everlasting, from the beginning, before the earth existed. When there were no depths, I was born, when there were no springs abounding with water. Before the mountains were settled in place, before the hills, I was born; while as yet he had not made the earth, nor the fields, nor the beginning of the dust of the world. When he established the heavens, I was there; when he set a circle on the surface of the deep, when he established the clouds above, when the springs of the deep became strong, when he gave to the sea its boundary, that the waters should not violate his commandment, when he marked out the foundations of the earth; then I was the craftsman by his side. I was a delight day by day, always rejoicing before him, rejoicing in his whole world. My delight was with the sons of men.",
+                      "note": "‘Through whom also he made the worlds’ (v. 2) draws on the Wisdom-as-agent-of-creation tradition that runs from Prov 8:22–31 into Wisdom and Sirach. Thematic coherence (Wisdom christology) more than verbal volume; the LXX of Prov 8:22 (‘the Lord created me’) fed the patristic debates this verse anticipates."
+                    },
+                    {
+                      "source": "Psalm 2:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Ask of me, and I will give the nations for your inheritance, the uttermost parts of the earth for your possession.",
+                      "note": "‘Whom he appointed heir of all things’ (v. 2) sounds the inheritance grant of Ps 2:8 — the same psalm quoted outright at 1:5. Recurrence (Hays): Ps 2 is demonstrably available and re-used, so the inheritance language is heard as its anticipatory echo."
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "Dominion was given him, and glory, and a kingdom, that all the peoples, nations, and languages should serve him. His dominion is an everlasting dominion, which will not pass away, and his kingdom that which will not be destroyed.",
+                      "note": "‘Heir of all things’ and the universal, unending dominion granted the one ‘like a son of man’ (Dan 7:14) share thematic coherence with the Son's inheritance and session. Faint, contested — no verbal volume — but a stock messianic substrate scholars note behind the exaltation language."
+                    },
+                    {
+                      "source": "Isaiah 44:24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, your Redeemer, and he who formed you from the womb says: ‘I am Yahweh, who makes all things; who alone stretches out the heavens; who spreads out the earth by myself;’",
+                      "note": "‘Upholding all things by the word of his power’ (v. 3) ascribes to the Son the sole-creator role Isa 44:24 reserves to YHWH — a faint conceptual echo that prepares the bolder Ps 102 transfer at 1:10–12. Low volume; coherence with the creation theme of the prologue."
+                    },
+                    {
+                      "source": "Psalm 89:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For who in the skies can be compared to Yahweh? Who among the sons of the heavenly beings is like Yahweh,",
+                      "note": "‘Having become so much better than the angels’ (v. 4) faintly recalls the incomparability formula of Ps 89:6, which sets YHWH above the ‘sons of the heavenly beings.’ A dashed echo seeding the angel-comparison the catena exists to make; Ps 89 recurs at 1:6 (‘firstborn’)."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1517,7 +2239,102 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.1",
+                  "ref": "10:1-12",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:27",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "Jesus grounds marriage 'from the beginning of the creation' in 'God made them male and female,' a near-verbatim citation of the creation of humanity as male and female. High Volume and explicit appeal to creation order; the phrase functions as a formal scriptural authority over against Deuteronomy's concession. Availability and Coherence are secure within Mark's argument structure."
+                    },
+                    {
+                      "source": "Genesis 2:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.",
+                      "note": "The words 'a man will leave his father and mother, and will join to his wife, and the two will become one flesh' reproduce the etiological marriage saying nearly word-for-word. This is the load-bearing prooftext; Jesus stacks it on Genesis 1:27 to argue indissolubility. Maximal Volume and Recurrence in early Jewish marriage discourse."
+                    },
+                    {
+                      "source": "Deuteronomy 24:1-4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "When a man takes a wife and marries her, then it shall be, if she finds no favor in his eyes, because he has found some unseemly thing in her, that he shall write her a bill of divorce, and put it in her hand, and send her out of his house. When she has departed out of his house, she may go and be another man’s wife. If the latter husband hates her, and write her a bill of divorce, and puts it in her hand, and sends her out of his house; or if the latter […]",
+                      "note": "The 'certificate of divorce' Moses 'allowed' is a direct invocation of the Mosaic divorce statute, named explicitly as Moses' command. Jesus cites it precisely in order to subordinate it as a concession to 'hardness of heart.' Explicit attribution to Moses makes this an unambiguous, high-Volume citation."
+                    },
+                    {
+                      "source": "Malachi 2:14-16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet you say, ‘Why?’ Because Yahweh has been witness between you and the wife of your youth, against whom you have dealt treacherously, though she is your companion, and the wife of your covenant. Did he not make you one, although he had the residue of the Spirit? Why one? He sought a godly seed. Therefore take heed to your spirit, and let no one deal treacherously against the wife of his youth. For I hate divorce”, says Yahweh, the God of Israel, “and him […]",
+                      "note": "Malachi rebukes faithless divorce, invokes 'the wife of your covenant,' appeals to the one-flesh creation ('did he not make them one?'), and reports that God 'hates divorce.' Jesus' fusion of one-flesh creation theology with a polemic against divorce coheres strongly with Malachi's distinctive argument. The shared appeal to creation against divorce raises this above generic thematic overlap."
+                    },
+                    {
+                      "source": "Genesis 5:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He created them male and female, and blessed them. On the day they were created, he named them “Adam”.",
+                      "note": "The toledot restatement 'male and female he created them, and blessed them' reinforces the male-and-female creation formula Jesus cites. It is a secondary witness to the same tradition behind Genesis 1:27, strengthening Recurrence. Marked contested because Mark most plausibly draws on Genesis 1:27 directly.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 4:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “When you go back into Egypt, see that you do before Pharaoh all the wonders which I have put in your hand, but I will harden his heart and he will not let the people go.",
+                      "note": "The diagnosis 'for your hardness of heart' resonates with the Pentateuch's hardened-heart vocabulary, of which the Exodus Pharaoh cycle is the paradigm. The motif frames Israel's recalcitrance as the reason for the concession. Low confidence and contested: thematic vocabulary rather than a specific citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.2",
+                  "ref": "10:13-16",
+                  "echoes": [
+                    {
+                      "source": "Genesis 48:14-16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Israel stretched out his right hand, and laid it on Ephraim’s head, who was the younger, and his left hand on Manasseh’s head, guiding his hands knowingly, for Manasseh was the firstborn. He blessed Joseph, and said, “The God before whom my fathers Abraham and Isaac walked, the God who has fed me all my life long to this day, the angel who has redeemed me from all evil, bless the lads, and let my name be named on them, and the name of my fathers Abraham […]",
+                      "note": "Jacob lays his hands on Ephraim and Manasseh and blesses them, the foundational scene of patriarchal blessing by laying on of hands. Jesus 'took them in his arms, and blessed them, laying his hands on them' reenacts this gesture upon children. The verbal and ritual overlap (hands, blessing, children) gives the allusion real Volume."
+                    },
+                    {
+                      "source": "Numbers 27:18",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him.",
+                      "note": "The laying on of hands to convey authority and blessing (Moses on Joshua) is the OT background for the gesture Jesus performs. It supplies the Availability of the imposition-of-hands motif. Low confidence and contested because Mark's scene is blessing, not commissioning.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 131:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Surely I have stilled and quieted my soul, like a weaned child with his mother, like a weaned child is my soul within me.",
+                      "note": "The psalmist stills his soul 'like a weaned child,' modeling trustful smallness before God, which coheres with receiving the kingdom 'like a little child.' The child as image of humble dependence is the shared note. Contested and low: thematic resonance without verbal contact.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 4:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Better than this is childishness with virtue; For in the memory of virtue is immortality: Because it is recognized both before God and before men.",
+                      "note": "Wisdom prizes virtue over many children and the immortality of the righteous, part of a Second-Temple revaluation of childhood and worth. The faint resonance lies in valuing what the world overlooks, as the disciples overlook the children. Contested; included for maximal coverage of deuterocanonical availability.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

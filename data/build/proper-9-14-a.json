@@ -640,7 +640,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-24"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -653,7 +656,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-45"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 45:13–15",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.25.1-Matt.25.13",
+                      "refDisplay": "Matthew 25:1–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "25.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-25.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 45:13–14",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.19.6-Rev.19.10",
+                      "refDisplay": "Revelation 19:6–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -672,7 +713,141 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "7.3",
+                  "ref": "7:13-25",
+                  "echoes": [
+                    {
+                      "source": "Psalm 1:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "but his delight is in Yahweh’s law. On his law he meditates day and night.",
+                      "note": "'I delight in God's law after the inward man' (7:22) echoes the blessed one whose 'delight is in the law of the LORD'; Paul affirms the psalmist's delight even as he reports its frustration by the flesh.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will delight myself in your statutes. I will not forget your word.",
+                      "note": "The psalmist's repeated delight in God's statutes ('I will delight in your statutes,' 'Oh how I love your law') stands behind 7:22's 'I delight in God's law after the inward man.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 9:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For a corruptible body weighs down the soul, And the earthy frame lies heavy on a mind that is full of cares.",
+                      "note": "'A perishable body weighs down the soul, and this earthy tent burdens the thoughtful mind' is the closest Second Temple parallel to Paul's body/mind conflict and 'the body of this death' (7:23-24).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.",
+                      "note": "'In my flesh dwells no good thing' (7:18) resonates with the antediluvian verdict that 'every inclination of the thoughts of the human heart was only evil continually'—the OT root of the doctrine of indwelling evil impulse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 8:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh smelled the pleasant aroma. Yahweh said in his heart, “I will not again curse the ground any more for man’s sake because the imagination of man’s heart is evil from his youth; neither will I ever again strike every living thing, as I have done.",
+                      "note": "'The inclination (yetser) of the human heart is evil from youth' is the scriptural seed of the rabbinic evil-impulse doctrine that frames Paul's 'sin which dwells in me' and the divided will (7:17-20).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, I was born in iniquity. In sin my mother conceived me.",
+                      "note": "'I am fleshly, sold under sin' (7:14) echoes the penitential confession of being conceived in iniquity—a self caught in sin from the inside, unable to free itself.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 21:20",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "Ahab said to Elijah, “Have you found me, my enemy?” He answered, “I have found you, because you have sold yourself to do that which is evil in the sight of Yahweh.",
+                      "note": "'Sold under sin' (7:14) uses the idiom of being 'sold to do evil,' as Ahab 'sold himself to do what was evil in the sight of the LORD'; the same selling-into-bondage metaphor for moral captivity.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:97",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How I love your law! It is my meditation all day.",
+                      "note": "'Oh how I love your law! It is my meditation all the day' is the paradigmatic Torah-delight Paul invokes for the inner self that consents to the law as good (7:22, 7:16).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "The promised circumcision of the heart so as to love God is the inward-law hope behind Paul's 'inward man' delighting in God's law (7:22), even as he laments its present captivity.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The new-covenant promise of the law written on the heart underlies the tension Paul dramatizes between the law of the mind/inward man and the law in the members (7:22-23)—the heart that delights versus the flesh that resists.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 4:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If you do well, won’t it be lifted up? If you don’t do well, sin crouches at the door. Its desire is for you, but you are to rule over it.”",
+                      "note": "Sin 'crouching at the door' whose desire is for Cain, which he must master, prefigures Paul's sin 'dwelling in me' and warring to bring captivity (7:17, 7:23)—personified sin contending for mastery over the self.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 38:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I am pained and bowed down greatly. I go mourning all day long. For my waist is filled with burning. There is no soundness in my flesh. I am faint and severely bruised. I have groaned by reason of the anguish of my heart.",
+                      "note": "The psalmist's groaning 'wretched' lament under the weight of his own sin parallels Paul's cry 'What a wretched man I am!' (7:24)—the OT idiom of self-directed misery awaiting deliverance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 142:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Bring my soul out of prison, that I may give thanks to your name. The righteous will surround me, for you will be good to me.",
+                      "note": "'Bring my soul out of prison' voices the deliverance plea that shapes Paul's 'Who will deliver me out of the body of this death?' (7:24)—captivity language answered by rescue.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 116:3-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The cords of death surrounded me, the pains of Sheol got a hold of me. I found trouble and sorrow. Then I called on Yahweh’s name: “Yahweh, I beg you, deliver my soul.”",
+                      "note": "'The cords of death... the pangs of Sheol... then I called on the name of the LORD: O LORD, deliver my soul' parallels the wretched-self-to-deliverance movement of 7:24-25.",
+                      "contested": true
+                    },
+                    {
+                      "source": "4 Ezra 7:62-72",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And I answered and said, O you earth, wherefore have you brought forth, if the mind is made out of dust, like as all other created things? For it were better that the dust itself had been unborn, so that the mind might not have been made therefrom. But now the mind grows with us, and by reason of this we are tormented, because we perish and know it. Let the race of men lament and the beasts of the field be glad; let all that are born lament, but let the […]",
+                      "note": "4 Ezra's lament over the 'evil heart' (cor malignum) that burdens humanity and frustrates the good is the nearest Second Temple analogue to Paul's anatomy of the divided self enslaved by indwelling sin (7:14-24).",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -691,7 +866,51 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.3",
+                  "ref": "11:16-19",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 8:32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Now therefore, my sons, listen to me, for blessed are those who keep my ways.",
+                      "note": "'wisdom is justified by her children' personifies Wisdom as in Proverbs 8, where Lady Wisdom calls and her children/sons heed her; Jesus and John are vindicated as Wisdom's offspring."
+                    },
+                    {
+                      "source": "Sirach 4:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Wisdom exalts her sons, And takes hold of those who seek her.",
+                      "note": "'Wisdom exalts her sons and lays hold of those who seek her' — Second Temple Wisdom personification standing directly behind 'wisdom is justified by her children.'"
+                    },
+                    {
+                      "source": "Ecclesiastes 3:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "a time to weep, and a time to laugh; a time to mourn, and a time to dance;",
+                      "note": "'a time to weep, and a time to laugh; a time to mourn, and a time to dance' faintly underlies the children's complaint about piping/dancing and mourning/lament.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 9:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wisdom has built her house. She has carved out her seven pillars.",
+                      "note": "Wisdom's banquet invitation supports the wider Wisdom-vindicated theme; contested as a specific source.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1418,7 +1637,180 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/zechariah-9"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Zechariah 9:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.21.1-Matt.21.11",
+                      "refDisplay": "Matthew 21:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "21.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-21.1"
+                    },
+                    {
+                      "refKey": "Mark.11.1-Mark.11.11",
+                      "refDisplay": "Mark 11:1–11",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "11.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-11.1"
+                    },
+                    {
+                      "refKey": "Luke.19.28-Luke.19.40",
+                      "refDisplay": "Luke 19:28–40",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "19.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-19.3"
+                    },
+                    {
+                      "refKey": "John.12.12-John.12.19",
+                      "refDisplay": "John 12:12–19",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "12.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-12.3"
+                    },
+                    {
+                      "refKey": "Matt.11.28-Matt.11.30",
+                      "refDisplay": "Matthew 11:28–30",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "11.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-11.6"
+                    },
+                    {
+                      "refKey": "Luke.1.26-Luke.1.33",
+                      "refDisplay": "Luke 1:26–33",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-1.7"
+                    },
+                    {
+                      "refKey": "Matt.27.27-Matt.27.31",
+                      "refDisplay": "Matthew 27:27–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.6"
+                    },
+                    {
+                      "refKey": "John.19.1-John.19.3",
+                      "refDisplay": "John 19:1–3",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "19.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-19.1"
+                    },
+                    {
+                      "refKey": "2Cor.10.1-2Cor.10.6",
+                      "refDisplay": "2 Corinthians 10:1–6",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-10.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Zechariah 9:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.13.20-Heb.13.25",
+                      "refDisplay": "Hebrews 13:20–25",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-13.3"
+                    },
+                    {
+                      "refKey": "Mark.14.22-Mark.14.25",
+                      "refDisplay": "Mark 14:22–25",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-14.6"
+                    },
+                    {
+                      "refKey": "Luke.22.14-Luke.22.20",
+                      "refDisplay": "Luke 22:14–20",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "22.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-22.3"
+                    },
+                    {
+                      "refKey": "Matt.26.26-Matt.26.30",
+                      "refDisplay": "Matthew 26:26–30",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "26.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-26.6"
+                    },
+                    {
+                      "refKey": "1Cor.11.23-1Cor.11.26",
+                      "refDisplay": "1 Corinthians 11:23–26",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "11.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-11.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Zechariah 9:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.2.17",
+                      "refDisplay": "Ephesians 2:17",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.8"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1431,7 +1823,85 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-145"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 145:8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.4-1Cor.13.7",
+                      "refDisplay": "1 Corinthians 13:4–7",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.4"
+                    },
+                    {
+                      "refKey": "Phil.1.3-Phil.1.8",
+                      "refDisplay": "Philippians 1:3–8",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-1.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:9",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.43-Matt.5.48",
+                      "refDisplay": "Matthew 5:43–48",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.9",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.13.10-Luke.13.17",
+                      "refDisplay": "Luke 13:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-13.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 145:13",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.1.12-1Tim.1.17",
+                      "refDisplay": "1 Timothy 1:12–17",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1450,7 +1920,141 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "7.3",
+                  "ref": "7:13-25",
+                  "echoes": [
+                    {
+                      "source": "Psalm 1:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "but his delight is in Yahweh’s law. On his law he meditates day and night.",
+                      "note": "'I delight in God's law after the inward man' (7:22) echoes the blessed one whose 'delight is in the law of the LORD'; Paul affirms the psalmist's delight even as he reports its frustration by the flesh.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will delight myself in your statutes. I will not forget your word.",
+                      "note": "The psalmist's repeated delight in God's statutes ('I will delight in your statutes,' 'Oh how I love your law') stands behind 7:22's 'I delight in God's law after the inward man.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Wisdom of Solomon 9:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For a corruptible body weighs down the soul, And the earthy frame lies heavy on a mind that is full of cares.",
+                      "note": "'A perishable body weighs down the soul, and this earthy tent burdens the thoughtful mind' is the closest Second Temple parallel to Paul's body/mind conflict and 'the body of this death' (7:23-24).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.",
+                      "note": "'In my flesh dwells no good thing' (7:18) resonates with the antediluvian verdict that 'every inclination of the thoughts of the human heart was only evil continually'—the OT root of the doctrine of indwelling evil impulse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 8:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh smelled the pleasant aroma. Yahweh said in his heart, “I will not again curse the ground any more for man’s sake because the imagination of man’s heart is evil from his youth; neither will I ever again strike every living thing, as I have done.",
+                      "note": "'The inclination (yetser) of the human heart is evil from youth' is the scriptural seed of the rabbinic evil-impulse doctrine that frames Paul's 'sin which dwells in me' and the divided will (7:17-20).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, I was born in iniquity. In sin my mother conceived me.",
+                      "note": "'I am fleshly, sold under sin' (7:14) echoes the penitential confession of being conceived in iniquity—a self caught in sin from the inside, unable to free itself.",
+                      "contested": true
+                    },
+                    {
+                      "source": "1 Kings 21:20",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "Ahab said to Elijah, “Have you found me, my enemy?” He answered, “I have found you, because you have sold yourself to do that which is evil in the sight of Yahweh.",
+                      "note": "'Sold under sin' (7:14) uses the idiom of being 'sold to do evil,' as Ahab 'sold himself to do what was evil in the sight of the LORD'; the same selling-into-bondage metaphor for moral captivity.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 119:97",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How I love your law! It is my meditation all day.",
+                      "note": "'Oh how I love your law! It is my meditation all the day' is the paradigmatic Torah-delight Paul invokes for the inner self that consents to the law as good (7:22, 7:16).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Deuteronomy 30:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh your God will circumcise your heart, and the heart of your seed, to love Yahweh your God with all your heart, and with all your soul, that you may live.",
+                      "note": "The promised circumcision of the heart so as to love God is the inward-law hope behind Paul's 'inward man' delighting in God's law (7:22), even as he laments its present captivity.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The new-covenant promise of the law written on the heart underlies the tension Paul dramatizes between the law of the mind/inward man and the law in the members (7:22-23)—the heart that delights versus the flesh that resists.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 4:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If you do well, won’t it be lifted up? If you don’t do well, sin crouches at the door. Its desire is for you, but you are to rule over it.”",
+                      "note": "Sin 'crouching at the door' whose desire is for Cain, which he must master, prefigures Paul's sin 'dwelling in me' and warring to bring captivity (7:17, 7:23)—personified sin contending for mastery over the self.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 38:6-8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I am pained and bowed down greatly. I go mourning all day long. For my waist is filled with burning. There is no soundness in my flesh. I am faint and severely bruised. I have groaned by reason of the anguish of my heart.",
+                      "note": "The psalmist's groaning 'wretched' lament under the weight of his own sin parallels Paul's cry 'What a wretched man I am!' (7:24)—the OT idiom of self-directed misery awaiting deliverance.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 142:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Bring my soul out of prison, that I may give thanks to your name. The righteous will surround me, for you will be good to me.",
+                      "note": "'Bring my soul out of prison' voices the deliverance plea that shapes Paul's 'Who will deliver me out of the body of this death?' (7:24)—captivity language answered by rescue.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 116:3-4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The cords of death surrounded me, the pains of Sheol got a hold of me. I found trouble and sorrow. Then I called on Yahweh’s name: “Yahweh, I beg you, deliver my soul.”",
+                      "note": "'The cords of death... the pangs of Sheol... then I called on the name of the LORD: O LORD, deliver my soul' parallels the wretched-self-to-deliverance movement of 7:24-25.",
+                      "contested": true
+                    },
+                    {
+                      "source": "4 Ezra 7:62-72",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And I answered and said, O you earth, wherefore have you brought forth, if the mind is made out of dust, like as all other created things? For it were better that the dust itself had been unborn, so that the mind might not have been made therefrom. But now the mind grows with us, and by reason of this we are tormented, because we perish and know it. Let the race of men lament and the beasts of the field be glad; let all that are born lament, but let the […]",
+                      "note": "4 Ezra's lament over the 'evil heart' (cor malignum) that burdens humanity and frustrates the good is the nearest Second Temple analogue to Paul's anatomy of the divided self enslaved by indwelling sin (7:14-24).",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1469,7 +2073,51 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "11.3",
+                  "ref": "11:16-19",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 8:32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Now therefore, my sons, listen to me, for blessed are those who keep my ways.",
+                      "note": "'wisdom is justified by her children' personifies Wisdom as in Proverbs 8, where Lady Wisdom calls and her children/sons heed her; Jesus and John are vindicated as Wisdom's offspring."
+                    },
+                    {
+                      "source": "Sirach 4:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Wisdom exalts her sons, And takes hold of those who seek her.",
+                      "note": "'Wisdom exalts her sons and lays hold of those who seek her' — Second Temple Wisdom personification standing directly behind 'wisdom is justified by her children.'"
+                    },
+                    {
+                      "source": "Ecclesiastes 3:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "a time to weep, and a time to laugh; a time to mourn, and a time to dance;",
+                      "note": "'a time to weep, and a time to laugh; a time to mourn, and a time to dance' faintly underlies the children's complaint about piping/dancing and mourning/lament.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 9:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wisdom has built her house. She has carved out her seven pillars.",
+                      "note": "Wisdom's banquet invitation supports the wider Wisdom-vindicated theme; contested as a specific source.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

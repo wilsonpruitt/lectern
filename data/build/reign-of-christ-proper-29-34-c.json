@@ -709,7 +709,145 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-23"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Jeremiah 23:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.6.30-Mark.6.34",
+                      "refDisplay": "Mark 6:30–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.4"
+                    },
+                    {
+                      "refKey": "Luke.15.3-Luke.15.7",
+                      "refDisplay": "Luke 15:3–7",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-15.2"
+                    },
+                    {
+                      "refKey": "John.10.7-John.10.10",
+                      "refDisplay": "John 10:7–10",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-10.2"
+                    },
+                    {
+                      "refKey": "John.21.15-John.21.17",
+                      "refDisplay": "John 21:15–17",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-21.3"
+                    },
+                    {
+                      "refKey": "1Pet.5.1-1Pet.5.4",
+                      "refDisplay": "1 Peter 5:1–4",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.1"
+                    },
+                    {
+                      "refKey": "Matt.18.12-Matt.18.14",
+                      "refDisplay": "Matthew 18:12–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "18.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-18.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 23:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.2.19-Matt.2.23",
+                      "refDisplay": "Matthew 2:19–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "2.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-2.4"
+                    },
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 23:3",
+                  "occurrences": [
+                    {
+                      "refKey": "John.11.45-John.11.53",
+                      "refDisplay": "John 11:45–53",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "11.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-11.5"
+                    },
+                    {
+                      "refKey": "Col.1.3-Col.1.8",
+                      "refDisplay": "Colossians 1:3–8",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-1.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 23:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.1.26-1Cor.1.31",
+                      "refDisplay": "1 Corinthians 1:26–31",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "1.5",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-1.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -728,7 +866,290 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.13",
+                  "ref": "1:67-75",
+                  "echoes": [
+                    {
+                      "source": "Psalm 41:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Blessed be Yahweh, the God of Israel, from everlasting and to everlasting! Amen and amen.",
+                      "note": "'Blessed be the Lord, the God of Israel' quotes the berakah formula of Psalm 41:13, 'Blessed be the Lord, the God of Israel, from everlasting to everlasting' (cf. 72:18; 106:48). The fixed liturgical benediction opening gives high volume; it is the canonical doxology closing Books of the Psalter."
+                    },
+                    {
+                      "source": "Psalm 111:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He has sent redemption to his people. He has ordained his covenant forever. His name is holy and awesome!",
+                      "note": "'He has visited and worked redemption for his people' quotes Psalm 111:9, 'He sent redemption to his people; he has commanded his covenant forever.' The redemption-to-his-people + everlasting-covenant pairing (cf. 1:72) gives high volume; Psalm 111 also undergirds 'holy is his name' at 1:49."
+                    },
+                    {
+                      "source": "Psalm 132:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "There I will make the horn of David to bud. I have ordained a lamp for my anointed.",
+                      "note": "'Raised up a horn of salvation for us in the house of his servant David' draws on Psalm 132:17, 'There I will make a horn to sprout for David.' The horn + David-my-servant combination is distinctive royal-messianic imagery; high volume."
+                    },
+                    {
+                      "source": "1 Samuel 2:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Those who strive with Yahweh shall be broken to pieces. He will thunder against them in the sky. “Yahweh will judge the ends of the earth. He will give strength to his king, and exalt the horn of his anointed.”",
+                      "note": "The 'horn of salvation' echoes Hannah's closing line, 'he will... exalt the horn of his anointed' (1 Samuel 2:10). The horn-of-the-anointed image binds the Benedictus to Hannah's Song as the Magnificat was bound; strong recurrence."
+                    },
+                    {
+                      "source": "Psalm 106:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He saved them from the hand of him who hated them, and redeemed them from the hand of the enemy.",
+                      "note": "'Salvation from our enemies, and from the hand of all who hate us' quotes Psalm 106:10, 'he saved them from the hand of the foe and redeemed them from the power of the enemy.' The saved-from-the-hand-of-haters/enemies formula is high-volume and new-exodus in tone."
+                    },
+                    {
+                      "source": "Leviticus 26:42",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "then I will remember my covenant with Jacob; and also my covenant with Isaac, and also my covenant with Abraham; and I will remember the land.",
+                      "note": "'To remember his holy covenant' echoes Leviticus 26:42, 'then I will remember my covenant with Jacob... Isaac... Abraham.' The God-remembers-his-covenant-with-the-patriarchs formula gives high volume and leads directly into the Abraham oath of 1:73."
+                    },
+                    {
+                      "source": "Psalm 106:45",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He remembered for them his covenant, and repented according to the multitude of his loving kindnesses.",
+                      "note": "'To remember his holy covenant' also quotes Psalm 106:45, 'For their sake he remembered his covenant.' Combined with 1:71's debt to Psalm 106:10, this confirms Psalm 106 as a sustained source of the Benedictus."
+                    },
+                    {
+                      "source": "Genesis 22:16-17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "and said, “I have sworn by myself, says Yahweh, because you have done this thing, and have not withheld your son, your only son, that I will bless you greatly, and I will multiply your seed greatly like the stars of the heavens, and like the sand which is on the seashore. Your seed will possess the gate of his enemies.",
+                      "note": "'The oath which he spoke to Abraham, our father' names the sworn promise of Genesis 22:16-17, 'By myself I have sworn... I will surely bless you and multiply your offspring.' The oath-to-Abraham reference is distinctive and high-volume, fulfilling the Magnificat's 'to Abraham and his seed forever' (1:55)."
+                    },
+                    {
+                      "source": "Psalm 105:9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "the covenant which he made with Abraham, his oath to Isaac,",
+                      "note": "'The oath which he spoke to Abraham' echoes Psalm 105:9, 'the covenant he made with Abraham, his sworn promise to Isaac.' Psalm 105 rehearses covenant + oath + remembering (105:8-9), tightly coherent with 1:72-73; high volume."
+                    },
+                    {
+                      "source": "Psalm 106:48",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Blessed be Yahweh, the God of Israel, from everlasting even to everlasting! Let all the people say, “Amen.” Praise Yah!",
+                      "note": "'Blessed be the Lord, the God of Israel' equally matches Psalm 106:48; Psalm 106 also supplies 1:71-72 (saved from enemies, remembered covenant), so its presence here strengthens recurrence across the Benedictus."
+                    },
+                    {
+                      "source": "Exodus 4:31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The people believed, and when they heard that Yahweh had visited the children of Israel, and that he had seen their affliction, then they bowed their heads and worshiped.",
+                      "note": "'He has visited (epeskepsato)... his people' echoes the Exodus visitation, 'the Lord had visited the people of Israel' to deliver them (Exodus 4:31; cf. Genesis 50:24-25). The divine-visitation-for-rescue idiom frames the redemption as a new exodus."
+                    },
+                    {
+                      "source": "Psalm 18:2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Yahweh is my rock, my fortress, and my deliverer; my God, my rock, in whom I take refuge; my shield, and the horn of my salvation, my high tower.",
+                      "note": "'Horn of salvation' also matches David's 'the horn of my salvation' (Psalm 18:2; 2 Samuel 22:3). A coherent Davidic echo within the horn cluster, fitting the in-the-house-of-David context."
+                    },
+                    {
+                      "source": "Psalm 18:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He delivered me from my strong enemy, from those who hated me; for they were too mighty for me.",
+                      "note": "'Salvation from our enemies' echoes 'He delivered me from my strong enemy, from those who hated me' (Psalm 18:17; 2 Samuel 22:18), a Davidic deliverance text coherent with the horn-of-David context."
+                    },
+                    {
+                      "source": "Exodus 2:24",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.",
+                      "note": "'To remember his holy covenant' recalls 'God remembered his covenant with Abraham, with Isaac, and with Jacob' at the Exodus (Exodus 2:24). The remembered-covenant-precipitating-deliverance motif coheres with the new-exodus framing."
+                    },
+                    {
+                      "source": "Micah 7:20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You will give truth to Jacob, and mercy to Abraham, as you have sworn to our fathers from the days of old.",
+                      "note": "'The oath which he spoke to Abraham, our father' recalls Micah 7:20, the steadfast love sworn 'to Abraham... to our fathers from the days of old.' Recurrence with 1:55 (which leans on the same verse) reinforces the Micah source across both canticles."
+                    },
+                    {
+                      "source": "Jeremiah 11:5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "that I may establish the oath which I swore to your fathers, to give them a land flowing with milk and honey, as at this day. Then answered I, and said, Amen, Yahweh.",
+                      "note": "'The oath which he spoke to Abraham' echoes Jeremiah 11:5, 'that I may confirm the oath that I swore to your fathers.' The confirm-the-oath-to-the-fathers diction coheres with the covenant-remembrance theme as a supporting echo."
+                    },
+                    {
+                      "source": "Joshua 24:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Now therefore fear Yahweh, and serve him in sincerity and in truth. Put away the gods which your fathers served beyond the River, in Egypt; and serve Yahweh.",
+                      "note": "'That we... should serve him without fear, in holiness and righteousness' echoes the covenant summons to 'serve the Lord in sincerity and in faithfulness' (Joshua 24:14). The serve-God-faithfully ideal coheres with the exodus-deliverance-unto-worship logic of 1:74-75."
+                    },
+                    {
+                      "source": "Wisdom 9:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "And rule the world in holiness and righteousness, And execute judgement in uprightness of soul;",
+                      "note": "'In holiness and righteousness before him' closely matches Wisdom 9:3, that humankind should 'rule... in holiness and righteousness.' The paired virtue-formula (hosiotes + dikaiosyne) is distinctive and Second-Temple; the link is a strong-coherence but contested deuterocanonical echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 4:23",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and I have said to you, “Let my son go, that he may serve me”; and you have refused to let him go. Behold, I will kill your son, your firstborn.’”",
+                      "note": "'Delivered out of the hand of our enemies, should serve him' reflects the exodus pattern 'let my son go that he may serve me' (Exodus 4:23; 8:1), where rescue is for the purpose of worship. The deliverance-unto-service logic coheres, but the diction is generic, so it is a faint echo.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.14",
+                  "ref": "1:76-80",
+                  "echoes": [
+                    {
+                      "source": "Malachi 3:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“Behold, I send my messenger, and he will prepare the way before me; and the Lord, whom you seek, will suddenly come to his temple; and the messenger of the covenant, whom you desire, behold, he comes!” says Yahweh of Armies.",
+                      "note": "'You will go before the face of the Lord to prepare his ways' cites Malachi 3:1, 'Behold, I send my messenger, and he will prepare the way before me.' Near-verbatim go-before + prepare-the-way language; recurrence with 1:17 confirms Malachi as the defining text for the Baptist's role."
+                    },
+                    {
+                      "source": "Isaiah 40:3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The voice of one who calls out, “Prepare the way of Yahweh in the wilderness! Make a level highway in the desert for our God.",
+                      "note": "'To prepare his ways' draws on Isaiah 40:3, 'prepare the way of the Lord, make straight... a highway,' the prophecy Luke later applies explicitly to John (Luke 3:4). High volume; the prepare-the-way-of-the-Lord motif fuses with Malachi 3:1 here."
+                    },
+                    {
+                      "source": "Malachi 4:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But to you who fear my name shall the sun of righteousness arise with healing in its wings. You will go out, and leap like calves of the stall.",
+                      "note": "'The dawn (anatole) from on high will visit us, to shine on those who sit in darkness' draws on Malachi 4:2, 'the sun of righteousness shall rise, with healing in its wings.' The rising-light-of-salvation imagery, distinctive and eschatological, gives high volume to the anatole metaphor."
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "'To shine on those who sit in darkness and the shadow of death' draws on Isaiah 9:2, 'the people who walked in darkness have seen a great light; those who dwelt in the land of deep darkness (shadow of death), on them has light shined.' Distinctive darkness/shadow-of-death + light combination; high volume."
+                    },
+                    {
+                      "source": "Psalm 107:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Some sat in darkness and in the shadow of death, being bound in affliction and iron,",
+                      "note": "'Those who sit in darkness and the shadow of death' quotes Psalm 107:10, 'some sat in darkness and in the shadow of death,' whom God then delivers (107:14). The verbatim sit-in-darkness-and-shadow-of-death phrase gives high volume."
+                    },
+                    {
+                      "source": "1 Samuel 2:21",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yahweh visited Hannah, and she conceived, and bore three sons and two daughters. The child Samuel grew before Yahweh.",
+                      "note": "'The child was growing, and becoming strong in spirit' echoes the refrain about Samuel, 'the child Samuel grew... and grew in the presence of the Lord' (1 Samuel 2:21,26; 3:19). The child-grew summary, tied to the Hannah/Samuel matrix governing the chapter, gives high volume."
+                    },
+                    {
+                      "source": "Judges 13:24-25",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The woman bore a son, and named him Samson: and the child grew, and Yahweh blessed him. The Spirit of Yahweh began to move him in Mahaneh Dan, between Zorah and Eshtaol.",
+                      "note": "'The child was growing, and becoming strong in spirit' parallels 'the woman bore a son and called his name Samson. And the young man grew, and the Lord blessed him. And the Spirit of the Lord began to stir him' (Judges 13:24-25). The grew + Spirit notice closes the Samson-style annunciation cycle; high volume."
+                    },
+                    {
+                      "source": "Jeremiah 31:34",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and they shall teach no more every man his neighbor, and every man his brother, saying, Know Yahweh; for they shall all know me, from their least to their greatest, says Yahweh: for I will forgive their iniquity, and their sin will I remember no more.",
+                      "note": "'To give knowledge of salvation to his people by the remission of their sins' echoes the new covenant of Jeremiah 31:34, 'they shall all know me... I will forgive their iniquity.' The knowledge-of-God + forgiveness-of-sins pairing coheres with the covenant-fulfillment theme of the Benedictus."
+                    },
+                    {
+                      "source": "Psalm 130:7-8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Israel, hope in Yahweh, for with Yahweh there is loving kindness. With him is abundant redemption. He will redeem Israel from all their sins.",
+                      "note": "'Salvation to his people by the remission of their sins' echoes Psalm 130:7-8, 'with him is plentiful redemption. And he will redeem Israel from all his iniquities.' The redeem-Israel-from-its-sins formula is a coherent psalmic source for the forgiveness clause."
+                    },
+                    {
+                      "source": "Numbers 24:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I see him, but not now. I see him, but not near. A star will come out of Jacob. A scepter will rise out of Israel, and shall strike through the corners of Moab, and break down all the sons of Sheth.",
+                      "note": "'The dawn from on high' plays on the messianic rising-star/sceptre of Numbers 24:17, 'a star shall come out of Jacob' (LXX 'a star shall rise/anatelei'). The anatole wordplay activates this Balaam oracle as a messianic-advent source; moderate volume via the LXX cognate."
+                    },
+                    {
+                      "source": "Zechariah 3:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Hear now, Joshua the high priest, you and your fellows who sit before you; for they are men who are a sign: for, behold, I will bring out my servant, the Branch.",
+                      "note": "The noun anatole ('dawn'/'branch') evokes 'my servant the Branch' (anatole, Zechariah 3:8; 6:12), the Davidic shoot. The double meaning of anatole lets Luke fuse dawn and Davidic-branch messianism; a coherent allusion via shared LXX vocabulary."
+                    },
+                    {
+                      "source": "Zechariah 6:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "and speak to him, saying, ‘Thus says Yahweh of Armies, “Behold, the man whose name is the Branch: and he shall grow up out of his place; and he shall build Yahweh’s temple;",
+                      "note": "'The dawn (anatole) from on high' specifically echoes Zechariah 6:12, 'Behold, the man whose name is the Branch (anatole)... he shall build the temple of the Lord.' The exact LXX noun for the Davidic Branch strengthens the messianic reading; moderate volume."
+                    },
+                    {
+                      "source": "Isaiah 42:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "to open the blind eyes, to bring the prisoners out of the dungeon, and those who sit in darkness out of the prison.",
+                      "note": "'To shine on those who sit in darkness' echoes the Servant's commission 'to bring out... from the prison those who sit in darkness' (Isaiah 42:7). The Servant-as-light-to-those-in-darkness theme coheres with the salvation-dawn imagery."
+                    },
+                    {
+                      "source": "Isaiah 58:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Then your light shall break out as the morning, and your healing shall spring out speedily; and your righteousness shall go before you; Yahweh’s glory shall be your rear guard.",
+                      "note": "'The dawn from on high will visit us, to shine' echoes Isaiah 58:8, 'then shall your light break forth like the dawn.' The light-breaks-forth-like-dawn imagery contributes to the anatole metaphor; a coherent supporting echo."
+                    },
+                    {
+                      "source": "Isaiah 60:1-2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“Arise, shine; for your light has come, and Yahweh’s glory is risen on you. For, behold, darkness shall cover the earth, and gross darkness the peoples; but Yahweh will arise on you, and his glory shall be seen on you.",
+                      "note": "'The dawn... will shine on those who sit in darkness' echoes Isaiah 60:1-2, 'Arise, shine, for your light has come... darkness shall cover the earth... but the Lord will arise upon you.' The light-rising-over-darkness imagery coheres with the eschatological-dawn theme."
+                    },
+                    {
+                      "source": "Isaiah 59:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The way of peace they don’t know; and there is no justice in their goings: they have made them crooked paths; whoever goes therein does not know peace.",
+                      "note": "'To guide our feet into the way of peace' echoes Isaiah 59:8, 'The way of peace they do not know,' the very condition the dawn now reverses. The way-of-peace diction is distinctive enough to register as a focused echo."
+                    },
+                    {
+                      "source": "Jeremiah 23:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, the days come, says Yahweh, that I will raise to David a righteous Branch, and he shall reign as king and deal wisely, and shall execute justice and righteousness in the land.",
+                      "note": "'The dawn from on high' may also evoke the 'righteous Branch' raised up for David in Jeremiah 23:5 (LXX anatole at 23:5/33:15). The Davidic-branch coherence is good but the link is mediated through Zechariah's clearer anatole usage, so it is a faint contested echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 25:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He will guide the humble in justice. He will teach the humble his way.",
+                      "note": "'To guide our feet into the way of peace' faintly echoes 'He leads the humble in what is right, and teaches the humble his way' (Psalm 25:9; cf. 25:4). The God-guides-in-the-way motif coheres, but the diction is generic, making this a low contested echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -747,7 +1168,233 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:9-14",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The prayer to be 'filled with the knowledge of his will in all spiritual wisdom and understanding' (v.9) draws on the messianic endowment of Isaiah 11:2, the Spirit of wisdom and understanding, of counsel and knowledge. The triad wisdom/understanding/knowledge clusters in both texts, a coherent Spirit-given cognition of God's will."
+                    },
+                    {
+                      "source": "Exodus 31:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and I have filled him with the Spirit of God, in wisdom, and in understanding, and in knowledge, and in all kinds of workmanship,",
+                      "note": "Being 'filled with' wisdom and understanding (v.9) echoes Bezalel filled with the Spirit of God 'in wisdom, in understanding, and in knowledge' for the work of the sanctuary. The fullness-of-Spirit-wisdom idiom and the same three faculties make this a strong lexical parallel; availability in Exodus is secure."
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "Being delivered 'out of the power of darkness' and translated into the kingdom (v.13) draws on Isaiah's people walking in darkness who see a great light and the dawning kingdom of the messianic son (9:6-7). Light/darkness reversal plus an established kingdom of a royal son cohere tightly."
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "'The kingdom of the Son of his love' (v.13) evokes the royal-adoption oracle 'You are my Son'; with v.15-18's firstborn language it situates Christ in the Davidic sonship of Psalm 2. Volume here is thematic (beloved royal son enthroned over a kingdom) rather than verbal."
+                    },
+                    {
+                      "source": "Genesis 22:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "'The Son of his love' / the Beloved (v.13) carries the Aqedah resonance of Isaac, 'your son, your only son, whom you love,' a beloved-son figure offered up. Coherence with the redemption-through-death theme that immediately follows (v.14, v.20) strengthens the figural reading of the beloved son.",
+                      "contested": true,
+                      "altSource": "Psalm 2:7"
+                    },
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "'In whom we have our redemption' after being delivered out of the domain of darkness (v.13-14) replays the exodus pattern: God redeems (apolytrosis/lytrosis) Israel out of bondage with an outstretched arm. The deliverance-then-redemption sequence and transfer into God's kingdom map onto the exodus from Egypt's darkness."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 9:9-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And with you is wisdom, which knows your works, And was present when you were making the world, And which understands what is pleasing in your eyes, And what is right according to your commandments. Send her forth out of the holy heavens, And from the throne of your glory bid her come, That being present with me she may toil with me, And that I may learn what is well-pleasing before you. For she knows all things and has understanding thereof, And in my […]",
+                      "note": "Solomon's prayer that Wisdom be sent to teach 'what is pleasing' to God and to guide him to 'walk' rightly parallels v.9-10's prayer for knowledge of God's will so as to 'walk worthily... pleasing him.' The walk/please/wisdom cluster is Wisdom-tradition coherent, though diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But go you your way until the end; for you shall rest, and shall stand in your lot, at the end of the days.",
+                      "note": "The 'inheritance of the saints in light' (v.12) faintly recalls Daniel's promise that the wise will 'rest and stand in your allotted inheritance at the end of days' and shine like the brightness of the firmament (12:3). The lot/inheritance of the holy ones in light is apocalyptic-coherent. Faint, contested.",
+                      "contested": true,
+                      "altSource": "Wisdom of Solomon 5:5"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How was he counted among sons of God? And how is his lot among saints?",
+                      "note": "'The inheritance of the saints in light' (v.12) resonates with Wisdom 5:5, where the righteous are numbered 'among the sons of God' and their 'lot is among the saints/holy ones.' Shared lot-among-the-holy-ones language gives modest coherence with Second-Temple beatific-portion expectation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill.",
+                      "note": "'Son of his love' (v.13) may faintly echo Isaiah's 'song of my beloved' for the vineyard; the LXX agapetos vocabulary links beloved-son and beloved-vineyard traditions. Low volume and contested against the stronger Psalm 2 / Genesis 22 candidates.",
+                      "contested": true,
+                      "altSource": "Genesis 22:2"
+                    },
+                    {
+                      "source": "Isaiah 43:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+                      "note": "'Our redemption, the forgiveness of sins' (v.14) resonates with Isaiah's 'I have redeemed you, I have called you by name, you are mine,' and 43:25's blotting out of transgressions. Redemption coupled with forgiveness is a second-exodus motif; volume modest, flagged contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 10:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”",
+                      "note": "The 'power of darkness' from which we are delivered (v.13) may glance at the plague of palpable darkness over Egypt that the exodus undoes, reinforcing the deliverance-from-darkness-into-kingdom exodus typology. Faint and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 9:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:15-20",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "'The image of the invisible God' (v.15) directly invokes the creation of humanity in the image and likeness of God. Christ is presented as the true eikon in whom the protological image is realized, and the hymn's creation framing (v.16) confirms the Genesis 1 backdrop. High volume and coherence."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 7:25-26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For she is a breath of the power of God, And a clear effluence of the glory of the Almighty; Therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "'Image of the invisible God' (v.15) and the fullness/glory motifs draw on Wisdom personified as 'a breath of the power of God,' 'a pure emanation of the glory of the Almighty,' 'a spotless mirror... and an image (eikon) of his goodness.' The eikon-of-the-invisible-God predicate is a near-direct Wisdom borrowing."
+                    },
+                    {
+                      "source": "Proverbs 8:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old.",
+                      "note": "'The firstborn of all creation' who is 'before all things' (v.15,17) recasts Wisdom, whom 'the LORD created/possessed as the beginning (arche) of his way, before his works of old.' The hymn maps Christ onto pre-existent Wisdom as the principle and firstfruit of creation; v.18 even calls him arche."
+                    },
+                    {
+                      "source": "Proverbs 8:27-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When he established the heavens, I was there; when he set a circle on the surface of the deep, when he established the clouds above, when the springs of the deep became strong, when he gave to the sea its boundary, that the waters should not violate his commandment, when he marked out the foundations of the earth; then I was the craftsman by his side. I was a delight day by day, always rejoicing before him,",
+                      "note": "'For by/in him all things were created' and 'in him all things hold together' (v.16-17) draws on Wisdom present when God established the heavens, the deep, and the foundations, beside him as the agent/craftsman of creation. Wisdom-as-cosmic-mediator coherence is strong across the whole hymn."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'The firstborn (prototokos) of all creation' (v.15) and 'firstborn from the dead' (v.18) draw on the Davidic oracle 'I will make him the firstborn, the highest of the kings of the earth.' Firstborn as a title of supreme rank and primacy ('that he might be preeminent') matches Psalm 89's royal exaltation exactly."
+                    },
+                    {
+                      "source": "Genesis 1:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the beginning, God created the heavens and the earth.",
+                      "note": "'By him all things were created, in heaven and on earth' (v.16) is a deliberate restatement of 'In the beginning God created the heavens and the earth,' with the merism heaven/earth and the verb create binding the hymn to Genesis 1. Christ is the agent through whom the Genesis creation comes to be."
+                    },
+                    {
+                      "source": "Psalm 33:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "By Yahweh’s word, the heavens were made; all their army by the breath of his mouth.",
+                      "note": "'By him all things were created... all things have been created through him' (v.16) echoes 'By the word of the LORD the heavens were made, and all their host by the breath of his mouth.' Creation-by-the-word coherence supports the Logos/Wisdom agency Colossians ascribes to Christ."
+                    },
+                    {
+                      "source": "Sirach 43:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "By reason of him his end has success, And by his word all things consist.",
+                      "note": "'In him all things hold together' (v.17) parallels Sirach's cosmological 'by his word all things hold together' (en logo autou sygkeitai ta panta), the sustaining of the cosmos by the divine word. The cohesion verb and the all-things object make this a strong Second-Temple sapiential parallel."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 1:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Because the spirit of the Lord has filled the world, And that which holds all things together has knowledge of every voice.",
+                      "note": "'In him all things hold together' (v.17) resonates with Wisdom's 'the spirit of the Lord has filled the world, and that which holds all things together (to synechon ta panta) knows every word.' Wisdom as the cosmic glue that fills and binds the universe undergirds the hymn's sustaining-Christ claim."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 8:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But she reaches from one end of the world to the other with full strength, And ordereth all things graciously.",
+                      "note": "'He is before all things, and in him all things hold together' (v.17) echoes 'Wisdom reaches mightily from one end of the earth to the other, and orders all things well.' Wisdom's pervasive cosmic ordering supports Christ's pre-eminence and sustaining role."
+                    },
+                    {
+                      "source": "1 Kings 8:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "so that the priests could not stand to minister by reason of the cloud; for Yahweh’s glory filled Yahweh’s house.",
+                      "note": "'All the fullness was pleased to dwell in him' (v.19) draws on the glory (kabod) filling the temple so that it could not be contained, the divine presence taking up bodily dwelling. Christ becomes the new temple in whom the full divine presence indwells; the dwelling/fullness/glory cluster (cf. v.27) coheres."
+                    },
+                    {
+                      "source": "Psalm 68:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why do you look in envy, you rugged mountains, at the mountain where God chooses to reign? Yes, Yahweh will dwell there forever.",
+                      "note": "'For in him all the fullness was pleased to dwell' (v.19) faintly echoes the mountain that God 'desired for his dwelling,' where the LORD will dwell forever, transferring the chosen-dwelling motif onto Christ as the locus where God is pleased to dwell. Volume low; the eudokia/katoikein dwelling logic is the link.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Psalm 132:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For Yahweh has chosen Zion. He has desired it for his habitation. “This is my resting place forever. Here I will live, for I have desired it.",
+                      "note": "'The fullness was pleased to dwell in him' (v.19) resonates with the LORD's choice of Zion: 'this is my resting place forever; here I will dwell, for I have desired it.' The desire/pleasure-to-dwell verb aligns; faint and overlapping with the 1 Kings 8 temple-glory echo.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Leviticus 16:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "for on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh.",
+                      "note": "'To reconcile all things to himself... making peace through the blood of his cross' (v.20) reframes the Day of Atonement reconciliation accomplished by blood. The blood-effecting-reconciliation logic is Levitical; volume low because Colossians universalizes it cosmically rather than cultically.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
+                      "note": "'Making peace through the blood of his cross' (v.20) faintly recalls the Servant whose chastisement brought 'peace' (shalom) and whose wounds bring healing. The peace-through-suffering-death linkage is coherent; flagged contested given the diffuse wording.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -766,7 +1413,187 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "23.6",
+                  "ref": "23:32-34",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "Crucified between 'two criminals' fulfills 'he was numbered with the transgressors' (Isa 53:12), a verse Luke quotes explicitly at 22:37 and here enacts narratively. The 'forgive them' intercession likewise renders the Servant who 'made intercession for the transgressors.' Both Servant clauses converge on this scene with high volume and recurrence."
+                    },
+                    {
+                      "source": "Psalm 22:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "They divide my garments among them. They cast lots for my clothing.",
+                      "note": "'Dividing his garments among them, they cast lots' directly enacts Psalm 22:18, 'they divide my garments among them, and for my clothing they cast lots.' Verbal correspondence is exact; this is the most secure Psalm-22 echo in the chapter."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "'Father, forgive them, for they don't know what they are doing' embodies the Servant who 'bore the sin of many and made intercession for the transgressors.' The dying intercession for the executioners is the narrative form of Isaiah 53:12's final clause; high coherence within Luke's Servant Christology."
+                    },
+                    {
+                      "source": "Psalm 109:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In return for my love, they are my adversaries; but I am in prayer.",
+                      "note": "'In return for my love they accuse me, but I give myself to prayer' colors the dying intercession 'forgive them.' The righteous sufferer who prays for his persecutors is a psalm topos; faint verbal contact, coherent with the lament cluster.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 50:17-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "‘You shall tell Joseph, “Now please forgive the disobedience of your brothers, and their sin, because they did evil to you.”’ Now, please forgive the disobedience of the servants of the God of your father.” Joseph wept when they spoke to him. His brothers also went and fell down before his face; and they said, “Behold, we are your servants.” Joseph said to them, “Don’t be afraid, for am I in the place of God? As for you, you meant evil against me, but God […]",
+                      "note": "Joseph forgiving brothers who 'did not know' the good God intended frames the 'they know not what they do' ignorance-forgiveness pattern. A thematic Second-Temple resonance (cf. Acts 3:17 'you acted in ignorance'); offered low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Speak to the children of Israel, saying, ‘If anyone sins unintentionally, in any of the things which Yahweh has commanded not to be done, and does any one of them:",
+                      "note": "Forgiveness for those who 'know not what they do' aligns with the Torah category of unintentional/inadvertent sin (sins of ignorance) which is atoneable. Luke may be invoking the legal distinction that makes intercession fitting; faint but available.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "23.7",
+                  "ref": "23:35-38",
+                  "echoes": [
+                    {
+                      "source": "Psalm 22:6-8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "But I am a worm, and no man; a reproach of men, and despised by the people. All those who see me mock me. They insult me with their lips. They shake their heads, saying, “He trusts in Yahweh; let him deliver him. Let him rescue him, since he delights in him.”",
+                      "note": "The rulers scoff 'He saved others; let him save himself, if this is the Christ' — a close rendering of Psalm 22:8, 'He trusts in the LORD; let him deliver him, let him rescue him, for he delights in him,' framed by 22:7's mocking head-shakers. Volume and recurrence (Luke's sustained Ps 22 use) make this high."
+                    },
+                    {
+                      "source": "Psalm 69:21",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "They also gave me gall for my food. In my thirst, they gave me vinegar to drink.",
+                      "note": "The soldiers 'offering him vinegar' enacts Psalm 69:21, 'for my thirst they gave me vinegar (sour wine) to drink' — the mocking drink of the righteous sufferer. Direct lexical correspondence (oxos); a core Passion-psalm fulfillment."
+                    },
+                    {
+                      "source": "Wisdom 2:17-20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Let us see if his words be true, And let us try what shall befall in the ending of his life. For if the righteous man is God’s son, he will uphold him, And he will deliver him out of the hand of his adversaries. With outrage and torture let us put him to the test, That we may learn his gentleness, And may prove his patience under wrong. Let us condemn him to a shameful death; For he will be visited according to his words.",
+                      "note": "'Let us see if his words are true... if the righteous man is God's son, he will help him and deliver him' — the wicked taunting the righteous one to prove divine sonship maps precisely onto 'if this is the Christ of God, his chosen one... save yourself.' Deuterocanonical and demonstrably available, this taunt-of-the-righteous text is a strong source for the mockery's logic."
+                    },
+                    {
+                      "source": "Psalm 22:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "All those who see me mock me. They insult me with their lips. They shake their heads, saying,",
+                      "note": "'The people stood watching... the rulers scoffed' realizes Psalm 22:7, 'all who see me mock me; they make mouths at me, they wag their heads.' The watching-and-deriding tableau is the psalm's own scene; recurrence with v. 35 mockery is strong."
+                    },
+                    {
+                      "source": "Isaiah 42:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Behold, my servant, whom I uphold; my chosen, in whom my soul delights— I have put my Spirit on him. He will bring justice to the nations.",
+                      "note": "'the Christ of God, his chosen one' (ho eklektos) echoes Isaiah 42:1, 'my chosen, in whom my soul delights,' the Servant designation Luke favors (cf. the transfiguration 'my Chosen'). The title brings the Servant frame into the mockery scene."
+                    },
+                    {
+                      "source": "Psalm 89:38-39",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But you have rejected and spurned. You have been angry with your anointed. You have renounced the covenant of your servant. You have defiled his crown in the dust.",
+                      "note": "God's anointed rejected and scorned ('you have renounced... cast off your anointed') resonates with the mocking of the Christ/chosen one. A royal-lament background to the messianic mockery; faint verbal contact.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "23.8",
+                  "ref": "23:39-43",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The dialogue with the two criminals continues the 'numbered with the transgressors' enactment; the penitent's confession 'this man has done nothing wrong' restates the Servant's innocence (Isa 53:9 'he had done no violence'). Luke turns the transgressor-companions into witnesses to the just sufferer."
+                    },
+                    {
+                      "source": "Isaiah 53:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They made his grave with the wicked, and with a rich man in his death; although he had done no violence, neither was any deceit in his mouth.",
+                      "note": "'This man has done nothing wrong' echoes 'he had done no violence, neither was any deceit in his mouth' — the criminal's verdict confirms the Servant's blamelessness even among the condemned. Coherent with Luke's innocence motif (vv. 4, 14, 22, 47)."
+                    },
+                    {
+                      "source": "Isaiah 51:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For Yahweh has comforted Zion; he has comforted all her waste places, and has made her wilderness like Eden, and her desert like the garden of Yahweh; joy and gladness shall be found therein, thanksgiving, and the voice of melody.",
+                      "note": "'Today you will be with me in Paradise' draws on Isaiah's promise that the LORD will comfort Zion and 'make her wilderness like Eden, her desert like the garden (paradeisos) of the LORD.' The eschatological-Eden 'paradise' is the availably scriptural term Luke uses for restored blessedness."
+                    },
+                    {
+                      "source": "Genesis 2:8-9",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh God planted a garden eastward, in Eden, and there he put the man whom he had formed. Out of the ground Yahweh God made every tree to grow that is pleasant to the sight, and good for food, including the tree of life in the middle of the garden and the tree of the knowledge of good and evil.",
+                      "note": "'Paradise' (paradeisos, the LXX word for the Eden garden) frames Jesus' promise as the regained Eden — readmission to the garden and the tree of life forfeited in Genesis 3. The figural Eden-restoration reading is well grounded in the LXX vocabulary; medium because Luke does not cite Genesis directly.",
+                      "altSource": "Genesis 3:23-24"
+                    },
+                    {
+                      "source": "Ezekiel 28:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You were in Eden, the garden of God; every precious stone adorned you: ruby, topaz, emerald, chrysolite, onyx, jasper, sapphire, turquoise, and beryl. Gold work of tambourines and of pipes was in you. In the day that you were created they were prepared.",
+                      "note": "'Eden, the garden of God' (paradeisos in LXX) supplies another availability for the restored-paradise hope. Secondary to the Genesis/Isaiah Eden language; offered as a faint lexical support.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "'Remember me when you come into your Kingdom' invokes the bestowal of an everlasting kingdom on one like a son of man (Dan 7:14). The kingdom-coming hope draws on Danielic enthronement language; thematic rather than verbal here.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Crucifixion",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "27:32–44",
+                        "mark": "15:21–32",
+                        "luke": "23:26–43",
+                        "john": "19:16–27"
+                      },
+                      "note": "The seven last words are scattered across all four — no single gospel holds them all. Luke gives the penitent thief; John, the mother and the beloved disciple."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1691,7 +2518,145 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/jeremiah-23"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Jeremiah 23:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.6.30-Mark.6.34",
+                      "refDisplay": "Mark 6:30–34",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.4"
+                    },
+                    {
+                      "refKey": "Luke.15.3-Luke.15.7",
+                      "refDisplay": "Luke 15:3–7",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-15.2"
+                    },
+                    {
+                      "refKey": "John.10.7-John.10.10",
+                      "refDisplay": "John 10:7–10",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "10.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-10.2"
+                    },
+                    {
+                      "refKey": "John.21.15-John.21.17",
+                      "refDisplay": "John 21:15–17",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "21.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-21.3"
+                    },
+                    {
+                      "refKey": "1Pet.5.1-1Pet.5.4",
+                      "refDisplay": "1 Peter 5:1–4",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "5.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-5.1"
+                    },
+                    {
+                      "refKey": "Matt.18.12-Matt.18.14",
+                      "refDisplay": "Matthew 18:12–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "18.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-18.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 23:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.2.19-Matt.2.23",
+                      "refDisplay": "Matthew 2:19–23",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "2.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-2.4"
+                    },
+                    {
+                      "refKey": "Luke.1.76-Luke.1.80",
+                      "refDisplay": "Luke 1:76–80",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "1.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-1.14"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 23:3",
+                  "occurrences": [
+                    {
+                      "refKey": "John.11.45-John.11.53",
+                      "refDisplay": "John 11:45–53",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "11.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-11.5"
+                    },
+                    {
+                      "refKey": "Col.1.3-Col.1.8",
+                      "refDisplay": "Colossians 1:3–8",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "1.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-1.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jeremiah 23:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.1.26-1Cor.1.31",
+                      "refDisplay": "1 Corinthians 1:26–31",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "1.5",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-1.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1704,7 +2669,95 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-46"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 46:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.21.18-Matt.21.22",
+                      "refDisplay": "Matthew 21:18–22",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "21.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-21.3"
+                    },
+                    {
+                      "refKey": "Luke.17.5-Luke.17.6",
+                      "refDisplay": "Luke 17:5–6",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "17.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-17.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 46:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.21.25-Luke.21.28",
+                      "refDisplay": "Luke 21:25–28",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "21.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-21.6"
+                    },
+                    {
+                      "refKey": "Mark.11.20-Mark.11.26",
+                      "refDisplay": "Mark 11:20–26",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "11.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-11.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 46:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.8.23-Matt.8.27",
+                      "refDisplay": "Matthew 8:23–27",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "8.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-8.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 46:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.22.1-Rev.22.5",
+                      "refDisplay": "Revelation 22:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "22.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-22.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1723,7 +2776,233 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.3",
+                  "ref": "1:9-14",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 11:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The Spirit of Yahweh will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+                      "note": "The prayer to be 'filled with the knowledge of his will in all spiritual wisdom and understanding' (v.9) draws on the messianic endowment of Isaiah 11:2, the Spirit of wisdom and understanding, of counsel and knowledge. The triad wisdom/understanding/knowledge clusters in both texts, a coherent Spirit-given cognition of God's will."
+                    },
+                    {
+                      "source": "Exodus 31:3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and I have filled him with the Spirit of God, in wisdom, and in understanding, and in knowledge, and in all kinds of workmanship,",
+                      "note": "Being 'filled with' wisdom and understanding (v.9) echoes Bezalel filled with the Spirit of God 'in wisdom, in understanding, and in knowledge' for the work of the sanctuary. The fullness-of-Spirit-wisdom idiom and the same three faculties make this a strong lexical parallel; availability in Exodus is secure."
+                    },
+                    {
+                      "source": "Isaiah 9:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The people who walked in darkness have seen a great light. Those who lived in the land of the shadow of death, on them the light has shined.",
+                      "note": "Being delivered 'out of the power of darkness' and translated into the kingdom (v.13) draws on Isaiah's people walking in darkness who see a great light and the dawning kingdom of the messianic son (9:6-7). Light/darkness reversal plus an established kingdom of a royal son cohere tightly."
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "'The kingdom of the Son of his love' (v.13) evokes the royal-adoption oracle 'You are my Son'; with v.15-18's firstborn language it situates Christ in the Davidic sonship of Psalm 2. Volume here is thematic (beloved royal son enthroned over a kingdom) rather than verbal."
+                    },
+                    {
+                      "source": "Genesis 22:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He said, “Now take your son, your only son, whom you love, even Isaac, and go into the land of Moriah. Offer him there for a burnt offering on one of the mountains which I will tell you of.”",
+                      "note": "'The Son of his love' / the Beloved (v.13) carries the Aqedah resonance of Isaac, 'your son, your only son, whom you love,' a beloved-son figure offered up. Coherence with the redemption-through-death theme that immediately follows (v.14, v.20) strengthens the figural reading of the beloved son.",
+                      "contested": true,
+                      "altSource": "Psalm 2:7"
+                    },
+                    {
+                      "source": "Exodus 6:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore tell the children of Israel, ‘I am Yahweh, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with an outstretched arm, and with great judgments:",
+                      "note": "'In whom we have our redemption' after being delivered out of the domain of darkness (v.13-14) replays the exodus pattern: God redeems (apolytrosis/lytrosis) Israel out of bondage with an outstretched arm. The deliverance-then-redemption sequence and transfer into God's kingdom map onto the exodus from Egypt's darkness."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 9:9-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And with you is wisdom, which knows your works, And was present when you were making the world, And which understands what is pleasing in your eyes, And what is right according to your commandments. Send her forth out of the holy heavens, And from the throne of your glory bid her come, That being present with me she may toil with me, And that I may learn what is well-pleasing before you. For she knows all things and has understanding thereof, And in my […]",
+                      "note": "Solomon's prayer that Wisdom be sent to teach 'what is pleasing' to God and to guide him to 'walk' rightly parallels v.9-10's prayer for knowledge of God's will so as to 'walk worthily... pleasing him.' The walk/please/wisdom cluster is Wisdom-tradition coherent, though diffuse.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But go you your way until the end; for you shall rest, and shall stand in your lot, at the end of the days.",
+                      "note": "The 'inheritance of the saints in light' (v.12) faintly recalls Daniel's promise that the wise will 'rest and stand in your allotted inheritance at the end of days' and shine like the brightness of the firmament (12:3). The lot/inheritance of the holy ones in light is apocalyptic-coherent. Faint, contested.",
+                      "contested": true,
+                      "altSource": "Wisdom of Solomon 5:5"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "How was he counted among sons of God? And how is his lot among saints?",
+                      "note": "'The inheritance of the saints in light' (v.12) resonates with Wisdom 5:5, where the righteous are numbered 'among the sons of God' and their 'lot is among the saints/holy ones.' Shared lot-among-the-holy-ones language gives modest coherence with Second-Temple beatific-portion expectation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 5:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill.",
+                      "note": "'Son of his love' (v.13) may faintly echo Isaiah's 'song of my beloved' for the vineyard; the LXX agapetos vocabulary links beloved-son and beloved-vineyard traditions. Low volume and contested against the stronger Psalm 2 / Genesis 22 candidates.",
+                      "contested": true,
+                      "altSource": "Genesis 22:2"
+                    },
+                    {
+                      "source": "Isaiah 43:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+                      "note": "'Our redemption, the forgiveness of sins' (v.14) resonates with Isaiah's 'I have redeemed you, I have called you by name, you are mine,' and 43:25's blotting out of transgressions. Redemption coupled with forgiveness is a second-exodus motif; volume modest, flagged contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 10:21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”",
+                      "note": "The 'power of darkness' from which we are delivered (v.13) may glance at the plague of palpable darkness over Egypt that the exodus undoes, reinforcing the deliverance-from-darkness-into-kingdom exodus typology. Faint and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 9:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.4",
+                  "ref": "1:15-20",
+                  "echoes": [
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "'The image of the invisible God' (v.15) directly invokes the creation of humanity in the image and likeness of God. Christ is presented as the true eikon in whom the protological image is realized, and the hymn's creation framing (v.16) confirms the Genesis 1 backdrop. High volume and coherence."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 7:25-26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "For she is a breath of the power of God, And a clear effluence of the glory of the Almighty; Therefore can nothing defiled find entrance into her. For she is an effulgence from everlasting light, And an unspotted mirror of the working of God, And an image of his goodness.",
+                      "note": "'Image of the invisible God' (v.15) and the fullness/glory motifs draw on Wisdom personified as 'a breath of the power of God,' 'a pure emanation of the glory of the Almighty,' 'a spotless mirror... and an image (eikon) of his goodness.' The eikon-of-the-invisible-God predicate is a near-direct Wisdom borrowing."
+                    },
+                    {
+                      "source": "Proverbs 8:22",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Yahweh possessed me in the beginning of his work, before his deeds of old.",
+                      "note": "'The firstborn of all creation' who is 'before all things' (v.15,17) recasts Wisdom, whom 'the LORD created/possessed as the beginning (arche) of his way, before his works of old.' The hymn maps Christ onto pre-existent Wisdom as the principle and firstfruit of creation; v.18 even calls him arche."
+                    },
+                    {
+                      "source": "Proverbs 8:27-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When he established the heavens, I was there; when he set a circle on the surface of the deep, when he established the clouds above, when the springs of the deep became strong, when he gave to the sea its boundary, that the waters should not violate his commandment, when he marked out the foundations of the earth; then I was the craftsman by his side. I was a delight day by day, always rejoicing before him,",
+                      "note": "'For by/in him all things were created' and 'in him all things hold together' (v.16-17) draws on Wisdom present when God established the heavens, the deep, and the foundations, beside him as the agent/craftsman of creation. Wisdom-as-cosmic-mediator coherence is strong across the whole hymn."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'The firstborn (prototokos) of all creation' (v.15) and 'firstborn from the dead' (v.18) draw on the Davidic oracle 'I will make him the firstborn, the highest of the kings of the earth.' Firstborn as a title of supreme rank and primacy ('that he might be preeminent') matches Psalm 89's royal exaltation exactly."
+                    },
+                    {
+                      "source": "Genesis 1:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "In the beginning, God created the heavens and the earth.",
+                      "note": "'By him all things were created, in heaven and on earth' (v.16) is a deliberate restatement of 'In the beginning God created the heavens and the earth,' with the merism heaven/earth and the verb create binding the hymn to Genesis 1. Christ is the agent through whom the Genesis creation comes to be."
+                    },
+                    {
+                      "source": "Psalm 33:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "By Yahweh’s word, the heavens were made; all their army by the breath of his mouth.",
+                      "note": "'By him all things were created... all things have been created through him' (v.16) echoes 'By the word of the LORD the heavens were made, and all their host by the breath of his mouth.' Creation-by-the-word coherence supports the Logos/Wisdom agency Colossians ascribes to Christ."
+                    },
+                    {
+                      "source": "Sirach 43:26",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "By reason of him his end has success, And by his word all things consist.",
+                      "note": "'In him all things hold together' (v.17) parallels Sirach's cosmological 'by his word all things hold together' (en logo autou sygkeitai ta panta), the sustaining of the cosmos by the divine word. The cohesion verb and the all-things object make this a strong Second-Temple sapiential parallel."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 1:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Because the spirit of the Lord has filled the world, And that which holds all things together has knowledge of every voice.",
+                      "note": "'In him all things hold together' (v.17) resonates with Wisdom's 'the spirit of the Lord has filled the world, and that which holds all things together (to synechon ta panta) knows every word.' Wisdom as the cosmic glue that fills and binds the universe undergirds the hymn's sustaining-Christ claim."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 8:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But she reaches from one end of the world to the other with full strength, And ordereth all things graciously.",
+                      "note": "'He is before all things, and in him all things hold together' (v.17) echoes 'Wisdom reaches mightily from one end of the earth to the other, and orders all things well.' Wisdom's pervasive cosmic ordering supports Christ's pre-eminence and sustaining role."
+                    },
+                    {
+                      "source": "1 Kings 8:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "so that the priests could not stand to minister by reason of the cloud; for Yahweh’s glory filled Yahweh’s house.",
+                      "note": "'All the fullness was pleased to dwell in him' (v.19) draws on the glory (kabod) filling the temple so that it could not be contained, the divine presence taking up bodily dwelling. Christ becomes the new temple in whom the full divine presence indwells; the dwelling/fullness/glory cluster (cf. v.27) coheres."
+                    },
+                    {
+                      "source": "Psalm 68:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why do you look in envy, you rugged mountains, at the mountain where God chooses to reign? Yes, Yahweh will dwell there forever.",
+                      "note": "'For in him all the fullness was pleased to dwell' (v.19) faintly echoes the mountain that God 'desired for his dwelling,' where the LORD will dwell forever, transferring the chosen-dwelling motif onto Christ as the locus where God is pleased to dwell. Volume low; the eudokia/katoikein dwelling logic is the link.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Psalm 132:13-14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For Yahweh has chosen Zion. He has desired it for his habitation. “This is my resting place forever. Here I will live, for I have desired it.",
+                      "note": "'The fullness was pleased to dwell in him' (v.19) resonates with the LORD's choice of Zion: 'this is my resting place forever; here I will dwell, for I have desired it.' The desire/pleasure-to-dwell verb aligns; faint and overlapping with the 1 Kings 8 temple-glory echo.",
+                      "contested": true,
+                      "altSource": "1 Kings 8:11"
+                    },
+                    {
+                      "source": "Leviticus 16:30",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "for on this day shall atonement be made for you, to cleanse you; from all your sins you shall be clean before Yahweh.",
+                      "note": "'To reconcile all things to himself... making peace through the blood of his cross' (v.20) reframes the Day of Atonement reconciliation accomplished by blood. The blood-effecting-reconciliation logic is Levitical; volume low because Colossians universalizes it cosmically rather than cultically.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
+                      "note": "'Making peace through the blood of his cross' (v.20) faintly recalls the Servant whose chastisement brought 'peace' (shalom) and whose wounds bring healing. The peace-through-suffering-death linkage is coherent; flagged contested given the diffuse wording.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1742,7 +3021,187 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "23.6",
+                  "ref": "23:32-34",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "Crucified between 'two criminals' fulfills 'he was numbered with the transgressors' (Isa 53:12), a verse Luke quotes explicitly at 22:37 and here enacts narratively. The 'forgive them' intercession likewise renders the Servant who 'made intercession for the transgressors.' Both Servant clauses converge on this scene with high volume and recurrence."
+                    },
+                    {
+                      "source": "Psalm 22:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "They divide my garments among them. They cast lots for my clothing.",
+                      "note": "'Dividing his garments among them, they cast lots' directly enacts Psalm 22:18, 'they divide my garments among them, and for my clothing they cast lots.' Verbal correspondence is exact; this is the most secure Psalm-22 echo in the chapter."
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "'Father, forgive them, for they don't know what they are doing' embodies the Servant who 'bore the sin of many and made intercession for the transgressors.' The dying intercession for the executioners is the narrative form of Isaiah 53:12's final clause; high coherence within Luke's Servant Christology."
+                    },
+                    {
+                      "source": "Psalm 109:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "In return for my love, they are my adversaries; but I am in prayer.",
+                      "note": "'In return for my love they accuse me, but I give myself to prayer' colors the dying intercession 'forgive them.' The righteous sufferer who prays for his persecutors is a psalm topos; faint verbal contact, coherent with the lament cluster.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 50:17-20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "‘You shall tell Joseph, “Now please forgive the disobedience of your brothers, and their sin, because they did evil to you.”’ Now, please forgive the disobedience of the servants of the God of your father.” Joseph wept when they spoke to him. His brothers also went and fell down before his face; and they said, “Behold, we are your servants.” Joseph said to them, “Don’t be afraid, for am I in the place of God? As for you, you meant evil against me, but God […]",
+                      "note": "Joseph forgiving brothers who 'did not know' the good God intended frames the 'they know not what they do' ignorance-forgiveness pattern. A thematic Second-Temple resonance (cf. Acts 3:17 'you acted in ignorance'); offered low.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Speak to the children of Israel, saying, ‘If anyone sins unintentionally, in any of the things which Yahweh has commanded not to be done, and does any one of them:",
+                      "note": "Forgiveness for those who 'know not what they do' aligns with the Torah category of unintentional/inadvertent sin (sins of ignorance) which is atoneable. Luke may be invoking the legal distinction that makes intercession fitting; faint but available.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "23.7",
+                  "ref": "23:35-38",
+                  "echoes": [
+                    {
+                      "source": "Psalm 22:6-8",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "But I am a worm, and no man; a reproach of men, and despised by the people. All those who see me mock me. They insult me with their lips. They shake their heads, saying, “He trusts in Yahweh; let him deliver him. Let him rescue him, since he delights in him.”",
+                      "note": "The rulers scoff 'He saved others; let him save himself, if this is the Christ' — a close rendering of Psalm 22:8, 'He trusts in the LORD; let him deliver him, let him rescue him, for he delights in him,' framed by 22:7's mocking head-shakers. Volume and recurrence (Luke's sustained Ps 22 use) make this high."
+                    },
+                    {
+                      "source": "Psalm 69:21",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "They also gave me gall for my food. In my thirst, they gave me vinegar to drink.",
+                      "note": "The soldiers 'offering him vinegar' enacts Psalm 69:21, 'for my thirst they gave me vinegar (sour wine) to drink' — the mocking drink of the righteous sufferer. Direct lexical correspondence (oxos); a core Passion-psalm fulfillment."
+                    },
+                    {
+                      "source": "Wisdom 2:17-20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Let us see if his words be true, And let us try what shall befall in the ending of his life. For if the righteous man is God’s son, he will uphold him, And he will deliver him out of the hand of his adversaries. With outrage and torture let us put him to the test, That we may learn his gentleness, And may prove his patience under wrong. Let us condemn him to a shameful death; For he will be visited according to his words.",
+                      "note": "'Let us see if his words are true... if the righteous man is God's son, he will help him and deliver him' — the wicked taunting the righteous one to prove divine sonship maps precisely onto 'if this is the Christ of God, his chosen one... save yourself.' Deuterocanonical and demonstrably available, this taunt-of-the-righteous text is a strong source for the mockery's logic."
+                    },
+                    {
+                      "source": "Psalm 22:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "All those who see me mock me. They insult me with their lips. They shake their heads, saying,",
+                      "note": "'The people stood watching... the rulers scoffed' realizes Psalm 22:7, 'all who see me mock me; they make mouths at me, they wag their heads.' The watching-and-deriding tableau is the psalm's own scene; recurrence with v. 35 mockery is strong."
+                    },
+                    {
+                      "source": "Isaiah 42:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Behold, my servant, whom I uphold; my chosen, in whom my soul delights— I have put my Spirit on him. He will bring justice to the nations.",
+                      "note": "'the Christ of God, his chosen one' (ho eklektos) echoes Isaiah 42:1, 'my chosen, in whom my soul delights,' the Servant designation Luke favors (cf. the transfiguration 'my Chosen'). The title brings the Servant frame into the mockery scene."
+                    },
+                    {
+                      "source": "Psalm 89:38-39",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But you have rejected and spurned. You have been angry with your anointed. You have renounced the covenant of your servant. You have defiled his crown in the dust.",
+                      "note": "God's anointed rejected and scorned ('you have renounced... cast off your anointed') resonates with the mocking of the Christ/chosen one. A royal-lament background to the messianic mockery; faint verbal contact.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "23.8",
+                  "ref": "23:39-43",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "The dialogue with the two criminals continues the 'numbered with the transgressors' enactment; the penitent's confession 'this man has done nothing wrong' restates the Servant's innocence (Isa 53:9 'he had done no violence'). Luke turns the transgressor-companions into witnesses to the just sufferer."
+                    },
+                    {
+                      "source": "Isaiah 53:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They made his grave with the wicked, and with a rich man in his death; although he had done no violence, neither was any deceit in his mouth.",
+                      "note": "'This man has done nothing wrong' echoes 'he had done no violence, neither was any deceit in his mouth' — the criminal's verdict confirms the Servant's blamelessness even among the condemned. Coherent with Luke's innocence motif (vv. 4, 14, 22, 47)."
+                    },
+                    {
+                      "source": "Isaiah 51:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For Yahweh has comforted Zion; he has comforted all her waste places, and has made her wilderness like Eden, and her desert like the garden of Yahweh; joy and gladness shall be found therein, thanksgiving, and the voice of melody.",
+                      "note": "'Today you will be with me in Paradise' draws on Isaiah's promise that the LORD will comfort Zion and 'make her wilderness like Eden, her desert like the garden (paradeisos) of the LORD.' The eschatological-Eden 'paradise' is the availably scriptural term Luke uses for restored blessedness."
+                    },
+                    {
+                      "source": "Genesis 2:8-9",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Yahweh God planted a garden eastward, in Eden, and there he put the man whom he had formed. Out of the ground Yahweh God made every tree to grow that is pleasant to the sight, and good for food, including the tree of life in the middle of the garden and the tree of the knowledge of good and evil.",
+                      "note": "'Paradise' (paradeisos, the LXX word for the Eden garden) frames Jesus' promise as the regained Eden — readmission to the garden and the tree of life forfeited in Genesis 3. The figural Eden-restoration reading is well grounded in the LXX vocabulary; medium because Luke does not cite Genesis directly.",
+                      "altSource": "Genesis 3:23-24"
+                    },
+                    {
+                      "source": "Ezekiel 28:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You were in Eden, the garden of God; every precious stone adorned you: ruby, topaz, emerald, chrysolite, onyx, jasper, sapphire, turquoise, and beryl. Gold work of tambourines and of pipes was in you. In the day that you were created they were prepared.",
+                      "note": "'Eden, the garden of God' (paradeisos in LXX) supplies another availability for the restored-paradise hope. Secondary to the Genesis/Isaiah Eden language; offered as a faint lexical support.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "'Remember me when you come into your Kingdom' invokes the bestowal of an everlasting kingdom on one like a son of man (Dan 7:14). The kingdom-coming hope draws on Danielic enthronement language; thematic rather than verbal here.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Crucifixion",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "27:32–44",
+                        "mark": "15:21–32",
+                        "luke": "23:26–43",
+                        "john": "19:16–27"
+                      },
+                      "note": "The seven last words are scattered across all four — no single gospel holds them all. Luke gives the penitent thief; John, the mother and the beloved disciple."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

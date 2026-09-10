@@ -515,7 +515,84 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/jonah/3/"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Jonah 3:5–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.12.38-Matt.12.42",
+                      "refDisplay": "Matthew 12:38–42",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "12.6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-12.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jonah 3:4–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.16.1-Matt.16.4",
+                      "refDisplay": "Matthew 16:1–4",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Jonah 3:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.11.29-Luke.11.32",
+                      "refDisplay": "Luke 11:29–32",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-11.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/jonah/3/",
+              "title": "Nineveh's Repentance",
+              "view": {
+                "center": [
+                  36.36,
+                  43.16
+                ],
+                "zoom": 9
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "nineveh",
+                  "name": "Nineveh",
+                  "coords": [
+                    36.359,
+                    43.158
+                  ],
+                  "tier": "identified",
+                  "id": "On the eastern bank of the Tigris opposite modern Mosul, Iraq. The two principal mounds are Tell Kuyunjik (the citadel and palaces of Sennacherib and Ashurbanipal) and Tell Nebi Yunus (traditionally Jonah's tomb, lower city). Excavated in the 1840s by Botta and Layard, who recovered the royal libraries and palace reliefs. The 'great city' of the book; capital of the Assyrian empire from Sennacherib's reign (c. 700 B.C.)."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -528,7 +605,125 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-62"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 62:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.16.24-Matt.16.28",
+                      "refDisplay": "Matthew 16:24–28",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.5"
+                    },
+                    {
+                      "refKey": "Rom.2.1-Rom.2.11",
+                      "refDisplay": "Romans 2:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "2.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-2.1"
+                    },
+                    {
+                      "refKey": "2Tim.4.14-2Tim.4.18",
+                      "refDisplay": "2 Timothy 4:14–18",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "4.14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-4.14"
+                    },
+                    {
+                      "refKey": "Rev.22.10-Rev.22.13",
+                      "refDisplay": "Revelation 22:10–13",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "22.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-22.3"
+                    },
+                    {
+                      "refKey": "2Cor.5.6-2Cor.5.10",
+                      "refDisplay": "2 Corinthians 5:6–10",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "5.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-5.2"
+                    },
+                    {
+                      "refKey": "Col.3.22-Col.3.25",
+                      "refDisplay": "Colossians 3:22–25",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "3.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/colossians#p-3.7"
+                    },
+                    {
+                      "refKey": "1Pet.1.13-1Pet.1.21",
+                      "refDisplay": "1 Peter 1:13–21",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.2"
+                    },
+                    {
+                      "refKey": "Rev.20.11-Rev.20.15",
+                      "refDisplay": "Revelation 20:11–15",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "20.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-20.4"
+                    },
+                    {
+                      "refKey": "Rom.14.1-Rom.14.12",
+                      "refDisplay": "Romans 14:1–12",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "14.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-14.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 62:10",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.6.17-1Tim.6.19",
+                      "refDisplay": "1 Timothy 6:17–19",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "6.17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-6.17"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -547,7 +742,68 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "7.6",
+                  "ref": "7:25-31",
+                  "echoes": [
+                    {
+                      "source": "Ecclesiastes 1:4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "One generation goes, and another generation comes; but the earth remains forever.",
+                      "note": "Paul's declaration that 'the mode of this world passes away' and his counsel to hold possessions loosely echo Qoheleth's vision of generations and the world in ceaseless passing under the sun, where buying, weeping, and rejoicing are all hevel. Coherence is high: the 'as though not' detachment from marriage, mourning, joy, and commerce mirrors Ecclesiastes' relativizing of all worldly engagements. Volume is thematic; medium."
+                    },
+                    {
+                      "source": "Isaiah 40:6-8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The voice of one saying, “Cry!” One said, “What shall I cry?” “All flesh is like grass, and all its glory is like the flower of the field. The grass withers, the flower fades, because Yahweh’s breath blows on it. Surely the people are like grass. The grass withers, the flower fades; but the word of our God stands forever.”",
+                      "note": "Paul's claim that 'the present form of this world is passing away' stands in the prophetic tradition of Isa 40:6-8, where 'all flesh is grass' and the world's glory withers while God's word stands—the contrast of transient world and enduring divine order that grounds Paul's eschatological detachment. Coherence and availability are high. Volume conceptual; medium confidence.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 39:5-6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Behold, you have made my days hand breadths. My lifetime is as nothing before you. Surely every man stands as a breath.” Selah. “Surely every man walks like a shadow. Surely they busy themselves in vain. He heaps up, and doesn’t know who shall gather.",
+                      "note": "Paul's 'those who buy as though they did not possess' and the fleeting 'form of this world' closely match Ps 39:6: 'man goes about as a shadow; he heaps up wealth and does not know who will gather it.' The shared image of buying/possessing as vain because life and world are transient is distinctive. Coherence with Paul's 'as though not' is strong; medium.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Zephaniah 1:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Be silent at the presence of the Lord Yahweh, for the day of Yahweh is at hand. For Yahweh has prepared a sacrifice. He has consecrated his guests.",
+                      "note": "Paul's sense that 'the time has grown short' and 'distress is upon us' echoes the prophetic announcement that the Day of the Lord is near and at hand (Zeph 1:7, 14), with its imminence relativizing ordinary life and commerce. Availability is secure; volume is low and the imminence motif is widespread, so the specific echo is contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ecclesiastes 3:4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "a time to weep, and a time to laugh; a time to mourn, and a time to dance;",
+                      "note": "Paul's catalogue 'those who weep as though they did not weep, those who rejoice as though they did not rejoice' faintly recalls Qoheleth's 'a time to weep and a time to laugh,' the sapiential relativizing of the emotional seasons of life. The link is thematic and the wording diverges; faint and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“At that time shall Michael stand up, the great prince who stands for the children of your people; and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time your people shall be delivered, everyone who shall be found written in the book.",
+                      "note": "Paul's reference to the present 'distress' and the foreshortened time may draw on Danielic expectation of a time of unparalleled distress before the end (Dan 12:1) and the apocalyptic notion of an appointed time cut short. Availability is good in a Second-Temple frame; volume is low and generic, so this is a faint contested echo.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -566,7 +822,117 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.5",
+                  "ref": "1:14-15",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "'The kingdom of God is at hand' announced as 'good news' fulfills the herald of Isaiah 52:7 who proclaims good news and says 'Your God reigns.' Volume couples the distinctive verb euangelizō with the reign of God, both present here; recurrence binds it to 1:1's euangelion. Coherence is maximal—this is Mark's thesis statement drawn from Isaiah's gospel of God's kingship."
+                    },
+                    {
+                      "source": "Daniel 2:44",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "In the days of those kings shall the God of heaven set up a kingdom which shall never be destroyed, nor shall its sovereignty be left to another people; but it shall break in pieces and consume all these kingdoms, and it shall stand forever.",
+                      "note": "The expectation that 'the God of heaven will set up a kingdom that shall never be destroyed' supplies the apocalyptic content of Jesus' 'kingdom of God.' Volume is conceptual but the specific phrase 'kingdom of God/heaven' has its clearest Second-Temple anchor in Daniel; coherence with Mark's 'the time is fulfilled' (an apocalyptic timetable) is strong."
+                    },
+                    {
+                      "source": "Daniel 7:13-14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him. There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "The everlasting dominion given to the 'one like a son of man' is the kingdom Mark's Jesus proclaims and later claims (Mark 13:26; 14:62). In 1:15 the contact is thematic—the inbreaking eternal kingdom—rather than verbal, but the recurrence of Daniel 7 across Mark gives the echo real weight here.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 61:1-2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound; to proclaim the year of Yahweh’s favor, and the day of vengeance of our God; to comfort all who mourn;",
+                      "note": "'The time is fulfilled' resonates with Isaiah 61:2's 'the acceptable year of the LORD,' the proclamation of the eschatological jubilee by the Spirit-anointed herald (cf. Jesus' anointing at 1:10). Volume is moderate on the 'favorable/fulfilled time' motif; coherence with the gospel-of-God framing is good, though Mark does not quote it as Luke does.",
+                      "contested": true,
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind; to declare the acceptable year of the Lord, and the day of recompence; to comfort all that mourn;"
+                    },
+                    {
+                      "source": "Ezekiel 7:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Your doom has come to you, inhabitant of the land: the time has come, the day is near, a day of tumult, and not of joyful shouting, on the mountains.",
+                      "note": "Ezekiel 7:7,12 declare 'the time has come, the day is near,' a near-formula for Mark's 'the time is fulfilled.' Volume is the shared 'the time has come' idiom, but Ezekiel's announcement is judgment, not gospel, weakening coherence; included as a faint, contested verbal parallel.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.6",
+                  "ref": "1:16-20",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 16:16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Behold, I will send for many fishermen, says Yahweh, and they shall fish them up; and afterward I will send for many hunters, and they shall hunt them from every mountain, and from every hill, and out of the clefts of the rocks.",
+                      "note": "'I will make you into fishers for men' draws on Jeremiah 16:16, 'I will send for many fishers... and they shall fish them.' Volume rests on the distinctive 'fishers of men' image, which is rare in scripture; coherence is the chief question because Jeremiah's fishers gather for judgment while Jesus' gather for salvation, a deliberate transvaluation. Distinctiveness makes the allusion likely."
+                    },
+                    {
+                      "source": "1 Kings 19:19-21",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "So he departed there, and found Elisha the son of Shaphat, who was plowing, with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed over to him, and cast his mantle on him. He left the oxen, and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.” He said to him, “Go back again; for what have I done to you?” He returned from following him, and took the yoke of oxen, and killed them, […]",
+                      "note": "The abrupt prophetic call—Jesus passing by, the brothers immediately leaving father and livelihood—mirrors Elijah's call of Elisha, who left his oxen and his father to follow. Volume lies in the shared call-narrative form (summons in the midst of work, leaving family/trade), and Mark's pervasive Elijah typology raises coherence and recurrence for the pattern, even without direct quotation."
+                    },
+                    {
+                      "source": "Ezekiel 47:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It shall happen, that fishermen shall stand by it: from En Gedi even to En Eglaim shall be a place for the spreading of nets; their fish shall be after their kinds, as the fish of the great sea, exceeding many.",
+                      "note": "Ezekiel's vision of fishermen spreading nets along the life-giving temple river offers a more positive 'fishers' background than Jeremiah's judgment. Volume is low (no verbal contact beyond 'fishermen/nets') and the link is thematic, so it is a contested alternate backdrop to the call of the fishermen.",
+                      "contested": true,
+                      "altSource": "Jeremiah 16:16"
+                    },
+                    {
+                      "source": "Amos 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Lord Yahweh has sworn by his holiness that behold, “The days shall come on you that they will take you away with hooks, and the last of you with fish hooks.",
+                      "note": "Amos 4:2 threatens that the people will be taken away 'with fishhooks,' another OT fishing-for-people image. Volume is faint and, like Jeremiah, the valence is judgment; included for maximal coverage of the 'catching people' metaphor though coherence with Jesus' summons is weak.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Calling fishermen by the sea",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "4:18–22",
+                        "mark": "1:16–20",
+                        "luke": "5:1–11"
+                      },
+                      "note": "Luke alone adds the great catch of fish and Peter's \"depart from me, for I am a sinful man.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

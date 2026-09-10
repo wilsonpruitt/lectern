@@ -770,7 +770,151 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.2",
+                  "ref": "3:11-16",
+                  "echoes": [
+                    {
+                      "source": "Exodus 3:6",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Moreover he said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” Moses hid his face; for he was afraid to look at God.",
+                      "note": "'The God of Abraham, Isaac, and Jacob, the God of our fathers' (v. 13) reproduces the patriarchal covenant formula of the burning bush, anchoring the resurrection proclamation in the God who self-identifies to Moses."
+                    },
+                    {
+                      "source": "Isaiah 52:13",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.",
+                      "note": "'has glorified his Servant (pais) Jesus' (v. 13) echoes the LXX of the fourth Servant Song, 'my servant... shall be exalted and glorified'; the combination of pais + glorification is a deliberate Servant identification."
+                    },
+                    {
+                      "source": "Exodus 3:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations.",
+                      "note": "The expanded title 'the God of our fathers' as the LORD's memorial name reinforces the Exodus 3 self-disclosure; v. 15 supplies the 'God of your fathers... my name for ever' phrasing behind Peter's formula."
+                    },
+                    {
+                      "source": "Isaiah 53:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities.",
+                      "note": "The 'Righteous One' (v. 14) whom they denied draws on the suffering Servant who is called 'the righteous one, my servant' who justifies many; coheres with the pais/Servant frame of v. 13."
+                    },
+                    {
+                      "source": "Psalm 16:10",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "For you will not leave my soul in Sheol, neither will you allow your holy one to see corruption.",
+                      "note": "'the Holy One' (v. 14) recalls the Davidic 'you will not let your Holy One see corruption,' cited fully in Acts 2:27; the title clusters here with the resurrection claim 'God raised from the dead' (v. 15).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 53:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Therefore will I divide him a portion with the great, and he shall divide the plunder with the strong; because he poured out his soul to death, and was numbered with the transgressors; yet he bore the sin of many, and made intercession for the transgressors.",
+                      "note": "'whom you delivered up' (v. 13) faintly mirrors the Servant who 'was delivered up' (paredothe) for the transgressors; the handing-over language belongs to the same Servant matrix.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.3",
+                  "ref": "3:17-21",
+                  "echoes": [
+                    {
+                      "source": "Numbers 15:22-31",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“‘When you shall err, and not observe all these commandments, which Yahweh has spoken to Moses, even all that Yahweh has commanded you by Moses, from the day that Yahweh gave commandment, and onward throughout your generations; then it shall be, if it was done unwittingly, without the knowledge of the congregation, that all the congregation shall offer one young bull for a burnt offering, for a pleasant aroma to Yahweh, with its meal offering, and its […]",
+                      "note": "'you did this in ignorance' (v. 17) invokes the Torah distinction between unwitting sin (atonable) and high-handed sin; Peter casts the crucifixion as forgivable ignorance, opening the call to repentance."
+                    },
+                    {
+                      "source": "Isaiah 43:25",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+                      "note": "'that your sins may be blotted out' (v. 19) echoes the LORD's promise 'I am he that blotteth out thy transgressions'; the blotting-out image of divine forgiveness is distinctive."
+                    },
+                    {
+                      "source": "Malachi 4:5-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes. He will turn the hearts of the fathers to the children, and the hearts of the children to their fathers, lest I come and strike the earth with a curse.”",
+                      "note": "'times of restoration (apokatastasis) of all things' (v. 21) draws on the Elijah-tradition of restoring/turning hearts before the day of the LORD; LXX Mal 3:23-24 uses apokatastesei, the verbal root behind Peter's eschatological 'restoration'.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 4:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Speak to the children of Israel, saying, ‘If anyone sins unintentionally, in any of the things which Yahweh has commanded not to be done, and does any one of them:",
+                      "note": "The priestly category of sinning 'through ignorance' underlies Peter's exoneration in v. 17; thematic, no verbal quotation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions.",
+                      "note": "'blot out my transgressions' supplies the same penitential idiom behind v. 19; coheres with the call to repent, though Isa 43 is the closer match.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will restore to you the years that the swarming locust has eaten, the great locust, the grasshopper, and the caterpillar, my great army, which I sent among you.",
+                      "note": "Joel's promise of God restoring the years coheres with the 'times of refreshing... restoration of all things' (vv. 19-21); thematic restoration motif, no verbal link.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/acts/3/",
+              "title": "Lame Man Healed at the Temple",
+              "view": {
+                "center": [
+                  31.778,
+                  35.235
+                ],
+                "zoom": 14
+              },
+              "route": null,
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "jerusalem",
+                  "name": "Jerusalem",
+                  "coords": [
+                    31.7784,
+                    35.2354
+                  ],
+                  "tier": "identified",
+                  "id": "The City of David and Old City, on the spurs above the Kidron Valley, c. 50 km from the Mediterranean. Pre-Israelite Jebus; named here as the seat of Adoni-Zedek, leader of the southern coalition."
+                },
+                {
+                  "key": "nazareth",
+                  "name": "Nazareth",
+                  "coords": [
+                    32.7022,
+                    35.2978
+                  ],
+                  "tier": "identified",
+                  "id": "Modern en-Nasira / Nazareth in Lower Galilee, c. 30 km west of the Sea of Galilee. A village of perhaps 200-400 in the early first century, identified through continuous habitation, tomb evidence, and the third-century Caesarea inscription naming it as a priestly course settlement."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -783,7 +927,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-4"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 4:8",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.4.35-Mark.4.41",
+                      "refDisplay": "Mark 4:35–41",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "4.10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-4.10"
+                    },
+                    {
+                      "refKey": "Phil.4.4-Phil.4.7",
+                      "refDisplay": "Philippians 4:4–7",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 4:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.14.14-Acts.14.18",
+                      "refDisplay": "Acts 14:14–18",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "14.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-14.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 4:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Eph.4.26-Eph.4.27",
+                      "refDisplay": "Ephesians 4:26–27",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "4.9",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/ephesians#p-4.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -796,7 +1003,137 @@
                 "label": "Fathers & echoes",
                 "url": "https://catena.wrootpress.com/1-john#p-3.1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "3.1",
+                  "ref": "3:1-3",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 14:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You are the children of Yahweh your God. You shall not cut yourselves, nor make any baldness between your eyes for the dead.",
+                      "note": "Israel addressed as 'children of the LORD your God' grounds John's astonishment that believers 'should be called children of God.' The divine-sonship status, once Israel's covenant identity, is here extended to the community. John intensifies the relation with the language of bestowed love."
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "Hosea promises that those who were 'not my people' will be called 'children of the living God,' the precise idiom of being 'called children of God.' This eschatological renaming of the people supplies John's vocabulary for present sonship. The passage was a standard locus for adoption-into-sonship."
+                    },
+                    {
+                      "source": "Exodus 33:20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He said, “You cannot see my face, for man may not see me and live.”",
+                      "note": "God tells Moses no one may see his face and live, the canonical statement of the unseen God. John's hope that 'we will see him just as he is' deliberately reverses this prohibition as eschatological promise. The tension between present hiddenness and future sight is structured by this Exodus limit."
+                    },
+                    {
+                      "source": "Psalm 17:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "As for me, I shall see your face in righteousness. I shall be satisfied, when I awake, with seeing your form.",
+                      "note": "The psalmist hopes to 'behold your face in righteousness' and be 'satisfied with your likeness' upon awaking, the classic beatific-vision text and a likeness motif. John's 'we will be like him, for we will see him' closely mirrors this seeing-and-likeness pairing. The awaking imagery resonates with eschatological revelation."
+                    },
+                    {
+                      "source": "Isaiah 43:6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will tell the north, ‘Give them up!’ and tell the south, ‘Don’t hold them back! Bring my sons from far, and my daughters from the ends of the earth—",
+                      "note": "God commands the gathering of 'my sons' and 'my daughters' from the ends of the earth, framing the people as God's children. The verse reinforces the sonship motif John applies to believers. Faint but congruent with the divine-family theme.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 19:26-27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "After my skin is destroyed, then in my flesh shall I see God, Whom I, even I, shall see on my side. My eyes shall see, and not as a stranger. “My heart is consumed within me.",
+                      "note": "Job hopes that after his skin is destroyed he will 'see God' with his own eyes, an early witness to seeing God beyond death. This undergirds John's confidence that the not-yet-revealed future includes seeing him. The contested textual history of the verse makes the echo suggestive rather than certain.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Numbers 12:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "With him, I will speak mouth to mouth, even plainly, and not in riddles; and he shall see Yahweh’s form. Why then were you not afraid to speak against my servant, against Moses?”",
+                      "note": "Moses uniquely beholds the form/likeness of the LORD, an exceptional clear sight of God amid general hiddenness. John universalizes such direct vision as the believers' destiny. A faint background to seeing him 'as he is.'",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.4",
+                  "ref": "3:4-6",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 53:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They made his grave with the wicked, and with a rich man in his death; although he had done no violence, neither was any deceit in his mouth.",
+                      "note": "The Servant 'had done no violence, neither was any deceit in his mouth,' the sinless one who bears others' iniquity. John's 'in him is no sin' and 'he was revealed to take away our sins' draws on the Servant who removes sin while being himself without it. The pairing of sin-bearing and sinlessness is distinctively Isaianic."
+                    },
+                    {
+                      "source": "Isaiah 53:4-6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Surely he has borne our sickness, and carried our suffering; yet we considered him plagued, struck by God, and afflicted. But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed. All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all.",
+                      "note": "The Servant bears and carries away the sins of the many, the conceptual ground for 'he was revealed to take away our sins.' John's atonement language echoes this vicarious sin-removal. A strong thematic, looser verbal, link.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 51:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions. Wash me thoroughly from my iniquity. Cleanse me from my sin. For I know my transgressions. My sin is constantly before me.",
+                      "note": "The penitential confession of transgression and the plea to blot out lawlessness frame sin as 'lawlessness' (anomia in the Greek tradition). John's definition 'sin is lawlessness' draws on this Septuagintal vocabulary. Faint lexical resonance rather than direct citation.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "3.7",
+                  "ref": "3:7-10",
+                  "echoes": [
+                    {
+                      "source": "Genesis 3:1-15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden?’” The woman said to the serpent, “We may eat fruit from the trees of the garden, but not the fruit of the tree which is in the middle of the garden. God has said, ‘You shall not eat of it, neither shall you touch it, lest you die.’” The serpent said to the woman, “You won’t surely […]",
+                      "note": "The serpent who sins/deceives 'from the beginning' stands behind 'the devil has been sinning from the beginning.' The promised crushing of the serpent's head undergirds the Son's appearing 'to destroy the works of the devil.' This is the foundational devil-as-deceiver-from-the-start text."
+                    },
+                    {
+                      "source": "Genesis 3:15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will put hostility between you and the woman, and between your offspring and her offspring. He will bruise your head, and you will bruise his heel.”",
+                      "note": "The enmity between the serpent's seed and the woman's seed, with the seed who crushes the serpent, frames both 'destroy the works of the devil' and the children-of-God versus children-of-the-devil opposition. The 'seed' language in 3:9 ('his seed remains in him') plays on this protoevangelium. A primary structural source for the whole pericope."
+                    },
+                    {
+                      "source": "Wisdom of Solomon 2:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But by the envy of the devil death entered into the world, And those who are of his portion make trial thereof.",
+                      "note": "'Through the devil's envy death entered the world,' an early identification of the Genesis serpent with the devil. This deuterocanonical reading directly supports John's claim that 'he who sins is of the devil.' It bridges Genesis 3 to John's explicit devil terminology."
+                    },
+                    {
+                      "source": "Genesis 1:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "God said, “Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth”; and it was so. The earth yielded grass, herbs yielding seed after their kind, and trees bearing fruit, with their seeds in it, after their kind; and God saw that it was good.",
+                      "note": "The creation refrain of plants bearing seed 'according to its kind' may color the image of God's 'seed' remaining and producing offspring true to their origin. The begetting/seed motif of 3:9 has a creational backdrop. Faint and contested.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -815,7 +1152,164 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "24.4",
+                  "ref": "24:36-43",
+                  "echoes": [
+                    {
+                      "source": "Tobit 12:19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All these days I appeared to you. I didn’t eat or drink, but you all saw a vision.",
+                      "note": "Raphael's disclosure, 'I appeared to you, but I did not eat or drink; it was a vision that you saw,' frames the Second-Temple assumption that angelic/spirit visitants only seem to eat. Luke counters precisely this by having the risen Jesus eat real food to prove he is 'not a spirit' but has flesh and bones, engaging Tobit's category. Coherence and availability are strong."
+                    },
+                    {
+                      "source": "Genesis 18:8",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He took butter, milk, and the calf which he had dressed, and set it before them. He stood by them under the tree, and they ate.",
+                      "note": "Jesus eating broiled fish before them to prove corporeal reality parallels the angels who 'ate' before Abraham at Mamre, the locus classicus for heavenly visitors sharing human food. Luke uses the eating motif as physical proof against the disciples' supposition of a spirit. Recurrence of the 'divine visitor eats' type supports it."
+                    },
+                    {
+                      "source": "Wisdom 3:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the souls of the righteous are in the hand of God, And no torment will touch them.",
+                      "note": "The disciples suppose they see a disembodied 'spirit' (pneuma), reflecting a current view that the righteous dead exist as souls 'in the hand of God.' Luke's insistence on flesh and bones engages and corrects such a discarnate-soul expectation. Conceptual and faint, so low and contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 19:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "After my skin is destroyed, then in my flesh shall I see God,",
+                      "note": "'In my flesh I shall see God' anticipates an embodied vindication beyond death that resonates with Luke's emphasis on the risen Jesus' flesh and bones. As a faint OT witness to bodily hope it may color the scene, but there is no verbal contact. Contested, low.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "24.5",
+                  "ref": "24:44-49",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 49:6",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "yes, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give you for a light to the nations, that you may be my salvation to the end of the earth.”",
+                      "note": "The Servant given 'as a light to the nations, that my salvation may reach to the end of the earth' is the programmatic text behind 'repentance and remission of sins... to all the nations.' Luke quotes Isa 49:6 explicitly at Acts 13:47 and alludes to it at Acts 1:8, making it the key prophetic warrant for the worldwide mission launched here. Volume and recurrence are high."
+                    },
+                    {
+                      "source": "Joel 2:28",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions.",
+                      "note": "'I send out the promise of my Father on you... until you are clothed with power from on high' anticipates Joel's outpouring of the Spirit on all flesh, which Luke fulfills explicitly at Pentecost (Acts 2:17, quoting Joel). The Spirit as the Father's promise is the bridge from Luke 24 to Acts. Volume and recurrence are high."
+                    },
+                    {
+                      "source": "Psalm 22:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "All the ends of the earth shall remember and turn to Yahweh. All the relatives of the nations shall worship before you.",
+                      "note": "That repentance and forgiveness be proclaimed 'to all the nations' fulfills the Psalter's vision that 'all the ends of the earth shall remember and turn to the LORD,' part of the Writings (psalmoi) Jesus names as bearing witness to him. Luke roots the universal mission in the Psalms he has just cited. Coherence with the tripartite-canon statement supports it."
+                    },
+                    {
+                      "source": "Isaiah 2:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many peoples shall go and say, “Come, let’s go up to the mountain of Yahweh, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths.” For out of Zion the law shall go out, and Yahweh’s word from Jerusalem.",
+                      "note": "'Beginning at Jerusalem' enacts the eschatological pattern whereby 'out of Zion shall go forth the law, and the word of the LORD from Jerusalem,' the nations streaming to and the word streaming from Zion. Luke reverses the centripetal pilgrimage into a centrifugal mission from Jerusalem. Coherence is strong."
+                    },
+                    {
+                      "source": "Micah 4:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many nations will go and say, “Come, and let us go up to the mountain of Yahweh, and to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths.” For the law will go out of Zion, and Yahweh’s word from Jerusalem;",
+                      "note": "Micah's parallel oracle that 'the word of the LORD' goes forth 'from Jerusalem' to instruct the nations reinforces the Jerusalem-origin of the universal proclamation. The doubled prophetic witness (with Isa 2:3) strengthens the case that Luke draws on the Zion-mission tradition. Recurrence supports medium."
+                    },
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "The herald who proclaims good news of salvation from Zion underlies Luke's commissioning of witnesses to preach forgiveness beginning at Jerusalem. Luke's vocabulary of proclaiming (kēryssō) good news echoes the Isaianic herald, a text central to his mission theology. Coherence good."
+                    },
+                    {
+                      "source": "Joel 2:32",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "It will happen that whoever will call on Yahweh’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as Yahweh has said, and among the remnant, those whom Yahweh calls.",
+                      "note": "'Everyone who calls on the name of the LORD shall be saved... in Jerusalem there shall be those who escape' underwrites repentance/forgiveness proclaimed 'in his name' beginning from Jerusalem. Luke cites Joel 2 at Pentecost (Acts 2:21), making it a strong intertext for the commission. Recurrence in Luke-Acts supports it."
+                    },
+                    {
+                      "source": "Isaiah 32:15",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Until the Spirit is poured on us from on high, and the wilderness becomes a fruitful field, and the fruitful field is considered a forest.",
+                      "note": "'Until the Spirit is poured upon us from on high' supplies the very phrase 'power from on high' (ex hypsous) for the promised Spirit-endowment. Luke's 'clothed with power from on high' draws on this Isaianic image of the Spirit poured out to renew. Verbal contact ('from on high') gives medium-strong confidence."
+                    },
+                    {
+                      "source": "Isaiah 44:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For I will pour water on him who is thirsty, and streams on the dry ground. I will pour my Spirit on your seed, and my blessing on your offspring:",
+                      "note": "'I will pour my Spirit upon your descendants' reinforces the promised-Spirit theme of being clothed with power, an OT pattern of the Spirit poured out as gift and blessing. Together with Joel and Isa 32 it forms the cluster behind the Father's promise. Recurrence within the cluster supports it."
+                    },
+                    {
+                      "source": "Deuteronomy 31:24-26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "When Moses had made an end of writing the words of this law in a book, until they were finished, Moses commanded the Levites, who bore the ark of the covenant of Yahweh, saying, “Take this book of the law, and put it by the side of the ark of the covenant of Yahweh your God, that it may be there for a witness against you.",
+                      "note": "'All things written in the law of Moses, the prophets, and the psalms... must be fulfilled' names the threefold Hebrew canon (Torah, Prophets, Writings), and the Law of Moses as a written witness placed beside the ark to testify is the Torah pole of that witness. Luke frames the whole of Scripture, beginning with Moses' written law, as testifying to Christ. Coherence with the canon formula supports it.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Judges 6:34",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "But the Spirit of Yahweh came on Gideon; and he blew a trumpet; and Abiezer was gathered together after him.",
+                      "note": "'Clothed with power' (enedysasthe) recalls the idiom that the Spirit of the LORD 'clothed itself with' Gideon, the standard OT metaphor for divine empowerment of a chosen agent. Luke's clothing-with-power language may draw on this Spirit-clothing idiom. Faint verbal idiom, hence low and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 32:15"
+                    },
+                    {
+                      "source": "Sirach Prologue",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "[source text not in the World English Bible]",
+                      "note": "The prologue to Sirach repeatedly names 'the Law and the Prophets and the others/the rest of the books,' the earliest explicit witness to the tripartite division of Hebrew Scripture that Luke 24:44 presupposes ('law of Moses, the prophets, and the psalms'). It supplies the Second-Temple canonical framework, not a content-quotation. Availability and coherence support medium.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Appearances in the upper room",
+                      "section": "risen",
+                      "refs": {
+                        "luke": "24:36–43",
+                        "john": "20:19–29"
+                      },
+                      "note": "\"Peace be with you\"; the wounds shown; Thomas — \"My Lord and my God.\""
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

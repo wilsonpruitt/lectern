@@ -625,7 +625,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/1-samuel-3"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Samuel 3:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.22.6-Acts.22.11",
+                      "refDisplay": "Acts 22:6–11",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "22.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-22.2"
+                    },
+                    {
+                      "refKey": "Acts.26.12-Acts.26.15",
+                      "refDisplay": "Acts 26:12–15",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "26.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-26.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Samuel 3:4–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.9.10-Acts.9.19",
+                      "refDisplay": "Acts 9:10–19",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "9.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-9.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -638,7 +686,100 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-139"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 139:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.2.23-John.2.25",
+                      "refDisplay": "John 2:23–25",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "2.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-2.4"
+                    },
+                    {
+                      "refKey": "1John.3.19-1John.3.22",
+                      "refDisplay": "1 John 3:19–22",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.19"
+                    },
+                    {
+                      "refKey": "Matt.6.5-Matt.6.8",
+                      "refDisplay": "Matthew 6:5–8",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.2"
+                    },
+                    {
+                      "refKey": "Heb.4.12-Heb.4.16",
+                      "refDisplay": "Hebrews 4:12–16",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-4.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 139:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.8.18-Rom.8.30",
+                      "refDisplay": "Romans 8:18–30",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-8.2"
+                    },
+                    {
+                      "refKey": "1Cor.4.1-1Cor.4.5",
+                      "refDisplay": "1 Corinthians 4:1–5",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 139:1–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.8-1Cor.13.12",
+                      "refDisplay": "1 Corinthians 13:8–12",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -657,7 +798,143 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:12-14",
+                  "echoes": [
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "'God raised up the Lord and will also raise us up by his power' (v.14) draws on the canonical hope of bodily resurrection first explicit in Dan 12:2 ('many who sleep in the dust shall awake'). Coherent with Paul's bodily theology against the slogan that the belly/body is destined for nothing; medium volume as the foundational OT resurrection text."
+                    },
+                    {
+                      "source": "2 Maccabees 7:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And being come near to death he said thus: It is good to die at the hands of men and look for the hopes which are given by God, that we shall be raised up again by him; for as for you, you shall have no resurrection to life.",
+                      "note": "The martyrs' confidence of being raised up by God supplies a Second-Temple parallel to Paul's resurrection assurance in v.14, attesting the availability of bodily-resurrection hope. Faint and supplementary to Dan 12:2.",
+                      "contested": true,
+                      "altSource": "Daniel 12:2"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:15-17",
+                  "echoes": [
+                    {
+                      "source": "Genesis 2:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.",
+                      "note": "Paul explicitly cites Gen 2:24 with a citation formula ('For, he says, the two will become one flesh', v.16) to prove that union with a prostitute makes one body with her. High volume and an unambiguous LXX quotation; the creation text is wrenched into an argument it never anticipated, a paradigmatic Pauline use."
+                    },
+                    {
+                      "source": "Deuteronomy 10:20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall fear Yahweh your God; you shall serve him; and you shall cling to him, and you shall swear by his name.",
+                      "note": "'He who is joined to the Lord is one spirit' (v.17) plays on the LXX language of cleaving/being joined (kollao) to the LORD found in Deut 10:20 ('him shall you cleave to'), the covenantal counter-image to illicit bodily union. Coherence is strong given the deliberate contrast Paul builds between the two kinds of joining.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 11:22"
+                    },
+                    {
+                      "source": "Deuteronomy 30:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "to love Yahweh your God, to obey his voice, and to cling to him; for he is your life, and the length of your days; that you may dwell in the land which Yahweh swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them.",
+                      "note": "Cleaving to the LORD as the source of life (LXX kollasthai) recurs here, reinforcing the covenantal 'joined to the Lord' motif of v.17. A faint recurrence within the Deuteronomic cleaving stream rather than a discrete source.",
+                      "contested": true,
+                      "altSource": "Deuteronomy 10:20"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.5",
+                  "ref": "6:18-20",
+                  "echoes": [
+                    {
+                      "source": "Genesis 39:12",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "She caught him by his garment, saying, “Lie with me!” He left his garment in her hand, and ran outside.",
+                      "note": "'Flee sexual immorality!' (v.18) evokes the paradigm of Joseph who literally fled and left his garment to escape Potiphar's wife, the canonical exemplar of fleeing porneia. Coherent and recognized in Jewish moral tradition (cf. Wisdom-Joseph paraenesis); medium volume by motif.",
+                      "contested": true,
+                      "altSource": "Proverbs 5:8"
+                    },
+                    {
+                      "source": "Exodus 25:8",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "text": "Let them make me a sanctuary, that I may dwell among them.",
+                      "note": "'Your body is a temple of the Holy Spirit' (v.19) figurally transfers the sanctuary motif, 'let them make me a sanctuary that I may dwell among them,' onto the believer's body as God's indwelt dwelling. The Spirit-indwelling makes the body holy space; medium volume as a figural reapplication of tabernacle theology."
+                    },
+                    {
+                      "source": "Isaiah 52:3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For thus says Yahweh, “You were sold for nothing; and you shall be redeemed without money.”",
+                      "note": "'You were bought with a price' (v.20) evokes the redemption language of Isa 52:3 ('you were sold for nothing, and you shall be redeemed without money'), reframing the believer as God's purchased possession who is no longer his own. Coherent with the surrounding new-exodus redemption motif; medium volume by theme.",
+                      "contested": true,
+                      "altSource": "Leviticus 25:51-52"
+                    },
+                    {
+                      "source": "Proverbs 5:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Remove your way far from her. Don’t come near the door of her house,",
+                      "note": "'Keep your way far from her, do not go near the door of her house' supplies the wisdom counsel to flee the adulteress lying behind Paul's imperative to flee porneia. Faint verbal contact but coherent within the same paraenetic tradition.",
+                      "contested": true,
+                      "altSource": "Genesis 39:12"
+                    },
+                    {
+                      "source": "Leviticus 26:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will set my tent among you, and my soul won’t abhor you. I will walk among you, and will be your God, and you will be my people.",
+                      "note": "'I will make my dwelling among you... and walk among you' undergirds the temple-of-the-Spirit image, the covenant promise of God's indwelling presence now located in the believer's body. A coherent but diffuse echo supplementing the Exodus sanctuary text.",
+                      "contested": true,
+                      "altSource": "Exodus 25:8"
+                    },
+                    {
+                      "source": "Ezekiel 37:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My tent also shall be with them; and I will be their God, and they shall be my people.",
+                      "note": "'My dwelling place shall be with them' continues the indwelling-sanctuary stream Paul figurally applies to the Spirit-filled body in v.19. Faint and recurrent rather than a single discrete source.",
+                      "contested": true,
+                      "altSource": "Exodus 25:8"
+                    },
+                    {
+                      "source": "Leviticus 25:51-52",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "If there are yet many years, according to them he shall give back the price of his redemption out of the money that he was bought for. If there remain but a few years to the year of jubilee, then he shall reckon with him; according to his years of service he shall give back the price of his redemption.",
+                      "note": "The jubilee redemption-price legislation, where a person is bought back according to a reckoned price, supplies the legal-economic backdrop for 'bought with a price' and belonging now to another master. Faint and contested against the prophetic redemption of Isa 52:3.",
+                      "contested": true,
+                      "altSource": "Isaiah 52:3"
+                    },
+                    {
+                      "source": "Isaiah 43:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "everyone who is called by my name, and whom I have created for my glory, whom I have formed, yes, whom I have made.’”",
+                      "note": "'Whom I created for my glory' provides a faint backdrop to 'glorify God in your body' (v.20), the redeemed belonging to God for his glory. Low volume; offered as a possible coherent echo of the purpose-of-redemption theme.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -676,7 +953,118 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.8",
+                  "ref": "1:43-51",
+                  "echoes": [
+                    {
+                      "source": "Genesis 28:12",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "He dreamed. Behold, a stairway set upon the earth, and its top reached to heaven. Behold, the angels of God ascending and descending on it.",
+                      "note": "'You will see heaven opened and the angels of God ascending and descending on the Son of Man' (v.51) is an explicit re-reading of Jacob's ladder, with the verbs 'ascending and descending' lifted from the dream. John relocates the ladder onto the Son of Man, who becomes the bridge between heaven and earth. Maximal figural volume and coherence."
+                    },
+                    {
+                      "source": "Deuteronomy 18:18",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will raise them up a prophet from among their brothers, like you. I will put my words in his mouth, and he shall speak to them all that I shall command him.",
+                      "note": "Philip's 'him of whom Moses in the law... wrote' (v.45) identifies Jesus as the prophet-like-Moses, the figure promised in Moses' words. Secure availability and high coherence with the messianic-fulfillment claim that frames the disciple-gathering."
+                    },
+                    {
+                      "source": "Genesis 27:35",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "He said, “Your brother came with deceit, and has taken away your blessing.”",
+                      "note": "'An Israelite indeed, in whom is no deceit' (v.47) plays on Jacob, of whom Isaac said 'your brother came with deceit'; Nathanael is the true Israel without the guile that named Jacob. The Jacob contrast prepares directly for the Jacob's-ladder saying of v.51. Strong figural coherence and recurrence."
+                    },
+                    {
+                      "source": "Micah 4:4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But they will sit every man under his vine and under his fig tree; and no one will make them afraid: For the mouth of Yahweh of Armies has spoken.",
+                      "note": "'Every man under his vine and under his fig tree' is the eschatological-peace idiom evoked by Nathanael 'under the fig tree' (v.48), suggesting a pious Israelite awaiting the messianic age, possibly studying Torah. Medium: the fig-tree setting is the cue, common to several peace texts."
+                    },
+                    {
+                      "source": "Zechariah 3:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "In that day,’ says Yahweh of Armies, ‘you will invite every man his neighbor under the vine and under the fig tree.’”",
+                      "note": "'You will invite one another under the vine and under the fig tree,' the messianic-day promise, reinforces the 'under the fig tree' setting of v.48 as a sign of the dawning messianic peace Nathanael recognizes in his confession. Medium, recurrent with Micah 4:4."
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "Nathanael's confession 'you are the Son of God! You are King of Israel!' (v.49) draws on the royal coronation oracle naming the Davidic king God's son. Strong coherence between Son-of-God and King titles; medium for the conceptual rather than verbal link."
+                    },
+                    {
+                      "source": "Zephaniah 3:13",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "The remnant of Israel will not do iniquity, nor speak lies, neither will a deceitful tongue be found in their mouth, for they will feed and lie down, and no one will make them afraid.”",
+                      "note": "The remnant of Israel 'shall do no injustice and speak no lies; nor shall a deceitful tongue be found' supplies the no-deceit ideal of the true Israelite applied to Nathanael (v.47). Coheres with the genuine-Israel motif; medium."
+                    },
+                    {
+                      "source": "Daniel 7:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I saw in the night visions, and behold, there came with the clouds of the sky one like a son of man, and he came even to the ancient of days, and they brought him near before him.",
+                      "note": "The title 'Son of Man' coming with heaven (v.51) draws on the heavenly one 'like a son of man' who approaches the Ancient of Days. John fuses the Danielic Son of Man with the Jacob's-ladder vision; medium because the borrowing is the title and the opened-heaven setting rather than a quotation."
+                    },
+                    {
+                      "source": "Genesis 28:17",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He was afraid, and said, “How dreadful is this place! This is none other than God’s house, and this is the gate of heaven.”",
+                      "note": "Jacob's 'this is the gate of heaven' at Bethel undergirds 'heaven opened' (v.51), reinforcing the Bethel-ladder figural reading where the Son of Man is the locus of access to heaven. Medium, recurrent with Genesis 28:12."
+                    },
+                    {
+                      "source": "Psalm 32:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Blessed is the man to whom Yahweh doesn’t impute iniquity, in whose spirit there is no deceit.",
+                      "note": "'Blessed is the man... in whose spirit there is no deceit' offers the no-guile ideal behind 'in whom is no deceit' (v.47). Low and contested as a direct source but a genuine parallel to the guileless-Israelite commendation.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Ezekiel 1:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now in the thirtieth year, in the fourth month, in the fifth of the month, as I was among the captives by the river Chebar, the heavens were opened, and I saw visions of God.",
+                      "note": "'The heavens were opened and I saw visions of God' supplies the opened-heaven apocalyptic idiom of v.51. Low confidence: a standard visionary formula rather than a specific source, but coherent with the heavenly disclosure promised.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The first disciples",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "1:35–51"
+                      },
+                      "note": "John alone gives this earlier Judean call — Andrew, Peter, Nathanael — before the Galilean one."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

@@ -610,7 +610,70 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/deuteronomy-26"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Deuteronomy 26:2",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.16.15-1Cor.16.18",
+                      "refDisplay": "1 Corinthians 16:15–18",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "16.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-16.5"
+                    },
+                    {
+                      "refKey": "2Thess.2.13-2Thess.2.15",
+                      "refDisplay": "2 Thessalonians 2:13–15",
+                      "book": "2 Thessalonians",
+                      "slug": "2-thessalonians",
+                      "pericopeId": "2.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-thessalonians#p-2.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 26:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.24.14-Acts.24.16",
+                      "refDisplay": "Acts 24:14–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "24.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-24.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Deuteronomy 26:1–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.1.16-Jas.1.18",
+                      "refDisplay": "James 1:16–18",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.16",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-1.16"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -623,7 +686,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-91"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -642,7 +708,94 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.1",
+                  "ref": "10:5-13",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 18:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall therefore keep my statutes and my ordinances; which if a man does, he shall live in them. I am Yahweh.",
+                      "note": "Formula-cited: 'Moses writes about the righteousness of the law' introduces 'The one who does them will live by them' — a near-verbatim quotation of Leviticus 18:5 ('which if a man do, he shall live in them'). Paul makes it the voice of law-righteousness over against faith-righteousness. Also quoted at Galatians 3:12; high recurrence in Paul."
+                    },
+                    {
+                      "source": "Deuteronomy 30:12-14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do it.",
+                      "note": "Formula-introduced ('the righteousness of faith says'): 'Do not say in your heart, Who will ascend into heaven... Who will descend into the abyss... The word is near you, in your mouth and in your heart' — a sustained verbatim quotation of Deuteronomy 30:12-14, reworked christologically (ascend = bring Christ down; descend into the abyss = bring Christ up from the dead). High volume, the structural backbone of the pericope."
+                    },
+                    {
+                      "source": "Deuteronomy 9:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t say in your heart, after Yahweh your God has thrust them out from before you, saying, “For my righteousness Yahweh has brought me in to possess this land”; because Yahweh drives them out before you because of the wickedness of these nations.",
+                      "note": "The opening 'Do not say in your heart' in 10:6 conflates Deuteronomy 30:12 with the warning formula of Deuteronomy 9:4 ('Do not say in your heart... my righteousness'), which directly concerns self-righteousness. Strong verbal borrowing that splices the anti-self-righteousness warning onto the faith-word quotation. Widely recognized double allusion."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "Formula-cited: 'the Scripture says, Whoever believes in him will not be put to shame/disappointed' — a quotation of Isaiah 28:16 (the precious cornerstone in Zion). Paul adds the universalizing 'whoever' (pas). Recurs at Romans 9:33, knitting chapters 9-10 together; high volume and recurrence."
+                    },
+                    {
+                      "source": "Joel 2:32",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "It will happen that whoever will call on Yahweh’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as Yahweh has said, and among the remnant, those whom Yahweh calls.",
+                      "note": "Formula-cited climax: 'Whoever will call on the name of the Lord will be saved' — verbatim quotation of Joel 2:32 (LXX 3:5). Paul reads kyrios as the risen Jesus (10:9, 'Jesus is Lord'), grounding the Jew-Greek universalism of 10:12. Also cited in Acts 2:21; high recurrence."
+                    },
+                    {
+                      "source": "Deuteronomy 30:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant.",
+                      "note": "The immediately preceding verse — 'this commandment is not too hard for you, nor is it far off' — sets up the not-in-heaven/not-beyond-the-sea contrast Paul exploits. Borrowed context for the 'word is near' argument even though only vv.12-14 are quoted."
+                    },
+                    {
+                      "source": "Deuteronomy 30:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But the word is very near to you, in your mouth and in your heart, that you may do it.",
+                      "note": "The 'mouth... heart' pairing of the Deut quotation is redeployed by Paul in 10:9-10 (confess with the mouth, believe in the heart). This is an exegetical extension of the quoted text — Paul mines the very words 'mouth/heart' to structure confession and faith. Strong internal echo of the source just cited."
+                    },
+                    {
+                      "source": "Psalm 107:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble.",
+                      "note": "'They mount up to heaven, they go down to the depths (abyss)' — the heaven/abyss merism for cosmic extremity. Paul's pairing 'ascend into heaven / descend into the abyss' may draw on this stock idiom; Deut 30 itself says 'beyond the sea,' so the 'abyss' wording suggests a secondary scriptural idiom. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You will know that I am in the midst of Israel, and that I am Yahweh, your God, and there is no one else; and my people will never again be disappointed.",
+                      "note": "'You shall... not be put to shame' in Joel 2:27, just before the quoted v.32, shares the not-ashamed motif Paul draws from Isaiah 28:16. Possible reinforcing echo from the Joel context Paul is already mining. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "'the abyss' (abyssos) as primeval deep; Paul's substitution of 'abyss' for Deut's 'beyond the sea' carries cosmic/death overtones (= realm of the dead, whence Christ is raised). Faint scriptural background for the abyss imagery. Disputed.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -661,7 +814,103 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.1",
+                  "ref": "4:1-13",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 8:2-3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall remember all the way which Yahweh your God has led you these forty years in the wilderness, that he might humble you, to prove you, to know what was in your heart, whether you would keep his commandments, or not. He humbled you, and allowed you to be hungry, and fed you with manna, which you didn’t know, neither did your fathers know; that he might teach you that man does not live by bread only, but man lives by every word that proceeds out of […]",
+                      "note": "Jesus' reply 'Man shall not live by bread alone, but by every word of God' quotes Deuteronomy 8:3 (LXX). The forty days of fasting and testing in the wilderness deliberately recapitulate Israel's forty years where God humbled them with hunger and fed them manna 'that he might teach you that man does not live by bread alone.' Maximal Volume and Coherence: the whole temptation is framed as a re-run of Israel's wilderness test."
+                    },
+                    {
+                      "source": "Deuteronomy 6:13",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall fear Yahweh your God; and you shall serve him, and shall swear by his name.",
+                      "note": "'You shall worship the Lord your God, and you shall serve him only' renders Deuteronomy 6:13 (LXX, which adds 'worship/proskyneo' and 'only/mono'). High Volume verbatim citation; the Shema context (Deut 6) anchors the second/third temptation answers in Israel's covenant loyalty."
+                    },
+                    {
+                      "source": "Deuteronomy 6:16",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall not tempt Yahweh your God, as you tempted him in Massah.",
+                      "note": "'You shall not tempt the Lord your God' quotes Deuteronomy 6:16 (LXX), which itself recalls Israel's testing of God at Massah (Exod 17:1-7). Verbatim citation answering the pinnacle temptation; strong Recurrence with the other Deuteronomy quotations in the pericope."
+                    },
+                    {
+                      "source": "Psalm 91:11-12",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "For he will put his angels in charge of you, to guard you in all your ways. They will bear you up in their hands, so that you won’t dash your foot against a stone.",
+                      "note": "The devil quotes 'He will put his angels in charge of you... on their hands they will bear you up, lest you dash your foot against a stone' from Psalm 91:11-12 (LXX 90). High Volume verbatim citation, placed in Satan's mouth as a misuse of Scripture; the Deuteronomy reply rebuts it."
+                    },
+                    {
+                      "source": "Exodus 34:28",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He was there with Yahweh forty days and forty nights; he neither ate bread, nor drank water. He wrote on the tablets the words of the covenant, the ten commandments.",
+                      "note": "The forty-day fast echoes Moses on Sinai, forty days and nights without bread or water (Exod 34:28; cf. Deut 9:9). Coherence with Jesus as new Moses/Israel; Availability strong, though the dominant frame is Israel's forty years rather than Moses' forty days.",
+                      "contested": true,
+                      "altSource": "1 Kings 19:8"
+                    },
+                    {
+                      "source": "1 Kings 19:8",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "He arose, and ate and drank, and went in the strength of that food forty days and forty nights to Horeb the Mount of God.",
+                      "note": "Elijah's forty-day fast journey to Horeb is a secondary candidate for the forty-day motif. Lower Volume than the Exodus/Deuteronomy frame, but Luke's special interest in Elijah later in this very chapter (vv.25-26) raises its Coherence.",
+                      "contested": true,
+                      "altSource": "Exodus 34:28"
+                    },
+                    {
+                      "source": "Genesis 3:1-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden?’” The woman said to the serpent, “We may eat fruit from the trees of the garden, but not the fruit of the tree which is in the middle of the garden. God has said, ‘You shall not eat of it, neither shall you touch it, lest you die.’” The serpent said to the woman, “You won’t surely […]",
+                      "note": "Jesus tested over food by the tempter/serpent inverts Adam and Eve's failure under the same kind of test; figural Adam-Christ logic latent in Luke's genealogy ending at Adam (3:38) immediately before. Faint Volume but coherent within Luke's structure.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "There was given him dominion, and glory, and a kingdom, that all the peoples, nations, and languages should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.",
+                      "note": "The devil's offer of 'all the kingdoms of the world... all this authority and their glory' contrasts with the authority, glory, and kingdom rightly given to the one like a son of man in Daniel 7:14. Contested and faint; the irony works only if the Danielic gift of dominion is in view.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Temptation in the wilderness",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "4:1–11",
+                        "mark": "1:12–13",
+                        "luke": "4:1–13"
+                      },
+                      "note": "Mark gives it in two verses; Matthew and Luke give the three temptations in full, though in differing order."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

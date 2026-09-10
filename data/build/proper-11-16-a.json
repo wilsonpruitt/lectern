@@ -795,7 +795,60 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-28"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Genesis 28:15",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.28.16-Matt.28.20",
+                      "refDisplay": "Matthew 28:16–20",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "28.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-28.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 28:12",
+                  "occurrences": [
+                    {
+                      "refKey": "John.1.43-John.1.51",
+                      "refDisplay": "John 1:43–51",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.8",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-1.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Genesis 28:17",
+                  "occurrences": [
+                    {
+                      "refKey": "John.1.43-John.1.51",
+                      "refDisplay": "John 1:43–51",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-1.8"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -808,7 +861,100 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-139"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 139:1–4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.2.23-John.2.25",
+                      "refDisplay": "John 2:23–25",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "2.4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-2.4"
+                    },
+                    {
+                      "refKey": "1John.3.19-1John.3.22",
+                      "refDisplay": "1 John 3:19–22",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.19"
+                    },
+                    {
+                      "refKey": "Matt.6.5-Matt.6.8",
+                      "refDisplay": "Matthew 6:5–8",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.2"
+                    },
+                    {
+                      "refKey": "Heb.4.12-Heb.4.16",
+                      "refDisplay": "Hebrews 4:12–16",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/hebrews#p-4.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 139:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.8.18-Rom.8.30",
+                      "refDisplay": "Romans 8:18–30",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "8.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-8.2"
+                    },
+                    {
+                      "refKey": "1Cor.4.1-1Cor.4.5",
+                      "refDisplay": "1 Corinthians 4:1–5",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-4.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 139:1–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.8-1Cor.13.12",
+                      "refDisplay": "1 Corinthians 13:8–12",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.7"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -827,7 +973,289 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.1",
+                  "ref": "8:1-17",
+                  "echoes": [
+                    {
+                      "source": "Exodus 4:22-23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn, and I have said to you, “Let my son go, that he may serve me”; and you have refused to let him go. Behold, I will kill your son, your firstborn.’”",
+                      "note": "'Israel is my son, my firstborn' grounds the sonship/adoption language of vv.14-17; the Spirit constitutes believers as 'children of God,' transferring Israel's sonship status to those led by the Spirit."
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The Spirit enabling 'the ordinance of the law' to be 'fulfilled in us' (v.4) draws on the new-covenant promise to write the Torah on the heart, internalizing the law by divine agency rather than external command."
+                    },
+                    {
+                      "source": "Ezekiel 36:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "'I will put my Spirit within you and cause you to walk in my statutes' undergirds vv.4-9: the indwelling Spirit (vv.9,11) produces obedience and 'walking according to the Spirit'; the verbal cluster Spirit-indwelling-walking-statutes is distinctive to Ezekiel."
+                    },
+                    {
+                      "source": "Ezekiel 37:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it and performed it, says Yahweh.",
+                      "note": "'I will put my Spirit in you and you shall live' (the dry-bones vision) lies behind v.11, where the Spirit who raised Jesus 'will also give life to your mortal bodies'; Spirit-giving-life-to-dead-bodies is the precise Ezekielian figure."
+                    },
+                    {
+                      "source": "Deuteronomy 30:15-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Behold, I have set before you this day life and prosperity, and death and evil. For I command you this day to love Yahweh your God, to walk in his ways, and to keep his commandments, his statutes, and his ordinances, that you may live and multiply, and that Yahweh your God may bless you in the land where you go in to possess it. But if your heart turns away, and you will not hear, but are drawn away, and worship other gods, and serve them; I denounce to […]",
+                      "note": "'The mind of the flesh is death, but the mind of the Spirit is life and peace' and 'if you live after the flesh you must die... by the Spirit... you will live' (vv.6,13) reframe the covenantal life-and-death choice of Moses' exhortation set before Israel."
+                    },
+                    {
+                      "source": "Hosea 11:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“When Israel was a child, then I loved him, and called my son out of Egypt.",
+                      "note": "'When Israel was a child I loved him, and out of Egypt I called my son' supplies the adopted-son-led-by-God motif (vv.14-15); the tender father-son relation undergirds the cry 'Abba! Father!'"
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'In the place where it was said to them, You are not my people, it shall be said, You are children of the living God' anticipates 'these are children of God' / 'we are children of God' (vv.14,16); Paul cites this very text in Romans 9:26."
+                    },
+                    {
+                      "source": "Leviticus 4:3",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "if the anointed priest sins so as to bring guilt on the people, then let him offer for his sin, which he has sinned, a young bull without defect to Yahweh for a sin offering.",
+                      "note": "'for sin' (peri hamartias) in v.3 reproduces the Septuagint's standing phrase for the sin offering; God's sending his Son 'for sin' figurally casts Christ in the role of the Levitical purification sacrifice that 'condemns sin in the flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”",
+                      "note": "The flesh/Spirit antithesis (vv.5-9), where 'flesh' marks mortal humanity opposed to God's enduring Spirit, faintly recalls 'My Spirit will not abide in man forever, for he is flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The spirit is alive' / God giving 'life to your mortal bodies' (vv.10-11) faintly evokes the breath of life animating dust-formed Adam, now reapplied as resurrection-life by the Spirit.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "'You, O LORD, are our Father' — Israel's corporate address of God as Father — stands behind the Spirit-prompted filial cry 'Abba! Father!' (v.15).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 3:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“But I said, ‘How I would put you among the children, and give you a pleasant land, a goodly heritage of the armies of the nations!’ and I said, ‘You shall call me “My Father”, and shall not turn away from following me.’",
+                      "note": "'I thought you would call me My Father and would not turn from following me' — God's hope that adopted Israel address him as Father — resonates with the adoptive cry of v.15.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will walk among you, and will be your God, and you will be my people.",
+                      "note": "The covenant formula 'I will... be your God, and you shall be my people,' realized through the indwelling Spirit (vv.9-16), faintly underlies the divine-belonging and sonship affirmed by the Spirit's testimony.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.2",
+                  "ref": "8:18-30",
+                  "echoes": [
+                    {
+                      "source": "Genesis 3:17-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "To Adam he said, “Because you have listened to your wife’s voice, and ate from the tree, about which I commanded you, saying, ‘You shall not eat of it,’ the ground is cursed for your sake. You will eat from it with much labor all the days of your life. It will yield thorns and thistles to you; and you will eat the herb of the field. By the sweat of your face will you eat bread until you return to the ground, for out of it you were taken. For you are dust, […]",
+                      "note": "'The creation was subjected to vanity... in hope' (vv.20-22) directly invokes the curse on the ground 'because of you,' the toil, thorns, and frustrated labor of the fall; creation's bondage to decay is the Edenic curse awaiting reversal."
+                    },
+                    {
+                      "source": "Isaiah 65:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“For, behold, I create new heavens and a new earth; and the former things shall not be remembered, nor come into mind.",
+                      "note": "'I create new heavens and a new earth' is the hope toward which the groaning creation strains (vv.19-22): the liberation of creation 'into the liberty of the glory of the children of God' is the prophetic new-creation renewal of the cosmos."
+                    },
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "Being 'conformed to the image of his Son' (v.29) reworks humanity's creation in the image of God; the restored image is now christological, the Son as the prototype to which the predestined are refashioned."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'I will make him the firstborn, the highest of the kings of the earth' grounds 'that he might be the firstborn among many brothers' (v.29); the Davidic-messianic firstborn title is extended to the Son who heads a redeemed family."
+                    },
+                    {
+                      "source": "Ecclesiastes 1:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Vanity of vanities,” says the Preacher; “Vanity of vanities, all is vanity.”",
+                      "note": "Creation 'subjected to vanity' (mataiotes, v.20) reuses the Septuagint's rendering of hevel ('vanity of vanities'); Qoheleth's diagnosis of the cosmos's futile, breath-like emptiness is the condition from which creation longs for release."
+                    },
+                    {
+                      "source": "Isaiah 11:6-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The wolf will live with the lamb, and the leopard will lie down with the young goat; The calf, the young lion, and the fattened calf together; and a little child will lead them. The cow and the bear will graze. Their young ones will lie down together. The lion will eat straw like the ox. The nursing child will play near a cobra’s hole, and the weaned child will put his hand on the viper’s den. They will not hurt nor destroy in all my holy mountain; for […]",
+                      "note": "The peaceable, restored creation under the messianic shoot — wolf with lamb, no harm in all God's holy mountain — anticipates creation 'delivered from the bondage of decay,' the redeemed cosmos liberated alongside God's children (vv.19-21)."
+                    },
+                    {
+                      "source": "Isaiah 26:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Like as a woman with child, who draws near the time of her delivery, is in pain and cries out in her pangs; so we have been before you, Yahweh. We have been with child. We have been in pain. We gave birth, it seems, only to wind. We have not worked any deliverance in the earth; neither have the inhabitants of the world fallen.",
+                      "note": "'Like a woman with child... we writhed in pain' supplies the birth-pang imagery of 'the whole creation groans and travails in pain together' (v.22); creation labors toward the deliverance of new life."
+                    },
+                    {
+                      "source": "1 Samuel 16:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But Yahweh said to Samuel, “Don’t look on his face, or on the height of his stature; because I have rejected him: for I see not as man sees; for man looks at the outward appearance, but Yahweh looks at the heart.”",
+                      "note": "'The LORD looks on the heart' undergirds 'he who searches the hearts knows what is on the Spirit's mind' (v.27); God's heart-discerning gaze validates the wordless intercession."
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD search the heart and test the mind' supplies the precise epithet 'he who searches the hearts' (v.27); the heart-searcher reads the Spirit's unutterable groanings."
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Israel is my firstborn son' reinforces the 'firstborn among many brothers' (v.29): the firstborn-son status, once Israel's, belongs to the Son who incorporates many siblings."
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "'Before I formed you in the womb I knew you... I appointed you' supplies the foreknowing-and-appointing pattern of vv.29-30; divine foreknowledge as elective purpose precedes calling."
+                    },
+                    {
+                      "source": "Isaiah 24:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth mourns and fades away. The world languishes and fades away. The lofty people of the earth languish. The earth also is polluted under its inhabitants, because they have transgressed the laws, violated the statutes, and broken the everlasting covenant. Therefore the curse has devoured the earth, and those who dwell therein are found guilty. Therefore the inhabitants of the earth are burned, and few men left. The new wine mourns. The vine […]",
+                      "note": "'The earth mourns and withers... the earth is defiled under its inhabitants' depicts the groaning land suffering under human transgression, parallel to creation subjected to futility and groaning (vv.20-22).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 66:7-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before she travailed, she gave birth; before her pain came, she delivered a son. Who has heard such a thing? who has seen such things? Shall a land be born in one day? shall a nation be born at once? for as soon as Zion travailed, she gave birth to her children. Shall I bring to the birth, and not cause to be delivered?” says Yahweh: “shall I who cause to give birth shut the womb?” says your God.",
+                      "note": "Zion's travail bringing forth her children before her pain comes echoes the link between creation's birth-pangs (v.22) and the 'revealing of the children of God' / 'redemption of the body' (vv.19,23).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 13:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The sorrows of a travailing woman will come on him. He is an unwise son; for when it is time, he doesn’t come to the opening of the womb.",
+                      "note": "'The pangs of childbirth come for him' as an image of judgment and impending deliverance resonates faintly with the cosmic travail of v.22.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions.",
+                      "note": "'I will pour out my Spirit on all flesh' as eschatological down-payment resonates with 'the first fruits of the Spirit' (v.23), the Spirit as the firstfruits/guarantee of the coming redemption.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 23:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The first of the first fruits of your ground you shall bring into the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.",
+                      "note": "'The first fruits of the Spirit' (v.23) draws on the cultic firstfruits offering that consecrates and pledges the full harvest; the Spirit is the consecrating pledge of the redeemed body.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 44:23-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wake up! Why do you sleep, Lord? Arise! Don’t reject us forever. Why do you hide your face, and forget our affliction and our oppression? For our soul is bowed down to the dust. Our body clings to the earth. Rise up to help us. Redeem us for your loving kindness’ sake.",
+                      "note": "The lament's 'why do you sleep?... our soul is bowed down... redeem us' anticipates the groaning, waiting, and hoped-for redemption (vv.23-25); the same psalm is quoted at v.36.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 38:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Lord, all my desire is before you. My groaning is not hidden from you.",
+                      "note": "'All my longing is before you; my groaning is not hidden from you' resonates with the inarticulate groaning the Spirit voices before 'him who searches the hearts' (vv.26-27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 139:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, you have searched me, and you know me. You know my sitting down and my rising up. You perceive my thoughts from afar.",
+                      "note": "'O LORD, you have searched me and known me... you discern my thoughts from afar' resonates with God searching the hearts and knowing the Spirit's mind (v.27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 49:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Listen, islands, to me; and listen, you peoples, from far: Yahweh has called me from the womb; from the bowels of my mother has he made mention of my name:",
+                      "note": "The Servant 'called from the womb,' named before birth, resonates with the chain of foreknowing, predestining, and calling in vv.29-30.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 50:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As for you, you meant evil against me, but God meant it for good, to bring to pass, as it is this day, to save many people alive.",
+                      "note": "'You meant evil... but God meant it for good' faintly underlies 'all things work together for good for those who love God' (v.28); divine providence turning suffering toward good.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 20:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and showing loving kindness to thousands of those who love me and keep my commandments.",
+                      "note": "'Showing steadfast love to thousands of those who love me and keep my commandments' supplies the covenantal designation 'those who love God' (v.28), the loving-God-and-being-blessed pattern.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -846,7 +1274,51 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.4",
+                  "ref": "13:24-30",
+                  "echoes": [
+                    {
+                      "source": "Joel 3:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Put in the sickle; for the harvest is ripe. Come, tread, for the wine press is full, the vats overflow, for their wickedness is great.”",
+                      "note": "'Put in the sickle, for the harvest is ripe' — harvest as the set time of eschatological judgment and separation, directly behind 'at the harvest time I will tell the reapers' (v.30)."
+                    },
+                    {
+                      "source": "Malachi 4:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says Yahweh of Armies, “that it shall leave them neither root nor branch.",
+                      "note": "The coming day burns like an oven, consuming the wicked as stubble; the burning of bundled weeds (v.30) anticipates this fiery consumption of evildoers."
+                    },
+                    {
+                      "source": "Zephaniah 1:2-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will utterly sweep away everything off of the surface of the earth, says Yahweh. I will sweep away man and animal. I will sweep away the birds of the sky, the fish of the sea, and the heaps of rubble with the wicked. I will cut off man from the surface of the earth, says Yahweh.",
+                      "note": "God will utterly sweep away / gather and remove the wicked from the land; gathering-for-removal imagery parallels gathering the weeds first.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 4:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "According to what I have seen, those who plow iniquity, and sow trouble, reap the same.",
+                      "note": "'Those who plow iniquity and sow trouble reap the same' — the enemy who sows evil seed and its harvest of judgment; proverbial sowing/reaping morality.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1594,7 +2066,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/wisdom-of-solomon-12"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1607,7 +2082,75 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-86"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 86:11",
+                  "occurrences": [
+                    {
+                      "refKey": "John.14.5-John.14.7",
+                      "refDisplay": "John 14:5–7",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "14.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-14.2"
+                    },
+                    {
+                      "refKey": "2John.1.4",
+                      "refDisplay": "2 John 1:4",
+                      "book": "2 John",
+                      "slug": "2-john",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-john#p-1.4"
+                    },
+                    {
+                      "refKey": "3John.1.1-3John.1.4",
+                      "refDisplay": "3 John 1:1–4",
+                      "book": "3 John",
+                      "slug": "3-john",
+                      "pericopeId": "1.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/3-john#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 86:15",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.1.12-1Tim.1.17",
+                      "refDisplay": "1 Timothy 1:12–17",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.4"
+                    },
+                    {
+                      "refKey": "John.20.24-John.20.29",
+                      "refDisplay": "John 20:24–29",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "20.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-20.6"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1626,7 +2169,289 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "8.1",
+                  "ref": "8:1-17",
+                  "echoes": [
+                    {
+                      "source": "Exodus 4:22-23",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn, and I have said to you, “Let my son go, that he may serve me”; and you have refused to let him go. Behold, I will kill your son, your firstborn.’”",
+                      "note": "'Israel is my son, my firstborn' grounds the sonship/adoption language of vv.14-17; the Spirit constitutes believers as 'children of God,' transferring Israel's sonship status to those led by the Spirit."
+                    },
+                    {
+                      "source": "Jeremiah 31:33",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But this is the covenant that I will make with the house of Israel after those days, says Yahweh: I will put my law in their inward parts, and in their heart will I write it; and I will be their God, and they shall be my people:",
+                      "note": "The Spirit enabling 'the ordinance of the law' to be 'fulfilled in us' (v.4) draws on the new-covenant promise to write the Torah on the heart, internalizing the law by divine agency rather than external command."
+                    },
+                    {
+                      "source": "Ezekiel 36:27",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit within you, and cause you to walk in my statutes, and you shall keep my ordinances, and do them.",
+                      "note": "'I will put my Spirit within you and cause you to walk in my statutes' undergirds vv.4-9: the indwelling Spirit (vv.9,11) produces obedience and 'walking according to the Spirit'; the verbal cluster Spirit-indwelling-walking-statutes is distinctive to Ezekiel."
+                    },
+                    {
+                      "source": "Ezekiel 37:14",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I will put my Spirit in you, and you shall live, and I will place you in your own land: and you shall know that I, Yahweh, have spoken it and performed it, says Yahweh.",
+                      "note": "'I will put my Spirit in you and you shall live' (the dry-bones vision) lies behind v.11, where the Spirit who raised Jesus 'will also give life to your mortal bodies'; Spirit-giving-life-to-dead-bodies is the precise Ezekielian figure."
+                    },
+                    {
+                      "source": "Deuteronomy 30:15-19",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Behold, I have set before you this day life and prosperity, and death and evil. For I command you this day to love Yahweh your God, to walk in his ways, and to keep his commandments, his statutes, and his ordinances, that you may live and multiply, and that Yahweh your God may bless you in the land where you go in to possess it. But if your heart turns away, and you will not hear, but are drawn away, and worship other gods, and serve them; I denounce to […]",
+                      "note": "'The mind of the flesh is death, but the mind of the Spirit is life and peace' and 'if you live after the flesh you must die... by the Spirit... you will live' (vv.6,13) reframe the covenantal life-and-death choice of Moses' exhortation set before Israel."
+                    },
+                    {
+                      "source": "Hosea 11:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“When Israel was a child, then I loved him, and called my son out of Egypt.",
+                      "note": "'When Israel was a child I loved him, and out of Egypt I called my son' supplies the adopted-son-led-by-God motif (vv.14-15); the tender father-son relation undergirds the cry 'Abba! Father!'"
+                    },
+                    {
+                      "source": "Hosea 1:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured nor numbered; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’",
+                      "note": "'In the place where it was said to them, You are not my people, it shall be said, You are children of the living God' anticipates 'these are children of God' / 'we are children of God' (vv.14,16); Paul cites this very text in Romans 9:26."
+                    },
+                    {
+                      "source": "Leviticus 4:3",
+                      "type": "allusion",
+                      "confidence": "low",
+                      "text": "if the anointed priest sins so as to bring guilt on the people, then let him offer for his sin, which he has sinned, a young bull without defect to Yahweh for a sin offering.",
+                      "note": "'for sin' (peri hamartias) in v.3 reproduces the Septuagint's standing phrase for the sin offering; God's sending his Son 'for sin' figurally casts Christ in the role of the Levitical purification sacrifice that 'condemns sin in the flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 6:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”",
+                      "note": "The flesh/Spirit antithesis (vv.5-9), where 'flesh' marks mortal humanity opposed to God's enduring Spirit, faintly recalls 'My Spirit will not abide in man forever, for he is flesh.'",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 2:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+                      "note": "'The spirit is alive' / God giving 'life to your mortal bodies' (vv.10-11) faintly evokes the breath of life animating dust-formed Adam, now reapplied as resurrection-life by the Spirit.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 63:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us: you, Yahweh, are our Father; our Redeemer from everlasting is your name.",
+                      "note": "'You, O LORD, are our Father' — Israel's corporate address of God as Father — stands behind the Spirit-prompted filial cry 'Abba! Father!' (v.15).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Jeremiah 3:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“But I said, ‘How I would put you among the children, and give you a pleasant land, a goodly heritage of the armies of the nations!’ and I said, ‘You shall call me “My Father”, and shall not turn away from following me.’",
+                      "note": "'I thought you would call me My Father and would not turn from following me' — God's hope that adopted Israel address him as Father — resonates with the adoptive cry of v.15.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Leviticus 26:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will walk among you, and will be your God, and you will be my people.",
+                      "note": "The covenant formula 'I will... be your God, and you shall be my people,' realized through the indwelling Spirit (vv.9-16), faintly underlies the divine-belonging and sonship affirmed by the Spirit's testimony.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "8.2",
+                  "ref": "8:18-30",
+                  "echoes": [
+                    {
+                      "source": "Genesis 3:17-19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "To Adam he said, “Because you have listened to your wife’s voice, and ate from the tree, about which I commanded you, saying, ‘You shall not eat of it,’ the ground is cursed for your sake. You will eat from it with much labor all the days of your life. It will yield thorns and thistles to you; and you will eat the herb of the field. By the sweat of your face will you eat bread until you return to the ground, for out of it you were taken. For you are dust, […]",
+                      "note": "'The creation was subjected to vanity... in hope' (vv.20-22) directly invokes the curse on the ground 'because of you,' the toil, thorns, and frustrated labor of the fall; creation's bondage to decay is the Edenic curse awaiting reversal."
+                    },
+                    {
+                      "source": "Isaiah 65:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“For, behold, I create new heavens and a new earth; and the former things shall not be remembered, nor come into mind.",
+                      "note": "'I create new heavens and a new earth' is the hope toward which the groaning creation strains (vv.19-22): the liberation of creation 'into the liberty of the glory of the children of God' is the prophetic new-creation renewal of the cosmos."
+                    },
+                    {
+                      "source": "Genesis 1:26-27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.” God created man in his own image. In God’s image he created him; male and female he created them.",
+                      "note": "Being 'conformed to the image of his Son' (v.29) reworks humanity's creation in the image of God; the restored image is now christological, the Son as the prototype to which the predestined are refashioned."
+                    },
+                    {
+                      "source": "Psalm 89:27",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will also appoint him my firstborn, the highest of the kings of the earth.",
+                      "note": "'I will make him the firstborn, the highest of the kings of the earth' grounds 'that he might be the firstborn among many brothers' (v.29); the Davidic-messianic firstborn title is extended to the Son who heads a redeemed family."
+                    },
+                    {
+                      "source": "Ecclesiastes 1:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Vanity of vanities,” says the Preacher; “Vanity of vanities, all is vanity.”",
+                      "note": "Creation 'subjected to vanity' (mataiotes, v.20) reuses the Septuagint's rendering of hevel ('vanity of vanities'); Qoheleth's diagnosis of the cosmos's futile, breath-like emptiness is the condition from which creation longs for release."
+                    },
+                    {
+                      "source": "Isaiah 11:6-9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "The wolf will live with the lamb, and the leopard will lie down with the young goat; The calf, the young lion, and the fattened calf together; and a little child will lead them. The cow and the bear will graze. Their young ones will lie down together. The lion will eat straw like the ox. The nursing child will play near a cobra’s hole, and the weaned child will put his hand on the viper’s den. They will not hurt nor destroy in all my holy mountain; for […]",
+                      "note": "The peaceable, restored creation under the messianic shoot — wolf with lamb, no harm in all God's holy mountain — anticipates creation 'delivered from the bondage of decay,' the redeemed cosmos liberated alongside God's children (vv.19-21)."
+                    },
+                    {
+                      "source": "Isaiah 26:17-18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Like as a woman with child, who draws near the time of her delivery, is in pain and cries out in her pangs; so we have been before you, Yahweh. We have been with child. We have been in pain. We gave birth, it seems, only to wind. We have not worked any deliverance in the earth; neither have the inhabitants of the world fallen.",
+                      "note": "'Like a woman with child... we writhed in pain' supplies the birth-pang imagery of 'the whole creation groans and travails in pain together' (v.22); creation labors toward the deliverance of new life."
+                    },
+                    {
+                      "source": "1 Samuel 16:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But Yahweh said to Samuel, “Don’t look on his face, or on the height of his stature; because I have rejected him: for I see not as man sees; for man looks at the outward appearance, but Yahweh looks at the heart.”",
+                      "note": "'The LORD looks on the heart' undergirds 'he who searches the hearts knows what is on the Spirit's mind' (v.27); God's heart-discerning gaze validates the wordless intercession."
+                    },
+                    {
+                      "source": "Jeremiah 17:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I, Yahweh, search the mind, I try the heart, even to give every man according to his ways, according to the fruit of his doings.",
+                      "note": "'I the LORD search the heart and test the mind' supplies the precise epithet 'he who searches the hearts' (v.27); the heart-searcher reads the Spirit's unutterable groanings."
+                    },
+                    {
+                      "source": "Exodus 4:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You shall tell Pharaoh, ‘Thus says Yahweh, Israel is my son, my firstborn,",
+                      "note": "'Israel is my firstborn son' reinforces the 'firstborn among many brothers' (v.29): the firstborn-son status, once Israel's, belongs to the Son who incorporates many siblings."
+                    },
+                    {
+                      "source": "Jeremiah 1:5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Before I formed you in the belly, I knew you. Before you came out of the womb, I sanctified you. I have appointed you a prophet to the nations.”",
+                      "note": "'Before I formed you in the womb I knew you... I appointed you' supplies the foreknowing-and-appointing pattern of vv.29-30; divine foreknowledge as elective purpose precedes calling."
+                    },
+                    {
+                      "source": "Isaiah 24:4-7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth mourns and fades away. The world languishes and fades away. The lofty people of the earth languish. The earth also is polluted under its inhabitants, because they have transgressed the laws, violated the statutes, and broken the everlasting covenant. Therefore the curse has devoured the earth, and those who dwell therein are found guilty. Therefore the inhabitants of the earth are burned, and few men left. The new wine mourns. The vine […]",
+                      "note": "'The earth mourns and withers... the earth is defiled under its inhabitants' depicts the groaning land suffering under human transgression, parallel to creation subjected to futility and groaning (vv.20-22).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 66:7-9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Before she travailed, she gave birth; before her pain came, she delivered a son. Who has heard such a thing? who has seen such things? Shall a land be born in one day? shall a nation be born at once? for as soon as Zion travailed, she gave birth to her children. Shall I bring to the birth, and not cause to be delivered?” says Yahweh: “shall I who cause to give birth shut the womb?” says your God.",
+                      "note": "Zion's travail bringing forth her children before her pain comes echoes the link between creation's birth-pangs (v.22) and the 'revealing of the children of God' / 'redemption of the body' (vv.19,23).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Hosea 13:13",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The sorrows of a travailing woman will come on him. He is an unwise son; for when it is time, he doesn’t come to the opening of the womb.",
+                      "note": "'The pangs of childbirth come for him' as an image of judgment and impending deliverance resonates faintly with the cosmic travail of v.22.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:28",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions.",
+                      "note": "'I will pour out my Spirit on all flesh' as eschatological down-payment resonates with 'the first fruits of the Spirit' (v.23), the Spirit as the firstfruits/guarantee of the coming redemption.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 23:19",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The first of the first fruits of your ground you shall bring into the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.",
+                      "note": "'The first fruits of the Spirit' (v.23) draws on the cultic firstfruits offering that consecrates and pledges the full harvest; the Spirit is the consecrating pledge of the redeemed body.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 44:23-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Wake up! Why do you sleep, Lord? Arise! Don’t reject us forever. Why do you hide your face, and forget our affliction and our oppression? For our soul is bowed down to the dust. Our body clings to the earth. Rise up to help us. Redeem us for your loving kindness’ sake.",
+                      "note": "The lament's 'why do you sleep?... our soul is bowed down... redeem us' anticipates the groaning, waiting, and hoped-for redemption (vv.23-25); the same psalm is quoted at v.36.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 38:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Lord, all my desire is before you. My groaning is not hidden from you.",
+                      "note": "'All my longing is before you; my groaning is not hidden from you' resonates with the inarticulate groaning the Spirit voices before 'him who searches the hearts' (vv.26-27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 139:1-2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh, you have searched me, and you know me. You know my sitting down and my rising up. You perceive my thoughts from afar.",
+                      "note": "'O LORD, you have searched me and known me... you discern my thoughts from afar' resonates with God searching the hearts and knowing the Spirit's mind (v.27).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 49:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Listen, islands, to me; and listen, you peoples, from far: Yahweh has called me from the womb; from the bowels of my mother has he made mention of my name:",
+                      "note": "The Servant 'called from the womb,' named before birth, resonates with the chain of foreknowing, predestining, and calling in vv.29-30.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 50:20",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "As for you, you meant evil against me, but God meant it for good, to bring to pass, as it is this day, to save many people alive.",
+                      "note": "'You meant evil... but God meant it for good' faintly underlies 'all things work together for good for those who love God' (v.28); divine providence turning suffering toward good.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Exodus 20:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "and showing loving kindness to thousands of those who love me and keep my commandments.",
+                      "note": "'Showing steadfast love to thousands of those who love me and keep my commandments' supplies the covenantal designation 'those who love God' (v.28), the loving-God-and-being-blessed pattern.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1645,7 +2470,51 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "13.4",
+                  "ref": "13:24-30",
+                  "echoes": [
+                    {
+                      "source": "Joel 3:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Put in the sickle; for the harvest is ripe. Come, tread, for the wine press is full, the vats overflow, for their wickedness is great.”",
+                      "note": "'Put in the sickle, for the harvest is ripe' — harvest as the set time of eschatological judgment and separation, directly behind 'at the harvest time I will tell the reapers' (v.30)."
+                    },
+                    {
+                      "source": "Malachi 4:1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says Yahweh of Armies, “that it shall leave them neither root nor branch.",
+                      "note": "The coming day burns like an oven, consuming the wicked as stubble; the burning of bundled weeds (v.30) anticipates this fiery consumption of evildoers."
+                    },
+                    {
+                      "source": "Zephaniah 1:2-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will utterly sweep away everything off of the surface of the earth, says Yahweh. I will sweep away man and animal. I will sweep away the birds of the sky, the fish of the sea, and the heaps of rubble with the wicked. I will cut off man from the surface of the earth, says Yahweh.",
+                      "note": "God will utterly sweep away / gather and remove the wicked from the land; gathering-for-removal imagery parallels gathering the weeds first.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 4:8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "According to what I have seen, those who plow iniquity, and sow trouble, reap the same.",
+                      "note": "'Those who plow iniquity and sow trouble reap the same' — the enemy who sows evil seed and its harvest of judgment; proverbial sowing/reaping morality.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

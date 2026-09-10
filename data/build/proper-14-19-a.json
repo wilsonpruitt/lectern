@@ -673,7 +673,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/genesis-37"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -686,7 +689,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-105"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 105:6",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.13.26-Acts.13.31",
+                      "refDisplay": "Acts 13:26–31",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-13.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 105:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Col.3.15-Col.3.17",
+                      "refDisplay": "Colossians 3:15–17",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "3.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-3.5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -705,7 +746,180 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.1",
+                  "ref": "10:5-13",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 18:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall therefore keep my statutes and my ordinances; which if a man does, he shall live in them. I am Yahweh.",
+                      "note": "Formula-cited: 'Moses writes about the righteousness of the law' introduces 'The one who does them will live by them' — a near-verbatim quotation of Leviticus 18:5 ('which if a man do, he shall live in them'). Paul makes it the voice of law-righteousness over against faith-righteousness. Also quoted at Galatians 3:12; high recurrence in Paul."
+                    },
+                    {
+                      "source": "Deuteronomy 30:12-14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do it.",
+                      "note": "Formula-introduced ('the righteousness of faith says'): 'Do not say in your heart, Who will ascend into heaven... Who will descend into the abyss... The word is near you, in your mouth and in your heart' — a sustained verbatim quotation of Deuteronomy 30:12-14, reworked christologically (ascend = bring Christ down; descend into the abyss = bring Christ up from the dead). High volume, the structural backbone of the pericope."
+                    },
+                    {
+                      "source": "Deuteronomy 9:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t say in your heart, after Yahweh your God has thrust them out from before you, saying, “For my righteousness Yahweh has brought me in to possess this land”; because Yahweh drives them out before you because of the wickedness of these nations.",
+                      "note": "The opening 'Do not say in your heart' in 10:6 conflates Deuteronomy 30:12 with the warning formula of Deuteronomy 9:4 ('Do not say in your heart... my righteousness'), which directly concerns self-righteousness. Strong verbal borrowing that splices the anti-self-righteousness warning onto the faith-word quotation. Widely recognized double allusion."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "Formula-cited: 'the Scripture says, Whoever believes in him will not be put to shame/disappointed' — a quotation of Isaiah 28:16 (the precious cornerstone in Zion). Paul adds the universalizing 'whoever' (pas). Recurs at Romans 9:33, knitting chapters 9-10 together; high volume and recurrence."
+                    },
+                    {
+                      "source": "Joel 2:32",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "It will happen that whoever will call on Yahweh’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as Yahweh has said, and among the remnant, those whom Yahweh calls.",
+                      "note": "Formula-cited climax: 'Whoever will call on the name of the Lord will be saved' — verbatim quotation of Joel 2:32 (LXX 3:5). Paul reads kyrios as the risen Jesus (10:9, 'Jesus is Lord'), grounding the Jew-Greek universalism of 10:12. Also cited in Acts 2:21; high recurrence."
+                    },
+                    {
+                      "source": "Deuteronomy 30:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant.",
+                      "note": "The immediately preceding verse — 'this commandment is not too hard for you, nor is it far off' — sets up the not-in-heaven/not-beyond-the-sea contrast Paul exploits. Borrowed context for the 'word is near' argument even though only vv.12-14 are quoted."
+                    },
+                    {
+                      "source": "Deuteronomy 30:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But the word is very near to you, in your mouth and in your heart, that you may do it.",
+                      "note": "The 'mouth... heart' pairing of the Deut quotation is redeployed by Paul in 10:9-10 (confess with the mouth, believe in the heart). This is an exegetical extension of the quoted text — Paul mines the very words 'mouth/heart' to structure confession and faith. Strong internal echo of the source just cited."
+                    },
+                    {
+                      "source": "Psalm 107:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble.",
+                      "note": "'They mount up to heaven, they go down to the depths (abyss)' — the heaven/abyss merism for cosmic extremity. Paul's pairing 'ascend into heaven / descend into the abyss' may draw on this stock idiom; Deut 30 itself says 'beyond the sea,' so the 'abyss' wording suggests a secondary scriptural idiom. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You will know that I am in the midst of Israel, and that I am Yahweh, your God, and there is no one else; and my people will never again be disappointed.",
+                      "note": "'You shall... not be put to shame' in Joel 2:27, just before the quoted v.32, shares the not-ashamed motif Paul draws from Isaiah 28:16. Possible reinforcing echo from the Joel context Paul is already mining. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "'the abyss' (abyssos) as primeval deep; Paul's substitution of 'abyss' for Deut's 'beyond the sea' carries cosmic/death overtones (= realm of the dead, whence Christ is raised). Faint scriptural background for the abyss imagery. Disputed.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.2",
+                  "ref": "10:14-21",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "Formula-cited ('as it is written'): 'How beautiful are the feet of those who preach the good news of peace, who bring glad tidings of good things' — quotation of Isaiah 52:7 (the herald announcing 'Your God reigns'). Paul reads the herald's gospel of return-from-exile as the apostolic gospel. High volume; central to the chain on hearing/preaching."
+                    },
+                    {
+                      "source": "Isaiah 53:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Who has believed our message? To whom has the arm of Yahweh been revealed?",
+                      "note": "Formula-cited: 'Isaiah says, Lord, who has believed our report?' — verbatim quotation of Isaiah 53:1, the opening of the Servant Song. Paul uses Israel's unbelief at the Servant's message to explain why 'they did not all heed the gospel.' The 'report' (akoe) is punningly tied to 'faith comes by hearing (akoe)' in 10:17. High volume and theological weight."
+                    },
+                    {
+                      "source": "Psalm 19:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Their voice has gone out through all the earth, their words to the end of the world. In them he has set a tent for the sun,",
+                      "note": "Formula-introduced rhetorically ('did they not hear? Yes...'): 'Their sound went out into all the earth, their words to the ends of the world' — verbatim quotation of Psalm 19:4 (LXX 18:5). Paul transfers the cosmic witness of the heavens to the universal proclamation of the gospel, answering whether Israel has heard. High volume."
+                    },
+                    {
+                      "source": "Deuteronomy 32:21",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "They have moved me to jealousy with that which is not God. They have provoked me to anger with their vanities. I will move them to jealousy with those who are not a people. I will provoke them to anger with a foolish nation.",
+                      "note": "Formula-cited ('First Moses says'): 'I will provoke you to jealousy with that which is no nation; with a nation void of understanding I will make you angry' — verbatim quotation of Deuteronomy 32:21 from the Song of Moses. Grounds Paul's jealousy motif (cf. 11:11,14): Gentile inclusion provokes Israel. High recurrence in Paul's argument across chs. 9-11."
+                    },
+                    {
+                      "source": "Isaiah 65:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“I am inquired of by those who didn’t ask; I am found by those who didn’t seek me: I said, See me, see me, to a nation that was not called by my name.",
+                      "note": "Formula-cited ('Isaiah is very bold and says'): 'I was found by those who did not seek me; I was revealed to those who did not ask for me' — quotation of Isaiah 65:1, applied to the Gentiles who found God without seeking. High volume; pairs antithetically with the next verse on Israel."
+                    },
+                    {
+                      "source": "Isaiah 65:2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I have spread out my hands all the day to a rebellious people, who walk in a way that is not good, after their own thoughts;",
+                      "note": "Formula-cited ('But as to Israel he says'): 'All day long I stretched out my hands to a disobedient and contrary people' — verbatim quotation of Isaiah 65:2, the chapter's climactic indictment of Israel's disobedience. Paired with 65:1 to contrast believing Gentiles and resistant Israel; high volume, the rhetorical capstone of ch. 10."
+                    },
+                    {
+                      "source": "Isaiah 53:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Who has believed our message? To whom has the arm of Yahweh been revealed?",
+                      "note": "Separate echo: 10:17 ('faith comes by hearing, and hearing by the word of Christ') exploits the LXX term akoe ('report/what is heard') from the Isaiah 53:1 quotation just given. Paul's whole hearing→faith chain is generated by the double sense of akoe in the source text. Verbal-exegetical echo distinct from the bare quotation."
+                    },
+                    {
+                      "source": "Deuteronomy 32:21",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "They have moved me to jealousy with that which is not God. They have provoked me to anger with their vanities. I will move them to jealousy with those who are not a people. I will provoke them to anger with a foolish nation.",
+                      "note": "Beyond the quotation, the Song of Moses (Deut 32) as a whole — Israel's faithlessness, God's turn to a foolish nation, eventual mercy — supplies the deep structure of Romans 9-11. The 'no-people/no-understanding' framing echoes through Paul's Gentile argument. Recurrence-based echo of the broader source context."
+                    },
+                    {
+                      "source": "Nahum 1:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, on the mountains the feet of him who brings good news, who publishes peace! Keep your feasts, Judah! Perform your vows, for the wicked one will no more pass through you. He is utterly cut off.",
+                      "note": "'Behold, on the mountains the feet of him who brings good tidings, who proclaims peace' — closely parallels Isaiah 52:7 and may be conflated in Paul's wording (feet + good tidings + peace). Possible secondary scriptural source for the same image. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 50:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why, when I came, was there no man? when I called, was there no one to answer? Is my hand shortened at all, that it can’t redeem? or have I no power to deliver? Behold, at my rebuke I dry up the sea, I make the rivers a wilderness: their fish stink, because there is no water, and die for thirst.",
+                      "note": "'Why, when I came, was there no one? ... Is my hand shortened?' — the motif of God's outstretched/extended hand meeting no response resonates with 'all day long I stretched out my hands.' Faint reinforcing Isaianic echo. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 19:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The heavens declare the glory of God. The expanse shows his handiwork. Day after day they pour out speech, and night after night they display knowledge. There is no speech nor language, where their voice is not heard.",
+                      "note": "The fuller Psalm 19 context — the heavens declaring God's glory with speech that has 'no words... yet their voice goes out' — undergirds Paul's claim that the gospel proclamation reaches everyone. Background of the quoted v.4. Disputed as to intentional reach.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -724,7 +938,153 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.3",
+                  "ref": "14:22-33",
+                  "echoes": [
+                    {
+                      "source": "Job 9:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He alone stretches out the heavens, and treads on the waves of the sea.",
+                      "note": "'Who alone stretched out the heavens and trampled the waves of the sea' (LXX: walks on the sea as on dry ground). Jesus walking on the sea enacts a divine prerogative ascribed to God alone in Job; the act itself is a theophanic self-disclosure."
+                    },
+                    {
+                      "source": "Psalm 77:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Your way was through the sea; your paths through the great waters. Your footsteps were not known.",
+                      "note": "'Your way was through the sea, your path through the great waters, yet your footprints were unseen.' God's path through the sea (in the Exodus retelling) underlies Jesus' way across the waters; the psalm makes sea-treading a uniquely divine mode of salvation."
+                    },
+                    {
+                      "source": "Exodus 3:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”",
+                      "note": "Jesus' self-identification, 'It is I' (egō eimi), reprises the divine self-naming 'I AM' given to Moses at the bush. Combined with the sea-walking theophany and 'Don't be afraid,' the egō eimi reads as a claim to the divine name and presence."
+                    },
+                    {
+                      "source": "Isaiah 43:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine. When you pass through the waters, I will be with you; and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+                      "note": "'Fear not... when you pass through the waters I will be with you'; and Isa 43:10-13, 25; 51:12 repeatedly pair the divine 'I am he' (egō eimi) with 'do not fear.' Jesus' 'It is I; don't be afraid' fuses the reassurance-formula and the divine self-identification of Deutero-Isaiah amid the waters."
+                    },
+                    {
+                      "source": "Psalm 107:23-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Those who go down to the sea in ships, who do business in great waters; These see Yahweh’s works, and his wonders in the deep. For he commands, and raises the stormy wind, which lifts up its waves. They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble. They reel back and forth, and stagger like a drunken man, and are at their wits’ end. Then they cry to Yahweh in their trouble, and he brings them out of their […]",
+                      "note": "Those who go down to the sea, caught in a storm with waves mounting, cry to the LORD, who stills the storm to a whisper and brings them to harbor. Matthew's contrary wind, distressed boat, terror, cry, and the ceasing of the wind map onto this sea-rescue psalm where the LORD masters the deep."
+                    },
+                    {
+                      "source": "Psalm 69:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Save me, God, for the waters have come up to my neck! I sink in deep mire, where there is no foothold. I have come into deep waters, where the floods overflow me.",
+                      "note": "'Save me, O God! For the waters have come up to my neck... I sink in deep mire.' Peter's sinking cry, 'Lord, save me!' echoes the psalmist's drowning plea, casting Peter's near-drowning in the language of the lament for rescue from the waters."
+                    },
+                    {
+                      "source": "Psalm 18:16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He sent from on high. He took me. He drew me out of many waters.",
+                      "note": "'He reached down from on high, he took me; he drew me out of many waters.' Jesus stretching out his hand to seize the sinking Peter enacts the divine rescue-from-the-waters gesture of this royal thanksgiving."
+                    },
+                    {
+                      "source": "Psalm 89:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You rule the pride of the sea. When its waves rise up, you calm them.",
+                      "note": "'You rule the raging of the sea; when its waves rise, you still them.' The stilling of the contrary wind when Jesus enters the boat enacts the Creator's sovereignty over the sea's tumult ascribed to the LORD."
+                    },
+                    {
+                      "source": "Exodus 14:21-22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Moses stretched out his hand over the sea, and Yahweh caused the sea to go back by a strong east wind all the night, and made the sea dry land, and the waters were divided. The children of Israel went into the midst of the sea on the dry ground, and the waters were a wall to them on their right hand, and on their left.",
+                      "note": "The Red Sea crossing — God making a way through the sea by night to deliver his people from fear — is the Exodus archetype standing behind the night-time mastery of the waters and the deliverance of the disciples; Ps 77 explicitly reads the sea-treading as Exodus.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "The boat's confession 'You are truly the Son of God' draws on the royal-messianic sonship of the enthronement psalm, the same Scripture echoed at Jesus' baptism (3:17). The post-theophany worship names Jesus in Davidic-divine sonship terms.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 144:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Stretch out your hand from above, rescue me, and deliver me out of great waters, out of the hands of foreigners;",
+                      "note": "'Stretch out your hand from on high; rescue me and deliver me from the many waters.' A close verbal sibling to Ps 18:16 reinforcing the 'outstretched hand from the waters' rescue motif applied to Peter.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 38:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Have you entered into the springs of the sea? Or have you walked in the recesses of the deep?",
+                      "note": "'Have you... walked in the recesses of the deep?' God's challenge to Job implies that traversing the deep belongs to God alone; Jesus' walking on the sea answers the rhetorical question in his own person.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 3:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You trampled the sea with your horses, churning mighty waters.",
+                      "note": "'You trampled the sea with your horses, the surging of mighty waters.' The theophanic image of God treading the sea in the prophet's vision faintly underlies the sea-walking theophany.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 3:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He answered, Look, I see four men loose, walking in the midst of the fire, and they are unharmed; and the aspect of the fourth is like a son of the gods.",
+                      "note": "The disciples' confession 'You are truly the Son of God' has a faint resonance with the recognition that one 'like a son of the gods' walks unharmed amid a deadly element; the title here, however, is more securely rooted in Matthew's own Christology (3:17; 16:16).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "The Spirit/wind of God hovering over the face of the waters at creation provides a faint backdrop: the one who walks upon the deep and masters the wind exercises the Creator's authority over the primordial waters.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Walking on the water",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:22–33",
+                        "mark": "6:45–52",
+                        "john": "6:15–21"
+                      },
+                      "note": "Luke alone omits it; Matthew alone adds Peter stepping out and sinking."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1541,7 +1901,275 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "1 Kings 19:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.11.1-Rom.11.10",
+                      "refDisplay": "Romans 11:1–10",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "11.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-11.1"
+                    },
+                    {
+                      "refKey": "Matt.23.29-Matt.23.36",
+                      "refDisplay": "Matthew 23:29–36",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "23.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-23.4"
+                    },
+                    {
+                      "refKey": "Acts.7.51-Acts.7.53",
+                      "refDisplay": "Acts 7:51–53",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "7.8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-7.8"
+                    },
+                    {
+                      "refKey": "Acts.22.1-Acts.22.5",
+                      "refDisplay": "Acts 22:1–5",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "22.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-22.1"
+                    },
+                    {
+                      "refKey": "Phil.3.4-Phil.3.6",
+                      "refDisplay": "Philippians 3:4–6",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "3.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-3.3"
+                    },
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    },
+                    {
+                      "refKey": "Matt.17.9-Matt.17.13",
+                      "refDisplay": "Matthew 17:9–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "17.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-17.2"
+                    },
+                    {
+                      "refKey": "Mark.9.9-Mark.9.13",
+                      "refDisplay": "Mark 9:9–13",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-9.3"
+                    },
+                    {
+                      "refKey": "Luke.4.28-Luke.4.30",
+                      "refDisplay": "Luke 4:28–30",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-4.6"
+                    },
+                    {
+                      "refKey": "Luke.13.34-Luke.13.35",
+                      "refDisplay": "Luke 13:34–35",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "13.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-13.8"
+                    },
+                    {
+                      "refKey": "Gal.1.13-Gal.1.14",
+                      "refDisplay": "Galatians 1:13–14",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "1.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-1.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.6.45-Mark.6.52",
+                      "refDisplay": "Mark 6:45–52",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.6"
+                    },
+                    {
+                      "refKey": "Matt.27.51-Matt.27.53",
+                      "refDisplay": "Matthew 27:51–53",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "27.14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-27.14"
+                    },
+                    {
+                      "refKey": "2Cor.12.1-2Cor.12.6",
+                      "refDisplay": "2 Corinthians 12:1–6",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "12.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-12.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:14",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.11.1-Rom.11.10",
+                      "refDisplay": "Romans 11:1–10",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "11.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-11.1"
+                    },
+                    {
+                      "refKey": "Mark.6.1-Mark.6.6",
+                      "refDisplay": "Mark 6:1–6",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-6.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:18",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.11.1-Rom.11.10",
+                      "refDisplay": "Romans 11:1–10",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "11.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-11.1"
+                    },
+                    {
+                      "refKey": "Rev.11.11-Rev.11.14",
+                      "refDisplay": "Revelation 11:11–14",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "11.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-11.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:13",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.11.7-Matt.11.15",
+                      "refDisplay": "Matthew 11:7–15",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "11.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-11.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:2–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.17.9-Matt.17.13",
+                      "refDisplay": "Matthew 17:9–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "17.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-17.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:8–13",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.9.28-Luke.9.36",
+                      "refDisplay": "Luke 9:28–36",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-9.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "1 Kings 19:11–12",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.2.1-Acts.2.4",
+                      "refDisplay": "Acts 2:1–4",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-2.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1554,7 +2182,45 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-85"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 85:10",
+                  "occurrences": [
+                    {
+                      "refKey": "John.1.14-John.1.18",
+                      "refDisplay": "John 1:14–18",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 85:8–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.5.1-Rom.5.11",
+                      "refDisplay": "Romans 5:1–11",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "5.0",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-5.0"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1573,7 +2239,180 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "10.1",
+                  "ref": "10:5-13",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 18:5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You shall therefore keep my statutes and my ordinances; which if a man does, he shall live in them. I am Yahweh.",
+                      "note": "Formula-cited: 'Moses writes about the righteousness of the law' introduces 'The one who does them will live by them' — a near-verbatim quotation of Leviticus 18:5 ('which if a man do, he shall live in them'). Paul makes it the voice of law-righteousness over against faith-righteousness. Also quoted at Galatians 3:12; high recurrence in Paul."
+                    },
+                    {
+                      "source": "Deuteronomy 30:12-14",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "It is not in heaven, that you should say, “Who will go up for us to heaven, and bring it to us, and proclaim it to us, that we may do it?” Neither is it beyond the sea, that you should say, “Who will go over the sea for us, and bring it to us, and proclaim it to us, that we may do it?” But the word is very near to you, in your mouth and in your heart, that you may do it.",
+                      "note": "Formula-introduced ('the righteousness of faith says'): 'Do not say in your heart, Who will ascend into heaven... Who will descend into the abyss... The word is near you, in your mouth and in your heart' — a sustained verbatim quotation of Deuteronomy 30:12-14, reworked christologically (ascend = bring Christ down; descend into the abyss = bring Christ up from the dead). High volume, the structural backbone of the pericope."
+                    },
+                    {
+                      "source": "Deuteronomy 9:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t say in your heart, after Yahweh your God has thrust them out from before you, saying, “For my righteousness Yahweh has brought me in to possess this land”; because Yahweh drives them out before you because of the wickedness of these nations.",
+                      "note": "The opening 'Do not say in your heart' in 10:6 conflates Deuteronomy 30:12 with the warning formula of Deuteronomy 9:4 ('Do not say in your heart... my righteousness'), which directly concerns self-righteousness. Strong verbal borrowing that splices the anti-self-righteousness warning onto the faith-word quotation. Widely recognized double allusion."
+                    },
+                    {
+                      "source": "Isaiah 28:16",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Therefore thus says the Lord Yahweh, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.",
+                      "note": "Formula-cited: 'the Scripture says, Whoever believes in him will not be put to shame/disappointed' — a quotation of Isaiah 28:16 (the precious cornerstone in Zion). Paul adds the universalizing 'whoever' (pas). Recurs at Romans 9:33, knitting chapters 9-10 together; high volume and recurrence."
+                    },
+                    {
+                      "source": "Joel 2:32",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "It will happen that whoever will call on Yahweh’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as Yahweh has said, and among the remnant, those whom Yahweh calls.",
+                      "note": "Formula-cited climax: 'Whoever will call on the name of the Lord will be saved' — verbatim quotation of Joel 2:32 (LXX 3:5). Paul reads kyrios as the risen Jesus (10:9, 'Jesus is Lord'), grounding the Jew-Greek universalism of 10:12. Also cited in Acts 2:21; high recurrence."
+                    },
+                    {
+                      "source": "Deuteronomy 30:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For this commandment which I command you this day is not too hard for you or too distant.",
+                      "note": "The immediately preceding verse — 'this commandment is not too hard for you, nor is it far off' — sets up the not-in-heaven/not-beyond-the-sea contrast Paul exploits. Borrowed context for the 'word is near' argument even though only vv.12-14 are quoted."
+                    },
+                    {
+                      "source": "Deuteronomy 30:14",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "But the word is very near to you, in your mouth and in your heart, that you may do it.",
+                      "note": "The 'mouth... heart' pairing of the Deut quotation is redeployed by Paul in 10:9-10 (confess with the mouth, believe in the heart). This is an exegetical extension of the quoted text — Paul mines the very words 'mouth/heart' to structure confession and faith. Strong internal echo of the source just cited."
+                    },
+                    {
+                      "source": "Psalm 107:26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble.",
+                      "note": "'They mount up to heaven, they go down to the depths (abyss)' — the heaven/abyss merism for cosmic extremity. Paul's pairing 'ascend into heaven / descend into the abyss' may draw on this stock idiom; Deut 30 itself says 'beyond the sea,' so the 'abyss' wording suggests a secondary scriptural idiom. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Joel 2:27",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You will know that I am in the midst of Israel, and that I am Yahweh, your God, and there is no one else; and my people will never again be disappointed.",
+                      "note": "'You shall... not be put to shame' in Joel 2:27, just before the quoted v.32, shares the not-ashamed motif Paul draws from Isaiah 28:16. Possible reinforcing echo from the Joel context Paul is already mining. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "'the abyss' (abyssos) as primeval deep; Paul's substitution of 'abyss' for Deut's 'beyond the sea' carries cosmic/death overtones (= realm of the dead, whence Christ is raised). Faint scriptural background for the abyss imagery. Disputed.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "10.2",
+                  "ref": "10:14-21",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 52:7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news of good, who publishes salvation, who says to Zion, “Your God reigns!”",
+                      "note": "Formula-cited ('as it is written'): 'How beautiful are the feet of those who preach the good news of peace, who bring glad tidings of good things' — quotation of Isaiah 52:7 (the herald announcing 'Your God reigns'). Paul reads the herald's gospel of return-from-exile as the apostolic gospel. High volume; central to the chain on hearing/preaching."
+                    },
+                    {
+                      "source": "Isaiah 53:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Who has believed our message? To whom has the arm of Yahweh been revealed?",
+                      "note": "Formula-cited: 'Isaiah says, Lord, who has believed our report?' — verbatim quotation of Isaiah 53:1, the opening of the Servant Song. Paul uses Israel's unbelief at the Servant's message to explain why 'they did not all heed the gospel.' The 'report' (akoe) is punningly tied to 'faith comes by hearing (akoe)' in 10:17. High volume and theological weight."
+                    },
+                    {
+                      "source": "Psalm 19:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Their voice has gone out through all the earth, their words to the end of the world. In them he has set a tent for the sun,",
+                      "note": "Formula-introduced rhetorically ('did they not hear? Yes...'): 'Their sound went out into all the earth, their words to the ends of the world' — verbatim quotation of Psalm 19:4 (LXX 18:5). Paul transfers the cosmic witness of the heavens to the universal proclamation of the gospel, answering whether Israel has heard. High volume."
+                    },
+                    {
+                      "source": "Deuteronomy 32:21",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "They have moved me to jealousy with that which is not God. They have provoked me to anger with their vanities. I will move them to jealousy with those who are not a people. I will provoke them to anger with a foolish nation.",
+                      "note": "Formula-cited ('First Moses says'): 'I will provoke you to jealousy with that which is no nation; with a nation void of understanding I will make you angry' — verbatim quotation of Deuteronomy 32:21 from the Song of Moses. Grounds Paul's jealousy motif (cf. 11:11,14): Gentile inclusion provokes Israel. High recurrence in Paul's argument across chs. 9-11."
+                    },
+                    {
+                      "source": "Isaiah 65:1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "“I am inquired of by those who didn’t ask; I am found by those who didn’t seek me: I said, See me, see me, to a nation that was not called by my name.",
+                      "note": "Formula-cited ('Isaiah is very bold and says'): 'I was found by those who did not seek me; I was revealed to those who did not ask for me' — quotation of Isaiah 65:1, applied to the Gentiles who found God without seeking. High volume; pairs antithetically with the next verse on Israel."
+                    },
+                    {
+                      "source": "Isaiah 65:2",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "I have spread out my hands all the day to a rebellious people, who walk in a way that is not good, after their own thoughts;",
+                      "note": "Formula-cited ('But as to Israel he says'): 'All day long I stretched out my hands to a disobedient and contrary people' — verbatim quotation of Isaiah 65:2, the chapter's climactic indictment of Israel's disobedience. Paired with 65:1 to contrast believing Gentiles and resistant Israel; high volume, the rhetorical capstone of ch. 10."
+                    },
+                    {
+                      "source": "Isaiah 53:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Who has believed our message? To whom has the arm of Yahweh been revealed?",
+                      "note": "Separate echo: 10:17 ('faith comes by hearing, and hearing by the word of Christ') exploits the LXX term akoe ('report/what is heard') from the Isaiah 53:1 quotation just given. Paul's whole hearing→faith chain is generated by the double sense of akoe in the source text. Verbal-exegetical echo distinct from the bare quotation."
+                    },
+                    {
+                      "source": "Deuteronomy 32:21",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "They have moved me to jealousy with that which is not God. They have provoked me to anger with their vanities. I will move them to jealousy with those who are not a people. I will provoke them to anger with a foolish nation.",
+                      "note": "Beyond the quotation, the Song of Moses (Deut 32) as a whole — Israel's faithlessness, God's turn to a foolish nation, eventual mercy — supplies the deep structure of Romans 9-11. The 'no-people/no-understanding' framing echoes through Paul's Gentile argument. Recurrence-based echo of the broader source context."
+                    },
+                    {
+                      "source": "Nahum 1:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, on the mountains the feet of him who brings good news, who publishes peace! Keep your feasts, Judah! Perform your vows, for the wicked one will no more pass through you. He is utterly cut off.",
+                      "note": "'Behold, on the mountains the feet of him who brings good tidings, who proclaims peace' — closely parallels Isaiah 52:7 and may be conflated in Paul's wording (feet + good tidings + peace). Possible secondary scriptural source for the same image. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 50:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Why, when I came, was there no man? when I called, was there no one to answer? Is my hand shortened at all, that it can’t redeem? or have I no power to deliver? Behold, at my rebuke I dry up the sea, I make the rivers a wilderness: their fish stink, because there is no water, and die for thirst.",
+                      "note": "'Why, when I came, was there no one? ... Is my hand shortened?' — the motif of God's outstretched/extended hand meeting no response resonates with 'all day long I stretched out my hands.' Faint reinforcing Isaianic echo. Disputed.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 19:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The heavens declare the glory of God. The expanse shows his handiwork. Day after day they pour out speech, and night after night they display knowledge. There is no speech nor language, where their voice is not heard.",
+                      "note": "The fuller Psalm 19 context — the heavens declaring God's glory with speech that has 'no words... yet their voice goes out' — undergirds Paul's claim that the gospel proclamation reaches everyone. Background of the quoted v.4. Disputed as to intentional reach.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1592,7 +2431,153 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "14.3",
+                  "ref": "14:22-33",
+                  "echoes": [
+                    {
+                      "source": "Job 9:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He alone stretches out the heavens, and treads on the waves of the sea.",
+                      "note": "'Who alone stretched out the heavens and trampled the waves of the sea' (LXX: walks on the sea as on dry ground). Jesus walking on the sea enacts a divine prerogative ascribed to God alone in Job; the act itself is a theophanic self-disclosure."
+                    },
+                    {
+                      "source": "Psalm 77:19",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Your way was through the sea; your paths through the great waters. Your footsteps were not known.",
+                      "note": "'Your way was through the sea, your path through the great waters, yet your footprints were unseen.' God's path through the sea (in the Exodus retelling) underlies Jesus' way across the waters; the psalm makes sea-treading a uniquely divine mode of salvation."
+                    },
+                    {
+                      "source": "Exodus 3:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”",
+                      "note": "Jesus' self-identification, 'It is I' (egō eimi), reprises the divine self-naming 'I AM' given to Moses at the bush. Combined with the sea-walking theophany and 'Don't be afraid,' the egō eimi reads as a claim to the divine name and presence."
+                    },
+                    {
+                      "source": "Isaiah 43:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "But now thus says Yahweh who created you, Jacob, and he who formed you, Israel: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine. When you pass through the waters, I will be with you; and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+                      "note": "'Fear not... when you pass through the waters I will be with you'; and Isa 43:10-13, 25; 51:12 repeatedly pair the divine 'I am he' (egō eimi) with 'do not fear.' Jesus' 'It is I; don't be afraid' fuses the reassurance-formula and the divine self-identification of Deutero-Isaiah amid the waters."
+                    },
+                    {
+                      "source": "Psalm 107:23-30",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Those who go down to the sea in ships, who do business in great waters; These see Yahweh’s works, and his wonders in the deep. For he commands, and raises the stormy wind, which lifts up its waves. They mount up to the sky; they go down again to the depths. Their soul melts away because of trouble. They reel back and forth, and stagger like a drunken man, and are at their wits’ end. Then they cry to Yahweh in their trouble, and he brings them out of their […]",
+                      "note": "Those who go down to the sea, caught in a storm with waves mounting, cry to the LORD, who stills the storm to a whisper and brings them to harbor. Matthew's contrary wind, distressed boat, terror, cry, and the ceasing of the wind map onto this sea-rescue psalm where the LORD masters the deep."
+                    },
+                    {
+                      "source": "Psalm 69:1-2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Save me, God, for the waters have come up to my neck! I sink in deep mire, where there is no foothold. I have come into deep waters, where the floods overflow me.",
+                      "note": "'Save me, O God! For the waters have come up to my neck... I sink in deep mire.' Peter's sinking cry, 'Lord, save me!' echoes the psalmist's drowning plea, casting Peter's near-drowning in the language of the lament for rescue from the waters."
+                    },
+                    {
+                      "source": "Psalm 18:16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He sent from on high. He took me. He drew me out of many waters.",
+                      "note": "'He reached down from on high, he took me; he drew me out of many waters.' Jesus stretching out his hand to seize the sinking Peter enacts the divine rescue-from-the-waters gesture of this royal thanksgiving."
+                    },
+                    {
+                      "source": "Psalm 89:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "You rule the pride of the sea. When its waves rise up, you calm them.",
+                      "note": "'You rule the raging of the sea; when its waves rise, you still them.' The stilling of the contrary wind when Jesus enters the boat enacts the Creator's sovereignty over the sea's tumult ascribed to the LORD."
+                    },
+                    {
+                      "source": "Exodus 14:21-22",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Moses stretched out his hand over the sea, and Yahweh caused the sea to go back by a strong east wind all the night, and made the sea dry land, and the waters were divided. The children of Israel went into the midst of the sea on the dry ground, and the waters were a wall to them on their right hand, and on their left.",
+                      "note": "The Red Sea crossing — God making a way through the sea by night to deliver his people from fear — is the Exodus archetype standing behind the night-time mastery of the waters and the deliverance of the disciples; Ps 77 explicitly reads the sea-treading as Exodus.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 2:7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "I will tell of the decree. Yahweh said to me, “You are my son. Today I have become your father.",
+                      "note": "The boat's confession 'You are truly the Son of God' draws on the royal-messianic sonship of the enthronement psalm, the same Scripture echoed at Jesus' baptism (3:17). The post-theophany worship names Jesus in Davidic-divine sonship terms.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Psalm 144:7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Stretch out your hand from above, rescue me, and deliver me out of great waters, out of the hands of foreigners;",
+                      "note": "'Stretch out your hand from on high; rescue me and deliver me from the many waters.' A close verbal sibling to Ps 18:16 reinforcing the 'outstretched hand from the waters' rescue motif applied to Peter.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Job 38:16",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Have you entered into the springs of the sea? Or have you walked in the recesses of the deep?",
+                      "note": "'Have you... walked in the recesses of the deep?' God's challenge to Job implies that traversing the deep belongs to God alone; Jesus' walking on the sea answers the rhetorical question in his own person.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Habakkuk 3:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You trampled the sea with your horses, churning mighty waters.",
+                      "note": "'You trampled the sea with your horses, the surging of mighty waters.' The theophanic image of God treading the sea in the prophet's vision faintly underlies the sea-walking theophany.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 3:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He answered, Look, I see four men loose, walking in the midst of the fire, and they are unharmed; and the aspect of the fourth is like a son of the gods.",
+                      "note": "The disciples' confession 'You are truly the Son of God' has a faint resonance with the recognition that one 'like a son of the gods' walks unharmed amid a deadly element; the title here, however, is more securely rooted in Matthew's own Christology (3:17; 16:16).",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 1:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+                      "note": "The Spirit/wind of God hovering over the face of the waters at creation provides a faint backdrop: the one who walks upon the deep and masters the wind exercises the Creator's authority over the primordial waters.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Walking on the water",
+                      "section": "galilee",
+                      "refs": {
+                        "matthew": "14:22–33",
+                        "mark": "6:45–52",
+                        "john": "6:15–21"
+                      },
+                      "note": "Luke alone omits it; Matthew alone adds Peter stepping out and sinking."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

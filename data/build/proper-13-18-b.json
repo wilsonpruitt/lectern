@@ -819,7 +819,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/2-samuel-11"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -832,7 +835,290 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-51"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 51:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.10.46-Mark.10.52",
+                      "refDisplay": "Mark 10:46–52",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "10.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-10.7"
+                    },
+                    {
+                      "refKey": "Acts.3.17-Acts.3.21",
+                      "refDisplay": "Acts 3:17–21",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "3.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-3.3"
+                    },
+                    {
+                      "refKey": "Col.2.14-Col.2.15",
+                      "refDisplay": "Colossians 2:14–15",
+                      "book": "Colossians",
+                      "slug": "colossians",
+                      "pericopeId": "2.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/colossians#p-2.6"
+                    },
+                    {
+                      "refKey": "1Pet.1.3-1Pet.1.12",
+                      "refDisplay": "1 Peter 1:3–12",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:10",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.1.3-1Tim.1.7",
+                      "refDisplay": "1 Timothy 1:3–7",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.2"
+                    },
+                    {
+                      "refKey": "Eph.4.20-Eph.4.24",
+                      "refDisplay": "Ephesians 4:20–24",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "4.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/ephesians#p-4.7"
+                    },
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    },
+                    {
+                      "refKey": "2Tim.1.3-2Tim.1.5",
+                      "refDisplay": "2 Timothy 1:3–5",
+                      "book": "2 Timothy",
+                      "slug": "2-timothy",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-timothy#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:7",
+                  "occurrences": [
+                    {
+                      "refKey": "John.13.4-John.13.11",
+                      "refDisplay": "John 13:4–11",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "13.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-13.3"
+                    },
+                    {
+                      "refKey": "Titus.3.4-Titus.3.7",
+                      "refDisplay": "Titus 3:4–7",
+                      "book": "Titus",
+                      "slug": "titus",
+                      "pericopeId": "3.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/titus#p-3.4"
+                    },
+                    {
+                      "refKey": "1John.1.6-1John.1.7",
+                      "refDisplay": "1 John 1:6–7",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.3.1-Rom.3.8",
+                      "refDisplay": "Romans 3:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "3.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-3.1"
+                    },
+                    {
+                      "refKey": "Luke.15.17-Luke.15.19",
+                      "refDisplay": "Luke 15:17–19",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "15.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-15.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.18.9-Luke.18.14",
+                      "refDisplay": "Luke 18:9–14",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "18.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-18.2"
+                    },
+                    {
+                      "refKey": "2Cor.7.8-2Cor.7.13",
+                      "refDisplay": "2 Corinthians 7:8–13",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "7.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-7.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.7.13-Rom.7.25",
+                      "refDisplay": "Romans 7:13–25",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-7.3"
+                    },
+                    {
+                      "refKey": "Eph.2.1-Eph.2.3",
+                      "refDisplay": "Ephesians 2:1–3",
+                      "book": "Ephesians",
+                      "slug": "ephesians",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/ephesians#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:12",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.14.32-Mark.14.42",
+                      "refDisplay": "Mark 14:32–42",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "14.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-14.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:1–9",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.7.36-Luke.7.50",
+                      "refDisplay": "Luke 7:36–50",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "7.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-7.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.6",
+                      "refDisplay": "1 Corinthians 13:6",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:2–3",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.1.9",
+                      "refDisplay": "1 John 1:9",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.9"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 51:1–3",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.3.4-1John.3.6",
+                      "refDisplay": "1 John 3:4–6",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-john#p-3.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -851,7 +1137,175 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.1",
+                  "ref": "4:1-3",
+                  "echoes": [
+                    {
+                      "source": "Micah 6:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+                      "note": "To 'walk worthily of the calling... with all lowliness and humility' fuses the prophetic summons to 'walk humbly with your God.' Volume is moderate (shared 'walk' + 'humility' word-field) and the coherence is strong with Paul's halakhic ethics. Availability is secure; the trope of covenantal walking is widely diffused across the OT."
+                    },
+                    {
+                      "source": "Deuteronomy 10:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now, Israel, what does Yahweh your God require of you, but to fear Yahweh your God, to walk in all his ways, and to love him, and to serve Yahweh your God with all your heart and with all your soul,",
+                      "note": "Deuteronomy's call to 'walk in all his ways' supplies the underlying idiom of vocational walking that Paul ethicizes here. Volume is thin and the recurrence is generic, so the echo is faint, but it anchors the 'walk worthily' language in the covenant tradition.",
+                      "contested": true,
+                      "altSource": "Micah 6:8"
+                    },
+                    {
+                      "source": "Sirach 3:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, go on with your business in meekness; So will you be beloved of an acceptable man.",
+                      "note": "'Perform your tasks in meekness' and the wider Sirach catena on forbearance parallels the cluster lowliness/patience/'bearing with one another.' Availability holds as Second-Temple wisdom; volume is low and the parallel is thematic rather than verbal, hence faint.",
+                      "contested": true,
+                      "altSource": "Proverbs 16:19"
+                    },
+                    {
+                      "source": "Psalm 133:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "See how good and how pleasant it is for brothers to live together in unity!",
+                      "note": "'How good... when brothers dwell in unity' coheres with 'the unity of the Spirit in the bond of peace.' The link is conceptual not lexical, so the echo is faint, but the psalm is the classic OT locus for fraternal unity Paul presses.",
+                      "contested": true,
+                      "altSource": "Isaiah 52:7"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.2",
+                  "ref": "4:4-6",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one.",
+                      "note": "The Shema's 'the LORD is one' undergirds the confession 'one Lord... one God and Father of all.' Volume is high (the monotheistic 'one' refrain saturates the unit) and coherence with Paul's elsewhere-cited Shema theology is strong. The creed reworks Israel's central confession into a sevenfold unity claim."
+                    },
+                    {
+                      "source": "Malachi 2:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t we all have one father? Hasn’t one God created us? Why do we deal treacherously every man against his brother, profaning the covenant of our fathers?",
+                      "note": "'Have we not all one Father? Has not one God created us?' is the closest OT antecedent to 'one God and Father of all, who is over all and through all.' Volume is high with the doubled 'one Father / one God,' and Malachi deploys it (like Paul) to ground communal unity against fracture. Coherence is excellent."
+                    },
+                    {
+                      "source": "Zechariah 14:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh will be King over all the earth. In that day Yahweh will be one, and his name one.",
+                      "note": "'The LORD will be one and his name one' supplies the eschatological monotheism behind 'one Lord... one God.' Volume is moderate; the verse extends the Shema toward the universal lordship ('over all, through all') Paul affirms. Availability and coherence are solid."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.3",
+                  "ref": "4:7-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 68:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You have ascended on high. You have led away captives. You have received gifts among men, yes, among the rebellious also, that Yah God might dwell there.",
+                      "note": "Verse 8 explicitly cites 'When he ascended on high, he led captivity captive, and gave gifts to men' from Psalm 68:18. The quotation is marked ('he says') and the wording follows a targum-like reading ('gave' rather than 'received' gifts). Highest volume and explicitness in the chapter."
+                    },
+                    {
+                      "source": "Jeremiah 23:24",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Can any hide himself in secret places so that I shall not see him? says Yahweh. Don’t I fill heaven and earth? says Yahweh.",
+                      "note": "'That he might fill all things' coheres with the divine 'Do I not fill heaven and earth?' Volume is moderate (the 'fill all/heaven and earth' motif) and the coherence with Eph's cosmic-plenitude theology is strong. The omnipresence claim is transferred to the ascended Christ."
+                    },
+                    {
+                      "source": "Psalm 139:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My frame wasn’t hidden from you, when I was made in secret, woven together in the depths of the earth.",
+                      "note": "'Descended into the lower parts of the earth' echoes the psalm's 'wrought in the depths of the earth' as imagery for the hidden lowest region. Volume is low and the figural application is debated, but the spatial idiom of the earth's depths is shared.",
+                      "contested": true,
+                      "altSource": "Psalm 63:9"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.4",
+                  "ref": "4:11-13",
+                  "echoes": [
+                    {
+                      "source": "Numbers 11:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh came down in the cloud, and spoke to him, and took of the Spirit that was on him, and put it on the seventy elders. When the Spirit rested on them, they prophesied, but they did so no more.",
+                      "note": "The distribution of Spirit-endowed leadership offices ('he gave some apostles... prophets') faintly recalls Yahweh apportioning the spirit to the seventy elders. Volume is low and the parallel is conceptual; it reflects the OT pattern of God gifting officers to the people.",
+                      "contested": true,
+                      "altSource": "Jeremiah 3:15"
+                    },
+                    {
+                      "source": "Jeremiah 3:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will give you shepherds according to my heart, who shall feed you with knowledge and understanding.",
+                      "note": "'I will give you shepherds after my own heart, who will feed you with knowledge' parallels Christ giving 'shepherds and teachers' for 'the knowledge of the Son of God.' Volume is low but the shepherd-plus-knowledge collocation is suggestive and coheres with the pericope's aim.",
+                      "contested": true,
+                      "altSource": "Numbers 11:25"
+                    },
+                    {
+                      "source": "Habakkuk 2:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the earth will be filled with the knowledge of Yahweh’s glory, as the waters cover the sea.",
+                      "note": "Maturing 'until we all attain to the unity... of the knowledge of the Son of God' faintly echoes the eschatological filling of the earth with 'the knowledge of the glory of the LORD.' Volume is thin; the shared eschatological 'knowledge' goal supplies coherence.",
+                      "contested": true,
+                      "altSource": "Isaiah 11:9"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.5",
+                  "ref": "4:14-16",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 57:20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But the wicked are like the troubled sea; for it can’t rest, and its waters cast up mire and dirt.",
+                      "note": "'Tossed back and forth and carried about with every wind of doctrine' draws on the prophet's wicked 'like the tossing sea... whose waters toss up mire.' Volume is moderate (the instability/tossing image) and coherence is good: Isaiah uses it for the morally unstable, as Paul does for the doctrinally immature. Contested because the marine instability trope is diffuse.",
+                      "contested": true,
+                      "altSource": "Isaiah 28:9"
+                    },
+                    {
+                      "source": "Zechariah 8:16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "These are the things that you shall do: speak every man the truth with his neighbor. Execute the judgment of truth and peace in your gates,",
+                      "note": "'Speaking truth in love' anticipates the explicit citation of 'speak the truth to one another' at 4:25. Recurrence within the same chapter strengthens the case that Zechariah's communal-truth command already colors 4:15. Volume is moderate; the verbal kernel ('speak truth') is shared."
+                    },
+                    {
+                      "source": "Isaiah 28:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Whom will he teach knowledge? To whom will he explain the message? Those who are weaned from the milk, and drawn from the breasts?",
+                      "note": "Isaiah's mockery of those still needing 'milk' / 'weaned from the breast' parallels 'no longer children.' Volume is low and the link is thematic (spiritual infancy), so the echo is faint and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 57:20"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -870,7 +1324,110 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:22-34",
+                  "echoes": [
+                    {
+                      "source": "Psalm 78:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He rained down manna on them to eat, and gave them food from the sky.",
+                      "note": "'He gave them bread out of heaven to eat' (v.31) is a formal citation ('as it is written') closest in wording to LXX Psalm 78:24 ('arton ouranou edoken autois'). The chapter's hermeneutical hinge; maximal Volume."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "'I am about to rain bread from heaven for you' is the originating text behind the v.31 citation; Jesus directly contests its meaning ('it was not Moses who gave...'). The quotation conflates Exodus 16 with Psalm 78, so both are primary sources.",
+                      "altSource": "Exodus 16:15"
+                    },
+                    {
+                      "source": "Nehemiah 9:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and gave them bread from the sky for their hunger, and brought water out of the rock for them for their thirst, and commanded them that they should go in to possess the land which you had sworn to give them.",
+                      "note": "'You gave them bread from heaven for their hunger' is a third witness to the formula the crowd cites, showing the manna-from-heaven line was a fixed liturgical commonplace (Recurrence) rather than a single text."
+                    },
+                    {
+                      "source": "Isaiah 55:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Come, everyone who thirsts, to the waters! Come, he who has no money, buy, and eat! Yes, come, buy wine and milk without money and without price. Why do you spend money for that which is not bread? and your labor for that which doesn’t satisfy? listen diligently to me, and eat you that which is good, and let your soul delight itself in fatness. Turn your ear, and come to me; hear, and your soul shall live: and I will make an everlasting covenant with […]",
+                      "note": "'Why spend money for that which is not bread... eat what is good... that your soul may live' undergirds Jesus' contrast between 'food which perishes' and 'food which remains to eternal life' (v.27). Coherent invitation-to-true-nourishment background."
+                    },
+                    {
+                      "source": "Exodus 16:19-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Moses said to them, “Let no one leave of it until the morning.” Notwithstanding they didn’t listen to Moses, but some of them left of it until the morning, and it bred worms, and became foul: and Moses was angry with them. They gathered it morning by morning, everyone according to his eating. When the sun grew hot, it melted.",
+                      "note": "The manna that bred worms and stank when hoarded overnight gives concrete force to 'the food which perishes' (v.27). A plausible but faint verbal-conceptual link within the active manna matrix; contested as deliberate.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:35-40",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "Wisdom's invitation 'Come, eat of my bread and drink of the wine I have mixed' stands behind 'I am the bread of life. He who comes to me will not hunger.' Strong Coherence: Jesus speaks as personified Wisdom hosting a banquet that confers life."
+                    },
+                    {
+                      "source": "Sirach 24:19-21",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Come to me, you that are desirous of me, And be you filled with my produce. For my memorial is sweeter than honey, And my inheritance than the honeycomb. They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom says 'Come to me... those who eat me will hunger for more, those who drink me will thirst for more.' John inverts it ('will never hunger... never thirst'), a deliberate transformation signalling Jesus surpasses Wisdom/Torah. High Availability and Coherence; the inversion is the point."
+                    },
+                    {
+                      "source": "Isaiah 49:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them, even by springs of water he will guide them.",
+                      "note": "'They shall not hunger or thirst... he who has pity will lead them' supplies the hunger-and-thirst-abolished promise of the eschatological return. Coheres tightly with v.35's double negation; an exilic-restoration backdrop to the bread of life."
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The repeated 'I will raise him up at the last day' (vv.39-40) draws on the clearest OT resurrection text, 'many who sleep in the dust shall awake... to everlasting life.' Provides the Availability for John's last-day raising; recurs across the discourse."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1732,7 +2289,195 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/exodus-16"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Exodus 16:4",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.22-John.6.34",
+                      "refDisplay": "John 6:22–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.3"
+                    },
+                    {
+                      "refKey": "Matt.4.1-Matt.4.11",
+                      "refDisplay": "Matthew 4:1–11",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-4.1"
+                    },
+                    {
+                      "refKey": "Matt.6.9-Matt.6.13",
+                      "refDisplay": "Matthew 6:9–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.3",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.3"
+                    },
+                    {
+                      "refKey": "Luke.11.1-Luke.11.4",
+                      "refDisplay": "Luke 11:1–4",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "11.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-11.1"
+                    },
+                    {
+                      "refKey": "John.6.52-John.6.59",
+                      "refDisplay": "John 6:52–59",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-6.6"
+                    },
+                    {
+                      "refKey": "Matt.6.25-Matt.6.34",
+                      "refDisplay": "Matthew 6:25–34",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.9",
+                      "type": "figural",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.9"
+                    },
+                    {
+                      "refKey": "Matt.16.5-Matt.16.12",
+                      "refDisplay": "Matthew 16:5–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "16.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-16.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 16:4–18",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.14.13-Matt.14.21",
+                      "refDisplay": "Matthew 14:13–21",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.2"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    },
+                    {
+                      "refKey": "Luke.9.10-Luke.9.17",
+                      "refDisplay": "Luke 9:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-9.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 16:1–35",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    },
+                    {
+                      "refKey": "Mark.8.1-Mark.8.10",
+                      "refDisplay": "Mark 8:1–10",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/mark#p-8.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 16:4–15",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.1-John.6.15",
+                      "refDisplay": "John 6:1–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 16:2–8",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.41-John.6.51",
+                      "refDisplay": "John 6:41–51",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Exodus 16:4–35",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.10.1-1Cor.10.5",
+                      "refDisplay": "1 Corinthians 10:1–5",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "10.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-10.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1745,7 +2490,115 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-78"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 78:19–29",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.9.10-Luke.9.17",
+                      "refDisplay": "Luke 9:10–17",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.3",
+                      "type": "echo",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-9.3"
+                    },
+                    {
+                      "refKey": "Matt.14.13-Matt.14.21",
+                      "refDisplay": "Matthew 14:13–21",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "14.2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-14.2"
+                    },
+                    {
+                      "refKey": "Mark.6.35-Mark.6.44",
+                      "refDisplay": "Mark 6:35–44",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "6.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-6.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 78:19–25",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.15.32-Matt.15.39",
+                      "refDisplay": "Matthew 15:32–39",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "15.5",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-15.5"
+                    },
+                    {
+                      "refKey": "Mark.8.1-Mark.8.10",
+                      "refDisplay": "Mark 8:1–10",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "8.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-8.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 78:24–25",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.1-John.6.15",
+                      "refDisplay": "John 6:1–15",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.1",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.1"
+                    },
+                    {
+                      "refKey": "1Cor.10.1-1Cor.10.5",
+                      "refDisplay": "1 Corinthians 10:1–5",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-10.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 78:24",
+                  "occurrences": [
+                    {
+                      "refKey": "John.6.22-John.6.34",
+                      "refDisplay": "John 6:22–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.3",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-6.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1764,7 +2617,175 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "4.1",
+                  "ref": "4:1-3",
+                  "echoes": [
+                    {
+                      "source": "Micah 6:8",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+                      "note": "To 'walk worthily of the calling... with all lowliness and humility' fuses the prophetic summons to 'walk humbly with your God.' Volume is moderate (shared 'walk' + 'humility' word-field) and the coherence is strong with Paul's halakhic ethics. Availability is secure; the trope of covenantal walking is widely diffused across the OT."
+                    },
+                    {
+                      "source": "Deuteronomy 10:12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Now, Israel, what does Yahweh your God require of you, but to fear Yahweh your God, to walk in all his ways, and to love him, and to serve Yahweh your God with all your heart and with all your soul,",
+                      "note": "Deuteronomy's call to 'walk in all his ways' supplies the underlying idiom of vocational walking that Paul ethicizes here. Volume is thin and the recurrence is generic, so the echo is faint, but it anchors the 'walk worthily' language in the covenant tradition.",
+                      "contested": true,
+                      "altSource": "Micah 6:8"
+                    },
+                    {
+                      "source": "Sirach 3:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My son, go on with your business in meekness; So will you be beloved of an acceptable man.",
+                      "note": "'Perform your tasks in meekness' and the wider Sirach catena on forbearance parallels the cluster lowliness/patience/'bearing with one another.' Availability holds as Second-Temple wisdom; volume is low and the parallel is thematic rather than verbal, hence faint.",
+                      "contested": true,
+                      "altSource": "Proverbs 16:19"
+                    },
+                    {
+                      "source": "Psalm 133:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "See how good and how pleasant it is for brothers to live together in unity!",
+                      "note": "'How good... when brothers dwell in unity' coheres with 'the unity of the Spirit in the bond of peace.' The link is conceptual not lexical, so the echo is faint, but the psalm is the classic OT locus for fraternal unity Paul presses.",
+                      "contested": true,
+                      "altSource": "Isaiah 52:7"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.2",
+                  "ref": "4:4-6",
+                  "echoes": [
+                    {
+                      "source": "Deuteronomy 6:4",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Hear, Israel: Yahweh is our God. Yahweh is one.",
+                      "note": "The Shema's 'the LORD is one' undergirds the confession 'one Lord... one God and Father of all.' Volume is high (the monotheistic 'one' refrain saturates the unit) and coherence with Paul's elsewhere-cited Shema theology is strong. The creed reworks Israel's central confession into a sevenfold unity claim."
+                    },
+                    {
+                      "source": "Malachi 2:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Don’t we all have one father? Hasn’t one God created us? Why do we deal treacherously every man against his brother, profaning the covenant of our fathers?",
+                      "note": "'Have we not all one Father? Has not one God created us?' is the closest OT antecedent to 'one God and Father of all, who is over all and through all.' Volume is high with the doubled 'one Father / one God,' and Malachi deploys it (like Paul) to ground communal unity against fracture. Coherence is excellent."
+                    },
+                    {
+                      "source": "Zechariah 14:9",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Yahweh will be King over all the earth. In that day Yahweh will be one, and his name one.",
+                      "note": "'The LORD will be one and his name one' supplies the eschatological monotheism behind 'one Lord... one God.' Volume is moderate; the verse extends the Shema toward the universal lordship ('over all, through all') Paul affirms. Availability and coherence are solid."
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.3",
+                  "ref": "4:7-10",
+                  "echoes": [
+                    {
+                      "source": "Psalm 68:18",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "You have ascended on high. You have led away captives. You have received gifts among men, yes, among the rebellious also, that Yah God might dwell there.",
+                      "note": "Verse 8 explicitly cites 'When he ascended on high, he led captivity captive, and gave gifts to men' from Psalm 68:18. The quotation is marked ('he says') and the wording follows a targum-like reading ('gave' rather than 'received' gifts). Highest volume and explicitness in the chapter."
+                    },
+                    {
+                      "source": "Jeremiah 23:24",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "Can any hide himself in secret places so that I shall not see him? says Yahweh. Don’t I fill heaven and earth? says Yahweh.",
+                      "note": "'That he might fill all things' coheres with the divine 'Do I not fill heaven and earth?' Volume is moderate (the 'fill all/heaven and earth' motif) and the coherence with Eph's cosmic-plenitude theology is strong. The omnipresence claim is transferred to the ascended Christ."
+                    },
+                    {
+                      "source": "Psalm 139:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "My frame wasn’t hidden from you, when I was made in secret, woven together in the depths of the earth.",
+                      "note": "'Descended into the lower parts of the earth' echoes the psalm's 'wrought in the depths of the earth' as imagery for the hidden lowest region. Volume is low and the figural application is debated, but the spatial idiom of the earth's depths is shared.",
+                      "contested": true,
+                      "altSource": "Psalm 63:9"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.4",
+                  "ref": "4:11-13",
+                  "echoes": [
+                    {
+                      "source": "Numbers 11:25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh came down in the cloud, and spoke to him, and took of the Spirit that was on him, and put it on the seventy elders. When the Spirit rested on them, they prophesied, but they did so no more.",
+                      "note": "The distribution of Spirit-endowed leadership offices ('he gave some apostles... prophets') faintly recalls Yahweh apportioning the spirit to the seventy elders. Volume is low and the parallel is conceptual; it reflects the OT pattern of God gifting officers to the people.",
+                      "contested": true,
+                      "altSource": "Jeremiah 3:15"
+                    },
+                    {
+                      "source": "Jeremiah 3:15",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I will give you shepherds according to my heart, who shall feed you with knowledge and understanding.",
+                      "note": "'I will give you shepherds after my own heart, who will feed you with knowledge' parallels Christ giving 'shepherds and teachers' for 'the knowledge of the Son of God.' Volume is low but the shepherd-plus-knowledge collocation is suggestive and coheres with the pericope's aim.",
+                      "contested": true,
+                      "altSource": "Numbers 11:25"
+                    },
+                    {
+                      "source": "Habakkuk 2:14",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "For the earth will be filled with the knowledge of Yahweh’s glory, as the waters cover the sea.",
+                      "note": "Maturing 'until we all attain to the unity... of the knowledge of the Son of God' faintly echoes the eschatological filling of the earth with 'the knowledge of the glory of the LORD.' Volume is thin; the shared eschatological 'knowledge' goal supplies coherence.",
+                      "contested": true,
+                      "altSource": "Isaiah 11:9"
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "4.5",
+                  "ref": "4:14-16",
+                  "echoes": [
+                    {
+                      "source": "Isaiah 57:20",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "But the wicked are like the troubled sea; for it can’t rest, and its waters cast up mire and dirt.",
+                      "note": "'Tossed back and forth and carried about with every wind of doctrine' draws on the prophet's wicked 'like the tossing sea... whose waters toss up mire.' Volume is moderate (the instability/tossing image) and coherence is good: Isaiah uses it for the morally unstable, as Paul does for the doctrinally immature. Contested because the marine instability trope is diffuse.",
+                      "contested": true,
+                      "altSource": "Isaiah 28:9"
+                    },
+                    {
+                      "source": "Zechariah 8:16",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "These are the things that you shall do: speak every man the truth with his neighbor. Execute the judgment of truth and peace in your gates,",
+                      "note": "'Speaking truth in love' anticipates the explicit citation of 'speak the truth to one another' at 4:25. Recurrence within the same chapter strengthens the case that Zechariah's communal-truth command already colors 4:15. Volume is moderate; the verbal kernel ('speak truth') is shared."
+                    },
+                    {
+                      "source": "Isaiah 28:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Whom will he teach knowledge? To whom will he explain the message? Those who are weaned from the milk, and drawn from the breasts?",
+                      "note": "Isaiah's mockery of those still needing 'milk' / 'weaned from the breast' parallels 'no longer children.' Volume is low and the link is thematic (spiritual infancy), so the echo is faint and contested.",
+                      "contested": true,
+                      "altSource": "Isaiah 57:20"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1783,7 +2804,110 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "6.3",
+                  "ref": "6:22-34",
+                  "echoes": [
+                    {
+                      "source": "Psalm 78:24",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "He rained down manna on them to eat, and gave them food from the sky.",
+                      "note": "'He gave them bread out of heaven to eat' (v.31) is a formal citation ('as it is written') closest in wording to LXX Psalm 78:24 ('arton ouranou edoken autois'). The chapter's hermeneutical hinge; maximal Volume."
+                    },
+                    {
+                      "source": "Exodus 16:4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law, or not.",
+                      "note": "'I am about to rain bread from heaven for you' is the originating text behind the v.31 citation; Jesus directly contests its meaning ('it was not Moses who gave...'). The quotation conflates Exodus 16 with Psalm 78, so both are primary sources.",
+                      "altSource": "Exodus 16:15"
+                    },
+                    {
+                      "source": "Nehemiah 9:15",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "and gave them bread from the sky for their hunger, and brought water out of the rock for them for their thirst, and commanded them that they should go in to possess the land which you had sworn to give them.",
+                      "note": "'You gave them bread from heaven for their hunger' is a third witness to the formula the crowd cites, showing the manna-from-heaven line was a fixed liturgical commonplace (Recurrence) rather than a single text."
+                    },
+                    {
+                      "source": "Isaiah 55:1-3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "“Come, everyone who thirsts, to the waters! Come, he who has no money, buy, and eat! Yes, come, buy wine and milk without money and without price. Why do you spend money for that which is not bread? and your labor for that which doesn’t satisfy? listen diligently to me, and eat you that which is good, and let your soul delight itself in fatness. Turn your ear, and come to me; hear, and your soul shall live: and I will make an everlasting covenant with […]",
+                      "note": "'Why spend money for that which is not bread... eat what is good... that your soul may live' undergirds Jesus' contrast between 'food which perishes' and 'food which remains to eternal life' (v.27). Coherent invitation-to-true-nourishment background."
+                    },
+                    {
+                      "source": "Exodus 16:19-21",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Moses said to them, “Let no one leave of it until the morning.” Notwithstanding they didn’t listen to Moses, but some of them left of it until the morning, and it bred worms, and became foul: and Moses was angry with them. They gathered it morning by morning, everyone according to his eating. When the sun grew hot, it melted.",
+                      "note": "The manna that bred worms and stank when hoarded overnight gives concrete force to 'the food which perishes' (v.27). A plausible but faint verbal-conceptual link within the active manna matrix; contested as deliberate.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "6.4",
+                  "ref": "6:35-40",
+                  "echoes": [
+                    {
+                      "source": "Proverbs 9:5",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "“Come, eat some of my bread, Drink some of the wine which I have mixed!",
+                      "note": "Wisdom's invitation 'Come, eat of my bread and drink of the wine I have mixed' stands behind 'I am the bread of life. He who comes to me will not hunger.' Strong Coherence: Jesus speaks as personified Wisdom hosting a banquet that confers life."
+                    },
+                    {
+                      "source": "Sirach 24:19-21",
+                      "type": "figural",
+                      "confidence": "high",
+                      "text": "Come to me, you that are desirous of me, And be you filled with my produce. For my memorial is sweeter than honey, And my inheritance than the honeycomb. They that eat me will yet be hungry; And those who drink me will yet be thirsty.",
+                      "note": "Wisdom says 'Come to me... those who eat me will hunger for more, those who drink me will thirst for more.' John inverts it ('will never hunger... never thirst'), a deliberate transformation signalling Jesus surpasses Wisdom/Torah. High Availability and Coherence; the inversion is the point."
+                    },
+                    {
+                      "source": "Isaiah 49:10",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them, even by springs of water he will guide them.",
+                      "note": "'They shall not hunger or thirst... he who has pity will lead them' supplies the hunger-and-thirst-abolished promise of the eschatological return. Coheres tightly with v.35's double negation; an exilic-restoration backdrop to the bread of life."
+                    },
+                    {
+                      "source": "Daniel 12:2",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.",
+                      "note": "The repeated 'I will raise him up at the last day' (vv.39-40) draws on the clearest OT resurrection text, 'many who sleep in the dust shall awake... to everlasting life.' Provides the Availability for John's last-day raising; recurs across the discourse."
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The bread of life discourse",
+                      "section": "galilee",
+                      "refs": {
+                        "john": "6:22–71"
+                      },
+                      "note": "John's reading of the feeding: \"I am the bread of life,\" and the hard saying that empties the crowd."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

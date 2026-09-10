@@ -533,7 +533,30 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "2 Kings 2:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.9.51-Luke.9.56",
+                      "refDisplay": "Luke 9:51–56",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "9.11",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/luke#p-9.11"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -546,7 +569,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-77"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -565,7 +591,55 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 26:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I am Yahweh your God, who brought you out of the land of Egypt, that you should not be their slaves. I have broken the bars of your yoke, and made you go upright.",
+                      "note": "Paul's 'yoke of bondage/slavery' inverts the exodus formula where God 'broke the bars of your yoke' and made Israel walk upright after Egyptian slavery. Volume is fair (the yoke-of-slavery image is distinctively exodus/covenant) and coheres with Paul's whole exodus-from-law typology in Galatians. The redemptive-liberation logic matches closely."
+                    },
+                    {
+                      "source": "Leviticus 25:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall make the fiftieth year holy, and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee to you; and each of you shall return to his own property, and each of you shall return to his family.",
+                      "note": "The Jubilee proclamation of 'liberty (deror) throughout the land' may underlie Paul's stress on the freedom for which Christ liberated. Coherence is real (release from debt-servitude) but volume is faint; the verbal link runs through the LXX language of eleutheria rather than direct citation.",
+                      "contested": true,
+                      "altSource": "Isaiah 61:1"
+                    },
+                    {
+                      "source": "Isaiah 61:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound;",
+                      "note": "The Servant's anointing 'to proclaim liberty to the captives' is a Second-Temple touchstone for eschatological release that Paul's freedom language may draw upon. Faint volume and no verbal quotation, but the messianic-liberty theme coheres with Christ as the agent who 'made us free.'",
+                      "contested": true,
+                      "altSource": "Leviticus 25:10",
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind;"
+                    },
+                    {
+                      "source": "Jeremiah 28:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus speaks Yahweh of Armies, the God of Israel, saying, I have broken the yoke of the king of Babylon.",
+                      "note": "Jeremiah's sign-act of the broken/iron yoke (chs. 27-28) gives the prophetic vocabulary of a yoke as imposed servitude that is broken or re-imposed. Coherence is moderate but recurrence is weak; the image is generic enough that direct dependence is uncertain.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -584,7 +658,95 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.11",
+                  "ref": "9:51-56",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 1:10-12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Elijah answered to the captain of fifty, “If I am a man of God, let fire come down from the sky, and consume you and your fifty!” Fire came down from the sky, and consumed him and his fifty. Again he sent to him another captain of fifty and his fifty. He answered him, “Man of God, the king has said, ‘Come down quickly!’” Elijah answered them, “If I am a man of God, let fire come down from the sky, and consume you and your fifty!” The fire of God came down […]",
+                      "note": "'Command fire to come down from the sky... just as Elijah did' explicitly cites Elijah calling down fire on the messengers from Samaria; the Samaritan setting makes the reference exact. High volume (named comparison) and coherence; Jesus' rebuke signals a deliberate contrast with the Elijah model."
+                    },
+                    {
+                      "source": "2 Kings 2:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When Yahweh was about to take Elijah up by a whirlwind into heaven, Elijah went with Elisha from Gilgal.",
+                      "note": "'The days were near that he should be taken up' and Jesus 'set his face' draw on Elijah's assumption ('when the LORD was about to take up Elijah') and prophetic resolve. The analepsis/analambano language tightly binds the journey's start to Elijah's ascent; high coherence."
+                    },
+                    {
+                      "source": "Isaiah 50:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed.",
+                      "note": "Jesus 'set his face' resolutely toward Jerusalem echoes the Servant's 'I have set my face like a flint' in obedient suffering. Moderate volume via the face-setting idiom; coherent with the Isaianic Servant strand running through the chapter."
+                    },
+                    {
+                      "source": "Ezekiel 21:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Son of man, set your face toward Jerusalem, and preach toward the sanctuaries, and prophesy against the land of Israel;",
+                      "note": "'Set your face toward Jerusalem and prophesy' is a recurring prophetic commission idiom that colors Jesus' face-setting as prophetic confrontation. The phrase is multiply attested in Ezekiel, so diffuse and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "9.12",
+                  "ref": "9:57-62",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 19:19-21",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "So he departed there, and found Elisha the son of Shaphat, who was plowing, with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed over to him, and cast his mantle on him. He left the oxen, and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.” He said to him, “Go back again; for what have I done to you?” He returned from following him, and took the yoke of oxen, and killed them, […]",
+                      "note": "'No one who puts his hand to the plow and looks back' directly engages Elisha's call: found plowing, he asks to kiss his parents farewell before following, and Elijah lets him. Jesus radicalizes the precedent—no looking back, no delayed farewell—making the plowing image and the farewell request unmistakable. Very high volume and coherence."
+                    },
+                    {
+                      "source": "1 Kings 19:20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He left the oxen, and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.” He said to him, “Go back again; for what have I done to you?”",
+                      "note": "'Allow me first to say good-bye to those at my house' nearly quotes Elisha's 'let me kiss my father and mother, and then I will follow you.' The verbal correspondence in the third would-be follower is the strongest single anchor for the Elisha typology here."
+                    },
+                    {
+                      "source": "Genesis 19:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It came to pass, when they had taken them out, that he said, “Escape for your life! Don’t look behind you, and don’t stay anywhere in the plain. Escape to the mountains, lest you be consumed!”",
+                      "note": "'Looking back' as fatal hesitation may glance at Lot's wife, the proverbial backward look that forfeits deliverance. Faint and figural relative to the dominant Elisha frame; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Tobit 4:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And he called him, and said, “My child, if I die, bury me. Don’t despise your mother. Honor her all the days of your life, and do that which is pleasing to her, and don’t grieve her.",
+                      "note": "'Let me first bury my father' reflects the supreme filial duty of burial dramatized in Tobit, against which Jesus' 'leave the dead to bury their dead' is shockingly subversive. Deuterocanonical availability illuminates the cultural weight Jesus overturns, though it is background rather than a textual echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 8:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "but the dove found no place to rest her foot, and she returned to him into the ship, for the waters were on the surface of the whole earth. He put out his hand, and took her, and brought her to him into the ship.",
+                      "note": "'The birds of the sky have nests, but the Son of Man has no place to lay his head' may faintly invert creation's provision of resting places (the dove finding no rest, then nesting). Very low volume; offered only as a faint figural counterpoint.",
+                      "contested": true,
+                      "altSource": "Psalm 84:3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [
@@ -1344,7 +1506,10 @@
                 "label": "Divided Monarchy",
                 "url": "https://annales.wrootpress.com/divided-monarchy"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1357,7 +1522,205 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-16"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 16:10",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.2.29-Acts.2.36",
+                      "refDisplay": "Acts 2:29–36",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "2.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-2.5"
+                    },
+                    {
+                      "refKey": "Acts.13.32-Acts.13.37",
+                      "refDisplay": "Acts 13:32–37",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "13.7",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-13.7"
+                    },
+                    {
+                      "refKey": "Luke.4.31-Luke.4.37",
+                      "refDisplay": "Luke 4:31–37",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "4.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-4.7"
+                    },
+                    {
+                      "refKey": "John.6.60-John.6.71",
+                      "refDisplay": "John 6:60–71",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "6.7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-6.7"
+                    },
+                    {
+                      "refKey": "John.20.3-John.20.10",
+                      "refDisplay": "John 20:3–10",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "20.2",
+                      "type": "figural",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-20.2"
+                    },
+                    {
+                      "refKey": "Acts.3.11-Acts.3.16",
+                      "refDisplay": "Acts 3:11–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "3.2",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-3.2"
+                    },
+                    {
+                      "refKey": "Acts.17.1-Acts.17.9",
+                      "refDisplay": "Acts 17:1–9",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "17.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-17.1"
+                    },
+                    {
+                      "refKey": "Acts.26.19-Acts.26.23",
+                      "refDisplay": "Acts 26:19–23",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "26.6",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/acts#p-26.6"
+                    },
+                    {
+                      "refKey": "1Cor.15.1-1Cor.15.11",
+                      "refDisplay": "1 Corinthians 15:1–11",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "15.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-15.1"
+                    },
+                    {
+                      "refKey": "Mark.16.1-Mark.16.8",
+                      "refDisplay": "Mark 16:1–8",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "16.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/mark#p-16.1"
+                    },
+                    {
+                      "refKey": "1Pet.3.18-1Pet.3.22",
+                      "refDisplay": "1 Peter 3:18–22",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "3.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-3.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 16:5",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.10.38-Luke.10.42",
+                      "refDisplay": "Luke 10:38–42",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "10.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-10.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 16:11",
+                  "occurrences": [
+                    {
+                      "refKey": "John.17.13-John.17.16",
+                      "refDisplay": "John 17:13–16",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-17.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 16:8–11",
+                  "occurrences": [
+                    {
+                      "refKey": "Acts.2.22-Acts.2.28",
+                      "refDisplay": "Acts 2:22–28",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "2.4",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/acts#p-2.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 16:6",
+                  "occurrences": [
+                    {
+                      "refKey": "2Cor.10.12-2Cor.10.18",
+                      "refDisplay": "2 Corinthians 10:12–18",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "10.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-10.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 16:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "1Pet.1.3-1Pet.1.12",
+                      "refDisplay": "1 Peter 1:3–12",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1376,7 +1739,55 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1",
+                  "echoes": [
+                    {
+                      "source": "Leviticus 26:13",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "I am Yahweh your God, who brought you out of the land of Egypt, that you should not be their slaves. I have broken the bars of your yoke, and made you go upright.",
+                      "note": "Paul's 'yoke of bondage/slavery' inverts the exodus formula where God 'broke the bars of your yoke' and made Israel walk upright after Egyptian slavery. Volume is fair (the yoke-of-slavery image is distinctively exodus/covenant) and coheres with Paul's whole exodus-from-law typology in Galatians. The redemptive-liberation logic matches closely."
+                    },
+                    {
+                      "source": "Leviticus 25:10",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "You shall make the fiftieth year holy, and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee to you; and each of you shall return to his own property, and each of you shall return to his family.",
+                      "note": "The Jubilee proclamation of 'liberty (deror) throughout the land' may underlie Paul's stress on the freedom for which Christ liberated. Coherence is real (release from debt-servitude) but volume is faint; the verbal link runs through the LXX language of eleutheria rather than direct citation.",
+                      "contested": true,
+                      "altSource": "Isaiah 61:1"
+                    },
+                    {
+                      "source": "Isaiah 61:1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound;",
+                      "note": "The Servant's anointing 'to proclaim liberty to the captives' is a Second-Temple touchstone for eschatological release that Paul's freedom language may draw upon. Faint volume and no verbal quotation, but the messianic-liberty theme coheres with Christ as the agent who 'made us free.'",
+                      "contested": true,
+                      "altSource": "Leviticus 25:10",
+                      "lxxText": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind;"
+                    },
+                    {
+                      "source": "Jeremiah 28:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus speaks Yahweh of Armies, the God of Israel, saying, I have broken the yoke of the king of Babylon.",
+                      "note": "Jeremiah's sign-act of the broken/iron yoke (chs. 27-28) gives the prophetic vocabulary of a yoke as imposed servitude that is broken or re-imposed. Coherence is moderate but recurrence is weak; the image is generic enough that direct dependence is uncertain.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1395,7 +1806,95 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "9.11",
+                  "ref": "9:51-56",
+                  "echoes": [
+                    {
+                      "source": "2 Kings 1:10-12",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Elijah answered to the captain of fifty, “If I am a man of God, let fire come down from the sky, and consume you and your fifty!” Fire came down from the sky, and consumed him and his fifty. Again he sent to him another captain of fifty and his fifty. He answered him, “Man of God, the king has said, ‘Come down quickly!’” Elijah answered them, “If I am a man of God, let fire come down from the sky, and consume you and your fifty!” The fire of God came down […]",
+                      "note": "'Command fire to come down from the sky... just as Elijah did' explicitly cites Elijah calling down fire on the messengers from Samaria; the Samaritan setting makes the reference exact. High volume (named comparison) and coherence; Jesus' rebuke signals a deliberate contrast with the Elijah model."
+                    },
+                    {
+                      "source": "2 Kings 2:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "When Yahweh was about to take Elijah up by a whirlwind into heaven, Elijah went with Elisha from Gilgal.",
+                      "note": "'The days were near that he should be taken up' and Jesus 'set his face' draw on Elijah's assumption ('when the LORD was about to take up Elijah') and prophetic resolve. The analepsis/analambano language tightly binds the journey's start to Elijah's ascent; high coherence."
+                    },
+                    {
+                      "source": "Isaiah 50:7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "For the Lord Yahweh will help me; therefore I have not been confounded: therefore have I set my face like a flint, and I know that I shall not be disappointed.",
+                      "note": "Jesus 'set his face' resolutely toward Jerusalem echoes the Servant's 'I have set my face like a flint' in obedient suffering. Moderate volume via the face-setting idiom; coherent with the Isaianic Servant strand running through the chapter."
+                    },
+                    {
+                      "source": "Ezekiel 21:2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Son of man, set your face toward Jerusalem, and preach toward the sanctuaries, and prophesy against the land of Israel;",
+                      "note": "'Set your face toward Jerusalem and prophesy' is a recurring prophetic commission idiom that colors Jesus' face-setting as prophetic confrontation. The phrase is multiply attested in Ezekiel, so diffuse and contested.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "9.12",
+                  "ref": "9:57-62",
+                  "echoes": [
+                    {
+                      "source": "1 Kings 19:19-21",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "So he departed there, and found Elisha the son of Shaphat, who was plowing, with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed over to him, and cast his mantle on him. He left the oxen, and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.” He said to him, “Go back again; for what have I done to you?” He returned from following him, and took the yoke of oxen, and killed them, […]",
+                      "note": "'No one who puts his hand to the plow and looks back' directly engages Elisha's call: found plowing, he asks to kiss his parents farewell before following, and Elijah lets him. Jesus radicalizes the precedent—no looking back, no delayed farewell—making the plowing image and the farewell request unmistakable. Very high volume and coherence."
+                    },
+                    {
+                      "source": "1 Kings 19:20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He left the oxen, and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.” He said to him, “Go back again; for what have I done to you?”",
+                      "note": "'Allow me first to say good-bye to those at my house' nearly quotes Elisha's 'let me kiss my father and mother, and then I will follow you.' The verbal correspondence in the third would-be follower is the strongest single anchor for the Elisha typology here."
+                    },
+                    {
+                      "source": "Genesis 19:17",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It came to pass, when they had taken them out, that he said, “Escape for your life! Don’t look behind you, and don’t stay anywhere in the plain. Escape to the mountains, lest you be consumed!”",
+                      "note": "'Looking back' as fatal hesitation may glance at Lot's wife, the proverbial backward look that forfeits deliverance. Faint and figural relative to the dominant Elisha frame; contested.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Tobit 4:3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "And he called him, and said, “My child, if I die, bury me. Don’t despise your mother. Honor her all the days of your life, and do that which is pleasing to her, and don’t grieve her.",
+                      "note": "'Let me first bury my father' reflects the supreme filial duty of burial dramatized in Tobit, against which Jesus' 'leave the dead to bury their dead' is shockingly subversive. Deuterocanonical availability illuminates the cultural weight Jesus overturns, though it is background rather than a textual echo.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Genesis 8:9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "but the dove found no place to rest her foot, and she returned to him into the ship, for the waters were on the surface of the whole earth. He put out his hand, and took her, and brought her to him into the ship.",
+                      "note": "'The birds of the sky have nests, but the Son of Man has no place to lay his head' may faintly invert creation's provision of resting places (the dove finding no rest, then nesting). Very low volume; offered only as a faint figural counterpoint.",
+                      "contested": true,
+                      "altSource": "Psalm 84:3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           }
         ],
         "doctrine": [

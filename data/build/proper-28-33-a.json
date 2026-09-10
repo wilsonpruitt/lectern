@@ -691,7 +691,141 @@
                 "label": "Map & places",
                 "url": "https://topographia.wrootpress.com/books/judges/4/"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Judges 4:4",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.2.36-Luke.2.38",
+                      "refDisplay": "Luke 2:36–38",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "2.7",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-2.7"
+                    }
+                  ]
+                },
+                {
+                  "source": "Judges 4–16",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.11.32-Heb.11.40",
+                      "refDisplay": "Hebrews 11:32–40",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "11.4",
+                      "type": "figural",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/hebrews#p-11.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": {
+              "chapterUrl": "https://topographia.wrootpress.com/books/judges/4/",
+              "title": "Deborah and Barak",
+              "view": {
+                "center": [
+                  32.85,
+                  35.4
+                ],
+                "zoom": 9
+              },
+              "route": [
+                "kedesh",
+                "mount-tabor",
+                "river-kishon",
+                "harosheth-of-the-gentiles"
+              ],
+              "approxChapter": null,
+              "places": [
+                {
+                  "key": "hazor",
+                  "name": "Hazor",
+                  "coords": [
+                    32.989,
+                    35.567
+                  ],
+                  "tier": "identified",
+                  "id": "Tell el-Qedah, the largest mound in the southern Levant (c. 200 acres), in the Huleh basin of upper Galilee. The Bronze Age regional capital, named in Egyptian execration texts and the Mari archives; identified by Garstang and excavated by Yadin and Ben-Tor."
+                },
+                {
+                  "key": "harosheth-of-the-gentiles",
+                  "name": "Harosheth of the Gentiles",
+                  "coords": [
+                    32.628,
+                    35.075
+                  ],
+                  "tier": "conjectural",
+                  "id": "Sisera's base, location debated. Tell el-Harbaj at the western end of the Jezreel-Kishon corridor (where the river breaks toward the Bay of Acco) is the traditional candidate; el-Ahwat in the Manasseh hills above the Sharon is a more recent proposal. Either way it commanded the chariot routes from the Sharon to the Jezreel."
+                },
+                {
+                  "key": "ramah-benjamin",
+                  "name": "Ramah",
+                  "coords": [
+                    31.866,
+                    35.227
+                  ],
+                  "tier": "identified",
+                  "id": "Modern er-Ram on the Jerusalem-Bethel road. Distinct from Ramah of Samuel (Ramathaim-zophim) and from other Ramahs. The fortress mentioned in 1 Kgs 15:17, the place of Jeremiah's lament (Jer 31:15)."
+                },
+                {
+                  "key": "bethel",
+                  "name": "Bethel",
+                  "coords": [
+                    31.93,
+                    35.237
+                  ],
+                  "tier": "identified",
+                  "id": "Beitin, a village c. 17 km north of Jerusalem on the central ridge route. Identified by Edward Robinson (1838) and excavated by Albright and Kelso. Earlier called Luz (Joshua 18:13)."
+                },
+                {
+                  "key": "kedesh",
+                  "name": "Kedesh",
+                  "coords": [
+                    33.118,
+                    35.529
+                  ],
+                  "tier": "identified",
+                  "id": "Tell Qades, in upper Galilee c. 15 km NW of Hazor. Multiple Kedeshes exist; the Joshua 12 listing is identified with Kedesh-Naphtali (cf. Joshua 19:37, 20:7) on the basis of geographic context."
+                },
+                {
+                  "key": "mount-tabor",
+                  "name": "Mount Tabor",
+                  "coords": [
+                    32.687,
+                    35.391
+                  ],
+                  "tier": "identified",
+                  "id": "The conspicuous dome-shaped mountain on the northeast edge of the Jezreel valley. Boundary point between Issachar, Zebulun, and Naphtali; site of Barak's mustering (Judg 4-5). The Hellenistic-Roman fortress on the summit was Itabyrion."
+                },
+                {
+                  "key": "river-kishon",
+                  "name": "River Kishon",
+                  "coords": [
+                    32.703,
+                    35.179
+                  ],
+                  "tier": "identified",
+                  "id": "The seasonal river draining the Jezreel valley west into the Bay of Acco at the foot of Mount Carmel. The stream-bed is dry most of the year but floods after winter rain; this is the chariot-trap of Judges 4-5."
+                },
+                {
+                  "key": "zaanannim",
+                  "name": "Zaanannim",
+                  "coords": null,
+                  "tier": "conjectural",
+                  "id": "The 'oak in Zaanannim' is the boundary tree where Heber the Kenite encamped before Sisera was killed (Judg 4:11). Khan et-Tujjar near Mount Tabor has been proposed; the location is uncertain."
+                }
+              ]
+            }
           },
           {
             "role": "psalm",
@@ -704,7 +838,55 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-123"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 123:3",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.9.27-Matt.9.31",
+                      "refDisplay": "Matthew 9:27–31",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "9.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-9.5"
+                    },
+                    {
+                      "refKey": "Matt.20.29-Matt.20.34",
+                      "refDisplay": "Matthew 20:29–34",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "20.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-20.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 123:2",
+                  "occurrences": [
+                    {
+                      "refKey": "Luke.17.7-Luke.17.10",
+                      "refDisplay": "Luke 17:7–10",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "17.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-17.4"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -723,7 +905,130 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1-11",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Blow the trumpet in Zion, and sound an alarm in my holy mountain! Let all the inhabitants of the land tremble, for the day of Yahweh comes, for it is close at hand: A day of darkness and gloominess, a day of clouds and thick darkness. As the dawn spreading on the mountains, a great and strong people; there has never been the like, neither will there be any more after them, even to the years of many generations.",
+                      "note": "The phrase 'the day of the Lord' (5:2) draws directly on the prophetic Day-of-the-Lord tradition, of which Joel is a primary witness: a day of darkness and gloom announced with alarm. Paul assumes his readers know the concept without explanation, presupposing the prophetic background."
+                    },
+                    {
+                      "source": "Amos 5:18-20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Woe to you who desire the day of Yahweh! Why do you long for the day of Yahweh? It is darkness, and not light. As if a man fled from a lion, and a bear met him; Or he went into the house and leaned his hand on the wall, and a snake bit him. Won’t the day of Yahweh be darkness, and not light? Even very dark, and no brightness in it?",
+                      "note": "Amos memorably reframes the day of the Lord as darkness and not light, an inversion that Paul exploits when he contrasts the children of light/day with those overtaken in darkness (5:4-5). The thematic pairing of the Day with darkness and sudden doom is shared."
+                    },
+                    {
+                      "source": "Zephaniah 1:14-15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The great day of Yahweh is near. It is near, and hurries greatly, the voice of the day of Yahweh. The mighty man cries there bitterly. That day is a day of wrath, a day of distress and anguish, a day of trouble and ruin, a day of darkness and gloom, a day of clouds and blackness,",
+                      "note": "Zephaniah describes the day of the Lord as near, hastening, a day of wrath, distress, and ruin coming suddenly. Paul's 'sudden destruction' and the appointment 'not to wrath' (5:3, 9) echo this Day-of-the-Lord wrath vocabulary."
+                    },
+                    {
+                      "source": "Jeremiah 6:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They have healed also the hurt of my people superficially, saying, ‘Peace, peace!’ when there is no peace.",
+                      "note": "Paul's 'Peace and safety, then sudden destruction' (5:3) inverts the false-prophet slogan 'Peace, peace, when there is no peace.' Jeremiah condemns those who heal the wound lightly by crying peace; Paul makes the same false security the prelude to sudden ruin."
+                    },
+                    {
+                      "source": "Ezekiel 13:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Because, even because they have seduced my people, saying, Peace; and there is no peace; and when one builds up a wall, behold, they plaster it with whitewash:",
+                      "note": "Ezekiel likewise indicts prophets who say 'Peace' when there is no peace, whitewashing a flimsy wall that will fall. The deceptive cry of peace followed by sudden collapse parallels Paul's 'Peace and safety, then sudden destruction' (5:3)."
+                    },
+                    {
+                      "source": "Isaiah 13:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They will be dismayed. Pangs and sorrows will seize them. They will be in pain like a woman in labor. They will look in amazement one at another. Their faces will be faces of flame.",
+                      "note": "Paul compares the sudden destruction to 'birth pains on a pregnant woman' (5:3). Isaiah's oracle on the day of the Lord against Babylon uses the same labor-pang simile for inescapable terror, tying the metaphor directly to a Day-of-the-Lord context."
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "The armor metaphor 'breastplate of faith and love, and for a helmet the hope of salvation' (5:8) reworks Isaiah's portrait of the Divine Warrior who 'put on righteousness as a breastplate, and a helmet of salvation on his head.' Paul transfers God's own armor to the believer and recasts the virtues."
+                    },
+                    {
+                      "source": "Malachi 4:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says Yahweh of Armies, “that it shall leave them neither root nor branch.",
+                      "note": "Malachi's coming day burning like an oven that overtakes the wicked contributes to the burning, inescapable judgment color of Paul's Day-of-the-Lord imagery (5:2-3). Faint and one of several Day texts standing behind the motif.",
+                      "contested": true,
+                      "altSource": "Joel 2:1-2"
+                    },
+                    {
+                      "source": "Jeremiah 8:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They have healed the hurt of the daughter of my people slightly, saying, Peace, peace; when there is no peace.",
+                      "note": "A near-doublet of Jer 6:14, again denouncing 'Peace, peace, when there is no peace.' It reinforces the false-peace background of the 'Peace and safety' slogan in 5:3.",
+                      "altSource": "Jeremiah 6:14"
+                    },
+                    {
+                      "source": "Isaiah 26:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Like as a woman with child, who draws near the time of her delivery, is in pain and cries out in her pangs; so we have been before you, Yahweh.",
+                      "note": "Isaiah pictures a pregnant woman writhing and crying out in her labor pains as an image of distress, a standard prophetic figure that informs Paul's labor-pain simile for sudden destruction (5:3).",
+                      "altSource": "Isaiah 13:8"
+                    },
+                    {
+                      "source": "Jeremiah 6:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "We have heard its report; our hands become feeble: anguish has taken hold of us, and pains as of a woman in labor.",
+                      "note": "Jeremiah describes anguish and pain 'like a woman in labor' on hearing of coming disaster, in the same context as the false-peace slogan of 6:14. The shared labor-pang imagery for sudden, inescapable calamity stands behind 5:3.",
+                      "altSource": "Isaiah 13:8"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet;",
+                      "note": "Wisdom, itself dependent on Isa 59:17, depicts the Lord taking 'holiness as an invincible shield' and putting on righteousness as a breastplate, arming creation against enemies. It is a likely mediating deuterocanonical witness for Paul's armor imagery in 5:8.",
+                      "contested": true,
+                      "altSource": "Isaiah 59:17"
+                    },
+                    {
+                      "source": "Isaiah 2:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "House of Jacob, come, and let us walk in the light of Yahweh.",
+                      "note": "Isaiah's call to 'walk in the light of the LORD' offers a faint background for Paul's 'children of light... children of the day' (5:5) language of belonging to the light rather than darkness. Contested and one of several light/darkness texts.",
+                      "contested": true,
+                      "altSource": "Isaiah 60:1-3"
+                    },
+                    {
+                      "source": "Isaiah 60:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Arise, shine; for your light has come, and Yahweh’s glory is risen on you. For, behold, darkness shall cover the earth, and gross darkness the peoples; but Yahweh will arise on you, and his glory shall be seen on you. Nations shall come to your light, and kings to the brightness of your rising.",
+                      "note": "Isaiah's eschatological light shining on God's people while darkness covers the nations supplies a faint backdrop to the light/day versus night/darkness antithesis of 5:4-5. Faint and figural rather than verbal.",
+                      "contested": true,
+                      "altSource": "Isaiah 2:5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -742,7 +1047,81 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "25.2",
+                  "ref": "25:14-30",
+                  "echoes": [
+                    {
+                      "source": "Genesis 39:4-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Joseph found favor in his sight. He ministered to him, and he made him overseer over his house, and all that he had he put into his hand. From the time that he made him overseer in his house, and over all that he had, Yahweh blessed the Egyptian’s house for Joseph’s sake. Yahweh’s blessing was on all that he had, in the house and in the field. He left all that he had in Joseph’s hand. He didn’t concern himself with anything, except for the food which he […]",
+                      "note": "Joseph entrusted with all his master's goods and proving faithful as a steward supplies a narrative type of the trusted servant set over his lord's property, rewarded with greater authority.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 6:6-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Go to the ant, you sluggard. Consider her ways, and be wise; which having no chief, overseer, or ruler, provides her bread in the summer, and gathers her food in the harvest. How long will you sleep, sluggard? When will you arise out of your sleep? A little sleep, a little slumber, a little folding of the hands to sleep: so your poverty will come as a robber, and your scarcity as an armed man.",
+                      "note": "The condemnation of the 'slothful' servant (v.26) and the praise of diligent gain echoes wisdom's contrast between the industrious and the sluggard whose laziness brings ruin.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 10:4-5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He becomes poor who works with a lazy hand, but the hand of the diligent brings wealth. He who gathers in summer is a wise son, but he who sleeps during the harvest is a son who causes shame.",
+                      "note": "'A slack hand causes poverty, but the hand of the diligent makes rich; he who gathers in summer is a prudent son' undergirds the parable's reward of the productive servants and reproach of the one who buried his trust.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever.",
+                      "note": "The judgment-language of the parable's frame (joy of the lord vs. outer darkness) participates in the apocalyptic two-fold destiny of the wise who shine and others who go to shame, the eschatological backdrop Matthew assumes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 50:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, all you who kindle a fire, who adorn yourselves with torches around yourselves; walk in the flame of your fire, and among the brands that you have kindled. You shall have this of my hand; you shall lie down in sorrow.",
+                      "note": "The motif of being cast into darkness as judgment ('you shall lie down in torment') faintly underlies the 'outer darkness, weeping and gnashing of teeth' fate of the unprofitable servant.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Olivet discourse",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "24:1–25:46",
+                        "mark": "13:1–37",
+                        "luke": "21:5–38"
+                      },
+                      "note": "The discourse on the end; Matthew adds the parables of the virgins, the talents, and the sheep and goats."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1490,7 +1869,85 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/zephaniah-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Zephaniah 1:7",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.8.1-Rev.8.5",
+                      "refDisplay": "Revelation 8:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "8.1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-8.1"
+                    },
+                    {
+                      "refKey": "Luke.14.15-Luke.14.24",
+                      "refDisplay": "Luke 14:15–24",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "14.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/luke#p-14.4"
+                    },
+                    {
+                      "refKey": "Phil.4.4-Phil.4.7",
+                      "refDisplay": "Philippians 4:4–7",
+                      "book": "Philippians",
+                      "slug": "philippians",
+                      "pericopeId": "4.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/philippians#p-4.3"
+                    },
+                    {
+                      "refKey": "Rev.19.17-Rev.19.21",
+                      "refDisplay": "Revelation 19:17–21",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.5",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.5"
+                    },
+                    {
+                      "refKey": "1Cor.7.25-1Cor.7.31",
+                      "refDisplay": "1 Corinthians 7:25–31",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "7.6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-7.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Zephaniah 1:7–8",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.22.1-Matt.22.14",
+                      "refDisplay": "Matthew 22:1–14",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "22.1",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-22.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1503,7 +1960,115 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-90"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 90:2",
+                  "occurrences": [
+                    {
+                      "refKey": "John.17.1-John.17.5",
+                      "refDisplay": "John 17:1–5",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-17.1"
+                    },
+                    {
+                      "refKey": "John.17.24-John.17.26",
+                      "refDisplay": "John 17:24–26",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.7",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-17.7"
+                    },
+                    {
+                      "refKey": "John.8.48-John.8.59",
+                      "refDisplay": "John 8:48–59",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "8.5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-8.5"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 90:5–6",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.6.25-Matt.6.34",
+                      "refDisplay": "Matthew 6:25–34",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.9",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.9"
+                    },
+                    {
+                      "refKey": "1Pet.1.22-1Pet.1.25",
+                      "refDisplay": "1 Peter 1:22–25",
+                      "book": "1 Peter",
+                      "slug": "1-peter",
+                      "pericopeId": "1.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-peter#p-1.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 90:8",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.4.1-1Cor.4.5",
+                      "refDisplay": "1 Corinthians 4:1–5",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "4.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-4.1"
+                    },
+                    {
+                      "refKey": "1Tim.5.22-1Tim.5.25",
+                      "refDisplay": "1 Timothy 5:22–25",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "5.22",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-5.22"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 90:4",
+                  "occurrences": [
+                    {
+                      "refKey": "2Pet.3.8-2Pet.3.10",
+                      "refDisplay": "2 Peter 3:8–10",
+                      "book": "2 Peter",
+                      "slug": "2-peter",
+                      "pericopeId": "3.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/2-peter#p-3.2"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1522,7 +2087,130 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "5.1",
+                  "ref": "5:1-11",
+                  "echoes": [
+                    {
+                      "source": "Joel 2:1-2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Blow the trumpet in Zion, and sound an alarm in my holy mountain! Let all the inhabitants of the land tremble, for the day of Yahweh comes, for it is close at hand: A day of darkness and gloominess, a day of clouds and thick darkness. As the dawn spreading on the mountains, a great and strong people; there has never been the like, neither will there be any more after them, even to the years of many generations.",
+                      "note": "The phrase 'the day of the Lord' (5:2) draws directly on the prophetic Day-of-the-Lord tradition, of which Joel is a primary witness: a day of darkness and gloom announced with alarm. Paul assumes his readers know the concept without explanation, presupposing the prophetic background."
+                    },
+                    {
+                      "source": "Amos 5:18-20",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Woe to you who desire the day of Yahweh! Why do you long for the day of Yahweh? It is darkness, and not light. As if a man fled from a lion, and a bear met him; Or he went into the house and leaned his hand on the wall, and a snake bit him. Won’t the day of Yahweh be darkness, and not light? Even very dark, and no brightness in it?",
+                      "note": "Amos memorably reframes the day of the Lord as darkness and not light, an inversion that Paul exploits when he contrasts the children of light/day with those overtaken in darkness (5:4-5). The thematic pairing of the Day with darkness and sudden doom is shared."
+                    },
+                    {
+                      "source": "Zephaniah 1:14-15",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "The great day of Yahweh is near. It is near, and hurries greatly, the voice of the day of Yahweh. The mighty man cries there bitterly. That day is a day of wrath, a day of distress and anguish, a day of trouble and ruin, a day of darkness and gloom, a day of clouds and blackness,",
+                      "note": "Zephaniah describes the day of the Lord as near, hastening, a day of wrath, distress, and ruin coming suddenly. Paul's 'sudden destruction' and the appointment 'not to wrath' (5:3, 9) echo this Day-of-the-Lord wrath vocabulary."
+                    },
+                    {
+                      "source": "Jeremiah 6:14",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They have healed also the hurt of my people superficially, saying, ‘Peace, peace!’ when there is no peace.",
+                      "note": "Paul's 'Peace and safety, then sudden destruction' (5:3) inverts the false-prophet slogan 'Peace, peace, when there is no peace.' Jeremiah condemns those who heal the wound lightly by crying peace; Paul makes the same false security the prelude to sudden ruin."
+                    },
+                    {
+                      "source": "Ezekiel 13:10",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "Because, even because they have seduced my people, saying, Peace; and there is no peace; and when one builds up a wall, behold, they plaster it with whitewash:",
+                      "note": "Ezekiel likewise indicts prophets who say 'Peace' when there is no peace, whitewashing a flimsy wall that will fall. The deceptive cry of peace followed by sudden collapse parallels Paul's 'Peace and safety, then sudden destruction' (5:3)."
+                    },
+                    {
+                      "source": "Isaiah 13:8",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "They will be dismayed. Pangs and sorrows will seize them. They will be in pain like a woman in labor. They will look in amazement one at another. Their faces will be faces of flame.",
+                      "note": "Paul compares the sudden destruction to 'birth pains on a pregnant woman' (5:3). Isaiah's oracle on the day of the Lord against Babylon uses the same labor-pang simile for inescapable terror, tying the metaphor directly to a Day-of-the-Lord context."
+                    },
+                    {
+                      "source": "Isaiah 59:17",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head; and he put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+                      "note": "The armor metaphor 'breastplate of faith and love, and for a helmet the hope of salvation' (5:8) reworks Isaiah's portrait of the Divine Warrior who 'put on righteousness as a breastplate, and a helmet of salvation on his head.' Paul transfers God's own armor to the believer and recasts the virtues."
+                    },
+                    {
+                      "source": "Malachi 4:1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says Yahweh of Armies, “that it shall leave them neither root nor branch.",
+                      "note": "Malachi's coming day burning like an oven that overtakes the wicked contributes to the burning, inescapable judgment color of Paul's Day-of-the-Lord imagery (5:2-3). Faint and one of several Day texts standing behind the motif.",
+                      "contested": true,
+                      "altSource": "Joel 2:1-2"
+                    },
+                    {
+                      "source": "Jeremiah 8:11",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "They have healed the hurt of the daughter of my people slightly, saying, Peace, peace; when there is no peace.",
+                      "note": "A near-doublet of Jer 6:14, again denouncing 'Peace, peace, when there is no peace.' It reinforces the false-peace background of the 'Peace and safety' slogan in 5:3.",
+                      "altSource": "Jeremiah 6:14"
+                    },
+                    {
+                      "source": "Isaiah 26:17",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Like as a woman with child, who draws near the time of her delivery, is in pain and cries out in her pangs; so we have been before you, Yahweh.",
+                      "note": "Isaiah pictures a pregnant woman writhing and crying out in her labor pains as an image of distress, a standard prophetic figure that informs Paul's labor-pain simile for sudden destruction (5:3).",
+                      "altSource": "Isaiah 13:8"
+                    },
+                    {
+                      "source": "Jeremiah 6:24",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "We have heard its report; our hands become feeble: anguish has taken hold of us, and pains as of a woman in labor.",
+                      "note": "Jeremiah describes anguish and pain 'like a woman in labor' on hearing of coming disaster, in the same context as the false-peace slogan of 6:14. The shared labor-pang imagery for sudden, inescapable calamity stands behind 5:3.",
+                      "altSource": "Isaiah 13:8"
+                    },
+                    {
+                      "source": "Wisdom of Solomon 5:18",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "He will put on righteousness as a breastplate, And will array himself with judgement unfeigned as with a helmet;",
+                      "note": "Wisdom, itself dependent on Isa 59:17, depicts the Lord taking 'holiness as an invincible shield' and putting on righteousness as a breastplate, arming creation against enemies. It is a likely mediating deuterocanonical witness for Paul's armor imagery in 5:8.",
+                      "contested": true,
+                      "altSource": "Isaiah 59:17"
+                    },
+                    {
+                      "source": "Isaiah 2:5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "House of Jacob, come, and let us walk in the light of Yahweh.",
+                      "note": "Isaiah's call to 'walk in the light of the LORD' offers a faint background for Paul's 'children of light... children of the day' (5:5) language of belonging to the light rather than darkness. Contested and one of several light/darkness texts.",
+                      "contested": true,
+                      "altSource": "Isaiah 60:1-3"
+                    },
+                    {
+                      "source": "Isaiah 60:1-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“Arise, shine; for your light has come, and Yahweh’s glory is risen on you. For, behold, darkness shall cover the earth, and gross darkness the peoples; but Yahweh will arise on you, and his glory shall be seen on you. Nations shall come to your light, and kings to the brightness of your rising.",
+                      "note": "Isaiah's eschatological light shining on God's people while darkness covers the nations supplies a faint backdrop to the light/day versus night/darkness antithesis of 5:4-5. Faint and figural rather than verbal.",
+                      "contested": true,
+                      "altSource": "Isaiah 2:5"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1541,7 +2229,81 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "25.2",
+                  "ref": "25:14-30",
+                  "echoes": [
+                    {
+                      "source": "Genesis 39:4-6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Joseph found favor in his sight. He ministered to him, and he made him overseer over his house, and all that he had he put into his hand. From the time that he made him overseer in his house, and over all that he had, Yahweh blessed the Egyptian’s house for Joseph’s sake. Yahweh’s blessing was on all that he had, in the house and in the field. He left all that he had in Joseph’s hand. He didn’t concern himself with anything, except for the food which he […]",
+                      "note": "Joseph entrusted with all his master's goods and proving faithful as a steward supplies a narrative type of the trusted servant set over his lord's property, rewarded with greater authority.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 6:6-11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Go to the ant, you sluggard. Consider her ways, and be wise; which having no chief, overseer, or ruler, provides her bread in the summer, and gathers her food in the harvest. How long will you sleep, sluggard? When will you arise out of your sleep? A little sleep, a little slumber, a little folding of the hands to sleep: so your poverty will come as a robber, and your scarcity as an armed man.",
+                      "note": "The condemnation of the 'slothful' servant (v.26) and the praise of diligent gain echoes wisdom's contrast between the industrious and the sluggard whose laziness brings ruin.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Proverbs 10:4-5",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "He becomes poor who works with a lazy hand, but the hand of the diligent brings wealth. He who gathers in summer is a wise son, but he who sleeps during the harvest is a son who causes shame.",
+                      "note": "'A slack hand causes poverty, but the hand of the diligent makes rich; he who gathers in summer is a prudent son' undergirds the parable's reward of the productive servants and reproach of the one who buried his trust.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 12:2-3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever.",
+                      "note": "The judgment-language of the parable's frame (joy of the lord vs. outer darkness) participates in the apocalyptic two-fold destiny of the wise who shine and others who go to shame, the eschatological backdrop Matthew assumes.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Isaiah 50:11",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Behold, all you who kindle a fire, who adorn yourselves with torches around yourselves; walk in the flame of your fire, and among the brands that you have kindled. You shall have this of my hand; you shall lie down in sorrow.",
+                      "note": "The motif of being cast into darkness as judgment ('you shall lie down in torment') faintly underlies the 'outer darkness, weeping and gnashing of teeth' fate of the unprofitable servant.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "The Olivet discourse",
+                      "section": "passion",
+                      "refs": {
+                        "matthew": "24:1–25:46",
+                        "mark": "13:1–37",
+                        "luke": "21:5–38"
+                      },
+                      "note": "The discourse on the end; Matthew adds the parables of the virgins, the talents, and the sheep and goats."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [

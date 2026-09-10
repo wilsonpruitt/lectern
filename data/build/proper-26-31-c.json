@@ -522,7 +522,10 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/habakkuk-1"
               }
-            ]
+            ],
+            "echoes": null,
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -535,7 +538,65 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-119"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 119:142",
+                  "occurrences": [
+                    {
+                      "refKey": "John.17.17-John.17.19",
+                      "refDisplay": "John 17:17–19",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "17.5",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/john#p-17.5"
+                    },
+                    {
+                      "refKey": "Rom.7.7-Rom.7.12",
+                      "refDisplay": "Romans 7:7–12",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "7.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/romans#p-7.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 119:137",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.16.1-Rev.16.7",
+                      "refDisplay": "Revelation 16:1–7",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "16.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-16.1"
+                    },
+                    {
+                      "refKey": "Rev.19.1-Rev.19.5",
+                      "refDisplay": "Revelation 19:1–5",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "19.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/revelation#p-19.1"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -554,7 +615,51 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-2",
+                  "echoes": [
+                    {
+                      "source": "Numbers 6:25-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The epistolary salutation 'Grace to you and peace' draws on the Aaronic blessing, where the LORD's gracious face and the gift of peace (shalom) are pronounced over Israel. Paul reworks the priestly benediction into a christological greeting that names both Father and Lord Jesus as its source. The link is formulaic and contested as a deliberate allusion.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:3-4",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 9:23-24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh, Don’t let the wise man glory in his wisdom, neither let the mighty man glory in his might, don’t let the rich man glory in his riches; but let him who glories glory in this, that he has understanding, and knows me, that I am Yahweh who exercises loving kindness, justice, and righteousness, in the earth: for in these things I delight, says Yahweh.",
+                      "note": "Paul's 'boast about you in the assemblies of God' inverts Jeremiah's prohibition against boasting in wisdom, might, or wealth, redirecting glorying toward what God has wrought in the believers' faith. The motif of legitimate versus illegitimate boasting is a Pauline staple rooted in this oracle. Faint and contested here, since the object of boasting differs.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:21-25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I saw, and the same horn made war with the saints, and prevailed against them; until the ancient of days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom. Thus he said, The fourth animal shall be a fourth kingdom on earth, which shall be diverse from all the kingdoms, and shall devour the whole earth, and shall tread it down, and break it in pieces. As for the ten horns, out of this […]",
+                      "note": "The endurance of the assembly under 'persecutions and afflictions' resonates with Daniel's vision of the little horn making war on and wearing out the holy ones before their vindication. The apocalyptic pattern of saints suffering prior to the kingdom undergirds the whole chapter. The verbal contact is thematic rather than lexical.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -573,7 +678,101 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "19.1",
+                  "ref": "19:1-10",
+                  "echoes": [
+                    {
+                      "source": "Exodus 22:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“If a man steals an ox or a sheep, and kills it, or sells it; he shall pay five oxen for an ox, and four sheep for a sheep.",
+                      "note": "Zacchaeus pledges to restore fourfold what he has wrongfully exacted, matching the Torah's penalty of four sheep for a stolen sheep. Luke's specific multiplier 'four times' aligns precisely with the lower of the Exodus restitution scales, signaling Zacchaeus's voluntary embrace of legal restitution beyond mere repayment. High volume and coherence with the conversion-as-restoration theme."
+                    },
+                    {
+                      "source": "Numbers 5:6-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Speak to the children of Israel: ‘When a man or woman commits any sin that men commit, so as to trespass against Yahweh, and that soul is guilty; then he shall confess his sin which he has done, and he shall make restitution for his guilt in full, and add to it the fifth part of it, and give it to him in respect of whom he has been guilty.",
+                      "note": "Numbers prescribes that one who wrongs another must confess, restore the principal in full, and add a fifth. Zacchaeus's confession plus voluntary restitution enacts this penitential statute, even exceeding it in the fourfold portion. The coherence of confession-and-restoration makes this a strong background for the verse's logic of repentance."
+                    },
+                    {
+                      "source": "Ezekiel 34:16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will seek that which was lost, and will bring back that which was driven away, and will bind up that which was broken, and will strengthen that which was sick: but the fat and the strong I will destroy; I will feed them in justice.",
+                      "note": "The Son of Man's mission to 'seek and to save that which was lost' echoes Ezekiel's promise that God himself will seek the lost sheep and bind up the strayed, in contrast to the false shepherds. Luke applies the divine shepherd-search directly to Jesus, with the rare verb pairing seek/lost matching the prophetic oracle. High volume and thematic coherence with Luke's lost-and-found motif."
+                    },
+                    {
+                      "source": "2 Samuel 12:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He shall restore the lamb fourfold, because he did this thing, and because he had no pity!”",
+                      "note": "Nathan's parable has David decree the rich thief must restore the lamb fourfold, the same multiplier Zacchaeus invokes. The shared fourfold figure tied to a wealthy man's exploitation of the poor gives a narrative echo, though it derives the number from the Exodus statute David applies. Medium confidence as the link is mediated through the legal background.",
+                      "contested": true,
+                      "altSource": "Exodus 22:1"
+                    },
+                    {
+                      "source": "Ezekiel 34:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "therefore will I save my flock, and they shall no more be a prey; and I will judge between sheep and sheep.",
+                      "note": "Ezekiel adds that God will 'save' his flock so they shall no more be a prey, reinforcing the seek-and-save pairing of v. 10. The combination of seeking the lost and saving the flock in one oracle undergirds Luke's compressed mission statement. Medium because v. 16 carries the primary verbal weight."
+                    },
+                    {
+                      "source": "Genesis 17:5-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Neither will your name any more be called Abram, but your name will be Abraham; for I have made you the father of a multitude of nations. I will make you exceedingly fruitful, and I will make nations of you. Kings will come out of you. I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you.",
+                      "note": "Jesus declares Zacchaeus 'a son of Abraham,' invoking the Abrahamic covenant and its promise of inclusion. The phrase asserts that the despised tax collector belongs to the covenant family, an echo of God's covenant with Abraham and his offspring. Medium volume; the title is idiomatic but covenantally loaded in Luke."
+                    },
+                    {
+                      "source": "Isaiah 11:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen in that day that the Lord will set his hand again the second time to recover the remnant that is left of his people from Assyria, from Egypt, from Pathros, from Cush, from Elam, from Shinar, from Hamath, and from the islands of the sea. He will set up a banner for the nations, and will assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+                      "note": "The gathering of the scattered/lost of Israel as a restoration motif faintly underlies 'came to seek and to save that which was lost.' The remnant-gathering theme coheres with Luke's salvation-to-this-house, but the verbal contact is slight. Low confidence; Ezekiel 34 is the stronger source.",
+                      "contested": true,
+                      "altSource": "Ezekiel 34:16"
+                    },
+                    {
+                      "source": "Micah 4:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“In that day,” says Yahweh, “I will assemble that which is lame, and I will gather that which is driven away, and that which I have afflicted;",
+                      "note": "Micah's promise to gather 'her that is driven out' and 'the lost' (LXX) supplies another prophetic seeking-the-lost background for v. 10. The image of God assembling the strayed remnant coheres with Jesus's mission statement but is verbally faint beside Ezekiel. Low confidence, marked contested.",
+                      "contested": true,
+                      "altSource": "Ezekiel 34:16"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Zacchaeus in the sycamore",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "19:1–10"
+                      },
+                      "note": "\"The Son of Man came to seek and to save that which was lost.\" Luke only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
@@ -1406,7 +1605,235 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/isaiah-1"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Isaiah 1:16",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.4.7-Jas.4.10",
+                      "refDisplay": "James 4:7–10",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "4.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/james#p-4.3"
+                    },
+                    {
+                      "refKey": "2Cor.7.1",
+                      "refDisplay": "2 Corinthians 7:1",
+                      "book": "2 Corinthians",
+                      "slug": "2-corinthians",
+                      "pericopeId": "7.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/2-corinthians#p-7.1"
+                    },
+                    {
+                      "refKey": "Acts.22.12-Acts.22.16",
+                      "refDisplay": "Acts 22:12–16",
+                      "book": "Acts",
+                      "slug": "acts",
+                      "pericopeId": "22.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/acts#p-22.3"
+                    },
+                    {
+                      "refKey": "1Cor.6.9-1Cor.6.11",
+                      "refDisplay": "1 Corinthians 6:9–11",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "6.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-6.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:18",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.7.13-Rev.7.17",
+                      "refDisplay": "Revelation 7:13–17",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "7.4",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/revelation#p-7.4"
+                    },
+                    {
+                      "refKey": "Luke.5.17-Luke.5.26",
+                      "refDisplay": "Luke 5:17–26",
+                      "book": "Luke",
+                      "slug": "luke",
+                      "pericopeId": "5.3",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/luke#p-5.3"
+                    },
+                    {
+                      "refKey": "1Tim.1.12-1Tim.1.17",
+                      "refDisplay": "1 Timothy 1:12–17",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:15",
+                  "occurrences": [
+                    {
+                      "refKey": "1Tim.2.8",
+                      "refDisplay": "1 Timothy 2:8",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "2.2",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-2.2"
+                    },
+                    {
+                      "refKey": "John.9.24-John.9.34",
+                      "refDisplay": "John 9:24–34",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "9.6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/john#p-9.6"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:17",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.1.26-Jas.1.27",
+                      "refDisplay": "James 1:26–27",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.26",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/james#p-1.26"
+                    },
+                    {
+                      "refKey": "1Tim.5.3-1Tim.5.8",
+                      "refDisplay": "1 Timothy 5:3–8",
+                      "book": "1 Timothy",
+                      "slug": "1-timothy",
+                      "pericopeId": "5.3",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-timothy#p-5.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:11–17",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.5.21-Matt.5.26",
+                      "refDisplay": "Matthew 5:21–26",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:13",
+                  "occurrences": [
+                    {
+                      "refKey": "Gal.4.8-Gal.4.11",
+                      "refDisplay": "Galatians 4:8–11",
+                      "book": "Galatians",
+                      "slug": "galatians",
+                      "pericopeId": "4.2",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/galatians#p-4.2"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:11",
+                  "occurrences": [
+                    {
+                      "refKey": "Heb.10.1-Heb.10.10",
+                      "refDisplay": "Hebrews 10:1–10",
+                      "book": "Hebrews",
+                      "slug": "hebrews",
+                      "pericopeId": "10.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/hebrews#p-10.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:10–17",
+                  "occurrences": [
+                    {
+                      "refKey": "Jas.1.26-Jas.1.27",
+                      "refDisplay": "James 1:26–27",
+                      "book": "James",
+                      "slug": "james",
+                      "pericopeId": "1.26",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/james#p-1.26"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:16–17",
+                  "occurrences": [
+                    {
+                      "refKey": "3John.1.11",
+                      "refDisplay": "3 John 1:11",
+                      "book": "3 John",
+                      "slug": "3-john",
+                      "pericopeId": "1.4",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/3-john#p-1.4"
+                    }
+                  ]
+                },
+                {
+                  "source": "Isaiah 1:9–10",
+                  "occurrences": [
+                    {
+                      "refKey": "Rev.11.7-Rev.11.10",
+                      "refDisplay": "Revelation 11:7–10",
+                      "book": "Revelation",
+                      "slug": "revelation",
+                      "pericopeId": "11.3",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/revelation#p-11.3"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "psalm",
@@ -1419,7 +1846,110 @@
                 "label": "Read this chapter forward",
                 "url": "https://catena.wrootpress.com/fontium/read/psalm-32"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "ot",
+              "sources": [
+                {
+                  "source": "Psalm 32:1–2",
+                  "occurrences": [
+                    {
+                      "refKey": "Rom.4.1-Rom.4.8",
+                      "refDisplay": "Romans 4:1–8",
+                      "book": "Romans",
+                      "slug": "romans",
+                      "pericopeId": "4.1",
+                      "type": "quotation",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/romans#p-4.1"
+                    },
+                    {
+                      "refKey": "Matt.5.1-Matt.5.12",
+                      "refDisplay": "Matthew 5:1–12",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "5.1",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/matthew#p-5.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:2",
+                  "occurrences": [
+                    {
+                      "refKey": "1Cor.13.4-1Cor.13.7",
+                      "refDisplay": "1 Corinthians 13:4–7",
+                      "book": "1 Corinthians",
+                      "slug": "1-corinthians",
+                      "pericopeId": "13.4",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/1-corinthians#p-13.4"
+                    },
+                    {
+                      "refKey": "John.1.43-John.1.51",
+                      "refDisplay": "John 1:43–51",
+                      "book": "John",
+                      "slug": "john",
+                      "pericopeId": "1.8",
+                      "type": "echo",
+                      "confidence": "low",
+                      "url": "https://catena.wrootpress.com/john#p-1.8"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:1",
+                  "occurrences": [
+                    {
+                      "refKey": "Matt.6.9-Matt.6.13",
+                      "refDisplay": "Matthew 6:9–13",
+                      "book": "Matthew",
+                      "slug": "matthew",
+                      "pericopeId": "6.3",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/matthew#p-6.3"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:1–5",
+                  "occurrences": [
+                    {
+                      "refKey": "Mark.2.1-Mark.2.12",
+                      "refDisplay": "Mark 2:1–12",
+                      "book": "Mark",
+                      "slug": "mark",
+                      "pericopeId": "2.1",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "url": "https://catena.wrootpress.com/mark#p-2.1"
+                    }
+                  ]
+                },
+                {
+                  "source": "Psalm 32:5",
+                  "occurrences": [
+                    {
+                      "refKey": "1John.1.9",
+                      "refDisplay": "1 John 1:9",
+                      "book": "1 John",
+                      "slug": "1-john",
+                      "pericopeId": "1.9",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "url": "https://catena.wrootpress.com/1-john#p-1.9"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "second",
@@ -1438,7 +1968,51 @@
                 "label": "Life of Paul",
                 "url": "https://annales.wrootpress.com/life-of-paul"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "1.1",
+                  "ref": "1:1-2",
+                  "echoes": [
+                    {
+                      "source": "Numbers 6:25-26",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+                      "note": "The epistolary salutation 'Grace to you and peace' draws on the Aaronic blessing, where the LORD's gracious face and the gift of peace (shalom) are pronounced over Israel. Paul reworks the priestly benediction into a christological greeting that names both Father and Lord Jesus as its source. The link is formulaic and contested as a deliberate allusion.",
+                      "contested": true
+                    }
+                  ]
+                },
+                {
+                  "pericopeId": "1.2",
+                  "ref": "1:3-4",
+                  "echoes": [
+                    {
+                      "source": "Jeremiah 9:23-24",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "Thus says Yahweh, Don’t let the wise man glory in his wisdom, neither let the mighty man glory in his might, don’t let the rich man glory in his riches; but let him who glories glory in this, that he has understanding, and knows me, that I am Yahweh who exercises loving kindness, justice, and righteousness, in the earth: for in these things I delight, says Yahweh.",
+                      "note": "Paul's 'boast about you in the assemblies of God' inverts Jeremiah's prohibition against boasting in wisdom, might, or wealth, redirecting glorying toward what God has wrought in the believers' faith. The motif of legitimate versus illegitimate boasting is a Pauline staple rooted in this oracle. Faint and contested here, since the object of boasting differs.",
+                      "contested": true
+                    },
+                    {
+                      "source": "Daniel 7:21-25",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "I saw, and the same horn made war with the saints, and prevailed against them; until the ancient of days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom. Thus he said, The fourth animal shall be a fourth kingdom on earth, which shall be diverse from all the kingdoms, and shall devour the whole earth, and shall tread it down, and break it in pieces. As for the ten horns, out of this […]",
+                      "note": "The endurance of the assembly under 'persecutions and afflictions' resonates with Daniel's vision of the little horn making war on and wearing out the holy ones before their vindication. The apocalyptic pattern of saints suffering prior to the kingdom undergirds the whole chapter. The verbal contact is thematic rather than lexical.",
+                      "contested": true
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": null,
+            "map": null
           },
           {
             "role": "gospel",
@@ -1457,7 +2031,101 @@
                 "label": "Gospel harmony",
                 "url": "https://annales.wrootpress.com/harmony/diatessaron"
               }
-            ]
+            ],
+            "echoes": {
+              "kind": "nt",
+              "pericopes": [
+                {
+                  "pericopeId": "19.1",
+                  "ref": "19:1-10",
+                  "echoes": [
+                    {
+                      "source": "Exodus 22:1",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“If a man steals an ox or a sheep, and kills it, or sells it; he shall pay five oxen for an ox, and four sheep for a sheep.",
+                      "note": "Zacchaeus pledges to restore fourfold what he has wrongfully exacted, matching the Torah's penalty of four sheep for a stolen sheep. Luke's specific multiplier 'four times' aligns precisely with the lower of the Exodus restitution scales, signaling Zacchaeus's voluntary embrace of legal restitution beyond mere repayment. High volume and coherence with the conversion-as-restoration theme."
+                    },
+                    {
+                      "source": "Numbers 5:6-7",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "“Speak to the children of Israel: ‘When a man or woman commits any sin that men commit, so as to trespass against Yahweh, and that soul is guilty; then he shall confess his sin which he has done, and he shall make restitution for his guilt in full, and add to it the fifth part of it, and give it to him in respect of whom he has been guilty.",
+                      "note": "Numbers prescribes that one who wrongs another must confess, restore the principal in full, and add a fifth. Zacchaeus's confession plus voluntary restitution enacts this penitential statute, even exceeding it in the fourfold portion. The coherence of confession-and-restoration makes this a strong background for the verse's logic of repentance."
+                    },
+                    {
+                      "source": "Ezekiel 34:16",
+                      "type": "allusion",
+                      "confidence": "high",
+                      "text": "I will seek that which was lost, and will bring back that which was driven away, and will bind up that which was broken, and will strengthen that which was sick: but the fat and the strong I will destroy; I will feed them in justice.",
+                      "note": "The Son of Man's mission to 'seek and to save that which was lost' echoes Ezekiel's promise that God himself will seek the lost sheep and bind up the strayed, in contrast to the false shepherds. Luke applies the divine shepherd-search directly to Jesus, with the rare verb pairing seek/lost matching the prophetic oracle. High volume and thematic coherence with Luke's lost-and-found motif."
+                    },
+                    {
+                      "source": "2 Samuel 12:6",
+                      "type": "echo",
+                      "confidence": "medium",
+                      "text": "He shall restore the lamb fourfold, because he did this thing, and because he had no pity!”",
+                      "note": "Nathan's parable has David decree the rich thief must restore the lamb fourfold, the same multiplier Zacchaeus invokes. The shared fourfold figure tied to a wealthy man's exploitation of the poor gives a narrative echo, though it derives the number from the Exodus statute David applies. Medium confidence as the link is mediated through the legal background.",
+                      "contested": true,
+                      "altSource": "Exodus 22:1"
+                    },
+                    {
+                      "source": "Ezekiel 34:22",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "therefore will I save my flock, and they shall no more be a prey; and I will judge between sheep and sheep.",
+                      "note": "Ezekiel adds that God will 'save' his flock so they shall no more be a prey, reinforcing the seek-and-save pairing of v. 10. The combination of seeking the lost and saving the flock in one oracle undergirds Luke's compressed mission statement. Medium because v. 16 carries the primary verbal weight."
+                    },
+                    {
+                      "source": "Genesis 17:5-7",
+                      "type": "allusion",
+                      "confidence": "medium",
+                      "text": "Neither will your name any more be called Abram, but your name will be Abraham; for I have made you the father of a multitude of nations. I will make you exceedingly fruitful, and I will make nations of you. Kings will come out of you. I will establish my covenant between me and you and your seed after you throughout their generations for an everlasting covenant, to be a God to you and to your seed after you.",
+                      "note": "Jesus declares Zacchaeus 'a son of Abraham,' invoking the Abrahamic covenant and its promise of inclusion. The phrase asserts that the despised tax collector belongs to the covenant family, an echo of God's covenant with Abraham and his offspring. Medium volume; the title is idiomatic but covenantally loaded in Luke."
+                    },
+                    {
+                      "source": "Isaiah 11:11-12",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "It will happen in that day that the Lord will set his hand again the second time to recover the remnant that is left of his people from Assyria, from Egypt, from Pathros, from Cush, from Elam, from Shinar, from Hamath, and from the islands of the sea. He will set up a banner for the nations, and will assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+                      "note": "The gathering of the scattered/lost of Israel as a restoration motif faintly underlies 'came to seek and to save that which was lost.' The remnant-gathering theme coheres with Luke's salvation-to-this-house, but the verbal contact is slight. Low confidence; Ezekiel 34 is the stronger source.",
+                      "contested": true,
+                      "altSource": "Ezekiel 34:16"
+                    },
+                    {
+                      "source": "Micah 4:6",
+                      "type": "echo",
+                      "confidence": "low",
+                      "text": "“In that day,” says Yahweh, “I will assemble that which is lame, and I will gather that which is driven away, and that which I have afflicted;",
+                      "note": "Micah's promise to gather 'her that is driven out' and 'the lost' (LXX) supplies another prophetic seeking-the-lost background for v. 10. The image of God assembling the strayed remnant coheres with Jesus's mission statement but is verbally faint beside Ezekiel. Low confidence, marked contested.",
+                      "contested": true,
+                      "altSource": "Ezekiel 34:16"
+                    }
+                  ]
+                }
+              ],
+              "attribution": "Catena, CC BY-SA 4.0 (Wilson Pruitt / Wroot Press)"
+            },
+            "chronology": {
+              "editions": [
+                {
+                  "edition": "Gospel harmony (Diatessaron)",
+                  "editionUrl": "https://annales.wrootpress.com/harmony/diatessaron",
+                  "harmony": [
+                    {
+                      "title": "Zacchaeus in the sycamore",
+                      "section": "journey",
+                      "refs": {
+                        "luke": "19:1–10"
+                      },
+                      "note": "\"The Son of Man came to seek and to save that which was lost.\" Luke only."
+                    }
+                  ]
+                }
+              ],
+              "note": "dates per the Acts-based consensus"
+            },
+            "map": null
           }
         ],
         "doctrine": [
