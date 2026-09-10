@@ -138,17 +138,28 @@ function Notes({ track }: { track: Track }) {
 // no markdown library, just enough to keep the lemma visually distinct from the comment.
 // Some chunks mark the lemma with *asterisks*, others with «guillemets» (an inconsistency
 // across translation stints, not a data error); both render the same way here.
+//
+// Migne's own source attributions -- (CASS.), (AUG.), (RAB. lib. II) -- come through as
+// parenthetical asides. The ingest wraps EVERY [n: ...] note in its own parens, so a note
+// whose content already had them prints doubled: ((CASS.)). Rather than re-ingest+rebuild+
+// redeploy to fix that at the source, collapse it here and give these asides the small,
+// muted, distinct-from-the-gloss-prose treatment patrologia.wrootpress.com already uses for
+// the same notes on its own pages (its .notecite class) -- a plain render pass, no library.
 function glossMarkup(text: string, keyPrefix: string) {
   return text.split(/\n\n+/).map((para, pi) => (
     <p key={`${keyPrefix}-${pi}`}>
       {para
-        .split(/(\*[^*]+\*|«[^»]+»)/g)
+        .split(/(\*[^*]+\*|«[^»]+»|\(\([^()]*\)\)|\([^()]*\))/g)
         .filter((s) => s !== "")
         .map((part, i) => {
           const asterisk = part.match(/^\*([^*]+)\*$/);
           const guillemet = part.match(/^«\s*([^»]+?)\s*»$/);
+          const doubleParen = part.match(/^\(\(([^()]*)\)\)$/);
+          const singleParen = part.match(/^\(([^()]*)\)$/);
           if (asterisk) return <em key={i}>{asterisk[1]}</em>;
           if (guillemet) return <em key={i}>{guillemet[1]}</em>;
+          if (doubleParen) return <span className="glossa-cite" key={i}>({doubleParen[1]})</span>;
+          if (singleParen) return <span className="glossa-cite" key={i}>({singleParen[1]})</span>;
           return <span key={i}>{part}</span>;
         })}
     </p>
