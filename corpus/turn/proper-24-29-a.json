@@ -1,0 +1,304 @@
+{
+ "_note": "The Turn — reduction to a claim. The DOORS are attested reading-traditions surfaced from the retrieved reception store (~/reception-corpus), NOT authored from recall; every witness `reading` is the source's own words, lightly trimmed (Glossa editorial source-markers like ((AUG.)) dropped). The editorial framing (trap/hinge/gravity/synthesis/claim/say/do/subtract) is AI-drafted and pending Wilson's curation. [Authored 2026-10-06, Opus, Phase 4b brief, born v2: Gospel doors from the Catena Aurea (Newman tr.) rows on Matt 22:15-22 via src/turn_sources.py, plus Glossa ordinaria (Migne) 22:18 and 22:21, Wesley's Notes 22:18 and 22:21, and the Catena intertext note on Gen 1:27; both tracks authored from src/turn_pull.py output. Semicontinuous: three Exodus 33 doors (Wesley 33:12-23, Migne 33:19/33:21/33:22, Catena intertext at Matt 11:28 and John 1:14-18). Complementary: three Isaiah 45 doors (Wesley 45:4-7, Migne 45:1/45:6/45:7, Catena intertext at Rom 13:1-7 and 1 Cor 8:4-6). Psalm rows (99, 96) inform gravity/synthesis only, since first-reading doors validate against the first reading. Migne's Exodus 33 glosses are mostly Augustine/Gregory incipit-excipit pointers ('etc., as far as'), so only the full sentences were usable.]",
+ "occasion": "proper-24-29-a",
+ "pericope": "Matthew 22:15-22",
+ "refKey": "Matt.22.15-Matt.22.22",
+ "trap": "The text becomes a civics lesson on church and state — two neat jurisdictions, pay your taxes and go to church — and the coin quietly licenses a divided life in which God gets Sunday and Caesar gets everything else. The opposite trap is a clever-Jesus story where the point is how he slipped the snare, and nobody in the pews is asked to render anything.",
+ "hinge": "Jesus does give Caesar his coin — and then says the rest belongs to God, without ever saying what is left over for Caesar once God has had his due. The answer that escapes the trap springs a larger one on the hearers: if the image on the coin decides the owner, whose image is on you?",
+ "doors": [
+  {
+   "landing": "Whose image is on you",
+   "claim": "The coin goes back to the one whose face is on it — and you bear God's image, so the whole of you is owed to God.",
+   "witnesses": [
+    {
+     "author": "Hilary of Poitiers",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "It behoves us also to render unto God the things that are His, namely, body, soul, and will. For Caesar's coin is in the gold, in which His image was portrayed, that is, God's coin, on which the Divine image is stamped; give therefore your money to Caesar, but preserve a conscience void of offence for God."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Render therefore. Or, as Caesar exacts the stamping of his own image, so also does God the soul signed with the light of his countenance."
+    },
+    {
+     "author": "Catena — intertextual",
+     "tradition": "intertext",
+     "work": "Catena",
+     "mode": "text",
+     "reading": "Jesus' question 'whose image and inscription?' plays on imago Dei: the coin bears Caesar's image and is owed to Caesar, but humanity bears God's image and is owed wholly to God. (Allusion of Genesis 1:27)"
+    }
+   ],
+   "say": "Caesar can have the coin with his face on it. God wants the one with his face on it — and that is you.",
+   "do": "Ask them to name one part of themselves — time, body, a gift, a grudge — they have been keeping back as if it bore someone else's image, and to render it to God this week."
+  },
+  {
+   "landing": "The coin is already in your pocket",
+   "claim": "Nobody in the conversation has clean hands: we live under Caesar and use his coin, so we owe him his due — and that due has a limit where God's claim begins.",
+   "witnesses": [
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Plainly acknowledging, by their having received his coin, that they were under his government. Render therefore, ye Pharisees, to Caesar the things which ye yourselves acknowledge to be Caesar's: and, ye Herodians, while ye are zealous for Caesar, see that ye render to God the things that are God's."
+    },
+    {
+     "author": "Hilary of Poitiers",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "If we lean upon what is his, if we avail ourselves of the lawful protection of his power, we cannot complain of it as any wrong if we are required to render to Caesar the things of Caesar."
+    },
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "When you hear this command to render to Caesar the things of Caesar, know that such things only are intended which in nothing are opposed to religion; if such there be, it is no longer Caesar's but the Devil's tribute."
+    }
+   ],
+   "say": "You can't stand outside the system and judge it; you've got its money in your wallet. So pay what you owe — and know exactly where Caesar's claim stops.",
+   "do": "Have them look honestly at one place they benefit from the order they live under, render what's owed there without resentment, and name the one thing they would refuse it."
+  },
+  {
+   "landing": "He answers the heart, not the question",
+   "claim": "The question was flattery wrapped around a snare, and Jesus answers what they meant rather than what they said — which exposes them in order to save them.",
+   "witnesses": [
+    {
+     "author": "Pseudo-Chrysostom",
+     "tradition": "pseudonymous",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "He makes an answer not corresponding to the smooth tone of their address, but harsh, suitable to their cruel thoughts; for God answers men's hearts, and not their words. The Pharisees spoke fair that they might destroy Him, but Jesus put them to shame that He might save them; for God's wrath is more profitable to man, than man's favour."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Ye hypocrites — Pretending a scruple of conscience."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Hypocrites. Because they are one thing and feign another."
+    },
+    {
+     "author": "Jerome",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "They who ought to have believed did but wonder at His great wisdom, that their craft had found no means for ensnaring Him: they marvelled, and left Him, and went their way, carrying away their unbelief and wonder together."
+    }
+   ],
+   "say": "Jesus hears the question under your question. That is uncomfortable, and it is mercy: he would rather shame you than let you leave with only admiration.",
+   "do": "Invite them to bring God the question they actually have, not the safe one — and to notice whether they're admiring Jesus' answer while walking away from it."
+  }
+ ],
+ "tracks": {
+  "complementary": {
+   "firstReading": {
+    "ref": "Isaiah 45:1-7",
+    "refKey": "Isa.45.1-Isa.45.7",
+    "doors": [
+     {
+      "landing": "Called by a God he did not know",
+      "claim": "God names a pagan emperor his anointed and does his work through him — the Lord's purpose is not confined to the people who know his name.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "I knew, and called thee by thy name, when thou didst neither know nor think of me; nay, when thou hadst no being. I made thee strong and active, and disposed thee for these great and warlike enterprizes."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Among the Romans the diadem, among the Jews the anointing, makes both kings and priests, from which they are also called christs. Cyrus is a christ, not by anointing, but by dignity."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "God names the Persian Cyrus 'his anointed' and uses a pagan emperor as instrument of his purposes — a figural precedent for treating the Roman magistrate as 'God's servant' without the ruler's knowledge of God. (taken up at Romans 13:1-7)"
+       }
+      ],
+      "say": "Cyrus never prayed to Israel's God, and God still called him by name. The Lord is at work in places and people we would never have anointed.",
+      "do": "Ask them to name one 'Cyrus' in their world — an unlikely instrument of good — and give thanks for God's work there instead of resenting it."
+     },
+     {
+      "landing": "Light and darkness from one hand",
+      "claim": "There is no rival power running the dark half of history; comfort and calamity alike lie under the one God's hand.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Light — All mens comforts and calamities come from thy hand."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Darkness. The night, or the captivity. As if: taking pity on the penitent, I bring them back from captivity. Evil. War, that is, affliction. Let them therefore be confounded who judge God to be the author of evils. For here evil is set down not as the contrary of good, but for affliction and for war."
+       }
+      ],
+      "say": "The dark seasons are not outside God's reach. The hand that sent you into exile is the hand that brings you home.",
+      "do": "Have them bring one present darkness before God in prayer as something still under his hand, not abandoned to another power."
+     },
+     {
+      "landing": "That they may know there is no other",
+      "claim": "The point of Cyrus's victories is not Cyrus: God acts in public history so that the whole world, east to west, may know there is no God beside him.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "That all nations may know it by my foretelling these things so long before, and by the wonderful success that I shall give thee, and by my over-ruling thine heart and counsels, to the deliverance of my people."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "That they may know. Esdras says that Cyrus wrote to all the nations that there is no God but the God of Israel. Or, from the freeing of the captives the clemency and power of God became better known to all."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "\"I am the LORD, and there is no other; besides me there is no God\" is among the clearest sources for Paul's \"no God but one.\" (taken up at 1 Corinthians 8:4-6)"
+       }
+      ],
+      "say": "Empires rise and fall so that one thing may become plain: there is no other God.",
+      "do": "Ask them where they have been treating a power — a ruler, a market, a party — as if it were the other god, and to say aloud the Lord alone is God."
+     }
+    ]
+   },
+   "gravity": "God calls a pagan emperor his anointed, grasps his right hand, opens the gates before him, and says it is all so that the world may know there is no other — light and darkness, weal and woe, from one hand (Isaiah 45). The Psalm summons every nation to sing a new song, because the gods of the peoples are idols and the Lord reigns and will judge the world in equity (Psalm 96). The Thessalonians turned from idols to serve a living God; and Jesus, handed Caesar's coin, says to give the emperor his due and God what is God's. The nerve: rulers are real, and none of them is God.",
+   "synthesis": {
+    "convergence": "Cyrus is anointed for a purpose he does not know, so that from the rising of the sun to its setting all may know there is no God beside the Lord (Isaiah 45); the nations are bidden to ascribe glory to the Lord, for their gods are idols and he reigns (Psalm 96); a church turns from idols to the living and true God (1 Thessalonians 1); and Jesus sets Caesar's coin in its place beneath God's claim (Matthew 22). Each reading puts earthly power under the one God — used by him, owed its due, never worshipped.",
+    "claim": "God can use any Caesar, and you may owe Caesar a coin — but there is no other God, and you belong to him.",
+    "here": "For people anxious or angry about who holds power this year, the move is to set every ruler back in place: a possible instrument of God, owed what is owed, never owed the worship and trust that bear God's image."
+   }
+  },
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Exodus 33:12-23",
+    "refKey": "Exod.33.12-Exod.33.23",
+    "doors": [
+     {
+      "landing": "Not one step without you",
+      "claim": "Moses will not move toward the promised land on God's permission alone; he wants God's presence, because that is the only thing that marks this people out.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "If thy presence go not with me, carry us not up hence — He speaks as one that dreaded the thought of going forward without God's presence. Wherein shall it be known that I, and thy people, have found grace in thy sight? Is it not that thou goest with us? Nothing short of that can answer these characters."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "See the power of prayer! See the riches of God's goodness! And now God is perfectly reconciled to them, and his presence in the pillar of cloud returns to them."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "'My presence will go with you, and I will give you rest' is the foundational divine promise of rest; 'I will give you rest' assumes God as the giver of rest. (taken up at Matthew 11:28-30)"
+       }
+      ],
+      "say": "Moses would rather stay in the desert with God than reach the promised land without him. That is the prayer: not success, but presence.",
+      "do": "Before one decision this week, have them pray Moses' sentence — if your presence does not go with me, do not carry me up from here."
+     },
+     {
+      "landing": "His goodness is his glory",
+      "claim": "Moses asks to see God's glory and is shown God's goodness passing by — God would be known by the glory of his mercy more than of his majesty.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Shew me thy glory, saith Moses; I will shew thee my goodness, saith God. God's goodness is his glory; and he will have us to know him by the glory of his mercy, more than by the glory of his majesty. All his reasons of mercy are fetched from within himself, not from any merit in his creatures."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "I will call, he said, not \"I shall be called,\" in which perhaps he willed to signify that he himself does this, that is, that it comes about by his grace that the Lord is called upon among all nations."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "Moses' request to see God's glory, granted only as a passing of God's goodness while his face remains unseen, undergirds both 'we saw his glory' and 'no one has seen God at any time.' (taken up at John 1:14-18)"
+       }
+      ],
+      "say": "You asked to see how great God is. He answers by showing you how good he is.",
+      "do": "Ask them to trace one place God's goodness has passed by them this year and to give thanks for it as a sight of his glory."
+     },
+     {
+      "landing": "Hidden in the cleft of the rock",
+      "claim": "No one can see God's face and live, so God hides Moses in the rock and covers him with his own hand; we see God's back, as one who has passed by, and are kept safe while we look.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "This was the rock in Horeb, of which it is said, That rock was Christ. 'Tis in the clefts of this rock that we are secured from the wrath of God, which otherwise would consume us: God himself will protect those that are thus hid. None can see that to their comfort, but those that stand upon this rock, and take shelter in it."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "There is a place with me. The place is the Church. The rock is the Lord; Moses, the Jewish people, which did not believe the Lord preaching upon earth. It therefore stood upon the rock, beholding the back parts of the Lord as he passed by, because after the passion and ascension of the Lord, being led within the Church, it deserved to receive Christ by faith, and of him whose presence it did not see, it came to know the hinder parts."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Thou shalt see my back-parts — such a sight as we have of a man who is gone past us, so that we only see his back."
+       }
+      ],
+      "say": "Most of the time we see God the way Moses did — from behind, after he has passed. And the whole time, his hand was over us in the rock.",
+      "do": "Have them look back over a hard stretch and name where, only afterward, they can see that God had passed by and kept them covered."
+     }
+    ]
+   },
+   "gravity": "After the calf, Moses goes back to plead: he will not go up without God's presence, and then he asks for more — show me your glory. God answers with his goodness passing by, his name proclaimed, his hand covering Moses in the cleft of the rock, his face withheld (Exodus 33). The Psalm remembers Moses among those who called on the Lord, who answered them from the pillar of cloud, a God who forgave yet held them to account (Psalm 99). The Thessalonians turned from idols to a living God; and Jesus, asked about Caesar's coin, turns the question to what belongs to God. The nerve: we want to see and hold God, and are given instead his presence on the way, glimpsed from behind.",
+   "synthesis": {
+    "convergence": "Moses refuses to travel without God's presence and asks to see his glory, and is hidden in the rock as God's goodness passes (Exodus 33); the Psalm sings the holy King who spoke to Moses from the cloud and forgave (Psalm 99); a church turns from idols to the living God and waits for his Son (1 Thessalonians 1); and Jesus, shown a coin bearing Caesar's face, points past it to what bears God's (Matthew 22). Each reading turns from the image we can hold to the God whose face we cannot yet see and whose presence is enough.",
+    "claim": "We cannot yet see God's face — but his presence goes with us, his goodness passes by, and his hand covers us in the rock.",
+    "here": "For people tired of a God they cannot see — tempted, like Israel after the calf, to settle for what they can hold — the move is Moses' prayer: ask for presence over progress, and learn to recognize God from behind, in the goodness that has already passed by."
+   }
+  }
+ },
+ "subtract": "These three are doors, not points — mutually exclusive landings (you belong to God / honest dual obligation / exposed in order to be saved). Walk through one and let the other two go; the choosing is the sermon's focus.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, the Glossa ordinaria (Migne recension, Wroot Press English), and the Catena intertextual notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
+}

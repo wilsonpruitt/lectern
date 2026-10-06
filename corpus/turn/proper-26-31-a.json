@@ -1,0 +1,311 @@
+{
+ "_note": "The Turn — reduction to a claim. The DOORS are attested reading-traditions surfaced from the retrieved reception store (~/reception-corpus), NOT authored from recall; every witness `reading` is the source's own words, lightly trimmed (Glossa editorial source-markers like ((AUG.)) dropped). The editorial framing (trap/hinge/gravity/synthesis/claim/say/do/subtract) is AI-drafted and pending Wilson's curation. [Authored 2026-10-06, Opus, Phase 4b brief, born v2: Gospel doors from the Catena Aurea (Newman tr.) rows on Matt 23:1-12 (queried directly from reception.sqlite, since src/turn_sources.py printed only truncated previews), plus Glossa ordinaria (Migne) 23:1, 23:4 and 23:9, Wesley's Notes 23:2-3 and the long 23:5 note (which carries his comments on vv. 8-10 and 12), and the Catena intertext note on Mal 2:10; both tracks authored from src/turn_pull.py output. Semicontinuous: three Joshua 3 doors (Wesley 3:7-17, Migne 3:7, Catena intertext at Matt 3:13-17 — that link is tagged figural/low/contested in the store). Migne's 3:9 and 3:16 glosses are Origen incipit-excipit pointers ('etc., as far as') and 3:10 is a name-etymology list, so they were not used. Complementary: three Micah 3 doors carried by Wesley plus Catena intertext only — Migne has no gloss on Micah. The intertext at 1 Thess 1:4-5 (Mic 3:8) is tagged low/contested; the Mark 13 / Luke 21 links at 3:12 are tagged high. Psalm rows (107, 43) and 1 Thess 2:9-13 inform gravity/synthesis only, since first-reading doors validate against the first reading.]",
+ "occasion": "proper-26-31-a",
+ "pericope": "Matthew 23:1-12",
+ "refKey": "Matt.23.1-Matt.23.12",
+ "trap": "The text becomes a pleasant sermon against the Pharisees — those other religious people, back then, with their big tassels — and the congregation leaves feeling less hypocritical than somebody. Or it is turned on the clergy alone, and the pews enjoy watching the preacher confess. Either way, nobody hears that Jesus is speaking 'to the crowds and to his disciples', and that the cure he offers is not better performance but a different Father.",
+ "hinge": "Jesus tells them to do whatever the hypocrites teach — and then dismantles every title they hold. He will not let the bad teacher cancel the true word, and he will not let the true word license a single human pedestal. Keep the teaching, refuse the throne: and then, with nobody left to call Rabbi, who is actually teaching you?",
+ "doors": [
+  {
+   "landing": "Take the gold, leave the dross",
+   "claim": "The word of God does not lose its authority because the one who speaks it fails to live it; you can receive the teaching without copying the life.",
+   "witnesses": [
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "But that none should say, For this cause am I slack to practise, because my instructor is evil, He removes every such plea, saying, 'All therefore whatsoever they say unto you, that observe and do,' for they speak not their own, but God's, which things He taught through Moses in the Law."
+    },
+    {
+     "author": "Pseudo-Chrysostom",
+     "tradition": "pseudonymous",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "But as gold is picked out of the dross, and the dross is left, so hearers may take doctrine and leave practice, for good doctrine oft comes from an evil man."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Then he spoke. Those being refuted who are crafty, he instructs those who are fit, none the less exhorting them to be subject to those men for the sake of the priesthood and the dignity of the name: considering not their works, but their teaching."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "The scribes sit in the chair of Moses — That is, read and expound the law of Moses, and are their appointed teachers. All things therefore — Which they read out of the law, and enforce therefrom."
+    }
+   ],
+   "say": "The hypocrisy of the messenger does not get you off the hook of the message. God's word is still God's word, even in a cracked vessel.",
+   "do": "Ask them to name one true thing they have refused to obey because of who said it — and to do it this week anyway, for God's sake rather than the speaker's."
+  },
+  {
+   "landing": "Burdens they will not lift a finger to move",
+   "claim": "Religion that loads others and spares itself is the opposite of the God it claims to serve; Christ comes to carry the load that teachers pile on.",
+   "witnesses": [
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Heavy burdens. The commandments of the law, with their own traditions mixed in, persuading men to live according to these: and not to come to the easy and delightful grace of Christ; whence above: Come to me, you that labour and are burdened."
+    },
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "He shews a double evil in them; that they exacted without any allowance the utmost rigour of life from those that were put under them, while they allowed themselves large licence herein. But a good ruler should do the contrary of this, to be to himself a severe judge, to others a merciful one."
+    },
+    {
+     "author": "Pseudo-Chrysostom",
+     "tradition": "pseudonymous",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Is it not better to have to answer for mercy than for severity? Where the master of the household is liberal, the steward should not be oppressive. If God be kind, should His Priest be harsh? Be strict in ordering your own life, in that of others lenient; let men hear of you as enjoining little, and performing much."
+    }
+   ],
+   "say": "Anyone can tie a burden on somebody else's back. Jesus is the one who says, Come to me, all you who are carrying too much.",
+   "do": "Have them name one burden they have been binding on someone else — a spouse, a child, a coworker, themselves — and loosen it, or put their own shoulder under it."
+  },
+  {
+   "landing": "One Father, and all of you siblings",
+   "claim": "Jesus takes away every pedestal because there is only one Father and one Teacher; under him nobody is above anybody, and the greatest is the one who serves.",
+   "witnesses": [
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Our Lord, therefore, by forbidding us either to give or receive the title of rabbi, master, or father, forbids us either to receive any such reverence, or to pay any such to any but God. Whosoever shall exalt himself shall be humbled — It is observable that no one sentence of our Lord's is so often repeated as this."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "One is. Who enlightens man, which no other man does, but only trains him, by teaching he does not bestow understanding. Your Father. God is called Father and Master by nature, man by indulgence."
+    },
+    {
+     "author": "Origen",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "But who calls no man father upon earth? He who in every action done as before God, says, 'Our Father, which art in Heaven.' ... As Christ Himself, who was in truth our Master, professed Himself a minister, saying, 'I am in the midst of you as one that ministers.'"
+    },
+    {
+     "author": "Hilary of Poitiers",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "And that the disciples may ever remember that they are the children of one parent, and that by their new birth they have passed the limits of their earthly origin."
+    },
+    {
+     "author": "Catena — intertextual",
+     "tradition": "intertext",
+     "work": "Catena",
+     "mode": "text",
+     "reading": "'Call no man your father... one is your Father' echoes 'Have we not all one Father? Has not one God created us?' — the prophetic insistence on a single divine paternity over the covenant community. (Allusion of Malachi 2:10)"
+    }
+   ],
+   "say": "In this family there is one Father and one Teacher, and it isn't any of us. Everybody else here is your brother or your sister — so the only way up is down, into serving.",
+   "do": "Invite them to find one place where they expect to be honored, and this week take the servant's part there instead."
+  }
+ ],
+ "tracks": {
+  "complementary": {
+   "firstReading": {
+    "ref": "Micah 3:5-12",
+    "refKey": "Mic.3.5-Mic.3.12",
+    "doors": [
+     {
+      "landing": "Prophets who preach to whoever feeds them",
+      "claim": "Micah's prophets cry peace when they are fed and war when they are not; the word they sell is shaped by their appetite, and they still say the Lord is with them.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "That bite — When they are furnished with gifts, and well fed. Prepare war — They do them all the mischief they can."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Lean — Pretend to trust in him. Among us — As our God and our shield."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "Micah condemns leaders who 'teach for hire' and prophets who 'divine for money,' the same fusion of teaching and shameful gain leveled at the deceivers. The prophetic critique of religious profiteering is the conceptual source. (taken up at Titus 1:10-16)"
+       }
+      ],
+      "say": "A word that always tells the paying customer what he wants to hear is not the word of the Lord, however often it says his name.",
+      "do": "Ask them to notice which voices they pay — with money, attention, or loyalty — to tell them peace, and to let one hard word from God in this week."
+     },
+     {
+      "landing": "Full of power by the Spirit",
+      "claim": "Against the hirelings, Micah stands filled with the Spirit's power to name sin plainly — the courage to tell right from wrong, and the resolve to say it.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Power — Courage, and vivacity. Of judgment — To discern times and seasons, right from wrong. Might — Resolution."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "'I am full of power by the Spirit of YHWH' pairs power and Spirit as the equipment of true proclamation, the same coupling Paul uses to validate his preaching against mere word. (taken up at 1 Thessalonians 1:4-5)"
+       }
+      ],
+      "say": "When the hired voices go dark, God still fills someone with power, judgment, and might — enough to tell the truth out loud.",
+      "do": "Have them pray for the Spirit's courage over one truth they have been keeping quiet, and then say it to the person who needs to hear it."
+     },
+     {
+      "landing": "Zion plowed as a field",
+      "claim": "Leaders who build Zion with blood and lean on the Lord will see the holy mountain become a ruin — and yet this very oracle, heard and repented of, held the judgment off.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "For your sake — Because of your sins. The mountain — The mountain, on which the temple stood. This is that passage, which is quoted, Jer. xxvi, 18, which Hezekiah and his princes took well: yea, they repented and so the execution of it did not come in their days."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "They — The heads and great ones enlarge, beautify, and fortify, the house in Zion, particularly the temple and the royal palace. Blood — With wealth, which they made themselves masters of by violence, taking away the life of the owners."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "Micah prophesies that Zion will be plowed as a field and Jerusalem become heaps, the temple mount a wooded height, the classic oracle of the temple's destruction quoted at Jeremiah 26:18. Jesus' prediction that not one stone will be left on another draws directly on this prophetic tradition of the sanctuary leveled for the people's injustice. (taken up at Luke 21:5-6)"
+       }
+      ],
+      "say": "God will plow up his own temple before he lets it become a monument to the people who abuse it. But when the word of judgment is taken well, there is still time.",
+      "do": "Ask them to name one thing in the church's house — a habit, a privilege, a pride — that God might need to plow under, and to take that word well, as Hezekiah did."
+     }
+    ]
+   },
+   "gravity": "Micah turns on the prophets who cry peace when they are fed, the rulers who build Zion with blood, the priests who teach for hire — and who all still say the Lord is among us — and he tells them Zion will be plowed as a field (Micah 3). The Psalm prays to be judged and set apart from a deceitful nation, and asks God to send out his own light and truth to lead the way to his holy hill (Psalm 43). Paul worked night and day so as not to burden anyone, and the Thessalonians received his word not as a human word but as God's; and Jesus tells the crowds to keep the teaching of the scribes but not their works, and to call no one Rabbi. The nerve: religious leadership that sells the word, and a God who will not be sold.",
+   "synthesis": {
+    "convergence": "Prophets, priests and rulers trade the Lord's word for bread and money and lean on him all the same, and the holy mountain will be plowed (Micah 3); the psalmist asks God to separate his cause from the deceitful and to send his own light and truth (Psalm 43); Paul labors without charge so that the word may be received as God's and not his (1 Thessalonians 2); and Jesus keeps Moses' teaching while stripping its teachers of their titles (Matthew 23). Each reading pries the word of God loose from the people who would own it.",
+    "claim": "The word of God can be preached for hire, but it cannot be bought; God will tear down his own house before he lets it serve the people who sell him.",
+    "here": "For a congregation that has been let down by leaders, or is tempted to treat its own church as a possession, the move is the psalmist's: ask God to send his own light and truth, receive the word as his and not any preacher's, and refuse to set anyone — including the preacher — on the pedestal."
+   }
+  },
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Joshua 3:7-17",
+    "refKey": "Josh.3.7-Josh.3.17",
+    "doors": [
+     {
+      "landing": "Standing in the deepest part until all are over",
+      "claim": "The priests do not wave the people across from the bank; they step into the flood first and stand fixed in the deepest part of the river until the last of the people has passed.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "In Jordan — Within the waters of Jordan, in the first entrance into the river; Where they stood for a season, 'till the river was divided, and then they went into the midst of it, and there abode 'till all the people were passed over."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Stood firm — That is, in one and the same place and posture; their feet neither moved by any waters moving in upon them, nor sinking into any mire. Then they were to go farther, even into the midst of Jordan, where they are to stand constantly and fixedly, as this Hebrew word signifies, until all were passed over. The midst of Jordan — In the middle and deepest part of the river."
+       }
+      ],
+      "say": "The ones who carry the holy things go into the water first and are the last to come out. That is what leading God's people looks like.",
+      "do": "Ask them where someone is waiting at the riverbank for them to step in first — and to put their feet in the water this week."
+     },
+     {
+      "landing": "The living God is among you",
+      "claim": "The crossing is God's proof that he is not a dead idol but the living Lord of all the earth, present with this people — and he chose the flood season so that no one could mistake whose doing it was.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Ye shall know — By experience and sensible evidence. The living God — Not a dull, dead, senseless God, such as the gods of the nations are; but a God of life, and power, and activity to watch over you, and work for you. Among you — Is present with you to strengthen and help you."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Of all the earth — The Lord of all this globe of earth and water, who therefore can dispose of this river and the adjoining land as he pleaseth."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "And this time God chose that the miracle might be more glorious, more amazing and terrible to the Canaanites; and that the Israelites might be entertained at their first entrance with plentiful and comfortable provisions."
+       }
+      ],
+      "say": "God did not wait for the river to go down. He chose flood season, so that when you got to the other side you would know: the living God is among you.",
+      "do": "Have them name the river that is at flood stage in their life right now, and pray to the Lord of all the earth to make a way through it."
+     },
+     {
+      "landing": "Jesus exalted at the Jordan",
+      "claim": "The Glossa reads the crossing through baptism: Joshua — Jesus, by name — is first exalted where the Jordan is passed, as Christ is exalted for each believer at the font, through his death and cross.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Many wonders were wrought in the wilderness, and nowhere is Jesus said to be exalted. But where the Jordan is passed, it is said to him: This day will I begin to exalt thee. For the exaltation of Jesus in the sight of the people takes its beginning from baptism. For they that are baptized are baptized in his death, whose death is accomplished in the exaltation of the cross."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Magnify thee — That is, to gain thee authority among them, as the person whom I have set in Moses's stead, and by whom I will conduct them to the possession of the promised land."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "Jesus' coming to the Jordan recapitulates Israel's defining Jordan-crossing into the land under Joshua (the same Hebrew name, Yeshua); the Jordan as threshold of a new entry/beginning frames the baptism scene. (taken up at Matthew 3:13-17)"
+       }
+      ],
+      "say": "The one God exalts at the Jordan shares a name with Jesus — and Jesus is exalted for us the same way, at the water, through his death.",
+      "do": "Invite them to remember their baptism as their own Jordan crossing, and to name one step into the promised life it has made them free to take."
+     }
+    ]
+   },
+   "gravity": "Joshua is magnified in Moses' stead, and the first thing the new leadership does is put the priests' feet into the Jordan at flood stage; the waters stand up in a heap, and the ark-bearers stand fixed in the middle of the riverbed until the whole nation has crossed (Joshua 3). The Psalm gathers the redeemed from every direction, out of wandering in desert wastes with no city to dwell in, and sings the God who turns rivers into desert and desert into springs for the hungry (Psalm 107). Paul worked night and day so as not to burden anyone; and Jesus condemns the teachers who tie heavy loads on others' shoulders and will not lift a finger, and says the greatest among you will be your servant. The nerve: true leadership goes into the water first.",
+   "synthesis": {
+    "convergence": "The priests carry the ark into the flooded Jordan and stand in the deepest place until all have passed over (Joshua 3); the Lord leads the wandering by a straight way and makes springs for the hungry (Psalm 107); Paul labors night and day so as to be a burden to no one (1 Thessalonians 2); and Jesus sets the servant in the place of the rabbi, against those who bind burdens and lift no finger (Matthew 23). Each reading measures leadership by who goes into the water and who carries the load.",
+    "claim": "Among God's people the greatest is the one who steps into the river first and stays there until everyone else is across.",
+    "here": "For a congregation that has watched leaders stand on the bank and give orders, the move is the ark-bearers' — and Christ's: honor no pedestal, step into the cold water first, and stand there as long as it takes."
+   }
+  }
+ },
+ "subtract": "These three are doors, not points — mutually exclusive landings (the word outranks the messenger / Christ lifts the burden the religious bind / one Father and only siblings). Walk through one and let the other two go; the choosing is the sermon's focus.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, the Glossa ordinaria (Migne recension, Wroot Press English), and the Catena intertextual notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
+}

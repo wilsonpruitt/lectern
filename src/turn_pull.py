@@ -92,7 +92,12 @@ def block(label: str, ref: str, refkeys: list[str], con) -> list[str]:
 
 def pull(occ_id: str) -> str:
     doc = json.loads((BUILD / f"{occ_id}.json").read_text(encoding="utf-8"))
-    card = json.loads((LECTERN / "corpus" / "turn" / f"{occ_id}.json").read_text(encoding="utf-8"))
+    cp = LECTERN / "corpus" / "turn" / f"{occ_id}.json"
+    if cp.exists():
+        card = json.loads(cp.read_text(encoding="utf-8"))
+    else:   # no card yet (new authoring): take the Gospel from the build
+        g = next(r for t in doc["tracks"].values() for r in t["readings"] if r["role"] == "gospel")
+        card = {"pericope": g["ref"], "refKey": g["refKey"]}
     con = sqlite3.connect(DB)
     out = [f"=== {occ_id} — {doc['occasion'].get('name')} ==="]
     out += block("GOSPEL (shared doors)", card["pericope"], [card["refKey"]], con)

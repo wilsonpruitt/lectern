@@ -1,0 +1,327 @@
+{
+ "_note": "The Turn — reduction to a claim. The DOORS are attested reading-traditions surfaced from the retrieved reception store (~/reception-corpus), NOT authored from recall; every witness `reading` is the source's own words, lightly trimmed (Glossa editorial source-markers like ((AUG.)) dropped). The editorial framing (trap/hinge/gravity/synthesis/claim/say/do/subtract) is AI-drafted and pending Wilson's curation. [Authored 2026-10-06, Opus, Phase 4b brief, born v2: Gospel doors from the Catena Aurea (Newman tr.) rows on Matt 25:31-46 (pulled in full from reception.sqlite, since src/turn_sources.py truncates), plus Glossa ordinaria (Migne) 25:31 and 25:37, Wesley's Notes 25:35, 25:37, 25:40 and 25:44, and the Catena intertext note on Ezek 34:23-24. Both tracks authored from src/turn_pull.py output. The build carries semicontinuous and complementary (no 'single' key), and RCL gives both tracks the SAME first reading (Ezekiel 34:11-16, 20-24; refKeys cover both spans), so the three Ezekiel doors are identical on both tracks; only the Psalm differs (100 vs 95:1-7a), and gravity/synthesis are written against each. Migne has no gloss on Ezekiel, so the Ezekiel doors rest on Wesley 34:12/16/20/23/24 plus Catena intertext notes (taken up at Luke 15, John 10, Matt 25, Rev 7). Psalm rows (Glossa on Ps 100 and 95, Wesley on 95) inform gravity/synthesis only. Barth CD has a pointer row on Ezek 34 ('The Royal Man') but no cite detail, so it was not used. Not used on the Gospel: the long Augustine/Gregory rows on the eternity of punishment (25:46) and Jerome's narrowing of 'the least' to the poor in spirit, both of which would open a fourth door.]",
+ "occasion": "reign-of-christ-proper-29-34-a",
+ "pericope": "Matthew 25:31-46",
+ "refKey": "Matt.25.31-Matt.25.46",
+ "trap": "The text becomes a social-services mandate with a threat attached — feed the hungry or go to hell — and the King disappears behind the program; Christ the King Sunday turns into a pep talk for the outreach committee. The opposite trap is a pageant of crowns and thrones that never gets as far as the prison visit the King himself names.",
+ "hinge": "Nobody on either side of the throne knew what they were doing. The blessed are astonished to hear they fed the King; the cursed are astonished to hear they refused him. The judgment turns on a presence neither group could see — so the one thing the passage will not let us do is check in advance which side we are on.",
+ "doors": [
+  {
+   "landing": "The King in the least",
+   "claim": "The enthroned King has hidden himself in the hungry, the sick, and the prisoner, so that what is done to them is done to him — and he asks for nothing costly, only bread and a visit.",
+   "witnesses": [
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "And look how light things He enjoins; He said not, “I was in prison,” and ye did not set me free, but, and “ye visited me not.” Also His hunger required no costly dainties, but necessary food. ... it is God who receives in the poor man."
+    },
+    {
+     "author": "Origen",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "It is written to the believers, “Ye are the body of Christ.” As then the soul dwelling in the body, though it hungers not in respect of its spiritual substance, yet hungers for the food of the body, because it is yoked to the body; so the Saviour suffers whatever His body the Church suffers, though He Himself be impassible."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Inasmuch as ye did it to one of the least of these my brethren, ye did it to me — What encouragement is here to assist the household of faith? But let us likewise remember to do good to all men."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "In prison — Prisoners need to be visited above all others, as they are commonly solitary and forsaken by the rest of the world."
+    }
+   ],
+   "say": "The King on the throne of glory is also the man in the cell no one visits. You do not have to go looking for Christ the King; he has already told you his address.",
+   "do": "Ask them to make one visit this week to someone solitary and forgotten — the sick, the homebound, the imprisoned — not to fix anything, only to show up."
+  },
+  {
+   "landing": "Lord, when did we see you?",
+   "claim": "The righteous do not recognize their own goodness and the wicked cannot stop defending theirs; the Judge's estimate of our works is not ours, which frees mercy from scorekeeping.",
+   "witnesses": [
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Then shall the righteous answer — It cannot be, that either the righteous or the wicked should answer in these very words. What we learn herefrom is, that neither of them have the same estimation of their own works as the Judge hath."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Then shall they answer. Not distrusting the words of the Lord, but either amazed at the greatness of the king's majesty; or because every good thing that they did seems little to them."
+    },
+    {
+     "author": "Origen",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Mark how the righteous dwell upon each word, while the unrighteous answer summarily, and not going through the particular instances; for so it becomes the righteous out of humility to disclaim each individual generous action, when imputed to them publicly; whereas bad men excuse their sins, and endeavour to prove them few and venial."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Then will they answer — So the endeavour to justify themselves, will remain with the wicked even to that day!"
+    }
+   ],
+   "say": "The sheep are surprised by their own goodness; the goats are still arguing their case. The mercy that counts is the kind you forgot to count.",
+   "do": "Invite them to stop keeping a ledger of their good deeds for one week — give, help, visit, and tell no one, including themselves, the total."
+  },
+  {
+   "landing": "The Judge is the one going to the cross",
+   "claim": "Jesus speaks of his throne two days before he is handed over to be crucified; the King who sits in glory over the nations is the Son of Man, still wearing our flesh, the promised shepherd-king.",
+   "witnesses": [
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "And when. Being about to be delivered to the cross very soon, he set before them the glory of him who triumphs, that he might make up by this promise for the scandals that were to follow."
+    },
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "He does not accordingly say of this as of the others, “The kingdom of heaven is like,” but shews of Himself by direct revelation, saying, “When the Son of man shall come in his majesty.”"
+    },
+    {
+     "author": "Augustine",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The wicked and they also who shall be set on His right hand shall see Him in human shape, for He shall appear in the judgment in that form which He took on Him from us."
+    },
+    {
+     "author": "Catena — intertextual",
+     "tradition": "intertext",
+     "work": "Catena",
+     "mode": "text",
+     "reading": "The promise of one shepherd, 'my servant David,' set over the flock as prince, is typologically fulfilled in the Son of Man / King who shepherds and judges the nations. (Figural of Ezekiel 34:23–24)"
+    }
+   ],
+   "say": "The one who will judge the nations is about to be judged by them. Our King's throne and his cross are told in the same breath — and he keeps our face to the end.",
+   "do": "Have them hold one fear about the end of things up against this: the Judge is the one who was crucified for them, and still wears their flesh."
+  }
+ ],
+ "tracks": {
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Ezekiel 34:11-16, 20-24",
+    "refKey": "Ezek.34.11-Ezek.34.16",
+    "refKeys": ["Ezek.34.11-Ezek.34.16", "Ezek.34.20-Ezek.34.24"],
+    "doors": [
+     {
+      "landing": "I myself will search for my sheep",
+      "claim": "After the shepherds of Israel have failed, God does not hire better ones; he comes himself, into the dark day, to seek and gather the scattered flock.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "In the cloudy and dark day — In the time of general distress."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "God declares 'I myself will search for my sheep... I will seek the lost,' the precise plot of the one shepherd who leaves the flock to find the strayed. (taken up at Luke 15:3–7)"
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The LORD himself seeks, gathers, and feeds the scattered sheep, rescuing them from where they were scattered in the day of clouds. Jesus as the good shepherd who knows his own enacts the LORD's own pastoral self-commitment. (taken up at John 10:11–18)"
+       }
+      ],
+      "say": "God's answer to bad shepherds is not a better committee. It is himself, coming out in the worst weather to find you.",
+      "do": "Ask them to name the 'cloudy and dark day' they were scattered in, and to pray it back to God as the place he said he would come looking."
+     },
+     {
+      "landing": "Between the fat and the lean",
+      "claim": "The shepherd who gathers also judges, and his judgment takes the side of the weak sheep against the strong ones who shove them aside.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "I will judge — I will vindicate the poor. The fat cattle - The rich. The lean - The poor."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "The fat — The powerful and rich. I will feed - I will judge and punish them."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The LORD 'will judge between the fat sheep and the lean sheep,' saving the weak from those who shove with side and shoulder. This grounds the criterion of judgment on treatment of the vulnerable and the shepherd-king's vindication of the mistreated, mirrored in care for the hungry, naked, sick, and imprisoned. (taken up at Matthew 25:31–46)"
+       }
+      ],
+      "say": "The Good Shepherd is not neutral inside the flock. He knows who has been pushed to the edge, and he knows who did the pushing.",
+      "do": "Have them look honestly at where they are the fat sheep — where their comfort crowds someone else's — and make one concrete room for the lean."
+     },
+     {
+      "landing": "One shepherd, my servant David",
+      "claim": "God promises a single shepherd from David's line who will do the whole office of shepherding forever — the church hears in him the Christ who laid down his life for the sheep.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "One shepherd — Christ, the great good, chief, only shepherd, that laid down his life for his sheep. ... He shall feed - Do all the office of a good and faithful shepherd, and that forever."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "My servant — Christ was in this great work his fathers servant, Isaiah xlii, 1."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "\"I will set up over them one shepherd... my servant David, and he shall feed them and be their shepherd\" — the messianic Davidic-shepherd promise underlying \"the Lamb... shepherds them.\" Striking oxymoron (the Lamb is the Shepherd) fuses Ezekiel 34's shepherd-king with John's Lamb-Christology. (taken up at Revelation 7:13–17)"
+       }
+      ],
+      "say": "The King God promised is a shepherd, and the shepherd turns out to be the Lamb. His rule looks like feeding and his crown like a life laid down.",
+      "do": "Ask them to name what ruling them currently looks like — fear, a schedule, a market — and to compare it to a shepherd who feeds."
+     }
+    ]
+   },
+   "gravity": "God has watched Israel's shepherds feed themselves; now he says, I myself will search for my sheep — gather the scattered from the dark day, bind up the injured, strengthen the weak, and judge between the fat sheep and the lean — and he will set over them one shepherd, his servant David (Ezekiel 34). The Psalm calls all the earth to come before him with joy, because we are his people and the sheep of his pasture (Psalm 100). Ephesians sees Christ seated above every rule and authority, head over all things for the church; and in Matthew the Son of Man takes his throne and separates the nations as a shepherd separates sheep from goats. The nerve: the King of the universe rules as a shepherd, and his throne is set among the lean sheep.",
+   "synthesis": {
+    "convergence": "God comes himself to seek the lost, judges for the lean against the fat, and promises one shepherd-king (Ezekiel 34); a glad people enter his gates as the sheep of his pasture (Psalm 100); Christ is raised far above every power for the sake of his body (Ephesians 1); and the enthroned Son of Man sorts the flock by how it treated the least (Matthew 25). Each reading gives Christ the King a shepherd's crook rather than a sceptre — his reign is the seeking, feeding, and vindicating of the weak.",
+    "claim": "The King who reigns over all is the shepherd who comes looking for the lost — and he judges by whether we were shepherds too.",
+    "here": "For a congregation that hears 'Christ the King' and thinks of power and distance, the move is to put the crook back in his hand: his reign is near, it looks like care, and it has already chosen the side of the weakest sheep."
+   }
+  },
+  "complementary": {
+   "firstReading": {
+    "ref": "Ezekiel 34:11-16, 20-24",
+    "refKey": "Ezek.34.11-Ezek.34.16",
+    "refKeys": ["Ezek.34.11-Ezek.34.16", "Ezek.34.20-Ezek.34.24"],
+    "doors": [
+     {
+      "landing": "I myself will search for my sheep",
+      "claim": "After the shepherds of Israel have failed, God does not hire better ones; he comes himself, into the dark day, to seek and gather the scattered flock.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "In the cloudy and dark day — In the time of general distress."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "God declares 'I myself will search for my sheep... I will seek the lost,' the precise plot of the one shepherd who leaves the flock to find the strayed. (taken up at Luke 15:3–7)"
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The LORD himself seeks, gathers, and feeds the scattered sheep, rescuing them from where they were scattered in the day of clouds. Jesus as the good shepherd who knows his own enacts the LORD's own pastoral self-commitment. (taken up at John 10:11–18)"
+       }
+      ],
+      "say": "God's answer to bad shepherds is not a better committee. It is himself, coming out in the worst weather to find you.",
+      "do": "Ask them to name the 'cloudy and dark day' they were scattered in, and to pray it back to God as the place he said he would come looking."
+     },
+     {
+      "landing": "Between the fat and the lean",
+      "claim": "The shepherd who gathers also judges, and his judgment takes the side of the weak sheep against the strong ones who shove them aside.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "I will judge — I will vindicate the poor. The fat cattle - The rich. The lean - The poor."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "The fat — The powerful and rich. I will feed - I will judge and punish them."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The LORD 'will judge between the fat sheep and the lean sheep,' saving the weak from those who shove with side and shoulder. This grounds the criterion of judgment on treatment of the vulnerable and the shepherd-king's vindication of the mistreated, mirrored in care for the hungry, naked, sick, and imprisoned. (taken up at Matthew 25:31–46)"
+       }
+      ],
+      "say": "The Good Shepherd is not neutral inside the flock. He knows who has been pushed to the edge, and he knows who did the pushing.",
+      "do": "Have them look honestly at where they are the fat sheep — where their comfort crowds someone else's — and make one concrete room for the lean."
+     },
+     {
+      "landing": "One shepherd, my servant David",
+      "claim": "God promises a single shepherd from David's line who will do the whole office of shepherding forever — the church hears in him the Christ who laid down his life for the sheep.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "One shepherd — Christ, the great good, chief, only shepherd, that laid down his life for his sheep. ... He shall feed - Do all the office of a good and faithful shepherd, and that forever."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "My servant — Christ was in this great work his fathers servant, Isaiah xlii, 1."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "\"I will set up over them one shepherd... my servant David, and he shall feed them and be their shepherd\" — the messianic Davidic-shepherd promise underlying \"the Lamb... shepherds them.\" Striking oxymoron (the Lamb is the Shepherd) fuses Ezekiel 34's shepherd-king with John's Lamb-Christology. (taken up at Revelation 7:13–17)"
+       }
+      ],
+      "say": "The King God promised is a shepherd, and the shepherd turns out to be the Lamb. His rule looks like feeding and his crown like a life laid down.",
+      "do": "Ask them to name what ruling them currently looks like — fear, a schedule, a market — and to compare it to a shepherd who feeds."
+     }
+    ]
+   },
+   "gravity": "God says, I myself will search for my sheep, gather them from the dark day, judge between the fat and the lean, and set over them one shepherd, my servant David (Ezekiel 34). The Psalm bids us come, bow down, and kneel before the Lord our Maker, a great King above all gods, for we are the people of his pasture and the sheep of his hand (Psalm 95). Ephesians sees Christ seated above every power, head over all things for the church; and in Matthew the Son of Man sits on his throne and sorts the nations like a shepherd. The nerve: the great King above all gods stoops to the shepherd's work — and asks his sheep to kneel before him.",
+   "synthesis": {
+    "convergence": "God promises to shepherd his scattered flock himself and to raise up one shepherd-king (Ezekiel 34); the Psalm hails the great King above all gods, in whose hand are the depths of the earth, and confesses that we are the sheep of his hand (Psalm 95); Christ is enthroned above all rule for the sake of his body (Ephesians 1); and the King on the throne of glory judges by mercy to the least (Matthew 25). Each reading joins majesty and pasture: the one who holds the mountains in his hand holds the sheep there too.",
+    "claim": "The King above all gods is the shepherd who made us his sheep — so we bow before him, and he sends us to the least of his flock.",
+    "here": "For people who find a reigning Christ either too remote to matter or too fierce to approach, the move is the Psalm's: come and kneel before the Maker who keeps his sheep in his hand, and then go and find him where he said he would be."
+   }
+  }
+ },
+ "subtract": "These three are doors, not points — mutually exclusive landings (Christ hidden in the least / mercy that does not count itself / the crucified one on the throne). Walk through one and let the other two go; the choosing is the sermon's focus.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, the Glossa ordinaria (Migne recension, Wroot Press English), and the Catena intertextual notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
+}

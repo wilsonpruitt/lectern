@@ -1,0 +1,239 @@
+{
+ "_note": "The Turn — reduction to a claim. The DOORS are attested reading-traditions surfaced from the retrieved reception store (~/reception-corpus), NOT authored from recall; every witness `reading` is the source's own words, lightly trimmed (Glossa editorial source-markers like ((HIER.)) dropped; the Migne recension's own 'etc., as far as' abridgements are marked with '...'). The editorial framing (trap/hinge/gravity/synthesis/claim/say/do/subtract) is AI-drafted and pending Wilson's curation. [Authored 2026-10-06, Opus, Phase 4b brief, born v2: the build carries one track ('single'), first reading Isaiah 61:1-4, 8-11 and Psalm 126 (the build gives no Magnificat alternative). SPLIT GOSPEL: the pericope is John 1:6-8, 19-28, but the build keys only John.1.6-John.1.8 and the turn_pull dump covered only that span, so the 1:19-28 rows were pulled directly from reception.sqlite. Top-level `refKeys` lists both spans; `refKey` is set to the envelope John.1.6-John.1.28 (precedent: proper-11-16-a's Matt.13.24-Matt.13.43) because validate_turn.py grounds Gospel witnesses against `refKey` alone. Every Gospel witness is drawn from 1:6-8 or 1:19-28 only; nothing from the Prologue's 1:9-18 rows is used. The store has NO Catena Aurea Fathers on John 1 (Barnes, Calvin, JFB and Matthew Henry are index-only rows with no text; Barth CD rows not used), so the Gospel doors rest on the Glossa ordinaria (Migne) 1:6, 1:19, 1:20, 1:21, 1:23, 1:26, 1:27, Wesley's Notes 1:7, 1:20, 1:23, 1:26, and the Catena intertext notes on 1:6-9 (Malachi 3:1) and 1:19-28 (Malachi 4:5). Isaiah 61 doors from Glossa 61:1, 61:3, 61:8, 61:10, Wesley 61:1, 61:3, 61:10, and Catena intertext notes (taken up at Luke 4:16-21, 1 Corinthians 3:5-9, Luke 1:46-50); refKeys carry both spans of the split reading and the intertext notes on 61:6-7 (outside the lection) were left aside. Psalm 126 rows (Glossa 126:1, 126:4, 126:5; Wesley 126:1, 126:4; Catena intertext 126:5-6) inform gravity/synthesis only. Not used on the Gospel: the Glossa's two-Bethanies allegory (1:28) and its note on the Pharisees and the figure of baptism in Elijah and Elisha (1:25).]",
+ "occasion": "third-sunday-of-advent-b",
+ "pericope": "John 1:6-8, 19-28",
+ "refKey": "John.1.6-John.1.28",
+ "refKeys": [
+  "John.1.6-John.1.8",
+  "John.1.19-John.1.28"
+ ],
+ "trap": "John becomes a lesson in modesty: be humble, point to Jesus, don't make it about you, and the sermon is a pep talk for church volunteers. Or the Sunday of joy is preached as an order to cheer up, three weeks into a December that has already worn people thin, and Isaiah's good news to the poor turns into either a program to run or a feeling to have.",
+ "hinge": "The authorities ask John who he is, and almost everything he says is what he is not: not the Christ, not Elijah, not the prophet. The one who matters is already standing in the middle of them, and nobody knows him. On the Sunday the church is told to rejoice, the Gospel offers a man who refuses every title and a Christ no one recognizes. The preacher has to find the joy inside that, not paste it on top.",
+ "doors": [
+  {
+   "landing": "Nothing but a voice",
+   "claim": "Asked to name himself, John refuses every great name and keeps only one: a voice. His freedom is in not having to be the answer. A voice exists to carry someone else's word and then fall silent.",
+   "witnesses": [
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "I am the voice — As if he had said, Far from being Christ, or even Elijah, I am nothing but a voice: a sound that so soon as it has expressed the thought of which it is the sign, dies into air, and is known no more."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "I am the voice of one crying in the wilderness. He does not say, I am a man, or John, or the son of Zacharias. ... The voice is the interpreter of the mind; but the mind, that is, the understanding of all things, is the Son of God. John therefore is the voice and interpreter of this mind, because he first showed him to the world: Behold the Lamb of God."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "He confessed, as he says afterwards, not that he was the Christ. He did not deny what he was, that is, that he was the forerunner."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "I am not the Christ — For many supposed he was."
+    }
+   ],
+   "say": "John had a crowd ready to call him Messiah, and he said no three times. You are not the Christ either, and that is not a demotion. It is the relief of being a voice and not the Word.",
+   "do": "Ask them to name one place they have been trying to be the answer (for a child, a parent, a friend, this church) and to practise saying 'I am not the one' there this week, and pointing to the one who is."
+  },
+  {
+   "landing": "A man sent to testify",
+   "claim": "Before John is a voice he is a man, an ordinary human being sent from God to testify to the light. The Gospel's word for good news here is testimony: someone who knows, telling what they have seen.",
+   "witnesses": [
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "There was a man sent. ... he presently descends to the lowliness of human nature, and particularly of the Word's forerunner, against those who said that human nature had been in the first parent wholly lost and brought to nothing. A man sent. A man, not an angel, as the heretics will have it, sent from God. Therefore he was able to speak of God."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "The same came for (that is, in order to give) a testimony. ... What St. Matthew, Mark, and Luke term the Gospel, in respect of the promise going before, St. John usually terms the testimony, intimating the certain knowledge of the relator; to testify of the light - Of Christ."
+    },
+    {
+     "author": "Catena — intertextual",
+     "tradition": "intertext",
+     "work": "Catena",
+     "mode": "text",
+     "reading": "'Behold, I send my messenger' frames John as the divinely sent forerunner ('there came a man, sent from God'). The sending-of-the-messenger motif is the standard prophetic preparation pattern and coheres with John's witness role. (Allusion of Malachi 3:1)"
+    }
+   ],
+   "say": "God did not send an angel to announce the light. He sent a man, which means human beings are still fit to speak of God, and you are one of them.",
+   "do": "Invite them to write down, in three sentences, one thing they have actually seen of Christ's light, and to tell it to one person this week as testimony rather than argument."
+  },
+  {
+   "landing": "One you do not know stands among you",
+   "claim": "The interrogators are looking for the Christ in John, and the real Christ is already standing in their midst, unrecognized because he is lowly. Advent's waiting is not only for a coming; it is for eyes to see the one already here.",
+   "witnesses": [
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "A testimony against this, that Christ was hidden: hidden, because lowly; lowly, that he might be able to be despised and killed, that he might redeem the world."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Elias himself is to go before him as about to judge in power; John is figuratively Elias, going before the same one as about to be judged: so that there are two heralds, as there are two advents of the same one. ... I show the lowliness at which you take offence. As if he should say: Serve the lowly one before the exalted one judges."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "I baptize in water. ... I wash bodies with water, I do not take away sins ... but he is in the midst of you who takes away sins."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "I baptize — To prepare for the Messiah; and indeed to show that Jews, as well as Gentiles, must be proselytes to Christ, and that these as well as those stand in need of being washed from their sins."
+    },
+    {
+     "author": "Catena — intertextual",
+     "tradition": "intertext",
+     "work": "Catena",
+     "mode": "text",
+     "reading": "The priests' question 'Are you Elijah?' (v.21) invokes the promise that God will send Elijah before the great day of the LORD. The expectation is directly named; John's denial plays against this eschatological script. (Allusion of Malachi 4:5)"
+    }
+   ],
+   "say": "They came looking for the Messiah and questioned the wrong man, while the right one stood in the crowd. He is lowly enough to be missed, and he is already among you.",
+   "do": "Have them pick one ordinary, unimpressive place in their week (a waiting room, a commute, a hard conversation) and go into it expecting that Christ is already standing there unrecognized."
+  }
+ ],
+ "tracks": {
+  "single": {
+   "firstReading": {
+    "ref": "Isaiah 61:1-4, 8-11",
+    "refKey": "Isa.61.1-Isa.61.4",
+    "refKeys": [
+     "Isa.61.1-Isa.61.4",
+     "Isa.61.8-Isa.61.11"
+    ],
+    "doors": [
+     {
+      "landing": "Anointed for the poor",
+      "claim": "The Spirit's anointing is for a task: good news to the poor and liberty to captives. The church reads it of Christ, anointed at the Jordan, and of a God who prefers the justice of the poor to the gifts of the rich.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Upon me — Though the prophet may speak of himself, yet it is principally to be understood of Christ. Anointed - Set me apart, both capacitating him with gifts, and commissioning him with authority. ... Liberty - This appertains to Christ's kingly office, whereby he proclaims liberty from the dominion of sin, and from the fear of hell."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Because he hath anointed me: with the oil of gladness, with the abundance of grace. This anointing was completed in the baptism, because the Spirit of the Lord descended in the likeness of a dove, and remained upon him. To announce. The Seventy: To preach the Gospel to the poor."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "For I am the Lord: As though he said: This shall the Lord do, who loves rather the justice of the poor and true judgment than the gifts of the rich, which are often from rapine."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "The Nazareth scroll reading 'The Spirit of the Lord is on me, because he has anointed me to preach good news to the poor... release to the captives... to proclaim the acceptable year of the Lord' is a formal citation of Isaiah 61:1-2 (LXX). (taken up at Luke 4:16-21)"
+       }
+      ],
+      "say": "The anointing is not a glow; it is a job description. Christ read this scroll as his own, and it begins with the poor.",
+      "do": "Ask them to name one person or place near them that Isaiah's list describes (poor, brokenhearted, captive, mourning) and to bring them one concrete piece of good news this week."
+     },
+     {
+      "landing": "A garland instead of ashes",
+      "claim": "God does not tell mourners to stop mourning. He exchanges what they wear: a garland for ashes, oil of joy for grief, a garment of praise for a fainting spirit, and he plants them to stand like oaks.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Ashes — By ashes understand whatever is proper for days of mourning, as by beauty whatever may become times of rejoicing. Oil of joy - He calls it oil of joy in allusion to those anointings they were wont to use in times of joy. ... Trees - That they shall be firm, solid, and well rooted, being by faith engrafted into Christ, and bringing forth fruit suitable to the soil wherein they are planted."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "A crown. When, that is, they shall have seen that very many of the Jews have believed, and that they receive a most clean robe for a mourning garment. ... they shall have the oil of joy for mourning, the mantle of praise for the spirit of grief."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "Isaiah names the redeemed 'oaks of righteousness, the planting of the LORD, that he may be glorified.' Paul's image of the church as God's planting that God himself grows for his glory closely matches this 'planting of the LORD' motif. (taken up at 1 Corinthians 3:5-9)"
+       }
+      ],
+      "say": "God doesn't scold the grieving into joy. He takes the ashes off your head and puts a garland there, and then he plants you so you can stand.",
+      "do": "Invite them to bring one grief to the Lord's Table or to prayer this week, not to be told to get over it, but to ask for the exchange: ashes handed over, something given back."
+     },
+     {
+      "landing": "Clothed like a bride",
+      "claim": "The prophet's joy is not in his circumstances but in the Lord, because he has been dressed by God: salvation as a garment, righteousness as a robe, the church adorned like a bride.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Rejoicing I will rejoice in the Lord, not in the world. With the garments of salvation: with the virtues, with Christ himself ... yet the Church is one in the head and in the members. And as a bride. He sets forth the examples of another comparison, of which the former is referred to the bridegroom, the latter to the bride."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "I will — This is spoken in the person of the church. Garments, &c. - With salvation as with a garment, and with righteousness as with a robe."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "'My soul shall exult in my God' (Isaiah 61:10) within the Spirit-anointed-good-news passage contributes to the rejoicing diction of the canticle's opening. (taken up at Luke 1:46-50)"
+       }
+      ],
+      "say": "Joy in the Lord is not a mood you work up. It is what happens when you notice what you have been dressed in: Christ himself.",
+      "do": "Have them pray Mary's song or Isaiah 61:10 each morning this week and name, each day, one thing God has given them to wear that they did not make."
+     }
+    ]
+   },
+   "gravity": "Advent's third week turns toward joy. Isaiah's anointed one is sent with good news to the poor, binding up the brokenhearted, liberty for captives, a garland instead of ashes, oaks planted by the Lord, and a people dressed in salvation like a bride (Isaiah 61). The Psalm remembers when the Lord restored Zion and they were like dreamers with mouths full of laughter, and prays again for those who sow in tears to come home with sheaves (Psalm 126). Paul says rejoice always, do not quench the Spirit, the one who calls you is faithful. And John, asked who he is, says only that he is a voice, while the one who matters stands among them unknown. The nerve: the joy is real, and it comes from outside, given to mourners, not demanded of them.",
+   "synthesis": {
+    "convergence": "Isaiah's anointed herald exchanges ashes for a garland and clothes the people in salvation (Isaiah 61). The Psalm laughs at a restoration already given and still weeps over seed not yet harvested (Psalm 126). Paul commands rejoicing and grounds it in the faithfulness of the one who calls (1 Thessalonians 5). John refuses to be the light and points to the one hidden in the crowd (John 1). Every reading locates joy outside the one who rejoices: in a God who anoints, restores, calls, and comes.",
+    "claim": "Advent joy is not a mood we produce but a gift we receive: the anointed one has come to the mourners, and he is already among us, though we sow in tears.",
+    "here": "For a congregation told every December to be merry, the move is to make room for the tears Psalm 126 keeps, and then to point, as John does, to the one who brings the garland. The joy is his to give, which is why it can be commanded."
+   }
+  }
+ },
+ "subtract": "These three are doors, not points. Each is a different landing: the freedom of being only a voice, the commission of an ordinary human sent to testify, and the lowly Christ already standing unrecognized among us. Walk through one and let the other two go; the choosing is the sermon's focus.",
+ "source": "Glossa ordinaria (Migne recension, Wroot Press English), Wesley's Explanatory Notes, and Catena intertextual notes, retrieved from ~/reception-corpus. Attested, not authored. (No Catena Aurea Fathers are on file for John 1.)",
+ "status": "draft"
+}

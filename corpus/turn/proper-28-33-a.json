@@ -1,0 +1,329 @@
+{
+ "_note": "The Turn — reduction to a claim. The DOORS are attested reading-traditions surfaced from the retrieved reception store (~/reception-corpus), NOT authored from recall; every witness `reading` is the source's own words, lightly trimmed (Glossa editorial source-markers like ((AUG.)) and incipit-excipit pointers dropped). The editorial framing (trap/hinge/gravity/synthesis/claim/say/do/subtract) is AI-drafted and pending Wilson's curation. [Authored 2026-10-06, Opus, Phase 4b brief, born v2: Gospel doors from the Catena Aurea (Newman tr.) rows on Matt 25:14-30 pulled directly from reception.sqlite (Chrysostom, Gregory, Jerome, Origen), plus Glossa ordinaria (Migne) 25:21, 25:25-26, 25:29 and Wesley's Notes 25:18, 25:24, 25:30; both tracks authored from src/turn_pull.py output. Semicontinuous: three Judges 4 doors (Wesley 4:2-7, Migne 4:1/4:4, Catena intertext at Luke 2:36-38); Migne's Judges glosses are mostly Origen/Adamantius incipit-excipit pointers, so only the full sentences (and the excipit clause at 4:1) were usable, and the 'Hath not the Lord commanded' door rests on Wesley alone. Complementary: Migne has no gloss on Zephaniah and the Calvin rows on Zeph 1 are empty index entries, so the three Zephaniah doors stand on Wesley (1:7, 1:12, 1:14-18) plus Catena intertext (Rev 8:1-5, Luke 15:8-10, 1 Thess 1:9-10 and 5:1-11). Psalm rows (123, 90) inform gravity/synthesis only, since first-reading doors validate against the first reading. Zeph refKeys copied from the split RCL spine (1:7, 1:12-18).]",
+ "occasion": "proper-28-33-a",
+ "pericope": "Matthew 25:14-30",
+ "refKey": "Matt.25.14-Matt.25.30",
+ "trap": "The parable becomes the stewardship-campaign sermon — God gave you gifts, so use them (and pledge) — or a quiet blessing on return-on-investment, where the five-talent servant is simply the most productive employee. Either way it turns into a performance review, and the frightened third servant becomes the cautionary tale for anyone not pulling their weight. The opposite trap softens the ending until the outer darkness disappears and nothing is at stake.",
+ "hinge": "The third servant does no harm: he keeps the money safe and hands back every penny — and he is the one cast out. What condemns him is not theft but a picture of his master ('I knew you were a hard man'), and that fear produced a buried life. The master never admits to being hard; he judges the servant by the God he imagined, and gives the talent to the one who already has the most.",
+ "doors": [
+  {
+   "landing": "No such thing as negative goodness",
+   "claim": "The servant who only buried his talent did nothing wrong, and that is exactly what he is condemned for: harmlessness is not faithfulness, and every gift is lent for use.",
+   "witnesses": [
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "Cast ye the unprofitable servant into the outer darkness — For what? what had he done? It is true he had not done good. But neither is he charged with doing any harm. Why, for this reason, for barely doing no harm, he is consigned to outer darkness. So mere harmlessness, on which many build their hope of salvation, was the cause of his damnation! The same great truth, that there is no such thing as negative goodness, is in this chapter shown three times."
+    },
+    {
+     "author": "John Chrysostom",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Observe that not only he who robs others, or who works evil, is punished with extreme punishment, but he also who does not good works."
+    },
+    {
+     "author": "Gregory the Great",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Let him then who has understanding look that he hold not his peace; let him who has affluence not be dead to mercy; let him who has the art of guiding life communicate its use with his neighbour; and him who has the faculty of eloquence intercede with the rich for the poor. For the very least endowment will be reckoned as a talent entrusted for use."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Note that whatever is given to each in worldly or in spiritual things is reckoned for a talent of which he is to render an account."
+    }
+   ],
+   "say": "The servant in the outer darkness is not a thief. He is a careful man who never did anything with what he was given. Jesus will not let 'I did no harm' stand in for 'I was faithful.'",
+   "do": "Ask them to name one thing they have been keeping safe in the ground — a skill, money, a word they could say for someone — and to put it to use for a neighbor before next Sunday."
+  },
+  {
+   "landing": "Thou knowest him not",
+   "claim": "The third servant buried his talent because he believed his master was hard; his picture of God shaped his whole life, and it was false.",
+   "witnesses": [
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "I knew thou art a hard man — No. Thou knowest him not. He never knew God, who thinks him a hard master. Reaping where thou hast not sown - That is, requiring more of us than thou hast given us power to perform. So does every obstinate sinner, in one kind or other, lay the blame of his own sins on God."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "And being afraid I went away. And fearing to attempt the step of a higher life, lest, seeking another's salvation, I myself should be endangered. I hid thy talent. I did not preach what I understood by thy gift."
+    },
+    {
+     "author": "Origen",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The Lord did not allow that He was \"a hard man\" as the servant supposed, but He assented to all his other words. But He is indeed hard to those who abuse the mercy of God to suffer themselves to become remiss, and use it not to be converted."
+    },
+    {
+     "author": "Gregory the Great",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "But there are many within the Church of whom this servant is a type, who fear to set out on the path of a better life, and yet are not afraid to continue in carnal indolence; they esteem themselves sinners, and therefore tremble to take up the paths of holiness, but fearlessly remain in their own iniquities."
+    }
+   ],
+   "say": "The servant was not lazy so much as afraid — and afraid of a master who never existed. What you believe about God's face decides whether you dig a hole or go to work.",
+   "do": "Invite them to finish the sentence honestly, 'I knew you were a God who…', and then set it beside what this master actually did: handed out his own fortune and went away trusting them."
+  },
+  {
+   "landing": "The same joy for two as for five",
+   "claim": "The one who doubled two hears exactly the same words as the one who doubled five; the master looks for faithfulness with what was given, not the size of the return, and the reward is his own joy.",
+   "witnesses": [
+    {
+     "author": "Jerome",
+     "tradition": "latin-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "The servant who of five talents had made ten, and he who of two had made four, are received with equal favour by the Master of the household, who looks not to the largeness of their profit, but to the disposition of their will."
+    },
+    {
+     "author": "Origen",
+     "tradition": "greek-patristic",
+     "work": "Catena Aurea",
+     "mode": "text",
+     "reading": "Observe that the same was said to them both; he that had less capacity, but that which he had, he exercised after such manner as he ought, shall have no whit less with God than he who has a greater capacity; for all that is required is that whatever a man has from God, he should use it all to the glory of God."
+    },
+    {
+     "author": "John Wesley",
+     "tradition": "wesleyan",
+     "work": "Explanatory Notes",
+     "mode": "text",
+     "reading": "He that had received one — Made his having fewer talents than others a pretense for not improving any."
+    },
+    {
+     "author": "Glossa ordinaria",
+     "tradition": "medieval",
+     "work": "Glossa ordinaria (Migne)",
+     "mode": "text",
+     "reading": "Over a few things. The good things of the present life are few, although they seem many, because they are not without an admixture of some trouble. But the eternal good things are many, which are without any trouble of corruption. Enter into the joy of thy Lord."
+    }
+   ],
+   "say": "Nobody in this parable is graded on a curve. Two talents faithfully used hear the same welcome as five: enter into the joy of your master.",
+   "do": "Ask them to stop measuring their gift against someone else's for one week and to do one faithful thing with what is actually in their hands."
+  }
+ ],
+ "tracks": {
+  "complementary": {
+   "firstReading": {
+    "ref": "Zephaniah 1:7, 12-18",
+    "refKey": "Zeph.1.7",
+    "refKeys": [
+     "Zeph.1.7",
+     "Zeph.1.12-Zeph.1.18"
+    ],
+    "doors": [
+     {
+      "landing": "Settled on their lees",
+      "claim": "God searches the city with lamps for the people who have settled into thinking he will do nothing, neither good nor ill; their patience with God's patience is the danger.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "I will search — God speaks after the manner of men, who searches dark places with candles. He will fully discover and punish. Their lees - In allusion to liquors, which not being poured out from vessel to vessel to refine them, grow thick and foul."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Therefore let not sinners be laid asleep by the patience of God; for when the measure of their iniquity is full, his justice will both overtake and overcome them, will make quick and thorough work."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "God 'searches Jerusalem with lamps' to find the complacent, a near image to the woman lighting a lamp and sweeping to find the coin. Zephaniah's search is judicial, here gracious. (taken up at Luke 15:8-10)"
+       }
+      ],
+      "say": "Wine left sitting never gets poured, and it thickens. God goes looking with a lamp for the people who have decided he will do nothing.",
+      "do": "Ask them to name where they have settled — a faith never disturbed, a comfort never poured out — and to let God pour them out into one new act of trust this week."
+     },
+     {
+      "landing": "Hush — the day is near",
+      "claim": "The first word to the approaching Day of the Lord is not argument but silence: stand in awe before the God whose day is coming.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Hold thy peace — Thou that murmurest against God, stand in awe. The day - A day of vengeance from the Lord."
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "'Be silent before the Lord GOD, for the day of the LORD is near' — silence as overture to the Day of the LORD, matching the silence that precedes the trumpet-judgments. (taken up at Revelation 8:1-5)"
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "The voice of the day — The day which will come with a great noise."
+       }
+      ],
+      "say": "Before the noise of that day comes, God asks for one thing: be quiet. Stop murmuring and stand in awe.",
+      "do": "Begin or end the sermon with a deliberate silence, and invite them to keep a few minutes of it daily this week before the God whose day is near."
+     },
+     {
+      "landing": "A day of wrath — and not appointed to it",
+      "claim": "Zephaniah's day of wrath is real and comes suddenly; Paul reads it and tells the church it is not destined for wrath but for salvation through Christ.",
+      "witnesses": [
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "Zephaniah describes the day of the Lord as near, hastening, a day of wrath, distress, and ruin coming suddenly. Paul's 'sudden destruction' and the appointment 'not to wrath' (5:3, 9) echo this Day-of-the-Lord wrath vocabulary. (taken up at 1 Thessalonians 5:1-11)"
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "'The wrath to come' from which Jesus delivers draws on the Day of YHWH as 'a day of wrath'; Zephaniah 1:15,18 is the densest concentration of day-of-wrath language Paul presupposes for the coming eschatological judgment. (taken up at 1 Thessalonians 1:9-10)"
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Like blind men — Not knowing where to go. As dust - As abundantly, and as carelessly as dust in the highway."
+       }
+      ],
+      "say": "The day of wrath is not a fable; people stumble into it like the blind. But you are children of the day, and God has not destined you for wrath.",
+      "do": "Ask them to hear the day of the Lord as Paul did, not as a threat to hide from but as a reason to stay awake: name one way they will keep watch and encourage another believer this week."
+     }
+    ]
+   },
+   "gravity": "The prophet hushes the people because the Lord's day is near: God searches Jerusalem with lamps for those settled on their lees who say in their hearts that the Lord will do neither good nor ill, and the day comes as wrath and darkness that silver and gold cannot buy off (Zephaniah 1). The Psalm sets our brief, withering days against God's everlasting dwelling-place and asks him to teach us to number them (Psalm 90). Paul says the day comes like a thief, but the church are children of light, not appointed to wrath (1 Thessalonians 5); and the master returns to settle accounts with servants who used or buried what he left (Matthew 25). The nerve: the time is short, and God is not indifferent to what we do with it.",
+   "synthesis": {
+    "convergence": "Zephaniah's complacent people think God will do nothing, and his day comes on them unprepared (Zephaniah 1); the Psalm prays to number our days and so gain a wise heart (Psalm 90); Paul tells the children of light to stay awake because the day comes suddenly (1 Thessalonians 5); and the buried talent is dug up at the master's return (Matthew 25). Each reading names the same temptation — to treat God as absent and time as endless — and answers it with wakefulness rather than terror.",
+    "claim": "The Lord is not a God who does nothing, and our days are numbered — so do not settle; stay awake and spend what you have been given.",
+    "here": "For comfortable people who quietly assume nothing much will change, the move is not to frighten them but to wake them: the day is near, the account is real, and we are children of the day, which is why it is worth spending ourselves now."
+   }
+  },
+  "semicontinuous": {
+   "firstReading": {
+    "ref": "Judges 4:1-7",
+    "refKey": "Judg.4.1-Judg.4.7",
+    "doors": [
+     {
+      "landing": "The word under the palm tree",
+      "claim": "While Israel lies under a tyrant, a woman sits under a palm and speaks God's word and justice to all who come; the prophetic gift is given, and it is used.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "And because we read nothing of Deborah's miraculous actions, perhaps she was only a woman of eminent holiness, and knowledge of the holy scriptures, by which she was singularly qualified for judging the people according to the laws of God."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "And she dwelt — Or, she sat: she had her judgment-seat in the open air, under the shadow of that tree; which was an emblem of the justice she administered there: thriving and growing against opposition, as the palm-tree does under pressures."
+       },
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "Debbora. A bee, or speech, which signifies a prophet; who composes the sweet honeycombs of heavenly doctrine, and the sweet honey of the divine word. Whence: How sweet are thy words to my palate, above honey and the honeycomb to my mouth!"
+       },
+       {
+        "author": "Catena — intertextual",
+        "tradition": "intertext",
+        "work": "Catena",
+        "mode": "text",
+        "reading": "Anna 'the prophetess' also recalls Deborah, 'a prophetess... judging Israel,' another woman bearing the prophetic office at a hinge of salvation history. (taken up at Luke 2:36-38)"
+       }
+      ],
+      "say": "Under the worst oppressor in a generation, God's word did not go silent. It sat under a palm tree, in the open, and anyone could come.",
+      "do": "Ask them to name the Deborah in their life — someone who spoke God's word plainly when it was hard — and to thank them, or to be that voice for someone else this week."
+     },
+     {
+      "landing": "Hath not the Lord commanded?",
+      "claim": "Deborah's summons to Barak is not her bright idea but God's command, and it comes with a place and a sign to steady his faith before the battle.",
+      "witnesses": [
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Hath not the Lord, &c. - That is, assuredly God hath commanded thee; this is not the fancy of a weak woman, which peradventure thou mayst despise; but the command of the great God by my mouth."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Draw to Thee — By my secret and powerful providence, ordering and over-ruling his inclinations that way. In fixing the very place, she gave him a sign, which might confirm his faith, when he came to engage."
+       }
+      ],
+      "say": "Barak is not asked to invent a plan. He is told where to stand and promised that God will draw the enemy there. The call comes with its own sign.",
+      "do": "Invite them to name one call they keep second-guessing because of who delivered it, and to take the first concrete step this week, trusting God to supply the rest."
+     },
+     {
+      "landing": "Again they did evil",
+      "claim": "When the good judge dies, Israel slides back, and the oppression that follows is heavier than before; the cycle of Judges is a mirror, not ancient history.",
+      "witnesses": [
+       {
+        "author": "Glossa ordinaria",
+        "tradition": "medieval",
+        "work": "Glossa ordinaria (Migne)",
+        "mode": "text",
+        "reading": "And the children of Israel again did evil. As it were for the sins of the people the good leader died."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "Mightily oppressed — More than former tyrants; from his malice and hatred against the Israelites; and from God's just judgment, the growing punishment being suitable to their aggravated wickedness."
+       },
+       {
+        "author": "John Wesley",
+        "tradition": "wesleyan",
+        "work": "Explanatory Notes",
+        "mode": "text",
+        "reading": "This seems to be of the posterity of that Jabin, whom Joshua slew, who watched all opportunities to recover his ancient possessions, and to revenge his own and his father's quarrel."
+       }
+      ],
+      "say": "The enemy Joshua defeated was only waiting. What we stop guarding comes back, and heavier. And still Israel cries out, and still God raises up a deliverer.",
+      "do": "Ask them to name one old Jabin — a habit or bondage once beaten — that has been quietly recovering ground, and to cry to the Lord about it by name."
+     }
+    ]
+   },
+   "gravity": "Israel again does evil, and for twenty years Jabin's iron chariots grind them down until they cry out; and God's answer is a woman already sitting under a palm tree, judging Israel by his word, who summons Barak with the Lord's own command and a promise of where the enemy will be delivered into his hand (Judges 4). The Psalm lifts its eyes like a servant watching the master's hand, like a maid watching her mistress, until he has mercy, for the people have had more than enough contempt (Psalm 123). Paul calls the church children of the day who stay awake (1 Thessalonians 5); and Jesus tells of servants handed their master's goods, two who put them to work and one who buried his out of fear (Matthew 25). The nerve: God entrusts his gifts to servants under pressure, and the faithful ones neither bury them nor despair, but keep their eyes on the master's hand.",
+   "synthesis": {
+    "convergence": "Deborah uses the gift she was given, sitting in the open under the palm and speaking God's command into Israel's oppression (Judges 4); the Psalm's servants fix their eyes on their master's hand for mercy (Psalm 123); Paul's children of light stay awake and build one another up (1 Thessalonians 5); and the master's servants are judged by what they did with what he left them (Matthew 25). Each reading pictures servants who belong to a master and look to him; the difference between them is whether they look in trust or in fear.",
+    "claim": "We are servants entrusted with our Master's goods, and the faithful servant looks to his hand in trust, not fear, and puts his gift to work even under oppression.",
+    "here": "For people who feel too small, too pressed, or too frightened to risk anything, the move is to lift their eyes to the Master's hand as the Psalm does, to see that hand as open rather than hard, and to use the gift already in front of them, as Deborah did under her palm."
+   }
+  }
+ },
+ "subtract": "These three are doors, not points — mutually exclusive landings (harmlessness is not faithfulness / the false picture of a hard God / the same joy for every faithful servant). Walk through one and let the other two go; the choosing is the sermon's focus.",
+ "source": "Catena Aurea (Aquinas; J.H. Newman tr., public domain), Wesley's Explanatory Notes, the Glossa ordinaria (Migne recension, Wroot Press English), and the Catena intertextual notes, retrieved from ~/reception-corpus — attested, not authored.",
+ "status": "draft"
+}
