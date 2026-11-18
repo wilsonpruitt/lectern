@@ -277,15 +277,21 @@ export function indexByYear(year: string): IndexEntry[] {
   return orderedIndex().filter((e) => e.year.toLowerCase() === year.toLowerCase());
 }
 
-// prev / next occasion id in liturgical order, scoped to the same year.
+// prev / next occasion id in liturgical order. Within a year the list runs
+// Advent 1 → Thanksgiving; at either end we cross into the neighbouring
+// lectionary year (A → B → C → A), since Thanksgiving is followed by Advent 1.
+const YEAR_CYCLE = ["a", "b", "c"];
 export function neighbors(id: string): { prev: string | null; next: string | null } {
   const e = orderedIndex().find((x) => x.id === id);
   if (!e) return { prev: null, next: null };
   const yearList = indexByYear(e.year);
   const i = yearList.findIndex((x) => x.id === id);
+  const y = YEAR_CYCLE.indexOf(e.year.toLowerCase());
+  const nextYear = y >= 0 ? indexByYear(YEAR_CYCLE[(y + 1) % 3]) : [];
+  const prevYear = y >= 0 ? indexByYear(YEAR_CYCLE[(y + 2) % 3]) : [];
   return {
-    prev: i > 0 ? yearList[i - 1].id : null,
-    next: i < yearList.length - 1 ? yearList[i + 1].id : null,
+    prev: i > 0 ? yearList[i - 1].id : prevYear.length ? prevYear[prevYear.length - 1].id : null,
+    next: i < yearList.length - 1 ? yearList[i + 1].id : nextYear.length ? nextYear[0].id : null,
   };
 }
 
