@@ -17,11 +17,19 @@ export type Gloss = {
   text: string;
   anchor: string | null;
 };
+export type WpbVerse = { v: string; text: string; lines: string[] | null; levels: number[] | null };
+export type WpbPassage = {
+  href: string;
+  version: string | null;
+  edition: "mt" | "nt";
+  sections: { ch: number; verses: WpbVerse[] }[];
+};
 export type Reading = {
   role: string;
   ref: string;
   refKey: string;
   wpb?: string | null; // Wroot Press Bible URL, only when every chapter is published
+  wpbText?: WpbPassage | null;
   tags: Record<string, string[]>;
   notes: WesleyNote[];
   glossa: Gloss[];

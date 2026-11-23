@@ -344,3 +344,16 @@ a { color: inherit; text-decoration: none; }
   .panel { padding: 0 var(--space-4) var(--space-4); }
   .masthead { flex-wrap: wrap; gap: var(--space-3); }
 }
+
+/* The Text tab: the day's readings in the Wroot Press Bible */
+.wpb-reading { margin: 0 0 28px; }
+.wpb-passage { font-family: var(--serif); font-size: 1.08rem; line-height: 1.6; margin-top: 8px; }
+.wpb-ch { font-family: var(--sans); font-size: var(--t-micro, 0.68rem); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--reed-deep); margin: 12px 0 2px; }
+.wpb-vn { font-family: var(--sans); font-size: 0.62em; font-weight: 600; color: var(--reed-deep); margin-right: 3px; }
+.wpb-poetry { margin: 2px 0; }
+.wpb-line { display: block; padding-left: 1.6em; text-indent: -1.6em; }
+.wpb-line.l2 { padding-left: 3.2em; }
+.wpb-line.l3 { padding-left: 4.4em; }
+.wpb-home { display: inline-block; margin-top: 8px; font-family: var(--sans); font-size: var(--t-micro, 0.68rem); font-weight: 600; color: var(--reed-deep); text-decoration: none; }
+.wpb-home:hover { text-decoration: underline; }
+.wpb-credit { font-family: var(--sans); font-size: var(--t-micro, 0.68rem); color: var(--fg-muted); margin-top: 8px; }

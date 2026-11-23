@@ -15,11 +15,13 @@ Scope: Masoretic (Hebrew Bible) and NT books. LXX-only books (Wisdom, Sirach, Ba
 unlinked: none is published yet, and Swete's Sirach numbering departs from English Bibles.
 """
 from __future__ import annotations
-import json, sys, urllib.request
+import json, re, sys, urllib.request
 from pathlib import Path
 
 BASE = "https://bible.wrootpress.com"
 REGISTER = Path(__file__).resolve().parent.parent / "data" / "wpb-register.json"
+# chapter JSON, trimmed to the text; gitignored, wiped whenever the WPB version moves
+CHAPTERS = Path(__file__).resolve().parent.parent / "data" / "wpb-chapters"
 
 _reg: dict | None = None
 
@@ -37,8 +39,9 @@ def refresh() -> None:
         with urllib.request.urlopen(f"{BASE}{path}", timeout=30) as r:
             return json.load(r)
     try:
+        version = get("/api/index.json")["version"]
         books = get("/api/verses/index.json")["books"]
-        out = {}
+        out = {"_version": version}
         for code in books:
             d = get(f"/api/verses/{code}.json")
             # keep only what the linker needs: published chapters, verse lists, English maps
@@ -53,8 +56,14 @@ def refresh() -> None:
         print(f"wpb_links: refresh failed ({e}); using cached {REGISTER.name}", file=sys.stderr)
         return
     REGISTER.write_text(json.dumps(out, separators=(",", ":"), sort_keys=True))
-    pub = sum(len(t["published"]) for b in out.values() for t in b["texts"].values())
-    print(f"wpb_links: {len(out)} books, {pub} published chapters -> {REGISTER.name}")
+    pub = sum(len(t["published"]) for k, b in out.items() if k != "_version" for t in b["texts"].values())
+    print(f"wpb_links: WPB {version}, {len(out) - 1} books, {pub} published chapters -> {REGISTER.name}")
+    stamp = CHAPTERS / "VERSION"
+    if stamp.exists() and stamp.read_text().strip() != version:  # a new release: re-pull every chapter
+        for f in CHAPTERS.rglob("*.json"):
+            f.unlink()
+    CHAPTERS.mkdir(parents=True, exist_ok=True)
+    stamp.write_text(version)
 
 
 def _span(key: str):
@@ -69,8 +78,9 @@ def _span(key: str):
     return pa[0], int(pa[1]), v1, int(pb[1]), v2
 
 
-def wpb_href(refkeys: list[str]) -> str | None:
-    """Absolute WPB URL for the reading, or None if any part of it isn't published."""
+def _resolve(refkeys: list[str]):
+    """The reading in the edition's own numbers: (book, ed, spans, text) -- spans sorted and merged,
+    [(c1, v1, c2, v2)], v None = whole chapter -- or None if any part of it isn't published."""
     reg = _load()
     spans = [_span(k) for k in refkeys]
     if not spans or None in spans or len({s[0] for s in spans}) != 1:
@@ -124,6 +134,23 @@ def wpb_href(refkeys: list[str]) -> str | None:
     if any(str(c) not in published for c in range(first_c, last_c + 1)):
         return None
 
+    return book, ed, mapped, text
+
+
+def wpb_href(refkeys: list[str]) -> str | None:
+    """Absolute WPB URL for the reading, or None if any part of it isn't published. Hebrew Bible
+    links carry ?cards=mt: the page otherwise opens in whatever view (MT beside the Greek, the
+    Hebrew...) the visitor last chose on WPB, which it remembers per device."""
+    r = _resolve(refkeys)
+    if not r:
+        return None
+    book, ed, mapped, text = r
+    return _address(book, ed, mapped, text) + ("?cards=mt" if ed == "mt" else "")
+
+
+def _address(book, ed, mapped, text) -> str:
+    first_c = mapped[0][0]
+    last_c = max(m[2] for m in mapped)
     path = f"{BASE}/{ed}/{book['slug']}/{first_c}"
     if all(m[1] is None for m in mapped):
         return path if first_c == last_c else f"{path}/1-{last_c}:{len(text['chapters'][str(last_c)])}"
@@ -137,9 +164,63 @@ def wpb_href(refkeys: list[str]) -> str | None:
     return f"{path}/{mapped[0][1]}-{end[2]}:{end[3]}"
 
 
+def _chapter(ed: str, slug: str, c: int) -> list[dict] | None:
+    """[{v, text, lines, levels}] for a published chapter, from cache or the live JSON."""
+    f = CHAPTERS / ed / slug / f"{c}.json"
+    if f.exists():
+        return json.loads(f.read_text())
+    try:
+        with urllib.request.urlopen(f"{BASE}/{ed}/{slug}/{c}.json", timeout=30) as r:
+            d = json.load(r)
+    except Exception as e:
+        print(f"wpb_links: could not fetch {ed}/{slug}/{c} ({e}); passage left without text", file=sys.stderr)
+        return None
+    out = []
+    for v in d["verses"]:
+        w = v.get("wpb") or {}
+        if not w.get("text"):
+            continue
+        out.append({"v": v["ref"].split(".")[2], "text": w["text"],
+                    "lines": w.get("lines"), "levels": w.get("line_levels")})
+    f.parent.mkdir(parents=True, exist_ok=True)
+    f.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    return out
+
+
+def wpb_passage(refkeys: list[str]) -> dict | None:
+    """The reading's text in the WPB, for showing in Lectern: {href, version, edition, sections:
+    [{ch, verses:[{v, text, lines, levels}]}]}. Pulled at build time with the version stamp and
+    the canonical link -- the ruled exception to one-translation-one-home."""
+    r = _resolve(refkeys)
+    if not r:
+        return None
+    book, ed, mapped, text = r
+    want: dict[int, set[int] | None] = {}  # chapter -> verse numbers, None = all
+    for c1, v1, c2, v2 in mapped:
+        for c in range(c1, c2 + 1):
+            if v1 is None:
+                want[c] = None
+                continue
+            lo = v1 if c == c1 else 1
+            hi = v2 if c == c2 else 10**6
+            if want.get(c, set()) is not None:
+                want[c] = want.get(c, set()) | set(range(lo, hi + 1))
+    sections = []
+    for c in sorted(want):
+        verses = _chapter(ed, book["slug"], c)
+        if verses is None:
+            return None  # all or nothing: never a passage with a hole in it
+        keep = [v for v in verses if want[c] is None or int(re.match(r"\d+", v["v"]).group()) in want[c]]
+        sections.append({"ch": c, "verses": keep})
+    return {"href": wpb_href(refkeys), "version": _load().get("_version"),
+            "edition": "nt" if ed == "nt" else "mt", "sections": sections}
+
+
 if __name__ == "__main__":
     if "--refresh" in sys.argv:
         refresh()
     for k in sys.argv[1:]:
-        if k != "--refresh":
+        if not k.startswith("--"):
             print(k, "->", wpb_href(k.split(",")))
+            if "--text" in sys.argv:
+                print(json.dumps(wpb_passage(k.split(",")), ensure_ascii=False)[:600])

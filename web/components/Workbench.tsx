@@ -18,7 +18,7 @@ import type {
 // Leaflet touches window/document directly -- load client-only, never in the SSG pass.
 const PlacesMap = dynamic(() => import("./PlacesMap"), { ssr: false });
 
-type TabKey = "notes" | "glossa" | "hymns" | "praise" | "calls" | "turn" | "lenses";
+type TabKey = "text" | "notes" | "glossa" | "hymns" | "praise" | "calls" | "turn" | "lenses";
 
 // canonical tradition key -> display label (mirrors src/turn_sources.py). New
 // traditions (eastern/modern/reformation…) slot in here as sources are added.
@@ -94,6 +94,65 @@ function Readings({ track, greekBooks }: { track: Track; greekBooks: string[] })
         );
       })}
     </ul>
+  );
+}
+
+function TextTab({ track }: { track: Track }) {
+  const version = track.readings.find((r) => r.wpbText?.version)?.wpbText?.version;
+  return (
+    <div className="wpb-text">
+      <p className="lenses-intro">
+        The day&rsquo;s readings in the <em>Wroot Press Bible</em>: the Hebrew Bible from the
+        Masoretic text, the New Testament from the Greek. Psalm verse numbers are the
+        Hebrew&rsquo;s, so a psalm&rsquo;s title is its verse 1.{" "}
+        <a className="notes-source-link" href="https://bible.wrootpress.com" target="_blank" rel="noopener noreferrer">
+          bible.wrootpress.com ↗
+        </a>
+      </p>
+      {track.readings.map((r) => (
+        <section className="wpb-reading" key={r.role + r.refKey}>
+          <div className="notes-reading-head">
+            <span className="role">{r.role}</span> {r.ref}
+          </div>
+          {r.wpbText ? (
+            <>
+              {r.wpbText.sections.map((sec) => (
+                <div className="wpb-passage" key={sec.ch}>
+                  {r.wpbText!.sections.length > 1 && <div className="wpb-ch">Chapter {sec.ch}</div>}
+                  {sec.verses.map((v) =>
+                    v.lines && v.lines.length ? (
+                      <div className="wpb-verse wpb-poetry" key={v.v}>
+                        {v.lines.map((ln, i) => (
+                          <span className={`wpb-line l${(v.levels && v.levels[i]) || 1}`} key={i}>
+                            {i === 0 && <sup className="wpb-vn">{v.v}</sup>}
+                            {ln}
+                          </span>
+                        ))}
+                      </div>
+                    ) : (
+                      <span className="wpb-verse" key={v.v}>
+                        <sup className="wpb-vn">{v.v}</sup>
+                        {v.text}{" "}
+                      </span>
+                    ),
+                  )}
+                </div>
+              ))}
+              <a className="wpb-home" href={r.wpbText.href} target="_blank" rel="noopener noreferrer">
+                Read with notes in the Wroot Press Bible ↗
+              </a>
+            </>
+          ) : (
+            <div className="empty">Not yet published in the Wroot Press Bible.</div>
+          )}
+        </section>
+      ))}
+      {version && (
+        <p className="wpb-credit">
+          The Wroot Press Bible, version {version}, Wroot Press, bible.wrootpress.com &middot; CC BY 4.0
+        </p>
+      )}
+    </div>
   );
 }
 
@@ -767,7 +826,7 @@ export default function Workbench({
   const [track, setTrack] = useState(
     trackKeys.includes("complementary") ? "complementary" : trackKeys[0]
   );
-  const [tab, setTab] = useState<TabKey>("notes");
+  const [tab, setTab] = useState<TabKey>("text");
   const [reg, setReg] = useState("A");
 
   const t = occ.tracks[track] ?? occ.tracks[trackKeys[0]];
@@ -785,6 +844,7 @@ export default function Workbench({
     [
       "Interpret → Preach",
       [
+        ["text", "The Text", false],
         ["notes", "Wesley's Notes", false],
         ["glossa", "Glossa", false],
         ["lenses", "Lenses", false],
@@ -883,6 +943,7 @@ export default function Workbench({
             ))}
           </div>
           <div className="panel-body">
+            {tab === "text" && <TextTab track={t} />}
             {tab === "notes" && <Notes track={t} />}
             {tab === "glossa" && <Glossa track={t} />}
             {tab === "hymns" && <Hymns track={t} />}

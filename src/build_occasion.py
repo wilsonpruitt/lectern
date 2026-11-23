@@ -111,6 +111,8 @@ def track_readings(occ: dict, rcl_tags: dict, notes_con) -> dict:
             "refKey": r["refKey"],
             # the passage in the Wroot Press Bible, or None until every chapter of it is published
             "wpb": wpb_links.wpb_href(span_keys),
+            # ...and its text, pulled at build time (version-stamped, linked home)
+            "wpbText": wpb_links.wpb_passage(span_keys),
             "tags": reading_tags(rcl_tags, r["refKey"]),
             "notes": _union_spans(wn.notes_for_refkey, span_keys, notes_con),
             "glossa": _union_spans(gl.glosses_for_refkey, span_keys, notes_con),
