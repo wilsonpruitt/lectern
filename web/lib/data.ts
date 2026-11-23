@@ -21,6 +21,7 @@ export type Reading = {
   role: string;
   ref: string;
   refKey: string;
+  wpb?: string | null; // Wroot Press Bible URL, only when every chapter is published
   tags: Record<string, string[]>;
   notes: WesleyNote[];
   glossa: Gloss[];

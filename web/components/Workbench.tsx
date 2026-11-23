@@ -69,7 +69,22 @@ function Readings({ track, greekBooks }: { track: Track; greekBooks: string[] })
         return (
           <li className="reading" key={r.role + r.refKey}>
             <div className="role">{r.role}</div>
-            <div className="ref">{r.ref}</div>
+            <div className="ref">
+              {r.wpb ? (
+                <a
+                  className="ref-wpb"
+                  href={r.wpb}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Read this passage in the Wroot Press Bible"
+                >
+                  {r.ref}
+                  <span className="ref-wpb-mark" aria-hidden="true"> ↗</span>
+                </a>
+              ) : (
+                r.ref
+              )}
+            </div>
             {gk && (
               <Link className="study-greek" href={gk} target="_blank" rel="noopener noreferrer">
                 Study the Greek ↗

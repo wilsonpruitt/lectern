@@ -18,6 +18,9 @@ a { color: inherit; text-decoration: none; }
   color: var(--reed-deep); letter-spacing: 0.02em;
 }
 .reading .study-greek:hover { text-decoration: underline; }
+.reading .ref-wpb { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--reed-deep); }
+.reading .ref-wpb:hover { border-bottom-style: solid; }
+.reading .ref-wpb-mark { font-family: var(--sans); font-size: 0.6em; color: var(--reed-deep); vertical-align: 0.35em; }
 
 /* calendar dates (where am I in the church year) */
 .occ .meta .occ-date { color: var(--reed-deep); font-weight: 600; }

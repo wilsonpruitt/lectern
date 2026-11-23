@@ -6,6 +6,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 echo "==> 1/3  baking the per-occasion contract (data/build) + Greek study API"
+python3.11 src/wpb_links.py --refresh   # which WPB chapters are published (live); cache kept on failure
 python3.11 src/build_occasion.py --all
 python3.11 src/build_greek.py          # syncs reception-corpus Greek exports -> web/public/api/greek
 

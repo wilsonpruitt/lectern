@@ -45,6 +45,7 @@ import series as series_mod         # native series detection (the founding thes
 import liturgical_dates as litdates  # calendar date of each occasion (current cycle)
 import wesley_notes as wn           # Wesley's Notes per reading (primary Wesley resource)
 import glossa as gl                 # Glossa ordinaria per reading (shares wn's DB connection)
+import wpb_links                    # Wroot Press Bible link per reading (published chapters only)
 
 LECTERN = Path(__file__).resolve().parent.parent
 BUILD = LECTERN / "data" / "build"
@@ -108,6 +109,8 @@ def track_readings(occ: dict, rcl_tags: dict, notes_con) -> dict:
             "role": r["role"],
             "ref": r["refDisplay"],
             "refKey": r["refKey"],
+            # the passage in the Wroot Press Bible, or None until every chapter of it is published
+            "wpb": wpb_links.wpb_href(span_keys),
             "tags": reading_tags(rcl_tags, r["refKey"]),
             "notes": _union_spans(wn.notes_for_refkey, span_keys, notes_con),
             "glossa": _union_spans(gl.glosses_for_refkey, span_keys, notes_con),
